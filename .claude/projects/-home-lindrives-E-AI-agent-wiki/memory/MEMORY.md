@@ -1,0 +1,1 @@
+- [Wiki 回复风格：并行化、简洁优先](feedback-wiki-response-style.md) — 查询 wiki 时 Agent 分流并行，简洁回复，不展开细节除非追问
