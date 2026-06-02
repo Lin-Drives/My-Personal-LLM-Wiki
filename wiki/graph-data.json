@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": "AI-Infra-distributed-training-parallelism",
+      "label": "分布式 LLM 训练与推理并行策略",
+      "group": "AI-Infra",
+      "color": "#4A90D9",
+      "url": "AI-Infra/distributed-training-parallelism/",
+      "topic": "AI-Infra"
+    },
+    {
+      "id": "AI-Infra-kv-cache-management",
+      "label": "KV Cache 管理",
+      "group": "AI-Infra",
+      "color": "#4A90D9",
+      "url": "AI-Infra/kv-cache-management/",
+      "topic": "AI-Infra"
+    },
+    {
+      "id": "AI-Infra-llm-inference-scheduling",
+      "label": "LLM 推理调度理论",
+      "group": "AI-Infra",
+      "color": "#4A90D9",
+      "url": "AI-Infra/llm-inference-scheduling/",
+      "topic": "AI-Infra"
+    },
+    {
+      "id": "Chip-Architecture-m100-orchestrated-dataflow-architecture",
+      "label": "M100: 编排式数据流架构",
+      "group": "Chip-Architecture",
+      "color": "#E8913A",
+      "url": "Chip-Architecture/m100-orchestrated-dataflow-architecture/",
+      "topic": "Chip-Architecture"
+    },
+    {
+      "id": "Deep-Learning-k-pinn-lattice-boltzmann",
+      "label": "K-PINN: 介观物理约束神经网络",
+      "group": "Deep-Learning",
+      "color": "#50B86C",
+      "url": "Deep-Learning/k-pinn-lattice-boltzmann/",
+      "topic": "Deep-Learning"
+    },
+    {
+      "id": "Deep-Learning-looped-transformers-stability",
+      "label": "Looped Transformers 稳定性与泛化",
+      "group": "Deep-Learning",
+      "color": "#50B86C",
+      "url": "Deep-Learning/looped-transformers-stability/",
+      "topic": "Deep-Learning"
+    },
+    {
+      "id": "Deep-Learning-mamba-3-state-space-models",
+      "label": "Mamba-3: 状态空间模型的新范式",
+      "group": "Deep-Learning",
+      "color": "#50B86C",
+      "url": "Deep-Learning/mamba-3-state-space-models/",
+      "topic": "Deep-Learning"
+    },
+    {
+      "id": "Deep-Learning-noise-stability-regularization",
+      "label": "Noise Stability 正则化",
+      "group": "Deep-Learning",
+      "color": "#50B86C",
+      "url": "Deep-Learning/noise-stability-regularization/",
+      "topic": "Deep-Learning"
+    },
+    {
+      "id": "Deep-Learning-pinn-ecosystem-2026",
+      "label": "PINN/KAN 生态 2026",
+      "group": "Deep-Learning",
+      "color": "#50B86C",
+      "url": "Deep-Learning/pinn-ecosystem-2026/",
+      "topic": "Deep-Learning"
+    },
+    {
+      "id": "Deep-Learning-solver-in-the-loop-deeponet",
+      "label": "Solver-in-the-Loop DeepONets",
+      "group": "Deep-Learning",
+      "color": "#50B86C",
+      "url": "Deep-Learning/solver-in-the-loop-deeponet/",
+      "topic": "Deep-Learning"
+    },
+    {
+      "id": "Deep-Learning-transformer-architecture",
+      "label": "Transformer Architecture",
+      "group": "Deep-Learning",
+      "color": "#50B86C",
+      "url": "Deep-Learning/transformer-architecture/",
+      "topic": "Deep-Learning"
+    },
+    {
+      "id": "Reinforcement-Learning-alphago",
+      "label": "AlphaGo",
+      "group": "Reinforcement-Learning",
+      "color": "#E04A4A",
+      "url": "Reinforcement-Learning/alphago/",
+      "topic": "Reinforcement-Learning"
+    },
+    {
+      "id": "World-Models-causal-jepa",
+      "label": "C-JEPA: 物体级潜在干预的因果世界模型",
+      "group": "World-Models",
+      "color": "#9B59B6",
+      "url": "World-Models/causal-jepa/",
+      "topic": "World-Models"
+    },
+    {
+      "id": "World-Models-jepa-ecosystem-2026",
+      "label": "JEPA 生态 2026",
+      "group": "World-Models",
+      "color": "#9B59B6",
+      "url": "World-Models/jepa-ecosystem-2026/",
+      "topic": "World-Models"
+    },
+    {
+      "id": "World-Models-v-jepa-2",
+      "label": "V-JEPA 2: 视频自监督到机器人零样本规划",
+      "group": "World-Models",
+      "color": "#9B59B6",
+      "url": "World-Models/v-jepa-2/",
+      "topic": "World-Models"
+    },
+    {
+      "id": "World-Models-world-action-models",
+      "label": "World Action Models",
+      "group": "World-Models",
+      "color": "#9B59B6",
+      "url": "World-Models/world-action-models/",
+      "topic": "World-Models"
+    },
+    {
+      "id": "World-Models-world-models-survey",
+      "label": "世界模型综述",
+      "group": "World-Models",
+      "color": "#9B59B6",
+      "url": "World-Models/world-models-survey/",
+      "topic": "World-Models"
+    }
+  ],
+  "edges": [
+    {
+      "from": "AI-Infra-distributed-training-parallelism",
+      "to": "AI-Infra-llm-inference-scheduling"
+    },
+    {
+      "from": "AI-Infra-distributed-training-parallelism",
+      "to": "AI-Infra-kv-cache-management"
+    },
+    {
+      "from": "AI-Infra-kv-cache-management",
+      "to": "AI-Infra-llm-inference-scheduling"
+    },
+    {
+      "from": "AI-Infra-kv-cache-management",
+      "to": "AI-Infra-distributed-training-parallelism"
+    },
+    {
+      "from": "AI-Infra-llm-inference-scheduling",
+      "to": "AI-Infra-kv-cache-management"
+    },
+    {
+      "from": "AI-Infra-llm-inference-scheduling",
+      "to": "AI-Infra-distributed-training-parallelism"
+    },
+    {
+      "from": "Deep-Learning-k-pinn-lattice-boltzmann",
+      "to": "Deep-Learning-pinn-ecosystem-2026"
+    },
+    {
+      "from": "Deep-Learning-k-pinn-lattice-boltzmann",
+      "to": "Deep-Learning-solver-in-the-loop-deeponet"
+    },
+    {
+      "from": "Deep-Learning-looped-transformers-stability",
+      "to": "Deep-Learning-transformer-architecture"
+    },
+    {
+      "from": "Deep-Learning-looped-transformers-stability",
+      "to": "Deep-Learning-mamba-3-state-space-models"
+    },
+    {
+      "from": "Deep-Learning-mamba-3-state-space-models",
+      "to": "Deep-Learning-transformer-architecture"
+    },
+    {
+      "from": "Deep-Learning-mamba-3-state-space-models",
+      "to": "Deep-Learning-looped-transformers-stability"
+    },
+    {
+      "from": "Deep-Learning-noise-stability-regularization",
+      "to": "Deep-Learning-looped-transformers-stability"
+    },
+    {
+      "from": "Deep-Learning-pinn-ecosystem-2026",
+      "to": "Deep-Learning-k-pinn-lattice-boltzmann"
+    },
+    {
+      "from": "Deep-Learning-pinn-ecosystem-2026",
+      "to": "Deep-Learning-solver-in-the-loop-deeponet"
+    },
+    {
+      "from": "Deep-Learning-solver-in-the-loop-deeponet",
+      "to": "Deep-Learning-pinn-ecosystem-2026"
+    },
+    {
+      "from": "Deep-Learning-solver-in-the-loop-deeponet",
+      "to": "Deep-Learning-k-pinn-lattice-boltzmann"
+    },
+    {
+      "from": "World-Models-causal-jepa",
+      "to": "World-Models-jepa-ecosystem-2026"
+    },
+    {
+      "from": "World-Models-causal-jepa",
+      "to": "World-Models-v-jepa-2"
+    },
+    {
+      "from": "World-Models-causal-jepa",
+      "to": "World-Models-world-models-survey"
+    },
+    {
+      "from": "World-Models-jepa-ecosystem-2026",
+      "to": "World-Models-world-models-survey"
+    },
+    {
+      "from": "World-Models-jepa-ecosystem-2026",
+      "to": "World-Models-v-jepa-2"
+    },
+    {
+      "from": "World-Models-jepa-ecosystem-2026",
+      "to": "World-Models-causal-jepa"
+    },
+    {
+      "from": "World-Models-jepa-ecosystem-2026",
+      "to": "World-Models-world-action-models"
+    },
+    {
+      "from": "World-Models-v-jepa-2",
+      "to": "World-Models-world-models-survey"
+    },
+    {
+      "from": "World-Models-v-jepa-2",
+      "to": "World-Models-causal-jepa"
+    },
+    {
+      "from": "World-Models-v-jepa-2",
+      "to": "World-Models-jepa-ecosystem-2026"
+    },
+    {
+      "from": "World-Models-world-action-models",
+      "to": "World-Models-jepa-ecosystem-2026"
+    },
+    {
+      "from": "World-Models-world-action-models",
+      "to": "World-Models-v-jepa-2"
+    },
+    {
+      "from": "World-Models-world-models-survey",
+      "to": "World-Models-jepa-ecosystem-2026"
+    },
+    {
+      "from": "World-Models-world-models-survey",
+      "to": "World-Models-v-jepa-2"
+    },
+    {
+      "from": "World-Models-world-models-survey",
+      "to": "World-Models-causal-jepa"
+    }
+  ]
+}

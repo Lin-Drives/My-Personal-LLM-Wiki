@@ -1,0 +1,61 @@
+site_name: AI Knowledge Base
+site_description: Personal LLM Knowledge Wiki
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+docs_dir: wiki
+
+hooks:
+  - scripts/mkdocs_hooks.py
+
+nav:
+  - Home: index.md
+  - AI-Infra:
+      - LLM 推理调度理论: AI-Infra/llm-inference-scheduling.md
+      - 分布式并行策略: AI-Infra/distributed-training-parallelism.md
+      - KV Cache 管理: AI-Infra/kv-cache-management.md
+  - Chip-Architecture:
+      - M100 编排式数据流架构: Chip-Architecture/m100-orchestrated-dataflow-architecture.md
+  - Deep-Learning:
+      - Transformer Architecture: Deep-Learning/transformer-architecture.md
+      - Mamba-3 状态空间模型: Deep-Learning/mamba-3-state-space-models.md
+      - Looped Transformers 稳定性: Deep-Learning/looped-transformers-stability.md
+      - Noise Stability 正则化: Deep-Learning/noise-stability-regularization.md
+      - K-PINN: Deep-Learning/k-pinn-lattice-boltzmann.md
+      - Solver-in-the-Loop DeepONets: Deep-Learning/solver-in-the-loop-deeponet.md
+      - PINN/KAN 生态 2026: Deep-Learning/pinn-ecosystem-2026.md
+  - Reinforcement-Learning:
+      - AlphaGo: Reinforcement-Learning/alphago.md
+  - World-Models:
+      - 世界模型综述: World-Models/world-models-survey.md
+      - V-JEPA 2: World-Models/v-jepa-2.md
+      - Causal-JEPA: World-Models/causal-jepa.md
+      - JEPA 生态 2026: World-Models/jepa-ecosystem-2026.md
+      - World Action Models: World-Models/world-action-models.md
+  - 知识图谱: knowledge-graph.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+exclude_docs: |
+  log.md
+  .gitkeep
