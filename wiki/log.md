@@ -1,5 +1,12 @@
 # Wiki Log
 
+## [2026-06-03] lint | 3 issues found, 3 auto-fixed
+- Removed broken See Also: m100-npu-details, mcts-fundamentals, transformer-positional-encoding
+
+## [2026-06-03] ingest | X Corp. 公司概况
+- Source: https://about.x.com/en (security-and-privacy, lobbying-disclosures, brand-toolkit, legal imprint, es/twitter-for-good)
+- Created: Companies/x-corp-company-profile.md
+
 ## [2026-05-31] Compile | AI-Infra (new topic)
 - Source: raw/AI-Infra/2026-W18-ai-infra.md (论文雷达周报 W18)
 - Created: llm-inference-scheduling.md, distributed-training-parallelism.md, kv-cache-management.md

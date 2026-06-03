@@ -40,7 +40,3 @@ LLaMA2-7B Decode: 两者相当（受限于相同 DDR 带宽）；Prefill: M100 1
 ## 软件栈
 
 三层编译器: PyTorch/TF/JAX → Space-Time Scheduler → Graph Compiler → Backend Compiler → M100 IR。运行时含 JIT 编译生成优化的 TPB 指令。
-
-## See Also
-
-- [理想 M100 NPU 架构详解](../Chip-Architecture/m100-npu-details.md)

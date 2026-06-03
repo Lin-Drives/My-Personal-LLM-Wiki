@@ -81,7 +81,3 @@ AlphaGo was one of AI's "grand challenges." Notable comparisons:
 - Evaluated **thousands of times fewer** positions than Deep Blue did in chess — compensating by selecting and evaluating positions more intelligently
 - Unlike Deep Blue's handcrafted evaluation function, AlphaGo's neural networks were trained purely from gameplay through general-purpose supervised and reinforcement learning methods
 - The combination of tree search + neural networks created a template later applied to other domains (general game-playing, planning, scheduling)
-
-## See Also
-
-- [MCTS Fundamentals](../Reinforcement-Learning/mcts-fundamentals.md)

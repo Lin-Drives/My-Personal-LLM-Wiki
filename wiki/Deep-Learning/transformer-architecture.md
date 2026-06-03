@@ -102,7 +102,3 @@ On English-to-German, the big Transformer outperformed the best previous model i
 ## Impact
 
 This paper introduced the architecture that underpins GPT (decoder-only), BERT (encoder-only), and all modern LLMs. The self-attention mechanism's ability to capture long-range dependencies at constant computational path length made scaling to very large models practical.
-
-## See Also
-
-- [Transformer Positional Encoding](../Deep-Learning/transformer-positional-encoding.md)

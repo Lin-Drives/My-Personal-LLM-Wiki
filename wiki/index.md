@@ -51,3 +51,11 @@ AI 芯片架构与设计。
 | [Causal-JEPA](World-Models/causal-jepa.md) | 物体级掩码干预注入因果偏置，反事实推理提升 20%，JEPA 走向因果理解 | 2026-05-31 |
 | [JEPA 生态 2026](World-Models/jepa-ecosystem-2026.md) | I-JEPA→V-JEPA→C-JEPA→AD-LiST-JEPA 演进全景 + 工程配方 | 2026-05-31 |
 | [World Action Models](World-Models/world-action-models.md) | DreamZero/Fast-WAM/Cosmos Policy 从预测世界到可执行动作的范式转变 | 2026-05-31 |
+
+## Companies
+
+科技公司与公司主体资料（官网、治理、CSR 等）。
+
+| Article | Summary | Updated |
+|---------|---------|---------|
+| [X Corp. 公司概况](Companies/x-corp-company-profile.md) | 官网使命「服务公众对话」、公共政策、安全隐私、X for Good CSR、爱尔兰运营主体 | 2026-06-03 |

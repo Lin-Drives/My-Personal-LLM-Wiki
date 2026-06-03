@@ -33,6 +33,14 @@
       "topic": "Chip-Architecture"
     },
     {
+      "id": "Companies-x-corp-company-profile",
+      "label": "X Corp. 公司概况",
+      "group": "Companies",
+      "color": "#888888",
+      "url": "Companies/x-corp-company-profile/",
+      "topic": "Companies"
+    },
+    {
       "id": "Deep-Learning-k-pinn-lattice-boltzmann",
       "label": "K-PINN: 介观物理约束神经网络",
       "group": "Deep-Learning",

@@ -1,3 +1,6 @@
 .claude/skills/karpathy-llm-wiki/
 site/
 __pycache__/
+
+# Grok CLI / grok-build (project-local config, hooks, plugins, agents)
+.grok/
