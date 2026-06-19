@@ -57,6 +57,14 @@
       "topic": "Deep-Learning"
     },
     {
+      "id": "Deep-Learning-mae",
+      "label": "掩码自编码器（MAE）：可扩展的视觉自监督学习者",
+      "group": "Deep-Learning",
+      "color": "#50B86C",
+      "url": "Deep-Learning/mae/",
+      "topic": "Deep-Learning"
+    },
+    {
       "id": "Deep-Learning-mamba-3-state-space-models",
       "label": "Mamba-3: 状态空间模型的新范式",
       "group": "Deep-Learning",
@@ -90,11 +98,59 @@
     },
     {
       "id": "Deep-Learning-transformer-architecture",
-      "label": "Transformer Architecture",
+      "label": "Transformer 架构",
       "group": "Deep-Learning",
       "color": "#50B86C",
       "url": "Deep-Learning/transformer-architecture/",
       "topic": "Deep-Learning"
+    },
+    {
+      "id": "Deep-Learning-vision-transformer",
+      "label": "视觉 Transformer：一幅图像相当于 16×16 个词",
+      "group": "Deep-Learning",
+      "color": "#50B86C",
+      "url": "Deep-Learning/vision-transformer/",
+      "topic": "Deep-Learning"
+    },
+    {
+      "id": "Embodied-Intelligence-egoscale",
+      "label": "EgoScale：大规模人类 egocentric 视频预训练与灵巧操作",
+      "group": "Embodied-Intelligence",
+      "color": "#888888",
+      "url": "Embodied-Intelligence/egoscale/",
+      "topic": "Embodied-Intelligence"
+    },
+    {
+      "id": "Embodied-Intelligence-egoverse",
+      "label": "EgoVerse：全球 egocentric 机器人学习数据集",
+      "group": "Embodied-Intelligence",
+      "color": "#888888",
+      "url": "Embodied-Intelligence/egoverse/",
+      "topic": "Embodied-Intelligence"
+    },
+    {
+      "id": "Embodied-Intelligence-humanego",
+      "label": "HumanEgo：零样本机器人学习的极致数据效率",
+      "group": "Embodied-Intelligence",
+      "color": "#888888",
+      "url": "Embodied-Intelligence/humanego/",
+      "topic": "Embodied-Intelligence"
+    },
+    {
+      "id": "Embodied-Intelligence-videomanip",
+      "label": "VideoManip：从 RGB 视频重建 3D 轨迹的 device-free 灵巧操作",
+      "group": "Embodied-Intelligence",
+      "color": "#888888",
+      "url": "Embodied-Intelligence/videomanip/",
+      "topic": "Embodied-Intelligence"
+    },
+    {
+      "id": "overview",
+      "label": "Overview — 项目概览与使用指南",
+      "group": "wiki",
+      "color": "#888888",
+      "url": "overview/",
+      "topic": "wiki"
     },
     {
       "id": "Reinforcement-Learning-alphago",
@@ -130,7 +186,7 @@
     },
     {
       "id": "World-Models-world-action-models",
-      "label": "World Action Models",
+      "label": "World Action Models：从世界预测到可执行动作",
       "group": "World-Models",
       "color": "#9B59B6",
       "url": "World-Models/world-action-models/",
@@ -187,6 +243,14 @@
       "to": "Deep-Learning-mamba-3-state-space-models"
     },
     {
+      "from": "Deep-Learning-mae",
+      "to": "Deep-Learning-vision-transformer"
+    },
+    {
+      "from": "Deep-Learning-mae",
+      "to": "Deep-Learning-transformer-architecture"
+    },
+    {
       "from": "Deep-Learning-mamba-3-state-space-models",
       "to": "Deep-Learning-transformer-architecture"
     },
@@ -213,6 +277,78 @@
     {
       "from": "Deep-Learning-solver-in-the-loop-deeponet",
       "to": "Deep-Learning-k-pinn-lattice-boltzmann"
+    },
+    {
+      "from": "Deep-Learning-vision-transformer",
+      "to": "Deep-Learning-mae"
+    },
+    {
+      "from": "Deep-Learning-vision-transformer",
+      "to": "Deep-Learning-transformer-architecture"
+    },
+    {
+      "from": "Embodied-Intelligence-egoscale",
+      "to": "Embodied-Intelligence-humanego"
+    },
+    {
+      "from": "Embodied-Intelligence-egoscale",
+      "to": "Embodied-Intelligence-egoverse"
+    },
+    {
+      "from": "Embodied-Intelligence-egoscale",
+      "to": "Embodied-Intelligence-videomanip"
+    },
+    {
+      "from": "Embodied-Intelligence-egoscale",
+      "to": "World-Models-world-action-models"
+    },
+    {
+      "from": "Embodied-Intelligence-egoverse",
+      "to": "Embodied-Intelligence-egoscale"
+    },
+    {
+      "from": "Embodied-Intelligence-egoverse",
+      "to": "Embodied-Intelligence-humanego"
+    },
+    {
+      "from": "Embodied-Intelligence-egoverse",
+      "to": "Embodied-Intelligence-videomanip"
+    },
+    {
+      "from": "Embodied-Intelligence-egoverse",
+      "to": "World-Models-world-action-models"
+    },
+    {
+      "from": "Embodied-Intelligence-humanego",
+      "to": "Embodied-Intelligence-egoscale"
+    },
+    {
+      "from": "Embodied-Intelligence-humanego",
+      "to": "Embodied-Intelligence-videomanip"
+    },
+    {
+      "from": "Embodied-Intelligence-humanego",
+      "to": "Embodied-Intelligence-egoverse"
+    },
+    {
+      "from": "Embodied-Intelligence-humanego",
+      "to": "World-Models-world-action-models"
+    },
+    {
+      "from": "Embodied-Intelligence-videomanip",
+      "to": "Embodied-Intelligence-egoscale"
+    },
+    {
+      "from": "Embodied-Intelligence-videomanip",
+      "to": "Embodied-Intelligence-humanego"
+    },
+    {
+      "from": "Embodied-Intelligence-videomanip",
+      "to": "Embodied-Intelligence-egoverse"
+    },
+    {
+      "from": "Embodied-Intelligence-videomanip",
+      "to": "World-Models-world-action-models"
     },
     {
       "from": "World-Models-causal-jepa",

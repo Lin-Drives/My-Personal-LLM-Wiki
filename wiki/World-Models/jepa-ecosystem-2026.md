@@ -37,4 +37,4 @@ JEPA 不再是"LeCun 一个人的执念"——Demo-JEPA 的跨具身迁移、AD-
 - [世界模型综述](../World-Models/world-models-survey.md)
 - [V-JEPA 2](../World-Models/v-jepa-2.md)
 - [Causal-JEPA](../World-Models/causal-jepa.md)
-- [World Action Models](../World-Models/world-action-models.md)
+- [World Action Models：从世界预测到可执行动作](../World-Models/world-action-models.md)

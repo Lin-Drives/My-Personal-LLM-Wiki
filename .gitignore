@@ -4,3 +4,7 @@ __pycache__/
 
 # Grok CLI / grok-build (project-local config, hooks, plugins, agents)
 .grok/
+
+# MkDocs server logs
+mkdocs_server.log
+

@@ -1,6 +1,8 @@
-"""Scan wiki/*.md files, extract internal links, emit graph-data.json."""
 import json
+import locale
 import re
+import sys
+from functools import partial
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -18,8 +20,21 @@ FALLBACK_COLOR = "#888888"
 LINK_RE = re.compile(r"\[([^\]]*)\]\(([^)]+)\)")
 
 
+def _get_platform_encoding() -> str:
+    """Detect platform default encoding; force UTF-8 on Windows where it is usually GBK."""
+    if sys.platform == "win32":
+        # Windows Chinese locale defaults to GBK/CP936, but our markdown files are UTF-8
+        return "utf-8"
+    # Linux/macOS default is already UTF-8 in most modern distros; use locale preference
+    return locale.getpreferredencoding(do_setlocale=False) or "utf-8"
+
+
+# Cross-platform open helper for text files in this project
+_open_text = partial(open, encoding=_get_platform_encoding())
+
+
 def extract_title(md_path: Path) -> str:
-    with open(md_path) as f:
+    with _open_text(md_path) as f:
         for line in f:
             if line.startswith("# "):
                 return line[2:].strip()
@@ -61,7 +76,7 @@ def generate(wiki_dir: Path, output_path: Path) -> tuple[int, int]:
         src_id = file_to_id[src_rel]
         src_dir = md_file.parent.resolve()
 
-        with open(md_file) as f:
+        with _open_text(md_file) as f:
             content = f.read()
 
         for m in LINK_RE.finditer(content):
@@ -90,7 +105,17 @@ def generate(wiki_dir: Path, output_path: Path) -> tuple[int, int]:
             edges.append({"from": src_id, "to": tgt_id})
 
     graph = {"nodes": nodes, "edges": edges}
-    output_path.write_text(json.dumps(graph, ensure_ascii=False, indent=2), encoding="utf-8")
+    new_text = json.dumps(graph, ensure_ascii=False, indent=2)
+
+    # Avoid writing identical content to prevent watchdog rebuild loops
+    if output_path.exists():
+        try:
+            if output_path.read_text(encoding="utf-8") == new_text:
+                return len(nodes), len(edges)
+        except Exception:
+            pass
+
+    output_path.write_text(new_text, encoding="utf-8")
     return len(nodes), len(edges)
 
 

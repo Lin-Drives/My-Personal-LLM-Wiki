@@ -27,5 +27,5 @@ ICLR 2026 Oral 接收，标志着 SSM 范式正式进入主流视野。与 Trans
 
 ## See Also
 
-- [Transformer Architecture](../Deep-Learning/transformer-architecture.md)
+- [Transformer 架构](../Deep-Learning/transformer-architecture.md)
 - [Looped Transformers 稳定性](../Deep-Learning/looped-transformers-stability.md)

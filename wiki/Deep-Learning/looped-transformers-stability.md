@@ -25,5 +25,5 @@ Looped Transformers 是 test-time compute scaling 的重要载体。理解其稳
 
 ## See Also
 
-- [Transformer Architecture](../Deep-Learning/transformer-architecture.md)
+- [Transformer 架构](../Deep-Learning/transformer-architecture.md)
 - [Mamba-3 状态空间模型](../Deep-Learning/mamba-3-state-space-models.md)

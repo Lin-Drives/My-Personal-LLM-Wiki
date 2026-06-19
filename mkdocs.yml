@@ -1,61 +1,101 @@
 site_name: AI Knowledge Base
 site_description: Personal LLM Knowledge Wiki
+
+# repo_url: https://github.com/yourname/My-Personal-LLM-Wiki
+# repo_name: GitHub
+
 theme:
   name: material
+  language: zh
   features:
-    - navigation.sections
+    - navigation.indexes
     - navigation.top
+    - toc.follow
     - search.suggest
     - search.highlight
+    - content.code.copy
   palette:
     - scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: 切换暗色模式
     - scheme: slate
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: 切换亮色模式
 
 docs_dir: wiki
 
-hooks:
-  - scripts/mkdocs_hooks.py
-
 nav:
-  - Home: index.md
-  - AI-Infra:
+  - 首页: index.md
+  - 全局概要: overview.md
+  - 操作日志: log.md
+  - AI 基础设施:
+      - AI-Infra/index.md
       - LLM 推理调度理论: AI-Infra/llm-inference-scheduling.md
       - 分布式并行策略: AI-Infra/distributed-training-parallelism.md
       - KV Cache 管理: AI-Infra/kv-cache-management.md
-  - Chip-Architecture:
+  - AI 芯片架构:
+      - Chip-Architecture/index.md
       - M100 编排式数据流架构: Chip-Architecture/m100-orchestrated-dataflow-architecture.md
-  - Deep-Learning:
-      - Transformer Architecture: Deep-Learning/transformer-architecture.md
+  - 深度学习:
+      - Deep-Learning/index.md
+      - Transformer 架构: Deep-Learning/transformer-architecture.md
       - Mamba-3 状态空间模型: Deep-Learning/mamba-3-state-space-models.md
       - Looped Transformers 稳定性: Deep-Learning/looped-transformers-stability.md
       - Noise Stability 正则化: Deep-Learning/noise-stability-regularization.md
       - K-PINN: Deep-Learning/k-pinn-lattice-boltzmann.md
       - Solver-in-the-Loop DeepONets: Deep-Learning/solver-in-the-loop-deeponet.md
       - PINN/KAN 生态 2026: Deep-Learning/pinn-ecosystem-2026.md
-  - Reinforcement-Learning:
+      - 视觉 Transformer: Deep-Learning/vision-transformer.md
+      - "掩码自编码器（MAE）": Deep-Learning/mae.md
+  - 具身智能:
+      - Embodied-Intelligence/index.md
+      - "EgoScale: 大规模人类视频预训练": Embodied-Intelligence/egoscale.md
+      - "HumanEgo: 零样本机器人学习": Embodied-Intelligence/humanego.md
+      - "VideoManip: 从 RGB 视频重建 3D 轨迹": Embodied-Intelligence/videomanip.md
+      - "EgoVerse: 全球 egocentric 数据集": Embodied-Intelligence/egoverse.md
+  - 强化学习:
+      - Reinforcement-Learning/index.md
       - AlphaGo: Reinforcement-Learning/alphago.md
-  - World-Models:
+  - 世界模型:
+      - World-Models/index.md
       - 世界模型综述: World-Models/world-models-survey.md
       - V-JEPA 2: World-Models/v-jepa-2.md
       - Causal-JEPA: World-Models/causal-jepa.md
       - JEPA 生态 2026: World-Models/jepa-ecosystem-2026.md
-      - World Action Models: World-Models/world-action-models.md
+      - "World Action Models: 从世界预测到可执行动作": World-Models/world-action-models.md
+  - 科技公司:
+      - Companies/index.md
+      - X Corp. 公司概况: Companies/x-corp-company-profile.md
   - 知识图谱: knowledge-graph.md
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
 
 plugins:
-  - search
+  - search:
+      lang: zh
+
+hooks:
+  - scripts/mkdocs_hooks.py
 
 exclude_docs: |
-  log.md
   .gitkeep

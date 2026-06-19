@@ -54,6 +54,7 @@
 
     const options = {
       physics: {
+        enabled: true,
         solver: "forceAtlas2Based",
         forceAtlas2Based: {
           gravitationalConstant: -28,
@@ -62,7 +63,7 @@
           springConstant: 0.06,
           damping: 0.4,
         },
-        stabilization: { iterations: 200 },
+        stabilization: { enabled: true, iterations: 200, fit: true, updateInterval: 25 },
       },
       interaction: {
         hover: true,
@@ -70,10 +71,14 @@
         zoomView: true,
         dragView: true,
       },
-      layout: { improvedLayout: true },
     };
 
     const network = new vis.Network(container, { nodes, edges }, options);
+
+    // Stop physics after stabilization to prevent continuous jitter
+    network.once("stabilizationIterationsDone", function () {
+      network.setOptions({ physics: { enabled: false } });
+    });
 
     // Double-click → navigate to article
     network.on("doubleClick", function (params) {

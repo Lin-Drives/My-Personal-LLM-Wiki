@@ -1,4 +1,4 @@
-# World Action Models
+# World Action Models：从世界预测到可执行动作
 
 > Sources: W21 World Models 周报, 2026-05
 > Raw: [../../raw/World-Models/2026-W21-world-models.md](../../raw/World-Models/2026-W21-world-models.md)
