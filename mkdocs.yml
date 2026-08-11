@@ -1,8 +1,8 @@
 site_name: AI Knowledge Base
 site_description: Personal LLM Knowledge Wiki
 
-# repo_url: https://github.com/yourname/My-Personal-LLM-Wiki
-# repo_name: GitHub
+repo_url: https://github.com/Lin-Drives/My-Personal-LLM-Wiki
+repo_name: GitHub
 
 theme:
   name: material
