@@ -79,3 +79,18 @@ AI 芯片架构与设计。
 | Article | Summary | Updated |
 |---------|---------|---------|
 | [X Corp. 公司概况](Companies/x-corp-company-profile.md) | 官网使命「服务公众对话」、公共政策、安全隐私、X for Good CSR、爱尔兰运营主体 | 2026-06-03 |
+
+## 论文雷达存档
+
+论文雷达（paperradar）定期扫描的原始周报存档，含初创公司动态雷达。
+
+| 领域 | 报告数 | 最新一期 |
+|------|--------|----------|
+| [AI Infra](radar/ai-infra/index.md) | 5 | 2026-W37 |
+| [Deep Learning](radar/deep-learning/index.md) | 5 | 2026-W38 |
+| [Physics-informed AI](radar/physics-informed-ai/index.md) | 5 | 2026-W39 |
+| [World Models](radar/world-models/index.md) | 4 | 2026-W35 |
+| [Embodied Intelligence（双周报）](radar/embodied-intelligence/index.md) | 7 | 2026-09-16 |
+| [初创雷达](radar/startup-radar/index.md) | 17 | 2026-09-15 |
+
+> 完整存档见 [论文雷达专区](radar/index.md)

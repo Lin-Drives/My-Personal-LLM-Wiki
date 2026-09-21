@@ -145,14 +145,6 @@
       "topic": "Embodied-Intelligence"
     },
     {
-      "id": "overview",
-      "label": "Overview — 项目概览与使用指南",
-      "group": "wiki",
-      "color": "#888888",
-      "url": "overview/",
-      "topic": "wiki"
-    },
-    {
       "id": "Reinforcement-Learning-alphago",
       "label": "AlphaGo",
       "group": "Reinforcement-Learning",
@@ -199,6 +191,358 @@
       "color": "#9B59B6",
       "url": "World-Models/world-models-survey/",
       "topic": "World-Models"
+    },
+    {
+      "id": "overview",
+      "label": "Overview — 项目概览与使用指南",
+      "group": "wiki",
+      "color": "#888888",
+      "url": "overview/",
+      "topic": "wiki"
+    },
+    {
+      "id": "radar-ai-infra-2026-W18-ai-infra",
+      "label": "2026-W18-ai-infra",
+      "group": "ai-infra",
+      "color": "#888888",
+      "url": "radar/ai-infra/2026-W18-ai-infra/",
+      "topic": "ai-infra"
+    },
+    {
+      "id": "radar-ai-infra-2026-W22-ai-infra",
+      "label": "AI Infra Weekly Report | 2026-W22",
+      "group": "ai-infra",
+      "color": "#888888",
+      "url": "radar/ai-infra/2026-W22-ai-infra/",
+      "topic": "ai-infra"
+    },
+    {
+      "id": "radar-ai-infra-2026-W27-ai-infra",
+      "label": "AI Infra Weekly Report — W27 (2026-06-22 ~ 2026-06-28)",
+      "group": "ai-infra",
+      "color": "#888888",
+      "url": "radar/ai-infra/2026-W27-ai-infra/",
+      "topic": "ai-infra"
+    },
+    {
+      "id": "radar-ai-infra-2026-W32-ai-infra",
+      "label": "AI Infra 论文周报 — W32 (2026-08-02)",
+      "group": "ai-infra",
+      "color": "#888888",
+      "url": "radar/ai-infra/2026-W32-ai-infra/",
+      "topic": "ai-infra"
+    },
+    {
+      "id": "radar-ai-infra-2026-W37-ai-infra",
+      "label": "AI Infra 论文周报 — W37 (2026-09-06)",
+      "group": "ai-infra",
+      "color": "#888888",
+      "url": "radar/ai-infra/2026-W37-ai-infra/",
+      "topic": "ai-infra"
+    },
+    {
+      "id": "radar-deep-learning-2026-W19-deep-learning",
+      "label": "论文雷达周报 - 2026-W19 | Deep Learning",
+      "group": "deep-learning",
+      "color": "#888888",
+      "url": "radar/deep-learning/2026-W19-deep-learning/",
+      "topic": "deep-learning"
+    },
+    {
+      "id": "radar-deep-learning-2026-W23-deep-learning",
+      "label": "论文雷达周报 — Deep Learning 领域",
+      "group": "deep-learning",
+      "color": "#888888",
+      "url": "radar/deep-learning/2026-W23-deep-learning/",
+      "topic": "deep-learning"
+    },
+    {
+      "id": "radar-deep-learning-2026-W28-deep-learning",
+      "label": "🧠 论文雷达 · Deep Learning 周报 — 2026年W28",
+      "group": "deep-learning",
+      "color": "#888888",
+      "url": "radar/deep-learning/2026-W28-deep-learning/",
+      "topic": "deep-learning"
+    },
+    {
+      "id": "radar-deep-learning-2026-W33-deep-learning",
+      "label": "🧠 Deep Learning Weekly · 2026年8月第1周 (W33)",
+      "group": "deep-learning",
+      "color": "#888888",
+      "url": "radar/deep-learning/2026-W33-deep-learning/",
+      "topic": "deep-learning"
+    },
+    {
+      "id": "radar-deep-learning-2026-W38-deep-learning",
+      "label": "Paper Radar · Deep Learning 周报",
+      "group": "deep-learning",
+      "color": "#888888",
+      "url": "radar/deep-learning/2026-W38-deep-learning/",
+      "topic": "deep-learning"
+    },
+    {
+      "id": "radar-embodied-intelligence-2026-07-22-embodied-intelligence",
+      "label": "Paper Radar · Embodied Intelligence Biweekly",
+      "group": "embodied-intelligence",
+      "color": "#888888",
+      "url": "radar/embodied-intelligence/2026-07-22-embodied-intelligence/",
+      "topic": "embodied-intelligence"
+    },
+    {
+      "id": "radar-embodied-intelligence-2026-07-29-embodied-intelligence",
+      "label": "🤖 Embodied Intelligence Biweekly Report",
+      "group": "embodied-intelligence",
+      "color": "#888888",
+      "url": "radar/embodied-intelligence/2026-07-29-embodied-intelligence/",
+      "topic": "embodied-intelligence"
+    },
+    {
+      "id": "radar-embodied-intelligence-2026-08-12-embodied-intelligence",
+      "label": "🤖 Embodied Intelligence Biweekly Report",
+      "group": "embodied-intelligence",
+      "color": "#888888",
+      "url": "radar/embodied-intelligence/2026-08-12-embodied-intelligence/",
+      "topic": "embodied-intelligence"
+    },
+    {
+      "id": "radar-embodied-intelligence-2026-08-19-embodied-intelligence",
+      "label": "🤖 Embodied Intelligence Biweekly Report",
+      "group": "embodied-intelligence",
+      "color": "#888888",
+      "url": "radar/embodied-intelligence/2026-08-19-embodied-intelligence/",
+      "topic": "embodied-intelligence"
+    },
+    {
+      "id": "radar-embodied-intelligence-2026-09-09-embodied-intelligence",
+      "label": "🤖 Embodied Intelligence Biweekly Report",
+      "group": "embodied-intelligence",
+      "color": "#888888",
+      "url": "radar/embodied-intelligence/2026-09-09-embodied-intelligence/",
+      "topic": "embodied-intelligence"
+    },
+    {
+      "id": "radar-embodied-intelligence-2026-09-16-embodied-intelligence",
+      "label": "🤖 Embodied Intelligence Biweekly Report",
+      "group": "embodied-intelligence",
+      "color": "#888888",
+      "url": "radar/embodied-intelligence/2026-09-16-embodied-intelligence/",
+      "topic": "embodied-intelligence"
+    },
+    {
+      "id": "radar-embodied-intelligence-2026-W36-embodied-intelligence",
+      "label": "🤖 Embodied Intelligence 周报 · 2026年8月30日 (W36)",
+      "group": "embodied-intelligence",
+      "color": "#888888",
+      "url": "radar/embodied-intelligence/2026-W36-embodied-intelligence/",
+      "topic": "embodied-intelligence"
+    },
+    {
+      "id": "radar-physics-informed-ai-2026-W20-physics-informed-ai",
+      "label": "🧬 论文雷达周报 · Physics-informed AI · 2026-W20",
+      "group": "physics-informed-ai",
+      "color": "#888888",
+      "url": "radar/physics-informed-ai/2026-W20-physics-informed-ai/",
+      "topic": "physics-informed-ai"
+    },
+    {
+      "id": "radar-physics-informed-ai-2026-W25-physics-informed-ai",
+      "label": "Paper Radar Weekly — Physics-informed AI | 2026-W25",
+      "group": "physics-informed-ai",
+      "color": "#888888",
+      "url": "radar/physics-informed-ai/2026-W25-physics-informed-ai/",
+      "topic": "physics-informed-ai"
+    },
+    {
+      "id": "radar-physics-informed-ai-2026-W28-physics-informed-ai",
+      "label": "Physics-informed AI 周报 — W28, 2026",
+      "group": "physics-informed-ai",
+      "color": "#888888",
+      "url": "radar/physics-informed-ai/2026-W28-physics-informed-ai/",
+      "topic": "physics-informed-ai"
+    },
+    {
+      "id": "radar-physics-informed-ai-2026-W34-physics-informed-ai",
+      "label": "论文雷达周报 · Physics-informed AI / Scientific Machine Learning",
+      "group": "physics-informed-ai",
+      "color": "#888888",
+      "url": "radar/physics-informed-ai/2026-W34-physics-informed-ai/",
+      "topic": "physics-informed-ai"
+    },
+    {
+      "id": "radar-physics-informed-ai-2026-W39-physics-informed-ai",
+      "label": "Paper Radar · Physics-informed AI / SciML 周报",
+      "group": "physics-informed-ai",
+      "color": "#888888",
+      "url": "radar/physics-informed-ai/2026-W39-physics-informed-ai/",
+      "topic": "physics-informed-ai"
+    },
+    {
+      "id": "radar-startup-radar-2026-06-07-startup-radar-v2",
+      "label": "Startup Radar — 2026-06-07（修订版）",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-06-07-startup-radar-v2/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-06-07-startup-radar",
+      "label": "Startup Radar — 2026-06-07",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-06-07-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-06-09-startup-radar",
+      "label": "🚀 全球初创公司动态雷达 — 2026-06-09",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-06-09-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-06-16-startup-radar",
+      "label": "🚀 全球初创公司动态雷达 — 2026年6月16日",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-06-16-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-06-23-startup-radar",
+      "label": "🚀 全球初创公司动态雷达 — 2026年6月23日",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-06-23-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-06-30-startup-radar",
+      "label": "🚀 全球初创公司动态雷达 — 2026年6月30日",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-06-30-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-07-07-startup-radar",
+      "label": "🚀 全球初创公司动态雷达 — 2026年7月7日",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-07-07-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-07-14-startup-radar",
+      "label": "全球初创公司动态周报 | Startup Radar",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-07-14-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-07-21-startup-radar",
+      "label": "全球初创公司动态周报 | Startup Radar",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-07-21-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-07-28-startup-radar",
+      "label": "全球初创公司动态周报 | Startup Radar",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-07-28-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-08-04-startup-radar",
+      "label": "Startup Radar · 2026年7月29日-8月4日",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-08-04-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-08-11-startup-radar",
+      "label": "Startup Radar · 2026年8月5日-11日",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-08-11-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-08-18-startup-radar",
+      "label": "Startup Radar · 2026年8月11日-18日",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-08-18-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-08-25-startup-radar",
+      "label": "Startup Radar · 2026年8月18日-25日",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-08-25-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-09-01-startup-radar",
+      "label": "Startup Radar · 2026年8月25日-9月1日",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-09-01-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-09-08-startup-radar",
+      "label": "Startup Radar · 2026年9月1日-8日",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-09-08-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-startup-radar-2026-09-15-startup-radar",
+      "label": "Startup Radar · 2026年9月8日-15日",
+      "group": "startup-radar",
+      "color": "#888888",
+      "url": "radar/startup-radar/2026-09-15-startup-radar/",
+      "topic": "startup-radar"
+    },
+    {
+      "id": "radar-world-models-2026-W17",
+      "label": "2026-W17",
+      "group": "world-models",
+      "color": "#888888",
+      "url": "radar/world-models/2026-W17/",
+      "topic": "world-models"
+    },
+    {
+      "id": "radar-world-models-2026-W21-world-models",
+      "label": "🌍 World Models 周报 — 2026-W21",
+      "group": "world-models",
+      "color": "#888888",
+      "url": "radar/world-models/2026-W21-world-models/",
+      "topic": "world-models"
+    },
+    {
+      "id": "radar-world-models-2026-W26-world-models",
+      "label": "Paper Radar Weekly — World Models | 2026-W26",
+      "group": "world-models",
+      "color": "#888888",
+      "url": "radar/world-models/2026-W26-world-models/",
+      "topic": "world-models"
+    },
+    {
+      "id": "radar-world-models-2026-W35-world-models",
+      "label": "🌍 World Models 周报 · 2026年8月23日 (W35)",
+      "group": "world-models",
+      "color": "#888888",
+      "url": "radar/world-models/2026-W35-world-models/",
+      "topic": "world-models"
     }
   ],
   "edges": [

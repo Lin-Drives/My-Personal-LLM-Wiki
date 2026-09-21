@@ -69,6 +69,14 @@ nav:
       - Causal-JEPA: World-Models/causal-jepa.md
       - JEPA 生态 2026: World-Models/jepa-ecosystem-2026.md
       - "World Action Models: 从世界预测到可执行动作": World-Models/world-action-models.md
+  - 论文雷达存档:
+      - radar/index.md
+      - AI Infra: radar/ai-infra/index.md
+      - Deep Learning: radar/deep-learning/index.md
+      - Physics-informed AI: radar/physics-informed-ai/index.md
+      - World Models: radar/world-models/index.md
+      - 具身智能双周报: radar/embodied-intelligence/index.md
+      - 初创雷达: radar/startup-radar/index.md
   - 科技公司:
       - Companies/index.md
       - X Corp. 公司概况: Companies/x-corp-company-profile.md
