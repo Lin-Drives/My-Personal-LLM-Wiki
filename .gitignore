@@ -8,3 +8,7 @@ __pycache__/
 # MkDocs server logs
 mkdocs_server.log
 
+
+# Original PDFs remain local; extracted source Markdown is versioned.
+raw/**/*.pdf
+raw/**/*.pdf.part

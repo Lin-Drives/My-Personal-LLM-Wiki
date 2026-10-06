@@ -1,0 +1,2 @@
+# Optional local PDF text extraction; CI does not need this dependency.
+pypdf>=6,<7

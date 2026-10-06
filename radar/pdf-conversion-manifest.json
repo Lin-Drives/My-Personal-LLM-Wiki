@@ -1,0 +1,2149 @@
+{
+  "papers": [
+    {
+      "arxiv_id": "2411.14499",
+      "status": "converted",
+      "pdf": "raw/World-Models/2411.14499.pdf",
+      "markdown": "raw/World-Models/2411.14499.fulltext.md",
+      "pdf_sha256": "7d9c40527bcd16bc0bf4c9cb8adcc2b58e9ba19e51df213df6d958ab532fdfbd",
+      "pages": 49,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:10.326689+00:00"
+    },
+    {
+      "arxiv_id": "2506.09985",
+      "status": "converted",
+      "pdf": "raw/World-Models/2506.09985.pdf",
+      "markdown": "raw/World-Models/2506.09985.fulltext.md",
+      "pdf_sha256": "9cfcfde5fb0d9730637da5b9e7317825c3f3d09e91f3553e22eeba42c74d2226",
+      "pages": 48,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:10.457986+00:00"
+    },
+    {
+      "arxiv_id": "2602.11389",
+      "status": "converted",
+      "pdf": "raw/World-Models/2602.11389.pdf",
+      "markdown": "raw/World-Models/2602.11389.fulltext.md",
+      "pdf_sha256": "956e136d92c4c944a53e3c2d9cd826aebc96b06af542cd767a0a213e47fb609b",
+      "pages": 25,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:10.141124+00:00"
+    },
+    {
+      "arxiv_id": "2602.15922",
+      "status": "converted",
+      "pdf": "raw/World-Models/2602.15922.pdf",
+      "markdown": "raw/World-Models/2602.15922.fulltext.md",
+      "pdf_sha256": "cb91d24a04717a6c77fd39594af7f3f85a05317b7078b0d9c8d8b4ddd932f483",
+      "pages": 36,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:10.706914+00:00"
+    },
+    {
+      "arxiv_id": "2511.09783",
+      "status": "converted",
+      "pdf": "raw/World-Models/2511.09783.pdf",
+      "markdown": "raw/World-Models/2511.09783.fulltext.md",
+      "pdf_sha256": "b308832643babc014e2cf3bf3223e2b484834b4df20713588c6506ca5abe8bde",
+      "pages": 11,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:10.931857+00:00"
+    },
+    {
+      "arxiv_id": "2602.12540",
+      "status": "converted",
+      "pdf": "raw/World-Models/2602.12540.pdf",
+      "markdown": "raw/World-Models/2602.12540.fulltext.md",
+      "pdf_sha256": "62bbd02a25fdd523fcfd8190265f75f4634f67204e47c9837771f4a6be84b7e8",
+      "pages": 9,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:10.401156+00:00"
+    },
+    {
+      "arxiv_id": "2504.07347",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2504.07347.pdf",
+      "markdown": "raw/AI-Infra/2504.07347.fulltext.md",
+      "pdf_sha256": "ce009eb22aed572ff5b06a46bc8dc73d104f51c52ae5f7ca729746d852ebf831",
+      "pages": 49,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:11.262455+00:00"
+    },
+    {
+      "arxiv_id": "2602.09109",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2602.09109.pdf",
+      "markdown": "raw/AI-Infra/2602.09109.fulltext.md",
+      "pdf_sha256": "332c98cdbf0dae1c15c257f169786b0d09c5b7d895352f6699a4bb042ad4e746",
+      "pages": 60,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:10.981763+00:00"
+    },
+    {
+      "arxiv_id": "2310.07240",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2310.07240.pdf",
+      "markdown": "raw/AI-Infra/2310.07240.fulltext.md",
+      "pdf_sha256": "3bbadb232c66d89dd1a68ecea65d76edc5e67074a97072e4a401ca7a6335a8de",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:11.044157+00:00"
+    },
+    {
+      "arxiv_id": "2603.15569",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2603.15569.pdf",
+      "markdown": "raw/Deep-Learning/2603.15569.fulltext.md",
+      "pdf_sha256": "17e65b882c4b7dc7dad82a437e54c5fa973e4624d5653dc431f1a2a55538c826",
+      "pages": 31,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:11.330456+00:00"
+    },
+    {
+      "arxiv_id": "2604.15259",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2604.15259.pdf",
+      "markdown": "raw/Deep-Learning/2604.15259.fulltext.md",
+      "pdf_sha256": "800642a2b9ac1c686940bbcf8ac577c81c6fc7adbae57ef84583c32ccb2184b4",
+      "pages": 27,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:11.326706+00:00"
+    },
+    {
+      "arxiv_id": "2602.08287",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2602.08287.pdf",
+      "markdown": "raw/Deep-Learning/2602.08287.fulltext.md",
+      "pdf_sha256": "ad005be6c80094fae8f81b8f690dd28a22269208e78d4bf1d3943018cd3c7fc6",
+      "pages": 38,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:11.401262+00:00"
+    },
+    {
+      "arxiv_id": "2603.09555",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2603.09555.pdf",
+      "markdown": "raw/Deep-Learning/2603.09555.fulltext.md",
+      "pdf_sha256": "07a19da9814d66c00b535803aa22f16a9a3ea017d38913841129a5967a2e6707",
+      "pages": 21,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:11.446598+00:00"
+    },
+    {
+      "arxiv_id": "2602.18523",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2602.18523.pdf",
+      "markdown": "raw/Deep-Learning/2602.18523.fulltext.md",
+      "pdf_sha256": "f9ed6fbe2553aa75a7ab4ce12e66f2d3f98b0a7e05e45f220f72968a34aced0f",
+      "pages": 42,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:11.631804+00:00"
+    },
+    {
+      "arxiv_id": "2605.0645",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2605.0645.pdf",
+      "markdown": "raw/Deep-Learning/2605.0645.fulltext.md",
+      "pdf_sha256": "070f8fb4917cfdc1d3b1616460c736fa69a5b9eea8f8570b24012c47ac7b4eec",
+      "pages": 27,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:11.554201+00:00"
+    },
+    {
+      "arxiv_id": "2604.03481",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2604.03481.pdf",
+      "markdown": "raw/Deep-Learning/2604.03481.fulltext.md",
+      "pdf_sha256": "a070eca24f588efbaf9143601a5bd74a23b9558ebde381dcf98dfda0781b7108",
+      "pages": 41,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:11.843919+00:00"
+    },
+    {
+      "arxiv_id": "2605.13892",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2605.13892.pdf",
+      "markdown": "raw/Deep-Learning/2605.13892.fulltext.md",
+      "pdf_sha256": "3cc4f47543458106a67d88079f96157ed9747da1c67b9ebf3d19870733e0945f",
+      "pages": 11,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:12.081623+00:00"
+    },
+    {
+      "arxiv_id": "2502.06018",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/arxiv-2502.06018.pdf",
+      "markdown": "raw/Deep-Learning/arxiv-2502.06018.fulltext.md",
+      "pdf_sha256": "ff9a12aa9250abd07df98503a1827e81dda204d20ee5a20a60aa6dbb6b7b0a39",
+      "pages": 26,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:12.002106+00:00"
+    },
+    {
+      "arxiv_id": "2507.19888",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2507.19888.pdf",
+      "markdown": "raw/Deep-Learning/2507.19888.fulltext.md",
+      "pdf_sha256": "556c940abc343598f44a53f5a12818dcf444d28b864a831febb8b0c131d9e653",
+      "pages": 32,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:18.919042+00:00"
+    },
+    {
+      "arxiv_id": "2601.03332",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/arxiv-2601.03332.pdf",
+      "markdown": "raw/Deep-Learning/arxiv-2601.03332.fulltext.md",
+      "pdf_sha256": "ffc98696a138903c26d2158c376d7bb119439c8ec84963c64e761ef7c7d5e86e",
+      "pages": 32,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:12.040681+00:00"
+    },
+    {
+      "arxiv_id": "2602.12706",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/arxiv-2602.12706.pdf",
+      "markdown": "raw/Deep-Learning/arxiv-2602.12706.fulltext.md",
+      "pdf_sha256": "870c6bc46e3a78a70e63b61a3af0dd9b0c7422d8eba6a6b67b07e2b4ef0eb5e4",
+      "pages": 38,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:12.277471+00:00"
+    },
+    {
+      "arxiv_id": "2601.06244",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/arxiv-2601.06244.pdf",
+      "markdown": "raw/Deep-Learning/arxiv-2601.06244.fulltext.md",
+      "pdf_sha256": "fa40b8efaff3f822ad902f16748e36cc844f8f727e72b8d1e007c7b2dae015c2",
+      "pages": 6,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:12.085865+00:00"
+    },
+    {
+      "arxiv_id": "2604.18481",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/arxiv-2604.18481.pdf",
+      "markdown": "raw/Deep-Learning/arxiv-2604.18481.fulltext.md",
+      "pdf_sha256": "3e535e5bb4602fb1a2da52ea0e5cafc87ce6486db4044df2fe84173437dfcd02",
+      "pages": 22,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:12.364501+00:00"
+    },
+    {
+      "arxiv_id": "2605.20811",
+      "status": "converted",
+      "pdf": "raw/World-Models/2605.20811.pdf",
+      "markdown": "raw/World-Models/2605.20811.fulltext.md",
+      "pdf_sha256": "a4b084d8b213a8cd6d6bc1d0e27f3073e97bd88dd2041d53836f9cf97365e287",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:12.318532+00:00"
+    },
+    {
+      "arxiv_id": "2605.00080",
+      "status": "converted",
+      "pdf": "raw/World-Models/2605.00080.pdf",
+      "markdown": "raw/World-Models/2605.00080.fulltext.md",
+      "pdf_sha256": "1b035d79d5c135fd437e1bbe7625a7e284a405e0451a240e816ce5dcaf35f586",
+      "pages": 43,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:12.766940+00:00"
+    },
+    {
+      "arxiv_id": "2605.19957",
+      "status": "converted",
+      "pdf": "raw/World-Models/2605.19957.pdf",
+      "markdown": "raw/World-Models/2605.19957.fulltext.md",
+      "pdf_sha256": "d02e593aa682f277e378b78d0528a3ce0cb6c3a4d2f8c777e7007650c4b22107",
+      "pages": 22,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:12.634093+00:00"
+    },
+    {
+      "arxiv_id": "2512.24497",
+      "status": "converted",
+      "pdf": "raw/World-Models/2512.24497.pdf",
+      "markdown": "raw/World-Models/2512.24497.fulltext.md",
+      "pdf_sha256": "d2dd4364de28d0b41f7001d26fd8d43487c31a9df5a5759ef319f89adad39a18",
+      "pages": 55,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:13.394367+00:00"
+    },
+    {
+      "arxiv_id": "2605.12167",
+      "status": "converted",
+      "pdf": "raw/World-Models/2605.12167.pdf",
+      "markdown": "raw/World-Models/2605.12167.fulltext.md",
+      "pdf_sha256": "92915237f4d0aadf2a0a7d516bb3b327f8396b7f2d298599ec2df53d5c29e6db",
+      "pages": 32,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:12.952881+00:00"
+    },
+    {
+      "arxiv_id": "2603.16666",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2603.16666.pdf",
+      "markdown": "raw/World-Models/arxiv-2603.16666.fulltext.md",
+      "pdf_sha256": "4eea24883dcc4d8a5c0f760870f501baabb07db4eb65e5fd6c3b4b500601be8d",
+      "pages": 13,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:12.921531+00:00"
+    },
+    {
+      "arxiv_id": "2601.16163",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2601.16163.pdf",
+      "markdown": "raw/World-Models/arxiv-2601.16163.fulltext.md",
+      "pdf_sha256": "05696475c9b5481afbf88673a65f80a46cf3fb87a5755c1410e83d0f468cc6e0",
+      "pages": 22,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:13.141929+00:00"
+    },
+    {
+      "arxiv_id": "2602.13977",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2602.13977.pdf",
+      "markdown": "raw/World-Models/arxiv-2602.13977.fulltext.md",
+      "pdf_sha256": "342c6cfeee002d820a64e8b06e67b5dd422c199937d8988f98dc41d2e01e2c93",
+      "pages": 21,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:13.232085+00:00"
+    },
+    {
+      "arxiv_id": "2602.10098",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2602.10098.pdf",
+      "markdown": "raw/World-Models/arxiv-2602.10098.fulltext.md",
+      "pdf_sha256": "5deec841d5a7da63e5bab3593798e1741d44d354507586bec8a2f9b576f12677",
+      "pages": 18,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:13.364268+00:00"
+    },
+    {
+      "arxiv_id": "2602.03604",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2602.03604.pdf",
+      "markdown": "raw/World-Models/arxiv-2602.03604.fulltext.md",
+      "pdf_sha256": "45cab1dc74600314965a5bd18a9fc89afb722a5a53f99e37a30c07daf6a6ec0f",
+      "pages": 17,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:13.409189+00:00"
+    },
+    {
+      "arxiv_id": "2511.14262",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2511.14262.pdf",
+      "markdown": "raw/World-Models/arxiv-2511.14262.fulltext.md",
+      "pdf_sha256": "63142aa15a56860e82ec7c841ff88f58f14024c8070d33676a0f1a26b531511e",
+      "pages": 15,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:14.307586+00:00"
+    },
+    {
+      "arxiv_id": "2605.01694",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2605.01694.pdf",
+      "markdown": "raw/World-Models/arxiv-2605.01694.fulltext.md",
+      "pdf_sha256": "0a88bcb4ab23b0a3b785581f5eb64e3dd07e84846ab11f0597b77d784a01e6d6",
+      "pages": 24,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:13.595763+00:00"
+    },
+    {
+      "arxiv_id": "2604.16592",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2604.16592.pdf",
+      "markdown": "raw/World-Models/arxiv-2604.16592.fulltext.md",
+      "pdf_sha256": "3c60864cb9014b16ab5308b4b8ac45d25b2125fb5b55cc0ac79aff56413e9314",
+      "pages": 54,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:14.258816+00:00"
+    },
+    {
+      "arxiv_id": "2603.25887",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2603.25887.pdf",
+      "markdown": "raw/World-Models/arxiv-2603.25887.fulltext.md",
+      "pdf_sha256": "04720e8815de91cfffa58f0ed989afff48d776771763c64b14c3ff9b08f2b9ae",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:14.329446+00:00"
+    },
+    {
+      "arxiv_id": "2604.21741",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2604.21741.pdf",
+      "markdown": "raw/World-Models/arxiv-2604.21741.fulltext.md",
+      "pdf_sha256": "b4bfe7763207753e55d035ccf8302b097ba1a4b5b33c0f720a31023ad0827d93",
+      "pages": 15,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:14.429382+00:00"
+    },
+    {
+      "arxiv_id": "2604.16585",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2604.16585.pdf",
+      "markdown": "raw/World-Models/arxiv-2604.16585.fulltext.md",
+      "pdf_sha256": "44fbe56999631cb535f2089e2177cbab4d224d019d4f542ed88e1e8f6c39af4f",
+      "pages": 12,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:14.397282+00:00"
+    },
+    {
+      "arxiv_id": "2602.22010",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2602.22010.pdf",
+      "markdown": "raw/World-Models/arxiv-2602.22010.fulltext.md",
+      "pdf_sha256": "306052a624f97d0048d716d9bdc2e03cd72669a001b42a5511ea9bb6a8ec2620",
+      "pages": 20,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:14.557533+00:00"
+    },
+    {
+      "arxiv_id": "2602.09849",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2602.09849.pdf",
+      "markdown": "raw/World-Models/arxiv-2602.09849.fulltext.md",
+      "pdf_sha256": "691d30709ce69fbd23c4366b41d30dc06ce5b3b406e36afa3f813e7c09b43cd0",
+      "pages": 28,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:14.672010+00:00"
+    },
+    {
+      "arxiv_id": "2602.17259",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2602.17259.pdf",
+      "markdown": "raw/World-Models/arxiv-2602.17259.fulltext.md",
+      "pdf_sha256": "12eac2e5cd9812e23f337f94ddd8081f8805532d9904658d366952cabc46faa1",
+      "pages": 16,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:14.709461+00:00"
+    },
+    {
+      "arxiv_id": "2601.06212",
+      "status": "converted",
+      "pdf": "raw/World-Models/arxiv-2601.06212.pdf",
+      "markdown": "raw/World-Models/arxiv-2601.06212.fulltext.md",
+      "pdf_sha256": "a1603b64eda00f7724526a413078d7107f15213aaf1ddf7756fb0a39895f840a",
+      "pages": 12,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:14.639503+00:00"
+    },
+    {
+      "arxiv_id": "2605.21427",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2605.21427.pdf",
+      "markdown": "raw/AI-Infra/2605.21427.fulltext.md",
+      "pdf_sha256": "952cf81a9c5bd6ab0c4559c8ff081128ad0f78e6dd529cabdd9a38aac9dce683",
+      "pages": 13,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:14.851267+00:00"
+    },
+    {
+      "arxiv_id": "2507.21276",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2507.21276.pdf",
+      "markdown": "raw/AI-Infra/2507.21276.fulltext.md",
+      "pdf_sha256": "36b24a688979d8548ec0b9f1cdffc9355d21e0a626e5bd47cde5f2e5d54ad763",
+      "pages": 14,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:15.404558+00:00"
+    },
+    {
+      "arxiv_id": "2507.06608",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2507.06608.pdf",
+      "markdown": "raw/AI-Infra/2507.06608.fulltext.md",
+      "pdf_sha256": "435058383e4eee81171168fe1b173541c7880eeb5d3f127741e9e0fba21f805d",
+      "pages": 16,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:15.008773+00:00"
+    },
+    {
+      "arxiv_id": "2509.21081",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2509.21081.pdf",
+      "markdown": "raw/AI-Infra/2509.21081.fulltext.md",
+      "pdf_sha256": "61e6e6771c449c47e215fe8a2c918eeb1b4050351965b737237119fdd04e1bbf",
+      "pages": 18,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:15.141295+00:00"
+    },
+    {
+      "arxiv_id": "2604.07173",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2604.07173.pdf",
+      "markdown": "raw/AI-Infra/2604.07173.fulltext.md",
+      "pdf_sha256": "e6281bb22072cecc5a5b4f5f737bfce8c0a8b62b08f29b1af3133da4e515c308",
+      "pages": 18,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:15.436638+00:00"
+    },
+    {
+      "arxiv_id": "2509.06261",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2509.06261.pdf",
+      "markdown": "raw/AI-Infra/2509.06261.fulltext.md",
+      "pdf_sha256": "ee4d3645ba02d4d282818392a7929e26731a6d3dacc7045132b1434f3dac27c9",
+      "pages": 13,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:15.286164+00:00"
+    },
+    {
+      "arxiv_id": "2508.03148",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2508.03148.pdf",
+      "markdown": "raw/AI-Infra/2508.03148.fulltext.md",
+      "pdf_sha256": "8473820e65d083a0081061948bbeefdada77c80e183b03d5a1a8866e084b558c",
+      "pages": 7,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:15.362325+00:00"
+    },
+    {
+      "arxiv_id": "2502.00937",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2502.00937.pdf",
+      "markdown": "raw/AI-Infra/2502.00937.fulltext.md",
+      "pdf_sha256": "8d9e07df393bfce4ad7baac0f7d0bdc24bd850bfe566d22b356ef054f1f61d41",
+      "pages": 14,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:15.977094+00:00"
+    },
+    {
+      "arxiv_id": "2604.04750",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2604.04750.pdf",
+      "markdown": "raw/AI-Infra/2604.04750.fulltext.md",
+      "pdf_sha256": "d6c33a1a5358c6be67264645e5b91ac95ab904014a93d56a0b99a695ef8cd920",
+      "pages": 18,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:16.992727+00:00"
+    },
+    {
+      "arxiv_id": "2507.11507",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2507.11507.pdf",
+      "markdown": "raw/AI-Infra/2507.11507.fulltext.md",
+      "pdf_sha256": "16b45f421faeba200b6691dba3c0f192a31c3b147b75322e49021cc7cdeb25f0",
+      "pages": 14,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:16.215775+00:00"
+    },
+    {
+      "arxiv_id": "2603.15553",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2603.15553.pdf",
+      "markdown": "raw/Deep-Learning/2603.15553.fulltext.md",
+      "pdf_sha256": "f23236cbaffcbfbedf8c454bee14e25a6fb39542bfc3f0ad82bfd6bf9b8c7126",
+      "pages": 50,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:16.782788+00:00"
+    },
+    {
+      "arxiv_id": "2604.13518",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2604.13518.pdf",
+      "markdown": "raw/Deep-Learning/2604.13518.fulltext.md",
+      "pdf_sha256": "ac0f8c104b8c9e7f03ac7d32197e89dd54cf28605217a323694197f3786d25f6",
+      "pages": 16,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:16.326264+00:00"
+    },
+    {
+      "arxiv_id": "2603.13660",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2603.13660.pdf",
+      "markdown": "raw/Deep-Learning/2603.13660.fulltext.md",
+      "pdf_sha256": "d2de576830f608daa1051cb802170c6f0a79e3121130e6af4f0cca8102fc23aa",
+      "pages": 22,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:16.580840+00:00"
+    },
+    {
+      "arxiv_id": "2603.26597",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2603.26597.pdf",
+      "markdown": "raw/Deep-Learning/2603.26597.fulltext.md",
+      "pdf_sha256": "0dd5a8643e324613dd4e75f78255d7e2e331f7dbb343e796cb9621682ee1b41e",
+      "pages": 31,
+      "empty_pages": [],
+      "unicode_repaired_pages": [
+        4,
+        21,
+        29
+      ],
+      "converted_at": "2026-10-06T23:52:27.223795+00:00"
+    },
+    {
+      "arxiv_id": "2501.04969",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2501.04969.pdf",
+      "markdown": "raw/Deep-Learning/2501.04969.fulltext.md",
+      "pdf_sha256": "a74eed1ae797ddf2880033fcc6df3dab990fd2f6274c28ea3e2a07a797c1178b",
+      "pages": 21,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:17.034023+00:00"
+    },
+    {
+      "arxiv_id": "2604.13723",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2604.13723.pdf",
+      "markdown": "raw/Deep-Learning/2604.13723.fulltext.md",
+      "pdf_sha256": "dfa42dffad772db2e1bfca1ca7235847ec5f404f873ca8c29a99cb0b9a1f3ea5",
+      "pages": 17,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:17.239865+00:00"
+    },
+    {
+      "arxiv_id": "2605.03510",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2605.03510.pdf",
+      "markdown": "raw/Deep-Learning/2605.03510.fulltext.md",
+      "pdf_sha256": "1a43bd0deac5972e7a4c002250f9f0938b268c2954a3c5e878237f7513211fd9",
+      "pages": 8,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:17.257899+00:00"
+    },
+    {
+      "arxiv_id": "2604.05651",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2604.05651.pdf",
+      "markdown": "raw/Deep-Learning/2604.05651.fulltext.md",
+      "pdf_sha256": "64653a1b5090a8c7682c7a49129fde37dc9d3cf723280f087aa9ab97e3cc695d",
+      "pages": 23,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:17.502842+00:00"
+    },
+    {
+      "arxiv_id": "2604.20085",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2604.20085.pdf",
+      "markdown": "raw/Deep-Learning/2604.20085.fulltext.md",
+      "pdf_sha256": "a108372f863723f77c365df869118b6bf312257102000176cf61a83239843fb7",
+      "pages": 11,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:20.523548+00:00"
+    },
+    {
+      "arxiv_id": "2602.02547",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2602.02547.pdf",
+      "markdown": "raw/Deep-Learning/2602.02547.fulltext.md",
+      "pdf_sha256": "e09d2f0f707dfacf8df85dc1015bdb669dfa57a4e4bada577decf12287f3a2a0",
+      "pages": 26,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:18.211746+00:00"
+    },
+    {
+      "arxiv_id": "2601.22751",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2601.22751.pdf",
+      "markdown": "raw/Deep-Learning/2601.22751.fulltext.md",
+      "pdf_sha256": "c97bf4392ded389ce5a1bccff7a540a285ffa09fad0d7a27305d1e7e20b102b5",
+      "pages": 26,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:17.996289+00:00"
+    },
+    {
+      "arxiv_id": "2602.12368",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2602.12368.pdf",
+      "markdown": "raw/Deep-Learning/2602.12368.fulltext.md",
+      "pdf_sha256": "a9ff2ade8d4c9799d04f006b39322d509610529e26928b17be98183d2de3e073",
+      "pages": 38,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:18.308121+00:00"
+    },
+    {
+      "arxiv_id": "2605.25115",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2605.25115.pdf",
+      "markdown": "raw/Deep-Learning/2605.25115.fulltext.md",
+      "pdf_sha256": "ca95a8aee344e39bba27edf73dd991f4b307b570bbc98b98cef2201ecd276187",
+      "pages": 30,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.056152+00:00"
+    },
+    {
+      "arxiv_id": "2603.19312",
+      "status": "converted",
+      "pdf": "raw/World-Models/2603.19312.pdf",
+      "markdown": "raw/World-Models/2603.19312.fulltext.md",
+      "pdf_sha256": "553a01501ac74ec56721cfdb936d3825ac941734133a1fd761f614c01b6887e9",
+      "pages": 28,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:18.695104+00:00"
+    },
+    {
+      "arxiv_id": "2606.04907",
+      "status": "converted",
+      "pdf": "raw/World-Models/2606.04907.pdf",
+      "markdown": "raw/World-Models/2606.04907.fulltext.md",
+      "pdf_sha256": "fa2bafda5333466692978418ebfb9a420da91bf52acf84671a127bc5f54824a5",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:18.861412+00:00"
+    },
+    {
+      "arxiv_id": "2606.09215",
+      "status": "converted",
+      "pdf": "raw/World-Models/2606.09215.pdf",
+      "markdown": "raw/World-Models/2606.09215.fulltext.md",
+      "pdf_sha256": "7f1f828566788c1552b9a989b78e0ed525216d58218c2ac2247847e172f3c041",
+      "pages": 17,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:19.126777+00:00"
+    },
+    {
+      "arxiv_id": "2606.10363",
+      "status": "converted",
+      "pdf": "raw/World-Models/2606.10363.pdf",
+      "markdown": "raw/World-Models/2606.10363.fulltext.md",
+      "pdf_sha256": "6422558341cfed04571a74c7ee5bd001e013498d267de563d17b78eae0d5f86e",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:19.122586+00:00"
+    },
+    {
+      "arxiv_id": "2606.08775",
+      "status": "converted",
+      "pdf": "raw/World-Models/2606.08775.pdf",
+      "markdown": "raw/World-Models/2606.08775.fulltext.md",
+      "pdf_sha256": "f0ea19498d3df994d42b4229e76ad5c84df85cb2c98a25d565542740da6520e9",
+      "pages": 20,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:19.313275+00:00"
+    },
+    {
+      "arxiv_id": "2603.10448",
+      "status": "converted",
+      "pdf": "raw/World-Models/2603.10448.pdf",
+      "markdown": "raw/World-Models/2603.10448.fulltext.md",
+      "pdf_sha256": "64f21b940ff2ee1bccf4e1e7910dc22c207c0cb87ba4e6e16456610c5606b9cd",
+      "pages": 22,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:19.589210+00:00"
+    },
+    {
+      "arxiv_id": "2605.07794",
+      "status": "converted",
+      "pdf": "raw/World-Models/2605.07794.pdf",
+      "markdown": "raw/World-Models/2605.07794.fulltext.md",
+      "pdf_sha256": "3038cd278120ca8e7978eadf5c0784fe1aed9c463f5b1a2127da2bb59bf986ea",
+      "pages": 17,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:19.503363+00:00"
+    },
+    {
+      "arxiv_id": "2602.06949",
+      "status": "converted",
+      "pdf": "raw/World-Models/2602.06949.pdf",
+      "markdown": "raw/World-Models/2602.06949.fulltext.md",
+      "pdf_sha256": "c8f02e22c8fbe98e0b50215e10e1f6baf2f589b1987e5c6dc07175bfe6fe8587",
+      "pages": 33,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:20.011383+00:00"
+    },
+    {
+      "arxiv_id": "2605.17613",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2605.17613.pdf",
+      "markdown": "raw/AI-Infra/2605.17613.fulltext.md",
+      "pdf_sha256": "7cf0fa1b9f1f4a89556ed53f7f9c3a84069049e3397a68447726e99871af1ea5",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:19.936369+00:00"
+    },
+    {
+      "arxiv_id": "2605.00528",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2605.00528.pdf",
+      "markdown": "raw/AI-Infra/2605.00528.fulltext.md",
+      "pdf_sha256": "87f1fe0eec3762bd5ef6f119a0d17c3b7eb2e7bc714db2acae4f2ff063fe0b89",
+      "pages": 31,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:20.216117+00:00"
+    },
+    {
+      "arxiv_id": "2605.31463",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2605.31463.pdf",
+      "markdown": "raw/AI-Infra/2605.31463.fulltext.md",
+      "pdf_sha256": "7f98919124fc4334563acac3317ca83d4704bdb79096e1e5744f66ee5b210c68",
+      "pages": 24,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:20.301946+00:00"
+    },
+    {
+      "arxiv_id": "2604.20919",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2604.20919.pdf",
+      "markdown": "raw/AI-Infra/2604.20919.fulltext.md",
+      "pdf_sha256": "dbac280f83040182d92498afc9db066915683ac1154c4a1bad8661b01ad7ee9a",
+      "pages": 7,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:20.328670+00:00"
+    },
+    {
+      "arxiv_id": "2606.21868",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2606.21868.pdf",
+      "markdown": "raw/AI-Infra/2606.21868.fulltext.md",
+      "pdf_sha256": "78968b4afdbece0143956202cb4bff90852736c9187169bf4ab57ba7bf0641bb",
+      "pages": 16,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:20.538608+00:00"
+    },
+    {
+      "arxiv_id": "2504.11320",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2504.11320.pdf",
+      "markdown": "raw/AI-Infra/2504.11320.fulltext.md",
+      "pdf_sha256": "a4d9daa8499f2ad626c3477593faa117bd7e6f3d5611d8192a7342b7a146b014",
+      "pages": 79,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.269955+00:00"
+    },
+    {
+      "arxiv_id": "2504.07494",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2504.07494.pdf",
+      "markdown": "raw/AI-Infra/2504.07494.fulltext.md",
+      "pdf_sha256": "a7436ee4fc6ef3a245a56cc755d9489776e2907c829719471a2def7d9abdd2fe",
+      "pages": 28,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:20.860564+00:00"
+    },
+    {
+      "arxiv_id": "2504.19874",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2504.19874.pdf",
+      "markdown": "raw/AI-Infra/2504.19874.fulltext.md",
+      "pdf_sha256": "431eb13926e10491f5fbd0bebd0813c51bd6c1e884426a1500c5db640b2997ab",
+      "pages": 25,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:20.899274+00:00"
+    },
+    {
+      "arxiv_id": "2601.06288",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2601.06288.pdf",
+      "markdown": "raw/AI-Infra/2601.06288.fulltext.md",
+      "pdf_sha256": "05645ed3d8e6559cc2ca6cf2fcc88b9db81fd37e77006181c2ba45a9644ce822",
+      "pages": 13,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.000395+00:00"
+    },
+    {
+      "arxiv_id": "2606.02332",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2606.02332.pdf",
+      "markdown": "raw/Deep-Learning/2606.02332.fulltext.md",
+      "pdf_sha256": "028cb4ecec4af7dfa5563c4c657d84964ee66bd1a234e616a08fec00877f6037",
+      "pages": 20,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.081706+00:00"
+    },
+    {
+      "arxiv_id": "2606.03017",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2606.03017.pdf",
+      "markdown": "raw/Deep-Learning/2606.03017.fulltext.md",
+      "pdf_sha256": "b04791c8621a617d3d9576d86637a47dce6e159f73de0cfb84ad3fc0e68bbbdf",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.222506+00:00"
+    },
+    {
+      "arxiv_id": "2601.08100",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2601.08100.pdf",
+      "markdown": "raw/Deep-Learning/2601.08100.fulltext.md",
+      "pdf_sha256": "6042e27f037481cb78eec2eae1b27a3f0d9188912130f8cd195b4446cdc74942",
+      "pages": 18,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.410606+00:00"
+    },
+    {
+      "arxiv_id": "2604.27277",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2604.27277.pdf",
+      "markdown": "raw/Deep-Learning/2604.27277.fulltext.md",
+      "pdf_sha256": "072e246beb6ff3567398d62c8a1986747fcc722445b240ad27dbe9b897c6490c",
+      "pages": 25,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.959267+00:00"
+    },
+    {
+      "arxiv_id": "2606.26991",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2606.26991.pdf",
+      "markdown": "raw/Deep-Learning/2606.26991.fulltext.md",
+      "pdf_sha256": "91f4b8621c1f173833e7a2f0514b20c243de3a7896d1c21785c1aac6ffc37bfd",
+      "pages": 22,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.436462+00:00"
+    },
+    {
+      "arxiv_id": "2604.14626",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2604.14626.pdf",
+      "markdown": "raw/Deep-Learning/2604.14626.fulltext.md",
+      "pdf_sha256": "8e58f1e3d55a202b4c1d71dd79e82a5921c921de19a5e9ad0647dcc364c988c9",
+      "pages": 14,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.464982+00:00"
+    },
+    {
+      "arxiv_id": "2603.22964",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2603.22964.pdf",
+      "markdown": "raw/Deep-Learning/2603.22964.fulltext.md",
+      "pdf_sha256": "1fecfc5bedefc22fbb4e3890bc6821ff1b94d0625ab491b26a064d0c8a261acd",
+      "pages": 44,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.993676+00:00"
+    },
+    {
+      "arxiv_id": "2606.23208",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2606.23208.pdf",
+      "markdown": "raw/Deep-Learning/2606.23208.fulltext.md",
+      "pdf_sha256": "ad25548c8411420722fb63ac5d975c9807480d0d4253996f24ab116e6d0029d2",
+      "pages": 30,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.687394+00:00"
+    },
+    {
+      "arxiv_id": "2606.21189",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2606.21189.pdf",
+      "markdown": "raw/Deep-Learning/2606.21189.fulltext.md",
+      "pdf_sha256": "85fc9d74b7a7f8e538166c5b248033b9c74b4ac85687ade45905c3accf2dde85",
+      "pages": 10,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.647328+00:00"
+    },
+    {
+      "arxiv_id": "2604.21761",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2604.21761.pdf",
+      "markdown": "raw/Deep-Learning/2604.21761.fulltext.md",
+      "pdf_sha256": "77c2be0c6287d474980ae412ae6914ba071dc2887e48eb445a70ee4644babca1",
+      "pages": 8,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.808160+00:00"
+    },
+    {
+      "arxiv_id": "2606.15271",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2606.15271.pdf",
+      "markdown": "raw/Deep-Learning/2606.15271.fulltext.md",
+      "pdf_sha256": "644387dc81263345a5c85e2c3df7544248f2e6f6398e7b2b56c916d54f01c5f0",
+      "pages": 22,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:21.893574+00:00"
+    },
+    {
+      "arxiv_id": "2606.31574",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2606.31574.pdf",
+      "markdown": "raw/Deep-Learning/2606.31574.fulltext.md",
+      "pdf_sha256": "1fb7d5e4ac3fca4f3c612a4efa54e2cfbe3c1050a86130125afa41150207c679",
+      "pages": 20,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:22.005308+00:00"
+    },
+    {
+      "arxiv_id": "2604.26999",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2604.26999.pdf",
+      "markdown": "raw/Deep-Learning/2604.26999.fulltext.md",
+      "pdf_sha256": "8ebe4b6eb44b74bf96caa11afb941b92cef69a52671752068cf810d830162c82",
+      "pages": 35,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:22.090131+00:00"
+    },
+    {
+      "arxiv_id": "2606.06164",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2606.06164.pdf",
+      "markdown": "raw/Deep-Learning/2606.06164.fulltext.md",
+      "pdf_sha256": "2a3d20522e42ae527f13c98a8dab7e724c9bc11a7c0adb69ac4bccc63e4ec92d",
+      "pages": 42,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:22.922010+00:00"
+    },
+    {
+      "arxiv_id": "2603.01193",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2603.01193.pdf",
+      "markdown": "raw/Deep-Learning/2603.01193.fulltext.md",
+      "pdf_sha256": "f1b4da00bf603e73c6fe38d4485e7b6cca077fac8288747d523f185ee1adaf91",
+      "pages": 17,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:22.391939+00:00"
+    },
+    {
+      "arxiv_id": "2605.10159",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2605.10159.pdf",
+      "markdown": "raw/Deep-Learning/2605.10159.fulltext.md",
+      "pdf_sha256": "8e32c6cabc1ea810335282e2d0ba0de525304e9a4b9ba72c69b387b9be361a6a",
+      "pages": 17,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:22.149852+00:00"
+    },
+    {
+      "arxiv_id": "2607.02043",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2607.02043.pdf",
+      "markdown": "raw/AI-Infra/2607.02043.fulltext.md",
+      "pdf_sha256": "403485ad86bb0b050bbd613497a17c91c74bc91d89e4551d082a92dfe1c0e3a0",
+      "pages": 12,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:22.260464+00:00"
+    },
+    {
+      "arxiv_id": "2607.02574",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2607.02574.pdf",
+      "markdown": "raw/AI-Infra/2607.02574.fulltext.md",
+      "pdf_sha256": "d74a11adf61bcf50e5459f3f31c98e1c9ec5effd3199a446ed4f93b36106fa7b",
+      "pages": 34,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:22.518829+00:00"
+    },
+    {
+      "arxiv_id": "2607.00466",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2607.00466.pdf",
+      "markdown": "raw/AI-Infra/2607.00466.fulltext.md",
+      "pdf_sha256": "d02301a2ef5249b3502f86944ff336ccb6df615383f9b8297623425bb6f6b1ab",
+      "pages": 15,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:22.807329+00:00"
+    },
+    {
+      "arxiv_id": "2607.17181",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2607.17181.pdf",
+      "markdown": "raw/AI-Infra/2607.17181.fulltext.md",
+      "pdf_sha256": "012328c43d1c773d9183541a0f8c6e49629617dcf0f3daaa8dd9d19dafb50327",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:22.731349+00:00"
+    },
+    {
+      "arxiv_id": "2607.21653",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2607.21653.pdf",
+      "markdown": "raw/AI-Infra/2607.21653.fulltext.md",
+      "pdf_sha256": "0cb00e4547a3639a0b6297b1ab26ba8cebfec73e26684cd3bde6d73a00af4f42",
+      "pages": 12,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:22.668625+00:00"
+    },
+    {
+      "arxiv_id": "2603.07685",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2603.07685.pdf",
+      "markdown": "raw/AI-Infra/2603.07685.fulltext.md",
+      "pdf_sha256": "649b8a1bcd79dbc13f63827defec3b5de371d121c6d613961c105c24a7953ca3",
+      "pages": 88,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:23.609553+00:00"
+    },
+    {
+      "arxiv_id": "2605.09370",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2605.09370.pdf",
+      "markdown": "raw/AI-Infra/2605.09370.fulltext.md",
+      "pdf_sha256": "e9fc63a8dd715426291f4756d5cb7b79a410c2c08ce289fb1587139a542f4cff",
+      "pages": 41,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:23.010539+00:00"
+    },
+    {
+      "arxiv_id": "2602.00509",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2602.00509.pdf",
+      "markdown": "raw/AI-Infra/2602.00509.fulltext.md",
+      "pdf_sha256": "91c9a4dfcca71f83d6d733436f2aaccad59e5683f8b27f97d73f07fb50802e7b",
+      "pages": 14,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:23.121258+00:00"
+    },
+    {
+      "arxiv_id": "2606.20295",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2606.20295.pdf",
+      "markdown": "raw/AI-Infra/2606.20295.fulltext.md",
+      "pdf_sha256": "be80c844dab15d79d45dac1dfed14543658ed31177c4062183ec52a1d2a66d6c",
+      "pages": 62,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:23.441078+00:00"
+    },
+    {
+      "arxiv_id": "2501.01005",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2501.01005.pdf",
+      "markdown": "raw/AI-Infra/2501.01005.fulltext.md",
+      "pdf_sha256": "6995874b7a43b0693ba0da805c4d99327a4cb4013edbea3e36f4c42949e63303",
+      "pages": 21,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:23.962481+00:00"
+    },
+    {
+      "arxiv_id": "2608.04074",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04074.pdf",
+      "markdown": "raw/Deep-Learning/2608.04074.fulltext.md",
+      "pdf_sha256": "7cd51970952e7fd72fd36db00e194dade32cae7c410d45982eb21c148721ab77",
+      "pages": 42,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:23.850383+00:00"
+    },
+    {
+      "arxiv_id": "2608.04060",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04060.pdf",
+      "markdown": "raw/Deep-Learning/2608.04060.fulltext.md",
+      "pdf_sha256": "7add71d78c7c3d5a62cfe70efead744f9d9a8915e7037d5e7e054366eee94866",
+      "pages": 42,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:23.937582+00:00"
+    },
+    {
+      "arxiv_id": "2608.04048",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04048.pdf",
+      "markdown": "raw/Deep-Learning/2608.04048.fulltext.md",
+      "pdf_sha256": "328b0dab885081012c89089d2900a7486c42bb3f62d419bebc4eb16c07115ca3",
+      "pages": 24,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:23.815666+00:00"
+    },
+    {
+      "arxiv_id": "2608.04084",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04084.pdf",
+      "markdown": "raw/Deep-Learning/2608.04084.fulltext.md",
+      "pdf_sha256": "9b803f0b39731826ebcc3287a53ba81097bcf5bd547c9a7ac508435b7c646ec4",
+      "pages": 37,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:24.326052+00:00"
+    },
+    {
+      "arxiv_id": "2608.04013",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04013.pdf",
+      "markdown": "raw/Deep-Learning/2608.04013.fulltext.md",
+      "pdf_sha256": "bb1b1402469d02fa3ef2311dfa6c7fecaf5941c1dfec75c4dc89a77fdd84db76",
+      "pages": 10,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:24.529884+00:00"
+    },
+    {
+      "arxiv_id": "2608.04057",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04057.pdf",
+      "markdown": "raw/Deep-Learning/2608.04057.fulltext.md",
+      "pdf_sha256": "c0ee4aa24595763fa3ef33c53a5b3b7c3c3a8328806a6162d6b8cacb532e6970",
+      "pages": 13,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:24.173224+00:00"
+    },
+    {
+      "arxiv_id": "2608.04051",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04051.pdf",
+      "markdown": "raw/Deep-Learning/2608.04051.fulltext.md",
+      "pdf_sha256": "3d0e4c40334d6d48a3b735a21e77559ef134faa217d1ddf14555967d5ea732dc",
+      "pages": 9,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:24.131977+00:00"
+    },
+    {
+      "arxiv_id": "2608.04026",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04026.pdf",
+      "markdown": "raw/Deep-Learning/2608.04026.fulltext.md",
+      "pdf_sha256": "813e204d8360de8eb1e5e6ac8a9ec2f3c6f774e78ea1e72f0f46aca56df5bf65",
+      "pages": 18,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:24.338147+00:00"
+    },
+    {
+      "arxiv_id": "2608.04014",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04014.pdf",
+      "markdown": "raw/Deep-Learning/2608.04014.fulltext.md",
+      "pdf_sha256": "948b3f63dac2f7cf19164f2f017d75d1708398e9fedda9fc9002536dd580127e",
+      "pages": 38,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:24.605047+00:00"
+    },
+    {
+      "arxiv_id": "2608.03467",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.03467.pdf",
+      "markdown": "raw/Deep-Learning/2608.03467.fulltext.md",
+      "pdf_sha256": "1ea0a25c1a4db8e4fea554841be5aad4c047f0942f19f5bceda9248335a4f646",
+      "pages": 14,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:24.506914+00:00"
+    },
+    {
+      "arxiv_id": "2608.04043",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04043.pdf",
+      "markdown": "raw/Deep-Learning/2608.04043.fulltext.md",
+      "pdf_sha256": "4e9c4536b3968d68b3a5193fc180dd6668ccd59c3cb53ea9dbe34924e0e62bcf",
+      "pages": 6,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:24.420993+00:00"
+    },
+    {
+      "arxiv_id": "2608.04041",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04041.pdf",
+      "markdown": "raw/Deep-Learning/2608.04041.fulltext.md",
+      "pdf_sha256": "da092de1a3be53467537534b2a4d316ef984333d5a60f0412eba559c5f9a13e6",
+      "pages": 24,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:24.565645+00:00"
+    },
+    {
+      "arxiv_id": "2608.04045",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.04045.pdf",
+      "markdown": "raw/Deep-Learning/2608.04045.fulltext.md",
+      "pdf_sha256": "09b2b5153bdd550e315a48bfe8b19a1070819a801526df19e784a66700512432",
+      "pages": 35,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:25.052771+00:00"
+    },
+    {
+      "arxiv_id": "2608.05569",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.05569.pdf",
+      "markdown": "raw/Deep-Learning/2608.05569.fulltext.md",
+      "pdf_sha256": "79fd33d352c90527e23f3f39270867fb44a6e158c110fe869bd5d9519f5227e2",
+      "pages": 15,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:24.710874+00:00"
+    },
+    {
+      "arxiv_id": "2607.21046",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2607.21046.pdf",
+      "markdown": "raw/Deep-Learning/2607.21046.fulltext.md",
+      "pdf_sha256": "de2f71445d3f83c4b29aa80d90e054934490198a0a043c31d2c13817e4a3e5a6",
+      "pages": 30,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:24.985957+00:00"
+    },
+    {
+      "arxiv_id": "2608.08491",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.08491.pdf",
+      "markdown": "raw/Deep-Learning/2608.08491.fulltext.md",
+      "pdf_sha256": "262199bc15acc994e4acb6c084999eea312a3b90899bc6ffbd93d5a51ab8f4d4",
+      "pages": 23,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:25.189413+00:00"
+    },
+    {
+      "arxiv_id": "2510.05278",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2510.05278.pdf",
+      "markdown": "raw/Deep-Learning/2510.05278.fulltext.md",
+      "pdf_sha256": "4ebf87609f63ba94917697dba951afeb9eea335b6a5dbb5b4fd852177fa0a689",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:25.083766+00:00"
+    },
+    {
+      "arxiv_id": "2606.24851",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2606.24851.pdf",
+      "markdown": "raw/Deep-Learning/2606.24851.fulltext.md",
+      "pdf_sha256": "3aa09598dc5a72745c6e769afecd19e5bdd4d677fa7f57482316b4085f2fe1bb",
+      "pages": 21,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:25.221106+00:00"
+    },
+    {
+      "arxiv_id": "2602.16634",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2602.16634.pdf",
+      "markdown": "raw/Deep-Learning/2602.16634.fulltext.md",
+      "pdf_sha256": "ba0636ae277017c8bfd22d405901a657289aa6a567c67fe0df14e67182120044",
+      "pages": 16,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:25.330526+00:00"
+    },
+    {
+      "arxiv_id": "2608.03495",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2608.03495.pdf",
+      "markdown": "raw/Deep-Learning/2608.03495.fulltext.md",
+      "pdf_sha256": "25a4a6642688ae991e859d271729420a5d1b1adbf68aaba72597b8509e533a61",
+      "pages": 21,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:25.471522+00:00"
+    },
+    {
+      "arxiv_id": "2405.19101",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2405.19101.pdf",
+      "markdown": "raw/Deep-Learning/2405.19101.fulltext.md",
+      "pdf_sha256": "5fedecba785e35df0664692111a73702fe65b8f3c18cc4dcbc7060cd80fca74b",
+      "pages": 93,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:26.622512+00:00"
+    },
+    {
+      "arxiv_id": "2608.09298",
+      "status": "converted",
+      "pdf": "raw/World-Models/2608.09298.pdf",
+      "markdown": "raw/World-Models/2608.09298.fulltext.md",
+      "pdf_sha256": "c379981286bc528dff7d26fc342cbcccccd4c105230a2f0765f59a83ebc2605d",
+      "pages": 20,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:25.666319+00:00"
+    },
+    {
+      "arxiv_id": "2608.12939",
+      "status": "converted",
+      "pdf": "raw/World-Models/2608.12939.pdf",
+      "markdown": "raw/World-Models/2608.12939.fulltext.md",
+      "pdf_sha256": "8124dc9d1d9206f369db4ae16ab11a436bb7b790c1b235f2a3c8176a17b4732f",
+      "pages": 26,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:25.967864+00:00"
+    },
+    {
+      "arxiv_id": "2607.06401",
+      "status": "converted",
+      "pdf": "raw/World-Models/2607.06401.pdf",
+      "markdown": "raw/World-Models/2607.06401.fulltext.md",
+      "pdf_sha256": "3a153bded157354e47a682f8141e782ba341ab3e7d7e0fcab1d70628eae1df22",
+      "pages": 58,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:25.984935+00:00"
+    },
+    {
+      "arxiv_id": "2607.00836",
+      "status": "converted",
+      "pdf": "raw/World-Models/2607.00836.pdf",
+      "markdown": "raw/World-Models/2607.00836.fulltext.md",
+      "pdf_sha256": "ac202d7149afca1296cd4a66bffb585314c7c107806400269a2fbd8a6975b13b",
+      "pages": 10,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:25.793422+00:00"
+    },
+    {
+      "arxiv_id": "2607.13612",
+      "status": "converted",
+      "pdf": "raw/World-Models/2607.13612.pdf",
+      "markdown": "raw/World-Models/2607.13612.fulltext.md",
+      "pdf_sha256": "17499e0a75c2b8a0d5958d346feeed26a4e6228212d07536f83c0cff6e6454ec",
+      "pages": 29,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:26.203936+00:00"
+    },
+    {
+      "arxiv_id": "2606.23463",
+      "status": "converted",
+      "pdf": "raw/World-Models/2606.23463.pdf",
+      "markdown": "raw/World-Models/2606.23463.fulltext.md",
+      "pdf_sha256": "c3fe1548be6833451e6348eaa0be5b54c18f254c32bbffce0f4572e11baf7290",
+      "pages": 77,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:26.853547+00:00"
+    },
+    {
+      "arxiv_id": "2606.02800",
+      "status": "converted",
+      "pdf": "raw/World-Models/2606.02800.pdf",
+      "markdown": "raw/World-Models/2606.02800.fulltext.md",
+      "pdf_sha256": "df058bd2447fbdd83d13fd63be60a8b0aceb00ef6e50ba428b0a6bdbbed64b8d",
+      "pages": 139,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:27.791182+00:00"
+    },
+    {
+      "arxiv_id": "2606.03159",
+      "status": "converted",
+      "pdf": "raw/World-Models/2606.03159.pdf",
+      "markdown": "raw/World-Models/2606.03159.fulltext.md",
+      "pdf_sha256": "ad43aea5b73d5cc166128cd8950292e523e77293f953625579b4636e45f7b598",
+      "pages": 39,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:26.803612+00:00"
+    },
+    {
+      "arxiv_id": "2605.19242",
+      "status": "converted",
+      "pdf": "raw/World-Models/2605.19242.pdf",
+      "markdown": "raw/World-Models/2605.19242.fulltext.md",
+      "pdf_sha256": "57cc1e30c733df5a19c9a610318623aeaec87c2dc2fe1ec51e91f41cae2f6d04",
+      "pages": 18,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:26.787275+00:00"
+    },
+    {
+      "arxiv_id": "2510.12796",
+      "status": "converted",
+      "pdf": "raw/World-Models/2510.12796.pdf",
+      "markdown": "raw/World-Models/2510.12796.fulltext.md",
+      "pdf_sha256": "f5c200f838546b9c62ff35d38c21f788ef2db2adab919d6db58ec180c55e4823",
+      "pages": 22,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:27.056285+00:00"
+    },
+    {
+      "arxiv_id": "2607.02604",
+      "status": "converted",
+      "pdf": "raw/World-Models/2607.02604.pdf",
+      "markdown": "raw/World-Models/2607.02604.fulltext.md",
+      "pdf_sha256": "01ac4a2d1ae5ace3240ad32a6c7a2b0db1d7f7e181f840c4cefcae2f6bb4323e",
+      "pages": 17,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:27.002200+00:00"
+    },
+    {
+      "arxiv_id": "2602.02454",
+      "status": "converted",
+      "pdf": "raw/World-Models/2602.02454.pdf",
+      "markdown": "raw/World-Models/2602.02454.fulltext.md",
+      "pdf_sha256": "cf1afebacb119acc44b84543229f8975a4bf0f836b6734a8b50b4474291c14ef",
+      "pages": 23,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:27.075288+00:00"
+    },
+    {
+      "arxiv_id": "2605.12334",
+      "status": "converted",
+      "pdf": "raw/World-Models/2605.12334.pdf",
+      "markdown": "raw/World-Models/2605.12334.fulltext.md",
+      "pdf_sha256": "e62714bc48960c458aca9305d895f07217cdfec75620b5bbcc27375f9fa31bab",
+      "pages": 17,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:27.173371+00:00"
+    },
+    {
+      "arxiv_id": "2604.19092",
+      "status": "converted",
+      "pdf": "raw/World-Models/2604.19092.pdf",
+      "markdown": "raw/World-Models/2604.19092.fulltext.md",
+      "pdf_sha256": "4450ceffa72850511da6c91b3ce6f73bc070d372104dc8f60ce6fbf8f84ed566",
+      "pages": 24,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:27.352020+00:00"
+    },
+    {
+      "arxiv_id": "2606.01600",
+      "status": "converted",
+      "pdf": "raw/World-Models/2606.01600.pdf",
+      "markdown": "raw/World-Models/2606.01600.fulltext.md",
+      "pdf_sha256": "9fc869cc9fc58a993a9277bdc8b4fb58b176b7e4816fdd3cd21bf6b06652b857",
+      "pages": 27,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:27.549716+00:00"
+    },
+    {
+      "arxiv_id": "2509.07996",
+      "status": "converted",
+      "pdf": "raw/World-Models/2509.07996.pdf",
+      "markdown": "raw/World-Models/2509.07996.fulltext.md",
+      "pdf_sha256": "5d57e4f659648e61e316e3a6bcad4c8c537b8bd33f882edb2fa7576ab361c5aa",
+      "pages": 63,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:28.818428+00:00"
+    },
+    {
+      "arxiv_id": "2608.06375",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2608.06375.pdf",
+      "markdown": "raw/Embodied-Intelligence/2608.06375.fulltext.md",
+      "pdf_sha256": "c56d4115741a7979bb63ed4ff8e76e25c8e6ca933d6b18f2d122d8a46ec4d02c",
+      "pages": 39,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:28.143431+00:00"
+    },
+    {
+      "arxiv_id": "2608.08237",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2608.08237.pdf",
+      "markdown": "raw/Embodied-Intelligence/2608.08237.fulltext.md",
+      "pdf_sha256": "a4c8c8f482da99a8f2f1667584c124f55d5a74f4c53d2f1c840608904088c155",
+      "pages": 7,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:27.646919+00:00"
+    },
+    {
+      "arxiv_id": "2608.07889",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2608.07889.pdf",
+      "markdown": "raw/Embodied-Intelligence/2608.07889.fulltext.md",
+      "pdf_sha256": "4dee7e6409617098ff8df0994eef047e21cfea62b191ab121ca7d18133489bcd",
+      "pages": 12,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:27.774546+00:00"
+    },
+    {
+      "arxiv_id": "2608.07065",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2608.07065.pdf",
+      "markdown": "raw/Embodied-Intelligence/2608.07065.fulltext.md",
+      "pdf_sha256": "30495f31faa6c9940be73e59e6278bf97fb407d5bbb431ffdfdde9c7e24fe5ea",
+      "pages": 9,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:27.931101+00:00"
+    },
+    {
+      "arxiv_id": "2608.06004",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2608.06004.pdf",
+      "markdown": "raw/Embodied-Intelligence/2608.06004.fulltext.md",
+      "pdf_sha256": "69e27826e6f3797a0e65c87520e82f2142b266f337ad081f0f601f6fdd1dd6a5",
+      "pages": 16,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:28.126338+00:00"
+    },
+    {
+      "arxiv_id": "2608.06009",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2608.06009.pdf",
+      "markdown": "raw/Embodied-Intelligence/2608.06009.fulltext.md",
+      "pdf_sha256": "06c720cab1411a4fafad791e7ce13132e7e3be70b56067e76dd807d6a2561a4b",
+      "pages": 14,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:28.117183+00:00"
+    },
+    {
+      "arxiv_id": "2608.02326",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2608.02326.pdf",
+      "markdown": "raw/Embodied-Intelligence/2608.02326.fulltext.md",
+      "pdf_sha256": "04ceaaf46cdaed3f47ca403db49625e8098165810eae22a64869eb769658bd7c",
+      "pages": 13,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:28.763258+00:00"
+    },
+    {
+      "arxiv_id": "2608.02736",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2608.02736.pdf",
+      "markdown": "raw/Embodied-Intelligence/2608.02736.fulltext.md",
+      "pdf_sha256": "7948c13b92a5f8cc11039b834ac4ffa4e94fa50229d774af1cc491e4a1a23ca0",
+      "pages": 8,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:28.292963+00:00"
+    },
+    {
+      "arxiv_id": "2601.11404",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2601.11404.pdf",
+      "markdown": "raw/Embodied-Intelligence/2601.11404.fulltext.md",
+      "pdf_sha256": "cc08adcd3a166484853cde4cd76213646ab08f107762da06e148e05d268fd327",
+      "pages": 15,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:28.433278+00:00"
+    },
+    {
+      "arxiv_id": "2608.07746",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2608.07746.pdf",
+      "markdown": "raw/Embodied-Intelligence/2608.07746.fulltext.md",
+      "pdf_sha256": "17642a8dfebb8400d0c8ee115a0484fe1748f48581578478829c534c7b47f6ed",
+      "pages": 9,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:28.418313+00:00"
+    },
+    {
+      "arxiv_id": "2607.25895",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2607.25895.pdf",
+      "markdown": "raw/Embodied-Intelligence/2607.25895.fulltext.md",
+      "pdf_sha256": "5ec3eb818a43b88382985dcf1aaeafcdcf3ad1648dfdbec3c09e0f6631c944f1",
+      "pages": 33,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:28.862101+00:00"
+    },
+    {
+      "arxiv_id": "2608.07075",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2608.07075.pdf",
+      "markdown": "raw/Embodied-Intelligence/2608.07075.fulltext.md",
+      "pdf_sha256": "71a71b5997a26924f0d0d8ca83c34b64adc8d58ac7f49d4ab629df8878d4b316",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:28.688424+00:00"
+    },
+    {
+      "arxiv_id": "2607.11689",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2607.11689.pdf",
+      "markdown": "raw/Embodied-Intelligence/2607.11689.fulltext.md",
+      "pdf_sha256": "a3c0a75a8f3e9d05178a2bc786b6e9a33086a4093dfbf50a96cd44f93f94d1f4",
+      "pages": 31,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.053313+00:00"
+    },
+    {
+      "arxiv_id": "2607.10655",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2607.10655.pdf",
+      "markdown": "raw/Embodied-Intelligence/2607.10655.fulltext.md",
+      "pdf_sha256": "3af669cfc49ac92889bc41765c8fa7d07191645a37d58a2c808d0b0ac82a2e17",
+      "pages": 17,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.003333+00:00"
+    },
+    {
+      "arxiv_id": "2607.13017",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2607.13017.pdf",
+      "markdown": "raw/Embodied-Intelligence/2607.13017.fulltext.md",
+      "pdf_sha256": "a4dea6542be553e1bda65617085861650dab686b84014d6f50473f6d432a0283",
+      "pages": 27,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.109875+00:00"
+    },
+    {
+      "arxiv_id": "2607.13033",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2607.13033.pdf",
+      "markdown": "raw/Embodied-Intelligence/2607.13033.fulltext.md",
+      "pdf_sha256": "115651988624eed90e76b1b7e3c58cf8d1af4bc2d44a51ea4c59479f66961256",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.043298+00:00"
+    },
+    {
+      "arxiv_id": "2608.08097",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2608.08097.pdf",
+      "markdown": "raw/AI-Infra/2608.08097.fulltext.md",
+      "pdf_sha256": "3c6818ac79af73178fb3199646baf66163a25bc603658dfeee333a4896c9abf1",
+      "pages": 16,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.354438+00:00"
+    },
+    {
+      "arxiv_id": "2608.07009",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2608.07009.pdf",
+      "markdown": "raw/AI-Infra/2608.07009.fulltext.md",
+      "pdf_sha256": "7f6c545e6e54de09d6190574e643255c98d68870ed1261babbb09b0c7d3e7b91",
+      "pages": 20,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.348237+00:00"
+    },
+    {
+      "arxiv_id": "2608.09907",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2608.09907.pdf",
+      "markdown": "raw/AI-Infra/2608.09907.fulltext.md",
+      "pdf_sha256": "d3c3b965b16135d330f23155fdf1de79788dae976c311d445b96914589c04d78",
+      "pages": 23,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.633534+00:00"
+    },
+    {
+      "arxiv_id": "2608.01526",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2608.01526.pdf",
+      "markdown": "raw/AI-Infra/2608.01526.fulltext.md",
+      "pdf_sha256": "4e9377cc88112177a2e2b5100c87b9b2055c7a3a9fe43defde7067c7c7d869ca",
+      "pages": 10,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.274154+00:00"
+    },
+    {
+      "arxiv_id": "2604.07609",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2604.07609.pdf",
+      "markdown": "raw/AI-Infra/2604.07609.fulltext.md",
+      "pdf_sha256": "dd49ae8881c3de4567ffb503fd840cd93b1d60e00e87c629906dc45258f80a88",
+      "pages": 21,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.986020+00:00"
+    },
+    {
+      "arxiv_id": "2608.02989",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2608.02989.pdf",
+      "markdown": "raw/AI-Infra/2608.02989.fulltext.md",
+      "pdf_sha256": "771ac623b4f135ad8c191d7234881fd691c2d2c430d7443ff9c2fc6d76041c08",
+      "pages": 10,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.515172+00:00"
+    },
+    {
+      "arxiv_id": "2606.26607",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2606.26607.pdf",
+      "markdown": "raw/AI-Infra/2606.26607.fulltext.md",
+      "pdf_sha256": "7685dbed349c95eb3b0f80b70b5fd953da8891531d840a1b66004cb68227b1d5",
+      "pages": 17,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.573806+00:00"
+    },
+    {
+      "arxiv_id": "2607.18141",
+      "status": "converted",
+      "pdf": "raw/AI-Infra/2607.18141.pdf",
+      "markdown": "raw/AI-Infra/2607.18141.fulltext.md",
+      "pdf_sha256": "41aff50abea5ca60f1ad5ac9b3534f26ff40d109315a0e8e9b1d23690a67bf53",
+      "pages": 14,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:29.850383+00:00"
+    },
+    {
+      "arxiv_id": "2609.11842",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11842.pdf",
+      "markdown": "raw/Deep-Learning/2609.11842.fulltext.md",
+      "pdf_sha256": "0b922b5fe8c9123f0c5e9358f0f36f81df67ef05cb2341e13777f2a169e74cb5",
+      "pages": 35,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:30.048071+00:00"
+    },
+    {
+      "arxiv_id": "2609.11801",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11801.pdf",
+      "markdown": "raw/Deep-Learning/2609.11801.fulltext.md",
+      "pdf_sha256": "81e99bd4babe46e6145d4b791bb791812d6bb7de684e5951de0acc01f5e8c38a",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:30.168588+00:00"
+    },
+    {
+      "arxiv_id": "2609.11917",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11917.pdf",
+      "markdown": "raw/Deep-Learning/2609.11917.fulltext.md",
+      "pdf_sha256": "2b1930be36df847d1943f16cc91197f97de8357fb4ad77682cd0369c4f7e0e64",
+      "pages": 35,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:30.984155+00:00"
+    },
+    {
+      "arxiv_id": "2609.11918",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11918.pdf",
+      "markdown": "raw/Deep-Learning/2609.11918.fulltext.md",
+      "pdf_sha256": "a9df1408b1522c7ed032ac181899b22e03d3dd10abe43bac1ed2c34215696870",
+      "pages": 38,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:30.966973+00:00"
+    },
+    {
+      "arxiv_id": "2609.11873",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11873.pdf",
+      "markdown": "raw/Deep-Learning/2609.11873.fulltext.md",
+      "pdf_sha256": "15b245c9a7bba46230d140519342da311df0c74e71b707ac779f35bb08f271c0",
+      "pages": 79,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:31.328039+00:00"
+    },
+    {
+      "arxiv_id": "2609.11884",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11884.pdf",
+      "markdown": "raw/Deep-Learning/2609.11884.fulltext.md",
+      "pdf_sha256": "9564e621ff0ef8654ee718ff8e4b21daa8d3d523726222598dd12f48f1f2d0ee",
+      "pages": 31,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:30.511482+00:00"
+    },
+    {
+      "arxiv_id": "2609.11538",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11538.pdf",
+      "markdown": "raw/Deep-Learning/2609.11538.fulltext.md",
+      "pdf_sha256": "4ac56c4ccf4701db5b774c60027757e4564fd5f043ac8090d240e6e63ea75016",
+      "pages": 18,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:31.521370+00:00"
+    },
+    {
+      "arxiv_id": "2609.11521",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11521.pdf",
+      "markdown": "raw/Deep-Learning/2609.11521.fulltext.md",
+      "pdf_sha256": "f6aacbdb9b2e4dc1071600d52402dd7a5c591678974e066aee85b6eff3a4a2eb",
+      "pages": 47,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:31.778934+00:00"
+    },
+    {
+      "arxiv_id": "2609.11656",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11656.pdf",
+      "markdown": "raw/Deep-Learning/2609.11656.fulltext.md",
+      "pdf_sha256": "be067025a23f22b1409a30becdb73a7a73b72061f14f0e92b5dae04fcb41b503",
+      "pages": 33,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:31.364455+00:00"
+    },
+    {
+      "arxiv_id": "2609.11780",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11780.pdf",
+      "markdown": "raw/Deep-Learning/2609.11780.fulltext.md",
+      "pdf_sha256": "a5dabaa5982e088d1c3ca4b0ee9faf05ab65b885bfce2ec59337098e80e3790e",
+      "pages": 14,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:31.587960+00:00"
+    },
+    {
+      "arxiv_id": "2609.11253",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11253.pdf",
+      "markdown": "raw/Deep-Learning/2609.11253.fulltext.md",
+      "pdf_sha256": "1a1474c3dd14c787e13a8006c615fe40d86e0d12c303df4b4e634ea5072b513c",
+      "pages": 21,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:31.624781+00:00"
+    },
+    {
+      "arxiv_id": "2609.11790",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11790.pdf",
+      "markdown": "raw/Deep-Learning/2609.11790.fulltext.md",
+      "pdf_sha256": "7c7e0ad5697e777ce7a95f8258c2800e9d79ece187b5a790790a3c2d6a4d3a33",
+      "pages": 36,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:32.484743+00:00"
+    },
+    {
+      "arxiv_id": "2609.11580",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11580.pdf",
+      "markdown": "raw/Deep-Learning/2609.11580.fulltext.md",
+      "pdf_sha256": "7865d855a3bb10b90f5250846298b0d29f2680b943c8eec6cb41b0bbe0effb20",
+      "pages": 18,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:32.328839+00:00"
+    },
+    {
+      "arxiv_id": "2609.11904",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.11904.pdf",
+      "markdown": "raw/Deep-Learning/2609.11904.fulltext.md",
+      "pdf_sha256": "25395d19e1b2323123673735c9a13175e98aa45ad171becf8aa96b8836b43c51",
+      "pages": 8,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:31.735341+00:00"
+    },
+    {
+      "arxiv_id": "2609.20641",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.20641.pdf",
+      "markdown": "raw/Deep-Learning/2609.20641.fulltext.md",
+      "pdf_sha256": "ada9c20579468402479d0d0474f4f9c5d112e8f8ef116adfabcf026251cc5f3a",
+      "pages": 29,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:32.274654+00:00"
+    },
+    {
+      "arxiv_id": "2609.18419",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.18419.pdf",
+      "markdown": "raw/Deep-Learning/2609.18419.fulltext.md",
+      "pdf_sha256": "e7228036ebebad062a963ddeb9235a1025dce51c3416c7bb2b2b1e18296c1548",
+      "pages": 29,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:32.038147+00:00"
+    },
+    {
+      "arxiv_id": "2609.19915",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.19915.pdf",
+      "markdown": "raw/Deep-Learning/2609.19915.fulltext.md",
+      "pdf_sha256": "8d4de47cc32d87d8b191620c3e2684806645a3477d8fc91494c75ae1aa644aff",
+      "pages": 24,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:32.365663+00:00"
+    },
+    {
+      "arxiv_id": "2609.15536",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.15536.pdf",
+      "markdown": "raw/Deep-Learning/2609.15536.fulltext.md",
+      "pdf_sha256": "7825be81ebce3e2221e13cf015d90135655b1703d979e5779dd832de3645dbf8",
+      "pages": 26,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:32.658746+00:00"
+    },
+    {
+      "arxiv_id": "2609.18901",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.18901.pdf",
+      "markdown": "raw/Deep-Learning/2609.18901.fulltext.md",
+      "pdf_sha256": "5bb4cd57966310a182a27635f76a38250737e433e791fbabda823bdf294d7549",
+      "pages": 41,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:32.869077+00:00"
+    },
+    {
+      "arxiv_id": "2609.20794",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.20794.pdf",
+      "markdown": "raw/Deep-Learning/2609.20794.fulltext.md",
+      "pdf_sha256": "4d5ca8dbca13989347ad1612ae4acaebe7fe43fe55d2c9f9247225eb34baf068",
+      "pages": 32,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:32.763060+00:00"
+    },
+    {
+      "arxiv_id": "2609.16853",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.16853.pdf",
+      "markdown": "raw/Deep-Learning/2609.16853.fulltext.md",
+      "pdf_sha256": "c9378f6e81cd464974cf95925a9ac5f201c8050687f698460405238deb80b151",
+      "pages": 31,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:32.918917+00:00"
+    },
+    {
+      "arxiv_id": "2609.16406",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.16406.pdf",
+      "markdown": "raw/Deep-Learning/2609.16406.fulltext.md",
+      "pdf_sha256": "7661f0c56164263d0e3d2bd23d25d42f505d8e5abc49bb40f169f3f98179629e",
+      "pages": 24,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:32.967491+00:00"
+    },
+    {
+      "arxiv_id": "2609.17841",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.17841.pdf",
+      "markdown": "raw/Deep-Learning/2609.17841.fulltext.md",
+      "pdf_sha256": "a6ee9163375ad35cf09038154807749bb32159a284f4b34e82e144112d20efe7",
+      "pages": 19,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:32.971659+00:00"
+    },
+    {
+      "arxiv_id": "2609.15432",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.15432.pdf",
+      "markdown": "raw/Deep-Learning/2609.15432.fulltext.md",
+      "pdf_sha256": "b253e9d62fbebf57dae1e9a381895831872218a85c585f99bd392214aa664678",
+      "pages": 43,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:33.659355+00:00"
+    },
+    {
+      "arxiv_id": "2609.19871",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.19871.pdf",
+      "markdown": "raw/Deep-Learning/2609.19871.fulltext.md",
+      "pdf_sha256": "50c776c2578ce10f2eccf401ed6ced35545ea0e33dbaef52a61169370d197677",
+      "pages": 16,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:33.064734+00:00"
+    },
+    {
+      "arxiv_id": "2609.19756",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.19756.pdf",
+      "markdown": "raw/Deep-Learning/2609.19756.fulltext.md",
+      "pdf_sha256": "eee9c082b71da84be6441f3b593d843e4a8540d25d330027cb5cb72123f8f208",
+      "pages": 14,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:33.227065+00:00"
+    },
+    {
+      "arxiv_id": "2609.17063",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.17063.pdf",
+      "markdown": "raw/Deep-Learning/2609.17063.fulltext.md",
+      "pdf_sha256": "87c683e067b408a83da043861eedec50260406329625e430e1e9ab437aa8232b",
+      "pages": 10,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:33.087967+00:00"
+    },
+    {
+      "arxiv_id": "2609.19290",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2609.19290.pdf",
+      "markdown": "raw/Deep-Learning/2609.19290.fulltext.md",
+      "pdf_sha256": "ae472d07baae1997783bfbd53570f1fd7b6d06b75f2b9a9b41eca73b93503616",
+      "pages": 69,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:34.363143+00:00"
+    },
+    {
+      "arxiv_id": "2609.26292",
+      "status": "converted",
+      "pdf": "raw/World-Models/2609.26292.pdf",
+      "markdown": "raw/World-Models/2609.26292.fulltext.md",
+      "pdf_sha256": "aba2c21a1bc49bcefde600798ca16b02bf902297b996670729a914fc0d76aa61",
+      "pages": 11,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:33.200607+00:00"
+    },
+    {
+      "arxiv_id": "2609.28931",
+      "status": "converted",
+      "pdf": "raw/World-Models/2609.28931.pdf",
+      "markdown": "raw/World-Models/2609.28931.fulltext.md",
+      "pdf_sha256": "5616564f117c0ab0f820c9c5e3ee1edfc460ddbdef57b7b849f0bdbf56bbdbd5",
+      "pages": 42,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:33.660192+00:00"
+    },
+    {
+      "arxiv_id": "2609.20034",
+      "status": "converted",
+      "pdf": "raw/World-Models/2609.20034.pdf",
+      "markdown": "raw/World-Models/2609.20034.fulltext.md",
+      "pdf_sha256": "53c86cd144ab702f62f672a3b7ae585a792576d2f725d2227165aaccdb3b6264",
+      "pages": 25,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:33.534265+00:00"
+    },
+    {
+      "arxiv_id": "2609.19729",
+      "status": "converted",
+      "pdf": "raw/World-Models/2609.19729.pdf",
+      "markdown": "raw/World-Models/2609.19729.fulltext.md",
+      "pdf_sha256": "4d5379f764f14d0ac7f59f484615ba03d3e8de25f1c720335162af74eb74bee0",
+      "pages": 18,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:33.807109+00:00"
+    },
+    {
+      "arxiv_id": "2609.20819",
+      "status": "converted",
+      "pdf": "raw/World-Models/2609.20819.pdf",
+      "markdown": "raw/World-Models/2609.20819.fulltext.md",
+      "pdf_sha256": "a61f44e86c46eb24717a73a468e34e47949376d801c22ce3e80686786eed3214",
+      "pages": 41,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:34.567067+00:00"
+    },
+    {
+      "arxiv_id": "2609.16697",
+      "status": "converted",
+      "pdf": "raw/World-Models/2609.16697.pdf",
+      "markdown": "raw/World-Models/2609.16697.fulltext.md",
+      "pdf_sha256": "2a6011b3d8c261c89a870c4c48ec8ac6407048dbe3d34a5724b02431b61f0a65",
+      "pages": 51,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:34.485476+00:00"
+    },
+    {
+      "arxiv_id": "2608.26671",
+      "status": "converted",
+      "pdf": "raw/World-Models/2608.26671.pdf",
+      "markdown": "raw/World-Models/2608.26671.fulltext.md",
+      "pdf_sha256": "990e11c80d10f625f532e78ae3787abec33f1bcfaf17282fb44695fa461dcd77",
+      "pages": 15,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:34.051024+00:00"
+    },
+    {
+      "arxiv_id": "2610.00438",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2610.00438.pdf",
+      "markdown": "raw/Embodied-Intelligence/2610.00438.fulltext.md",
+      "pdf_sha256": "6d2e48b284c9d2d6a21882239cb6dcec5b493744c1bac0bcd2681008849fbc76",
+      "pages": 15,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:34.430978+00:00"
+    },
+    {
+      "arxiv_id": "2609.39403",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2609.39403.pdf",
+      "markdown": "raw/Embodied-Intelligence/2609.39403.fulltext.md",
+      "pdf_sha256": "6fd487dacad8af7c8b3d6908cbc35a692f0a057a06cc65447f3ad9c8b473f206",
+      "pages": 22,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:34.724736+00:00"
+    },
+    {
+      "arxiv_id": "2609.37181",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2609.37181.pdf",
+      "markdown": "raw/Embodied-Intelligence/2609.37181.fulltext.md",
+      "pdf_sha256": "d6b9bfb64b6d4444b83bbcd11d9e29d3a82f0eff991f347ea80bf8b412553d8e",
+      "pages": 24,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:34.797597+00:00"
+    },
+    {
+      "arxiv_id": "2609.34182",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2609.34182.pdf",
+      "markdown": "raw/Embodied-Intelligence/2609.34182.fulltext.md",
+      "pdf_sha256": "34c12da76a2bd39dfc440d0756a2228429a1a6a91de82b1a838e1dbd84bf82d4",
+      "pages": 10,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:34.646328+00:00"
+    },
+    {
+      "arxiv_id": "2609.33007",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2609.33007.pdf",
+      "markdown": "raw/Embodied-Intelligence/2609.33007.fulltext.md",
+      "pdf_sha256": "cab67b7968fc27b4969ca68e860e0dab4993c43d1d9cdd98a209dcf83cb6e79b",
+      "pages": 23,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:34.921043+00:00"
+    },
+    {
+      "arxiv_id": "2607.08436",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2607.08436.pdf",
+      "markdown": "raw/Embodied-Intelligence/2607.08436.fulltext.md",
+      "pdf_sha256": "dcda12fc4e871509ff95847ed92e64cfc71aaf021c3bf17e14312259e2229443",
+      "pages": 23,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:35.496506+00:00"
+    },
+    {
+      "arxiv_id": "2609.30959",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2609.30959.pdf",
+      "markdown": "raw/Embodied-Intelligence/2609.30959.fulltext.md",
+      "pdf_sha256": "5cc6203650ef5038b7032494804dd9561d570ed1ccec85352f12e3012232b4bc",
+      "pages": 9,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:34.838775+00:00"
+    },
+    {
+      "arxiv_id": "2609.24093",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2609.24093.pdf",
+      "markdown": "raw/Embodied-Intelligence/2609.24093.fulltext.md",
+      "pdf_sha256": "de4a8e8aec99379a9bab1ce65aa851d24039bf1317c5720bbf4b75d369a6183f",
+      "pages": 16,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:35.042763+00:00"
+    },
+    {
+      "arxiv_id": "2609.19666",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2609.19666.pdf",
+      "markdown": "raw/Embodied-Intelligence/2609.19666.fulltext.md",
+      "pdf_sha256": "52f62222bbbe183d864ee0206007f2cb3235fb65a8a71dbb5c49fac02e3372c8",
+      "pages": 28,
+      "empty_pages": [],
+      "converted_at": "2026-10-06T23:51:35.164959+00:00"
+    }
+  ]
+}

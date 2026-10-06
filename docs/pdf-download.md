@@ -16,3 +16,16 @@ python3 scripts/download_arxiv_pdfs.py --input radar/archive-coverage.json
 下载中使用 `.part` 临时文件，检查响应长度、PDF 文件头与 EOF 后才改为最终文件名。这是基础完整性检查，不证明文件可被所有 PDF 阅读器解析，也不核实论文标题。失败不会留下伪 PDF；已有损坏最终文件会报告错误，须人工移走后重试。支持完成文件级续跑，不支持字节级断点续传；单个未完成文件会重新下载。每次下载结果增量写入 `radar/download-manifest.json`，成功项包含获取时间、URL 与 SHA-256。
 
 基础 ID 下载当时的最新版本，manifest 明确标记版本未解析。需要可复现版本时提供 `vN`；没有版本的已有文件不会自动检测是否发布新版。不得把下载成功视为论文内容核验。一个输出目录同一时间只运行一个下载器。
+
+## PDF 仅本地保存，原文 Markdown 上传
+
+`raw/**/*.pdf` 已忽略；原始 PDF 保留在本地主题目录，不提交。运行下列命令把下载清单中的成功或已存在 PDF 转成同目录 `.fulltext.md`，已有同名 Markdown 不覆盖：
+
+```bash
+python3 -m pip install -r requirements-pdf.txt
+python3 scripts/pdf_to_markdown.py
+```
+
+最多四个本地工作进程并行提取。每页原始文本放在文本代码块中，保留页码、源 URL、PDF 哈希、提取工具和时间，不进行模型改写。表格、公式、多栏顺序与图片不能保证还原；文字缺失页单独记录，无可提取文本的整篇报告失败。报告保存在 `radar/pdf-conversion-manifest.json`。转换成功不等于论文内容核验，也不代表已完成知识文章。
+
+已存在 Git 历史中的旧 PDF 不因忽略规则自动消失；本次从当前跟踪树移除旧 PDF，但保留磁盘文件，不改写已推送的历史。
