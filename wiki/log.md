@@ -1,18 +1,5 @@
 # Wiki Log
 
-## [2026-09-21] Ingest | 论文雷达批量存档同步 (43 期周报)
-- 来源: workspace `paperradar/weekly/` + `paperradar/biweekly/` + `startup-tracker/weekly/`
-- 新增 `wiki/radar/` 存档专区（网站可浏览，支持全文搜索）:
-  - radar/ai-infra: 5 期 (W18 → W37)
-  - radar/deep-learning: 5 期 (W19 → W38)
-  - radar/physics-informed-ai: 5 期 (W20 → W39)
-  - radar/world-models: 4 期 (W17, W21, W26, W35)
-  - radar/embodied-intelligence: 7 期 (W36 + 双周报 2026-07-22 → 2026-09-16)
-  - radar/startup-radar: 17 期 (2026-06-07 → 2026-09-15)
-- 原始文件同步至 `raw/` 对应目录（raw/Embodied-Intelligence/ 为新建）
-- 更新: mkdocs.yml nav 新增「论文雷达存档」区块; wiki/index.md 新增存档索引表
-- 注: W24/W29/W30/W31 无报告产出（扫描轮换间隔 + 双周报替代），不存在缺失
-
 ## [2026-06-19] Ingest | 批量补全 51 篇 arXiv PDF 原文
 - 扫描全库：56 个独立 arXiv ID，原有 5 个有效 PDF，缺失 51 个
 - 成功下载 46 篇（urllib/curl 双策略，含断点续传 + 限速）
