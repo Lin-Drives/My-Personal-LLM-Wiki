@@ -1,0 +1,17 @@
+{
+  "paper": "2506.09985v1",
+  "artifact": "drafts/2506.09985v1.md",
+  "artifact_sha256": "replace-with-sha256-of-reviewed-draft",
+  "reviewer": "replace-with-independent-reviewer",
+  "outcome": "needs_revision",
+  "claims": [
+    {
+      "claim": "替换为被核查的具体论断",
+      "source": "raw/arxiv/2506.09985v1.xml",
+      "location": "替换为摘要、章节或表格位置",
+      "evidence": "替换为原文证据",
+      "verdict": "uncertain",
+      "notes": "遗漏条件、无法确认事项或需要修订的地方"
+    }
+  ]
+}

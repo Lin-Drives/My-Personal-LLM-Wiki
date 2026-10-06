@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1000" viewBox="0 0 1680 1000" role="img" aria-labelledby="title desc">
+<title id="title">论文雷达与知识维护：动态先发布，研究按需深化</title><desc id="desc">左侧 Kimi Claw 扫描、保存原始来源并检查身份。右侧上方动态经 CI 自动发布，不等待研究审核。下方单 agent 接续研究，重要结论交独立核查，最多两次尝试后保留草稿。个人选题随时加入。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#93a4b8"/></marker></defs>
+<rect width="1680" height="1000" rx="24" fill="#101722"/>
+<style>text{font-family: "PingFang SC","Microsoft YaHei",sans-serif} .h{font-size:28px;font-weight:650;fill:#f0f5fb}.b{font-size:20px;fill:#dbe5ef}.s{font-size:17px;fill:#a7b8cc}.tag{font-size:17px;font-weight:650}.line{fill:none;stroke:#93a4b8;stroke-width:2.5;marker-end:url(#arrow)}.optional{stroke-dasharray:7 6}</style>
+<text x="48" y="64" class="h">论文雷达 → 持续更新的知识库</text>
+<text x="48" y="102" class="s">单 agent 主流程 · 按需独立核查 · 通过文件交接，换工具也能继续</text>
+<rect x="40" y="150" width="340" height="775" rx="16" fill="#172232" stroke="#34455d"/>
+<rect x="420" y="150" width="1210" height="290" rx="16" fill="#132b31" stroke="#28606c"/>
+<rect x="420" y="480" width="1210" height="445" rx="16" fill="#192438" stroke="#34455d"/>
+<text x="65" y="194" class="h">01  发现与接入</text>
+<text x="447" y="194" class="h">02  最新动态</text>
+<text x="1135" y="194" class="s">自动发布，不等待研究或人工审核</text>
+<text x="447" y="524" class="h">03  知识深化</text>
+<text x="1170" y="524" class="s">按需执行 · 保留进度与证据</text>
+<rect x="65" y="235" width="290" height="95" rx="16" fill="#203047" stroke="#34455d"/>
+<text x="87" y="272" class="b">Kimi Claw 每周扫描</text>
+<text x="87" y="303" class="s">主题自由，输出统一扫描记录</text>
+<rect x="65" y="415" width="290" height="95" rx="16" fill="#203047" stroke="#34455d"/>
+<text x="87" y="452" class="b">保存来源与扫描记录</text>
+<text x="87" y="483" class="s">原文与工具解读分开存储</text>
+<rect x="65" y="595" width="290" height="95" rx="16" fill="#203047" stroke="#34455d"/>
+<text x="87" y="632" class="b">身份核对与去重</text>
+<text x="87" y="663" class="s">arXiv ID + 版本 / 原始哈希</text>
+<path d="M210 330V415" class="line"/>
+<path d="M210 510V595" class="line"/>
+<path d="M355 642H400V298H460" class="line"/>
+<path d="M400 642H455" class="line"/>
+<rect x="460" y="250" width="330" height="95" rx="16" fill="#16404a" stroke="#358492"/>
+<text x="482" y="287" class="b">生成最新动态</text>
+<text x="482" y="318" class="s">自动摘要、推荐理由与关联问题</text>
+<rect x="860" y="250" width="315" height="95" rx="16" fill="#16404a" stroke="#358492"/>
+<text x="882" y="287" class="b">CI 检查与构建</text>
+<text x="882" y="318" class="s">有效条目独立发布</text>
+<rect x="1245" y="250" width="335" height="95" rx="16" fill="#17473c" stroke="#32886e"/>
+<text x="1267" y="287" class="b">公开动态页</text>
+<text x="1267" y="318" class="s">标注自动生成、未人工核验</text>
+<path d="M790 298H860" class="line"/>
+<path d="M1175 298H1245" class="line"/>
+<text x="460" y="393" class="s">失败条目留待重试；同一期其他有效条目继续更新。</text>
+<rect x="455" y="595" width="230" height="95" rx="16" fill="#203047" stroke="#34455d"/>
+<text x="477" y="632" class="b">选择研究任务</text>
+<text x="477" y="663" class="s">单 agent 接手与续跑</text>
+<rect x="735" y="595" width="230" height="95" rx="16" fill="#203047" stroke="#34455d"/>
+<text x="757" y="632" class="b">撰写解读草稿</text>
+<text x="757" y="663" class="s">补充机器人基础与证据</text>
+<rect x="1015" y="595" width="230" height="95" rx="16" fill="#443721" stroke="#927345"/>
+<text x="1037" y="632" class="b">独立核查（按需）</text>
+<text x="1037" y="663" class="s">重要结论对照原文</text>
+<rect x="1295" y="595" width="285" height="95" rx="16" fill="#17473c" stroke="#32886e"/>
+<text x="1317" y="632" class="b">知识文章发布</text>
+<text x="1317" y="663" class="s">保留生成与核验状态</text>
+<path d="M685 642H735" class="line"/>
+<path d="M965 642H1015" class="line optional"/>
+<path d="M1245 642H1295" class="line optional"/>
+<text x="1246" y="580" class="s">通过</text>
+<path d="M850 595V565H1437V595" class="line optional"/>
+<text x="980" y="556" class="s">普通解读完成基础检查后发布</text>
+<path d="M1130 690V748H850V690" class="line"/>
+<text x="918" y="738" class="s">需修订：返回草稿</text>
+<rect x="1015" y="810" width="565" height="85" rx="16" fill="#342a2a" stroke="#755453"/>
+<text x="1037" y="847" class="b">达到尝试上限 → 保留草稿与问题</text>
+<text x="1037" y="878" class="s">最多两次尝试，等待后续补证，不阻塞动态</text>
+<path d="M1200 690V810" class="line"/>
+<rect x="455" y="810" width="455" height="85" rx="16" fill="#27314a" stroke="#576489"/>
+<text x="477" y="847" class="b">你的选题、理解与判断</text>
+<text x="477" y="878" class="s">随时加入，单独标识作者观点</text>
+<path d="M570 810V690" class="line optional"/>
+<text x="65" y="786" class="b">失败项记录原因</text>
+<text x="65" y="820" class="s">下次扫描或新批次重试</text>
+<text x="65" y="868" class="s">不覆盖原始来源和已有草稿</text>
+<text x="48" y="972" class="s">共享状态：来源文件 · 扫描目录 · 任务记录 · 草稿 · 核查报告     |     发布由一个执行者串行提交，CI 负责构建</text>
+</svg>

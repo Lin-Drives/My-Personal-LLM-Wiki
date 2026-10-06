@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "scan_id": "replace-with-unique-scan-id",
+  "scanned_at": "2026-10-06T12:00:00+08:00",
+  "producer": "replace-with-actual-tool-and-version",
+  "papers": [
+    {
+      "arxiv_id": "2506.09985",
+      "summary": "示例占位：替换为本期实际生成的解读，不要标为原文摘要。",
+      "selection_reason": "示例占位：说明与关注问题的联系及筛选理由。",
+      "tags": ["世界模型"],
+      "questions": ["world-model-planning"]
+    }
+  ]
+}
