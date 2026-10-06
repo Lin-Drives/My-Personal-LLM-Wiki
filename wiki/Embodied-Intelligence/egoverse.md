@@ -1,3 +1,21 @@
+---
+type: Paper Note
+title: EgoVerse：全球 egocentric 机器人学习数据集
+description: 整理EgoVerse：全球 egocentric 机器人学习数据集的背景、主要内容与相关材料。
+tags:
+- 具身智能
+status: draft
+resource: https://arxiv.org/abs/2604.07607
+arxiv_id: '2604.07607'
+sources:
+- id: arxiv-2604.07607
+  resource: https://arxiv.org/abs/2604.07607
+- id: external-2
+  resource: https://egoverse.ai/
+- id: raw-2026-04-08-egoverse-egocentric-human-dataset
+  resource: ../../raw/World-Models/2026-04-08-egoverse-egocentric-human-dataset.md
+---
+
 # EgoVerse：全球 egocentric 机器人学习数据集
 
 ## Source

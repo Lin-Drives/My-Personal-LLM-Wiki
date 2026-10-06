@@ -1,3 +1,17 @@
+---
+type: Research Synthesis
+title: 分布式 LLM 训练与推理并行策略
+description: 整理分布式 LLM 训练与推理并行策略的背景、主要内容与相关材料。
+tags:
+- AI 基础设施
+status: draft
+sources:
+- id: raw-2026-amer-distributed-hybrid-parallelism
+  resource: ../../raw/AI-Infra/2026-amer-distributed-hybrid-parallelism.md
+- id: raw-2026-W18-ai-infra
+  resource: ../../raw/AI-Infra/2026-W18-ai-infra.md
+---
+
 # 分布式 LLM 训练与推理并行策略
 
 > Sources: 多篇综述整合, 2026

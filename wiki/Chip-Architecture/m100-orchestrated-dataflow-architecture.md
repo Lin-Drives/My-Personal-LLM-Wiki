@@ -1,3 +1,17 @@
+---
+type: Paper Note
+title: 'M100: 编排式数据流架构'
+description: '整理M100: 编排式数据流架构的背景、主要内容与相关材料。'
+tags:
+- 芯片架构
+status: draft
+sources:
+- id: raw-2026-xie-m100-orchestrated-dataflow-isca
+  resource: ../../raw/Chip-Architecture/2026-xie-m100-orchestrated-dataflow-isca.md
+- id: raw-m100-li-auto-dataflow-architecture
+  resource: ../../raw/Chip-Architecture/m100-li-auto-dataflow-architecture.md
+---
+
 # M100: 编排式数据流架构
 
 > Sources: Xie et al. (理想汽车), ISCA 2026

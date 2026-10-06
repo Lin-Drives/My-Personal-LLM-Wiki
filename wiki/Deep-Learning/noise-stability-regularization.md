@@ -1,3 +1,17 @@
+---
+type: Paper Note
+title: Noise Stability 正则化
+description: 整理Noise Stability 正则化的背景、主要内容与相关材料。
+tags:
+- 深度学习
+status: draft
+sources:
+- id: raw-2026-haris-noise-stability-transformers
+  resource: ../../raw/Deep-Learning/2026-haris-noise-stability-transformers.md
+- id: raw-2026-W19-deep-learning
+  resource: ../../raw/Deep-Learning/2026-W19-deep-learning.md
+---
+
 # Noise Stability 正则化
 
 > Sources: Themistoklis Haris, 2026-02

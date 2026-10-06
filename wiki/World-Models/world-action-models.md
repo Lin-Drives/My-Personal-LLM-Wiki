@@ -1,3 +1,15 @@
+---
+type: Research Synthesis
+title: World Action Models：从世界预测到可执行动作
+description: 整理World Action Models：从世界预测到可执行动作的背景、主要内容与相关材料。
+tags:
+- 世界模型
+status: draft
+sources:
+- id: raw-2026-W21-world-models
+  resource: ../../raw/World-Models/2026-W21-world-models.md
+---
+
 # World Action Models：从世界预测到可执行动作
 
 > Sources: W21 World Models 周报, 2026-05

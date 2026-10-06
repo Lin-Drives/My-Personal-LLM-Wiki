@@ -1,3 +1,23 @@
+---
+type: Paper Note
+title: HumanEgo：零样本机器人学习的极致数据效率
+description: 整理HumanEgo：零样本机器人学习的极致数据效率的背景、主要内容与相关材料。
+tags:
+- 具身智能
+status: draft
+resource: https://arxiv.org/abs/2605.24934
+arxiv_id: '2605.24934'
+sources:
+- id: arxiv-2605.24934
+  resource: https://arxiv.org/abs/2605.24934
+- id: external-2
+  resource: https://github.com/TX-Leo/HumanEgo
+- id: external-3
+  resource: https://humanego-ai.github.io/
+- id: raw-2026-05-28-humanego-arxiv-2605.24934
+  resource: ../../raw/World-Models/2026-05-28-humanego-arxiv-2605.24934.md
+---
+
 # HumanEgo：零样本机器人学习的极致数据效率
 
 ## Source

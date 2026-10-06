@@ -1,3 +1,19 @@
+---
+type: Paper Note
+title: 视觉 Transformer：一幅图像相当于 16×16 个词
+description: 整理视觉 Transformer：一幅图像相当于 16×16 个词的背景、主要内容与相关材料。
+tags:
+- 深度学习
+status: draft
+resource: https://arxiv.org/abs/2010.11929
+arxiv_id: '2010.11929'
+sources:
+- id: arxiv-2010.11929
+  resource: https://arxiv.org/abs/2010.11929
+- id: raw-2020-10-22-vit-arxiv-2010.11929
+  resource: ../../raw/Deep-Learning/2020-10-22-vit-arxiv-2010.11929.md
+---
+
 # 视觉 Transformer：一幅图像相当于 16×16 个词
 
 ## 来源

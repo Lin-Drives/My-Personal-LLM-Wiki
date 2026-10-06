@@ -1,3 +1,21 @@
+---
+type: Paper Note
+title: 'C-JEPA: 物体级潜在干预的因果世界模型'
+description: '整理C-JEPA: 物体级潜在干预的因果世界模型的背景、主要内容与相关材料。'
+tags:
+- 世界模型
+status: draft
+resource: https://arxiv.org/abs/2602.11389
+arxiv_id: '2602.11389'
+sources:
+- id: arxiv-2602.11389
+  resource: https://arxiv.org/abs/2602.11389
+- id: raw-2026-nam-causal-jepa-object-level
+  resource: ../../raw/World-Models/2026-nam-causal-jepa-object-level.md
+- id: raw-2026-c-jepa-causal
+  resource: ../../raw/World-Models/2026-c-jepa-causal.md
+---
+
 # C-JEPA: 物体级潜在干预的因果世界模型
 
 > Sources: Nam, Le Lidec, Maes, LeCun, Balestriero — 2026 / arXiv:2602.11389

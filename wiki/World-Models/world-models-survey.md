@@ -1,3 +1,17 @@
+---
+type: Research Synthesis
+title: 世界模型综述
+description: 整理世界模型综述的背景、主要内容与相关材料。
+tags:
+- 世界模型
+status: draft
+sources:
+- id: raw-2024-ding-world-models-survey
+  resource: ../../raw/World-Models/2024-ding-world-models-survey.md
+- id: raw-2025-ding-world-models-survey
+  resource: ../../raw/World-Models/2025-ding-world-models-survey.md
+---
+
 # 世界模型综述
 
 > Sources: Ding et al., 2025 (ACM Computing Surveys)

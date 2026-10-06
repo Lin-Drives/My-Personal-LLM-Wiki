@@ -1,3 +1,15 @@
+---
+type: Paper Note
+title: AlphaGo
+description: 整理AlphaGo的背景、主要内容与相关材料。
+tags:
+- 强化学习
+status: draft
+sources:
+- id: raw-2016-01-28-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search
+  resource: ../../raw/Reinforcement-Learning/2016-01-28-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search.md
+---
+
 # AlphaGo
 
 > Sources: Silver et al., 2016-01-28

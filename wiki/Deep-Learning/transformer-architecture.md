@@ -1,3 +1,15 @@
+---
+type: Concept
+title: Transformer 架构
+description: 整理Transformer 架构的背景、主要内容与相关材料。
+tags:
+- 深度学习
+status: draft
+sources:
+- id: raw-2017-06-12-attention-is-all-you-need
+  resource: ../../raw/Deep-Learning/2017-06-12-attention-is-all-you-need.md
+---
+
 # Transformer 架构
 
 > Sources: Vaswani et al., 2017-06-12

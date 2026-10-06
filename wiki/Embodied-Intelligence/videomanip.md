@@ -1,3 +1,19 @@
+---
+type: Paper Note
+title: VideoManip：从 RGB 视频重建 3D 轨迹的 device-free 灵巧操作
+description: 整理VideoManip：从 RGB 视频重建 3D 轨迹的 device-free 灵巧操作的背景、主要内容与相关材料。
+tags:
+- 具身智能
+status: draft
+resource: https://arxiv.org/abs/2602.09013
+arxiv_id: '2602.09013'
+sources:
+- id: arxiv-2602.09013
+  resource: https://arxiv.org/abs/2602.09013
+- id: raw-2026-02-09-videomanip-arxiv-2602.09013
+  resource: ../../raw/Deep-Learning/2026-02-09-videomanip-arxiv-2602.09013.md
+---
+
 # VideoManip：从 RGB 视频重建 3D 轨迹的 device-free 灵巧操作
 
 ## Source

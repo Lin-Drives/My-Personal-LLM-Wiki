@@ -96,7 +96,7 @@ sources:
 - 索引与日志不是普通概念文章，不批量套用上述头部。根索引可用 `okf_version: "0.2"`；现有 MkDocs 专用头部兼容性在迁移时处理。
 - 原始 PDF 与原文保存不因 OKF 迁移而重写；OKF 主要规范 wiki 知识层。
 
-本文件确定后续约定；历史文章的批量迁移尚未执行。
+历史文章已完成头部迁移。原正文保留，来源头部仅整理文中明确声明的材料；统一标为 draft，不补造 generated 或 verified。辅助页面使用项目类型 Project Guide、Knowledge Map、Research Feed 和 Company Profile。根索引声明 okf_version，MkDocs 的 hide 配置由构建钩子设置；子目录索引与日志不加头部。构建及 CI 执行 scripts/validate_okf.py 检查。
 
 ## 读者与协作
 

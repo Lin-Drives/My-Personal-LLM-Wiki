@@ -1,3 +1,21 @@
+---
+type: Paper Note
+title: 'V-JEPA 2: 视频自监督到机器人零样本规划'
+description: '整理V-JEPA 2: 视频自监督到机器人零样本规划的背景、主要内容与相关材料。'
+tags:
+- 世界模型
+status: draft
+resource: https://arxiv.org/abs/2506.09985
+arxiv_id: '2506.09985'
+sources:
+- id: arxiv-2506.09985
+  resource: https://arxiv.org/abs/2506.09985
+- id: raw-2025-assran-v-jepa-2
+  resource: ../../raw/World-Models/2025-assran-v-jepa-2.md
+- id: raw-2025-vjepa2-lecun
+  resource: ../../raw/World-Models/2025-vjepa2-lecun.md
+---
+
 # V-JEPA 2: 视频自监督到机器人零样本规划
 
 > Sources: Assran, Bardes, LeCun et al. — CVPR 2025 / arXiv:2506.09985

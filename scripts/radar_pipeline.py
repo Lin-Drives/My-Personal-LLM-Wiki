@@ -181,7 +181,7 @@ def validate(root):
 def render(root, wiki_dir=None):
     catalog = validate(root)
     out = (wiki_dir or root / "wiki") / "updates.md"
-    lines = ["# 最新论文动态", "", "> 自动整理的扫描结果，尚未人工核验；摘要与推荐理由为扫描工具解读。原文链接可直接查看。", "", "按发现时间排列；论文发表与修订时间分别标注。深入解读的进度不阻塞这里更新。", ""]
+    lines = ["---", "type: Research Feed", "title: 最新论文动态", "description: 持续展示论文雷达发现的论文与工具解读。", "tags: [论文雷达]", "status: draft", "---", "", "# 最新论文动态", "", "> 自动整理的扫描结果，尚未人工核验；摘要与推荐理由为扫描工具解读。原文链接可直接查看。", "", "按发现时间排列；论文发表与修订时间分别标注。深入解读的进度不阻塞这里更新。", ""]
     if not catalog["papers"]:
         lines += ["尚未接入新的扫描结果。已有知识文章请从首页主题索引阅读。", ""]
     for p in catalog["papers"]:

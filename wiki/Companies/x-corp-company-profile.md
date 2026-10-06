@@ -1,3 +1,15 @@
+---
+type: Company Profile
+title: X Corp. 公司概况
+description: 整理X Corp. 公司概况的背景、主要内容与相关材料。
+tags:
+- 公司资料
+status: draft
+sources:
+- id: raw-2026-06-03-x-corp-about-official
+  resource: ../../raw/Companies/2026-06-03-x-corp-about-official.md
+---
+
 # X Corp. 公司概况
 
 > Sources: X About 官网, 2026-06-03

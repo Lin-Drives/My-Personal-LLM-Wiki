@@ -1,3 +1,17 @@
+---
+type: Paper Note
+title: Looped Transformers 稳定性与泛化
+description: 整理Looped Transformers 稳定性与泛化的背景、主要内容与相关材料。
+tags:
+- 深度学习
+status: draft
+sources:
+- id: raw-2026-labovich-looped-transformers-stability
+  resource: ../../raw/Deep-Learning/2026-labovich-looped-transformers-stability.md
+- id: raw-2026-W19-deep-learning
+  resource: ../../raw/Deep-Learning/2026-W19-deep-learning.md
+---
+
 # Looped Transformers 稳定性与泛化
 
 > Sources: Asher Labovich, 2026-04

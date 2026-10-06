@@ -1,3 +1,15 @@
+---
+type: Research Synthesis
+title: PINN/KAN 生态 2026
+description: 整理PINN/KAN 生态 2026的背景、主要内容与相关材料。
+tags:
+- 深度学习
+status: draft
+sources:
+- id: raw-2026-W20-physics-informed-ai
+  resource: ../../raw/Deep-Learning/2026-W20-physics-informed-ai.md
+---
+
 # PINN/KAN 生态 2026
 
 > Sources: W20 物理AI 周报, 2026-05

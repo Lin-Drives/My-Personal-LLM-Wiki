@@ -1,3 +1,21 @@
+---
+type: Paper Note
+title: 'K-PINN: 介观物理约束神经网络'
+description: '整理K-PINN: 介观物理约束神经网络的背景、主要内容与相关材料。'
+tags:
+- 深度学习
+status: draft
+resource: https://arxiv.org/abs/2604.03481
+arxiv_id: '2604.03481'
+sources:
+- id: arxiv-2604.03481
+  resource: https://arxiv.org/abs/2604.03481
+- id: raw-2026-meshram-k-pinn-lattice-boltzmann
+  resource: ../../raw/Deep-Learning/2026-meshram-k-pinn-lattice-boltzmann.md
+- id: raw-2026-W20-physics-informed-ai
+  resource: ../../raw/Deep-Learning/2026-W20-physics-informed-ai.md
+---
+
 # K-PINN: 介观物理约束神经网络
 
 > Sources: arXiv:2604.03481, 2026-04

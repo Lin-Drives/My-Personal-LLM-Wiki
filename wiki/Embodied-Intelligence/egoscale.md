@@ -1,3 +1,21 @@
+---
+type: Paper Note
+title: EgoScale：大规模人类 egocentric 视频预训练与灵巧操作
+description: 整理EgoScale：大规模人类 egocentric 视频预训练与灵巧操作的背景、主要内容与相关材料。
+tags:
+- 具身智能
+status: draft
+resource: https://arxiv.org/abs/2602.16710
+arxiv_id: '2602.16710'
+sources:
+- id: arxiv-2602.16710
+  resource: https://arxiv.org/abs/2602.16710
+- id: external-2
+  resource: https://research.nvidia.com/labs/gear/egoscale/
+- id: raw-2026-02-20-egoscale-arxiv-2602.16710
+  resource: ../../raw/World-Models/2026-02-20-egoscale-arxiv-2602.16710.md
+---
+
 # EgoScale：大规模人类 egocentric 视频预训练与灵巧操作
 
 ## Source

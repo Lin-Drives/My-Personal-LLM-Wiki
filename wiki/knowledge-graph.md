@@ -1,3 +1,15 @@
+---
+type: Knowledge Map
+title: Knowledge Graph
+description: 展示知识文章及其相互关联。
+tags:
+- 知识库
+status: draft
+sources:
+- id: graph-data
+  resource: graph-data.json
+---
+
 # Knowledge Graph
 
 <script src="https://cdn.jsdelivr.net/npm/vis-data@7.1.9/peer/umd/vis-data.min.js"></script>

@@ -38,7 +38,9 @@ wiki/updates.md      构建时生成的公开动态页；明确标注未人工�
 python3 scripts/radar_pipeline.py ingest --input /absolute/path/weekly-scan.json
 python3 scripts/radar_pipeline.py validate
 python3 scripts/radar_pipeline.py render
+python3 -m pip install -r requirements-dev.txt
 python3 -m unittest discover -s tests -v
+python3 scripts/validate_okf.py
 ```
 
 接入程序访问 arXiv API，核对身份并使用官方标题与日期。它保存原始响应，不证明工具解读正确。重复论文版本保留首次解读和已有任务；新版本另建记录，避免覆盖人工内容。

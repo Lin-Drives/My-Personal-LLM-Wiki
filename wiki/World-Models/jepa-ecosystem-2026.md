@@ -1,3 +1,17 @@
+---
+type: Research Synthesis
+title: JEPA 生态 2026
+description: 整理JEPA 生态 2026的背景、主要内容与相关材料。
+tags:
+- 世界模型
+status: draft
+sources:
+- id: raw-2026-W21-world-models
+  resource: ../../raw/World-Models/2026-W21-world-models.md
+- id: raw-2026-ad-list-jepa-lidar
+  resource: ../../raw/World-Models/2026-ad-list-jepa-lidar.md
+---
+
 # JEPA 生态 2026
 
 > Sources: W21 World Models 周报 + 多篇 JEPA 论文笔记, 2026-05

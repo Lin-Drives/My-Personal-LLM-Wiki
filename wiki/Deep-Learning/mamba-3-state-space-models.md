@@ -1,3 +1,17 @@
+---
+type: Paper Note
+title: 'Mamba-3: 状态空间模型的新范式'
+description: '整理Mamba-3: 状态空间模型的新范式的背景、主要内容与相关材料。'
+tags:
+- 深度学习
+status: draft
+sources:
+- id: raw-2026-lahoti-mamba-3-ssm
+  resource: ../../raw/Deep-Learning/2026-lahoti-mamba-3-ssm.md
+- id: raw-2026-W19-deep-learning
+  resource: ../../raw/Deep-Learning/2026-W19-deep-learning.md
+---
+
 # Mamba-3: 状态空间模型的新范式
 
 > Sources: Li, Chen, Wang, Bick, Kolter, Dao, Gu — ICLR 2026 Oral

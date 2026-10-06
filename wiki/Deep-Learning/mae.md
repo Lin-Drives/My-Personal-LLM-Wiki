@@ -1,3 +1,19 @@
+---
+type: Paper Note
+title: 掩码自编码器（MAE）：可扩展的视觉自监督学习者
+description: 整理掩码自编码器（MAE）：可扩展的视觉自监督学习者的背景、主要内容与相关材料。
+tags:
+- 深度学习
+status: draft
+resource: https://arxiv.org/abs/2111.06377
+arxiv_id: '2111.06377'
+sources:
+- id: arxiv-2111.06377
+  resource: https://arxiv.org/abs/2111.06377
+- id: raw-2021-11-11-mae-arxiv-2111.06377
+  resource: ../../raw/Deep-Learning/2021-11-11-mae-arxiv-2111.06377.md
+---
+
 # 掩码自编码器（MAE）：可扩展的视觉自监督学习者
 
 ## 来源

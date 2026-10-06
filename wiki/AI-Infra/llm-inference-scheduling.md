@@ -1,3 +1,17 @@
+---
+type: Paper Note
+title: LLM 推理调度理论
+description: 整理LLM 推理调度理论的背景、主要内容与相关材料。
+tags:
+- AI 基础设施
+status: draft
+sources:
+- id: raw-2025-dai-llm-inference-scheduling
+  resource: ../../raw/AI-Infra/2025-dai-llm-inference-scheduling.md
+- id: raw-2026-W18-ai-infra
+  resource: ../../raw/AI-Infra/2026-W18-ai-infra.md
+---
+
 # LLM 推理调度理论
 
 > Sources: Li, Dai, Peng, 2025

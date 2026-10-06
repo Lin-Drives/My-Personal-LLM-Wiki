@@ -1,3 +1,12 @@
+---
+type: Project Guide
+title: Overview — 项目概览与使用指南
+description: 说明知识库结构与使用方式。
+tags:
+- 知识库
+status: draft
+---
+
 # Overview — 项目概览与使用指南
 
 ## 仓库结构
