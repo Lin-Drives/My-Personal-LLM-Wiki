@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from download_arxiv_pdfs import Downloader, identities, valid_pdf
+from download_arxiv_pdfs import Downloader, identities, valid_pdf, topic_for
 
 PDF = b'%PDF-1.7\n' + b'fixture\n' * 10 + b'%%EOF\n'
 
@@ -48,3 +48,8 @@ class PDFTests(unittest.TestCase):
     def test_dedup_and_bad_identity(self):
         self.assertEqual(identities({'papers':[{'arxiv_id':'2506.09985'}]*2}),['2506.09985'])
         with self.assertRaises(ValueError): identities({'papers':[{'arxiv_id':'../escape'}]})
+
+    def test_topic_follows_existing_material_then_report(self):
+        self.assertEqual(topic_for({"wiki": ["wiki/World-Models/paper.md"], "reports": ["radar/paperradar/weekly/2026-W41-embodied-intelligence.md"]}), "World-Models")
+        self.assertEqual(topic_for({"reports": ["radar/paperradar/weekly/2026-W39-physics-informed-ai.md"]}), "Deep-Learning")
+        self.assertIsNone(topic_for({}))

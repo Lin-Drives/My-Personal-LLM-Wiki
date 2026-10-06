@@ -10,6 +10,23 @@ import urllib.error
 import urllib.request
 
 ROOT = Path(__file__).resolve().parent.parent
+TOPICS = {'ai-infra': 'AI-Infra', 'deep-learning': 'Deep-Learning', 'physics-informed-ai': 'Deep-Learning', 'world-models': 'World-Models', 'embodied-intelligence': 'Embodied-Intelligence'}
+
+
+def topic_for(row):
+    for path in row.get('wiki', []) + row.get('raw', []):
+        parts = Path(path).parts
+        if len(parts) > 2 and parts[1] in set(TOPICS.values()) | {'Chip-Architecture', 'Companies', 'Reinforcement-Learning'}:
+            return parts[1]
+    for report in row.get('reports', []):
+        for slug, topic in TOPICS.items():
+            if slug in Path(report).stem: return topic
+        if Path(report).stem == '2026-W17': return 'World-Models'
+    for tag in row.get('tags', []):
+        if tag.lower() in TOPICS: return TOPICS[tag.lower()]
+    return None
+
+
 PATTERN = re.compile(r'\d{4}\.\d{4,5}(?:v[1-9]\d*)?')
 
 
@@ -83,11 +100,16 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('ids', nargs='*')
     parser.add_argument('--input', type=Path, help='Scan JSON or archive-coverage.json')
-    parser.add_argument('--output', type=Path, default=ROOT / 'raw/arxiv-pdfs')
+    parser.add_argument('--output', type=Path, help='Optional explicit output directory; otherwise use raw/<topic>')
     parser.add_argument('--limit', type=int, help='Process only first N unique IDs')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
-    ids = args.ids + (identities(json.loads(args.input.read_text(encoding='utf-8'))) if args.input else [])
+    data = json.loads(args.input.read_text(encoding='utf-8')) if args.input else {'papers': []}
+    ids = args.ids + identities(data)
+    topics = {row['arxiv_id'] + row.get('arxiv_version', ''): topic_for(row) for row in data['papers']}
+    if args.output is None and any(not topics.get(i) for i in ids):
+        parser.error('Classification missing; use coverage JSON or an explicit --output raw/<topic>')
+    destinations = {i: args.output or ROOT / 'raw' / topics[i] for i in ids}
     ids = list(dict.fromkeys(ids))
     if not ids or any(not PATTERN.fullmatch(i) for i in ids): parser.error('Supply valid modern arXiv IDs or --input')
     if args.limit is not None:
@@ -99,14 +121,14 @@ def main():
         matches = PATTERN.findall(p.stem)
         if len(matches) == 1 and valid_pdf(p): existing.setdefault(matches[0], p)
     if args.dry_run:
-        print(json.dumps({'unique_ids': len(ids), 'existing_named_pdfs': sum(i in existing or valid_pdf(args.output / (i + '.pdf')) for i in ids), 'output': str(args.output)}, ensure_ascii=False)); return 0
+        print(json.dumps({'unique_ids': len(ids), 'existing_named_pdfs': sum(i in existing or valid_pdf(destinations[i] / (i + '.pdf')) for i in ids), 'topics': {t: sum(topics.get(i) == t for i in ids) for t in sorted(set(topics.values()) - {None})}}, ensure_ascii=False)); return 0
     downloader = Downloader()
     results = []
-    args.output.mkdir(parents=True, exist_ok=True)
-    manifest = args.output / 'download-manifest.json'
+    manifest = ROOT / 'radar/download-manifest.json'
+    manifest.parent.mkdir(parents=True, exist_ok=True)
     prior = json.loads(manifest.read_text()) if manifest.exists() else {'papers': {}}
     for identity in ids:
-        result = {'arxiv_id': identity, 'status': 'skipped', 'path': str(existing[identity])} if identity in existing else downloader.download(identity, args.output)
+        result = {'arxiv_id': identity, 'status': 'skipped', 'path': str(existing[identity])} if identity in existing else downloader.download(identity, destinations[identity])
         results.append(result)
         # Preserve original download provenance when reruns skip a successful file.
         if result['status'] != 'skipped' or identity not in prior['papers']: prior['papers'][identity] = result
