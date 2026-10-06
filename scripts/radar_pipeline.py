@@ -94,6 +94,12 @@ def ingest(root, batch, fetch=fetch_arxiv):
     if not isinstance(scan_id, str) or not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}", scan_id):
         raise ValueError("scan_id 只能包含字母、数字、连字符和下划线")
     timestamp(batch["scanned_at"])
+    if batch.get("scanned_at_source", "actual_scan") not in ("actual_scan", "report_file_mtime"):
+        raise ValueError("未知扫描时间来源")
+    if batch.get("scanned_at_source") == "report_file_mtime" and batch.get("historical_record") is not True:
+        raise ValueError("文件修改时间必须标为历史记录")
+    if "converted_at" in batch:
+        timestamp(batch["converted_at"])
     if batch.get("schema_version") != 1 or not isinstance(batch.get("producer"), str) or not batch["producer"].strip():
         raise ValueError("需要 schema_version: 1 和 producer")
     if not isinstance(batch.get("papers"), list):
@@ -131,7 +137,11 @@ def ingest(root, batch, fetch=fetch_arxiv):
                     "summary": item["summary"], "selection_reason": item["selection_reason"],
                     "tags": item["tags"], "questions": item["questions"],
                     "scanned_at": batch["scanned_at"], "producer": batch["producer"], "scan_id": scan_id,
+                    "scanned_at_source": batch.get("scanned_at_source", "actual_scan"),
+                    "historical_record": batch.get("historical_record", False),
                 }
+                if "converted_at" in batch:
+                    record["converted_at"] = batch["converted_at"]
                 records[key] = record
             record = records[key]
             task_path = root / "radar/tasks" / (identity + ".json")
@@ -164,6 +174,12 @@ def validate(root):
             raise ValueError("重复论文版本 " + identity)
         seen.add(identity)
         timestamp(p["scanned_at"])
+        if p.get("scanned_at_source", "actual_scan") not in ("actual_scan", "report_file_mtime"):
+            raise ValueError("未知扫描时间来源")
+        if p.get("scanned_at_source") == "report_file_mtime" and p.get("historical_record") is not True:
+            raise ValueError("历史时间来源标记缺失")
+        if "converted_at" in p:
+            timestamp(p["converted_at"])
         path = (root / p["source_path"]).resolve()
         if path != (root / "raw/arxiv" / (identity + ".xml")).resolve():
             raise ValueError("原始来源路径不匹配")
@@ -186,9 +202,10 @@ def render(root, wiki_dir=None):
         lines += ["尚未接入新的扫描结果。已有知识文章请从首页主题索引阅读。", ""]
     for p in catalog["papers"]:
         safe = lambda value: html.escape(str(value)).replace("\n", "<br>")
+        time_label = "历史扫描时间估计（报告文件修改时间）：" if p.get("scanned_at_source") == "report_file_mtime" else "发现："
         lines += ["<article>", "<h2>" + safe(p["title"]) + "</h2>",
                   '<p><a href="' + p["source_url"] + '">arXiv:' + p["arxiv_id"] + p["arxiv_version"] + " · 查看原文</a></p>",
-                  "<p>发现：" + safe(p["scanned_at"]) + " · 发表：" + safe(p["published_at"]) + " · 修订：" + safe(p["updated_at"]) + "</p>",
+                  "<p>" + time_label + safe(p["scanned_at"]) + " · 发表：" + safe(p["published_at"]) + " · 修订：" + safe(p["updated_at"]) + "</p>",
                   "<p><strong>自动摘要：</strong>" + safe(p["summary"]) + "</p>",
                   "<p><strong>推荐理由（工具判断）：</strong>" + safe(p["selection_reason"]) + "</p>",
                   "<p>关联问题：" + safe("、".join(QUESTIONS[q] for q in p["questions"]) or "其他关注方向") + "</p>",

@@ -1,0 +1,211 @@
+{
+  "processed_at": "2026-10-06T23:26:04.584974+08:00",
+  "scope": "paperradar/weekly/2026-W17.md through current W41 reports",
+  "count_reports": 22,
+  "count_papers": 228,
+  "notes": [
+    "Historical conversion only; no paper full text was re-fetched or re-verified.",
+    "scanned_at uses Markdown file mtime when original scan time is unavailable.",
+    "Non-arXiv items remain Markdown-only; no arXiv IDs were fabricated."
+  ],
+  "reports": [
+    {
+      "markdown": "2026-W17.md",
+      "json": "2026-W17.json",
+      "week": "W17",
+      "field": "World Models",
+      "period": "2026-04-16 → 2026-04-23",
+      "papers": 6,
+      "scanned_at_used": "2026-04-23T19:37:47.339891+08:00"
+    },
+    {
+      "markdown": "2026-W18-ai-infra.md",
+      "json": "2026-W18-ai-infra.json",
+      "week": "W18",
+      "field": "AI Infra",
+      "period": "2026-04-12 → 2026-04-26",
+      "papers": 3,
+      "scanned_at_used": "2026-04-26T13:23:00.602643+08:00"
+    },
+    {
+      "markdown": "2026-W19-deep-learning.md",
+      "json": "2026-W19-deep-learning.json",
+      "week": "W19",
+      "field": "Deep Learning",
+      "period": "2026-05-04 → 2026-05-10",
+      "papers": 6,
+      "scanned_at_used": "2026-05-10T11:33:09.300662+08:00"
+    },
+    {
+      "markdown": "2026-W20-physics-informed-ai.md",
+      "json": "2026-W20-physics-informed-ai.json",
+      "week": "W20",
+      "field": "Physics-informed AI",
+      "period": "2026-05-11 → 2026-05-17",
+      "papers": 9,
+      "scanned_at_used": "2026-05-17T09:17:54.300157+08:00"
+    },
+    {
+      "markdown": "2026-W21-world-models.md",
+      "json": "2026-W21-world-models.json",
+      "week": "W21",
+      "field": "World Models",
+      "period": "2026-05-18 → 2026-05-24",
+      "papers": 21,
+      "scanned_at_used": "2026-05-24T09:18:21.729512+08:00"
+    },
+    {
+      "markdown": "2026-W22-ai-infra.md",
+      "json": "2026-W22-ai-infra.json",
+      "week": "W22",
+      "field": "AI Infra",
+      "period": "2026-05-25 → 2026-05-31",
+      "papers": 10,
+      "scanned_at_used": "2026-05-31T09:18:07.541807+08:00"
+    },
+    {
+      "markdown": "2026-W23-deep-learning.md",
+      "json": "2026-W23-deep-learning.json",
+      "week": "W23",
+      "field": "Deep Learning",
+      "period": "2026-06-01 → 2026-06-07",
+      "papers": 5,
+      "scanned_at_used": "2026-06-07T09:18:05.727478+08:00"
+    },
+    {
+      "markdown": "2026-W25-physics-informed-ai.md",
+      "json": "2026-W25-physics-informed-ai.json",
+      "week": "W25",
+      "field": "Physics-informed AI",
+      "period": "2026-06-15 → 2026-06-21",
+      "papers": 9,
+      "scanned_at_used": "2026-06-19T16:47:54.619869+08:00"
+    },
+    {
+      "markdown": "2026-W26-world-models.md",
+      "json": "2026-W26-world-models.json",
+      "week": "W26",
+      "field": "World Models",
+      "period": "2026-06-22 → 2026-06-28",
+      "papers": 11,
+      "scanned_at_used": "2026-07-24T22:58:46.442269+08:00"
+    },
+    {
+      "markdown": "2026-W27-ai-infra.md",
+      "json": "2026-W27-ai-infra.json",
+      "week": "W27",
+      "field": "AI Infra",
+      "period": "2026-06-22 → 2026-06-28",
+      "papers": 9,
+      "scanned_at_used": "2026-06-28T12:00:14.444527+08:00"
+    },
+    {
+      "markdown": "2026-W28-deep-learning.md",
+      "json": "2026-W28-deep-learning.json",
+      "week": "W28",
+      "field": "Deep Learning",
+      "period": "2026-07-06 → 2026-07-12",
+      "papers": 11,
+      "scanned_at_used": "2026-07-05T09:20:20.343351+08:00"
+    },
+    {
+      "markdown": "2026-W28-physics-informed-ai.md",
+      "json": "2026-W28-physics-informed-ai.json",
+      "week": "W28",
+      "field": "Physics-informed AI",
+      "period": "2026年6月–7月最新进展",
+      "papers": 9,
+      "scanned_at_used": "2026-07-12T09:18:45.088994+08:00"
+    },
+    {
+      "markdown": "2026-W32-ai-infra.md",
+      "json": "2026-W32-ai-infra.json",
+      "week": "W32",
+      "field": "AI Infra",
+      "period": "2026-08-03 → 2026-08-09",
+      "papers": 10,
+      "scanned_at_used": "2026-08-02T09:20:27.164349+08:00"
+    },
+    {
+      "markdown": "2026-W33-deep-learning.md",
+      "json": "2026-W33-deep-learning.json",
+      "week": "W33",
+      "field": "Deep Learning",
+      "period": "2026-08-10 → 2026-08-16",
+      "papers": 13,
+      "scanned_at_used": "2026-08-09T09:37:41.890691+08:00"
+    },
+    {
+      "markdown": "2026-W34-physics-informed-ai.md",
+      "json": "2026-W34-physics-informed-ai.json",
+      "week": "W34",
+      "field": "Physics-informed AI",
+      "period": "2026-08-17 → 2026-08-23",
+      "papers": 10,
+      "scanned_at_used": "2026-08-16T09:23:22.493231+08:00"
+    },
+    {
+      "markdown": "2026-W35-world-models.md",
+      "json": "2026-W35-world-models.json",
+      "week": "W35",
+      "field": "World Models",
+      "period": "2026-08-24 → 2026-08-30",
+      "papers": 18,
+      "scanned_at_used": "2026-08-23T09:19:53.421472+08:00"
+    },
+    {
+      "markdown": "2026-W36-embodied-intelligence.md",
+      "json": "2026-W36-embodied-intelligence.json",
+      "week": "W36",
+      "field": "Embodied Intelligence",
+      "period": "2026-08-31 → 2026-09-06",
+      "papers": 16,
+      "scanned_at_used": "2026-08-30T09:22:00.677779+08:00"
+    },
+    {
+      "markdown": "2026-W37-ai-infra.md",
+      "json": "2026-W37-ai-infra.json",
+      "week": "W37",
+      "field": "AI Infra",
+      "period": "2026-09-07 → 2026-09-13",
+      "papers": 8,
+      "scanned_at_used": "2026-09-06T09:35:46.598810+08:00"
+    },
+    {
+      "markdown": "2026-W38-deep-learning.md",
+      "json": "2026-W38-deep-learning.json",
+      "week": "W38",
+      "field": "Deep Learning",
+      "period": "2026-09-14 → 2026-09-20",
+      "papers": 14,
+      "scanned_at_used": "2026-09-13T09:20:26.004892+08:00"
+    },
+    {
+      "markdown": "2026-W39-physics-informed-ai.md",
+      "json": "2026-W39-physics-informed-ai.json",
+      "week": "W39",
+      "field": "Physics-informed AI",
+      "period": "2026-09-21 → 2026-09-27",
+      "papers": 14,
+      "scanned_at_used": "2026-09-20T09:21:15.725061+08:00"
+    },
+    {
+      "markdown": "2026-W40-world-models.md",
+      "json": "2026-W40-world-models.json",
+      "week": "W40",
+      "field": "World Models",
+      "period": "2026-09-20 → 2026-09-27",
+      "papers": 7,
+      "scanned_at_used": "2026-09-27T09:21:27.190330+08:00"
+    },
+    {
+      "markdown": "2026-W41-embodied-intelligence.md",
+      "json": "2026-W41-embodied-intelligence.json",
+      "week": "W41",
+      "field": "Embodied Intelligence",
+      "period": "2026-09-28 → 2026-10-04",
+      "papers": 9,
+      "scanned_at_used": "2026-10-04T09:22:20.729297+08:00"
+    }
+  ]
+}

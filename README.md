@@ -6,6 +6,7 @@ Personal AI/LLM Knowledge Wiki, covering deep learning, reinforcement learning, 
 - **更新方案**: [knowledge-plan.md](knowledge-plan.md) — 三个长期跟踪问题、来源规则与 OKF v0.2 头部约定
 - **维护工作流**: [docs/workflow.md](docs/workflow.md) — Kimi 扫描接口、任务续跑、自动动态与独立核查
 - **Kimi Claw 扫描模板**: [templates/kimi-claw-scan.md](templates/kimi-claw-scan.md) — 可复制的扫描提示词、JSON 格式与交付规则
+- **历史雷达收录核对**: [radar/archive-coverage.md](radar/archive-coverage.md) — 已有文章、原始材料候选与尚待整理的历史论文
 - **Overview**: [wiki/overview.md](wiki/overview.md) — 仓库结构、阅读指南、核心工作流
 - **Knowledge Index**: [wiki/index.md](wiki/index.md) — 按主题分组的全局文章索引
 - **Knowledge Graph**: [wiki/knowledge-graph.md](wiki/knowledge-graph.md) — 交互式文章引用关系图谱

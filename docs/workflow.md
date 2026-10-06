@@ -31,6 +31,7 @@ wiki/updates.md      构建时生成的公开动态页；明确标注未人工�
 - `schema_version` 固定为 `1`。
 - `scan_id` 唯一且不可变，例如 `2026-W41-robotics-01`。修改内容或重试失败项时使用新的 scan_id。
 - `scanned_at` 是带时区的获取时间；不能冒充论文发表时间。
+- 历史报告缺少可靠扫描时间时，保留估计值并加 `scanned_at_source: report_file_mtime`、`historical_record: true`；`converted_at` 单独记录实际格式转换时间。动态页将显示时间估计，不把它标为发现时间。新扫描默认 `actual_scan`。
 - `producer` 填实际使用的工具/版本，未知版本不补造。
 - `arxiv_id` 是基础 ID；`arxiv_version` 可省略，接入时从 arXiv 确认实际版本。
 - `summary` 与 `selection_reason` 是工具解读，不是原文摘要或作者个人判断。

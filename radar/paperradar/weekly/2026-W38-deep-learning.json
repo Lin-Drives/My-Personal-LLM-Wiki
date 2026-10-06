@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "scan_id": "2026-W38-deep-learning-legacy-processed-20261006",
+  "scanned_at": "2026-09-13T09:20:26.004892+08:00",
+  "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+  "papers": [
+    {
+      "arxiv_id": "2609.11842",
+      "summary": "历史周报补处理条目：Model-Aware Schedules via Fiberwise Optimal Transport (arXiv:2609.11842)。问题/方法/证据：提出基于 fiberwise 最优传输的 model-aware 采样调度方法，为扩散模型和流匹配模型构建与模型预测误差耦合的时间分配策略。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：扩散/流匹配领域的采样调度长期停留在 model-agnostic 的启发式设计。这篇工作首次将模型自身的预测误差结构纳入调度优化，并发现跨模型的普适规律，可能重塑高效采样的研究范式。",
+      "tags": [
+        "deep-learning",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11801",
+      "summary": "历史周报补处理条目：Looped Flows — 循环推理模型的新训练范式 (arXiv:2609.11801)。问题/方法/证据：用局部去噪目标训练循环推理模型，解决传统循环模型\"梯度只能回传一两步\"的核心瓶颈。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：ARC-AGI 是衡量抽象推理能力的硬基准。循环模型（test-time compute scaling 的一种形式）是 2026 年最活跃的方向之一，这篇工作解决了训练循环模型的根本难题。",
+      "tags": [
+        "deep-learning",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11917",
+      "summary": "历史周报补处理条目：MoE 在数据重复场景下的脆弱性 (arXiv:2609.11917)。问题/方法/证据：系统研究了 Mixture-of-Experts（MoE）在训练数据重复时的退化行为，发现 MoE 比 dense 模型对数据重复更敏感。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：人类书写文本数据正在耗尽，数据重复已成为 LLM 训练的默认现实。MoE 架构是 2025-2026 年大模型效率化的主流选择，这篇工作揭示了其隐藏的脆弱性。",
+      "tags": [
+        "deep-learning",
+        "legacy-report"
+      ],
+      "questions": [
+        "human-video-transfer"
+      ]
+    },
+    {
+      "arxiv_id": "2609.11918",
+      "summary": "历史周报补处理条目：DataShifts — 可估计的分布偏移量化工具 (arXiv:2609.11918)。问题/方法/证据：基于熵最优传输（Entropic Optimal Transport），统一了协变量偏移和概念偏移的误差界，并提供了可从样本估计的实用工具。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：分布偏移是深度学习从实验室走向真实世界的最大障碍之一。理论界的泛化界往往不可估计，这篇工作试图在理论和实践之间架起桥梁。",
+      "tags": [
+        "deep-learning",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11873",
+      "summary": "历史周报补处理条目：Recursive Self-Improvement (RSI) 系统综述 (arXiv:2609.11873)。问题/方法/证据：首次系统梳理递归自改进（RSI）AI 的概念、路线图和应用场景，由国内大团队（约30位作者）联合撰写。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：RSI 是通往 AGI 讨论中的核心概念之一，但此前缺乏系统性综述。这篇 31MB 的巨篇为理解 RSI 提供了统一框架。",
+      "tags": [
+        "deep-learning",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11884",
+      "summary": "历史周报其他关注条目：CoRA NAS: 低成本神经架构搜索。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11538",
+      "summary": "历史周报其他关注条目：Particle GFlowNets。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11521",
+      "summary": "历史周报其他关注条目：广义 Score Matching。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11656",
+      "summary": "历史周报其他关注条目：Learnware Dock System。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11780",
+      "summary": "历史周报其他关注条目：谱分析用于隐私审计。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11253",
+      "summary": "历史周报其他关注条目：概念擦除的最优边界。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11790",
+      "summary": "历史周报其他关注条目：文本驱动的化学反应优化。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11580",
+      "summary": "历史周报其他关注条目：AmazonSWE: 大规模河流水位时空图补全。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.11904",
+      "summary": "历史周报其他关注条目：TART: 吉他自动转录系统。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    }
+  ],
+  "scanned_at_source": "report_file_mtime",
+  "historical_record": true,
+  "converted_at": "2026-10-06T23:26:04.584974+08:00"
+}

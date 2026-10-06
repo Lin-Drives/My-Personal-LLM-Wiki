@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "scan_id": "2026-W23-deep-learning-legacy-processed-20261006",
+  "scanned_at": "2026-06-07T09:18:05.727478+08:00",
+  "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+  "papers": [
+    {
+      "arxiv_id": "2603.15553",
+      "summary": "历史周报补处理条目：Bootleg — 层次化自蒸馏突破 I-JEPA。问题/方法/证据：提出 Bootleg 方法，让模型预测教师网络多个隐藏层的潜在表示，而非仅最终层。这种层次化目标强制模型同时捕捉不同抽象层次的特征。在 ImageNet-1K 和 iNaturalist-21 分类任务上比 I-JEPA 提升 **+10%**，在 ADE20K 和 Cityscapes 语义分割上也显著优于基线。原报告标注日期：2026-03-16。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2604.13518",
+      "summary": "历史周报补处理条目：From Alignment to Prediction — 预测式表示学习的新范式分类。问题/方法/证据：系统梳理自监督学习发展，首次提出 **Predictive Representation Learning (PRL)** 新类别——基于对数据未观测部分的潜在预测。将 JEPA 定位为 PRL 的典范代表，与对齐式（BYOL）和重建式（MAE）方法并列。实验对比显示：MAE 相似度完美(1.00)但鲁棒性弱(0.55)，BYOL 准确率 0.98/鲁棒性 0.75，I-JEPA 准确率 0.95/鲁棒性 0.78。原报告标注日期：2026-04-15。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2603.13660",
+      "summary": "历史周报补处理条目：MASS — 无标注 3D 医学图像自监督 (CVPR 2026)。问题/方法/证据：斯坦福团队提出 MASS，首个面向 3D 医学图像（CT/MRI/PET）的 mask-guided 自监督框架。核心创新：用自动生成 mask 替代专家标注，将每个 mask 转化为密集分割任务，实现\"分割原生\"表示学习。收敛快、泛化强，支持训练-free 上下文分割、少样本微调和冻结编码器分类。已开源完整 pipeline。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2603.26597",
+      "summary": "历史周报补处理条目：Co-Settle — 从静态到动态的自监督视频表示迁移 (CVPR 2026)。问题/方法/证据：探索自监督图像到视频表示迁移学习。从静态图像预训练模型出发，通过 Co-Settle 方法高效迁移到视频任务。在 DAVIS 视频目标分割、JHMDB 姿态传播、VIP 语义部件传播等密集级基准上验证。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2501.04969",
+      "summary": "历史周报补处理条目：AD-L-JEPA — 自动驾驶 LiDAR 的 JEPA 自监督 (AAAI 2026)。问题/方法/证据：首个将 JEPA 架构应用于自动驾驶 LiDAR 场景的自监督表示学习方法。通过联合嵌入预测架构学习 3D 点云表示，在 KITTI3D 上预训练后，SECOND 和 PV-RCNN 检测器均有显著提升。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+      "tags": [
+        "deep-learning",
+        "legacy-report"
+      ],
+      "questions": []
+    }
+  ],
+  "scanned_at_source": "report_file_mtime",
+  "historical_record": true,
+  "converted_at": "2026-10-06T23:26:04.584974+08:00"
+}

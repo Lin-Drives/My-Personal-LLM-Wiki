@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "scan_id": "2026-W35-world-models-legacy-processed-20261006",
+  "scanned_at": "2026-08-23T09:19:53.421472+08:00",
+  "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+  "papers": [
+    {
+      "arxiv_id": "2608.09298",
+      "summary": "历史周报补处理条目：WorldSimProbe (arXiv:2608.09298, 8月10日) — 世界模型「体检报告」来了。问题/方法/证据：关键词 : 仿真保真度诊断 · 动作条件世界模型 · 具身操作 这篇工作提出了 WorldSimProbe ，一个专门诊断 动作条件世界模型 中仿真器保真度的框架。核心问题是：当前的世界模型在生成未来帧时，究竟有多忠实于真实物理？作者系统性地评估了世界模型在具身操作任务中的可靠性，发现很多模型在交互动力学方面存在系统性偏差。 为什么重要 : 世界模型不能只是\"看起来对\"，还得\"物理上对\"。这篇为下游策略训练提供了可靠的模型筛选工具。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：世界模型不能只是\"看起来对\"，还得\"物理上对\"。这篇为下游策略训练提供了可靠的模型筛选工具。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": [
+        "world-model-planning"
+      ]
+    },
+    {
+      "arxiv_id": "2608.12939",
+      "summary": "历史周报补处理条目：Diagnosing JEPA World Models (arXiv:2608.12939, 8月13日) — JEPA也开始做\"体检。问题/方法/证据：关键词 : JEPA · 动作条件预测一致性 · 表征坍塌 LeCun力推的JEPA路线虽然火，但训练稳定性和诊断工具一直缺位。这篇工作提出了一套 动作条件预测一致性 诊断方法，能够检测JEPA世界模型中的表征质量问题。值得注意的是，这篇直接引用了LeWorldModel作为基准架构。 为什么重要 : JEPA从\"能不能训\"进入\"训得好不好\"阶段，诊断工具的出现意味着这个方向正在成熟。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：JEPA从\"能不能训\"进入\"训得好不好\"阶段，诊断工具的出现意味着这个方向正在成熟。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2607.06401",
+      "summary": "历史周报补处理条目：A Definition and Roadmap for World Models (arXiv:2607.06401, 7月7日) — 终于有人给世界模型下定义了。问题/方法/证据：关键词 : 定义框架 · 路线图 · 跨社区对齐 世界模型这个词被用得太泛了——RL社区、视频生成社区、具身智能社区各说各话。这篇综述试图 统一定义 ，并提出了一条清晰的roadmap：从\"被动预测\"到\"主动交互\"，从\"像素空间\"到\" latent 空间\"，从\"单模态\"到\"全模态\"。 关键观点 : 世界模型 ≠ 视频生成模型（虽然overlap很大） 真正的世界模型需要支持 反事实推理 和 动作条件预测 当前最大瓶颈：缺乏统一的评估标准和物理一致性保证局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2607.00836",
+      "summary": "历史周报补处理条目：From World Models to World Action Models (arXiv:2607.00836, 7月1日) — WAM 正在成为新范式。问题/方法/证据：关键词 : World Action Model · VLA融合 · 端到端决策 这篇明确提出了 World Action Model WAM 的概念：不只是预测世界怎么变，而是直接输出\"在这种世界状态下该做什么\"。这是世界模型从\"仿真器\"向\"决策器\"进化的关键一步。文中讨论了如何将世界模型与VLA（Vision Language Action）模型统一。 产业映射 : 小鹏 X World、华为 WEWA 2.0 都是这个方向的工程落地 Physical Intelligence的π0.7、π0.5也在走WAM路线局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2603.19312",
+      "summary": "历史周报补处理条目：LeWorldModel 持续发酵 (arXiv:2603.19312) — LeCun路线的\"稳定版\"来了。问题/方法/证据：关键词 : JEPA · 端到端稳定训练 · 单GPU可训 LeWorldModel自3月发布以来已被引用 147次 。核心突破： 第一个能 端到端稳定训练 的JEPA世界模型（从raw pixels） 仅需 两个loss项 （预测loss + Gaussian正则），不需要EMA teacher、不需要多term loss ~15M参数， 单GPU几小时 即可训练 规划速度比基础模型世界模型快 48x 后续工作层出不穷： Causal JEPA ICML 2026 — 通过object level latent intervention学习因果世界模型 SIGReg理论 arXiv:2607.13612, 7月15日 — 从变分自由能角度解释JEPA目标函数 Equilibrium World Models 局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2607.13612",
+      "summary": "历史周报其他关注条目：SIGReg理论。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2606.23463",
+      "summary": "历史周报其他关注条目：Equilibrium World Models。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2606.02800",
+      "summary": "历史周报其他关注条目：Cosmos 3: Omnimodal World Models for Physical AI。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2606.03159",
+      "summary": "历史周报其他关注条目：NVIDIA OmniDreams。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2605.19242",
+      "summary": "历史周报其他关注条目：PhyWorld: Physics Faithful World Model for Video Generation。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2510.12796",
+      "summary": "历史周报其他关注条目：DriveVLA W0。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2607.02604",
+      "summary": "历史周报其他关注条目：DynaWM。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2602.10098",
+      "summary": "历史周报其他关注条目：VLA JEPA。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2602.02454",
+      "summary": "历史周报其他关注条目：World gymnast。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": [
+        "world-model-planning"
+      ]
+    },
+    {
+      "arxiv_id": "2605.12334",
+      "summary": "历史周报其他关注条目：Reinforcing VLAs in Task Agnostic World Models。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2604.19092",
+      "summary": "历史周报其他关注条目：RoboWM Bench。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": [
+        "world-model-planning"
+      ]
+    },
+    {
+      "arxiv_id": "2606.01600",
+      "summary": "历史周报其他关注条目：RoboTrustBench。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": [
+        "world-model-planning"
+      ]
+    },
+    {
+      "arxiv_id": "2509.07996",
+      "summary": "历史周报其他关注条目：3D and 4D World Modeling: A Survey。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": [],
+      "arxiv_version": "v4"
+    }
+  ],
+  "scanned_at_source": "report_file_mtime",
+  "historical_record": true,
+  "converted_at": "2026-10-06T23:26:04.584974+08:00"
+}

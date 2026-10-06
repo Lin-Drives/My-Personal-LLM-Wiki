@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "scan_id": "2026-W26-world-models-legacy-processed-20261006",
+  "scanned_at": "2026-07-24T22:58:46.442269+08:00",
+  "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+  "papers": [
+    {
+      "arxiv_id": "2603.19312",
+      "summary": "历史周报补处理条目：**LeWorldModel (LeWM)** (arXiv:2603.19312, Mar 13) — 第一个真正稳定端到端训练的 JEPA。问题/方法/证据：现有 JEPA 方法依赖复杂多损失项、EMA、预训练编码器或辅助监督来避免表征坍缩。LeWM 只用 **两个损失项**（next-embedding prediction + Gaussian-distributed latent regularizer）就实现了稳定端到端训练。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：把可调超参从 6 个降到 1 个。~15M 参数，单 GPU 几小时训练完。在 2D/3D 控制任务上**比 foundation-model-based world models 快 48x** 规划速度。latent space 能通过探测编码有意义的物理结构（如物体位置、速度），且能检测物理上不合理的事件（surprise evaluation）。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2602.11389",
+      "summary": "历史周报补处理条目：**C-JEPA** (arXiv:2602.11389, May 28 v2) — 因果干预驱动的 Object-Centric JEPA。问题/方法/证据：将 patch-level masked prediction 扩展到 object-centric representation，通过 object-level masking 创造\"反事实式\"预测查询：每个被 mask 的物体状态必须从周围物体推断，迫使模型学习交互依赖的动力学。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：现有 object-centric 方法能抽象物体，但不足以捕捉交互依赖动力学。C-JEPA 在 visual question answering 上提升约 **20%**（counterfactual reasoning），在 agent control 上仅用 patch-based world models **1% 的 latent input features** 就达到可比性能。形式化证明 object-level masking 通过控制可观测性诱导了因果归纳偏置。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2605.00080",
+      "summary": "历史周报其他关注条目：World Model for Robot Learning: A Comprehensive Survey。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": [
+        "world-model-planning"
+      ]
+    },
+    {
+      "arxiv_id": "2606.04907",
+      "summary": "历史周报其他关注条目：WAM Nav。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2606.09215",
+      "summary": "历史周报其他关注条目：MotionWAM。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": [
+        "human-video-transfer"
+      ]
+    },
+    {
+      "arxiv_id": "2606.10363",
+      "summary": "历史周报其他关注条目：HiMem WAM。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2606.08775",
+      "summary": "历史周报其他关注条目：WorldDP。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": [
+        "world-model-planning"
+      ]
+    },
+    {
+      "arxiv_id": "2603.10448",
+      "summary": "历史周报其他关注条目：Dit4Dit。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2605.07794",
+      "summary": "历史周报其他关注条目：NoiseGate。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2602.06949",
+      "summary": "历史周报其他关注条目：DreamDojo。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": [
+        "world-model-planning",
+        "human-video-transfer"
+      ]
+    },
+    {
+      "arxiv_id": "2602.15922",
+      "summary": "历史周报其他关注条目：DreamDojo。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": [
+        "world-model-planning",
+        "human-video-transfer"
+      ]
+    }
+  ],
+  "scanned_at_source": "report_file_mtime",
+  "historical_record": true,
+  "converted_at": "2026-10-06T23:26:04.584974+08:00"
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "scan_id": "2026-W40-world-models-legacy-processed-20261006",
+  "scanned_at": "2026-09-27T09:21:27.190330+08:00",
+  "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+  "papers": [
+    {
+      "arxiv_id": "2609.26292",
+      "summary": "历史周报补处理条目：RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World? (arXiv:2609.26292, 2026-09-22)。问题/方法/证据：关键词 : 物理多样性基准、机器人操作、WAM/VLA 评测、sim to real gap 北大团队推出 RoboTwin Phys，一个将 物理条件多样性 作为显式评测维度的机器人操作基准。现有大规模仿真基准主要变化外观、场景布局和视觉观测，但底层物理参数（质量、摩擦、关节动力学）通常固定。RoboTwin Phys 覆盖 13 个物理属性、5000+ 专家演示，系统评测当前代表性的 World Action Models WAMs 和 Vision Language Action models VLAs 在物理条件变化下的鲁棒性。实验揭示了一致的鲁棒性缺口——模型在标准条件下表现优异，但物理参数偏移时性能显著退化。 为什么重要 : 这击中了当前 world model 评测的盲区——\"视觉逼真 ≠ 物理正局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这击中了当前 world model 评测的盲区——\"视觉逼真 ≠ 物理正确\"。当 SOTA 模型在 Clean 设定下刷到 84% 成功率但 Random 物理条件下骤降到 55.7%，说明世界模型对物理规律的理解仍然表面化。这个基准迫使领域直面一个问题：你的模型是真的理解了物理世界，还是只是在背视觉模式？对 sim-to-real 部署有直接指导意义。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": [
+        "world-model-planning"
+      ]
+    },
+    {
+      "arxiv_id": "2609.28931",
+      "summary": "历史周报补处理条目：HelloWorld: A World Model System for Data Generation and Interactive Simulation in Autonomous Driving (arXiv:2609.28931, 2026-09-24)。问题/方法/证据：关键词 : 驾驶世界模型、因果蒸馏、多相机环视、LiDAR 生成、闭环仿真 面壁智能 & 清华团队提出 HelloWorld——一个面向数据生成与交互仿真的可控驾驶世界模型系统。技术核心： 1 Block causal 架构 同时生成七路环视 RGB 视频； 2 因果教师蒸馏 ——将 20 步因果教师压缩为 4 步学生模型，大幅降低推理延迟； 3 RGB 条件 LiDAR 分支 与视觉生成共享世界表征，实现跨模态一致性。该系统将 world model 从\"视频生成器\"升级为覆盖数据生成与闭环仿真的完整基础设施。 为什么重要 : 自动驾驶数据的长尾问题（corner case 稀缺、标注昂贵）是世界模型最有商业价值的落地场景之一。HelloWorld 的意义在于系统性——不是只生成好看的视频，而是打通了\"生成 局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：自动驾驶数据的长尾问题（corner case 稀缺、标注昂贵）是世界模型最有商业价值的落地场景之一。HelloWorld 的意义在于系统性——不是只生成好看的视频，而是打通了\"生成 → 仿真 → 数据\"的闭环。因果蒸馏（20步→4步）代表了世界模型工程化的关键方向：再强的模型如果跑不出实时，就无法用于闭环策略评估。这与 GAIA 系列形成正面竞争。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": [
+        "world-model-planning"
+      ]
+    },
+    {
+      "arxiv_id": "2609.20034",
+      "summary": "历史周报补处理条目：Astronex-World 1.0: Real-Time Interactive World Model Foundation (arXiv:2609.20034, 2026-09-17)。问题/方法/证据：关键词 : 实时交互、视频世界模型、多条件控制（相机轨迹 + 连续动作 + 事件）、开放底座 南京信息工程大学推出 Astronex World 1.0——一个开放可控的实时交互式视频世界模型基础。模型以 Wan2.2 视频 VAE 为底层，给定文本提示（T2V）或初始观测（I2V），可预测未来视觉状态，支持三类控制信号的帧级对齐注入： 相机轨迹 、 连续动作 （键盘/手柄输入）、以及可在任意帧位置插入的 文本事件 ；同时通过 embodiment identifier 区分不同具身视角。模型做到了真正的实时交互推理。 为什么重要 : 交互式世界模型的\"实时\"门槛一直是最难啃的骨头。Astronex World 的贡献在于将多种控制信号（相机 + 动作 + 事件）统一在一个可实时运行的框架中，并且是 开放权重 局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：交互式世界模型的\"实时\"门槛一直是最难啃的骨头。Astronex-World 的贡献在于将多种控制信号（相机 + 动作 + 事件）统一在一个可实时运行的框架中，并且是**开放权重**的。多条件注入意味着它可以作为下游策略训练的可交互环境——不再只是单向的视频预测器，而是可被 agent 操作的世界模拟器。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": [
+        "world-model-planning"
+      ]
+    },
+    {
+      "arxiv_id": "2609.19729",
+      "summary": "历史周报补处理条目：Recency Forcing: Bridging the Long-Horizon Gap in Autoregressive Video Generation (arXiv:2609.19729, 2026-09-19)。问题/方法/证据：关键词 : KV eviction mismatch、长时程 AR 视频生成、Temporal Response Bias、零开销长视频 VinAI Research 团队诊断出 AR 视频生成长时程退化的一个被忽视的根本原因—— KV eviction mismatch ：模型训练时所有上下文帧都在 KV cache 中，但推理时内存限制迫使远端帧被驱逐，导致模型在\"没见过的条件下\"工作。他们提出 Recency Forcing：不截断上下文（保留时序信息），而是逐步降低远端帧的影响，使其最终 eviction 变得可忽略。具体通过 Temporal Response Bias TRB 施加在 pre softmax attention logits 上，并设计了 Biased Attention Repar局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这是今年 AR 视频 world model 领域最优雅的分析之一。它没有发明新的架构，而是找到了训练-推理不一致这个\"隐形 bug\"并用一个数学上精确的 reparameterization 修复。零开销 + training-free 模式可用，意味着几乎所有现有 AR 视频模型都能直接受益。长时程一致性是 world model 实用性的核心瓶颈——如果模型只能稳定预测 2 秒，它就不是一个 world model。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2609.20819",
+      "summary": "历史周报补处理条目：Can 4D Foundation Models Remember? (PersistBench) (arXiv:2609.20819, 2026-09-17)。问题/方法/证据：关键词 : 4D 基础模型、视觉记忆基准、持续学习、benchmark 康奈尔大学（Hadar Averbuch Elor & Wei Chiu Ma 组）提出 PersistBench——第一个系统评测 4D 基础模型 视觉记忆 能力的基准。当前 4D 基础模型（相机可控视频模型、4D 重建模型）能感知和重建动态环境，但它们记住了多少？当 agent 在环境中移动、离开某个区域后再返回，模型还能保持一致的场景状态吗？PersistBench 通过一系列精心设计的探针任务量化这一能力。 为什么重要 : 持久记忆是 world model 从\"短视频预测器\"进化为\"可交互世界模拟器\"的必经之路。如果模型在 agent 转身之后就\"忘记\"了桌子上有几个物体，它就无法支撑任何需要空间推理的下游任务。这个基准与 Rob局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：持久记忆是 world model 从\"短视频预测器\"进化为\"可交互世界模拟器\"的必经之路。如果模型在 agent 转身之后就\"忘记\"了桌子上有几个物体，它就无法支撑任何需要空间推理的下游任务。这个基准与 RoboTwin-Phys 形成互补——一个测物理理解，一个测空间记忆——共同构成了 world model 评测的新维度。",
+      "tags": [
+        "world-models",
+        "legacy-report"
+      ],
+      "questions": [
+        "world-model-planning"
+      ]
+    },
+    {
+      "arxiv_id": "2609.16697",
+      "summary": "历史周报其他关注条目：World Models for Embodied Intelligence: From Plausible to Controllable to Actionable。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2608.26671",
+      "summary": "历史周报其他关注条目：RECAP Forcing: Retaining Content Appearances for Long Horizon Video Generation。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "world-models",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    }
+  ],
+  "scanned_at_source": "report_file_mtime",
+  "historical_record": true,
+  "converted_at": "2026-10-06T23:26:04.584974+08:00"
+}

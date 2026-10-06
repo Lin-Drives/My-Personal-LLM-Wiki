@@ -37,6 +37,19 @@ class PipelineTests(unittest.TestCase):
         self.assertNotIn(b"Generated interpretation", (self.root / "raw/arxiv/2601.12345v1.xml").read_bytes())
         self.assertEqual(len(validate(self.root)["papers"]), 1)
 
+    def test_historical_time_is_preserved_and_labeled(self):
+        self.batch.update(scanned_at_source="report_file_mtime", historical_record=True, converted_at="2026-10-06T23:26:04+08:00")
+        self.load()
+        record = validate(self.root)["papers"][0]
+        self.assertEqual(record["converted_at"], self.batch["converted_at"])
+        render(self.root)
+        self.assertIn("历史扫描时间估计（报告文件修改时间）", (self.root / "wiki/updates.md").read_text())
+
+    def test_estimated_time_requires_history_marker(self):
+        self.batch["scanned_at_source"] = "report_file_mtime"
+        with self.assertRaises(ValueError):
+            self.load()
+
     def test_rerun_is_idempotent_and_changed_scan_rejected(self):
         first = self.load()
         self.assertEqual(self.load(), first)
