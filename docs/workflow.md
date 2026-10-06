@@ -26,6 +26,8 @@ wiki/updates.md      构建时生成的公开动态页；明确标注未人工�
 
 可直接交给 Kimi Claw 的扫描提示词与字段说明见 [扫描产出模板](../templates/kimi-claw-scan.md)。
 
+模板已对齐 2026-10-06 导出的设置：保留五领域周轮换、综述优先的阅读顺序，以及 human-data-training / Danfei Xu 具身专项。在现有 `paperradar/weekly/` 和 `paperradar/biweekly/` Markdown 报告旁新增同名 JSON。三个问题只用于关联，不改变扫描顺序。专项任务目前实际每周三执行；远端任务与轮换状态尚未由本仓库修改。
+
 - `schema_version` 固定为 `1`。
 - `scan_id` 唯一且不可变，例如 `2026-W41-robotics-01`。修改内容或重试失败项时使用新的 scan_id。
 - `scanned_at` 是带时区的获取时间；不能冒充论文发表时间。
