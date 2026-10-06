@@ -24,6 +24,8 @@ wiki/updates.md      构建时生成的公开动态页；明确标注未人工�
 
 每期输出一个 JSON 文件，格式参考 `templates/scan.example.json`。该示例只有占位解读，不可直接作为真实扫描发布。
 
+可直接交给 Kimi Claw 的扫描提示词与字段说明见 [扫描产出模板](../templates/kimi-claw-scan.md)。
+
 - `schema_version` 固定为 `1`。
 - `scan_id` 唯一且不可变，例如 `2026-W41-robotics-01`。修改内容或重试失败项时使用新的 scan_id。
 - `scanned_at` 是带时区的获取时间；不能冒充论文发表时间。
