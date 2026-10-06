@@ -21,23 +21,41 @@ My-Personal-LLM-Wiki/
 │   ├── World-Models/
 │   └── Companies/
 ├── wiki/                   # 编译后的知识文章
-│   ├── index.md            # 全局索引（本页）
+│   ├── index.md            # 全局主题索引
+│   ├── updates.md          # 最新论文动态（自动整理）
 │   ├── log.md              # 操作日志（追加式）
 │   ├── knowledge-graph.md  # 交互式知识图谱
 │   ├── overview.md         # 本页：项目概览与使用指南
 │   ├── AI-Infra/
 │   ├── Chip-Architecture/
 │   ├── Deep-Learning/
+│   ├── Embodied-Intelligence/  # 人类视频迁移、机器人操作与数据集
 │   ├── Reinforcement-Learning/
 │   ├── World-Models/
 │   └── Companies/
-├── scripts/                # 构建与维护脚本
-│   ├── generate_graph_data.py   # 扫描 wiki 生成知识图谱数据
-│   └── mkdocs_hooks.py          # MkDocs 构建钩子
+├── radar/                  # 论文目录；扫描与研究任务在接入后生成
+│   └── catalog.json        # 已接收的论文版本目录
+├── templates/              # OKF 文章、扫描输入与核查报告模板
+├── docs/
+│   └── workflow.md         # 论文雷达与知识维护协议
+├── scripts/                # 接入、任务状态、校验与构建脚本
+│   ├── radar_pipeline.py   # 接收扫描结果、保存来源、生成动态
+│   ├── research_task.py    # 研究任务交接与状态迁移
+│   ├── validate_okf.py     # OKF 元数据校验
+│   ├── generate_graph_data.py  # 扫描 wiki 生成知识图谱数据
+│   └── mkdocs_hooks.py     # MkDocs 构建钩子
+├── tests/                  # 接入、任务交接与元数据测试
+├── .github/workflows/      # CI 检查与 GitHub Pages 部署
+├── AGENTS.md               # 跨工具维护约定与测试、提交规则
+├── knowledge-plan.md       # 跟踪问题、读者与来源规范
 ├── mkdocs.yml              # MkDocs 站点配置
 ├── purpose.md              # 项目宗旨与范围
 └── README.md               # 项目入口说明
 ```
+
+具身智能的知识文章已独立归入 `wiki/Embodied-Intelligence/`，包括 EgoScale、HumanEgo、VideoManip 和 EgoVerse。原始材料沿用历史存放位置：EgoScale、HumanEgo 及 EgoVerse 位于 `raw/World-Models/`，VideoManip 位于 `raw/Deep-Learning/`。原始材料目录不等同于知识文章的主题分类；文章的 OKF `sources` 指向实际来源文件。
+
+接入新的论文扫描后，会生成 `raw/arxiv/`、`radar/scans/` 和 `radar/tasks/`；研究时按需创建 `drafts/` 与 `radar/reviews/`。接口与交接方式见仓库中的 `docs/workflow.md`。
 
 ## 如何阅读
 
@@ -50,8 +68,9 @@ My-Personal-LLM-Wiki/
 | **AI-Infra** | LLM 推理调度、分布式训练、KV Cache | SLAI 调度器、五种并行策略全景 |
 | **Chip-Architecture** | AI 芯片、数据流架构 | M100 车端推理芯片 |
 | **Deep-Learning** | 架构、理论、物理信息 AI | Transformer、Mamba-3、PINN/KAN 生态 |
+| **[Embodied-Intelligence](Embodied-Intelligence/index.md)** | 人类视频到机器人迁移、灵巧操作、具身数据集与 scaling | EgoScale、HumanEgo、VideoManip、EgoVerse |
 | **Reinforcement-Learning** | 决策智能、游戏 AI | AlphaGo |
-| **World-Models** | 世界模型、JEPA、机器人 | V-JEPA 2、Causal-JEPA、World Action Models |
+| **World-Models** | 环境表征、动态预测与基于模型的规划 | V-JEPA 2、Causal-JEPA、World Action Models |
 | **Companies** | 科技公司资料 | X Corp. |
 
 ### 全局索引
