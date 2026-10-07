@@ -166,3 +166,53 @@
 - 新批次 20261007-jepa-v4-source-retry-01 接入官方 Atom、目录与版本任务；原超时批次保持不变。
 - v4 单篇笔记任务完成，v3 保留停放以避免重复研究；第二轮研究记录与文章来源同步更新。
 - 这是版本元数据身份核对，不代表文章结论经过独立核查或人工审核。
+
+## [2026-10-07] Audit | 补录近期 Ingest / Compile 追溯信息
+- 本节及以下补录依据已有 Git 提交、来源头部和产物清单；补录时间为 2026-10-07，不表示重新下载或重新研究。
+- 核对 `9ed8d60..9217805`：新增 2 篇 World-Models 单篇笔记，Embodied-Intelligence 未新增文章；此前的 4 篇具身智能文章已见 2026-06-19 Compile 日志，5 篇既有世界模型文章已见 2026-05-31 Compile 日志。当前普通文章数为具身智能 4 篇、世界模型 7 篇，不含 index.md。
+- 遗漏：批量原文与历史目录接入未在此记录完整 Ingest；研究文章仅有汇总，缺少逐篇 Source / Compiled / Status。以下补齐，保留原日志和历史状态。
+
+## [2026-10-07] Ingest | 历史论文原文 Markdown 批量归档（补录）
+- Source: 已归档雷达中的 arXiv 论文 PDF，PDF 仅保留本地；不是把雷达解读当作原文。
+- Raw: `raw/<主题>/<arxiv-id>.fulltext.md`；逐页文本、PDF 哈希、转换时间和提取说明由 `radar/pdf-conversion-manifest.json` 逐项记录。
+- 范围：转换清单记载 215 个已提取文件，其中 2605.0645 与周报标题不符；该文件仅作异常下载留档，故有效匹配原文为 214 篇。2601.10999 已撤回、缺少可用当前原文；2503.29237 按作者要求排除。
+- Status: 原文提取完成不等于知识文章编写或事实审核完成；对应提交 `86a4d9e`，具体来源异常见 `radar/source-issues.json`。
+
+## [2026-10-07] Ingest | 历史雷达身份接入与研究任务创建（补录）
+- Source: `radar/reports/weekly/` 历史报告配套 JSON；官方身份来源为 `raw/arxiv/` 原始 Atom 响应。
+- Outputs: `radar/catalog.json`、`radar/scans/`、`radar/tasks/`，失败与重试保留独立批次；汇总为 `radar/ingest-summary.json`。
+- 本批次接收 215 个论文版本，创建 215 项任务；当时 214 项 pending、撤回论文 1 项 parked。以上为该批次快照，后续任务完成和 v4 新版本接入另记，不把历史状态当作当前状态。
+- Status: 元数据接入完成，尚未逐篇研究；对应提交 `7062003`。2605.0645 身份不符，未接收，不猜测更正 ID。
+
+## [2026-10-07] Compile | 世界模型可靠规划（首轮补录）
+- Sources: `raw/World-Models/2609.26292.fulltext.md`、`raw/Embodied-Intelligence/2607.08436.fulltext.md`。
+- Compiled: [wiki/Research/world-model-reliability.md](Research/world-model-reliability.md)；草稿副本 `drafts/Research/world-model-reliability.md`。
+- Status: draft，模型整理，未独立核验；对应首轮提交 `9ed8d60`。首轮任务关系与后续缺口见 `radar/research-runs/first-pass.json`。
+
+## [2026-10-07] Compile | 人类视频与机器人数据需求（首轮补录）
+- Sources: `raw/Embodied-Intelligence/2607.08436.fulltext.md`、`raw/Embodied-Intelligence/2609.39403.fulltext.md`。
+- Compiled: [wiki/Research/human-video-data-boundaries.md](Research/human-video-data-boundaries.md)；草稿副本 `drafts/Research/human-video-data-boundaries.md`。
+- Status: draft，模型整理，未独立核验；对应首轮提交 `9ed8d60`。保留混合人类/机器人数据与迁移边界，未记为无需机器人数据。
+
+## [2026-10-07] Compile | 机器人部署约束（首轮补录）
+- Sources: `raw/Embodied-Intelligence/2609.33007.fulltext.md`、`raw/Embodied-Intelligence/2609.39403.fulltext.md`。
+- Compiled: [wiki/Research/robot-deployment-cost-boundaries.md](Research/robot-deployment-cost-boundaries.md)；草稿副本 `drafts/Research/robot-deployment-cost-boundaries.md`。
+- Status: draft，模型整理，未独立核验；对应首轮提交 `9ed8d60`。数据采集成本、模型调用频率与底层控制频率分别记录。
+
+## [2026-10-07] Compile | Demo-JEPA（第二轮补录）
+- Source: `raw/World-Models/2605.20811.fulltext.md`，arXiv:2605.20811v1。
+- Compiled: [wiki/World-Models/demo-jepa.md](World-Models/demo-jepa.md)；草稿副本 `drafts/World-Models/demo-jepa.md`。
+- Summary: 源视频推断目标机器人的潜空间目标，再由动作条件世界模型规划；明确配对轨迹、目标机器人动作数据与机器人间迁移的实验边界。
+- Updated: `wiki/index.md`、`wiki/World-Models/index.md`、`mkdocs.yml`、知识图谱与历史收录清单。
+- Status: draft，未独立核验；任务 `radar/tasks/2605.20811v1.json` completed 仅表示本轮产物完成；对应提交 `584bcfe`。
+
+## [2026-10-07] Compile | JEPA 规划设计研究（第二轮补录）
+- Source: `raw/World-Models/2512.24497.fulltext.md`，全文首页 arXiv:2512.24497v4；官方版本响应为 `raw/arxiv/2512.24497v4.xml`。
+- Compiled: [wiki/World-Models/jepa-planning-design.md](World-Models/jepa-planning-design.md)；草稿副本 `drafts/World-Models/jepa-planning-design.md`。
+- Summary: 区分预测误差、规划优化和执行成功；DROID 的离线 Action Score 不能当作真机闭环成功率。
+- Updated: `wiki/index.md`、`wiki/World-Models/index.md`、`mkdocs.yml`、知识图谱与历史收录清单。
+- Status: draft，未独立核验；编写对应 `584bcfe`。官方 v4 元数据请求首次超时，后续在 `9217805` 成功接入，v4 任务 completed、v3 parked。
+
+## [2026-10-07] Maintenance | 明确日志为 Ingest / Compile 的完成条件
+- `AGENTS.md` 与 `wiki/overview.md` 统一要求：来源、文章、索引和追加日志一起维护；任务 JSON、研究运行记录或提交说明不能代替操作日志。
+- 单篇记 Source / Compiled / Updated / Status；批次记范围、数量、失败与重试、逐项清单位置；历史补录标明补录身份，不编造执行日期。
