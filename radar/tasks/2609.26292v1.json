@@ -9,8 +9,8 @@
   "max_attempts": 2,
   "owner": "codex",
   "independent_review_required": false,
-  "artifact": "drafts/Research/world-model-reliability.md",
+  "artifact": "wiki/World-Models/robotwin-phys.md",
   "review_report": null,
-  "next_step": "首轮证据整理完成，未独立核验；后续按主线继续补齐实验条件。",
-  "updated_at": "2026-10-07T03:05:02.191242+00:00"
+  "next_step": "独立论文笔记与历史雷达局限性已同步，未独立核验；后续核对跨协议评测配置及真机证据，参考外部评价时注明来源。",
+  "updated_at": "2026-10-07T08:36:36.951225+00:00"
 }

@@ -7,6 +7,25 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from render_radar_archive import render, summary_paragraphs
 
 class ArchiveTests(unittest.TestCase):
+    def test_note_limitations_replace_placeholder_and_survive_rebuild(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root/'radar').mkdir(); (root/'wiki').mkdir()
+            note = root/'wiki/paper.md'
+            note.write_text("---\narxiv_id: '2609.26292'\n---\n## 局限性\n\n模型解读：仅仿真，p.6。\n\n## 方法\n正文")
+            rows = [{'arxiv_id': '2609.26292', 'summary': '历史描述。局限：未核对。实际阅读范围：历史摘要。', 'raw': [], 'wiki': ['wiki/paper.md'], 'reports': []}]
+            coverage = root/'radar/archive-coverage.json'
+            coverage.write_text(json.dumps({'papers': rows}))
+            render(root)
+            text = (root/'wiki/radar-archive.md').read_text()
+            self.assertIn('模型解读：仅仿真，p.6。', text)
+            self.assertNotIn('局限：</strong>未核对', text)
+            self.assertIn('实际阅读范围：</strong>历史摘要。', text)
+            self.assertEqual(json.loads(coverage.read_text())['papers'], rows)
+            note.write_text(note.read_text().replace('仅仿真，p.6。', '新增证据，p.8。'))
+            render(root)
+            self.assertIn('新增证据，p.8。', (root/'wiki/radar-archive.md').read_text())
+
     def test_summary_fields_are_separate_paragraphs_and_escaped(self):
         text = summary_paragraphs('历史条目。问题/方法/证据：方法 <script>。为什么重要：意义。局限：未核验。实际阅读范围：摘要。')
         for label in ['问题/方法/证据', '为什么重要', '局限', '实际阅读范围']:

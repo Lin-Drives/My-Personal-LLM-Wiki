@@ -11,3 +11,4 @@
 | [World Action Models：从世界预测到可执行动作](world-action-models.md) | DreamZero/Fast-WAM/Cosmos Policy 从预测世界到可执行动作的范式转变 | 2026-05-31 |
 | [JEPA 规划设计研究](jepa-planning-design.md) | 训练、规划器与指标的条件差异；离线评分不等于真机成功率 | 2026-10-07 |
 | [Demo-JEPA](demo-jepa.md) | 视频示范转目标再规划；配对数据与跨具身迁移边界 | 2026-10-07 |
+| [RoboTwin-Phys](robotwin-phys.md) | 物理条件随机化评测与仿真证据边界 | 2026-10-07 |

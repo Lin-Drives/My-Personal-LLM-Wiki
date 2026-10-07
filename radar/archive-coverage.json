@@ -3076,7 +3076,8 @@
         "radar/reports/weekly/2026-W40-world-models.md"
       ],
       "wiki": [
-        "wiki/Research/world-model-reliability.md"
+        "wiki/Research/world-model-reliability.md",
+        "wiki/World-Models/robotwin-phys.md"
       ],
       "raw": [
         "raw/World-Models/2609.26292.fulltext.md",

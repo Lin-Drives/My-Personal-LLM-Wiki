@@ -73,10 +73,10 @@ sources:
 <p><strong>历史扫描解读：</strong></p><p>历史周报补处理条目：RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World? (arXiv:2609.26292, 2026-09-22)。</p>
 <p><strong>问题/方法/证据：</strong>关键词 : 物理多样性基准、机器人操作、WAM/VLA 评测、sim to real gap 北大团队推出 RoboTwin Phys，一个将 物理条件多样性 作为显式评测维度的机器人操作基准。现有大规模仿真基准主要变化外观、场景布局和视觉观测，但底层物理参数（质量、摩擦、关节动力学）通常固定。RoboTwin Phys 覆盖 13 个物理属性、5000+ 专家演示，系统评测当前代表性的 World Action Models WAMs 和 Vision Language Action models VLAs 在物理条件变化下的鲁棒性。实验揭示了一致的鲁棒性缺口——模型在标准条件下表现优异，但物理参数偏移时性能显著退化。</p>
 <p><strong>为什么重要 :</strong> 这击中了当前 world model 评测的盲区——&quot;视觉逼真 ≠ 物理正</p>
-<p><strong>局限：</strong>原历史报告未单列，本次未重新核对全文。</p>
+<p><strong>局限：</strong>模型解读：当前证据主要来自仿真；随机化同时改变动力学、几何和相机条件，因此成功率下降还不能直接归因为模型缺乏物理理解。基准分数引用既有公开评测，物理随机化由本文评测，配置是否完全一致尚待确认。参数在一次任务内固定，对运行中突变后的恢复和真机部署的支持仍有限。依据原文 PDF p.6 表 1、pp.8–9 的参数与评测说明，未独立核验。</p>
 <p><strong>实际阅读范围：</strong>基于既有周报摘要转换，未在本次重新核对全文。</p>
 <p><strong>原文：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/World-Models/2609.26292.fulltext.md">2609.26292.fulltext.md</a></p>
-<p><strong>知识笔记：</strong><a href="../Research/world-model-reliability/">world-model-reliability</a></p>
+<p><strong>知识笔记：</strong><a href="../Research/world-model-reliability/">world-model-reliability</a> · <a href="../World-Models/robotwin-phys/">robotwin-phys</a></p>
 <p><strong>扫描来源：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/radar/reports/weekly/2026-W40-world-models.md">2026-W40-world-models.md</a></p>
 </details>
 

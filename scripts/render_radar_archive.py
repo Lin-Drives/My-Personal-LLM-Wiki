@@ -66,6 +66,23 @@ def render(root=ROOT):
             continue
         lines += [f'<h2 id="topic-{key.lower()}">{safe(label)} · {len(grouped[key])} 篇</h2>', '']
         for row in sorted(grouped[key], key=lambda item: item['arxiv_id'], reverse=True):
+            summary = row['summary']
+            # A digested paper's note owns the current limitations; historical
+            # reports stay unchanged and rebuilding cannot revert the update.
+            for note_path in row.get('wiki', []):
+                note = root / note_path
+                if not note.is_file():
+                    continue
+                text = note.read_text(encoding='utf-8')
+                if not re.search(r'^arxiv_id:\s*[\'\"]?' + re.escape(row['arxiv_id']) + r'[\'\"]?\s*$', text, re.M):
+                    continue
+                section = re.search(r'^## 局限性\s*\n(.*?)(?=^## |\Z)', text, re.M | re.S)
+                if section and section.group(1).strip():
+                    limitations = '局限：' + section.group(1).strip() + ' '
+                    summary, count = re.subn(r'(?<!/)局限[：:].*?(?=实际阅读范围[：:]|$)', lambda _: limitations, summary, count=1, flags=re.S)
+                    if not count:
+                        summary += ' ' + limitations
+                    break
             fulltext = [p for p in row['raw'] if p.endswith('.fulltext.md')]
             paper = catalog.get(row['arxiv_id'], {})
             title = paper.get('title', '来源待确认（请查看历史报告）')
@@ -74,7 +91,7 @@ def render(root=ROOT):
                 state = '已撤回 · 仅供历史参考'
             lines += ['<details>', f'<summary><strong>{safe(title)}</strong><br><small>arXiv:{safe(row["arxiv_id"])} · {safe(state)}</small></summary>',
                       f'<p><a href="https://arxiv.org/abs/{safe(row["arxiv_id"])}">arXiv 页面</a></p>',
-                      summary_paragraphs(row['summary']),
+                      summary_paragraphs(summary),
                       '<p><strong>原文：</strong>' + (links(fulltext) or '尚未取得可用原文；来源异常及撤回说明见历史解读。') + '</p>']
             if row.get('wiki'):
                 wiki_links = ' · '.join(f'<a href="../{safe(path.removeprefix("wiki/").removesuffix(".md"))}/">{safe(Path(path).stem)}</a>' for path in row['wiki'])

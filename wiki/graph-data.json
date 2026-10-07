@@ -209,6 +209,14 @@
       "topic": "World-Models"
     },
     {
+      "id": "World-Models-robotwin-phys",
+      "label": "RoboTwin-Phys：物理条件变化下的机器人策略评测",
+      "group": "World-Models",
+      "color": "#9B59B6",
+      "url": "World-Models/robotwin-phys/",
+      "topic": "World-Models"
+    },
+    {
       "id": "World-Models-v-jepa-2",
       "label": "V-JEPA 2: 视频自监督到机器人零样本规划",
       "group": "World-Models",
@@ -391,6 +399,10 @@
       "to": "World-Models-world-action-models"
     },
     {
+      "from": "Research-world-model-reliability",
+      "to": "World-Models-robotwin-phys"
+    },
+    {
       "from": "World-Models-causal-jepa",
       "to": "World-Models-jepa-ecosystem-2026"
     },
@@ -425,6 +437,10 @@
     {
       "from": "World-Models-jepa-planning-design",
       "to": "World-Models-v-jepa-2"
+    },
+    {
+      "from": "World-Models-robotwin-phys",
+      "to": "Research-world-model-reliability"
     },
     {
       "from": "World-Models-v-jepa-2",
