@@ -154,7 +154,7 @@
     },
     {
       "id": "Research-human-video-data-boundaries",
-      "label": "研究主线｜人类视频究竟减少哪些机器人数据需求？",
+      "label": "研究主线｜人类视频能减少哪些机器人训练数据需求？",
       "group": "Research",
       "color": "#888888",
       "url": "Research/human-video-data-boundaries/",
@@ -162,7 +162,7 @@
     },
     {
       "id": "Research-robot-deployment-cost-boundaries",
-      "label": "研究主线｜机器人部署：区分控制频率、模型调用与数据采集成本",
+      "label": "研究主线｜机器人策略怎样满足实际部署约束？",
       "group": "Research",
       "color": "#888888",
       "url": "Research/robot-deployment-cost-boundaries/",
@@ -170,7 +170,7 @@
     },
     {
       "id": "Research-world-model-reliability",
-      "label": "研究主线｜世界模型可靠规划：先分清预测目标与评测边界",
+      "label": "研究主线｜世界模型如何帮助机器人决策与行动？",
       "group": "Research",
       "color": "#888888",
       "url": "Research/world-model-reliability/",

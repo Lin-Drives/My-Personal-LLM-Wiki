@@ -102,7 +102,7 @@ RoboTwin-Phys 是一个**面向物理条件多样性的机器人操作基准**�
 
 ## 延伸阅读
 
-- [研究主线 · 世界模型可靠规划](../Research/world-model-reliability.md) — 区分预测目标、规划与评测边界。
+- [研究主线 · 世界模型与机器人决策](../Research/world-model-reliability.md) — 区分预测目标、规划与评测边界。
 - [JEPA 规划设计研究](jepa-planning-design.md) — 为什么预测更准、目标距离更低，仍可能执行失败。
 - [Demo-JEPA](demo-jepa.md) — 视频目标预测与动作规划之间的失效边界。
 

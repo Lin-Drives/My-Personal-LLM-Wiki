@@ -1,6 +1,6 @@
 ---
 type: Research Synthesis
-title: 研究主线｜人类视频究竟减少哪些机器人数据需求？
+title: 研究主线｜人类视频能减少哪些机器人训练数据需求？
 description: 对照论文原文形成首轮问题驱动的证据与边界整理。
 tags: [机器人, 研究主线]
 status: draft
@@ -14,7 +14,7 @@ sources:
     resource: ../../raw/Embodied-Intelligence/2609.39403.fulltext.md
 ---
 
-# 研究主线｜人类视频究竟减少哪些机器人数据需求？
+# 研究主线｜人类视频能减少哪些机器人训练数据需求？
 
 ## 来源
 

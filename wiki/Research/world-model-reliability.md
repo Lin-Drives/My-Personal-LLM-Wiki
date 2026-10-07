@@ -1,6 +1,6 @@
 ---
 type: Research Synthesis
-title: 研究主线｜世界模型可靠规划：先分清预测目标与评测边界
+title: 研究主线｜世界模型如何帮助机器人决策与行动？
 description: 对照论文原文形成首轮问题驱动的证据与边界整理。
 tags: [机器人, 研究主线]
 status: draft
@@ -14,7 +14,7 @@ sources:
     resource: ../../raw/Embodied-Intelligence/2607.08436.fulltext.md
 ---
 
-# 研究主线｜世界模型可靠规划：先分清预测目标与评测边界
+# 研究主线｜世界模型如何帮助机器人决策与行动？
 
 ## 来源
 

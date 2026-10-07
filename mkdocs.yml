@@ -39,9 +39,9 @@ nav:
   - 最新论文动态: updates.md
   - 历史雷达与原文: radar-archive.md
   - 研究主线:
-      - 研究主线 · 世界模型可靠规划: Research/world-model-reliability.md
-      - 研究主线 · 人类视频与数据需求: Research/human-video-data-boundaries.md
-      - 研究主线 · 机器人部署约束: Research/robot-deployment-cost-boundaries.md
+      - 研究主线 · 世界模型与机器人决策: Research/world-model-reliability.md
+      - 研究主线 · 人类视频与机器人学习: Research/human-video-data-boundaries.md
+      - 研究主线 · 机器人策略的实际部署: Research/robot-deployment-cost-boundaries.md
   - 全局概要: overview.md
   - 操作日志: log.md
   - AI 基础设施:
