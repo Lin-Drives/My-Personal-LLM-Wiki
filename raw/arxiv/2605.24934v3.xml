@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/V9pVeAutIEQr1tp1mm4mIb7E0xI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2605.24934&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T12:42:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2605.24934" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2605.24934v3</id>
+    <title>HumanEgo: Zero-Shot Robot Learning from Minutes of Human Egocentric Videos</title>
+    <updated>2026-09-14T23:59:53Z</updated>
+    <link href="https://arxiv.org/abs/2605.24934v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.24934v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human egocentric video captures rich manipulation demonstrations without any robot hardware, yet transferring these skills to robots remains challenging due to the embodiment gap between human and robot in both visual appearance and kinematics. We present HumanEgo, a framework that bridges the embodiment gap by lifting each human demonstration to an entity-level representation of hand-object interaction, and training a flow matching policy with dense auxiliary objectives that amplify supervision from every trajectory. HumanEgo is robot-data-free, hardware-agnostic, data-efficient, and zero-shot human-to-robot transferable. With only 30 minutes of human videos per task, HumanEgo achieves 92.5% average success across four real-world tasks (75% with just 15 minutes), outperforms matched-time robot teleoperation by 41%, and robustly transfers zero-shot across novel robots, cameras, and environments. We release HumanEgo as an easy-to-use, open-source framework for learning robot policies directly from human data: https://github.com/TX-Leo/HumanEgo</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-24T08:26:41Z</published>
+    <arxiv:comment>Project page: https://humanego-ai.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhi Wang</name>
+    </author>
+    <author>
+      <name>Botao He</name>
+    </author>
+    <author>
+      <name>Kelin Yu</name>
+    </author>
+    <author>
+      <name>Seungjae Lee</name>
+    </author>
+    <author>
+      <name>Ruohan Gao</name>
+    </author>
+    <author>
+      <name>Furong Huang</name>
+    </author>
+    <author>
+      <name>Yiannis Aloimonos</name>
+    </author>
+  </entry>
+</feed>

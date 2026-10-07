@@ -1862,6 +1862,28 @@
       "sha256": "7874c99bed712565c086db9e87581a1553c7b2e0bd45c7b783cd39f4acf0dc4d",
       "downloaded_at": "2026-10-06T23:59:50.817605+00:00",
       "version": "unresolved latest at download time"
+    },
+    "2605.24934v3": {
+      "arxiv_id": "2605.24934v3",
+      "status": "downloaded",
+      "path": "/Users/hpp/Work/Git_Repo/My-Personal-LLM-Wiki/raw/Embodied-Intelligence/2026-05-24-humanego-arxiv-2605.24934v3.pdf",
+      "url": "https://arxiv.org/pdf/2605.24934v3",
+      "sha256": "d55c8a444478d9a851bfbdb8da7a79835d114e7e1d23c39b7ba29d239f4ba03f",
+      "downloaded_at": "2026-10-07T13:02:59.743846+00:00",
+      "version": "explicit",
+      "official_title": "HumanEgo: Zero-Shot Robot Learning from Minutes of Human Egocentric Videos",
+      "source_metadata": "raw/arxiv/2605.24934v3.xml"
+    },
+    "2602.16710v1": {
+      "arxiv_id": "2602.16710v1",
+      "status": "downloaded",
+      "path": "/Users/hpp/Work/Git_Repo/My-Personal-LLM-Wiki/raw/Embodied-Intelligence/2026-02-18-egoscale-arxiv-2602.16710v1.pdf",
+      "url": "https://arxiv.org/pdf/2602.16710v1",
+      "sha256": "39c691baf374a154e26ffc0098b97037875909495013d4017d97761716ff2735",
+      "downloaded_at": "2026-10-07T13:03:10.812396+00:00",
+      "version": "explicit",
+      "official_title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
+      "source_metadata": "raw/arxiv/2602.16710v1.xml"
     }
   }
 }

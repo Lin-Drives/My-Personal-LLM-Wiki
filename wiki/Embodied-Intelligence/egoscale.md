@@ -14,6 +14,8 @@ sources:
   resource: https://research.nvidia.com/labs/gear/egoscale/
 - id: raw-2026-02-20-egoscale-arxiv-2602.16710
   resource: ../../raw/World-Models/2026-02-20-egoscale-arxiv-2602.16710.md
+- id: fulltext-2602.16710
+  resource: ../../raw/Embodied-Intelligence/2602.16710.fulltext.md
 ---
 
 # EgoScale：大规模人类 egocentric 视频预训练与灵巧操作
@@ -26,6 +28,8 @@ sources:
 - **URL**: https://arxiv.org/abs/2602.16710
 - **Authors**: Ruijie Zheng, Dantong Niu, Yuqi Xie, Jing Wang, Mengda Xu, Yunfan Jiang, Fernando Castañeda, Fengyuan Hu, You Liang Tan, Letian Fu, Trevor Darrell, Furong Huang, Yuke Zhu, Danfei Xu, Linxi Fan (NVIDIA + UC Berkeley + UMD)
 - **Website**: https://research.nvidia.com/labs/gear/egoscale/
+
+- **补充全文**：[2602.16710v1 逐页原文](https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/Embodied-Intelligence/2602.16710.fulltext.md)；本次仅补齐来源，历史笔记正文尚未按此版本重新核验。
 
 ## 概述
 

@@ -2155,6 +2155,28 @@
       "empty_pages": [],
       "unicode_repaired_pages": [],
       "converted_at": "2026-10-07T00:00:23.609571+00:00"
+    },
+    {
+      "arxiv_id": "2605.24934v3",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2026-05-24-humanego-arxiv-2605.24934v3.pdf",
+      "markdown": "raw/Embodied-Intelligence/2605.24934.fulltext.md",
+      "pdf_sha256": "d55c8a444478d9a851bfbdb8da7a79835d114e7e1d23c39b7ba29d239f4ba03f",
+      "pages": 26,
+      "empty_pages": [],
+      "unicode_repaired_pages": [],
+      "converted_at": "2026-10-07T13:03:38.859529+00:00"
+    },
+    {
+      "arxiv_id": "2602.16710v1",
+      "status": "converted",
+      "pdf": "raw/Embodied-Intelligence/2026-02-18-egoscale-arxiv-2602.16710v1.pdf",
+      "markdown": "raw/Embodied-Intelligence/2602.16710.fulltext.md",
+      "pdf_sha256": "39c691baf374a154e26ffc0098b97037875909495013d4017d97761716ff2735",
+      "pages": 22,
+      "empty_pages": [],
+      "unicode_repaired_pages": [],
+      "converted_at": "2026-10-07T13:03:39.096806+00:00"
     }
   ]
 }

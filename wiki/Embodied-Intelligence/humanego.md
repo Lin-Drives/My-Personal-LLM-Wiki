@@ -16,6 +16,8 @@ sources:
   resource: https://humanego-ai.github.io/
 - id: raw-2026-05-28-humanego-arxiv-2605.24934
   resource: ../../raw/World-Models/2026-05-28-humanego-arxiv-2605.24934.md
+- id: fulltext-2605.24934
+  resource: ../../raw/Embodied-Intelligence/2605.24934.fulltext.md
 ---
 
 # HumanEgo：零样本机器人学习的极致数据效率
@@ -29,6 +31,8 @@ sources:
 - **Authors**: Zhi Wang, Botao He, Kelin Yu, Seungjae Lee, Ruohan Gao, Furong Huang, Yiannis Aloimonos (University of Maryland)
 - **Code**: https://github.com/TX-Leo/HumanEgo
 - **Website**: https://humanego-ai.github.io/
+
+- **补充全文**：[2605.24934v3 逐页原文](https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/Embodied-Intelligence/2605.24934.fulltext.md)；本次仅补齐来源，历史笔记正文尚未按此版本重新核验。
 
 ## 概述
 
