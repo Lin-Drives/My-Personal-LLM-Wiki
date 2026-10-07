@@ -147,3 +147,8 @@
 - 同步更新文章的来源链接与 OKF sources，保留二手报告来源性质。
 - 补回 2507.08338 并取得原文，原 PDF 仅本地保存，Markdown 同主题归档。
 - 历史雷达与原文入口见 [radar-archive.md](radar-archive.md)。
+
+## [2026-10-07] 自动研究首轮
+- 按三个长期问题联读四篇原文，产出三篇 Research Synthesis 草稿并在首页提供入口。
+- 四项论文任务记录首轮完成，未标记 verified；其他任务保持原状态。
+- 研究边界、原文页码与下一轮缺口保存在草稿和 radar/research-runs/first-pass.json。

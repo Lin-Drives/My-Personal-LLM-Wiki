@@ -145,20 +145,36 @@
       "topic": "Embodied-Intelligence"
     },
     {
-      "id": "overview",
-      "label": "Overview — 项目概览与使用指南",
-      "group": "wiki",
-      "color": "#888888",
-      "url": "overview/",
-      "topic": "wiki"
-    },
-    {
       "id": "Reinforcement-Learning-alphago",
       "label": "AlphaGo",
       "group": "Reinforcement-Learning",
       "color": "#E04A4A",
       "url": "Reinforcement-Learning/alphago/",
       "topic": "Reinforcement-Learning"
+    },
+    {
+      "id": "Research-human-video-data-boundaries",
+      "label": "人类视频究竟减少哪些机器人数据需求？",
+      "group": "Research",
+      "color": "#888888",
+      "url": "Research/human-video-data-boundaries/",
+      "topic": "Research"
+    },
+    {
+      "id": "Research-robot-deployment-cost-boundaries",
+      "label": "机器人部署：区分控制频率、模型调用与数据采集成本",
+      "group": "Research",
+      "color": "#888888",
+      "url": "Research/robot-deployment-cost-boundaries/",
+      "topic": "Research"
+    },
+    {
+      "id": "Research-world-model-reliability",
+      "label": "世界模型可靠规划：先分清预测目标与评测边界",
+      "group": "Research",
+      "color": "#888888",
+      "url": "Research/world-model-reliability/",
+      "topic": "Research"
     },
     {
       "id": "World-Models-causal-jepa",
@@ -199,6 +215,14 @@
       "color": "#9B59B6",
       "url": "World-Models/world-models-survey/",
       "topic": "World-Models"
+    },
+    {
+      "id": "overview",
+      "label": "Overview — 项目概览与使用指南",
+      "group": "wiki",
+      "color": "#888888",
+      "url": "overview/",
+      "topic": "wiki"
     }
   ],
   "edges": [

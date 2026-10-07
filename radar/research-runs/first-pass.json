@@ -1,0 +1,35 @@
+{
+  "state": "first_pass_completed",
+  "generated_at": "2026-10-07T03:05:02.185375+00:00",
+  "owner": "codex",
+  "scope": "首轮四篇原文证据整理；不代表全部历史论文已研究或主线已解决",
+  "groups": [
+    {
+      "question": "world-model-reliability",
+      "artifact": "wiki/Research/world-model-reliability.md",
+      "papers": [
+        "2609.26292",
+        "2607.08436"
+      ],
+      "next_step": "按草稿列出的缺口补读实验与附录"
+    },
+    {
+      "question": "human-video-data-boundaries",
+      "artifact": "wiki/Research/human-video-data-boundaries.md",
+      "papers": [
+        "2607.08436",
+        "2609.39403"
+      ],
+      "next_step": "按草稿列出的缺口补读实验与附录"
+    },
+    {
+      "question": "robot-deployment-cost-boundaries",
+      "artifact": "wiki/Research/robot-deployment-cost-boundaries.md",
+      "papers": [
+        "2609.33007",
+        "2609.39403"
+      ],
+      "next_step": "按草稿列出的缺口补读实验与附录"
+    }
+  ]
+}
