@@ -4,9 +4,18 @@ import sys
 import tempfile
 import unittest
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from render_radar_archive import render
+from render_radar_archive import render, summary_paragraphs
 
 class ArchiveTests(unittest.TestCase):
+    def test_summary_fields_are_separate_paragraphs_and_escaped(self):
+        text = summary_paragraphs('历史条目。问题/方法/证据：方法 <script>。为什么重要：意义。局限：未核验。实际阅读范围：摘要。')
+        for label in ['问题/方法/证据', '为什么重要', '局限', '实际阅读范围']:
+            self.assertIn('<p><strong>' + label + '：</strong>', text)
+        self.assertIn('&lt;script&gt;', text)
+        self.assertNotIn('<script>', text)
+        combined = summary_paragraphs('问题/方法/证据/局限：完整内容。实际阅读范围：摘要。')
+        self.assertIn('<strong>问题/方法/证据/局限：</strong>完整内容。', combined)
+
     def test_unverified_history_and_source_links_render_without_html_injection(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory);(root/'radar').mkdir();(root/'wiki').mkdir()

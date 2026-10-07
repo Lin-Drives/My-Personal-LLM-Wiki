@@ -1,11 +1,31 @@
 """Publish a historical reading inventory; archived interpretations remain unverified."""
 import html
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 GITHUB = 'https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/'
+
+
+def summary_paragraphs(summary):
+    """Separate the report's existing fields without rewriting their content."""
+    summary = str(summary)
+    fields = r'(问题/方法/证据(?:/局限)?|为什么重要|实际阅读范围|局限)\s*[：:]'
+    starts = [match.start() for match in re.finditer(fields, summary)]
+    boundaries = sorted(set([0, *starts, len(summary)]))
+    paragraphs = []
+    for start, end in zip(boundaries, boundaries[1:]):
+        text = summary[start:end].strip()
+        if text:
+            match = re.match(fields, text)
+            if match:
+                paragraphs.append('<p><strong>' + html.escape(match.group(0))
+                                  + '</strong>' + html.escape(text[match.end():]) + '</p>')
+            else:
+                paragraphs.append('<p>' + html.escape(text) + '</p>')
+    return '<p><strong>历史扫描解读：</strong></p>' + '\n'.join(paragraphs)
 
 
 def render(root=ROOT):
@@ -54,7 +74,7 @@ def render(root=ROOT):
                 state = '已撤回 · 仅供历史参考'
             lines += ['<details>', f'<summary><strong>{safe(title)}</strong><br><small>arXiv:{safe(row["arxiv_id"])} · {safe(state)}</small></summary>',
                       f'<p><a href="https://arxiv.org/abs/{safe(row["arxiv_id"])}">arXiv 页面</a></p>',
-                      f'<p><strong>历史扫描解读：</strong>{safe(row["summary"])}</p>',
+                      summary_paragraphs(row['summary']),
                       '<p><strong>原文：</strong>' + (links(fulltext) or '尚未取得可用原文；来源异常及撤回说明见历史解读。') + '</p>']
             if row.get('wiki'):
                 wiki_links = ' · '.join(f'<a href="../{safe(path.removeprefix("wiki/").removesuffix(".md"))}/">{safe(Path(path).stem)}</a>' for path in row['wiki'])
