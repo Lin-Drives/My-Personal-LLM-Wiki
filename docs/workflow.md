@@ -105,3 +105,9 @@ python3 scripts/research_task.py 2506.09985v1 parked --owner kimi-claw --note '�
 ID-only PDF 下载完成后运行 `python3 scripts/rename_local_pdfs.py` 预览，再运行 `python3 scripts/rename_local_pdfs.py --apply`。用已确认目录中的首次发布日期与官方标题生成 `YYYY-MM-DD-title-slug-arxiv-ID.pdf`；明确版本后缀原样保留，不把目录最新版本冒充本地 PDF 版本。已有描述性文件名保留；缺少确认身份的文件不猜测命名。作者简写暂不加入，避免未知作者或重名。
 
 重命名报告保存于 `radar/pdf-renaming-report.json`，记录旧名、新名及原文件 SHA-256；同步下载与转换清单、收录清单和原文提取头部的本地 PDF 引用。提取 Markdown 的公开路径保持稳定，PDF 不进入 Git。
+
+## 局限性的写法
+
+局限性随对应论文笔记维护，用简短、概述性的语言说明适用条件和证据边界，不另建独立分析文章或重复任务队列。研究主线只保留必要的综合判断与论文入口。
+
+可以参考其他论文摘要或解读中对目标工作的引用与局限性评价，注明评价来源和具体位置；区分目标论文自述、其他论文评价与模型解读。未回到目标原文确认的评价保留“待核对”标记，不据此补造结论；后续证据在原笔记更新。

@@ -94,5 +94,3 @@ AI 芯片架构与设计。
 | Article | Summary | Updated |
 |---------|---------|---------|
 | [X Corp. 公司概况](Companies/x-corp-company-profile.md) | 官网使命「服务公众对话」、公共政策、安全隐私、X for Good CSR、爱尔兰运营主体 | 2026-06-03 |
-
-重点论文局限性分析：[RoboTwin-Phys 的局限性与证据边界](Research/robotwin-phys-limitations.md)（模型解读，未独立核验）。

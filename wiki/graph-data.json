@@ -169,14 +169,6 @@
       "topic": "Research"
     },
     {
-      "id": "Research-robotwin-phys-limitations",
-      "label": "RoboTwin-Phys 的局限性与证据边界",
-      "group": "Research",
-      "color": "#888888",
-      "url": "Research/robotwin-phys-limitations/",
-      "topic": "Research"
-    },
-    {
       "id": "Research-world-model-reliability",
       "label": "世界模型可靠规划：先分清预测目标与评测边界",
       "group": "Research",
@@ -397,10 +389,6 @@
     {
       "from": "Embodied-Intelligence-videomanip",
       "to": "World-Models-world-action-models"
-    },
-    {
-      "from": "Research-world-model-reliability",
-      "to": "Research-robotwin-phys-limitations"
     },
     {
       "from": "World-Models-causal-jepa",
