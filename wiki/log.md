@@ -47,20 +47,6 @@
 - 文章： [wiki/Research/world-model-reliability.md](Research/world-model-reliability.md)；草稿副本 `drafts/Research/world-model-reliability.md`。
 - 状态： 草稿，模型整理，未独立核验；对应首轮提交 `9ed8d60`。首轮任务关系与后续缺口见 `radar/research-runs/first-pass.json`。
 
-## [2026-10-07] 材料接入 | 历史雷达身份接入与研究任务创建（补录）
-
-- 来源： `radar/reports/weekly/` 历史报告配套 JSON；官方身份来源为 `raw/arxiv/` 原始 Atom 响应。
-- 产物： `radar/catalog.json`、`radar/scans/`、`radar/tasks/`，失败与重试保留独立批次；汇总为 `radar/ingest-summary.json`。
-- 本批次接收 215 个论文版本，创建 215 项任务；当时 214 项待研究、撤回论文 1 项停放。以上为该批次快照，后续任务完成和 v4 新版本接入另记，不把历史状态当作当前状态。
-- 状态： 元数据接入完成，尚未逐篇研究；对应提交 `7062003`。2605.0645 身份不符，未接收，不猜测更正 ID。
-
-## [2026-10-07] 材料接入 | 历史论文原文 Markdown 批量归档（补录）
-
-- 来源： 已归档雷达中的 arXiv 论文 PDF，PDF 仅保留本地；不是把雷达解读当作原文。
-- 原文： `raw/<主题>/<arxiv-id>.fulltext.md`；逐页文本、PDF 哈希、转换时间和提取说明由 `radar/pdf-conversion-manifest.json` 逐项记录。
-- 范围：转换清单记载 215 个已提取文件，其中 2605.0645 与周报标题不符；该文件仅作异常下载留档，故有效匹配原文为 214 篇。2601.10999 已撤回、缺少可用当前原文；2503.29237 按作者要求排除。
-- 状态： 原文提取完成不等于知识文章编写或事实审核完成；对应提交 `86a4d9e`，具体来源异常见 `radar/source-issues.json`。
-
 ## [2026-10-07] 追溯核对 | 补录近期 材料接入 / 文章编写 追溯信息
 
 - 本次补录依据已有 Git 提交、来源头部和产物清单；补录时间为 2026-10-07，不表示重新下载或重新研究。
@@ -77,7 +63,6 @@
 ## [2026-10-07] 历史浏览改进与第二轮文章编写
 
 - 历史雷达页改为主题分组、官方标题、折叠详情和周报索引，保留原文、知识笔记与来源异常入口。
-- 没有找到更新一期的扫描产物；从已接入且尚无单篇笔记的待整理原文继续编写，不重复执行历史材料接入。
 - 新增 JEPA 规划设计研究（2512.24497v4）与 Demo-JEPA（2605.20811v1），依据原文方法、实验和失败条件整理，未进行独立核查。
 - Demo-JEPA v1 任务完成本轮产物；2512.24497 目录 v3 与本地 PDF 首页 v4 不符，将 v3 任务停放，笔记明确使用 v4，不冒记版本任务完成。
 - 研究主线综合文章保持现状；下一步接入 v4 官方元数据、核查部署指标及目标机器人训练成本。
@@ -153,7 +138,7 @@
 - 目录结构：6 个主题栏目与 6 个目录一致
 - 本次检查无需修复，知识库结构一致
 
-## [2026-06-19] 导航改版 | 参考 GAC-BMS-wiki 优化 MkDocs 导航与主题
+## [2026-06-19] 导航改版 |  优化 MkDocs 导航与主题
 
 - 新增： navigation.indexes (主题落地页可点击), toc.follow, content.code.copy
 - 新增： 中文本地化 界面语言与搜索语言均设为中文（zh）
@@ -162,7 +147,6 @@
 - 新增： 丰富 Markdown 扩展 (admonition, details, tabbed, inlinehilite, caret, mark, tilde, attr_list, md_in_html, tables, footnotes)
 - 更新： 全局 index.md 添加 hide: toc + overview.md 快捷链接
 - 更新： 导航结构为 topic/index.md 首位模式
-- 参考： D:\01_Programming\Git Repository\GAC-BMS-wiki\projectdoc\mkdocs.yml
 
 ## [2026-06-19] 目录调整 | 新增具身智能分类
 
