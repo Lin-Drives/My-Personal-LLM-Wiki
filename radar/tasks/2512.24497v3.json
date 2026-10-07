@@ -4,12 +4,13 @@
   "questions": [
     "world-model-planning"
   ],
-  "state": "pending",
+  "state": "parked",
   "attempts": 0,
   "max_attempts": 2,
-  "owner": null,
+  "owner": "codex",
   "independent_review_required": false,
   "artifact": null,
   "review_report": null,
-  "next_step": "按需撰写解读；重要结论交独立核查，动态发布不等待本任务。"
+  "next_step": "目录为v3，本地全文首页为v4；已另编写明确标注v4的笔记，但不将v3任务冒记为完成。下一步获取v4官方Atom并接入版本任务。",
+  "updated_at": "2026-10-07T03:21:12.968224+00:00"
 }

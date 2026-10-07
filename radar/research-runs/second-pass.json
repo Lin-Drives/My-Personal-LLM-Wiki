@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-10-07T03:21:12.966565+00:00",
+  "owner": "codex",
+  "scope": "既有原文的第二轮单篇编写；没有新增扫描",
+  "artifacts": [
+    {
+      "paper": "2512.24497v4",
+      "wiki": "wiki/World-Models/jepa-planning-design.md",
+      "draft": "drafts/World-Models/jepa-planning-design.md"
+    },
+    {
+      "paper": "2605.20811v1",
+      "wiki": "wiki/World-Models/demo-jepa.md",
+      "draft": "drafts/World-Models/demo-jepa.md"
+    }
+  ],
+  "version_issue": "2512.24497目录v3与全文v4不符，v3任务parked，v4需官方元数据接入",
+  "independent_review": false,
+  "version_ingest_report": "radar/scans/20261007-jepa-v4-source-check.json",
+  "version_ingest_result": "rejected: arXiv read timeout"
+}

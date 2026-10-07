@@ -9,3 +9,5 @@
 | [Causal-JEPA](causal-jepa.md) | 物体级掩码干预注入因果偏置，反事实推理提升 20%，JEPA 走向因果理解 | 2026-05-31 |
 | [JEPA 生态 2026](jepa-ecosystem-2026.md) | I-JEPA→V-JEPA→C-JEPA→AD-LiST-JEPA 演进全景 + 工程配方 | 2026-05-31 |
 | [World Action Models：从世界预测到可执行动作](world-action-models.md) | DreamZero/Fast-WAM/Cosmos Policy 从预测世界到可执行动作的范式转变 | 2026-05-31 |
+| [JEPA 规划设计研究](jepa-planning-design.md) | 训练、规划器与指标的条件差异；离线评分不等于真机成功率 | 2026-10-07 |
+| [Demo-JEPA](demo-jepa.md) | 视频示范转目标再规划；配对数据与跨具身迁移边界 | 2026-10-07 |

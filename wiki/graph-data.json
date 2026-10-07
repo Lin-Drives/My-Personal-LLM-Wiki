@@ -185,11 +185,27 @@
       "topic": "World-Models"
     },
     {
+      "id": "World-Models-demo-jepa",
+      "label": "Demo-JEPA：把跨具身示范转成目标机器人的潜空间目标",
+      "group": "World-Models",
+      "color": "#9B59B6",
+      "url": "World-Models/demo-jepa/",
+      "topic": "World-Models"
+    },
+    {
       "id": "World-Models-jepa-ecosystem-2026",
       "label": "JEPA 生态 2026",
       "group": "World-Models",
       "color": "#9B59B6",
       "url": "World-Models/jepa-ecosystem-2026/",
+      "topic": "World-Models"
+    },
+    {
+      "id": "World-Models-jepa-planning-design",
+      "label": "JEPA 世界模型：预测更准为什么仍可能规划失败？",
+      "group": "World-Models",
+      "color": "#9B59B6",
+      "url": "World-Models/jepa-planning-design/",
       "topic": "World-Models"
     },
     {
@@ -387,6 +403,10 @@
       "to": "World-Models-world-models-survey"
     },
     {
+      "from": "World-Models-demo-jepa",
+      "to": "World-Models-jepa-planning-design"
+    },
+    {
       "from": "World-Models-jepa-ecosystem-2026",
       "to": "World-Models-world-models-survey"
     },
@@ -401,6 +421,10 @@
     {
       "from": "World-Models-jepa-ecosystem-2026",
       "to": "World-Models-world-action-models"
+    },
+    {
+      "from": "World-Models-jepa-planning-design",
+      "to": "World-Models-v-jepa-2"
     },
     {
       "from": "World-Models-v-jepa-2",

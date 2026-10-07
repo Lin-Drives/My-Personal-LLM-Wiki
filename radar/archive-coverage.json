@@ -1,8 +1,8 @@
 {
   "method": "Local ID and declared-source matching; no online identity or factual verification. Raw matches are candidates inferred from filenames and the first 2500 characters, not verified full text.",
   "counts": {
-    "wiki": 11,
-    "raw_only": 204,
+    "wiki": 17,
+    "raw_only": 198,
     "radar_only": 1
   },
   "papers": [
@@ -422,7 +422,9 @@
       "reports": [
         "radar/reports/weekly/2026-W21-world-models.md"
       ],
-      "wiki": [],
+      "wiki": [
+        "wiki/World-Models/demo-jepa.md"
+      ],
       "raw": [
         "raw/World-Models/2026-he-demo-jepa-cross-embodiment.md",
         "raw/World-Models/2605.20811.fulltext.md",
@@ -431,7 +433,7 @@
       ],
       "wiki_mentions": [],
       "summary": "历史周报补处理条目：Demo-JEPA — 跨具身模仿的 One-shot 利器。问题/方法/证据：将跨具身模仿问题建模为**隐空间目标条件规划**。给定源演示视频和目标当前观测，Dreamer Predictor 先推断出一个具身兼容的隐式目标，然后在动作条件化的世界模型中通过 CEM 优化完成 latent planning。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
-      "status": "raw_only"
+      "status": "wiki"
     },
     {
       "arxiv_id": "2605.00080",
@@ -471,7 +473,9 @@
       "reports": [
         "radar/reports/weekly/2026-W21-world-models.md"
       ],
-      "wiki": [],
+      "wiki": [
+        "wiki/World-Models/jepa-planning-design.md"
+      ],
       "raw": [
         "raw/World-Models/2025-terver-jepa-wm-planning-recipe.md",
         "raw/World-Models/2512.24497.fulltext.md",
@@ -480,7 +484,7 @@
       ],
       "wiki_mentions": [],
       "summary": "历史周报补处理条目：What Drives Success in Physical Planning with JEPA-WMs — JEPA 世界模型的配方书。问题/方法/证据：系统性拆解 JEPA-World Model 在物理规划任务中成功的关键设计选择，覆盖局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
-      "status": "raw_only"
+      "status": "wiki"
     },
     {
       "arxiv_id": "2605.12167",
@@ -3071,7 +3075,9 @@
       "reports": [
         "radar/reports/weekly/2026-W40-world-models.md"
       ],
-      "wiki": [],
+      "wiki": [
+        "wiki/Research/world-model-reliability.md"
+      ],
       "raw": [
         "raw/World-Models/2609.26292.fulltext.md",
         "raw/World-Models/2609.26292.pdf",
@@ -3079,7 +3085,7 @@
       ],
       "wiki_mentions": [],
       "summary": "历史周报补处理条目：RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World? (arXiv:2609.26292, 2026-09-22)。问题/方法/证据：关键词 : 物理多样性基准、机器人操作、WAM/VLA 评测、sim to real gap 北大团队推出 RoboTwin Phys，一个将 物理条件多样性 作为显式评测维度的机器人操作基准。现有大规模仿真基准主要变化外观、场景布局和视觉观测，但底层物理参数（质量、摩擦、关节动力学）通常固定。RoboTwin Phys 覆盖 13 个物理属性、5000+ 专家演示，系统评测当前代表性的 World Action Models WAMs 和 Vision Language Action models VLAs 在物理条件变化下的鲁棒性。实验揭示了一致的鲁棒性缺口——模型在标准条件下表现优异，但物理参数偏移时性能显著退化。 为什么重要 : 这击中了当前 world model 评测的盲区——\"视觉逼真 ≠ 物理正局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
-      "status": "raw_only"
+      "status": "wiki"
     },
     {
       "arxiv_id": "2609.28931",
@@ -3191,7 +3197,10 @@
       "reports": [
         "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
-      "wiki": [],
+      "wiki": [
+        "wiki/Research/human-video-data-boundaries.md",
+        "wiki/Research/robot-deployment-cost-boundaries.md"
+      ],
       "raw": [
         "raw/Embodied-Intelligence/2609.39403.fulltext.md",
         "raw/Embodied-Intelligence/2609.39403.pdf",
@@ -3199,7 +3208,7 @@
       ],
       "wiki_mentions": [],
       "summary": "历史周报补处理条目：IronMind：万小时第一人称预训练，相机空间动作表示直接拆掉 embodiment gap。问题/方法/证据：两大洞见。① **相机空间动作表示**：低成本 ego 视频没有躯干运动学，传统重argeting走不通——干脆把动作表示在相机坐标系（ego 视频的原生参考空间），人机动作维度做语义对齐，完全绕过显式身体重定向。② **数据引擎**：规则过滤 + 原子任务重标注 + 逐帧质量加权，把 10,000+ 小时 heterogeneous 数据（ego 人类视频 + 非目标本体机器人数据）清洗成可用语料。架构为双专家 MoT（VL 理解专家 + flow-matching 动作专家），训练期可挂语义/几何/视频动力学辅助监督、推理期全部拆掉。原报告标注日期：2026-09-30。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
-      "status": "raw_only"
+      "status": "wiki"
     },
     {
       "arxiv_id": "2609.37181",
@@ -3236,7 +3245,9 @@
       "reports": [
         "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
-      "wiki": [],
+      "wiki": [
+        "wiki/Research/robot-deployment-cost-boundaries.md"
+      ],
       "raw": [
         "raw/Embodied-Intelligence/2609.33007.fulltext.md",
         "raw/Embodied-Intelligence/2609.33007.pdf",
@@ -3244,14 +3255,17 @@
       ],
       "wiki_mentions": [],
       "summary": "历史周报补处理条目：CAPEX：让基础模型自己当演示者，经验自适应推理把成本砍掉 80%。问题/方法/证据：人采演示数据\"贵、慢、不同步\"，CAPEX 换个思路：直接让通用多模态基础模型当**自主演示者**，把物理行为蒸馏进可部署 policy。关键设计是 experience-conditioning——利用前几次尝试的执行经验，自适应调整基础模型需要\"观察-推理-重规划\"的频率（简单段少调用，卡壳段多调用）。原报告标注日期：2026-09-26。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
-      "status": "raw_only"
+      "status": "wiki"
     },
     {
       "arxiv_id": "2607.08436",
       "reports": [
         "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
-      "wiki": [],
+      "wiki": [
+        "wiki/Research/human-video-data-boundaries.md",
+        "wiki/Research/world-model-reliability.md"
+      ],
       "raw": [
         "raw/Embodied-Intelligence/2607.08436.fulltext.md",
         "raw/Embodied-Intelligence/2607.08436.pdf",
@@ -3259,7 +3273,7 @@
       ],
       "wiki_mentions": [],
       "summary": "历史周报其他关注条目：EgoWAM 被 CoRL 2026 接收。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
-      "status": "raw_only"
+      "status": "wiki"
     },
     {
       "arxiv_id": "2609.30959",

@@ -20,6 +20,8 @@ okf_version: "0.2"
 
 首轮自动研究草稿：[世界模型可靠规划](Research/world-model-reliability.md) · [人类视频与数据需求](Research/human-video-data-boundaries.md) · [机器人部署约束](Research/robot-deployment-cost-boundaries.md)。草稿带原文位置与未确认事项，尚未独立核验。
 
+本轮新增单篇笔记：[JEPA 规划设计研究](World-Models/jepa-planning-design.md) · [Demo-JEPA](World-Models/demo-jepa.md)。分别补充规划评价与跨具身目标学习的证据边界，尚未独立核验。
+
 ## AI 基础设施
 
 AI 基础设施：LLM 推理调度、分布式训练、KV Cache 管理。

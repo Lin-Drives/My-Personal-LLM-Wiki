@@ -4,12 +4,13 @@
   "questions": [
     "world-model-planning"
   ],
-  "state": "pending",
-  "attempts": 0,
+  "state": "completed",
+  "attempts": 1,
   "max_attempts": 2,
-  "owner": null,
+  "owner": "codex",
   "independent_review_required": false,
-  "artifact": null,
+  "artifact": "drafts/World-Models/demo-jepa.md",
   "review_report": null,
-  "next_step": "按需撰写解读；重要结论交独立核查，动态发布不等待本任务。"
+  "next_step": "单篇笔记已整合；后续核查控制延迟、阶段0数据成本与人类迁移证据",
+  "updated_at": "2026-10-07T03:21:12.967823+00:00"
 }

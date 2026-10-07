@@ -64,10 +64,11 @@ sources:
 </details>
 
 <details>
-<summary><strong>RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World?</strong><br><small>arXiv:2609.26292 · 原文可读</small></summary>
+<summary><strong>RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World?</strong><br><small>arXiv:2609.26292 · 已有知识笔记</small></summary>
 <p><a href="https://arxiv.org/abs/2609.26292">arXiv 页面</a></p>
 <p><strong>历史扫描解读：</strong>历史周报补处理条目：RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World? (arXiv:2609.26292, 2026-09-22)。问题/方法/证据：关键词 : 物理多样性基准、机器人操作、WAM/VLA 评测、sim to real gap 北大团队推出 RoboTwin Phys，一个将 物理条件多样性 作为显式评测维度的机器人操作基准。现有大规模仿真基准主要变化外观、场景布局和视觉观测，但底层物理参数（质量、摩擦、关节动力学）通常固定。RoboTwin Phys 覆盖 13 个物理属性、5000+ 专家演示，系统评测当前代表性的 World Action Models WAMs 和 Vision Language Action models VLAs 在物理条件变化下的鲁棒性。实验揭示了一致的鲁棒性缺口——模型在标准条件下表现优异，但物理参数偏移时性能显著退化。 为什么重要 : 这击中了当前 world model 评测的盲区——&quot;视觉逼真 ≠ 物理正局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
 <p><strong>原文：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/World-Models/2609.26292.fulltext.md">2609.26292.fulltext.md</a></p>
+<p><strong>知识笔记：</strong><a href="../Research/world-model-reliability/">world-model-reliability</a></p>
 <p><strong>扫描来源：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/radar/reports/weekly/2026-W40-world-models.md">2026-W40-world-models.md</a></p>
 </details>
 
@@ -416,10 +417,11 @@ sources:
 </details>
 
 <details>
-<summary><strong>Demo-JEPA: Joint-Embedding Predictive Architecture for One-shot Cross-Embodiment Imitation</strong><br><small>arXiv:2605.20811 · 原文可读</small></summary>
+<summary><strong>Demo-JEPA: Joint-Embedding Predictive Architecture for One-shot Cross-Embodiment Imitation</strong><br><small>arXiv:2605.20811 · 已有知识笔记</small></summary>
 <p><a href="https://arxiv.org/abs/2605.20811">arXiv 页面</a></p>
 <p><strong>历史扫描解读：</strong>历史周报补处理条目：Demo-JEPA — 跨具身模仿的 One-shot 利器。问题/方法/证据：将跨具身模仿问题建模为**隐空间目标条件规划**。给定源演示视频和目标当前观测，Dreamer Predictor 先推断出一个具身兼容的隐式目标，然后在动作条件化的世界模型中通过 CEM 优化完成 latent planning。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
 <p><strong>原文：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/World-Models/2605.20811.fulltext.md">2605.20811.fulltext.md</a></p>
+<p><strong>知识笔记：</strong><a href="../World-Models/demo-jepa/">demo-jepa</a></p>
 <p><strong>扫描来源：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/radar/reports/weekly/2026-W21-world-models.md">2026-W21-world-models.md</a></p>
 </details>
 
@@ -803,10 +805,11 @@ sources:
 </details>
 
 <details>
-<summary><strong>What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?</strong><br><small>arXiv:2512.24497 · 原文可读</small></summary>
+<summary><strong>What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?</strong><br><small>arXiv:2512.24497 · 已有知识笔记</small></summary>
 <p><a href="https://arxiv.org/abs/2512.24497">arXiv 页面</a></p>
 <p><strong>历史扫描解读：</strong>历史周报补处理条目：What Drives Success in Physical Planning with JEPA-WMs — JEPA 世界模型的配方书。问题/方法/证据：系统性拆解 JEPA-World Model 在物理规划任务中成功的关键设计选择，覆盖局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
 <p><strong>原文：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/World-Models/2512.24497.fulltext.md">2512.24497.fulltext.md</a></p>
+<p><strong>知识笔记：</strong><a href="../World-Models/jepa-planning-design/">jepa-planning-design</a></p>
 <p><strong>扫描来源：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/radar/reports/weekly/2026-W21-world-models.md">2026-W21-world-models.md</a></p>
 </details>
 
@@ -911,10 +914,11 @@ sources:
 </details>
 
 <details>
-<summary><strong>IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining</strong><br><small>arXiv:2609.39403 · 原文可读</small></summary>
+<summary><strong>IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining</strong><br><small>arXiv:2609.39403 · 已有知识笔记</small></summary>
 <p><a href="https://arxiv.org/abs/2609.39403">arXiv 页面</a></p>
 <p><strong>历史扫描解读：</strong>历史周报补处理条目：IronMind：万小时第一人称预训练，相机空间动作表示直接拆掉 embodiment gap。问题/方法/证据：两大洞见。① **相机空间动作表示**：低成本 ego 视频没有躯干运动学，传统重argeting走不通——干脆把动作表示在相机坐标系（ego 视频的原生参考空间），人机动作维度做语义对齐，完全绕过显式身体重定向。② **数据引擎**：规则过滤 + 原子任务重标注 + 逐帧质量加权，把 10,000+ 小时 heterogeneous 数据（ego 人类视频 + 非目标本体机器人数据）清洗成可用语料。架构为双专家 MoT（VL 理解专家 + flow-matching 动作专家），训练期可挂语义/几何/视频动力学辅助监督、推理期全部拆掉。原报告标注日期：2026-09-30。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
 <p><strong>原文：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/Embodied-Intelligence/2609.39403.fulltext.md">2609.39403.fulltext.md</a></p>
+<p><strong>知识笔记：</strong><a href="../Research/human-video-data-boundaries/">human-video-data-boundaries</a> · <a href="../Research/robot-deployment-cost-boundaries/">robot-deployment-cost-boundaries</a></p>
 <p><strong>扫描来源：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/radar/reports/weekly/2026-W41-embodied-intelligence.md">2026-W41-embodied-intelligence.md</a></p>
 </details>
 
@@ -935,10 +939,11 @@ sources:
 </details>
 
 <details>
-<summary><strong>CAPEX: Efficiently Distilling Foundation Model Behavior into Deployable Robot Policies through Experience-Adaptive Reasoning</strong><br><small>arXiv:2609.33007 · 原文可读</small></summary>
+<summary><strong>CAPEX: Efficiently Distilling Foundation Model Behavior into Deployable Robot Policies through Experience-Adaptive Reasoning</strong><br><small>arXiv:2609.33007 · 已有知识笔记</small></summary>
 <p><a href="https://arxiv.org/abs/2609.33007">arXiv 页面</a></p>
 <p><strong>历史扫描解读：</strong>历史周报补处理条目：CAPEX：让基础模型自己当演示者，经验自适应推理把成本砍掉 80%。问题/方法/证据：人采演示数据&quot;贵、慢、不同步&quot;，CAPEX 换个思路：直接让通用多模态基础模型当**自主演示者**，把物理行为蒸馏进可部署 policy。关键设计是 experience-conditioning——利用前几次尝试的执行经验，自适应调整基础模型需要&quot;观察-推理-重规划&quot;的频率（简单段少调用，卡壳段多调用）。原报告标注日期：2026-09-26。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
 <p><strong>原文：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/Embodied-Intelligence/2609.33007.fulltext.md">2609.33007.fulltext.md</a></p>
+<p><strong>知识笔记：</strong><a href="../Research/robot-deployment-cost-boundaries/">robot-deployment-cost-boundaries</a></p>
 <p><strong>扫描来源：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/radar/reports/weekly/2026-W41-embodied-intelligence.md">2026-W41-embodied-intelligence.md</a></p>
 </details>
 
@@ -1087,10 +1092,11 @@ sources:
 </details>
 
 <details>
-<summary><strong>EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data</strong><br><small>arXiv:2607.08436 · 原文可读</small></summary>
+<summary><strong>EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data</strong><br><small>arXiv:2607.08436 · 已有知识笔记</small></summary>
 <p><a href="https://arxiv.org/abs/2607.08436">arXiv 页面</a></p>
 <p><strong>历史扫描解读：</strong>历史周报其他关注条目：EgoWAM 被 CoRL 2026 接收。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
 <p><strong>原文：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/Embodied-Intelligence/2607.08436.fulltext.md">2607.08436.fulltext.md</a></p>
+<p><strong>知识笔记：</strong><a href="../Research/human-video-data-boundaries/">human-video-data-boundaries</a> · <a href="../Research/world-model-reliability/">world-model-reliability</a></p>
 <p><strong>扫描来源：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/radar/reports/weekly/2026-W41-embodied-intelligence.md">2026-W41-embodied-intelligence.md</a></p>
 </details>
 

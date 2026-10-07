@@ -70,6 +70,8 @@ nav:
       - AlphaGo: Reinforcement-Learning/alphago.md
   - 世界模型:
       - World-Models/index.md
+      - JEPA 规划设计研究: World-Models/jepa-planning-design.md
+      - Demo-JEPA: World-Models/demo-jepa.md
       - 世界模型综述: World-Models/world-models-survey.md
       - V-JEPA 2: World-Models/v-jepa-2.md
       - Causal-JEPA: World-Models/causal-jepa.md
