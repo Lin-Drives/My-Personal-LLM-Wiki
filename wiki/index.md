@@ -18,7 +18,7 @@ okf_version: "0.2"
 
 这些文章是阅读入口，尚不代表三个问题已有完整答案；芯片与推理基础设施材料不能直接作为机器人部署表现的证据。历史筛选与原文入口见 [历史雷达与原文库](radar-archive.md)。新发现见 [最新论文动态](updates.md)，已有知识按以下主题浏览。
 
-首轮自动研究草稿：[世界模型可靠规划](Research/world-model-reliability.md) · [人类视频与数据需求](Research/human-video-data-boundaries.md) · [机器人部署约束](Research/robot-deployment-cost-boundaries.md)。草稿带原文位置与未确认事项，尚未独立核验。
+首轮自动研究草稿：[研究主线 · 世界模型可靠规划](Research/world-model-reliability.md) · [研究主线 · 人类视频与数据需求](Research/human-video-data-boundaries.md) · [研究主线 · 机器人部署约束](Research/robot-deployment-cost-boundaries.md)。草稿带原文位置与未确认事项，尚未独立核验。
 
 本轮新增单篇笔记：[JEPA 规划设计研究](World-Models/jepa-planning-design.md) · [Demo-JEPA](World-Models/demo-jepa.md)。分别补充规划评价与跨具身目标学习的证据边界，尚未独立核验。
 

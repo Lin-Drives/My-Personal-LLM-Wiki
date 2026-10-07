@@ -1,6 +1,6 @@
 ---
 type: Research Synthesis
-title: 机器人部署：区分控制频率、模型调用与数据采集成本
+title: 研究主线｜机器人部署：区分控制频率、模型调用与数据采集成本
 description: 对照论文原文形成首轮问题驱动的证据与边界整理。
 tags: [机器人, 研究主线]
 status: draft
@@ -14,7 +14,7 @@ sources:
     resource: ../../raw/Embodied-Intelligence/2609.39403.fulltext.md
 ---
 
-# 机器人部署：区分控制频率、模型调用与数据采集成本
+# 研究主线｜机器人部署：区分控制频率、模型调用与数据采集成本
 
 ## 来源
 
