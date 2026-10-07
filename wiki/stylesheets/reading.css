@@ -8,6 +8,11 @@
   min-width: 0;
 }
 
+/* Hide draft badges in navigation; retain metadata and article notices. */
+.md-nav .md-status--draft {
+  display: none;
+}
+
 .md-content__inner {
   max-width: 56rem;
   margin-right: auto;
