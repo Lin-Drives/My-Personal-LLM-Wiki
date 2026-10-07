@@ -2,14 +2,14 @@
   "method": "Local ID and declared-source matching; no online identity or factual verification. Raw matches are candidates inferred from filenames and the first 2500 characters, not verified full text.",
   "counts": {
     "wiki": 11,
-    "raw_only": 203,
+    "raw_only": 204,
     "radar_only": 2
   },
   "papers": [
     {
       "arxiv_id": "2411.14499",
       "reports": [
-        "radar/paperradar/weekly/2026-W17.md"
+        "radar/reports/weekly/2026-W17.md"
       ],
       "wiki": [
         "wiki/World-Models/world-models-survey.md"
@@ -27,7 +27,7 @@
     {
       "arxiv_id": "2506.09985",
       "reports": [
-        "radar/paperradar/weekly/2026-W17.md"
+        "radar/reports/weekly/2026-W17.md"
       ],
       "wiki": [
         "wiki/World-Models/v-jepa-2.md"
@@ -45,8 +45,8 @@
     {
       "arxiv_id": "2602.11389",
       "reports": [
-        "radar/paperradar/weekly/2026-W17.md",
-        "radar/paperradar/weekly/2026-W26-world-models.md"
+        "radar/reports/weekly/2026-W17.md",
+        "radar/reports/weekly/2026-W26-world-models.md"
       ],
       "wiki": [
         "wiki/World-Models/causal-jepa.md"
@@ -64,9 +64,9 @@
     {
       "arxiv_id": "2602.15922",
       "reports": [
-        "radar/paperradar/weekly/2026-W17.md",
-        "radar/paperradar/weekly/2026-W21-world-models.md",
-        "radar/paperradar/weekly/2026-W26-world-models.md"
+        "radar/reports/weekly/2026-W17.md",
+        "radar/reports/weekly/2026-W21-world-models.md",
+        "radar/reports/weekly/2026-W26-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -80,7 +80,7 @@
     {
       "arxiv_id": "2511.09783",
       "reports": [
-        "radar/paperradar/weekly/2026-W17.md"
+        "radar/reports/weekly/2026-W17.md"
       ],
       "wiki": [],
       "raw": [
@@ -94,7 +94,7 @@
     {
       "arxiv_id": "2602.12540",
       "reports": [
-        "radar/paperradar/weekly/2026-W17.md"
+        "radar/reports/weekly/2026-W17.md"
       ],
       "wiki": [
         "wiki/World-Models/jepa-ecosystem-2026.md"
@@ -112,7 +112,7 @@
     {
       "arxiv_id": "2504.07347",
       "reports": [
-        "radar/paperradar/weekly/2026-W18-ai-infra.md"
+        "radar/reports/weekly/2026-W18-ai-infra.md"
       ],
       "wiki": [
         "wiki/AI-Infra/llm-inference-scheduling.md"
@@ -129,7 +129,7 @@
     {
       "arxiv_id": "2602.09109",
       "reports": [
-        "radar/paperradar/weekly/2026-W18-ai-infra.md"
+        "radar/reports/weekly/2026-W18-ai-infra.md"
       ],
       "wiki": [
         "wiki/AI-Infra/distributed-training-parallelism.md"
@@ -146,7 +146,7 @@
     {
       "arxiv_id": "2310.07240",
       "reports": [
-        "radar/paperradar/weekly/2026-W18-ai-infra.md"
+        "radar/reports/weekly/2026-W18-ai-infra.md"
       ],
       "wiki": [
         "wiki/AI-Infra/kv-cache-management.md"
@@ -163,8 +163,8 @@
     {
       "arxiv_id": "2603.15569",
       "reports": [
-        "radar/paperradar/weekly/2026-W19-deep-learning.md",
-        "radar/paperradar/weekly/2026-W28-deep-learning.md"
+        "radar/reports/weekly/2026-W19-deep-learning.md",
+        "radar/reports/weekly/2026-W28-deep-learning.md"
       ],
       "wiki": [
         "wiki/Deep-Learning/mamba-3-state-space-models.md"
@@ -181,7 +181,7 @@
     {
       "arxiv_id": "2604.15259",
       "reports": [
-        "radar/paperradar/weekly/2026-W19-deep-learning.md"
+        "radar/reports/weekly/2026-W19-deep-learning.md"
       ],
       "wiki": [
         "wiki/Deep-Learning/looped-transformers-stability.md"
@@ -198,7 +198,7 @@
     {
       "arxiv_id": "2602.08287",
       "reports": [
-        "radar/paperradar/weekly/2026-W19-deep-learning.md"
+        "radar/reports/weekly/2026-W19-deep-learning.md"
       ],
       "wiki": [
         "wiki/Deep-Learning/noise-stability-regularization.md"
@@ -215,8 +215,8 @@
     {
       "arxiv_id": "2603.09555",
       "reports": [
-        "radar/paperradar/weekly/2026-W19-deep-learning.md",
-        "radar/paperradar/weekly/2026-W28-deep-learning.md"
+        "radar/reports/weekly/2026-W19-deep-learning.md",
+        "radar/reports/weekly/2026-W28-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -231,7 +231,7 @@
     {
       "arxiv_id": "2602.18523",
       "reports": [
-        "radar/paperradar/weekly/2026-W19-deep-learning.md"
+        "radar/reports/weekly/2026-W19-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -246,7 +246,7 @@
     {
       "arxiv_id": "2605.0645",
       "reports": [
-        "radar/paperradar/weekly/2026-W19-deep-learning.md"
+        "radar/reports/weekly/2026-W19-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -260,7 +260,7 @@
     {
       "arxiv_id": "2604.03481",
       "reports": [
-        "radar/paperradar/weekly/2026-W20-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W20-physics-informed-ai.md"
       ],
       "wiki": [
         "wiki/Deep-Learning/k-pinn-lattice-boltzmann.md"
@@ -277,7 +277,7 @@
     {
       "arxiv_id": "2605.13892",
       "reports": [
-        "radar/paperradar/weekly/2026-W20-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W20-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -294,7 +294,7 @@
     {
       "arxiv_id": "2502.06018",
       "reports": [
-        "radar/paperradar/weekly/2026-W20-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W20-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -308,7 +308,7 @@
     {
       "arxiv_id": "2507.19888",
       "reports": [
-        "radar/paperradar/weekly/2026-W20-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W20-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -322,7 +322,7 @@
     {
       "arxiv_id": "2601.03332",
       "reports": [
-        "radar/paperradar/weekly/2026-W20-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W20-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -336,7 +336,7 @@
     {
       "arxiv_id": "2602.12706",
       "reports": [
-        "radar/paperradar/weekly/2026-W20-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W20-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -350,7 +350,7 @@
     {
       "arxiv_id": "2503.29237",
       "reports": [
-        "radar/paperradar/weekly/2026-W20-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W20-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [],
@@ -361,8 +361,8 @@
     {
       "arxiv_id": "2601.06244",
       "reports": [
-        "radar/paperradar/weekly/2026-W20-physics-informed-ai.md",
-        "radar/paperradar/weekly/2026-W25-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W20-physics-informed-ai.md",
+        "radar/reports/weekly/2026-W25-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -376,7 +376,7 @@
     {
       "arxiv_id": "2604.18481",
       "reports": [
-        "radar/paperradar/weekly/2026-W20-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W20-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -390,9 +390,23 @@
       "status": "raw_only"
     },
     {
+      "arxiv_id": "2507.08338",
+      "reports": [
+        "radar/reports/weekly/2026-W20-physics-informed-ai.md"
+      ],
+      "wiki": [],
+      "raw": [
+        "raw/Deep-Learning/2507.08338.fulltext.md",
+        "raw/Deep-Learning/2507.08338.pdf"
+      ],
+      "wiki_mentions": [],
+      "summary": "历史周报 PIKAN 方向列出的另一篇论文，原 JSON 转换遗漏；尚未核对全文，不推断具体贡献或实验结果。",
+      "status": "raw_only"
+    },
+    {
       "arxiv_id": "2605.20811",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -407,8 +421,8 @@
     {
       "arxiv_id": "2605.00080",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md",
-        "radar/paperradar/weekly/2026-W26-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md",
+        "radar/reports/weekly/2026-W26-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -423,7 +437,7 @@
     {
       "arxiv_id": "2605.19957",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -438,7 +452,7 @@
     {
       "arxiv_id": "2512.24497",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -453,7 +467,7 @@
     {
       "arxiv_id": "2605.12167",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -468,7 +482,7 @@
     {
       "arxiv_id": "2603.16666",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -482,7 +496,7 @@
     {
       "arxiv_id": "2601.16163",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -496,7 +510,7 @@
     {
       "arxiv_id": "2602.13977",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -510,8 +524,8 @@
     {
       "arxiv_id": "2602.10098",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md",
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md",
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -525,7 +539,7 @@
     {
       "arxiv_id": "2602.03604",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -539,7 +553,7 @@
     {
       "arxiv_id": "2511.14262",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -553,7 +567,7 @@
     {
       "arxiv_id": "2605.01694",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -567,7 +581,7 @@
     {
       "arxiv_id": "2604.16592",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -581,7 +595,7 @@
     {
       "arxiv_id": "2603.25887",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -595,7 +609,7 @@
     {
       "arxiv_id": "2604.21741",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -609,7 +623,7 @@
     {
       "arxiv_id": "2604.16585",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -623,7 +637,7 @@
     {
       "arxiv_id": "2602.22010",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -637,7 +651,7 @@
     {
       "arxiv_id": "2602.09849",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -651,7 +665,7 @@
     {
       "arxiv_id": "2602.17259",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -665,7 +679,7 @@
     {
       "arxiv_id": "2601.06212",
       "reports": [
-        "radar/paperradar/weekly/2026-W21-world-models.md"
+        "radar/reports/weekly/2026-W21-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -679,7 +693,7 @@
     {
       "arxiv_id": "2605.21427",
       "reports": [
-        "radar/paperradar/weekly/2026-W22-ai-infra.md"
+        "radar/reports/weekly/2026-W22-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -693,7 +707,7 @@
     {
       "arxiv_id": "2507.21276",
       "reports": [
-        "radar/paperradar/weekly/2026-W22-ai-infra.md"
+        "radar/reports/weekly/2026-W22-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -707,7 +721,7 @@
     {
       "arxiv_id": "2507.06608",
       "reports": [
-        "radar/paperradar/weekly/2026-W22-ai-infra.md"
+        "radar/reports/weekly/2026-W22-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -721,7 +735,7 @@
     {
       "arxiv_id": "2509.21081",
       "reports": [
-        "radar/paperradar/weekly/2026-W22-ai-infra.md"
+        "radar/reports/weekly/2026-W22-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -735,7 +749,7 @@
     {
       "arxiv_id": "2604.07173",
       "reports": [
-        "radar/paperradar/weekly/2026-W22-ai-infra.md"
+        "radar/reports/weekly/2026-W22-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -749,7 +763,7 @@
     {
       "arxiv_id": "2509.06261",
       "reports": [
-        "radar/paperradar/weekly/2026-W22-ai-infra.md"
+        "radar/reports/weekly/2026-W22-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -763,7 +777,7 @@
     {
       "arxiv_id": "2508.03148",
       "reports": [
-        "radar/paperradar/weekly/2026-W22-ai-infra.md"
+        "radar/reports/weekly/2026-W22-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -777,7 +791,7 @@
     {
       "arxiv_id": "2502.00937",
       "reports": [
-        "radar/paperradar/weekly/2026-W22-ai-infra.md"
+        "radar/reports/weekly/2026-W22-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -791,7 +805,7 @@
     {
       "arxiv_id": "2604.04750",
       "reports": [
-        "radar/paperradar/weekly/2026-W22-ai-infra.md"
+        "radar/reports/weekly/2026-W22-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -805,7 +819,7 @@
     {
       "arxiv_id": "2507.11507",
       "reports": [
-        "radar/paperradar/weekly/2026-W22-ai-infra.md"
+        "radar/reports/weekly/2026-W22-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -819,8 +833,8 @@
     {
       "arxiv_id": "2603.15553",
       "reports": [
-        "radar/paperradar/weekly/2026-W23-deep-learning.md",
-        "radar/paperradar/weekly/2026-W28-deep-learning.md"
+        "radar/reports/weekly/2026-W23-deep-learning.md",
+        "radar/reports/weekly/2026-W28-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -834,7 +848,7 @@
     {
       "arxiv_id": "2604.13518",
       "reports": [
-        "radar/paperradar/weekly/2026-W23-deep-learning.md"
+        "radar/reports/weekly/2026-W23-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -848,7 +862,7 @@
     {
       "arxiv_id": "2603.13660",
       "reports": [
-        "radar/paperradar/weekly/2026-W23-deep-learning.md"
+        "radar/reports/weekly/2026-W23-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -862,7 +876,7 @@
     {
       "arxiv_id": "2603.26597",
       "reports": [
-        "radar/paperradar/weekly/2026-W23-deep-learning.md"
+        "radar/reports/weekly/2026-W23-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -876,7 +890,7 @@
     {
       "arxiv_id": "2501.04969",
       "reports": [
-        "radar/paperradar/weekly/2026-W23-deep-learning.md"
+        "radar/reports/weekly/2026-W23-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -890,7 +904,7 @@
     {
       "arxiv_id": "2604.13723",
       "reports": [
-        "radar/paperradar/weekly/2026-W25-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W25-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -904,7 +918,7 @@
     {
       "arxiv_id": "2605.03510",
       "reports": [
-        "radar/paperradar/weekly/2026-W25-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W25-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -918,7 +932,7 @@
     {
       "arxiv_id": "2604.05651",
       "reports": [
-        "radar/paperradar/weekly/2026-W25-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W25-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -932,7 +946,7 @@
     {
       "arxiv_id": "2604.20085",
       "reports": [
-        "radar/paperradar/weekly/2026-W25-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W25-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -946,7 +960,7 @@
     {
       "arxiv_id": "2602.02547",
       "reports": [
-        "radar/paperradar/weekly/2026-W25-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W25-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -960,7 +974,7 @@
     {
       "arxiv_id": "2601.22751",
       "reports": [
-        "radar/paperradar/weekly/2026-W25-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W25-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -974,7 +988,7 @@
     {
       "arxiv_id": "2602.12368",
       "reports": [
-        "radar/paperradar/weekly/2026-W25-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W25-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -988,7 +1002,7 @@
     {
       "arxiv_id": "2605.25115",
       "reports": [
-        "radar/paperradar/weekly/2026-W25-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W25-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1002,8 +1016,8 @@
     {
       "arxiv_id": "2603.19312",
       "reports": [
-        "radar/paperradar/weekly/2026-W26-world-models.md",
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W26-world-models.md",
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1017,7 +1031,7 @@
     {
       "arxiv_id": "2606.04907",
       "reports": [
-        "radar/paperradar/weekly/2026-W26-world-models.md"
+        "radar/reports/weekly/2026-W26-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1031,7 +1045,7 @@
     {
       "arxiv_id": "2606.09215",
       "reports": [
-        "radar/paperradar/weekly/2026-W26-world-models.md"
+        "radar/reports/weekly/2026-W26-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1045,7 +1059,7 @@
     {
       "arxiv_id": "2606.10363",
       "reports": [
-        "radar/paperradar/weekly/2026-W26-world-models.md"
+        "radar/reports/weekly/2026-W26-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1059,7 +1073,7 @@
     {
       "arxiv_id": "2606.08775",
       "reports": [
-        "radar/paperradar/weekly/2026-W26-world-models.md"
+        "radar/reports/weekly/2026-W26-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1073,7 +1087,7 @@
     {
       "arxiv_id": "2603.10448",
       "reports": [
-        "radar/paperradar/weekly/2026-W26-world-models.md"
+        "radar/reports/weekly/2026-W26-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1087,7 +1101,7 @@
     {
       "arxiv_id": "2605.07794",
       "reports": [
-        "radar/paperradar/weekly/2026-W26-world-models.md"
+        "radar/reports/weekly/2026-W26-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1101,7 +1115,7 @@
     {
       "arxiv_id": "2602.06949",
       "reports": [
-        "radar/paperradar/weekly/2026-W26-world-models.md"
+        "radar/reports/weekly/2026-W26-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1115,7 +1129,7 @@
     {
       "arxiv_id": "2605.17613",
       "reports": [
-        "radar/paperradar/weekly/2026-W27-ai-infra.md"
+        "radar/reports/weekly/2026-W27-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1129,7 +1143,7 @@
     {
       "arxiv_id": "2605.00528",
       "reports": [
-        "radar/paperradar/weekly/2026-W27-ai-infra.md"
+        "radar/reports/weekly/2026-W27-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1143,7 +1157,7 @@
     {
       "arxiv_id": "2605.31463",
       "reports": [
-        "radar/paperradar/weekly/2026-W27-ai-infra.md"
+        "radar/reports/weekly/2026-W27-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1157,7 +1171,7 @@
     {
       "arxiv_id": "2604.20919",
       "reports": [
-        "radar/paperradar/weekly/2026-W27-ai-infra.md"
+        "radar/reports/weekly/2026-W27-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1171,7 +1185,7 @@
     {
       "arxiv_id": "2606.21868",
       "reports": [
-        "radar/paperradar/weekly/2026-W27-ai-infra.md"
+        "radar/reports/weekly/2026-W27-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1185,7 +1199,7 @@
     {
       "arxiv_id": "2504.11320",
       "reports": [
-        "radar/paperradar/weekly/2026-W27-ai-infra.md"
+        "radar/reports/weekly/2026-W27-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1199,7 +1213,7 @@
     {
       "arxiv_id": "2504.07494",
       "reports": [
-        "radar/paperradar/weekly/2026-W27-ai-infra.md"
+        "radar/reports/weekly/2026-W27-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1213,7 +1227,7 @@
     {
       "arxiv_id": "2504.19874",
       "reports": [
-        "radar/paperradar/weekly/2026-W27-ai-infra.md"
+        "radar/reports/weekly/2026-W27-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1227,7 +1241,7 @@
     {
       "arxiv_id": "2601.06288",
       "reports": [
-        "radar/paperradar/weekly/2026-W27-ai-infra.md"
+        "radar/reports/weekly/2026-W27-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1241,7 +1255,7 @@
     {
       "arxiv_id": "2606.02332",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-deep-learning.md"
+        "radar/reports/weekly/2026-W28-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1255,7 +1269,7 @@
     {
       "arxiv_id": "2606.03017",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-deep-learning.md"
+        "radar/reports/weekly/2026-W28-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1269,7 +1283,7 @@
     {
       "arxiv_id": "2601.08100",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-deep-learning.md"
+        "radar/reports/weekly/2026-W28-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1283,7 +1297,7 @@
     {
       "arxiv_id": "2604.27277",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-deep-learning.md"
+        "radar/reports/weekly/2026-W28-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1297,7 +1311,7 @@
     {
       "arxiv_id": "2606.26991",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-deep-learning.md"
+        "radar/reports/weekly/2026-W28-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1311,7 +1325,7 @@
     {
       "arxiv_id": "2604.14626",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-deep-learning.md"
+        "radar/reports/weekly/2026-W28-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1325,7 +1339,7 @@
     {
       "arxiv_id": "2603.22964",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-deep-learning.md"
+        "radar/reports/weekly/2026-W28-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1339,7 +1353,7 @@
     {
       "arxiv_id": "2606.23208",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-deep-learning.md"
+        "radar/reports/weekly/2026-W28-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1353,8 +1367,8 @@
     {
       "arxiv_id": "2606.21189",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-physics-informed-ai.md",
-        "radar/paperradar/weekly/2026-W34-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W28-physics-informed-ai.md",
+        "radar/reports/weekly/2026-W34-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1368,7 +1382,7 @@
     {
       "arxiv_id": "2604.21761",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W28-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1382,7 +1396,7 @@
     {
       "arxiv_id": "2606.15271",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W28-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1396,7 +1410,7 @@
     {
       "arxiv_id": "2606.31574",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W28-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1410,7 +1424,7 @@
     {
       "arxiv_id": "2604.26999",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W28-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1424,7 +1438,7 @@
     {
       "arxiv_id": "2606.06164",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W28-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1438,8 +1452,8 @@
     {
       "arxiv_id": "2603.01193",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-physics-informed-ai.md",
-        "radar/paperradar/weekly/2026-W34-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W28-physics-informed-ai.md",
+        "radar/reports/weekly/2026-W34-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1453,7 +1467,7 @@
     {
       "arxiv_id": "2605.10159",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W28-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1467,7 +1481,7 @@
     {
       "arxiv_id": "2601.10999",
       "reports": [
-        "radar/paperradar/weekly/2026-W28-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W28-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [],
@@ -1478,7 +1492,7 @@
     {
       "arxiv_id": "2607.02043",
       "reports": [
-        "radar/paperradar/weekly/2026-W32-ai-infra.md"
+        "radar/reports/weekly/2026-W32-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1492,7 +1506,7 @@
     {
       "arxiv_id": "2607.02574",
       "reports": [
-        "radar/paperradar/weekly/2026-W32-ai-infra.md"
+        "radar/reports/weekly/2026-W32-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1506,7 +1520,7 @@
     {
       "arxiv_id": "2607.00466",
       "reports": [
-        "radar/paperradar/weekly/2026-W32-ai-infra.md"
+        "radar/reports/weekly/2026-W32-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1520,7 +1534,7 @@
     {
       "arxiv_id": "2607.17181",
       "reports": [
-        "radar/paperradar/weekly/2026-W32-ai-infra.md"
+        "radar/reports/weekly/2026-W32-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1534,7 +1548,7 @@
     {
       "arxiv_id": "2607.21653",
       "reports": [
-        "radar/paperradar/weekly/2026-W32-ai-infra.md"
+        "radar/reports/weekly/2026-W32-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1548,7 +1562,7 @@
     {
       "arxiv_id": "2603.07685",
       "reports": [
-        "radar/paperradar/weekly/2026-W32-ai-infra.md"
+        "radar/reports/weekly/2026-W32-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1562,7 +1576,7 @@
     {
       "arxiv_id": "2605.09370",
       "reports": [
-        "radar/paperradar/weekly/2026-W32-ai-infra.md"
+        "radar/reports/weekly/2026-W32-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1576,7 +1590,7 @@
     {
       "arxiv_id": "2602.00509",
       "reports": [
-        "radar/paperradar/weekly/2026-W32-ai-infra.md"
+        "radar/reports/weekly/2026-W32-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1590,7 +1604,7 @@
     {
       "arxiv_id": "2606.20295",
       "reports": [
-        "radar/paperradar/weekly/2026-W32-ai-infra.md"
+        "radar/reports/weekly/2026-W32-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1604,7 +1618,7 @@
     {
       "arxiv_id": "2501.01005",
       "reports": [
-        "radar/paperradar/weekly/2026-W32-ai-infra.md"
+        "radar/reports/weekly/2026-W32-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -1618,7 +1632,7 @@
     {
       "arxiv_id": "2608.04074",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1632,7 +1646,7 @@
     {
       "arxiv_id": "2608.04060",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1646,7 +1660,7 @@
     {
       "arxiv_id": "2608.04048",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1660,7 +1674,7 @@
     {
       "arxiv_id": "2608.04084",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1674,7 +1688,7 @@
     {
       "arxiv_id": "2608.04013",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1688,7 +1702,7 @@
     {
       "arxiv_id": "2608.04057",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1702,7 +1716,7 @@
     {
       "arxiv_id": "2608.04051",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1716,7 +1730,7 @@
     {
       "arxiv_id": "2608.04026",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1730,7 +1744,7 @@
     {
       "arxiv_id": "2608.04014",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1744,7 +1758,7 @@
     {
       "arxiv_id": "2608.03467",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1758,7 +1772,7 @@
     {
       "arxiv_id": "2608.04043",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1772,7 +1786,7 @@
     {
       "arxiv_id": "2608.04041",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1786,7 +1800,7 @@
     {
       "arxiv_id": "2608.04045",
       "reports": [
-        "radar/paperradar/weekly/2026-W33-deep-learning.md"
+        "radar/reports/weekly/2026-W33-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -1800,7 +1814,7 @@
     {
       "arxiv_id": "2608.05569",
       "reports": [
-        "radar/paperradar/weekly/2026-W34-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W34-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1814,7 +1828,7 @@
     {
       "arxiv_id": "2607.21046",
       "reports": [
-        "radar/paperradar/weekly/2026-W34-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W34-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1828,7 +1842,7 @@
     {
       "arxiv_id": "2608.08491",
       "reports": [
-        "radar/paperradar/weekly/2026-W34-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W34-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1842,7 +1856,7 @@
     {
       "arxiv_id": "2510.05278",
       "reports": [
-        "radar/paperradar/weekly/2026-W34-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W34-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1856,7 +1870,7 @@
     {
       "arxiv_id": "2606.24851",
       "reports": [
-        "radar/paperradar/weekly/2026-W34-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W34-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1870,7 +1884,7 @@
     {
       "arxiv_id": "2602.16634",
       "reports": [
-        "radar/paperradar/weekly/2026-W34-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W34-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1884,7 +1898,7 @@
     {
       "arxiv_id": "2608.03495",
       "reports": [
-        "radar/paperradar/weekly/2026-W34-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W34-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1898,7 +1912,7 @@
     {
       "arxiv_id": "2405.19101",
       "reports": [
-        "radar/paperradar/weekly/2026-W34-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W34-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -1912,7 +1926,7 @@
     {
       "arxiv_id": "2608.09298",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1926,7 +1940,7 @@
     {
       "arxiv_id": "2608.12939",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1940,7 +1954,7 @@
     {
       "arxiv_id": "2607.06401",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1954,7 +1968,7 @@
     {
       "arxiv_id": "2607.00836",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1968,7 +1982,7 @@
     {
       "arxiv_id": "2607.13612",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1982,7 +1996,7 @@
     {
       "arxiv_id": "2606.23463",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -1996,7 +2010,7 @@
     {
       "arxiv_id": "2606.02800",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2010,7 +2024,7 @@
     {
       "arxiv_id": "2606.03159",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2024,7 +2038,7 @@
     {
       "arxiv_id": "2605.19242",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2038,7 +2052,7 @@
     {
       "arxiv_id": "2510.12796",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2052,7 +2066,7 @@
     {
       "arxiv_id": "2607.02604",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2066,7 +2080,7 @@
     {
       "arxiv_id": "2602.02454",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2080,7 +2094,7 @@
     {
       "arxiv_id": "2605.12334",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2094,7 +2108,7 @@
     {
       "arxiv_id": "2604.19092",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2108,7 +2122,7 @@
     {
       "arxiv_id": "2606.01600",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2122,7 +2136,7 @@
     {
       "arxiv_id": "2509.07996",
       "reports": [
-        "radar/paperradar/weekly/2026-W35-world-models.md"
+        "radar/reports/weekly/2026-W35-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2136,7 +2150,7 @@
     {
       "arxiv_id": "2608.06375",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2150,7 +2164,7 @@
     {
       "arxiv_id": "2608.08237",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2164,7 +2178,7 @@
     {
       "arxiv_id": "2608.07889",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2178,7 +2192,7 @@
     {
       "arxiv_id": "2608.07065",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2192,7 +2206,7 @@
     {
       "arxiv_id": "2608.06004",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2206,7 +2220,7 @@
     {
       "arxiv_id": "2608.06009",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2220,7 +2234,7 @@
     {
       "arxiv_id": "2608.02326",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2234,7 +2248,7 @@
     {
       "arxiv_id": "2608.02736",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2248,7 +2262,7 @@
     {
       "arxiv_id": "2601.11404",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2262,7 +2276,7 @@
     {
       "arxiv_id": "2608.07746",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2276,7 +2290,7 @@
     {
       "arxiv_id": "2607.25895",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2290,7 +2304,7 @@
     {
       "arxiv_id": "2608.07075",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2304,7 +2318,7 @@
     {
       "arxiv_id": "2607.11689",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2318,7 +2332,7 @@
     {
       "arxiv_id": "2607.10655",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2332,7 +2346,7 @@
     {
       "arxiv_id": "2607.13017",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2346,7 +2360,7 @@
     {
       "arxiv_id": "2607.13033",
       "reports": [
-        "radar/paperradar/weekly/2026-W36-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W36-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2360,7 +2374,7 @@
     {
       "arxiv_id": "2608.08097",
       "reports": [
-        "radar/paperradar/weekly/2026-W37-ai-infra.md"
+        "radar/reports/weekly/2026-W37-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -2374,7 +2388,7 @@
     {
       "arxiv_id": "2608.07009",
       "reports": [
-        "radar/paperradar/weekly/2026-W37-ai-infra.md"
+        "radar/reports/weekly/2026-W37-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -2388,7 +2402,7 @@
     {
       "arxiv_id": "2608.09907",
       "reports": [
-        "radar/paperradar/weekly/2026-W37-ai-infra.md"
+        "radar/reports/weekly/2026-W37-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -2402,7 +2416,7 @@
     {
       "arxiv_id": "2608.01526",
       "reports": [
-        "radar/paperradar/weekly/2026-W37-ai-infra.md"
+        "radar/reports/weekly/2026-W37-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -2416,7 +2430,7 @@
     {
       "arxiv_id": "2604.07609",
       "reports": [
-        "radar/paperradar/weekly/2026-W37-ai-infra.md"
+        "radar/reports/weekly/2026-W37-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -2430,7 +2444,7 @@
     {
       "arxiv_id": "2608.02989",
       "reports": [
-        "radar/paperradar/weekly/2026-W37-ai-infra.md"
+        "radar/reports/weekly/2026-W37-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -2444,7 +2458,7 @@
     {
       "arxiv_id": "2606.26607",
       "reports": [
-        "radar/paperradar/weekly/2026-W37-ai-infra.md"
+        "radar/reports/weekly/2026-W37-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -2458,7 +2472,7 @@
     {
       "arxiv_id": "2607.18141",
       "reports": [
-        "radar/paperradar/weekly/2026-W37-ai-infra.md"
+        "radar/reports/weekly/2026-W37-ai-infra.md"
       ],
       "wiki": [],
       "raw": [
@@ -2472,7 +2486,7 @@
     {
       "arxiv_id": "2609.11842",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2486,7 +2500,7 @@
     {
       "arxiv_id": "2609.11801",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2500,7 +2514,7 @@
     {
       "arxiv_id": "2609.11917",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2514,7 +2528,7 @@
     {
       "arxiv_id": "2609.11918",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2528,7 +2542,7 @@
     {
       "arxiv_id": "2609.11873",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2542,7 +2556,7 @@
     {
       "arxiv_id": "2609.11884",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2556,7 +2570,7 @@
     {
       "arxiv_id": "2609.11538",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2570,7 +2584,7 @@
     {
       "arxiv_id": "2609.11521",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2584,7 +2598,7 @@
     {
       "arxiv_id": "2609.11656",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2598,7 +2612,7 @@
     {
       "arxiv_id": "2609.11780",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2612,7 +2626,7 @@
     {
       "arxiv_id": "2609.11253",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2626,7 +2640,7 @@
     {
       "arxiv_id": "2609.11790",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2640,7 +2654,7 @@
     {
       "arxiv_id": "2609.11580",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2654,7 +2668,7 @@
     {
       "arxiv_id": "2609.11904",
       "reports": [
-        "radar/paperradar/weekly/2026-W38-deep-learning.md"
+        "radar/reports/weekly/2026-W38-deep-learning.md"
       ],
       "wiki": [],
       "raw": [
@@ -2668,7 +2682,7 @@
     {
       "arxiv_id": "2609.20641",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2682,7 +2696,7 @@
     {
       "arxiv_id": "2609.18419",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2696,7 +2710,7 @@
     {
       "arxiv_id": "2609.19915",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2710,7 +2724,7 @@
     {
       "arxiv_id": "2609.15536",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2724,7 +2738,7 @@
     {
       "arxiv_id": "2609.18901",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2738,7 +2752,7 @@
     {
       "arxiv_id": "2609.20794",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2752,7 +2766,7 @@
     {
       "arxiv_id": "2609.16853",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2766,7 +2780,7 @@
     {
       "arxiv_id": "2609.16406",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2780,7 +2794,7 @@
     {
       "arxiv_id": "2609.17841",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2794,7 +2808,7 @@
     {
       "arxiv_id": "2609.15432",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2808,7 +2822,7 @@
     {
       "arxiv_id": "2609.19871",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2822,7 +2836,7 @@
     {
       "arxiv_id": "2609.19756",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2836,7 +2850,7 @@
     {
       "arxiv_id": "2609.17063",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2850,7 +2864,7 @@
     {
       "arxiv_id": "2609.19290",
       "reports": [
-        "radar/paperradar/weekly/2026-W39-physics-informed-ai.md"
+        "radar/reports/weekly/2026-W39-physics-informed-ai.md"
       ],
       "wiki": [],
       "raw": [
@@ -2864,7 +2878,7 @@
     {
       "arxiv_id": "2609.26292",
       "reports": [
-        "radar/paperradar/weekly/2026-W40-world-models.md"
+        "radar/reports/weekly/2026-W40-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2878,7 +2892,7 @@
     {
       "arxiv_id": "2609.28931",
       "reports": [
-        "radar/paperradar/weekly/2026-W40-world-models.md"
+        "radar/reports/weekly/2026-W40-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2892,7 +2906,7 @@
     {
       "arxiv_id": "2609.20034",
       "reports": [
-        "radar/paperradar/weekly/2026-W40-world-models.md"
+        "radar/reports/weekly/2026-W40-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2906,7 +2920,7 @@
     {
       "arxiv_id": "2609.19729",
       "reports": [
-        "radar/paperradar/weekly/2026-W40-world-models.md"
+        "radar/reports/weekly/2026-W40-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2920,7 +2934,7 @@
     {
       "arxiv_id": "2609.20819",
       "reports": [
-        "radar/paperradar/weekly/2026-W40-world-models.md"
+        "radar/reports/weekly/2026-W40-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2934,7 +2948,7 @@
     {
       "arxiv_id": "2609.16697",
       "reports": [
-        "radar/paperradar/weekly/2026-W40-world-models.md"
+        "radar/reports/weekly/2026-W40-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2948,7 +2962,7 @@
     {
       "arxiv_id": "2608.26671",
       "reports": [
-        "radar/paperradar/weekly/2026-W40-world-models.md"
+        "radar/reports/weekly/2026-W40-world-models.md"
       ],
       "wiki": [],
       "raw": [
@@ -2962,7 +2976,7 @@
     {
       "arxiv_id": "2610.00438",
       "reports": [
-        "radar/paperradar/weekly/2026-W41-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2976,7 +2990,7 @@
     {
       "arxiv_id": "2609.39403",
       "reports": [
-        "radar/paperradar/weekly/2026-W41-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -2990,7 +3004,7 @@
     {
       "arxiv_id": "2609.37181",
       "reports": [
-        "radar/paperradar/weekly/2026-W41-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -3004,7 +3018,7 @@
     {
       "arxiv_id": "2609.34182",
       "reports": [
-        "radar/paperradar/weekly/2026-W41-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -3018,7 +3032,7 @@
     {
       "arxiv_id": "2609.33007",
       "reports": [
-        "radar/paperradar/weekly/2026-W41-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -3032,7 +3046,7 @@
     {
       "arxiv_id": "2607.08436",
       "reports": [
-        "radar/paperradar/weekly/2026-W41-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -3046,7 +3060,7 @@
     {
       "arxiv_id": "2609.30959",
       "reports": [
-        "radar/paperradar/weekly/2026-W41-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -3060,7 +3074,7 @@
     {
       "arxiv_id": "2609.24093",
       "reports": [
-        "radar/paperradar/weekly/2026-W41-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [
@@ -3074,7 +3088,7 @@
     {
       "arxiv_id": "2609.19666",
       "reports": [
-        "radar/paperradar/weekly/2026-W41-embodied-intelligence.md"
+        "radar/reports/weekly/2026-W41-embodied-intelligence.md"
       ],
       "wiki": [],
       "raw": [

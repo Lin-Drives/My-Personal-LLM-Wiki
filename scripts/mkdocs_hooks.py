@@ -7,6 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from generate_graph_data import generate
 from radar_pipeline import render
 from validate_okf import validate as validate_okf
+from render_radar_archive import render as render_archive
 
 log = logging.getLogger("mkdocs.hooks")
 
@@ -16,6 +17,7 @@ def on_pre_build(config):
     if not wiki_dir.is_absolute():
         wiki_dir = Path.cwd() / wiki_dir
     render(Path(__file__).resolve().parent.parent, wiki_dir)
+    render_archive(Path(__file__).resolve().parent.parent)
     validate_okf(wiki_dir)
     output = wiki_dir / "graph-data.json"
     n, e = generate(wiki_dir, output)

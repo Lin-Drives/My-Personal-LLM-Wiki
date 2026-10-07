@@ -9,13 +9,13 @@ sources:
 - id: raw-2026-amer-distributed-hybrid-parallelism
   resource: ../../raw/AI-Infra/2026-amer-distributed-hybrid-parallelism.md
 - id: raw-2026-W18-ai-infra
-  resource: ../../raw/AI-Infra/2026-W18-ai-infra.md
+  resource: ../../radar/reports/weekly/2026-W18-ai-infra.md
 ---
 
 # 分布式 LLM 训练与推理并行策略
 
 > Sources: 多篇综述整合, 2026
-> Raw: [../../raw/AI-Infra/2026-amer-distributed-hybrid-parallelism.md](../../raw/AI-Infra/2026-amer-distributed-hybrid-parallelism.md); [../../raw/AI-Infra/2026-W18-ai-infra.md](../../raw/AI-Infra/2026-W18-ai-infra.md) (编译参考)
+> Raw: [../../raw/AI-Infra/2026-amer-distributed-hybrid-parallelism.md](../../raw/AI-Infra/2026-amer-distributed-hybrid-parallelism.md); [../../radar/reports/weekly/2026-W18-ai-infra.md](../../radar/reports/weekly/2026-W18-ai-infra.md) (编译参考)
 
 ## Overview
 

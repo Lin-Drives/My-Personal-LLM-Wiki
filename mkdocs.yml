@@ -33,6 +33,7 @@ docs_dir: wiki
 nav:
   - 首页: index.md
   - 最新论文动态: updates.md
+  - 历史雷达与原文: radar-archive.md
   - 全局概要: overview.md
   - 操作日志: log.md
   - AI 基础设施:

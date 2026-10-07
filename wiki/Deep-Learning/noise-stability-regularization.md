@@ -9,13 +9,13 @@ sources:
 - id: raw-2026-haris-noise-stability-transformers
   resource: ../../raw/Deep-Learning/2026-haris-noise-stability-transformers.md
 - id: raw-2026-W19-deep-learning
-  resource: ../../raw/Deep-Learning/2026-W19-deep-learning.md
+  resource: ../../radar/reports/weekly/2026-W19-deep-learning.md
 ---
 
 # Noise Stability 正则化
 
 > Sources: Themistoklis Haris, 2026-02
-> Raw: [../../raw/Deep-Learning/2026-haris-noise-stability-transformers.md](../../raw/Deep-Learning/2026-haris-noise-stability-transformers.md); [../../raw/Deep-Learning/2026-W19-deep-learning.md](../../raw/Deep-Learning/2026-W19-deep-learning.md) (编译参考)
+> Raw: [../../raw/Deep-Learning/2026-haris-noise-stability-transformers.md](../../raw/Deep-Learning/2026-haris-noise-stability-transformers.md); [../../radar/reports/weekly/2026-W19-deep-learning.md](../../radar/reports/weekly/2026-W19-deep-learning.md) (编译参考)
 
 ## Overview
 

@@ -23,6 +23,7 @@ My-Personal-LLM-Wiki/
 ├── wiki/                   # 编译后的知识文章
 │   ├── index.md            # 全局主题索引
 │   ├── updates.md          # 最新论文动态（自动整理）
+│   ├── radar-archive.md    # 历史雷达及原文阅读入口
 │   ├── log.md              # 操作日志（追加式）
 │   ├── knowledge-graph.md  # 交互式知识图谱
 │   ├── overview.md         # 本页：项目概览与使用指南
@@ -34,6 +35,8 @@ My-Personal-LLM-Wiki/
 │   ├── World-Models/
 │   └── Companies/
 ├── radar/                  # 论文目录；扫描与研究任务在接入后生成
+│   ├── reports/weekly/     # 历史周报与配套 JSON（二手整理）
+│   ├── exports/            # 历史导出索引与清单
 │   └── catalog.json        # 已接收的论文版本目录
 ├── templates/              # OKF 文章、扫描输入与核查报告模板
 ├── docs/

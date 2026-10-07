@@ -16,7 +16,7 @@ okf_version: "0.2"
 | **在什么任务和迁移条件下，人类视频能减少哪些机器人数据需求？** | 视频提供什么监督、跨具身迁移、仍需多少机器人数据、泛化边界 | [EgoScale](Embodied-Intelligence/egoscale.md)、[HumanEgo](Embodied-Intelligence/humanego.md)、[VideoManip](Embodied-Intelligence/videomanip.md)、[EgoVerse](Embodied-Intelligence/egoverse.md) |
 | **机器人策略如何满足实际部署约束？** | 闭环频率、端到端延迟、算力与功耗、异常恢复 | [World Action Models](World-Models/world-action-models.md)、[M100 架构](Chip-Architecture/m100-orchestrated-dataflow-architecture.md) |
 
-这些文章是阅读入口，尚不代表三个问题已有完整答案；芯片与推理基础设施材料不能直接作为机器人部署表现的证据。新发现见 [最新论文动态](updates.md)，已有知识按以下主题浏览。
+这些文章是阅读入口，尚不代表三个问题已有完整答案；芯片与推理基础设施材料不能直接作为机器人部署表现的证据。历史筛选与原文入口见 [历史雷达与原文库](radar-archive.md)。新发现见 [最新论文动态](updates.md)，已有知识按以下主题浏览。
 
 ## AI 基础设施
 

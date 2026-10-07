@@ -7,13 +7,13 @@ tags:
 status: draft
 sources:
 - id: raw-2026-W20-physics-informed-ai
-  resource: ../../raw/Deep-Learning/2026-W20-physics-informed-ai.md
+  resource: ../../radar/reports/weekly/2026-W20-physics-informed-ai.md
 ---
 
 # PINN/KAN 生态 2026
 
 > Sources: W20 物理AI 周报, 2026-05
-> Raw: [../../raw/Deep-Learning/2026-W20-physics-informed-ai.md](../../raw/Deep-Learning/2026-W20-physics-informed-ai.md)
+> Raw: [../../radar/reports/weekly/2026-W20-physics-informed-ai.md](../../radar/reports/weekly/2026-W20-physics-informed-ai.md)
 
 ## Overview
 

@@ -9,13 +9,13 @@ sources:
 - id: raw-2023-liu-cachegen-kv-cache-compression
   resource: ../../raw/AI-Infra/2023-liu-cachegen-kv-cache-compression.md
 - id: raw-2026-W18-ai-infra
-  resource: ../../raw/AI-Infra/2026-W18-ai-infra.md
+  resource: ../../radar/reports/weekly/2026-W18-ai-infra.md
 ---
 
 # KV Cache 管理
 
 > Sources: Yuhan Liu et al., 2024; 多篇推理框架论文
-> Raw: [../../raw/AI-Infra/2023-liu-cachegen-kv-cache-compression.md](../../raw/AI-Infra/2023-liu-cachegen-kv-cache-compression.md); [../../raw/AI-Infra/2026-W18-ai-infra.md](../../raw/AI-Infra/2026-W18-ai-infra.md) (编译参考)
+> Raw: [../../raw/AI-Infra/2023-liu-cachegen-kv-cache-compression.md](../../raw/AI-Infra/2023-liu-cachegen-kv-cache-compression.md); [../../radar/reports/weekly/2026-W18-ai-infra.md](../../radar/reports/weekly/2026-W18-ai-infra.md) (编译参考)
 
 ## Overview
 

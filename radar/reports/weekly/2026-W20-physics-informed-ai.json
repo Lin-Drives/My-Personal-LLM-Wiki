@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scan_id": "2026-W20-physics-informed-ai-legacy-processed-20261006",
+  "scan_id": "2026-W20-physics-informed-ai-legacy-processed-20261006-grouped-id-recovery",
   "scanned_at": "2026-05-17T09:17:54.300157+08:00",
   "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
   "papers": [
@@ -98,6 +98,16 @@
         "physics-informed-ai",
         "legacy-report",
         "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2507.08338",
+      "summary": "历史周报 PIKAN 方向列出的另一篇论文，原 JSON 转换遗漏；尚未核对全文，不推断具体贡献或实验结果。",
+      "selection_reason": "原周报趋势部分已列出此 ID，补回原文收录清单。",
+      "tags": [
+        "physics-informed-ai",
+        "legacy-report"
       ],
       "questions": []
     }

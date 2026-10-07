@@ -2144,6 +2144,17 @@
       "pages": 28,
       "empty_pages": [],
       "converted_at": "2026-10-06T23:51:35.164959+00:00"
+    },
+    {
+      "arxiv_id": "2507.08338",
+      "status": "converted",
+      "pdf": "raw/Deep-Learning/2507.08338.pdf",
+      "markdown": "raw/Deep-Learning/2507.08338.fulltext.md",
+      "pdf_sha256": "7874c99bed712565c086db9e87581a1553c7b2e0bd45c7b783cd39f4acf0dc4d",
+      "pages": 31,
+      "empty_pages": [],
+      "unicode_repaired_pages": [],
+      "converted_at": "2026-10-07T00:00:23.609571+00:00"
     }
   ]
 }

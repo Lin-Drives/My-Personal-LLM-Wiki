@@ -50,6 +50,6 @@ class PDFTests(unittest.TestCase):
         with self.assertRaises(ValueError): identities({'papers':[{'arxiv_id':'../escape'}]})
 
     def test_topic_follows_existing_material_then_report(self):
-        self.assertEqual(topic_for({"wiki": ["wiki/World-Models/paper.md"], "reports": ["radar/paperradar/weekly/2026-W41-embodied-intelligence.md"]}), "World-Models")
-        self.assertEqual(topic_for({"reports": ["radar/paperradar/weekly/2026-W39-physics-informed-ai.md"]}), "Deep-Learning")
+        self.assertEqual(topic_for({"wiki": ["wiki/World-Models/paper.md"], "reports": ["radar/reports/weekly/2026-W41-embodied-intelligence.md"]}), "World-Models")
+        self.assertEqual(topic_for({"reports": ["radar/reports/weekly/2026-W39-physics-informed-ai.md"]}), "Deep-Learning")
         self.assertIsNone(topic_for({}))

@@ -7,7 +7,7 @@ tags:
 status: draft
 sources:
 - id: raw-2026-W21-world-models
-  resource: ../../raw/World-Models/2026-W21-world-models.md
+  resource: ../../radar/reports/weekly/2026-W21-world-models.md
 - id: raw-2026-ad-list-jepa-lidar
   resource: ../../raw/World-Models/2026-ad-list-jepa-lidar.md
 ---
@@ -15,7 +15,7 @@ sources:
 # JEPA 生态 2026
 
 > Sources: W21 World Models 周报 + 多篇 JEPA 论文笔记, 2026-05
-> Raw: [../../raw/World-Models/2026-W21-world-models.md](../../raw/World-Models/2026-W21-world-models.md); [../../raw/World-Models/2026-ad-list-jepa-lidar.md](../../raw/World-Models/2026-ad-list-jepa-lidar.md)
+> Raw: [../../radar/reports/weekly/2026-W21-world-models.md](../../radar/reports/weekly/2026-W21-world-models.md); [../../raw/World-Models/2026-ad-list-jepa-lidar.md](../../raw/World-Models/2026-ad-list-jepa-lidar.md)
 
 ## Overview
 

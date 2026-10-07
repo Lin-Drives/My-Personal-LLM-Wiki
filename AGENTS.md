@@ -7,7 +7,7 @@
 - 默认一个维护 agent；重要结论可按需交给独立核查 agent。无需所有工具同时在线。
 - 先读 `knowledge-plan.md` 和 `docs/workflow.md`。通过文件、任务状态和检查报告交接，不依赖私有聊天历史。
 - Kimi Claw 通过 `scripts/radar_pipeline.py ingest` 提交扫描结果；不要直接批量复制周报到 wiki。
-- 原始来源进入 `raw/`，扫描报告进入 `radar/scans/`，生成的摘要进入动态页。不得把改写摘要标为原文 Abstract。
+- 原始来源进入 `raw/`，周报进入 `radar/reports/`，接入结果进入 `radar/scans/`，生成的摘要进入动态页。不得把改写摘要标为原文 Abstract。
 - 论文 PDF 仅保留在本地对应 `raw/<主题>/`，不提交。上传的是同主题目录的原文提取 Markdown，保留页码、来源、PDF 哈希和转换说明，不用生成摘要替代全文。
 - 动态可在无人审核时发布，必须标注自动生成、未人工核验。格式检查不等于事实核验。
 - 任务的状态、产物、下一步保存在 `radar/tasks/`。独立核查报告需要逐项列出论断、证据位置、遗漏条件和无法确认事项。

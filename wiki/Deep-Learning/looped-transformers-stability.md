@@ -9,13 +9,13 @@ sources:
 - id: raw-2026-labovich-looped-transformers-stability
   resource: ../../raw/Deep-Learning/2026-labovich-looped-transformers-stability.md
 - id: raw-2026-W19-deep-learning
-  resource: ../../raw/Deep-Learning/2026-W19-deep-learning.md
+  resource: ../../radar/reports/weekly/2026-W19-deep-learning.md
 ---
 
 # Looped Transformers 稳定性与泛化
 
 > Sources: Asher Labovich, 2026-04
-> Raw: [../../raw/Deep-Learning/2026-labovich-looped-transformers-stability.md](../../raw/Deep-Learning/2026-labovich-looped-transformers-stability.md); [../../raw/Deep-Learning/2026-W19-deep-learning.md](../../raw/Deep-Learning/2026-W19-deep-learning.md) (编译参考)
+> Raw: [../../raw/Deep-Learning/2026-labovich-looped-transformers-stability.md](../../raw/Deep-Learning/2026-labovich-looped-transformers-stability.md); [../../radar/reports/weekly/2026-W19-deep-learning.md](../../radar/reports/weekly/2026-W19-deep-learning.md) (编译参考)
 
 ## Overview
 

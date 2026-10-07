@@ -13,13 +13,13 @@ sources:
 - id: raw-2026-meshram-k-pinn-lattice-boltzmann
   resource: ../../raw/Deep-Learning/2026-meshram-k-pinn-lattice-boltzmann.md
 - id: raw-2026-W20-physics-informed-ai
-  resource: ../../raw/Deep-Learning/2026-W20-physics-informed-ai.md
+  resource: ../../radar/reports/weekly/2026-W20-physics-informed-ai.md
 ---
 
 # K-PINN: 介观物理约束神经网络
 
 > Sources: arXiv:2604.03481, 2026-04
-> Raw: [../../raw/Deep-Learning/2026-meshram-k-pinn-lattice-boltzmann.md](../../raw/Deep-Learning/2026-meshram-k-pinn-lattice-boltzmann.md); [../../raw/Deep-Learning/2026-W20-physics-informed-ai.md](../../raw/Deep-Learning/2026-W20-physics-informed-ai.md) (编译参考)
+> Raw: [../../raw/Deep-Learning/2026-meshram-k-pinn-lattice-boltzmann.md](../../raw/Deep-Learning/2026-meshram-k-pinn-lattice-boltzmann.md); [../../radar/reports/weekly/2026-W20-physics-informed-ai.md](../../radar/reports/weekly/2026-W20-physics-informed-ai.md) (编译参考)
 
 ## Overview
 

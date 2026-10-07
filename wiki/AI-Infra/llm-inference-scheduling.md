@@ -9,13 +9,13 @@ sources:
 - id: raw-2025-dai-llm-inference-scheduling
   resource: ../../raw/AI-Infra/2025-dai-llm-inference-scheduling.md
 - id: raw-2026-W18-ai-infra
-  resource: ../../raw/AI-Infra/2026-W18-ai-infra.md
+  resource: ../../radar/reports/weekly/2026-W18-ai-infra.md
 ---
 
 # LLM 推理调度理论
 
 > Sources: Li, Dai, Peng, 2025
-> Raw: [../../raw/AI-Infra/2025-dai-llm-inference-scheduling.md](../../raw/AI-Infra/2025-dai-llm-inference-scheduling.md); [../../raw/AI-Infra/2026-W18-ai-infra.md](../../raw/AI-Infra/2026-W18-ai-infra.md) (编译参考)
+> Raw: [../../raw/AI-Infra/2025-dai-llm-inference-scheduling.md](../../raw/AI-Infra/2025-dai-llm-inference-scheduling.md); [../../radar/reports/weekly/2026-W18-ai-infra.md](../../radar/reports/weekly/2026-W18-ai-infra.md) (编译参考)
 
 ## Overview
 

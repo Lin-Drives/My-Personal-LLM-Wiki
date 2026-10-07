@@ -7,12 +7,12 @@ tags:
 status: draft
 sources:
 - id: raw-2026-W20-physics-informed-ai
-  resource: ../../raw/Deep-Learning/2026-W20-physics-informed-ai.md
+  resource: ../../radar/reports/weekly/2026-W20-physics-informed-ai.md
 ---
 
 # Solver-in-the-Loop DeepONets
 
-> Sources: ICLR 2026; [../../raw/Deep-Learning/2026-W20-physics-informed-ai.md](../../raw/Deep-Learning/2026-W20-physics-informed-ai.md) (编译参考)
+> Sources: ICLR 2026; [../../radar/reports/weekly/2026-W20-physics-informed-ai.md](../../radar/reports/weekly/2026-W20-physics-informed-ai.md) (编译参考)
 
 ## Overview
 

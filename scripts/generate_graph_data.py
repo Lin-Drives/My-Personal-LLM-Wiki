@@ -48,7 +48,7 @@ def generate(wiki_dir: Path, output_path: Path) -> tuple[int, int]:
 
     # --- pass 1: nodes ---
     for md_file in sorted(wiki_dir.rglob("*.md")):
-        if md_file.name in ("index.md", "log.md", "knowledge-graph.md", "updates.md"):
+        if md_file.name in ("index.md", "log.md", "knowledge-graph.md", "updates.md", "radar-archive.md"):
             continue
         rel = str(md_file.relative_to(WIKI)).replace("\\", "/")
         topic = md_file.parent.name
@@ -70,7 +70,7 @@ def generate(wiki_dir: Path, output_path: Path) -> tuple[int, int]:
     seen = set()
 
     for md_file in sorted(wiki_dir.rglob("*.md")):
-        if md_file.name in ("index.md", "log.md", "knowledge-graph.md", "updates.md"):
+        if md_file.name in ("index.md", "log.md", "knowledge-graph.md", "updates.md", "radar-archive.md"):
             continue
         src_rel = str(md_file.relative_to(WIKI)).replace("\\", "/")
         src_id = file_to_id[src_rel]

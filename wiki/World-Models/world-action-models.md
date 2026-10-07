@@ -7,13 +7,13 @@ tags:
 status: draft
 sources:
 - id: raw-2026-W21-world-models
-  resource: ../../raw/World-Models/2026-W21-world-models.md
+  resource: ../../radar/reports/weekly/2026-W21-world-models.md
 ---
 
 # World Action Models：从世界预测到可执行动作
 
 > Sources: W21 World Models 周报, 2026-05
-> Raw: [../../raw/World-Models/2026-W21-world-models.md](../../raw/World-Models/2026-W21-world-models.md)
+> Raw: [../../radar/reports/weekly/2026-W21-world-models.md](../../radar/reports/weekly/2026-W21-world-models.md)
 
 ## Overview
 

@@ -9,7 +9,7 @@
 | `2026-W17.md` | World Models | 2026-04-16 → 2026-04-23 | 6 | `2026-W17.json` |
 | `2026-W18-ai-infra.md` | AI Infra | 2026-04-12 → 2026-04-26 | 3 | `2026-W18-ai-infra.json` |
 | `2026-W19-deep-learning.md` | Deep Learning | 2026-05-04 → 2026-05-10 | 6 | `2026-W19-deep-learning.json` |
-| `2026-W20-physics-informed-ai.md` | Physics-informed AI | 2026-05-11 → 2026-05-17 | 9 | `2026-W20-physics-informed-ai.json` |
+| `2026-W20-physics-informed-ai.md` | Physics-informed AI | 2026-05-11 → 2026-05-17 | 10 | `2026-W20-physics-informed-ai.json` |
 | `2026-W21-world-models.md` | World Models | 2026-05-18 → 2026-05-24 | 21 | `2026-W21-world-models.json` |
 | `2026-W22-ai-infra.md` | AI Infra | 2026-05-25 → 2026-05-31 | 10 | `2026-W22-ai-infra.json` |
 | `2026-W23-deep-learning.md` | Deep Learning | 2026-06-01 → 2026-06-07 | 5 | `2026-W23-deep-learning.json` |
@@ -28,3 +28,5 @@
 | `2026-W39-physics-informed-ai.md` | Physics-informed AI | 2026-09-21 → 2026-09-27 | 14 | `2026-W39-physics-informed-ai.json` |
 | `2026-W40-world-models.md` | World Models | 2026-09-20 → 2026-09-27 | 7 | `2026-W40-world-models.json` |
 | `2026-W41-embodied-intelligence.md` | Embodied Intelligence | 2026-09-28 → 2026-10-04 | 9 | `2026-W41-embodied-intelligence.json` |
+
+2026-10-07 整理：报告迁移到 `radar/reports/weekly/`，补回分组引用的 arXiv:2507.08338；当前共 229 条记录。

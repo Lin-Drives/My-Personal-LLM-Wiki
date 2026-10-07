@@ -141,3 +141,9 @@
 ## [2026-05-30] Compile | AlphaGo (new topic: Reinforcement-Learning)
 - Source: raw/Reinforcement-Learning/2016-01-28-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search.md (Nature 2016)
 - Created: wiki/Reinforcement-Learning/alphago.md
+
+## [2026-10-07] 论文雷达来源分离与原文补齐
+- 四份旧 raw 周报与雷达归档逐字相同，统一迁入 radar/reports/weekly/；旧日志保留原始路径作为历史记录。
+- 同步更新文章的来源链接与 OKF sources，保留二手报告来源性质。
+- 补回 2507.08338 并取得原文，原 PDF 仅本地保存，Markdown 同主题归档。
+- 历史雷达与原文入口见 [radar-archive.md](radar-archive.md)。

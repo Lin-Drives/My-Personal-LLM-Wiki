@@ -24,7 +24,7 @@ def inventory(root):
     wiki = defaultdict(set)
     mentions = defaultdict(set)
     for p in (root / 'wiki').rglob('*.md'):
-        if p.name in ('index.md', 'log.md', 'updates.md', 'overview.md', 'knowledge-graph.md'):
+        if p.name in ('index.md', 'log.md', 'updates.md', 'overview.md', 'knowledge-graph.md', 'radar-archive.md'):
             continue
         text = p.read_text(encoding='utf-8')
         rel = p.relative_to(root).as_posix()
@@ -44,7 +44,7 @@ def inventory(root):
         for identity in set(ID.findall(text)) - ids:
             mentions[identity].add(rel)
     papers = {}
-    for p in sorted((root / 'radar/paperradar/weekly').glob('*.json')):
+    for p in sorted((root / 'radar/reports/weekly').glob('*.json')):
         batch = json.loads(p.read_text(encoding='utf-8'))
         for item in batch['papers']:
             identity = item['arxiv_id']

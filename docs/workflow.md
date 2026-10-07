@@ -10,6 +10,8 @@
 
 ```text
 raw/arxiv/           arXiv 原始 Atom 响应；不可变，按基础 ID + 版本保存
+radar/reports/weekly/  历史轮换周报及 JSON（二手整理）
+radar/reports/embodied/  专项周报的目标归档位置（按需创建）
 radar/scans/         扫描输入、已接收条目、失败原因；保留工具判断
 radar/catalog.json   已接收论文版本目录；不携带 verified
 radar/tasks/         单篇研究任务、负责人、产物、尝试次数与下一步
@@ -89,3 +91,7 @@ python3 scripts/research_task.py 2506.09985v1 parked --owner kimi-claw --note '�
 - 扫描发布者只提交本期 raw、radar 产物；动态页构建时生成。维护者处理脚本与文章改动。
 - 所有写入、提交和推送串行执行；先拉取最新 main，不强推。脚本自身不自动提交、推送或调用模型。
 - 本轮完成仓库侧接口、任务状态、动态生成和检查规则；Kimi 定时任务的输出位置、权限及发布配置仍需核实接入。
+
+## 历史论文吸纳
+
+历史周报统一保存在 radar/reports/weekly，原导出索引在 radar/exports。raw 中不保留周报。scripts/audit_radar_archive.py 按本地 ID 和来源声明生成收录清单，scripts/render_radar_archive.py 生成网站历史论文入口，保留周报解读与原文链接的区别。归档推荐不代表结论已核验，也不直接转为稳定知识文章；重要论文后续通过研究任务对照原文深化。当前 217 个 ID 中 215 个已有 PDF 原文提取 Markdown，两项 arXiv 404 仍保留失败记录。
