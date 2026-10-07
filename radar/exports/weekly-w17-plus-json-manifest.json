@@ -2,7 +2,7 @@
   "processed_at": "2026-10-06T23:26:04.584974+08:00",
   "scope": "paperradar/weekly/2026-W17.md through current W41 reports",
   "count_reports": 22,
-  "count_papers": 229,
+  "count_papers": 228,
   "notes": [
     "Historical conversion only; no paper full text was re-fetched or re-verified.",
     "scanned_at uses Markdown file mtime when original scan time is unavailable.",
@@ -43,7 +43,7 @@
       "week": "W20",
       "field": "Physics-informed AI",
       "period": "2026-05-11 → 2026-05-17",
-      "papers": 10,
+      "papers": 9,
       "scanned_at_used": "2026-05-17T09:17:54.300157+08:00"
     },
     {

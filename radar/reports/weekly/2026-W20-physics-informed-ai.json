@@ -69,17 +69,6 @@
       "questions": []
     },
     {
-      "arxiv_id": "2503.29237",
-      "summary": "历史周报其他关注条目：DeepOmamba。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
-      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
-      "tags": [
-        "physics-informed-ai",
-        "legacy-report",
-        "other-mention"
-      ],
-      "questions": []
-    },
-    {
       "arxiv_id": "2601.06244",
       "summary": "历史周报其他关注条目：Hard Constraint Projection PINN。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
       "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
@@ -114,5 +103,11 @@
   ],
   "scanned_at_source": "report_file_mtime",
   "historical_record": true,
-  "converted_at": "2026-10-06T23:26:04.584974+08:00"
+  "converted_at": "2026-10-06T23:26:04.584974+08:00",
+  "excluded_records": [
+    {
+      "arxiv_id": "2503.29237",
+      "reason": "用户要求删除：DeepOMamba 的此 arXiv ID 无法确认，返回404；历史周报原文仅作留档。"
+    }
+  ]
 }

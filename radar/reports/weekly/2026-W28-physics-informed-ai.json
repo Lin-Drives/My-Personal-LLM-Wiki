@@ -89,14 +89,15 @@
     },
     {
       "arxiv_id": "2601.10999",
-      "summary": "历史周报其他关注条目：Exact Constraint Enforcement in PIELMs。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "summary": "【已撤回，仅供历史参考】arXiv 官方 v2 于 2026-01-20 撤回；作者称需大幅修订表述及与相关文献的关系。v1 历史页面：https://arxiv.org/abs/2601.10999v1。以下为当时扫描解读，不作为当前有效结论：历史周报其他关注条目：Exact Constraint Enforcement in PIELMs。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
       "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
       "tags": [
         "physics-informed-ai",
         "legacy-report",
         "other-mention"
       ],
-      "questions": []
+      "questions": [],
+      "publication_status": "withdrawn"
     }
   ],
   "scanned_at_source": "report_file_mtime",

@@ -15,7 +15,7 @@ sources:
 
 历史扫描时间来自报告文件修改时间，属于估计，不作为实际发现时间。论文发表日期以 arXiv 页面为准。原文与周报链接在 GitHub 打开；PDF 仅保留本地。
 
-按基础 arXiv ID 汇总 217 篇，重复出现的论文保留所有周报来源。
+按基础 arXiv ID 汇总 216 篇，重复出现的论文保留所有周报来源。
 
 <article>
 <h2><a href="https://arxiv.org/abs/2411.14499">arXiv:2411.14499</a></h2>
@@ -161,13 +161,6 @@ sources:
 <h2><a href="https://arxiv.org/abs/2602.12706">arXiv:2602.12706</a></h2>
 <p><strong>历史扫描解读：</strong>历史周报其他关注条目：Physics Informed Laplace Neural Operator。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
 <p><strong>原文：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/Deep-Learning/arxiv-2602.12706.fulltext.md">arxiv-2602.12706.fulltext.md</a></p>
-<p><strong>扫描来源：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/radar/reports/weekly/2026-W20-physics-informed-ai.md">2026-W20-physics-informed-ai.md</a></p>
-</article>
-
-<article>
-<h2><a href="https://arxiv.org/abs/2503.29237">arXiv:2503.29237</a></h2>
-<p><strong>历史扫描解读：</strong>历史周报其他关注条目：DeepOmamba。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
-<p><strong>原文：</strong>尚未取得可提取的原文，见下载失败清单。</p>
 <p><strong>扫描来源：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/radar/reports/weekly/2026-W20-physics-informed-ai.md">2026-W20-physics-informed-ai.md</a></p>
 </article>
 
@@ -726,7 +719,7 @@ sources:
 
 <article>
 <h2><a href="https://arxiv.org/abs/2601.10999">arXiv:2601.10999</a></h2>
-<p><strong>历史扫描解读：</strong>历史周报其他关注条目：Exact Constraint Enforcement in PIELMs。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
+<p><strong>历史扫描解读：</strong>【已撤回，仅供历史参考】arXiv 官方 v2 于 2026-01-20 撤回；作者称需大幅修订表述及与相关文献的关系。v1 历史页面：https://arxiv.org/abs/2601.10999v1。以下为当时扫描解读，不作为当前有效结论：历史周报其他关注条目：Exact Constraint Enforcement in PIELMs。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
 <p><strong>原文：</strong>尚未取得可提取的原文，见下载失败清单。</p>
 <p><strong>扫描来源：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/radar/reports/weekly/2026-W28-physics-informed-ai.md">2026-W28-physics-informed-ai.md</a></p>
 </article>

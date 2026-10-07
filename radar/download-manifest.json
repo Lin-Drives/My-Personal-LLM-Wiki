@@ -177,12 +177,6 @@
       "status": "skipped",
       "path": "raw/Deep-Learning/arxiv-2602.12706.pdf"
     },
-    "2503.29237": {
-      "arxiv_id": "2503.29237",
-      "status": "failed",
-      "url": "https://arxiv.org/pdf/2503.29237",
-      "error": "HTTP Error 404: Not Found"
-    },
     "2601.06244": {
       "arxiv_id": "2601.06244",
       "status": "skipped",
@@ -821,7 +815,9 @@
       "arxiv_id": "2601.10999",
       "status": "failed",
       "url": "https://arxiv.org/pdf/2601.10999",
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 404: Not Found",
+      "publication_status": "withdrawn",
+      "historical_version_url": "https://arxiv.org/abs/2601.10999v1"
     },
     "2607.02043": {
       "arxiv_id": "2607.02043",

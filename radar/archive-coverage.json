@@ -3,7 +3,7 @@
   "counts": {
     "wiki": 11,
     "raw_only": 204,
-    "radar_only": 2
+    "radar_only": 1
   },
   "papers": [
     {
@@ -346,17 +346,6 @@
       "wiki_mentions": [],
       "summary": "历史周报其他关注条目：Physics Informed Laplace Neural Operator。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
       "status": "raw_only"
-    },
-    {
-      "arxiv_id": "2503.29237",
-      "reports": [
-        "radar/reports/weekly/2026-W20-physics-informed-ai.md"
-      ],
-      "wiki": [],
-      "raw": [],
-      "wiki_mentions": [],
-      "summary": "历史周报其他关注条目：DeepOmamba。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
-      "status": "radar_only"
     },
     {
       "arxiv_id": "2601.06244",
@@ -1486,7 +1475,7 @@
       "wiki": [],
       "raw": [],
       "wiki_mentions": [],
-      "summary": "历史周报其他关注条目：Exact Constraint Enforcement in PIELMs。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "summary": "【已撤回，仅供历史参考】arXiv 官方 v2 于 2026-01-20 撤回；作者称需大幅修订表述及与相关文献的关系。v1 历史页面：https://arxiv.org/abs/2601.10999v1。以下为当时扫描解读，不作为当前有效结论：历史周报其他关注条目：Exact Constraint Enforcement in PIELMs。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
       "status": "radar_only"
     },
     {

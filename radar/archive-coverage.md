@@ -2,7 +2,7 @@
 
 按基础 arXiv ID 去重，对照本地知识文章的来源声明和原始材料。未联网核验论文身份或结论；版本未逐一比较。原始材料匹配仅根据文件名与开头 2500 字符，不能保证是完整原文。文章出现 ID 不等于已有深入解读。
 
-共 217 篇：知识文章来源已关联 11；仅有原始材料候选 204；仅在雷达中 2。
+共 216 篇：知识文章来源已关联 11；仅有原始材料候选 204；仅在雷达中 1。
 
 历史 JSON 的 scanned_at 沿用报告文件修改时间，只能作为估计；scanned_at_source 明确记录来源，不能作为真实发现时间。
 
@@ -10,7 +10,6 @@
 
 | arXiv ID | 原扫描报告 | 已有材料 / 文章 |
 |---|---|---|
-| [2503.29237](https://arxiv.org/abs/2503.29237) | [2026-W20-physics-informed-ai.md](reports/weekly/2026-W20-physics-informed-ai.md) | 未找到 |
 | [2601.10999](https://arxiv.org/abs/2601.10999) | [2026-W28-physics-informed-ai.md](reports/weekly/2026-W28-physics-informed-ai.md) | 未找到 |
 
 ## 已有原始材料候选，尚无知识文章来源关联

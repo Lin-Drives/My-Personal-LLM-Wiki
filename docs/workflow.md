@@ -94,4 +94,4 @@ python3 scripts/research_task.py 2506.09985v1 parked --owner kimi-claw --note '�
 
 ## 历史论文吸纳
 
-历史周报统一保存在 radar/reports/weekly，原导出索引在 radar/exports。raw 中不保留周报。scripts/audit_radar_archive.py 按本地 ID 和来源声明生成收录清单，scripts/render_radar_archive.py 生成网站历史论文入口，保留周报解读与原文链接的区别。归档推荐不代表结论已核验，也不直接转为稳定知识文章；重要论文后续通过研究任务对照原文深化。当前 217 个 ID 中 215 个已有 PDF 原文提取 Markdown，两项 arXiv 404 仍保留失败记录。
+历史周报统一保存在 radar/reports/weekly，原导出索引在 radar/exports。raw 中不保留周报。scripts/audit_radar_archive.py 按本地 ID 和来源声明生成收录清单，scripts/render_radar_archive.py 生成网站历史论文入口，保留周报解读与原文链接的区别。归档推荐不代表结论已核验，也不直接转为稳定知识文章；重要论文后续通过研究任务对照原文深化。当前 216 个 ID 中 215 个已有 PDF 原文提取 Markdown；2601.10999 保留并标为已撤回、仅供历史参考。2503.29237 的引用未得到确认，按用户要求排除，历史周报原文不改写。
