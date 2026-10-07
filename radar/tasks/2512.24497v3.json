@@ -11,6 +11,6 @@
   "independent_review_required": false,
   "artifact": null,
   "review_report": null,
-  "next_step": "目录为v3，本地全文首页为v4；已另编写明确标注v4的笔记，但不将v3任务冒记为完成。下一步获取v4官方Atom并接入版本任务。",
-  "updated_at": "2026-10-07T03:21:12.968224+00:00"
+  "next_step": "v4官方元数据已接入且笔记完成；本任务保留为历史v3，不重复研究。后续如需版本差异分析再接手。",
+  "updated_at": "2026-10-07T07:15:02.993305+00:00"
 }

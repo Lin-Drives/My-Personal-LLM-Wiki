@@ -13,6 +13,16 @@ status: draft
 按发现时间排列；论文发表与修订时间分别标注。深入解读的进度不阻塞这里更新。
 
 <article>
+<h2>What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?</h2>
+<p><a href="https://arxiv.org/abs/2512.24497v4">arXiv:2512.24497v4 · 查看原文</a></p>
+<p>发现：2026-10-07T07:15:02.993305+00:00 · 发表：2025-12-30T22:50:03Z · 修订：2026-09-02T10:28:05Z</p>
+<p><strong>自动摘要：</strong>本地全文首页发现v4，重新核对官方版本。单篇笔记对照方法、规划指标与失败分析：DROID为离线动作评价，不能视为真机闭环成功率。此条为维护过程版本接入，非新一期行业扫描。</p>
+<p><strong>推荐理由（工具判断）：</strong>对账时发现目录v3与已提取全文v4不一致，保留独立版本身份。</p>
+<p>关联问题：世界模型与可靠规划</p>
+<p>标签：world-models、jepa · 生成者：codex local fulltext version reconciliation</p>
+</article>
+
+<article>
 <h2>Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining</h2>
 <p><a href="https://arxiv.org/abs/2610.00438v1">arXiv:2610.00438v1 · 查看原文</a></p>
 <p>历史扫描时间估计（报告文件修改时间）：2026-10-04T09:22:20.729297+08:00 · 发表：2026-09-30T17:25:16Z · 修订：2026-09-30T17:25:16Z</p>

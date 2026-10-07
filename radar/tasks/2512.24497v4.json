@@ -1,0 +1,16 @@
+{
+  "paper": "2512.24497v4",
+  "source": "raw/arxiv/2512.24497v4.xml",
+  "questions": [
+    "world-model-planning"
+  ],
+  "state": "completed",
+  "attempts": 1,
+  "max_attempts": 2,
+  "owner": "codex",
+  "independent_review_required": false,
+  "artifact": "drafts/World-Models/jepa-planning-design.md",
+  "review_report": null,
+  "next_step": "官方v4元数据与原文首页匹配，本轮单篇笔记已完成；尚未独立核验，后续补充部署与不确定性证据",
+  "updated_at": "2026-10-07T07:15:03.098449+00:00"
+}

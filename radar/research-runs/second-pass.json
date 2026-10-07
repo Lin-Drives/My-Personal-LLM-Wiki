@@ -14,8 +14,10 @@
       "draft": "drafts/World-Models/demo-jepa.md"
     }
   ],
-  "version_issue": "2512.24497目录v3与全文v4不符，v3任务parked，v4需官方元数据接入",
+  "version_issue": "v4官方元数据已成功接入，与本地全文首页匹配；v4任务completed，v3保持parked避免重复研究",
   "independent_review": false,
-  "version_ingest_report": "radar/scans/20261007-jepa-v4-source-check.json",
-  "version_ingest_result": "rejected: arXiv read timeout"
+  "version_ingest_report": "radar/scans/20261007-jepa-v4-source-retry-01.json",
+  "version_ingest_result": "accepted: 2512.24497v4",
+  "previous_failed_report": "radar/scans/20261007-jepa-v4-source-check.json",
+  "reconciled_at": "2026-10-07T07:15:02.993305+00:00"
 }

@@ -1,0 +1,28 @@
+{
+  "input_sha256": "884783a998577ab45789da958d7bb3a5a2c5c017c7aaa1b74fab05762950c6ce",
+  "batch": {
+    "schema_version": 1,
+    "scan_id": "20261007-jepa-v4-source-retry-01",
+    "scanned_at": "2026-10-07T07:15:02.993305+00:00",
+    "producer": "codex local fulltext version reconciliation",
+    "papers": [
+      {
+        "arxiv_id": "2512.24497",
+        "arxiv_version": "v4",
+        "summary": "本地全文首页发现v4，重新核对官方版本。单篇笔记对照方法、规划指标与失败分析：DROID为离线动作评价，不能视为真机闭环成功率。此条为维护过程版本接入，非新一期行业扫描。",
+        "selection_reason": "对账时发现目录v3与已提取全文v4不一致，保留独立版本身份。",
+        "tags": [
+          "world-models",
+          "jepa"
+        ],
+        "questions": [
+          "world-model-planning"
+        ]
+      }
+    ]
+  },
+  "accepted": [
+    "2512.24497v4"
+  ],
+  "rejected": []
+}

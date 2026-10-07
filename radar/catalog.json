@@ -2,6 +2,30 @@
   "schema_version": 1,
   "papers": [
     {
+      "arxiv_id": "2512.24497",
+      "arxiv_version": "v4",
+      "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",
+      "published_at": "2025-12-30T22:50:03Z",
+      "updated_at": "2026-09-02T10:28:05Z",
+      "source_url": "https://arxiv.org/abs/2512.24497v4",
+      "source_path": "raw/arxiv/2512.24497v4.xml",
+      "source_sha256": "f78cf30391cb0385a745a51832c8e7d9e7a28d50d819c41a32d61f7257af7959",
+      "summary": "本地全文首页发现v4，重新核对官方版本。单篇笔记对照方法、规划指标与失败分析：DROID为离线动作评价，不能视为真机闭环成功率。此条为维护过程版本接入，非新一期行业扫描。",
+      "selection_reason": "对账时发现目录v3与已提取全文v4不一致，保留独立版本身份。",
+      "tags": [
+        "world-models",
+        "jepa"
+      ],
+      "questions": [
+        "world-model-planning"
+      ],
+      "scanned_at": "2026-10-07T07:15:02.993305+00:00",
+      "producer": "codex local fulltext version reconciliation",
+      "scan_id": "20261007-jepa-v4-source-retry-01",
+      "scanned_at_source": "actual_scan",
+      "historical_record": false
+    },
+    {
       "arxiv_id": "2610.00438",
       "arxiv_version": "v1",
       "title": "Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining",
