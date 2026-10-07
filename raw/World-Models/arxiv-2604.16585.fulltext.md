@@ -1,7 +1,7 @@
 # arXiv:2604.16585 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2604.16585
-- Local PDF: `arxiv-2604.16585.pdf` (local only)
+- Local PDF: `2026-04-17-the-global-neural-world-model-spatially-grounded-discrete-topologies-for-action-conditioned-planning-arxiv-2604.16585.pdf` (local only)
 - PDF SHA-256: `44fbe56999631cb535f2089e2177cbab4d224d019d4f542ed88e1e8f6c39af4f`
 - Converted at: 2026-10-06T23:51:14.397282+00:00
 - Extractor: pypdf/6.10.0

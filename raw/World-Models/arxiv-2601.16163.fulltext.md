@@ -1,7 +1,7 @@
 # arXiv:2601.16163 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2601.16163
-- Local PDF: `arxiv-2601.16163.pdf` (local only)
+- Local PDF: `2026-01-22-cosmos-policy-fine-tuning-video-models-for-visuomotor-control-and-planning-arxiv-2601.16163.pdf` (local only)
 - PDF SHA-256: `05696475c9b5481afbf88673a65f80a46cf3fb87a5755c1410e83d0f468cc6e0`
 - Converted at: 2026-10-06T23:51:13.141929+00:00
 - Extractor: pypdf/6.10.0

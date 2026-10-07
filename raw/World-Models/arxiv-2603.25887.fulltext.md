@@ -1,7 +1,7 @@
 # arXiv:2603.25887 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2603.25887
-- Local PDF: `arxiv-2603.25887.pdf` (local only)
+- Local PDF: `2026-03-26-world-reasoning-arena-arxiv-2603.25887.pdf` (local only)
 - PDF SHA-256: `04720e8815de91cfffa58f0ed989afff48d776771763c64b14c3ff9b08f2b9ae`
 - Converted at: 2026-10-06T23:51:14.329446+00:00
 - Extractor: pypdf/6.10.0

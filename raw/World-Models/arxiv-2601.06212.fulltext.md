@@ -1,7 +1,7 @@
 # arXiv:2601.06212 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2601.06212
-- Local PDF: `arxiv-2601.06212.pdf` (local only)
+- Local PDF: `2026-01-08-akasha-2-hamiltonian-state-space-duality-and-visual-language-joint-embedding-predictive-architectur-arxiv-2601.06212.pdf` (local only)
 - PDF SHA-256: `a1603b64eda00f7724526a413078d7107f15213aaf1ddf7756fb0a39895f840a`
 - Converted at: 2026-10-06T23:51:14.639503+00:00
 - Extractor: pypdf/6.10.0

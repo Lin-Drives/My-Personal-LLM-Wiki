@@ -1,7 +1,7 @@
 # arXiv:2602.13977 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2602.13977
-- Local PDF: `arxiv-2602.13977.pdf` (local only)
+- Local PDF: `2026-02-15-wovr-world-models-as-reliable-simulators-for-post-training-vla-policies-with-rl-arxiv-2602.13977.pdf` (local only)
 - PDF SHA-256: `342c6cfeee002d820a64e8b06e67b5dd422c199937d8988f98dc41d2e01e2c93`
 - Converted at: 2026-10-06T23:51:13.232085+00:00
 - Extractor: pypdf/6.10.0

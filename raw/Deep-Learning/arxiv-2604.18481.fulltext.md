@@ -1,7 +1,7 @@
 # arXiv:2604.18481 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2604.18481
-- Local PDF: `arxiv-2604.18481.pdf` (local only)
+- Local PDF: `2026-04-20-physics-informed-neural-networks-a-didactic-derivation-of-the-complete-training-cycle-arxiv-2604.18481.pdf` (local only)
 - PDF SHA-256: `3e535e5bb4602fb1a2da52ea0e5cafc87ce6486db4044df2fe84173437dfcd02`
 - Converted at: 2026-10-06T23:51:12.364501+00:00
 - Extractor: pypdf/6.10.0

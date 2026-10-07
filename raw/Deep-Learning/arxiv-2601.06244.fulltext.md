@@ -1,7 +1,7 @@
 # arXiv:2601.06244 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2601.06244
-- Local PDF: `arxiv-2601.06244.pdf` (local only)
+- Local PDF: `2026-01-09-hard-constraint-projection-in-a-physics-informed-neural-network-arxiv-2601.06244.pdf` (local only)
 - PDF SHA-256: `fa40b8efaff3f822ad902f16748e36cc844f8f727e72b8d1e007c7b2dae015c2`
 - Converted at: 2026-10-06T23:51:12.085865+00:00
 - Extractor: pypdf/6.10.0

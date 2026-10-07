@@ -1,7 +1,7 @@
 # arXiv:2502.06018 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2502.06018
-- Local PDF: `arxiv-2502.06018.pdf` (local only)
+- Local PDF: `2025-02-09-kolmogorov-arnold-fourier-networks-arxiv-2502.06018.pdf` (local only)
 - PDF SHA-256: `ff9a12aa9250abd07df98503a1827e81dda204d20ee5a20a60aa6dbb6b7b0a39`
 - Converted at: 2026-10-06T23:51:12.002106+00:00
 - Extractor: pypdf/6.10.0

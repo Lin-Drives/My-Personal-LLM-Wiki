@@ -1,7 +1,7 @@
 # arXiv:2604.16592 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2604.16592
-- Local PDF: `arxiv-2604.16592.pdf` (local only)
+- Local PDF: `2026-04-17-human-cognition-in-machines-a-unified-perspective-of-world-models-arxiv-2604.16592.pdf` (local only)
 - PDF SHA-256: `3c60864cb9014b16ab5308b4b8ac45d25b2125fb5b55cc0ac79aff56413e9314`
 - Converted at: 2026-10-06T23:51:14.258816+00:00
 - Extractor: pypdf/6.10.0

@@ -1,7 +1,7 @@
 # arXiv:2605.01694 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2605.01694
-- Local PDF: `arxiv-2605.01694.pdf` (local only)
+- Local PDF: `2026-05-03-latent-state-design-for-world-models-under-sufficiency-constraints-arxiv-2605.01694.pdf` (local only)
 - PDF SHA-256: `0a88bcb4ab23b0a3b785581f5eb64e3dd07e84846ab11f0597b77d784a01e6d6`
 - Converted at: 2026-10-06T23:51:13.595763+00:00
 - Extractor: pypdf/6.10.0

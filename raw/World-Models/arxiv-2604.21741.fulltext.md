@@ -1,7 +1,7 @@
 # arXiv:2604.21741 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2604.21741
-- Local PDF: `arxiv-2604.21741.pdf` (local only)
+- Local PDF: `2026-04-23-hi-wm-human-in-the-world-model-for-scalable-robot-post-training-arxiv-2604.21741.pdf` (local only)
 - PDF SHA-256: `b4bfe7763207753e55d035ccf8302b097ba1a4b5b33c0f720a31023ad0827d93`
 - Converted at: 2026-10-06T23:51:14.429382+00:00
 - Extractor: pypdf/6.10.0

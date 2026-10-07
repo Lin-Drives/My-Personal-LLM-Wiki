@@ -1,7 +1,7 @@
 # arXiv:2602.22010 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2602.22010
-- Local PDF: `arxiv-2602.22010.pdf` (local only)
+- Local PDF: `2026-02-25-world-guidance-world-modeling-in-condition-space-for-action-generation-arxiv-2602.22010.pdf` (local only)
 - PDF SHA-256: `306052a624f97d0048d716d9bdc2e03cd72669a001b42a5511ea9bb6a8ec2620`
 - Converted at: 2026-10-06T23:51:14.557533+00:00
 - Extractor: pypdf/6.10.0

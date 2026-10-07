@@ -1,7 +1,7 @@
 # arXiv:2602.09849 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2602.09849
-- Local PDF: `arxiv-2602.09849.pdf` (local only)
+- Local PDF: `2026-02-10-bagelvla-enhancing-long-horizon-manipulation-via-interleaved-vision-language-action-generation-arxiv-2602.09849.pdf` (local only)
 - PDF SHA-256: `691d30709ce69fbd23c4366b41d30dc06ce5b3b406e36afa3f813e7c09b43cd0`
 - Converted at: 2026-10-06T23:51:14.672010+00:00
 - Extractor: pypdf/6.10.0

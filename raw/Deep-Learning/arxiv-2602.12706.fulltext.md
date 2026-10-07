@@ -1,7 +1,7 @@
 # arXiv:2602.12706 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2602.12706
-- Local PDF: `arxiv-2602.12706.pdf` (local only)
+- Local PDF: `2026-02-13-physics-informed-laplace-neural-operator-for-solving-partial-differential-equations-arxiv-2602.12706.pdf` (local only)
 - PDF SHA-256: `870c6bc46e3a78a70e63b61a3af0dd9b0c7422d8eba6a6b67b07e2b4ef0eb5e4`
 - Converted at: 2026-10-06T23:51:12.277471+00:00
 - Extractor: pypdf/6.10.0

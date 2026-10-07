@@ -1,7 +1,7 @@
 # arXiv:2602.10098 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2602.10098
-- Local PDF: `arxiv-2602.10098.pdf` (local only)
+- Local PDF: `2026-02-10-vla-jepa-enhancing-vision-language-action-model-with-latent-world-model-arxiv-2602.10098.pdf` (local only)
 - PDF SHA-256: `5deec841d5a7da63e5bab3593798e1741d44d354507586bec8a2f9b576f12677`
 - Converted at: 2026-10-06T23:51:13.364268+00:00
 - Extractor: pypdf/6.10.0

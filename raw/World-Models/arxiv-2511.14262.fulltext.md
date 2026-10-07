@@ -1,7 +1,7 @@
 # arXiv:2511.14262 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2511.14262
-- Local PDF: `arxiv-2511.14262.pdf` (local only)
+- Local PDF: `2025-11-18-object-centric-world-models-for-causality-aware-reinforcement-learning-arxiv-2511.14262.pdf` (local only)
 - PDF SHA-256: `63142aa15a56860e82ec7c841ff88f58f14024c8070d33676a0f1a26b531511e`
 - Converted at: 2026-10-06T23:51:14.307586+00:00
 - Extractor: pypdf/6.10.0

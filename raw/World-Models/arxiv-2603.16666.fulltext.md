@@ -1,7 +1,7 @@
 # arXiv:2603.16666 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2603.16666
-- Local PDF: `arxiv-2603.16666.pdf` (local only)
+- Local PDF: `2026-03-17-fast-wam-do-world-action-models-need-test-time-future-imagination-arxiv-2603.16666.pdf` (local only)
 - PDF SHA-256: `4eea24883dcc4d8a5c0f760870f501baabb07db4eb65e5fd6c3b4b500601be8d`
 - Converted at: 2026-10-06T23:51:12.921531+00:00
 - Extractor: pypdf/6.10.0

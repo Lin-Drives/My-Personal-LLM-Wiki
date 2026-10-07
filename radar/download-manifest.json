@@ -156,7 +156,7 @@
     "2502.06018": {
       "arxiv_id": "2502.06018",
       "status": "skipped",
-      "path": "raw/Deep-Learning/arxiv-2502.06018.pdf"
+      "path": "raw/Deep-Learning/2025-02-09-kolmogorov-arnold-fourier-networks-arxiv-2502.06018.pdf"
     },
     "2507.19888": {
       "arxiv_id": "2507.19888",
@@ -170,22 +170,22 @@
     "2601.03332": {
       "arxiv_id": "2601.03332",
       "status": "skipped",
-      "path": "raw/Deep-Learning/arxiv-2601.03332.pdf"
+      "path": "raw/Deep-Learning/2026-01-06-lut-kan-segment-wise-lut-quantization-for-fast-kan-inference-arxiv-2601.03332.pdf"
     },
     "2602.12706": {
       "arxiv_id": "2602.12706",
       "status": "skipped",
-      "path": "raw/Deep-Learning/arxiv-2602.12706.pdf"
+      "path": "raw/Deep-Learning/2026-02-13-physics-informed-laplace-neural-operator-for-solving-partial-differential-equations-arxiv-2602.12706.pdf"
     },
     "2601.06244": {
       "arxiv_id": "2601.06244",
       "status": "skipped",
-      "path": "raw/Deep-Learning/arxiv-2601.06244.pdf"
+      "path": "raw/Deep-Learning/2026-01-09-hard-constraint-projection-in-a-physics-informed-neural-network-arxiv-2601.06244.pdf"
     },
     "2604.18481": {
       "arxiv_id": "2604.18481",
       "status": "skipped",
-      "path": "raw/Deep-Learning/arxiv-2604.18481.pdf"
+      "path": "raw/Deep-Learning/2026-04-20-physics-informed-neural-networks-a-didactic-derivation-of-the-complete-training-cycle-arxiv-2604.18481.pdf"
     },
     "2605.20811": {
       "arxiv_id": "2605.20811",
@@ -235,77 +235,77 @@
     "2603.16666": {
       "arxiv_id": "2603.16666",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2603.16666.pdf"
+      "path": "raw/World-Models/2026-03-17-fast-wam-do-world-action-models-need-test-time-future-imagination-arxiv-2603.16666.pdf"
     },
     "2601.16163": {
       "arxiv_id": "2601.16163",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2601.16163.pdf"
+      "path": "raw/World-Models/2026-01-22-cosmos-policy-fine-tuning-video-models-for-visuomotor-control-and-planning-arxiv-2601.16163.pdf"
     },
     "2602.13977": {
       "arxiv_id": "2602.13977",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2602.13977.pdf"
+      "path": "raw/World-Models/2026-02-15-wovr-world-models-as-reliable-simulators-for-post-training-vla-policies-with-rl-arxiv-2602.13977.pdf"
     },
     "2602.10098": {
       "arxiv_id": "2602.10098",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2602.10098.pdf"
+      "path": "raw/World-Models/2026-02-10-vla-jepa-enhancing-vision-language-action-model-with-latent-world-model-arxiv-2602.10098.pdf"
     },
     "2602.03604": {
       "arxiv_id": "2602.03604",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2602.03604.pdf"
+      "path": "raw/World-Models/2026-02-03-a-lightweight-library-for-energy-based-joint-embedding-predictive-architectures-arxiv-2602.03604.pdf"
     },
     "2511.14262": {
       "arxiv_id": "2511.14262",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2511.14262.pdf"
+      "path": "raw/World-Models/2025-11-18-object-centric-world-models-for-causality-aware-reinforcement-learning-arxiv-2511.14262.pdf"
     },
     "2605.01694": {
       "arxiv_id": "2605.01694",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2605.01694.pdf"
+      "path": "raw/World-Models/2026-05-03-latent-state-design-for-world-models-under-sufficiency-constraints-arxiv-2605.01694.pdf"
     },
     "2604.16592": {
       "arxiv_id": "2604.16592",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2604.16592.pdf"
+      "path": "raw/World-Models/2026-04-17-human-cognition-in-machines-a-unified-perspective-of-world-models-arxiv-2604.16592.pdf"
     },
     "2603.25887": {
       "arxiv_id": "2603.25887",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2603.25887.pdf"
+      "path": "raw/World-Models/2026-03-26-world-reasoning-arena-arxiv-2603.25887.pdf"
     },
     "2604.21741": {
       "arxiv_id": "2604.21741",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2604.21741.pdf"
+      "path": "raw/World-Models/2026-04-23-hi-wm-human-in-the-world-model-for-scalable-robot-post-training-arxiv-2604.21741.pdf"
     },
     "2604.16585": {
       "arxiv_id": "2604.16585",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2604.16585.pdf"
+      "path": "raw/World-Models/2026-04-17-the-global-neural-world-model-spatially-grounded-discrete-topologies-for-action-conditioned-planning-arxiv-2604.16585.pdf"
     },
     "2602.22010": {
       "arxiv_id": "2602.22010",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2602.22010.pdf"
+      "path": "raw/World-Models/2026-02-25-world-guidance-world-modeling-in-condition-space-for-action-generation-arxiv-2602.22010.pdf"
     },
     "2602.09849": {
       "arxiv_id": "2602.09849",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2602.09849.pdf"
+      "path": "raw/World-Models/2026-02-10-bagelvla-enhancing-long-horizon-manipulation-via-interleaved-vision-language-action-generation-arxiv-2602.09849.pdf"
     },
     "2602.17259": {
       "arxiv_id": "2602.17259",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2602.17259.pdf"
+      "path": "raw/World-Models/2026-02-19-frappe-infusing-world-modeling-into-generalist-policies-via-multiple-future-representation-alignment-arxiv-2602.17259.pdf"
     },
     "2601.06212": {
       "arxiv_id": "2601.06212",
       "status": "skipped",
-      "path": "raw/World-Models/arxiv-2601.06212.pdf"
+      "path": "raw/World-Models/2026-01-08-akasha-2-hamiltonian-state-space-duality-and-visual-language-joint-embedding-predictive-architectur-arxiv-2601.06212.pdf"
     },
     "2605.21427": {
       "arxiv_id": "2605.21427",

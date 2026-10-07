@@ -1,7 +1,7 @@
 # arXiv:2602.03604 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2602.03604
-- Local PDF: `arxiv-2602.03604.pdf` (local only)
+- Local PDF: `2026-02-03-a-lightweight-library-for-energy-based-joint-embedding-predictive-architectures-arxiv-2602.03604.pdf` (local only)
 - PDF SHA-256: `45cab1dc74600314965a5bd18a9fc89afb722a5a53f99e37a30c07daf6a6ec0f`
 - Converted at: 2026-10-06T23:51:13.409189+00:00
 - Extractor: pypdf/6.10.0

@@ -1,7 +1,7 @@
 # arXiv:2601.03332 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2601.03332
-- Local PDF: `arxiv-2601.03332.pdf` (local only)
+- Local PDF: `2026-01-06-lut-kan-segment-wise-lut-quantization-for-fast-kan-inference-arxiv-2601.03332.pdf` (local only)
 - PDF SHA-256: `ffc98696a138903c26d2158c376d7bb119439c8ec84963c64e761ef7c7d5e86e`
 - Converted at: 2026-10-06T23:51:12.040681+00:00
 - Extractor: pypdf/6.10.0

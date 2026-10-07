@@ -1,7 +1,7 @@
 # arXiv:2602.17259 — PDF 原文文本提取
 
 - Source: https://arxiv.org/abs/2602.17259
-- Local PDF: `arxiv-2602.17259.pdf` (local only)
+- Local PDF: `2026-02-19-frappe-infusing-world-modeling-into-generalist-policies-via-multiple-future-representation-alignment-arxiv-2602.17259.pdf` (local only)
 - PDF SHA-256: `12eac2e5cd9812e23f337f94ddd8081f8805532d9904658d366952cabc46faa1`
 - Converted at: 2026-10-06T23:51:14.709461+00:00
 - Extractor: pypdf/6.10.0

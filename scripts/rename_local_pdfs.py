@@ -1,9 +1,11 @@
-"""Rename ID-only local PDFs using confirmed catalog dates and titles."""
+"""Rename ID-only and arxiv-prefixed PDFs using confirmed dates and titles."""
 import argparse
 import hashlib
 import json
 from pathlib import Path
 import re
+import xml.etree.ElementTree as ET
+from radar_pipeline import source_metadata
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -20,16 +22,27 @@ def filename(paper, identity):
 
 def rename(root=ROOT, apply=False):
     catalog = {p['arxiv_id']: p for p in json.loads((root/'radar/catalog.json').read_text())['papers']}
+    for metadata in sorted((root/'raw/arxiv').glob('*.xml')):
+        base = re.sub(r'v\d+$', '', metadata.stem)
+        if base in catalog:
+            continue
+        try:
+            _, fields = source_metadata(metadata.read_bytes(), base)
+            catalog[base] = {'title': fields['title'], 'published_at': fields['published']}
+        except (ValueError, ET.ParseError):
+            continue
     changes, skipped = [], []
     for source in sorted((root/'raw').rglob('*.pdf')):
-        if not re.fullmatch(r'\d{4}\.\d{4,5}(?:v\d+)?', source.stem):
+        match = re.fullmatch(r'(?:arxiv-)?(\d{4}\.\d{4,5}(?:v\d+)?)', source.stem)
+        if not match:
             continue
-        identity = re.sub(r'v\d+$', '', source.stem)
+        file_identity = match.group(1)
+        identity = re.sub(r'v\d+$', '', file_identity)
         paper = catalog.get(identity)
         if not paper:
             skipped.append({'path': str(source.relative_to(root)), 'reason': 'No confirmed catalog identity'})
             continue
-        target = source.with_name(filename(paper, source.stem))
+        target = source.with_name(filename(paper, file_identity))
         if target.exists():
             raise ValueError('Target already exists: ' + str(target))
         changes.append({'old': str(source.relative_to(root)), 'new': str(target.relative_to(root)),
@@ -62,7 +75,10 @@ def rename(root=ROOT, apply=False):
                 text = md.read_bytes().decode('utf-8')
                 text = text.replace(f'- Local PDF: `{source.name}`', f'- Local PDF: `{Path(row["new"]).name}`', 1)
                 md.write_bytes(text.encode('utf-8'))
-        (root/'radar/pdf-renaming-report.json').write_text(json.dumps({'naming': 'publication-date-title-arxiv-id; authors omitted; descriptive legacy names preserved', 'renamed': changes, 'skipped': skipped}, ensure_ascii=False, indent=2)+'\n')
+        report_path = root/'radar/pdf-renaming-report.json'
+        prior = json.loads(report_path.read_text()) if report_path.exists() else {'renamed': []}
+        prior.update({'naming': 'publication-date-title-arxiv-id; authors omitted; descriptive legacy names preserved', 'renamed': prior['renamed'] + changes, 'skipped': skipped})
+        report_path.write_text(json.dumps(prior, ensure_ascii=False, indent=2)+'\n')
     return {'renamed' if apply else 'planned': len(changes), 'skipped': skipped}
 
 

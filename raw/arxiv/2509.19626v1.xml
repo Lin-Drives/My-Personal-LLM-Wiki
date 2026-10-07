@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3zAHcK0xzLL8CQ86ACh3IgiR8BU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.19626&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T13:06:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2509.19626" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.19626v1</id>
+    <title>EgoBridge: Domain Adaptation for Generalizable Imitation from Egocentric Human Data</title>
+    <updated>2025-09-23T22:34:47Z</updated>
+    <link href="https://arxiv.org/abs/2509.19626v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.19626v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Egocentric human experience data presents a vast resource for scaling up end-to-end imitation learning for robotic manipulation. However, significant domain gaps in visual appearance, sensor modalities, and kinematics between human and robot impede knowledge transfer. This paper presents EgoBridge, a unified co-training framework that explicitly aligns the policy latent spaces between human and robot data using domain adaptation. Through a measure of discrepancy on the joint policy latent features and actions based on Optimal Transport (OT), we learn observation representations that not only align between the human and robot domain but also preserve the action-relevant information critical for policy learning. EgoBridge achieves a significant absolute policy success rate improvement by 44% over human-augmented cross-embodiment baselines in three real-world single-arm and bimanual manipulation tasks. EgoBridge also generalizes to new objects, scenes, and tasks seen only in human data, where baselines fail entirely. Videos and additional information can be found at https://ego-bridge.github.io</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-23T22:34:47Z</published>
+    <arxiv:comment>Accepted at 39th Conference on Neural Information Processing Systems (NeurIPS 2025) and Oral at Conference on Robot Learning (CoRL 2025)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ryan Punamiya</name>
+    </author>
+    <author>
+      <name>Dhruv Patel</name>
+    </author>
+    <author>
+      <name>Patcharapong Aphiwetsa</name>
+    </author>
+    <author>
+      <name>Pranav Kuppili</name>
+    </author>
+    <author>
+      <name>Lawrence Y. Zhu</name>
+    </author>
+    <author>
+      <name>Simar Kareer</name>
+    </author>
+    <author>
+      <name>Judy Hoffman</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+  </entry>
+</feed>

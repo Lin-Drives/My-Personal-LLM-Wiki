@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Jm3zRp0KByYtU/YUYU1uL9j5xIw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.04443&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T13:06:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2509.04443" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.04443v3</id>
+    <title>EMMA: Scaling Mobile Manipulation via Egocentric Human Data</title>
+    <updated>2025-12-27T00:03:28Z</updated>
+    <link href="https://arxiv.org/abs/2509.04443v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.04443v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scaling mobile manipulation imitation learning is bottlenecked by expensive mobile robot teleoperation. We present Egocentric Mobile MAnipulation (EMMA), an end-to-end framework training mobile manipulation policies from human mobile manipulation data with static robot data, sidestepping mobile teleoperation. To accomplish this, we co-train human full-body motion data with static robot data. In our experiments across three real-world tasks, EMMA demonstrates comparable performance to baselines trained on teleoperated mobile robot data (Mobile ALOHA), achieving higher or equivalent task performance in full task success. We find that EMMA is able to generalize to new spatial configurations and scenes, and we observe positive performance scaling as we increase the hours of human data, opening new avenues for scalable robotic learning in real-world environments. Details of this project can be found at https://ego-moma.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-04T17:59:10Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Lawrence Y. Zhu</name>
+    </author>
+    <author>
+      <name>Pranav Kuppili</name>
+    </author>
+    <author>
+      <name>Ryan Punamiya</name>
+    </author>
+    <author>
+      <name>Patcharapong Aphiwetsa</name>
+    </author>
+    <author>
+      <name>Dhruv Patel</name>
+    </author>
+    <author>
+      <name>Simar Kareer</name>
+    </author>
+    <author>
+      <name>Sehoon Ha</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+  </entry>
+</feed>

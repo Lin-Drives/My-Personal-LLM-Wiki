@@ -102,7 +102,7 @@ python3 scripts/research_task.py 2506.09985v1 parked --owner kimi-claw --note '�
 
 ## 本地 PDF 命名
 
-ID-only PDF 下载完成后运行 `python3 scripts/rename_local_pdfs.py` 预览，再运行 `python3 scripts/rename_local_pdfs.py --apply`。用已确认目录中的首次发布日期与官方标题生成 `YYYY-MM-DD-title-slug-arxiv-ID.pdf`；明确版本后缀原样保留，不把目录最新版本冒充本地 PDF 版本。已有描述性文件名保留；缺少确认身份的文件不猜测命名。作者简写暂不加入，避免未知作者或重名。
+纯编号或 `arxiv-编号` PDF 下载完成后运行 `python3 scripts/rename_local_pdfs.py` 预览，再运行 `python3 scripts/rename_local_pdfs.py --apply`。用已确认目录或官方 Atom 元数据中的首次发布日期与官方标题生成 `YYYY-MM-DD-title-slug-arxiv-ID.pdf`；明确版本后缀原样保留，不把目录最新版本冒充本地 PDF 版本。已有描述性文件名保留；缺少确认身份的文件不猜测命名。作者简写暂不加入，避免未知作者或重名。
 
 重命名报告保存于 `radar/pdf-renaming-report.json`，记录旧名、新名及原文件 SHA-256；同步下载与转换清单、收录清单和原文提取头部的本地 PDF 引用。提取 Markdown 的公开路径保持稳定，PDF 不进入 Git。
 

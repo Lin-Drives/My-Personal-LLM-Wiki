@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Kjr/fI0QNsBP2XFjcljRlv1l52k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.20290&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T13:05:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2505.20290" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.20290v2</id>
+    <title>EgoZero: Robot Learning from Smart Glasses</title>
+    <updated>2025-06-03T22:50:28Z</updated>
+    <link href="https://arxiv.org/abs/2505.20290v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.20290v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite recent progress in general purpose robotics, robot policies still lag far behind basic human capabilities in the real world. Humans interact constantly with the physical world, yet this rich data resource remains largely untapped in robot learning. We propose EgoZero, a minimal system that learns robust manipulation policies from human demonstrations captured with Project Aria smart glasses, $\textbf{and zero robot data}$. EgoZero enables: (1) extraction of complete, robot-executable actions from in-the-wild, egocentric, human demonstrations, (2) compression of human visual observations into morphology-agnostic state representations, and (3) closed-loop policy learning that generalizes morphologically, spatially, and semantically. We deploy EgoZero policies on a gripper Franka Panda robot and demonstrate zero-shot transfer with 70% success rate over 7 manipulation tasks and only 20 minutes of data collection per task. Our results suggest that in-the-wild human data can serve as a scalable foundation for real-world robot learning - paving the way toward a future of abundant, diverse, and naturalistic training data for robots. Code and videos are available at https://egozero-robot.github.io.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-26T17:59:17Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Vincent Liu</name>
+    </author>
+    <author>
+      <name>Ademi Adeniji</name>
+    </author>
+    <author>
+      <name>Haotian Zhan</name>
+    </author>
+    <author>
+      <name>Siddhant Haldar</name>
+    </author>
+    <author>
+      <name>Raunaq Bhirangi</name>
+    </author>
+    <author>
+      <name>Pieter Abbeel</name>
+    </author>
+    <author>
+      <name>Lerrel Pinto</name>
+    </author>
+  </entry>
+</feed>
