@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rCZ03th5vF2Rf0/Ul91cEzkL+/w</id>
+  <title>arXiv Query: search_query=&amp;id_list=2609.19290,2609.26292,2609.28931,2609.20034,2609.19729,2609.20819,2609.16697,2608.26671,2610.00438,2609.39403,2609.37181,2609.34182,2609.33007,2607.08436,2609.30959,2609.24093,2609.19666&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:13:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2609.19290,2609.26292,2609.28931,2609.20034,2609.19729,2609.20819,2609.16697,2608.26671,2610.00438,2609.39403,2609.37181,2609.34182,2609.33007,2607.08436,2609.30959,2609.24093,2609.19666" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.26671v1</id>
+    <title>RECAP-Forcing: Retaining Content Appearances for Long Video Generation</title>
+    <updated>2026-08-27T06:24:59Z</updated>
+    <link href="https://arxiv.org/abs/2608.26671v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.26671v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long autoregressive video generation faces a fundamental memory challenge: with a finite attention window, a model must decide which information from an ever-expanding history to retain. Existing methods organize memory temporally, preserving recent frames while compressing or discarding older ones. We instead propose RECAP-Forcing, organizing memory by appearance novelty. A long video is not merely a sequence of frames, but an evolving cast of subjects, objects, and scenes whose identities must remain consistent over time. We organize memory by retaining the KV cache associated with newly appearing content--such as entering subjects, disoccluded regions, and newly introduced scenes--at the moment it first becomes visible, prioritizing novelty over recency. Memory should scale with the amount of newly introduced content, rather than with video length. This appearance-indexed memory makes long-range consistency an explicit property of the memory structure. Our framework unifies two mechanisms under this single principle. At the beginning of a video, when all visible content is novel, an attention sink preserves the initial scene. As the video evolves, an optical-flow-based novelty bank extends the same principle by selectively retaining newly revealed content. As a training-free inference method with no additional learnable parameters, RECAP-Forcing consistently improves visual quality and semantic fidelity across multiple strong baselines and outperforms existing memory methods.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-27T06:24:59Z</published>
+    <arxiv:comment>Project page: https://xxuhaiyang.github.io/RECAP-Forcing/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haiyang Xu</name>
+    </author>
+    <author>
+      <name>Zheng Ding</name>
+    </author>
+    <author>
+      <name>Zhuowen Tu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.20034v1</id>
+    <title>Astronex-World 1.0: Real-Time Interactive World Model Foundation</title>
+    <updated>2026-09-17T10:38:22Z</updated>
+    <link href="https://arxiv.org/abs/2609.20034v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.20034v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Astronex-World 1.0, an open controllable video world-model foundation. Given a text prompt (text-to-video) or an initial observation (image-to-video), the model predicts future visual states under frame-aligned camera trajectories, continuous actions, and an embodiment identifier, and accepts text events inserted at a specified position of a rollout. The family provides a bidirectional model for full-context generation and a causal model with block-causal attention and cross-block KV caching for persistent generation, both built on the Wan2.2-TI2V-5B prior. PRoPE injects camera intrinsics and extrinsics, while a 64-dimensional action stream modulates every Transformer layer. A five-stage training path develops bidirectional camera and action control, converts the backbone to block-causal generation, distills a few-step student, restores mixed-domain dynamics, and applies asymmetric DMD/DMD2 distribution matching. The causal model generates 832x480 video at 24 fps. All five training stages run on two NVIDIA L20 48 GB GPUs, and the causal model streams in real time on one. It scores 73.5 on WBench Navi and 70.0 on WBench Full. On Full, this 5B model is above the 13.6B LongCat-Video and the 14B Helios, within one point of the 22B LTX-2.3, and above YUME 1.5, which is post-trained from the same 5B prior on NVIDIA A100 GPUs. The reserved action input and output interfaces allow post-training for embodied intelligence and autonomous driving.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-17T10:38:22Z</published>
+    <arxiv:comment>Technical report. 25 pages, 13 figures, 10 tables. Project page: https://world.astronex.com.cn ; Code: https://github.com/Astronex-Robotics/Astronex-World ; Weights: https://huggingface.co/Astronex-Lab/Astronex-World</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xin Zhou</name>
+    </author>
+    <author>
+      <name>Cong Miao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.19729v1</id>
+    <title>Recency Forcing: Bridging the Long-Horizon Gap in Autoregressive Video Generation</title>
+    <updated>2026-09-17T05:40:53Z</updated>
+    <link href="https://arxiv.org/abs/2609.19729v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.19729v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autoregressive (AR) video generation degrades over long horizons due to an overlooked train-inference discrepancy we term KV eviction mismatch: models train on short clips where all context frames reside in the KV cache, but at inference, memory constraints force distant frames to be evicted from the KV cache - removing context the model was conditioned on. Rather than simulating eviction via context truncation - which discards temporal information the model still needs and degrades motion coherence - we keep the context but while progressively reducing the influence of distant frames, making their eventual eviction negligible. To guide this design, we introduce the positional response $R( Δ, \, t_{\text{denoise}})$, a perturbation-based sensitivity measure revealing that context influence decays steeply with temporal distance and varies systematically across denoising steps. Motivated by this analysis, we propose Recency Forcing, which applies a non-positive, timestep-dependent bias, termed Temporal Response Bias (TRB), on pre-softmax attention logits derived directly from $R$, closing the train-inference gap without modifying context length or training objectives. We further introduce Biased Attention Reparameterization (BAR), an exact reformulation that moves the bias outside the softmax, making TRB a standard FlashAttention call at zero overhead. Recency Forcing operates in both training-free mode and training-based mode. Experiments on VBench and VBench-Long demonstrate state-of-the-art long-horizon generation quality at no additional inference cost.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-17T05:40:53Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tri Cao</name>
+    </author>
+    <author>
+      <name>Hung Nguyen</name>
+    </author>
+    <author>
+      <name>Phong Nguyen</name>
+    </author>
+    <author>
+      <name>Khoi Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.08436v1</id>
+    <title>EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data</title>
+    <updated>2026-07-08T16:11:37Z</updated>
+    <link href="https://arxiv.org/abs/2607.08436v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.08436v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Egocentric human data offers scalable supervision for robot manipulation. However, behavior cloning entangles transferable content like objects, scenes, and task semantics, with non-transferable factors like human morphology, head motion, and behavioral style. We study whether World Action Models (WAMs) provide a better training signal by requiring policies to predict not only actions, but also how the scene evolves. The central question is what world representation best enables human-to-robot transfer. We hypothesize that an effective world target should abstract appearance, capture agent-invariant physical effects, and separate camera motion from environment change. We introduce EgoWAM, a controlled human-robot co-training framework that fixes the policy backbone, action head, and data mixture while varying only the world prediction target, comparing Pixel, DINO, and 3D motion flow. Across three real-world bimanual tasks, WAM co-training scales more effectively with in-the-wild egocentric human data than behavior cloning. Pixel-based prediction transfers weakly, while DINO and 3D flow yield substantial gains: DINO improves out-of-distribution object and scene generalization by up to 4x, and 3D flow improves in-domain performance by 20-30%. More details: https://gatech-rl2.github.io/egowam.github.io</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-08T16:11:37Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Baoyu Li</name>
+    </author>
+    <author>
+      <name>Xinchen Yin</name>
+    </author>
+    <author>
+      <name>Mengying Lin</name>
+    </author>
+    <author>
+      <name>Yixin Zhang</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.30959v1</id>
+    <title>VisTacAlign: Co-Training Dexterous Policies on Tactile Human and Robot Demonstrations</title>
+    <updated>2026-09-25T08:12:04Z</updated>
+    <link href="https://arxiv.org/abs/2609.30959v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.30959v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human demonstrations are a cheap source of data for dexterous manipulation, but co-training a robot policy on them requires closing the human--robot gap in every modality the policy consumes. We present VisTacAlign, a framework for co-training 3D-visual-tactile dexterous policies on human and robot demonstrations. Glove-tracked human hand motion is retargeted to a 17-DoF tactile robot hand with a one-time fingertip correction. The human hand is then erased from both stereo views and replaced by a posed robot-hand mesh painted with pixels from robot recordings, and a real-time stereo foundation model is re-run on the composite, so the human point clouds carry the same stereo errors and visibility as the robot ones. Finally, a capacitive tactile glove is aligned to the robot's fingertip sensors in its signal space, giving one interpretable per-finger force representation. A diffusion transformer consumes point-cloud, proprioceptive, and per-finger tactile tokens. On three real-world tasks requiring precise force -- Lego assembly, plucking strawberries of varying size, and activating and lifting a power drill -- adding aligned human demonstrations to existing robot data improves over robot-only policies, and ablations show that both tactile input and visual alignment are necessary. Project page: https://vis-tac-align.github.io</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-25T08:12:04Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Julien Poffet</name>
+    </author>
+    <author>
+      <name>Matthew Strong</name>
+    </author>
+    <author>
+      <name>Ankush Dhawan</name>
+    </author>
+    <author>
+      <name>Baiyu Shi</name>
+    </author>
+    <author>
+      <name>Shalika Neelaveni</name>
+    </author>
+    <author>
+      <name>Yujia Yuan</name>
+    </author>
+    <author>
+      <name>Zhenan Bao</name>
+    </author>
+    <author>
+      <name>Monroe Kennedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.00438v1</id>
+    <title>Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining</title>
+    <updated>2026-09-30T17:25:16Z</updated>
+    <link href="https://arxiv.org/abs/2610.00438v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.00438v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humanoid whole-body manipulation has advanced rapidly, enabling policies to coordinate locomotion, posture, bimanual interaction, and dexterous hand movements. Meanwhile, egocentric human videos provide diverse examples of everyday interactions across objects and scenes, offering scalable supervision without robot operation. However, existing supervision from these videos provides limited coverage of whole-body movement and coordination with hand-object interaction, while obtaining such supervision through humanoid teleoperation is also costly and difficult to scale. We therefore explore how human experience can support scalable learning of humanoid loco-manipulation. To support this study, we introduce HumanVerse-500, a 500-hour dataset of diverse human loco-manipulation behaviors in open-world environments, collected with a lightweight wearable system that synchronizes egocentric video with body and hand motion. Building on this dataset, we develop $λ_0$, a whole-body humanoid vision-language-action policy, through three-stage training that first learns interaction from diverse egocentric datasets, then coordinates body and hand motion using HumanVerse-500, and finally adapts the policy to downstream tasks and robot embodiments. Across these stages, $λ_0$ learns a shared representation space for human experience transfer, while domain-specific interfaces handle differences between human and robot states and actions. We evaluate $λ_0$ on SIMPLE and 4 real-world loco-manipulation tasks, achieving state-of-the-art performance, and further analyze its scaling behavior, generalization, and training-stage contributions to understand how human data support downstream whole-body humanoid control. We will release our code, models, and data to support further research.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-30T17:25:16Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chongyang Xu</name>
+    </author>
+    <author>
+      <name>Zhao Wu</name>
+    </author>
+    <author>
+      <name>Jin Chen</name>
+    </author>
+    <author>
+      <name>Yiming Jiang</name>
+    </author>
+    <author>
+      <name>Jinhui Ye</name>
+    </author>
+    <author>
+      <name>Yuming Jiang</name>
+    </author>
+    <author>
+      <name>Shifeng Zhang</name>
+    </author>
+    <author>
+      <name>Ziliang Feng</name>
+    </author>
+    <author>
+      <name>Mu Xu</name>
+    </author>
+    <author>
+      <name>Yilun Chen</name>
+    </author>
+    <author>
+      <name>Li Lu</name>
+    </author>
+    <author>
+      <name>Steven C. H. Hoi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.37181v1</id>
+    <title>EgoHumanoid-V2: Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for Loco-Manipulation</title>
+    <updated>2026-09-29T10:05:10Z</updated>
+    <link href="https://arxiv.org/abs/2609.37181v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.37181v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human demonstrations capture diverse scenes and rich whole-body skills without requiring robot teleoperation. Prior work on egocentric transfer has emphasized scene generalization in loco-manipulation under decoupled control, leaving direct transfer of coordinated whole-body skills less explored. We present EgoHumanoid-V2, the first egocentric human-to-humanoid skill transfer framework for coordinated whole-body loco-manipulation. At its core, coarse-to-fine action alignment combines kinematic reference correction with dynamics-aware refinement. It improves end-effector pose accuracy while preserving whole-body coordination. We also use robot-arm rendering and training-time image augmentation to reduce the visual embodiment gap and improve viewpoint robustness. On four real-world tasks, vision-language-action (VLA) policies trained on aligned human data show zero-shot skill transfer without target-task robot demonstrations. Task scores are comparable to those of policies trained on teleoperation data at a lower collection cost. These results support human data as direct skill supervision.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-29T10:05:10Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jin Chen</name>
+    </author>
+    <author>
+      <name>Yiming Jiang</name>
+    </author>
+    <author>
+      <name>Chongyang Xu</name>
+    </author>
+    <author>
+      <name>Modi Shi</name>
+    </author>
+    <author>
+      <name>Shijia Peng</name>
+    </author>
+    <author>
+      <name>Li Chen</name>
+    </author>
+    <author>
+      <name>Tianyu Li</name>
+    </author>
+    <author>
+      <name>Mu Xu</name>
+    </author>
+    <author>
+      <name>Yilun Chen</name>
+    </author>
+    <author>
+      <name>Steven Hoi</name>
+    </author>
+    <author>
+      <name>Hongyang Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.39403v1</id>
+    <title>IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining</title>
+    <updated>2026-09-30T09:45:59Z</updated>
+    <link href="https://arxiv.org/abs/2609.39403v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.39403v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Egocentric human video offers a scalable data source for dexterous manipulation, yet using it to train humanoid robots presents two challenges: (1) an embodiment gap, as human hands differ structurally from robot end-effectors and low-cost egocentric recordings lack the torso kinematics required by conventional retargeting; and (2) heterogeneous data quality, including noisy hand-pose tracking and weakly aligned text annotations. We introduce IronMind, a vision-language-action (VLA) model that uses egocentric human video and heterogeneous robot data to pretrain policies for humanoid dexterous manipulation. To bridge the embodiment gap, IronMind bypasses explicit body-retargeting by using a camera-space action representation, the native reference space of egocentric video, and semantically aligning robot and human action dimensions. Across total pretraining budgets from 250 to 10,000 hours, validation loss decreases approximately log-linearly with data scale. Larger pretraining budgets also improve out-of-distribution real-robot manipulation after post-training: across six challenging tasks with unseen objects, affordances, and reasoning prompts, the 10,000-hour model achieves a 55.0% success rate, compared with at most 11.7% for every pretraining budget up to 5,000 hours and 5.0% without pretraining. At the same pretraining budget, the camera-space action representation also outperforms the torso-frame baseline. Together, these findings support pretraining with a camera-space action representation on large-scale human egocentric data as a scalable foundation for humanoid robot manipulation.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-30T09:45:59Z</published>
+    <arxiv:comment>https://xpeng-robotics.github.io/ironmind/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Huimin Pan</name>
+    </author>
+    <author>
+      <name>Yufan Ren</name>
+    </author>
+    <author>
+      <name>Kunpeng Song</name>
+    </author>
+    <author>
+      <name>Siyang Wang</name>
+    </author>
+    <author>
+      <name>Xiwen Zhang</name>
+    </author>
+    <author>
+      <name>Xiaoyun Hu</name>
+    </author>
+    <author>
+      <name>Zhuoxu Duan</name>
+    </author>
+    <author>
+      <name>Hanrui Zheng</name>
+    </author>
+    <author>
+      <name>Jialeng Ni</name>
+    </author>
+    <author>
+      <name>Nathan Zhao</name>
+    </author>
+    <author>
+      <name>Sibo Ma</name>
+    </author>
+    <author>
+      <name>Zhenxuan Fan</name>
+    </author>
+    <author>
+      <name>Zhongyang Che</name>
+    </author>
+    <author>
+      <name>Danny Bao</name>
+    </author>
+    <author>
+      <name>Jiacheng Wei</name>
+    </author>
+    <author>
+      <name>Jerry Bai</name>
+    </author>
+    <author>
+      <name>Xiaoyu Yue</name>
+    </author>
+    <author>
+      <name>Xiaoyang Guo</name>
+    </author>
+    <author>
+      <name>Chenyi Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.24093v1</id>
+    <title>Dexterous Robot Manipulation from Human Demonstrations via Contact-Anchored Retargeting and Residual Policy Learning</title>
+    <updated>2026-09-21T04:26:26Z</updated>
+    <link href="https://arxiv.org/abs/2609.24093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.24093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning dexterous manipulation from demonstrations is bottlenecked by data: the contact forces that determine whether a grasp succeeds are absent from every scalable source of human demonstrations. This paper builds on two observations. First, what survives the change from a human hand to a robot hand is the contact structure of a demonstration - which finger regions touch which object locations, and in what order - rather than its joint motion. Second, physical consistency need not be engineered per task: a single residual reinforcement learning (RL) policy, trained once across diverse demonstrations, can repair kinematic recordings into physically consistent, contact-annotated trajectories, and the same residual formulation restores dynamic feasibility after retargeting. These observations yield a three-stage pipeline that converts human motion-capture recordings into dexterous robot policies with no real-robot training data: physics refinement with a simulated MANO hand recovers contacts and forces, contact-anchored retargeting transfers the demonstrated contact structure through an objective independent of hand morphology, and residual policy learning adapts the result to robot actuation. The pipeline reconstructs 25,454 single-hand trajectories (success 7.3% -&gt; 59.3%) and 25 dual-hand tasks (16.0% -&gt; 62.4%) with one shared policy per setting, transfers one human dataset to four morphologically distinct robot hands (+62.4 pp), and executes four contact-rich bimanual tasks on physical hardware with zero real-robot training data.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-21T04:26:26Z</published>
+    <arxiv:comment>16 pages, 6 figures, 5 tables. Technical report. Code: https://github.com/DexGEM-Lab/real2sim2real</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zihao Yang</name>
+    </author>
+    <author>
+      <name>Chengyuan Liu</name>
+    </author>
+    <author>
+      <name>Yu Zhou</name>
+    </author>
+    <author>
+      <name>Runze Lv</name>
+    </author>
+    <author>
+      <name>Tianyu Cui</name>
+    </author>
+    <author>
+      <name>Sheng Yi</name>
+    </author>
+    <author>
+      <name>Haohua Zhu</name>
+    </author>
+    <author>
+      <name>Irvine Lu</name>
+    </author>
+    <author>
+      <name>JieQ Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.19290v1</id>
+    <title>Physics-Informed Hemodynamic Modeling for Data-Free Prediction and Sparse-Data Assimilation</title>
+    <updated>2026-09-16T18:02:24Z</updated>
+    <link href="https://arxiv.org/abs/2609.19290v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.19290v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Clinical decision-making for coronary intervention relies mainly on angiography and fractional flow reserve (FFR). However, angiography is two-dimensional and lacks depth information for 3D lesion characterization, while FFR provides only a single functional index, offering limited hemodynamic insight. Among existing methods, numerical analysis is computationally expensive, whereas learning-based approaches require extensive supervision and often lack physical consistency. To address these limitations, we propose physics-informed hemodynamic modeling, an integrated deep learning framework for 3D coronary blood flow analysis from dual-view angiography. First, an attention-enhanced CNN reconstructs coronary geometry from angiography. The resulting point clouds are then mapped to a reference domain and Fourier-encoded for joint representation. A decoupled network separately predicts velocity and pressure fields, with embedded physical priors enabling efficient transfer across physiological conditions. Across 32 clinical patients evaluated under four flow conditions, the trans-stenotic pressure-drop mean absolute percentage error was 2.02%, while the velocity and pressure relative-L2 errors were 0.054 and 0.023, respectively. Validation against hospital-measured FFR further achieved 93.8% diagnostic accuracy (30/32; exact 95% CI, 79.2%-99.2%). The framework also supports illustrative revascularization comparisons and sparse-data assimilation, with the full angiography-to-hemodynamics pipeline completed within 20 minutes per patient.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-16T18:02:24Z</published>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Xi Chen</name>
+    </author>
+    <author>
+      <name>Jianchuan Yang</name>
+    </author>
+    <author>
+      <name>Hongde Li</name>
+    </author>
+    <author>
+      <name>Guangxin He</name>
+    </author>
+    <author>
+      <name>Qiuyu Ye</name>
+    </author>
+    <author>
+      <name>Qiang Luo</name>
+    </author>
+    <author>
+      <name>Mao Chen</name>
+    </author>
+    <author>
+      <name>Wenqi Hu</name>
+    </author>
+  </entry>
+</feed>

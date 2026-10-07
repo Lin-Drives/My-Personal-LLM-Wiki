@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wv6ZSfBFJ10c7qXXAge2ZcdtMSY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2504.07347&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:11:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2504.07347" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.07347v3</id>
+    <title>Throughput-Optimal Scheduling Algorithms for LLM Inference and AI Agents</title>
+    <updated>2026-05-18T01:04:46Z</updated>
+    <link href="https://arxiv.org/abs/2504.07347v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.07347v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As demand for Large Language Models (LLMs) and AI agents grows rapidly, optimizing systems for efficient LLM inference becomes critical. While significant efforts have targeted system-level engineering, little has been explored from a mathematical modeling and queueing perspective. In this paper, we develop the queueing fundamentals for LLM inference. In particular, we study the throughput aspect of LLM inference systems. We prove that a large class of `work-conserving' scheduling algorithms achieve maximum throughput for both individual requests and AI-agent workloads with directed acyclic graph (DAG) and fork-join routing topologies, establishing `work-conserving' as a key design principle for practitioners. Technically, we develop a fluid-limit framework for multi-class batched processing networks under $K$-FCFS scheduling, which may be of independent interest. Evaluations of real-world systems confirm that Orca and Sarathi-Serve are throughput-optimal, reassuring practitioners, while FasterTransformer and vanilla vLLM are not maximally stable and should be used with caution. Our analysis also reveals how constraints such as batch size limits and cyclic routing topologies complicate the throughput picture, pointing to rich open questions at the intersection of queueing theory and LLM system design.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-10T00:12:12Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>J. G. Dai</name>
+    </author>
+    <author>
+      <name>Tianze Deng</name>
+    </author>
+    <author>
+      <name>Yueying Li</name>
+    </author>
+    <author>
+      <name>Tianyi Peng</name>
+    </author>
+  </entry>
+</feed>

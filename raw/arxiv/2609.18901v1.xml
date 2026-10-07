@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/58MwkDL/fJVNurqCzM01nksNZD0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2609.11521,2609.11656,2609.11780,2609.11253,2609.11790,2609.11580,2609.11904,2609.20641,2609.18419,2609.19915,2609.15536,2609.18901,2609.20794,2609.16853,2609.16406,2609.17841,2609.15432,2609.19871,2609.19756,2609.17063&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:13:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2609.11521,2609.11656,2609.11780,2609.11253,2609.11790,2609.11580,2609.11904,2609.20641,2609.18419,2609.19915,2609.15536,2609.18901,2609.20794,2609.16853,2609.16406,2609.17841,2609.15432,2609.19871,2609.19756,2609.17063" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.18419v1</id>
+    <title>HiLNO: A Hierarchical Latent Neural Operator with Multi-Scale Supervision for PDEs on General Geometries</title>
+    <updated>2026-09-16T10:12:44Z</updated>
+    <link href="https://arxiv.org/abs/2609.18419v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.18419v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Latent neural operators improve the efficiency of operator learning for partial differential equations (PDEs) by performing the main computation on compact latent representations. However, directly compressing the input representation to obtain such compact representations may discard solution-relevant spatial information, especially for PDE solutions with multiscale structures. To address this problem, we propose HiLNO, a hierarchical latent neural operator that constructs a fine-to-coarse-to-fine latent space and further introduces multi-scale supervision (MSS) and anisotropic Gaussian attention. The hierarchy mitigates potential information loss during compression, while MSS aligns intermediate predictions with downsampled target fields, encouraging solution-relevant structures to be captured across multiple spatial scales. Anisotropic Gaussian attention enables feature transfer across the hierarchy, making HiLNO applicable to general geometries. Experiments on representative PDE benchmarks and a large-scale automotive aerodynamics task show that HiLNO achieves competitive predictive accuracy, while reducing the parameter count by an average of 84.4% and FLOPs by an average of 69.2% compared with LinearNO. Additional experiments demonstrate effective generalization to unseen spatial resolutions. Code is available at https://github.com/JcLimath/HiLNO.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-16T10:12:44Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Zhicheng Hu</name>
+    </author>
+    <author>
+      <name>Jiacheng Li</name>
+    </author>
+    <author>
+      <name>Min Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.19915v1</id>
+    <title>Amortizing Physics-Informed Neural Solvers via Graph Hypernetworks</title>
+    <updated>2026-09-17T08:58:01Z</updated>
+    <link href="https://arxiv.org/abs/2609.19915v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.19915v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Amortizing physics-informed neural networks (PINNs) across related PDEs requires describing each equation to a reusable solver. Coefficient vectors encode numerical parameters in predefined slots, leaving operator and cross-field assignments implicit. We make these relationships explicit in an operator graph, with nodes for fields, derivatives, terms, and residuals and coefficients retained as term attributes. A graph hypernetwork generates diagonal codes that initialize a meta-trained factorized PINN for each target equation. Meta-training and target-specific adaptation use governing equations and prescribed conditions without solution labels. We compare coefficient-vector, DeepSets-based term-set, and graph conditioning by solution accuracy within a fixed adaptation budget. In scalar convection-diffusion-reaction problems, both term-based descriptors improve high-reaction accuracy, with similar performance. In two-field Fisher-KPP, meta-training sees uncoupled and one-way systems; after 3,000 adaptation steps on unseen two-way coupling, the graph's mean final error is 35.7% below the term set and 67.7% below the coefficient vector. In a fixed-structure capacitively coupled plasma model, the coefficient vector performs best. These results support extending coefficient conditioning with explicit equation relationships for physics-based solver adaptation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-17T08:58:01Z</published>
+    <arxiv:comment>Accepted at the Learning on Graphs Conference (LoG), 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Cheng Jing</name>
+    </author>
+    <author>
+      <name>Abhishek Verma</name>
+    </author>
+    <author>
+      <name>Kallol Bera</name>
+    </author>
+    <author>
+      <name>Yixuan He</name>
+    </author>
+    <author>
+      <name>Kookjin Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.16853v1</id>
+    <title>Can Deep Learning Achieve Cross-Physics Mapping?</title>
+    <updated>2026-09-15T08:45:23Z</updated>
+    <link href="https://arxiv.org/abs/2609.16853v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.16853v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Can deep learning translate physical fields governed by fundamentally different equations? We address this question by introducing Cross-Physics Mapping (CPM), an operator-learning framework for mappings between heterogeneous physical domains. We formulate sufficient conditions for such mappings through compatible latent representations and propose a dimensionless scaling principle that aligns the characteristic evolution scales of the source and target systems without assuming their dynamical equivalence. As a representative test, paired diffusion and wave fields are generated independently from their respective parabolic and hyperbolic equations while sharing the same latent geometry, material heterogeneity, excitation, and dimensionless scale. Seven architectures-ResUNet, DeepONet, Fourier, latent, wavelet, U-shaped, and Galerkin neural operators-are evaluated for both diffusion-to-wave and wave-to-diffusion mappings. The results reveal a strong directional asymmetry. Diffusion-to-wave reconstruction is more challenging because it requires recovering wavefront, phase, and time-of-flight information attenuated by diffusion; U-NO performs best in this direction, achieving a relative $\ell_2$ error of $0.307$ and an $R^2$ of $0.905$. Wave-to-diffusion mapping is considerably more stable, with GNO attaining a relative $\ell_2$ error of $0.154$ and an $R^2$ of $0.935$. Neural operators generally outperform the conventional convolutional baseline, highlighting the nonlocal nature of cross-physics transformations. These findings demonstrate that deep learning can establish useful mappings between distinct physical modalities on a shared latent manifold, while the achievable accuracy remains fundamentally constrained by the direction-dependent information content of the governing physics.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-15T08:45:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pengfei Zhu</name>
+    </author>
+    <author>
+      <name>Julien Lecompagnon</name>
+    </author>
+    <author>
+      <name>Mathias Ziegler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11656v1</id>
+    <title>Learnware and AI Model Management System</title>
+    <updated>2026-09-10T15:01:27Z</updated>
+    <link href="https://arxiv.org/abs/2609.11656v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11656v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The transition from file storage to database management systems transformed stored data into managed resources. AI now faces an analogous transition from AI model storage to AI model management. Existing model pools essentially serve as \textit{AI model storage systems}. What is needed instead are \textit{AI model management systems} that enable models trained by different developers, for different tasks, with different data, and under different objectives to be identified, reused, and even assembled to address future user tasks. Because AI model developers are generally unwilling to share their training data, such systems should operate without accessing the training data of model developers and, ideally, without accessing raw data of future users. This requirement poses a fundamental challenge: the functionality of a modern AI model may not be fully understood even by the developer who trained it. How, then, can a system identify which models are useful for a given user task, let alone assemble models developed independently for different purposes? At first glance, this objective may appear unattainable. It becomes possible, however, by upgrading the basic unit of management from a machine learning model to a \textit{learnware}. \textit{Learnware = Model + Specification}. The specification, whose assignment transforms a trained model into a learnware, is generated with the help of a machine learning process without disclosing the training data of the developer and has a theoretically established data-preservation property. The \textit{Learnware Dock System (LDS)} provides a path toward powerful AI model management systems. Because specifications are generated according to a published reference and are comparable across models, they can also serve as an AI model \textit{collaboration protocol} through which independently developed models, including intelligent agents, can collaborate.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T15:01:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhi-Hua Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.15536v1</id>
+    <title>Physics-Guided Conditional Flow Matching with Energy Regularization for Robust PDE Inverse Problems</title>
+    <updated>2026-09-14T13:22:16Z</updated>
+    <link href="https://arxiv.org/abs/2609.15536v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.15536v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider partial differential equation (PDE) inverse problems from sparse, noisy, and corrupted observations, with the aim of recovering unknown coefficient fields and associated state variables in a mesh-free setting. Under such sparse and corrupted observations, standard physics-informed and generative approaches typically treat all samples indiscriminately and therefore lack a principled mechanism for reconciling physical laws with contaminated data. We address this difficulty with a two-stage flow-matching framework. In the first stage, we develop physics-guided conditional flow matching (PG-CFM), which incorporates strong-form PDE information through residual regularization along the generative trajectories together with intermittent global collocation constraints. In the second stage, we introduce energy-regularized flow matching (ERFM), which fine-tunes the Stage-1 model by assigning each observation a physics--data energy score from a frozen teacher and reweighting the flow-matching objective to reduce the influence of high-energy, PDE-inconsistent samples. We show that the resulting Stage-2 objective is equivalent to flow matching under a teacher-induced reweighted data distribution, which gives a population-level interpretation of the robustness mechanism. Numerical experiments on several inverse benchmarks, including Poisson and Navier--Stokes problems, show that the proposed framework yields more accurate coefficient recovery than robust PINN variants and competing generative baselines.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-14T13:22:16Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Yongsheng Chen</name>
+    </author>
+    <author>
+      <name>Shuo Lu</name>
+    </author>
+    <author>
+      <name>Wei Guo</name>
+    </author>
+    <author>
+      <name>Xinghui Zhong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.17063v1</id>
+    <title>Development of a Physics-Informed Neural Framework, MEOWN, for Rapid Prediction of Muon Stopping Sites in Crystalline Materials, for understanding Quantum Magnet employing Muon Spectroscopy</title>
+    <updated>2026-09-15T12:08:11Z</updated>
+    <link href="https://arxiv.org/abs/2609.17063v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.17063v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muon-spin rotation/relaxation is one of the most powerful microscopic probes for understanding magnetic order, spin dynamics, superconductivity, and complex magnetic phases in emerging quantum materials. Quantitative interpretation depends critically on the accurate identification of the muon stopping site, a problem traditionally addressed using density functional theory-based structural relaxation. However, conventional DFT approaches are computationally demanding, time-consuming, and require extensive calculations. Here, we develop MEOWN (Muon Engine for Optimized Weighted Networks), a machine-learning-based, physics-informed computational framework that combines a Polarizable Unperturbed Electrostatic Potential (P-UEP) model with machine-learning-guided optimization and symmetry-driven relaxation to predict energetically favorable muon stopping sites in crystalline solids. MEOWN explicitly incorporates electrostatic interactions, electronic screening, polarization effects, and zero-point motion into the learning workflow, providing physically interpretable predictions with substantially reduced computational cost while maintaining physical consistency and scientific rigor. To validate the framework, we investigated several well-established benchmark materials, including MnSi, CoF2, CaF2, LiF, and NaF. The predicted muon stopping sites and dipolar fields are in close agreement with previously reported DFT+mu results, demonstrating the reliability and transferability of the approach across chemically diverse systems. Notably, MEOWN predicts the equilibrium muon stopping site within a few minutes, offering a significant speedup over conventional DFT-based calculations. This manuscript presents the theoretical foundations, computational methodology, and validation of MEOWN as a general-purpose software for rapid and reliable muon stopping-site prediction in crystalline materials.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-15T12:08:11Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>A. Pandey</name>
+    </author>
+    <author>
+      <name>K. Sharma</name>
+    </author>
+    <author>
+      <name>S. Ghosh</name>
+    </author>
+    <author>
+      <name>G. Roy</name>
+    </author>
+    <author>
+      <name>T. Basu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.18901v1</id>
+    <title>Fast Learning Rates for Physics-Informed Kernel Methods</title>
+    <updated>2026-09-16T16:39:32Z</updated>
+    <link href="https://arxiv.org/abs/2609.18901v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.18901v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In physics-informed machine learning, a target function $u^*$ is learned from noisy value observations $y_i=u^*(x_i)+ \varepsilon_i$, together with differential information, given either by noisy observations $d_j=(Du^*)(z_j)+ξ_j$ or by a known physical constraint $Du^*=v$. We consider the setting where $D$ is a linear differential operator and analyze a physics-informed kernel estimator $\hat u$ combining $n$ value observations and $m$ differential observations. In this context, we ask how much can differential information improve predictions, and how does this improvement depend quantitatively on $n$, $m$, and $D$. We prove finite-sample bounds, supported by numerical simulations, revealing a two-regime structure for the prediction error. When $m$ is limited, the rate depends jointly on $n$ and $m$; when $m$ exceeds a problem-dependent threshold, the rate saturates and matches the oracle rate obtained when the perfect constraint $D \hat u = Du^*$ is imposed. Examples are discussed for Sobolev spaces which are reproducing kernel Hilbert spaces and include partial Laplacian constraints on the torus and gradient observations on bounded domains. These examples illustrate the range of possible learning rate improvements --- from the standard nonparametric $n^{-1/4}$ to the parametric rate $n^{-1/2}$. Finally, we derive physically consistent rates in a stronger norm that jointly controls the errors in $\hat u$ and $D\hat u$.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-16T16:39:32Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Luc Brogat-Motte</name>
+    </author>
+    <author>
+      <name>Joachim Bona-Pellissier</name>
+    </author>
+    <author>
+      <name>Giacomo Meanti</name>
+    </author>
+    <author>
+      <name>Lorenzo Rosasco</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.16406v1</id>
+    <title>Physics Informed Random Feature Neural Networks for Solving PDEs</title>
+    <updated>2026-09-14T22:22:20Z</updated>
+    <link href="https://arxiv.org/abs/2609.16406v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.16406v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning-based partial differential equations (PDEs) solvers have attracted significant attention in recent years. Most progress in this area has been driven by deep neural networks such as physics-informed neural networks (PINNs) and kernel method (such as physics-informed Gaussian Processes). We introduce a physics-informed random feature method for countering part of the spectral bias which PINN-based solvers are facing for a certain class of PDEs. Random feature method was originally proposed to approximate large-scale kernel machines and can be viewed as a specialized randomized neural network. Compared to other state-of-the-art PINN-based solvers which require a large number of collocation points, our proposed method reduces the computational complexity. In this paper, we develop a rigorous approximation error analysis and derive high-probability error bounds on the $H^1$ norm. We provide extensive numerical tests for verifying our theoretical guarantees on error decay rates, as well as several comparison tests to showcase our claimed capability for combating spectral bias in these deep learning based methods.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-14T22:22:20Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Chi-An Chen</name>
+    </author>
+    <author>
+      <name>Chunyang Liao</name>
+    </author>
+    <author>
+      <name>Ming Zhong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11904v1</id>
+    <title>TART: A Modular Tool for Technique-Aware Audio-to-Tablature Guitar Transcription</title>
+    <updated>2026-09-10T17:55:12Z</updated>
+    <link href="https://arxiv.org/abs/2609.11904v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11904v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automatic Music Transcription (AMT) for guitar remains limited by three challenges: existing systems often fail to capture expressive techniques such as slides, bends, and percussive hits; they often assign notes to incorrect string-fret combinations; and they are typically trained on clean recordings, limiting their generalization to noisy real-world audio. To address these challenges, we propose TART, a modular four-stage audio-to-tablature pipeline consisting of (1) an audio-to-MIDI transcription model, (2) an expressive technique classifier, (3) an audio-conditioned T5 encoder-decoder for string-fret assignment, and (4) an automated tablature generator. We evaluate TART in a zero-shot setting on GuitarSet, EGDB, and two augmented benchmarks, Noisy GuitarSet and Noisy EGDB. Averaged across these four benchmarks, TART achieves 81.35% audio-to-MIDI F50 (+6.67 points over the best prior baseline), 71.8% string-fret Tab F1 (+8.5 points over the best prior baseline), and 54.08% end-to-end Tab F1. To our knowledge, TART is the first framework to generate guitar tablature with both fingering and expressive technique annotations directly from guitar audio.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T17:55:12Z</published>
+    <arxiv:comment>ISMIR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Akshaj Gupta</name>
+    </author>
+    <author>
+      <name>Hwi Joo Park</name>
+    </author>
+    <author>
+      <name>Andrea Guzman</name>
+    </author>
+    <author>
+      <name>Shamak Gowda</name>
+    </author>
+    <author>
+      <name>Samhita Konduri</name>
+    </author>
+    <author>
+      <name>Jiachen Lian</name>
+    </author>
+    <author>
+      <name>Robin Netzorg</name>
+    </author>
+    <author>
+      <name>Gopala Anumanchipalli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.20794v1</id>
+    <title>PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers</title>
+    <updated>2026-09-17T17:54:12Z</updated>
+    <link href="https://arxiv.org/abs/2609.20794v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.20794v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative models are increasingly used to solve scientific inverse problems, but existing evaluations still focus primarily on whether a method can produce a single plausible reconstruction. This is insufficient for ill-posed problems, where multiple solutions may be consistent with the same sparse or noisy observations. In these settings, a method can achieve strong pointwise accuracy while still failing to capture the true posterior through mode collapse, overconfident uncertainty, or averaging incompatible solutions. We introduce PosteriorBench, a benchmark for evaluating the distributional accuracy of generative inverse solvers. PosteriorBench evaluates four physics-based inverse problems: Darcy flow inversion, Poisson source recovery, carbon capture and storage, and light transport material inference. For each task, we construct high-fidelity reference posteriors using computationally heavy but established procedures such as rejection sampling and Markov chain Monte Carlo, enabling direct assessment of whether solvers recover the full set of solutions rather than the single best sample. We pair these references with a five-metric posterior evaluation suite: posterior-mean error, posterior-standard-deviation error, maximum mean discrepancy, sliced Wasserstein distance, and radially averaged power-spectrum error. These metrics assess pointwise accuracy, marginal uncertainty, distributional alignment, and global frequency fidelity. The benchmark spans sparse sensing, low-resolution observations, nonlinear forward models, varying noise levels, and multimodal priors, with a unified pipeline for distribution matching and uncertainty quantification. Our experiments reveal substantial distribution-matching gaps across current solvers, while showing that neural operators improve resolution robustness, and guidance weights and generation noise are key to posterior-variance calibration.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-17T17:54:12Z</published>
+    <arxiv:comment>32 pages, 10 figures, 21 tables; the code is available at https://github.com/neuraloperator/PosteriorBench</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jiachen Yao</name>
+    </author>
+    <author>
+      <name>Zi-Siang Hsu</name>
+    </author>
+    <author>
+      <name>Xi Deng</name>
+    </author>
+    <author>
+      <name>Aditi Gupta</name>
+    </author>
+    <author>
+      <name>Xin Ju</name>
+    </author>
+    <author>
+      <name>Sally M Benson</name>
+    </author>
+    <author>
+      <name>Gege Wen</name>
+    </author>
+    <author>
+      <name>Anima Anandkumar</name>
+    </author>
+  </entry>
+</feed>

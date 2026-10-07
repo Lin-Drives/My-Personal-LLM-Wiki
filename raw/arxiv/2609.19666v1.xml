@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iaSBFtcmDfhOQe3+PNCHhr0nwbE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2609.20819,2609.16697,2609.34182,2609.33007,2609.19666&amp;start=0&amp;max_results=5</title>
+  <updated>2026-10-07T00:14:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=5&amp;id_list=2609.20819,2609.16697,2609.34182,2609.33007,2609.19666" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.16697v1</id>
+    <title>World Models for Embodied Intelligence: From Plausible to Controllable to Actionable</title>
+    <updated>2026-09-15T06:22:42Z</updated>
+    <link href="https://arxiv.org/abs/2609.16697v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.16697v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World models connect perception and decision-making in embodied intelligence by maintaining hidden state, anticipating consequences, comparing interventions, and adapting when execution departs from expectations. Although progress is often measured by visual fidelity, their value lies in improving behavior. Before reaching for a cup, a person anticipates its weight and resistance to grasping, shaping the hand before contact. Such anticipation is coarse and rarely pictorial, yet it guides action. This raises a central question: which predictive capabilities improve behavior? Existing surveys, organized by architecture, output modality, or application domain, leave this question implicit. We introduce three progressively stronger capability levels: Plausible models preserve task-relevant temporal, geometric, or physical structure; Controllable models additionally predict how interventions alter that structure; and Actionable models translate predictions into measurable gains in planning, action, learning, evaluation, verification, recovery, or data selection. We complement this hierarchy with a 3 x 4 matrix crossing geometry, physics, and action grounding with improvement loops centered on data, rewards, policies, and the model itself. Using this framework, we survey manipulation, navigation, locomotion, autonomous driving, and general embodied learning, tracing technical progressions, clarifying capability requirements, and examining datasets, benchmarks, and evaluation protocols. We identify challenges in long-horizon consistency, uncertainty calibration, causal intervention testing, latency, verification and recovery, and cross-embodiment transfer. This perspective shifts evaluation from visual plausibility toward whether predictions capture task-relevant state, reflect intervention effects, and improve the closed-loop behavior of embodied agents.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-15T06:22:42Z</published>
+    <arxiv:comment>Project Page: https://3dagentworld.github.io/EmbodiedWM/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Nanjie Yao</name>
+    </author>
+    <author>
+      <name>Hao Wang</name>
+    </author>
+    <author>
+      <name>Chong Cheng</name>
+    </author>
+    <author>
+      <name>Zhikang Chen</name>
+    </author>
+    <author>
+      <name>Wenzhe Li</name>
+    </author>
+    <author>
+      <name>Jiafei Lyu</name>
+    </author>
+    <author>
+      <name>Li Shen</name>
+    </author>
+    <author>
+      <name>Peilin Zhao</name>
+    </author>
+    <author>
+      <name>Zongqing Lu</name>
+    </author>
+    <author>
+      <name>Gao Huang</name>
+    </author>
+    <author>
+      <name>Steven Hoi</name>
+    </author>
+    <author>
+      <name>Dacheng Tao</name>
+    </author>
+    <author>
+      <name>Deheng Ye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.33007v1</id>
+    <title>CAPEX: Efficiently Distilling Foundation Model Behavior into Deployable Robot Policies through Experience-Adaptive Reasoning</title>
+    <updated>2026-09-26T23:05:46Z</updated>
+    <link href="https://arxiv.org/abs/2609.33007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.33007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robot learning has largely relied on human-teleoperated demonstrations to acquire effective learnable behaviors. However, human-operated data collection processes can be unintuitive, difficult to scale, and inherently asynchronous. We explore an alternative: distilling physical behavior from general-purpose multimodal foundation models into deployable robot policies by using the foundation model itself as an autonomous demonstrator. While sufficiently capable models can generate successful zero-shot manipulation trajectories, repeatedly invoking them during physical execution is slow and expensive, limiting their utility as scalable data generators. As a solution, we introduce CAPEX, an experience-conditioned demonstration collection framework that uses execution experience from previous attempts to adapt how frequently the foundation model must observe, reason, and replan. We evaluate across RoboCasa tasks and on physical Franka and bimanual YAM-arm platforms, measuring task success, model calls, token usage, collection time, and cost. We further train Diffusion Policy and ACT on matched sets of human-teleoperated and foundation-model-generated demonstrations to evaluate the downstream learning value of autonomously collected data. We find that CAPEX increases the number of successful demonstrations by 4.3x while reducing the cost per successful demonstration by 80%. Policies trained on CAPEX-generated data approach the performance of those trained on matched human demonstrations; with longer training, this gap largely closes for policies trained from scratch. These results suggest that foundation models can serve as scalable sources of reusable robot experience. Project page: https://capex-paper.github.io/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-26T23:05:46Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Shivam Aarya</name>
+    </author>
+    <author>
+      <name>Zhang Xi-Jia</name>
+    </author>
+    <author>
+      <name>Chengyue Huang</name>
+    </author>
+    <author>
+      <name>Junhyun Kim</name>
+    </author>
+    <author>
+      <name>Huishu Xue</name>
+    </author>
+    <author>
+      <name>Hrishit Leen</name>
+    </author>
+    <author>
+      <name>Roman Yakunin</name>
+    </author>
+    <author>
+      <name>Animesh Garg</name>
+    </author>
+    <author>
+      <name>Zsolt Kira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.19666v1</id>
+    <title>Towards High-DoF Dexterous Manipulation through VLA Post-Training</title>
+    <updated>2026-09-17T04:12:21Z</updated>
+    <link href="https://arxiv.org/abs/2609.19666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.19666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imitation-learned vision--language--action (VLA) foundation models acquire broad manipulation capabilities by scaling robot data across tasks and embodiments, but reliable deployment on a specific downstream task and hardware platform still requires post-training. Dexterous hands make this adaptation particularly difficult: their broad behavioural repertoire and high degree of freedom create a large and structured action space. Three obstacles are central: open-source VLAs do not natively provide an action interface for high-DoF hands; gesture mismatch during human-gated DAgger takeover creates command discontinuities and contaminates corrective trajectories; and reinforcement learning in the raw joint space is sample-inefficient. We present a unified four-step post-training pipeline comprising a learned temporal hand-action codec, supervised fine-tuning, DAgger, and real-world residual reinforcement learning. The codec adapts a pretrained VLA to absolute dexterous-hand commands. Buffered rollback, pose alignment, and smooth command blending enable continuous, task-relevant DAgger corrections, while latent residual RL confines exploration to coordinated hand motions captured by the codec. We evaluate the pipeline on five diverse real-world tasks spanning bimanual transfer, in-hand reorientation, and tool use. Within the reported post-training budgets, the resulting policies achieve 100\% success on every evaluated task over 20 trials per task. These results provide a practical path for adapting VLA foundation models to reliable real-world dexterous manipulation.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-17T04:12:21Z</published>
+    <arxiv:comment>29pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Junlei Zhu</name>
+    </author>
+    <author>
+      <name>Shenzhe Yao</name>
+    </author>
+    <author>
+      <name>Chaogui Huang</name>
+    </author>
+    <author>
+      <name>Wenkai Zhu</name>
+    </author>
+    <author>
+      <name>Jingwei Peng</name>
+    </author>
+    <author>
+      <name>Guanqi He</name>
+    </author>
+    <author>
+      <name>Soren Schwertfeger</name>
+    </author>
+    <author>
+      <name>Jiahao Chen</name>
+    </author>
+    <author>
+      <name>Yide Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.34182v2</id>
+    <title>Unified Visual-Tactile-Action Modeling from Human Demonstrations for Dexterous Manipulation</title>
+    <updated>2026-09-29T02:47:09Z</updated>
+    <link href="https://arxiv.org/abs/2609.34182v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.34182v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dexterous manipulation requires tactile feedback. However, robot tactile demonstrations are difficult to scale,because dexterous-hand teleoperation provides limited tactile feedback to the operator. In contrast, human demonstrations offer a substantially more scalable source of diverse tactile interactions. Motivated by a simple premise: hands can change, but the underlying physics of interaction does not. We leverage human tactile data to improve dexterous manipulation policies. Specifically, we first build a tactile motion-capture system that synchronously records images, tactile signals, and hand motions. Using this system, we construct the UVTA dataset spanning five contact-rich tasks, with 1,000 human demonstrations covering diverse interaction patterns and 150 robot demonstrations per task. To transfer the underlying physics of human interaction to robot control, we propose a Unified Visual-Tactile-Action Model that maps both embodiments into aligned tactile and action representations and jointly predicts future action and tactile trajectories. The joint objective enables human demonstrations to supervise contact-aware representation learning, while only robot actions are executed during deployment. In real-robot evaluations across five tasks, our method achieves an average success rate of 70%, outperforming the strongest visual-tactile baseline, which achieves 29%, and an architecture ablation, which achieves 42%. Performance improves consistently with additional human demonstrations and exhibits no saturation at 1,000 demonstrations per task, validating the effectiveness of scalable human tactile data for dexterous manipulation. Project page is available at https://uni-vta.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-28T02:59:16Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Wenqiao Li</name>
+    </author>
+    <author>
+      <name>Qianyou Zhao</name>
+    </author>
+    <author>
+      <name>Jiawen Hao</name>
+    </author>
+    <author>
+      <name>Xuezhou Zhu</name>
+    </author>
+    <author>
+      <name>Tengyu Liu</name>
+    </author>
+    <author>
+      <name>Kaifeng Zhang</name>
+    </author>
+    <author>
+      <name>Chuan Wen</name>
+    </author>
+    <author>
+      <name>Siyuan Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.20819v2</id>
+    <title>Can 4D Foundation Models Remember?</title>
+    <updated>2026-09-21T04:15:03Z</updated>
+    <link href="https://arxiv.org/abs/2609.20819v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.20819v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Perceiving and remembering the visual world is fundamental to navigating and interacting with our environment. Current 4D foundation models, such as camera-controllable video models or 4D reconstruction models, can perceive and reconstruct dynamic environments, but how well they remember what they have perceived remains an open question. Existing benchmarks largely rely on pixel-level metrics and lack ground truth for objects once they leave the field of view, making them unable to evaluate visual memory in an object-centric manner against references. To fill this gap, we introduce PersistBench, a dataset and metric suite that leverages 360° videos as omniscient ground truth and proposes three evaluation aspects: object permanence, motion continuity, and appearance preservation. Evaluating various models across diverse categories reveals that current models can only maintain short-term consistency that degrades significantly once objects leave the field of view. Our findings highlight the gap between current model capabilities and robust visual memory ("seeing is not remembering"), providing guidance for future development of 4D foundation models. Dataset and code are available on the project page: https://guangzhaohe.com/persistbench.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-17T17:59:50Z</published>
+    <arxiv:comment>Project Page: https://guangzhaohe.com/persistbench</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Guangzhao He</name>
+    </author>
+    <author>
+      <name>Hadar Averbuch-Elor</name>
+    </author>
+    <author>
+      <name>Wei-Chiu Ma</name>
+    </author>
+  </entry>
+</feed>

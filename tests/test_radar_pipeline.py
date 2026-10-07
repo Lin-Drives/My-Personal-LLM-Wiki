@@ -80,6 +80,13 @@ class PipelineTests(unittest.TestCase):
         self.assertFalse(report["accepted"])
         self.assertFalse((self.root / "raw/arxiv").exists())
 
+    def test_batch_feed_selects_matching_identity(self):
+        first = atom("2601.99999v1").decode().split('<entry>', 1)[1].split('</entry>', 1)[0]
+        second = atom().decode().split('<entry>', 1)[1].split('</entry>', 1)[0]
+        feed = ('<feed xmlns="http://www.w3.org/2005/Atom"><entry>' + first + '</entry><entry>' + second + '</entry></feed>').encode()
+        self.assertEqual(self.load(payload=feed)['accepted'], ['2601.12345v1'])
+        self.assertEqual(validate(self.root)['papers'][0]['arxiv_id'], '2601.12345')
+
     def test_new_version_is_separate(self):
         self.load()
         second = copy.deepcopy(self.batch)

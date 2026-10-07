@@ -95,3 +95,7 @@ python3 scripts/research_task.py 2506.09985v1 parked --owner kimi-claw --note '�
 ## 历史论文吸纳
 
 历史周报统一保存在 radar/reports/weekly，原导出索引在 radar/exports。raw 中不保留周报。scripts/audit_radar_archive.py 按本地 ID 和来源声明生成收录清单，scripts/render_radar_archive.py 生成网站历史论文入口，保留周报解读与原文链接的区别。归档推荐不代表结论已核验，也不直接转为稳定知识文章；重要论文后续通过研究任务对照原文深化。当前 216 个 ID 中 215 个已有 PDF 原文提取 Markdown；2601.10999 保留并标为已撤回、仅供历史参考。2503.29237 的引用未得到确认，按用户要求排除，历史周报原文不改写。
+
+## 首批历史 ingest 结果
+
+有效记录已正常接入，无需逐篇人工挑选：215 个官方论文版本、215 个研究任务，其中 214 个 pending，撤回的 2601.10999v2 为 parked。历史批次失败与重试记录保存在 radar/scans，汇总见 radar/ingest-summary.json。2605.0645 来源身份未确认，不进入目录或任务；原周报写 2605.0645x，先前取得的 PDF 与周报标题不符，原文留档已明确警示。请求身份匹配与哈希校验不代表论文摘要已核验。

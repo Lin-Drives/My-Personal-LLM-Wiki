@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fy/EXxNvAigEHvskZW+JViK/PFw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2606.03159,2605.19242,2510.12796,2607.02604,2602.02454,2605.12334,2604.19092,2606.01600,2509.07996v4,2608.06375,2608.08237,2608.07889,2608.07065,2608.06004,2608.06009,2608.02326,2608.02736,2601.11404,2608.07746,2607.25895&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:12:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2606.03159,2605.19242,2510.12796,2607.02604,2602.02454,2605.12334,2604.19092,2606.01600,2509.07996v4,2608.06375,2608.08237,2608.07889,2608.07065,2608.06004,2608.06009,2608.02326,2608.02736,2601.11404,2608.07746,2607.25895" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02454v1</id>
+    <title>World-Gymnast: Training Robots with Reinforcement Learning in a World Model</title>
+    <updated>2026-02-02T18:44:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.02454v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02454v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robot learning from interacting with the physical world is fundamentally bottlenecked by the cost of physical interaction. The two alternatives, supervised finetuning (SFT) from expert demonstrations and reinforcement learning (RL) in a software-based simulator, are limited by the amount of expert data available and the sim-to-real gap for manipulation. With the recent emergence of world models learned from real-world video-action data, we ask the question of whether training a policy in a world model can be more effective than supervised learning or software simulation in achieving better real-robot performance. We propose World-Gymnast, which performs RL finetuning of a vision-language-action (VLA) policy by rolling out the policy in an action-conditioned video world model and rewarding the rollouts with a vision-language model (VLM). On the Bridge robot setup, World-Gymnast outperforms SFT by as much as 18x and outperforms software simulator by as much as 2x. More importantly, World-Gymnast demonstrates intriguing capabilities of RL with a world model, including training on diverse language instructions and novel scenes from the world model, test-time training in a novel scene, and online iterative world model and policy improvement. Our results suggest learning a world model and training robot policies in the cloud could be the key to bridging the gap between robots that work in demonstrations and robots that can work in anyone's household.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T18:44:45Z</published>
+    <arxiv:comment>https://world-gymnast.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ansh Kumar Sharma</name>
+    </author>
+    <author>
+      <name>Yixiang Sun</name>
+    </author>
+    <author>
+      <name>Ninghao Lu</name>
+    </author>
+    <author>
+      <name>Yunzhe Zhang</name>
+    </author>
+    <author>
+      <name>Jiarao Liu</name>
+    </author>
+    <author>
+      <name>Sherry Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.02736v1</id>
+    <title>Novel Observable Signals from First-Order Gravitational Phase Transitions</title>
+    <updated>2026-08-03T18:00:04Z</updated>
+    <link href="https://arxiv.org/abs/2608.02736v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.02736v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spontaneous scalarization is a well-known phenomenon in scalar-tensor theories, featuring large deviations from general relativity. However, some of its signatures are hard to detect, because it is generally studied as a continuous phase transition. We show that scalarization occurs in a discontinuous (first-order) manner in many astrophysically relevant scenarios. This leads to loud signals that provide new tests of gravity. We demonstrate this in the case of gravitational wave breathing modes from a neutron star that scalarizes due to accretion, and discuss other possibilities.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-03T18:00:04Z</published>
+    <arxiv:comment>5+3 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Murat Özinan</name>
+    </author>
+    <author>
+      <name>Oğuzhan K. Yamak</name>
+    </author>
+    <author>
+      <name>Fethi M. Ramazanoğlu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.02604v1</id>
+    <title>DynaWM: A Base-VLA-Guided World Foundation Model for Moving-Object Manipulation</title>
+    <updated>2026-07-01T13:16:44Z</updated>
+    <link href="https://arxiv.org/abs/2607.02604v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.02604v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although vision-language-action (VLA) models have received widespread attention, many challenges remain in manipulating dynamic moving objects. In most existing approaches, end-to-end forward or inverse dynamics models, i.e., world models, are incorporated into high-performance base VLA architectures, which may degrade the performance of well-pretrained base VLA models due to inappropriate fine-tuning. In this paper, we propose DynaWM, a base-VLA-guided world foundation model that adapts to a wide variety of fine-tuned and coarse-tuned base-VLA checkpoints for moving-object manipulation. DynaWM uses a Mamba-3-based action encoder to encode the base action chunk produced by the base VLA into an action-conditioning representation, a V-JEPA 2.1 vision encoder to extract features from multi-view observation history, and a proprioceptive state encoder to encode robotic-arm proprioceptive states. These feature representations jointly condition a flow-matching DiT to regenerate motion-aware action trajectories for moving-object manipulation. For systematic evaluation, we construct the DynaGrasp-32 benchmark, covering six categories of moving-object manipulation tasks, including velocity variation, trajectory variation, and multi-object manipulation, as well as the DynaGrasp-1600 dataset, which consists of 32 scenarios, 1,600 demonstration trajectories, and approximately 1.53M images. For fine-tuned base-VLA checkpoints, DynaWM achieves percentage improvements of 7.19, 45.31, 1.88, and 10.94 over SmolVLA, X-VLA, π0, and π0.5, respectively. For coarse-tuned base-VLA checkpoints, performance increases by 35.13, 44.06, 35.69, and 26.13 percentage, respectively. Ablation experiments show that visual encoding enhances success by 27.50%, while reducing success by 45.44% if action conditioning is removed.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T13:16:44Z</published>
+    <arxiv:comment>17 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chongkei Chang</name>
+    </author>
+    <author>
+      <name>Zhidong Deng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.07065v1</id>
+    <title>AutoIntervene: Calibrated Intervention for Action-Chunking Imitation Learning Policies</title>
+    <updated>2026-08-07T10:14:29Z</updated>
+    <link href="https://arxiv.org/abs/2608.07065v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.07065v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Action-chunking visuomotor policies learn from demonstrations and improve temporal consistency by predicting short action sequences rather than single-step commands. Yet perception errors and execution drift can move the robot outside the demonstration distribution, while the policy continues to produce smooth action chunks that are inconsistent with the observed state. We present AutoIntervene, an online framework that selectively transfers control between an action-chunking policy and an operator during deployment. AutoIntervene evaluates proposed chunks against a visual-action support memory built from successful task executions, combining visual similarity with consistency between proposed and reference actions. Phase-local support governs policy-to-operator transfer within the current task phase, whereas global support governs the return to policy control after operator recovery. We calibrate separate switching thresholds for the two directions from empirical quantiles of evaluation-level scores on held-out expert demonstrations, avoiding direct manual tuning of score cutoffs. Intervention segments retained from successful rollouts target learner-induced states and provide corrective supervision for subsequent policy updates. Experiments on real-world bimanual manipulation tasks show higher post-adaptation task success and lower operator-control time than manual intervention. Videos and additional results are available at https://aus.bot/research/autointervene/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-07T10:14:29Z</published>
+    <arxiv:comment>9 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jinhe Tang</name>
+    </author>
+    <author>
+      <name>Weiming Zhi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.06375v2</id>
+    <title>$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation</title>
+    <updated>2026-08-09T10:34:38Z</updated>
+    <link href="https://arxiv.org/abs/2608.06375v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.06375v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered. We present $ω$-0, a latent predictive whole-body world-action model for real-world humanoid concurrent loco-manipulation. Given a language instruction, current visual observation, and robot proprioceptive state, $ω$-0 directly predicts controller-compatible whole-body action latents for real-robot execution. Rather than reconstructing future videos, $ω$-0 learns compact future observation embeddings as a lightweight predictive objective, coupling latent visual foresight with diffusion-based whole-body action generation. The model supports egocentric RGB, exocentric RGB, and exocentric depth inputs, and leverages controller-based simulation replay to ground human/public visual-motion priors into robot-executable action latents. We further collect $ω$-HOME, a 40+ hour real-world household humanoid dataset with synchronized multi-view observations, whole-body SMPL motions, robot states, and action latents. Real-world experiments on 11 household tasks demonstrate that a single $ω$-0 model can produce smooth manipulate-while-moving behaviors and consistently outperform representative imitation learning, VLA, humanoid, and WAM baselines.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-06T17:59:31Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhe Li</name>
+    </author>
+    <author>
+      <name>Zhenzhe Zhang</name>
+    </author>
+    <author>
+      <name>Yangyang Wei</name>
+    </author>
+    <author>
+      <name>Wenjie Zhang</name>
+    </author>
+    <author>
+      <name>Xichen Yuan</name>
+    </author>
+    <author>
+      <name>Peiyuan Zhi</name>
+    </author>
+    <author>
+      <name>Gen Li</name>
+    </author>
+    <author>
+      <name>Xinying Guo</name>
+    </author>
+    <author>
+      <name>Fengjie Gao</name>
+    </author>
+    <author>
+      <name>Jianfei Yang</name>
+    </author>
+    <author>
+      <name>Shanghang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.07746v1</id>
+    <title>LUCID: Latent-Skill Unified Control via Imagined Dynamics for Long-Horizon Humanoid Loco-Manipulation</title>
+    <updated>2026-08-07T20:26:34Z</updated>
+    <link href="https://arxiv.org/abs/2608.07746v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.07746v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon humanoid loco-manipulation requires composing versatile whole-body skills and reliable high-level decision making. Existing methods often coordinate pretrained skills with scripted planners, finite-state machines or task-specific model-free policies, restricting their ability to handle complex task sequences. To address this limitation, we propose \textbf{LUCID}, a hierarchical model-based reinforcement learning framework that plans over reusable skills through imagined rollouts of a learned dynamics model. LUCID first trains a structured latent-conditioned low-level policy via adversarial imitation and then freezes it while jointly learning a high-level policy and macro-dynamics world model. The world model predicts the temporally extended state transitions induced by latent decisions, enabling high-level policy optimization through imagined rollouts. We evaluate our framework across various simulated multi-object rearrangement scenarios. Experimental results show that LUCID improves the full-task success and partial-completion rates compared to prior baseline methods, demonstrating its effectiveness in complex sequential loco-manipulation tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-07T20:26:34Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Cheng Guo</name>
+    </author>
+    <author>
+      <name>Mingzhe Ni</name>
+    </author>
+    <author>
+      <name>Angelo Cangelosi</name>
+    </author>
+    <author>
+      <name>Arash Ajoudani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.19092v2</id>
+    <title>RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation</title>
+    <updated>2026-05-14T07:32:12Z</updated>
+    <link href="https://arxiv.org/abs/2604.19092v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.19092v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in large-scale video world models have enabled increasingly realistic future prediction, raising the prospect of using generated videos as scalable supervision for robot learning. However, for embodied manipulation, perceptual realism alone is not sufficient: generated interactions must also be physically consistent and executable by robotic agents. Existing benchmarks provide valuable assessments of visual quality and physical plausibility, but they do not systematically evaluate whether predicted behaviors can be translated into executable actions that complete manipulation tasks. We introduce RoboWM-Bench, a manipulation-centric benchmark for embodiment-grounded evaluation of video world models. RoboWM-Bench converts generated human-hand and robotic manipulation videos into embodied action sequences and validates them through execution in physically grounded simulation environments. Built on real-to-sim scene reconstruction and diverse manipulation tasks, RoboWM-Bench enables standardized, reproducible, and scalable evaluation of physical executability. Using RoboWM-Bench, we evaluate state-of-the-art video world models and observe that visual plausibility and embodied executability are not always aligned. Our analysis highlights several recurring factors that affect execution performance, including spatial reasoning, contact prediction, and non-physical geometric distortions, particularly in complex and long-horizon interactions. These findings provide a more fine-grained view of current model capabilities and underscore the value of embodiment-aware evaluation for guiding physically grounded world modeling in robotic manipulation.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-21T05:09:56Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Feng Jiang</name>
+    </author>
+    <author>
+      <name>Yang Chen</name>
+    </author>
+    <author>
+      <name>Kyle Xu</name>
+    </author>
+    <author>
+      <name>Yuchen Liu</name>
+    </author>
+    <author>
+      <name>Haifeng Wang</name>
+    </author>
+    <author>
+      <name>Zhenhao Shen</name>
+    </author>
+    <author>
+      <name>Jasper Lu</name>
+    </author>
+    <author>
+      <name>Shengze Huang</name>
+    </author>
+    <author>
+      <name>Yuanfei Wang</name>
+    </author>
+    <author>
+      <name>Chen Xie</name>
+    </author>
+    <author>
+      <name>Ruihai Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.12796v2</id>
+    <title>DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving</title>
+    <updated>2025-12-18T07:25:29Z</updated>
+    <link href="https://arxiv.org/abs/2510.12796v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.12796v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scaling Vision-Language-Action (VLA) models on large-scale data offers a promising path to achieving a more generalized driving intelligence. However, VLA models are limited by a ``supervision deficit'': the vast model capacity is supervised by sparse, low-dimensional actions, leaving much of their representational power underutilized. To remedy this, we propose \textbf{DriveVLA-W0}, a training paradigm that employs world modeling to predict future images. This task generates a dense, self-supervised signal that compels the model to learn the underlying dynamics of the driving environment. We showcase the paradigm's versatility by instantiating it for two dominant VLA archetypes: an autoregressive world model for VLAs that use discrete visual tokens, and a diffusion world model for those operating on continuous visual features. Building on the rich representations learned from world modeling, we introduce a lightweight action expert to address the inference latency for real-time deployment. Extensive experiments on the NAVSIM v1/v2 benchmark and a 680x larger in-house dataset demonstrate that DriveVLA-W0 significantly outperforms BEV and VLA baselines. Crucially, it amplifies the data scaling law, showing that performance gains accelerate as the training dataset size increases.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-14T17:59:47Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yingyan Li</name>
+    </author>
+    <author>
+      <name>Shuyao Shang</name>
+    </author>
+    <author>
+      <name>Weisong Liu</name>
+    </author>
+    <author>
+      <name>Bing Zhan</name>
+    </author>
+    <author>
+      <name>Haochen Wang</name>
+    </author>
+    <author>
+      <name>Yuqi Wang</name>
+    </author>
+    <author>
+      <name>Yuntao Chen</name>
+    </author>
+    <author>
+      <name>Xiaoman Wang</name>
+    </author>
+    <author>
+      <name>Yasong An</name>
+    </author>
+    <author>
+      <name>Chufeng Tang</name>
+    </author>
+    <author>
+      <name>Lu Hou</name>
+    </author>
+    <author>
+      <name>Lue Fan</name>
+    </author>
+    <author>
+      <name>Zhaoxiang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.25895v1</id>
+    <title>HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone</title>
+    <updated>2026-07-28T15:52:02Z</updated>
+    <link href="https://arxiv.org/abs/2607.25895v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.25895v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning deployable manipulation policies is bottlenecked by the scarcity of data that is both high-fidelity and scalable. Real-robot teleoperation is accurate but costly to scale; robot-free UMI capture scales readily, and current practice uses the resulting data mainly for pre-training, adding a small real-robot "anchor" at post-training. We ask whether raising the fidelity of robot-free UMI data, rather than shrinking the real-robot fraction, can remove that anchor. We present HiFi-UMI, a portable UMI data-production system co-designed for trajectory accuracy, inter-gripper relative pose, synchronization, and field of view: head-mounted offline stereo-inertial SLAM, native rather than reconstructed relative pose, a shared microsecond GPIO trigger, and two wide-angle cameras per hand covering ~200 degrees. It reaches 3 mm workspace-local end-effector accuracy without external tracking infrastructure. Using this corpus, we demonstrate zero-robot post-training: a policy post-trained solely on HiFi-UMI demonstrations deploys directly on a real robot and matches in-domain teleoperation across three backbones spanning the vision-language-action and world-action-model families, with success-rate differences of -2.5, +3.1, and -0.6 percentage points on StarVLA-QwenPI, OpenPI-pi_0.5, and LingBot-VA; the strongest policy reaches 85% on a precision insertion task, even though the teleoperation baseline is collected in the evaluation scene and no HiFi-UMI trajectory is. Pre-training on 4,000 hours from the same corpus lowers action error on ten unseen tasks by 41% and, on StarVLA-QwenPI, raises real-robot success by a further 18.1 percentage points. We open-source HiFi-UMI-2K, 2,000 hours of microsecond-synchronized, ultra-wide-FoV demonstrations, each automatically reconstructed and validated through simulation replay, as a large-scale, high-fidelity resource for the robot-learning community.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-28T15:52:02Z</published>
+    <arxiv:comment>33 pages, 15 figures, 4 tables. Project page: https://cloud.simpleai.tech/simple-world-lab/hifi-umi/ Dataset: https://huggingface.co/datasets/simple-world-lab/HiFi-UMI-2K</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Simple AI</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Yuteng Wei</name>
+    </author>
+    <author>
+      <name>Jinming Ma</name>
+    </author>
+    <author>
+      <name>Jiawei Wang</name>
+    </author>
+    <author>
+      <name>Weitao Zhou</name>
+    </author>
+    <author>
+      <name>Yushen Zuo</name>
+    </author>
+    <author>
+      <name>Ke Rui</name>
+    </author>
+    <author>
+      <name>Minglei Li</name>
+    </author>
+    <author>
+      <name>Jinhao Zhang</name>
+    </author>
+    <author>
+      <name>Zhikang Pan</name>
+    </author>
+    <author>
+      <name>Xiang Wang</name>
+    </author>
+    <author>
+      <name>Haoran Jia</name>
+    </author>
+    <author>
+      <name>Huan Du</name>
+    </author>
+    <author>
+      <name>Zicheng Zeng</name>
+    </author>
+    <author>
+      <name>Jun Ma</name>
+    </author>
+    <author>
+      <name>Guiyu Qin</name>
+    </author>
+    <author>
+      <name>Di Zhang</name>
+    </author>
+    <author>
+      <name>Xiaofei Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.02326v2</id>
+    <title>ChainVLA: Chaining Vision-Language-Action Queries through a Unified Execution State for Long-Horizon Manipulation</title>
+    <updated>2026-08-04T14:52:13Z</updated>
+    <link href="https://arxiv.org/abs/2608.02326v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.02326v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans perform long-horizon manipulation by retaining knowledge of what earlier actions have established while continuously adapting the motion underway. By contrast, action-chunked vision-language-action (VLA) policies repeatedly replan from the current input at each query. Existing methods preserve either long-term task evidence through memory or short-term motion through action reuse and ensembling, leaving the cross-query handoff incomplete. We introduce ChainVLA, a 1.2B-parameter VLA policy that chains successive queries through a joint and revisable execution state. Progress Context combines a recurrent Working State with sparse event memory to carry observation-derived task progress, while Motion Tail feeds the preceding prediction's unexecuted continuation into state construction and action generation. Together, the two components condition a decoder that regenerates each action horizon under the latest observation, allowing the carried state to guide the next prediction without fixing it. ChainVLA reaches 62.8% average success on RMBench and 98.8% across four LIBERO suites, while removing Motion Tail or Progress Context reduces RMBench success to 11.2% and 3.0%, respectively. These asymmetric ablations are consistent with motion continuity helping preserve the observation stream from which task progress is inferred.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-03T14:48:20Z</published>
+    <arxiv:comment>13 pages (9 main + 4 appendix), 4 figures. Project page: https://muqy1818.github.io/chainvla-web/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yuzhi Huang</name>
+    </author>
+    <author>
+      <name>Weijue Bu</name>
+    </author>
+    <author>
+      <name>Ziyi Xiong</name>
+    </author>
+    <author>
+      <name>Jie Wu</name>
+    </author>
+    <author>
+      <name>Fanding Huang</name>
+    </author>
+    <author>
+      <name>Jingyan Jiang</name>
+    </author>
+    <author>
+      <name>Zhi Wang</name>
+    </author>
+  </entry>
+</feed>

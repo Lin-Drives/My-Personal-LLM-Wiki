@@ -1,0 +1,710 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fDgRflAonI93820QMosMCGBa0Zg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2605.21427,2509.21081,2604.07173,2508.03148,2604.04750,2603.15553,2604.13518,2603.13660,2605.03510,2604.05651,2602.02547,2606.04907,2606.10363,2603.10448,2602.06949,2605.00528,2605.31463,2604.20919,2504.07494,2504.19874&amp;start=0&amp;max_results=20</title>
+  <updated>2026-10-07T00:14:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=20&amp;id_list=2605.21427,2509.21081,2604.07173,2508.03148,2604.04750,2603.15553,2604.13518,2603.13660,2605.03510,2604.05651,2602.02547,2606.04907,2606.10363,2603.10448,2602.06949,2605.00528,2605.31463,2604.20919,2504.07494,2504.19874" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2605.31463v1</id>
+    <title>PithTrain: A Compact and Agent-Native MoE Training System</title>
+    <updated>2026-05-29T15:52:58Z</updated>
+    <link href="https://arxiv.org/abs/2605.31463v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.31463v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixture-of-Experts (MoE) has become the dominant architecture for frontier language models. To meet this demand, production frameworks have built optimized MoE training stacks over years of engineering effort. Yet evolving these stacks for new architectures and system optimizations remains expensive. With the rise of AI coding agents, they could automate parts of training-framework development and accelerate this evolution. But applying them to these existing frameworks carries hidden costs, invisible to today's throughput-only evaluations. We name this missing dimension agent-task efficiency (ATE): the cost of using coding agents to understand, operate, and extend a framework. Grounded in four agent-native design principles, we build PithTrain, a compact, agent-native MoE training framework. We further introduce ATE-Bench, covering real-world training-framework tasks. Our evaluation shows PithTrain matches the throughput of production frameworks, and on ATE-Bench, PithTrain enables higher agent-task efficiency, with up to 62% fewer Agent Turns and 64% less Active GPU Time.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-29T15:52:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruihang Lai</name>
+    </author>
+    <author>
+      <name>Hao Kang</name>
+    </author>
+    <author>
+      <name>Haozhan Tang</name>
+    </author>
+    <author>
+      <name>Akaash R. Parthasarathy</name>
+    </author>
+    <author>
+      <name>Zichun Yu</name>
+    </author>
+    <author>
+      <name>Junru Shao</name>
+    </author>
+    <author>
+      <name>Todd C. Mowry</name>
+    </author>
+    <author>
+      <name>Chenyan Xiong</name>
+    </author>
+    <author>
+      <name>Tianqi Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.03510v1</id>
+    <title>Rational Communication Shapes Morphological Composition</title>
+    <updated>2026-05-05T08:44:23Z</updated>
+    <link href="https://arxiv.org/abs/2605.03510v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.03510v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human languages expand vocabularies by combining existing morphemes rather than inventing arbitrary forms. Communicative efficiency shapes lexical systems at multiple levels (Gibson et al., 2019), yet morphological composition -- combining morphemes through compounding or affixation -- has rarely been modeled as a historically situated speaker choice among competing morpheme sequences, leaving unanswered why a language settles on one morpheme combination over other plausible alternatives. We ask whether a trade-off between listener recoverability and speaker production cost can predict attested compositions over contemporaneously available alternatives. Here we show, within the Rational Speech Act (RSA) framework (Frank &amp; Goodman, 2012; Goodman &amp; Frank, 2016) using a time-indexed lexicon constructed from Corpus of Historical American English (COHA) and Corpus of Contemporary American English (COCA), that across 4323 naturally occurring English compounds and derivations spanning 1820--2019, attested compositions are systematically ranked above unattested alternatives generated from contemporaneously available morphemes. Models integrating semantic informativeness with production cost outperform semantic-only and cost-only baselines on Mean Reciprocal Rank (MRR) and top-k accuracy (Acc@k), with the advantage of the Pragmatic Speaker model ($S_1$) over the semantic-only baseline growing as the candidate set expands, where meaning alone leaves morphological choice underdetermined. These findings suggest that lexicalization reflects a communicative trade-off between expressiveness and efficiency, extending rational accounts of communication from utterance-level choice to the internal structure of words.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-05T08:44:23Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Fengyuan Yang</name>
+    </author>
+    <author>
+      <name>Yongqian Peng</name>
+    </author>
+    <author>
+      <name>Yuxi Ma</name>
+    </author>
+    <author>
+      <name>Chenheng Xu</name>
+    </author>
+    <author>
+      <name>Yixin Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.10448v2</id>
+    <title>DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control</title>
+    <updated>2026-03-22T07:28:45Z</updated>
+    <link href="https://arxiv.org/abs/2603.10448v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.10448v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models have emerged as a promising paradigm for robot learning, but their representations are still largely inherited from static image-text pretraining, leaving physical dynamics to be learned from comparatively limited action data. Generative video models, by contrast, encode rich spatiotemporal structure and implicit physics, making them a compelling foundation for robotic manipulation. But their potentials are not fully explored in the literature. To bridge the gap, we introduce DiT4DiT, an end-to-end Video-Action Model that couples a video Diffusion Transformer with an action Diffusion Transformer in a unified cascaded framework. Instead of relying on reconstructed future frames, DiT4DiT extracts intermediate denoising features from the video generation process and uses them as temporally grounded conditions for action prediction. We further propose a dual flow-matching objective with decoupled timesteps and noise scales for video prediction, hidden-state extraction, and action inference, enabling coherent joint training of both modules. Across simulation and real-world benchmarks, DiT4DiT achieves state-of-the-art results, reaching average success rates of 98.6% on LIBERO and 50.8% on RoboCasa GR1 while using substantially less training data. On the Unitree G1 robot, it also delivers superior real-world performance and strong zero-shot generalization. Importantly, DiT4DiT improves sample efficiency by over 10x and speeds up convergence by up to 7x, demonstrating that video generation can serve as an effective scaling proxy for robot policy learning. We release code and models at https://dit4dit.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-11T06:03:53Z</published>
+    <arxiv:comment>https://dit4dit.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Teli Ma</name>
+    </author>
+    <author>
+      <name>Jia Zheng</name>
+    </author>
+    <author>
+      <name>Zifan Wang</name>
+    </author>
+    <author>
+      <name>Chunli Jiang</name>
+    </author>
+    <author>
+      <name>Andy Cui</name>
+    </author>
+    <author>
+      <name>Junwei Liang</name>
+    </author>
+    <author>
+      <name>Shuo Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.03148v1</id>
+    <title>Frontier: Simulating the Next Generation of LLM Inference Systems</title>
+    <updated>2025-08-05T06:53:28Z</updated>
+    <link href="https://arxiv.org/abs/2508.03148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.03148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) inference is growing increasingly complex with the rise of Mixture-of-Experts (MoE) models and disaggregated architectures that decouple components like prefill/decode (PD) or attention/FFN (AF) for heterogeneous scaling. Existing simulators, architected for co-located, dense models, are unable to capture the intricate system dynamics of these emerging paradigms. We present Frontier, a high-fidelity simulator designed from the ground up for this new landscape. Frontier introduces a unified framework to model both co-located and disaggregated systems, providing native support for MoE inference with expert parallelism (EP). It enables the simulation of complex workflows like cross-cluster expert routing and advanced pipelining strategies for latency hiding. To ensure fidelity and usability, Frontier incorporates refined operator models for improved accuracy. Frontier empowers the community to design and optimize the future of LLM inference at scale.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-05T06:53:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yicheng Feng</name>
+    </author>
+    <author>
+      <name>Xin Tan</name>
+    </author>
+    <author>
+      <name>Kin Hang Sew</name>
+    </author>
+    <author>
+      <name>Yimin Jiang</name>
+    </author>
+    <author>
+      <name>Yibo Zhu</name>
+    </author>
+    <author>
+      <name>Hong Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.04750v4</id>
+    <title>DeepStack: Facilitating Co-Design Exploration of 3D DRAM-Stacked Accelerators for Distributed LLM Inference</title>
+    <updated>2026-09-11T14:11:13Z</updated>
+    <link href="https://arxiv.org/abs/2604.04750v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.04750v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advances in hybrid bonding and packaging have driven growing interest in 3D DRAM-stacked AI accelerators. As large language models (LLMs) scale to hundreds of billions or trillions of parameters, distributed inference across multiple 3D chips has become essential for AI serving. This trend makes cross-stack co-design critical because system-level parallelization and scheduling choices are tightly coupled with hardware characteristics such as memory organization, interconnects, and thermal constraints. We present DeepStack, an accurate performance model and efficient design space exploration (DSE) framework for distributed 3D-stacked LLM inference. At the hardware level, DeepStack captures transaction-aware memory bandwidth, bank activation constraints, buffering limitations, and thermal and power behavior. At the system level, it incorporates comprehensive parallelization strategies and execution scheduling. Through a dual-stage network abstraction and tile-level compute-communication overlap modeling, DeepStack achieves up to 100,000x faster evaluation than state-of-the-art simulators at comparable accuracy. We cross-validate DeepStack against our in-house 3D designs, an NS-3 backend with 2.12% error, and vLLM serving on eight B200 GPUs with 12.92% error. Combined with hierarchical search, DeepStack efficiently explores about 2.5 x 10^14 design points spanning the number of stacked DRAM layers, DRAM vertical connectivity, interconnects, compute-memory allocation, and distributed scheduling under thermal and area constraints. A search-space ablation shows that restricted DSE baselines can miss up to 9.5x modeled throughput. Beyond modeling and DSE, DeepStack derives design implications for distributed 3D AI systems and guides performance optimization across the stack. Source code and artifacts are available at https://github.com/tile-ai/DeepStack/tree/ae.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-06T15:16:35Z</published>
+    <arxiv:comment>MICRO version with three AE badges</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Zhiwen Mo</name>
+    </author>
+    <author>
+      <name>Guoyu Li</name>
+    </author>
+    <author>
+      <name>Hao Mark Chen</name>
+    </author>
+    <author>
+      <name>Yu Cheng</name>
+    </author>
+    <author>
+      <name>Zhengju Tang</name>
+    </author>
+    <author>
+      <name>Qianzhou Wang</name>
+    </author>
+    <author>
+      <name>Lei Wang</name>
+    </author>
+    <author>
+      <name>Shuang Liang</name>
+    </author>
+    <author>
+      <name>Lingxiao Ma</name>
+    </author>
+    <author>
+      <name>Xianqi Zhou</name>
+    </author>
+    <author>
+      <name>Yuxiao Guo</name>
+    </author>
+    <author>
+      <name>Wayne Luk</name>
+    </author>
+    <author>
+      <name>Jilong Xue</name>
+    </author>
+    <author>
+      <name>Hongxiang Fan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.19874v1</id>
+    <title>TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate</title>
+    <updated>2025-04-28T15:05:35Z</updated>
+    <link href="https://arxiv.org/abs/2504.19874v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.19874v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vector quantization, a problem rooted in Shannon's source coding theory, aims to quantize high-dimensional Euclidean vectors while minimizing distortion in their geometric structure. We propose TurboQuant to address both mean-squared error (MSE) and inner product distortion, overcoming limitations of existing methods that fail to achieve optimal distortion rates. Our data-oblivious algorithms, suitable for online applications, achieve near-optimal distortion rates (within a small constant factor) across all bit-widths and dimensions. TurboQuant achieves this by randomly rotating input vectors, inducing a concentrated Beta distribution on coordinates, and leveraging the near-independence property of distinct coordinates in high dimensions to simply apply optimal scalar quantizers per each coordinate. Recognizing that MSE-optimal quantizers introduce bias in inner product estimation, we propose a two-stage approach: applying an MSE quantizer followed by a 1-bit Quantized JL (QJL) transform on the residual, resulting in an unbiased inner product quantizer. We also provide a formal proof of the information-theoretic lower bounds on best achievable distortion rate by any vector quantizer, demonstrating that TurboQuant closely matches these bounds, differing only by a small constant ($\approx 2.7$) factor. Experimental results validate our theoretical findings, showing that for KV cache quantization, we achieve absolute quality neutrality with 3.5 bits per channel and marginal quality degradation with 2.5 bits per channel. Furthermore, in nearest neighbor search tasks, our method outperforms existing product quantization techniques in recall while reducing indexing time to virtually zero.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-28T15:05:35Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Amir Zandieh</name>
+    </author>
+    <author>
+      <name>Majid Daliri</name>
+    </author>
+    <author>
+      <name>Majid Hadian</name>
+    </author>
+    <author>
+      <name>Vahab Mirrokni</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.07173v1</id>
+    <title>InfiniLoRA: Disaggregated Multi-LoRA Serving for Large Language Models</title>
+    <updated>2026-04-08T15:01:04Z</updated>
+    <link href="https://arxiv.org/abs/2604.07173v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.07173v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LoRA enables efficient customization of LLMs and is widely used in multi-tenant and multi-task serving. However, emerging model architectures such as MoE significantly increase LoRA memory cost, making existing coupled LoRA serving designs poorly scalable and prone to tail-latency inflation. We present InfiniLoRA, a disaggregated LoRA serving system that decouples LoRA execution from base-model inference. InfiniLoRA introduces a shared LoRA Server with parallelism-aware execution, SLO-driven provisioning, and critical-path optimizations, including GPU-initiated communication and hardware-specialized LoRA kernels. Experiments show that InfiniLoRA can achieve an average $3.05\times$ increase in serviceable request rate under strict latency SLOs, and improve the percentage of LoRA adapters satisfying the SLO requirement by 54.0\%.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-08T15:01:04Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Hongyu Chen</name>
+    </author>
+    <author>
+      <name>Letian Ruan</name>
+    </author>
+    <author>
+      <name>Zilin Xu</name>
+    </author>
+    <author>
+      <name>Yuchen Li</name>
+    </author>
+    <author>
+      <name>Xinyu Chen</name>
+    </author>
+    <author>
+      <name>Jingwen Leng</name>
+    </author>
+    <author>
+      <name>Bingsheng He</name>
+    </author>
+    <author>
+      <name>Minyi Guo</name>
+    </author>
+    <author>
+      <name>Shixuan Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.20919v1</id>
+    <title>DiP-SD: Distributed Pipelined Speculative Decoding for Efficient LLM Inference at the Edge</title>
+    <updated>2026-04-22T04:02:13Z</updated>
+    <link href="https://arxiv.org/abs/2604.20919v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.20919v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Speculative decoding has emerged as a promising technique for large language model (LLM) inference by accelerating autoregressive decoding via draft-then-verify. This paper studies a new edge scenario with multi-user inference, where draft tokens are generated locally on devices and subsequently offloaded to a centralized edge server for batch verification. The key challenge is to sustain high throughput under coupled decisions of (i) batching and pipeline scheduling and (ii) per user draft token length. We propose DiP-SD, which exploits two complementary parallelism dimensions: device-level distributed drafting and phase-level draft-verify pipelining. We formulate a throughput-maximization objective, defined as the expected number of accepted tokens per unit time, and jointly optimize the number of batches, user-to-batch assignment, and integer draft lengths. To solve the resulting fractional mixed-integer program, DiP-SD scans the batch number and iteratively alternates between an association subproblem and a draft-length subproblem. Numerical results under a Qwen3-1.7B/Qwen3-32B device-edge deployment show that DiP-SD achieves up to 17.89x throughput over autoregressive decoding (AD) and 1.93x over AD with greedy batching.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-22T04:02:13Z</published>
+    <arxiv:comment>Accepted by 2026 IEEE 103rd Vehicular Technology Conference (VTC2026-Spring)</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Yaodan Xu</name>
+    </author>
+    <author>
+      <name>Sheng Zhou</name>
+    </author>
+    <author>
+      <name>Zhisheng Niu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02547v2</id>
+    <title>naPINN: Noise-Adaptive Physics-Informed Neural Networks for Recovering Physics from Corrupted Measurement</title>
+    <updated>2026-06-01T14:00:04Z</updated>
+    <link href="https://arxiv.org/abs/2602.02547v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02547v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physics-Informed Neural Networks (PINNs) are effective methods for solving inverse problems and discovering governing equations from observational data. However, their performance degrades significantly under complex measurement noise and gross outliers. To address this issue, we propose the Noise-Adaptive Physics-Informed Neural Network (naPINN), which robustly recovers physical solutions from corrupted measurements without prior knowledge of the noise distribution. naPINN embeds an energy-based model into the training loop to learn the latent distribution of prediction residuals. Leveraging the learned energy landscape, a trainable reliability gate adaptively filters data points exhibiting high energy, while a rejection cost regularization prevents trivial solutions where valid data are discarded. We demonstrate the efficacy of naPINN on various benchmark partial differential equations corrupted by non-Gaussian noise and varying rates of outliers. The results show that naPINN significantly outperforms existing robust PINN baselines, successfully isolating outliers and accurately reconstructing the dynamics under severe data corruption.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T06:03:33Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hankyeol Kim</name>
+    </author>
+    <author>
+      <name>Pilsung Kang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.04907v2</id>
+    <title>WAM-Nav: Asymmetric Latent World-Action Modeling for Unified Visual Navigation</title>
+    <updated>2026-06-13T10:28:53Z</updated>
+    <link href="https://arxiv.org/abs/2606.04907v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.04907v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual navigation requires generating smooth and collision-free trajectories under complex geometric and physical constraints. Existing reactive policies that directly map observations to actions lack anticipatory reasoning, limiting their ability to proactively avoid obstacles. While visual imagination offers predictive foresight, conventional modular approaches separate scene prediction from policy learning, often leading to error accumulation and inefficient inference. To address these limitations, we propose WAM-Nav, a Latent World-Action Model for embodied visual navigation that jointly learns action generation and latent visual foresight, enabling more robust and foresighted navigation decisions without compromising inference efficiency. Specifically, WAM-Nav utilizes a shared Diffusion Transformer for asymmetric joint diffusion to concurrently generate long-horizon actions and short-horizon visual foresight, reducing the inference latency and visual error accumulation inherent in multi-step autoregressive rollouts. To further encourage smooth and consistent trajectory generation, we introduce a dual-stream contextual conditioning mechanism that integrates episode-level ego-motion history with sequential visual observations. Combined with a unified goal alignment module that preserves balanced representations across goal types, WAM-Nav naturally supports Image-Goal, Point-Goal, and No-Goal exploration within a single policy. Extensive experiments on the challenging ClutterScenes and InternScenes benchmarks demonstrate strong generalization of WAM-Nav, particularly on Image-Goal and Point-Goal navigation, where it improves success rates by 15.7% and 3.3%, respectively. Real-world deployment further validates effective zero-shot sim-to-real transfer, achieving an average 85% task success rate across diverse indoor and outdoor environments.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-03T14:05:19Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ning Yang</name>
+    </author>
+    <author>
+      <name>Yan Huang</name>
+    </author>
+    <author>
+      <name>Kaiwen Peng</name>
+    </author>
+    <author>
+      <name>Ziheng He</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+    <author>
+      <name>Cui Miao</name>
+    </author>
+    <author>
+      <name>Kailin Lyu</name>
+    </author>
+    <author>
+      <name>Guo Li</name>
+    </author>
+    <author>
+      <name>Xiaofeng Wang</name>
+    </author>
+    <author>
+      <name>Zheng Zhu</name>
+    </author>
+    <author>
+      <name>Jing Liu</name>
+    </author>
+    <author>
+      <name>Nianfeng Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.10363v1</id>
+    <title>HiMem-WAM: Hierarchical Memory-Gated World Action Models for Robotic Manipulation</title>
+    <updated>2026-06-09T03:22:34Z</updated>
+    <link href="https://arxiv.org/abs/2606.10363v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.10363v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World Action Models (WAMs) have emerged as a new powerful paradigm for embodied intelligence, learning action-relevant visual dynamics that significantly enhance generalization and robustness. However, existing WAMs still struggle with task-relevant memory in long-horizon robotic manipulation. To address this, we present HiMem-WAM, a Hierarchical Memory-Gated WAM that integrates motion-centric latent actions, high-level skill latents, and boundary-triggered memory updates. Specifically, we develop a hierarchical latent action framework that jointly learns low-level motion and high-level skill latents, providing structured temporal abstraction. Meanwhile, a boundary-aware memory gate writes compact task states at predicted skill transitions, enabling causal inference without test-time generation of future video or optical flow estimation. Evaluated on LIBERO, LIBERO-PLUS, RMBench and real-world tasks, HiMem-WAM shows that hierarchical latents improve robustness under deployment perturbations, and the memory module substantially benefits memory-dependent long-horizon manipulation.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-09T03:22:34Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Xiaoquan Sun</name>
+    </author>
+    <author>
+      <name>Ruijian Zhang</name>
+    </author>
+    <author>
+      <name>Chen Cao</name>
+    </author>
+    <author>
+      <name>Yihan Sun</name>
+    </author>
+    <author>
+      <name>Jiahui Chen</name>
+    </author>
+    <author>
+      <name>Zetian Xu</name>
+    </author>
+    <author>
+      <name>Bo Chen</name>
+    </author>
+    <author>
+      <name>Haijier Chen</name>
+    </author>
+    <author>
+      <name>Zhen Yang</name>
+    </author>
+    <author>
+      <name>Jiarun Zhu</name>
+    </author>
+    <author>
+      <name>Yijun Hong</name>
+    </author>
+    <author>
+      <name>JingZhe Xu</name>
+    </author>
+    <author>
+      <name>Jingrui Pang</name>
+    </author>
+    <author>
+      <name>Mingqi Yuan</name>
+    </author>
+    <author>
+      <name>Jiayu Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.00528v2</id>
+    <title>SAGA: Workflow-Atomic Scheduling for AI Agent Inference on GPU Clusters</title>
+    <updated>2026-06-19T00:26:12Z</updated>
+    <link href="https://arxiv.org/abs/2605.00528v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.00528v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents execute tens to hundreds of chained LLM calls per task, yet GPU schedulers treat each call as independent, discarding gigabytes of intermediate state between steps and inflating end-to-end latency by 3-8x. We argue that this request-level abstraction is fundamentally mismatched to compound AI workloads, and propose a shift to program-level scheduling: treating the entire agent workflow (not individual inference calls) as the first-class schedulable unit. We present SAGA, a distributed scheduler that implements this abstraction through three mechanisms: (1) Agent Execution Graphs that capture workflow structure to predict KV cache reuse across tool-call boundaries, achieving within 1.31x of Bélády's optimal offline policy; (2) session-affinity batching with work stealing that co-locates correlated requests while maintaining global load balance; and (3) Agent Fair Share, a task-completion-time fairness metric with provable bounded-deviation guarantees. On a 64-GPU cluster serving SWE-bench coding agents and WebArena browser tasks, SAGA reduces task completion time by 1.64x (geometric mean, p &lt; 0.001) over vLLM v0.15.1 with prefix caching and affinity routing, while improving GPU memory utilization by 1.22x and achieving 99.2% SLO attainment under multi-tenant interference. These latency gains come at a quantified cost: approximately 30% lower peak throughput than throughput-optimal batch scheduling, a tradeoff appropriate for the latency-sensitive interactive deployments that dominate compound AI usage. Our results demonstrate that workflow-aware scheduling is essential for efficient compound AI serving.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-01T09:05:28Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Dongxin Guo</name>
+    </author>
+    <author>
+      <name>Jikun Wu</name>
+    </author>
+    <author>
+      <name>Siu Ming Yiu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.13660v1</id>
+    <title>Learning Generalizable 3D Medical Image Representations from Mask-Guided Self-Supervision</title>
+    <updated>2026-03-14T00:06:18Z</updated>
+    <link href="https://arxiv.org/abs/2603.13660v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.13660v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundation models have transformed vision and language by learning general-purpose representations from large-scale unlabeled data, yet 3D medical imaging lacks analogous approaches. Existing self-supervised methods rely on low-level reconstruction or contrastive objectives that fail to capture the anatomical semantics critical for medical image analysis, limiting transfer to downstream tasks. We present MASS (MAsk-guided Self-Supervised learning), which treats in-context segmentation as the pretext task for learning general-purpose medical imaging representations. MASS's key insight is that automatically generated class-agnostic masks provide sufficient structural supervision for learning semantically rich representations. By training on thousands of diverse mask proposals spanning anatomical structures and pathological findings, MASS learns what semantically defines medical structures: the holistic combination of appearance, shape, spatial context, and anatomical relationships. We demonstrate effectiveness across data regimes: from small-scale pretraining on individual datasets (20-200 scans) to large-scale multi-modal pretraining on 5K CT, MRI, and PET volumes, all without annotations. MASS demonstrates: (i) few-shot segmentation on novel structures, (ii) matching full supervision with only 20-40\% labeled data while outperforming self-supervised baselines by over 20 in Dice score in low-data regimes, and (iii) frozen-encoder classification on unseen pathologies that matches full supervised training with thousands of samples. Mask-guided self-supervised pretraining captures broadly generalizable knowledge, opening a path toward 3D medical imaging foundation models without expert annotations. Code is available: https://github.com/Stanford-AIMI/MASS.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-14T00:06:18Z</published>
+    <arxiv:comment>CVPR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yunhe Gao</name>
+    </author>
+    <author>
+      <name>Yabin Zhang</name>
+    </author>
+    <author>
+      <name>Chong Wang</name>
+    </author>
+    <author>
+      <name>Jiaming Liu</name>
+    </author>
+    <author>
+      <name>Maya Varma</name>
+    </author>
+    <author>
+      <name>Jean-Benoit Delbrouck</name>
+    </author>
+    <author>
+      <name>Akshay Chaudhari</name>
+    </author>
+    <author>
+      <name>Curtis Langlotz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.05651v1</id>
+    <title>Probing Intrinsic Medical Task Relationships: A Contrastive Learning Perspective</title>
+    <updated>2026-04-07T09:54:37Z</updated>
+    <link href="https://arxiv.org/abs/2604.05651v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.05651v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While much of the medical computer vision community has focused on advancing performance for specific tasks, the underlying relationships between tasks, i.e., how they relate, overlap, or differ on a representational level, remain largely unexplored. Our work explores these intrinsic relationships between medical vision tasks, specifically, we investigate 30 tasks, such as semantic tasks (e.g., segmentation and detection), image generative tasks (e.g., denoising, inpainting, or colorization), and image transformation tasks (e.g., geometric transformations). Our goal is to probe whether a data-driven representation space can capture an underlying structure of tasks across a variety of 39 datasets from wildly different medical imaging modalities, including computed tomography, magnetic resonance, electron microscopy, X-ray ultrasound and more. By revealing how tasks relate to one another, we aim to provide insights into their fundamental properties and interconnectedness. To this end, we introduce Task-Contrastive Learning (TaCo), a contrastive learning framework designed to embed tasks into a shared representation space. Through TaCo, we map these heterogeneous tasks from different modalities into a joint space and analyze their properties: identifying which tasks are distinctly represented, which blend together, and how iterative alterations to tasks are reflected in the embedding space. Our work provides a foundation for understanding the intrinsic structure of medical vision tasks, offering a deeper understanding of task similarities and their interconnected properties in embedding spaces.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-07T09:54:37Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jonas Muth</name>
+    </author>
+    <author>
+      <name>Zdravko Marinov</name>
+    </author>
+    <author>
+      <name>Simon Reiß</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.07494v1</id>
+    <title>Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving</title>
+    <updated>2025-04-10T06:51:23Z</updated>
+    <link href="https://arxiv.org/abs/2504.07494v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.07494v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) inference serving systems are essential to various LLM-based applications. As demand for LLM services continues to grow, scaling these systems to handle high request rates while meeting latency Service-Level Objectives (SLOs), referred to as effective throughput, becomes critical. However, existing systems often struggle to improve effective throughput, primarily due to a significant decline in Time To First Token (TTFT) SLO attainment. We identify two major causes of this bottleneck: (1) memory-intensive KV cache that limits batch size expansion under GPU memory constraints, and (2) rigid batch composition enforced by the default First-Come-First-Serve scheduling policy. In this paper, we introduce Apt-Serve, a scalable framework designed to enhance effective throughput in LLM inference serving. Apt-Serve features a new hybrid cache scheme that combines KV cache with a memory-efficient hidden cache for reusable input hidden state vectors, allowing large batch sizes and improving request concurrency. Based on the hybrid cache, Apt-Serve employs an adaptive runtime scheduling mechanism that dynamically optimizes batch composition. We formally define the adaptive scheduling optimization problem and propose an efficient algorithm with theoretical guarantees. Extensive evaluations on three real-world datasets and LLMs ranging from 13B to 66B parameters demonstrate that Apt-Serve achieves up to 8.8x improvement in effective throughput compared to the state-of-the-art inference serving systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-10T06:51:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shihong Gao</name>
+    </author>
+    <author>
+      <name>Xin Zhang</name>
+    </author>
+    <author>
+      <name>Yanyan Shen</name>
+    </author>
+    <author>
+      <name>Lei Chen</name>
+    </author>
+    <arxiv:doi>10.1145/3725394</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3725394" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.13518v1</id>
+    <title>From Alignment to Prediction: A Study of Self-Supervised Learning and Predictive Representation Learning</title>
+    <updated>2026-04-15T06:04:45Z</updated>
+    <link href="https://arxiv.org/abs/2604.13518v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.13518v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-supervised learning has emerged as a major technique for the task of learning from unlabeled data, where the current methods mostly revolve around alignment of representations and input recon struction. Although such approaches have demonstrated excellent performance in practice, their scope remains mostly confined to learning from observed data and does not provide much help in terms of a learning structure that is predictive of the data distribution. In this paper, we study some of the recent developments in the realm of self-supervised learning. We define a new category called Predictive Representation Learning (PRL), which revolves around the latent prediction of unobserved components of data based on the observation. We propose a common taxonomy that classifies PRL along with alignment and reconstruction-based learning approaches. Furthermore, we argue that Joint-Embedding Predictive Architecture(JEPA) can be considered as an exemplary member of this new paradigm. We further discuss theoretical perspectives and open challenges, highlighting predictive representation learning as a promising direction for future self-supervised learning research. In this study, we implemented Bootstrap Your Own Latent (BYOL), Masked Autoencoders (MAE), and Image-JEPA (I-JEPA) for comparative analysis. The results indicate that MAE achieves perfect similarity of 1.00, but exhibits relatively weak robustness of 0.55. In contrast, BYOL and I-JEPA attain accuracies of 0.98 and 0.95, with robustness scores of 0.75 and 0.78, respectively.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-15T06:04:45Z</published>
+    <arxiv:comment>This article has been submitted to the 2026 International Conference on Applied Artificial Intelligence (2AI), Central University of Kashmir, India</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mintu Dutta</name>
+    </author>
+    <author>
+      <name>Ritesh Vyas</name>
+    </author>
+    <author>
+      <name>Mohendra Roy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.21427v1</id>
+    <title>PALS: Power-Aware LLM Serving for Mixture-of-Experts Models</title>
+    <updated>2026-05-20T17:19:20Z</updated>
+    <link href="https://arxiv.org/abs/2605.21427v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.21427v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) inference has become a dominant workload in modern data centers, driving significant GPU utilization and energy consumption. While prior systems optimize throughput and latency by batching, scheduling, and parallelism, they largely treat GPU power as a static constraint rather than a controllable resource. In this paper, we present a power-aware runtime for LLM serving, PALS, that treats GPU power caps as a first-class control knob and jointly optimizes them with software parameters such as batch size. The system combines lightweight offline power-performance models with a feedback-driven controller to select configurations that satisfy throughput targets while maximizing energy efficiency. We implement PALS within an existing LLM serving framework, vLLM, demonstrating that it requires no model retraining or API changes. Across multi-GPU systems and both dense and mixture-of-experts (MoE) models, PALS improves energy efficiency by up to 26.3%, reduces QoS violations by 4x to 7x under power constraints, and tracks dynamic power budgets. These results highlight the potential of integrating power control directly into LLM inference runtimes, enabling energy-proportional and grid-interactive AI systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-20T17:19:20Z</published>
+    <arxiv:comment>13 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Can Hankendi</name>
+    </author>
+    <author>
+      <name>Rana Shahout</name>
+    </author>
+    <author>
+      <name>Minlan Yu</name>
+    </author>
+    <author>
+      <name>Ayse K. Coskun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06949v1</id>
+    <title>DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos</title>
+    <updated>2026-02-06T18:49:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.06949v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06949v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Being able to simulate the outcomes of actions in varied environments will revolutionize the development of generalist agents at scale. However, modeling these world dynamics, especially for dexterous robotics tasks, poses significant challenges due to limited data coverage and scarce action labels. As an endeavor towards this end, we introduce DreamDojo, a foundation world model that learns diverse interactions and dexterous controls from 44k hours of egocentric human videos. Our data mixture represents the largest video dataset to date for world model pretraining, spanning a wide range of daily scenarios with diverse objects and skills. To address the scarcity of action labels, we introduce continuous latent actions as unified proxy actions, enhancing interaction knowledge transfer from unlabeled videos. After post-training on small-scale target robot data, DreamDojo demonstrates a strong understanding of physics and precise action controllability. We also devise a distillation pipeline that accelerates DreamDojo to a real-time speed of 10.81 FPS and further improves context consistency. Our work enables several important applications based on generative world models, including live teleoperation, policy evaluation, and model-based planning. Systematic evaluation on multiple challenging out-of-distribution (OOD) benchmarks verifies the significance of our method for simulating open-world, contact-rich tasks, paving the way for general-purpose robot world models.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T18:49:43Z</published>
+    <arxiv:comment>Project page: https://dreamdojo-world.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Shenyuan Gao</name>
+    </author>
+    <author>
+      <name>William Liang</name>
+    </author>
+    <author>
+      <name>Kaiyuan Zheng</name>
+    </author>
+    <author>
+      <name>Ayaan Malik</name>
+    </author>
+    <author>
+      <name>Seonghyeon Ye</name>
+    </author>
+    <author>
+      <name>Sihyun Yu</name>
+    </author>
+    <author>
+      <name>Wei-Cheng Tseng</name>
+    </author>
+    <author>
+      <name>Yuzhu Dong</name>
+    </author>
+    <author>
+      <name>Kaichun Mo</name>
+    </author>
+    <author>
+      <name>Chen-Hsuan Lin</name>
+    </author>
+    <author>
+      <name>Qianli Ma</name>
+    </author>
+    <author>
+      <name>Seungjun Nah</name>
+    </author>
+    <author>
+      <name>Loic Magne</name>
+    </author>
+    <author>
+      <name>Jiannan Xiang</name>
+    </author>
+    <author>
+      <name>Yuqi Xie</name>
+    </author>
+    <author>
+      <name>Ruijie Zheng</name>
+    </author>
+    <author>
+      <name>Dantong Niu</name>
+    </author>
+    <author>
+      <name>You Liang Tan</name>
+    </author>
+    <author>
+      <name>K. R. Zentner</name>
+    </author>
+    <author>
+      <name>George Kurian</name>
+    </author>
+    <author>
+      <name>Suneel Indupuru</name>
+    </author>
+    <author>
+      <name>Pooya Jannaty</name>
+    </author>
+    <author>
+      <name>Jinwei Gu</name>
+    </author>
+    <author>
+      <name>Jun Zhang</name>
+    </author>
+    <author>
+      <name>Jitendra Malik</name>
+    </author>
+    <author>
+      <name>Pieter Abbeel</name>
+    </author>
+    <author>
+      <name>Ming-Yu Liu</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Joel Jang</name>
+    </author>
+    <author>
+      <name>Linxi "Jim" Fan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.21081v2</id>
+    <title>TyphoonMLA: A Mixed Naive-Absorb MLA Kernel For Shared Prefix</title>
+    <updated>2026-02-12T17:01:37Z</updated>
+    <link href="https://arxiv.org/abs/2509.21081v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.21081v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-Head Latent Attention (MLA) is a recent attention mechanism adopted in state-of-the-art LLMs such as DeepSeek-v3 and Kimi K2. Thanks to its novel formulation, MLA allows two functionally equivalent but computationally distinct kernel implementations: naive and absorb. While the naive kernels (e.g., FlashAttention) are typically preferred in training and prefill for their computational efficiency, existing decoding kernels (e.g., FlashMLA) rely on the absorb method to minimize HBM bandwidth usage. However, the compute-bound nature of the absorb implementations prohibits performance benefits from data reuse opportunities in attention calculations, such as shared prefixes. In this work, we introduce TyphoonMLA, a hybrid approach that combines naive and absorb formulations to harness the strengths of both. TyphoonMLA effectively leverages the shared prefix by applying the naive formulation to the compute-bound parts of attention calculations, while reducing the bandwidth requirements for non-shared parts by using the absorb formulation. As a result, TyphoonMLA improves the throughput of attention calculations in MLA architectures by up to 3x and 3.24x on NPU and GPUs, with only a 3% overhead in HBM size.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-25T12:32:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ahmet Caner Yüzügüler</name>
+    </author>
+    <author>
+      <name>Ahmet Çelik</name>
+    </author>
+    <author>
+      <name>Jiawei Zhuang</name>
+    </author>
+    <author>
+      <name>Lukas Cavigelli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15553v2</id>
+    <title>Self-Distillation of Hidden Layers for Self-Supervised Representation Learning</title>
+    <updated>2026-07-27T17:51:19Z</updated>
+    <link href="https://arxiv.org/abs/2603.15553v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15553v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The landscape of self-supervised learning (SSL) is currently dominated by generative approaches (e.g. MAE) that reconstruct raw low-level data, and predictive approaches (e.g. I-JEPA) that predict high-level abstract embeddings. While generative methods are stable due to their reliable training targets based on ground-truth data, they are computationally inefficient for high-redundancy modalities like imagery, and their training objective does not prioritize learning high-level, conceptual features. Conversely, predictive methods often suffer from training instability due to their reliance on the non-stationary targets of final-layer self-distillation. We introduce Bootleg, a method that bridges this divide by tasking the model with predicting latent representations from multiple hidden layers of a teacher. This hierarchical objective forces the model to capture features at varying levels of abstraction simultaneously. We demonstrate Bootleg significantly outperforms comparable baselines (+10% vs. I-JEPA) on frozen probe classification of ImageNet-1K, iNaturalist-21, and VTAB, and semantic segmentation of ADE20K, Cityscapes, and COCO-Stuff.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-16T17:13:27Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Scott C. Lowe</name>
+    </author>
+    <author>
+      <name>Anthony Fuller</name>
+    </author>
+    <author>
+      <name>Sageev Oore</name>
+    </author>
+    <author>
+      <name>Evan Shelhamer</name>
+    </author>
+    <author>
+      <name>Graham W. Taylor</name>
+    </author>
+  </entry>
+</feed>

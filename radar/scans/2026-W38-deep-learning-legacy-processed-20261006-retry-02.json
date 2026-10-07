@@ -1,0 +1,111 @@
+{
+  "input_sha256": "e7960399a0a3e70a4d7258c2fb28a583e4b950cb7ad378e3c84d68768df2d52b",
+  "batch": {
+    "schema_version": 1,
+    "scan_id": "2026-W38-deep-learning-legacy-processed-20261006-retry-02",
+    "scanned_at": "2026-09-13T09:20:26.004892+08:00",
+    "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+    "papers": [
+      {
+        "arxiv_id": "2609.11842",
+        "summary": "历史周报补处理条目：Model-Aware Schedules via Fiberwise Optimal Transport (arXiv:2609.11842)。问题/方法/证据：提出基于 fiberwise 最优传输的 model-aware 采样调度方法，为扩散模型和流匹配模型构建与模型预测误差耦合的时间分配策略。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：扩散/流匹配领域的采样调度长期停留在 model-agnostic 的启发式设计。这篇工作首次将模型自身的预测误差结构纳入调度优化，并发现跨模型的普适规律，可能重塑高效采样的研究范式。",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2609.11918",
+        "summary": "历史周报补处理条目：DataShifts — 可估计的分布偏移量化工具 (arXiv:2609.11918)。问题/方法/证据：基于熵最优传输（Entropic Optimal Transport），统一了协变量偏移和概念偏移的误差界，并提供了可从样本估计的实用工具。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：分布偏移是深度学习从实验室走向真实世界的最大障碍之一。理论界的泛化界往往不可估计，这篇工作试图在理论和实践之间架起桥梁。",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2609.11884",
+        "summary": "历史周报其他关注条目：CoRA NAS: 低成本神经架构搜索。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "deep-learning",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2609.11521",
+        "summary": "历史周报其他关注条目：广义 Score Matching。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "deep-learning",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2609.11780",
+        "summary": "历史周报其他关注条目：谱分析用于隐私审计。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "deep-learning",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2609.11253",
+        "summary": "历史周报其他关注条目：概念擦除的最优边界。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "deep-learning",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2609.11790",
+        "summary": "历史周报其他关注条目：文本驱动的化学反应优化。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "deep-learning",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2609.11580",
+        "summary": "历史周报其他关注条目：AmazonSWE: 大规模河流水位时空图补全。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "deep-learning",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      }
+    ],
+    "scanned_at_source": "report_file_mtime",
+    "historical_record": true,
+    "converted_at": "2026-10-06T23:26:04.584974+08:00"
+  },
+  "accepted": [
+    "2609.11842v1",
+    "2609.11918v1",
+    "2609.11884v1",
+    "2609.11521v1",
+    "2609.11780v1",
+    "2609.11253v1",
+    "2609.11790v1",
+    "2609.11580v2"
+  ],
+  "rejected": []
+}

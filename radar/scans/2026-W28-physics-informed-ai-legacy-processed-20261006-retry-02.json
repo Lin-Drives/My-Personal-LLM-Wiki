@@ -1,0 +1,109 @@
+{
+  "input_sha256": "0b9933e5a255dca6c5984796f80b1273a8b4990ebfc75f962a42d93157457484",
+  "batch": {
+    "schema_version": 1,
+    "scan_id": "2026-W28-physics-informed-ai-legacy-processed-20261006-retry-02",
+    "scanned_at": "2026-07-12T09:18:45.088994+08:00",
+    "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+    "papers": [
+      {
+        "arxiv_id": "2606.21189",
+        "summary": "历史周报补处理条目：TF-SNO: Time-Frequency Gated Spectral Neural Operators。问题/方法/证据：提出**时频门控谱神经算子**，专门解决**非平稳PDE**的学习难题。传统FNO在频率域全局处理，难以捕捉时变特征；TF-SNO通过时频分解+门控机制，在谱域实现自适应时频局部化。原报告标注日期：2026-06-19。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：填补了神经算子在非平稳动力学（如湍流、波动传播）上的空白，是FNO架构的重要进化。",
+        "tags": [
+          "physics-informed-ai",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2604.21761",
+        "summary": "历史周报补处理条目：Pi-PINN: Transferable Physics-Informed Representations。问题/方法/证据：基于伪逆PINN框架，学习**可迁移的物理信息表示**，通过闭式头部适应（closed-form head adaptation）快速求解新PDE实例。无需任何新数据即可泛化到未见PDE。原报告标注日期：2026-04-23。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：PINN从「单问题求解器」迈向「通用物理表示学习」的关键一步。",
+        "tags": [
+          "physics-informed-ai",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2606.15271",
+        "summary": "历史周报补处理条目：Dual-Network PINNs for Optimal Control。问题/方法/证据：针对质量-弹簧-阻尼系统，提出**双网络PINN架构**统一状态近似、控制优化和参数估计，在可微优化框架内解决最优控制问题。原报告标注日期：2026-06-13。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：PINN方法论向**控制论**和**PDE约束优化**的系统性拓展，验证了物理信息学习在工程控制中的实用性。",
+        "tags": [
+          "physics-informed-ai",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2606.31574",
+        "summary": "历史周报补处理条目：Physics-aware Neural Operator Transformer for EAST Divertor。问题/方法/证据：将**物理感知神经算子与Transformer结合**，用于托卡马克（EAST）钨单块偏滤器的温度场重建。融合物理约束的注意力机制处理聚变装置中的极端热负荷。原报告标注日期：2026-06-30。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：SciML在**核聚变工程**中的前沿应用，展示了物理感知架构对高保真科学仪器的价值。",
+        "tags": [
+          "physics-informed-ai",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2604.26999",
+        "summary": "历史周报补处理条目：LAM-PINN: Compositional Meta-Learning for PINNs。问题/方法/证据：**组合式元学习PINN** —— 不依赖单一全局初始化，而是将模型分解为聚类专用子网络+共享元网络，通过学习亲和度动态路由，缓解任务异质性带来的负迁移。原报告标注日期：2026-04-29。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：为参数化PDE家族的高效迁移提供了模块化新范式。",
+        "tags": [
+          "physics-informed-ai",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2606.06164",
+        "summary": "历史周报其他关注条目：6.31×。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "physics-informed-ai",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2605.10159",
+        "summary": "历史周报其他关注条目：jNO。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "physics-informed-ai",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2601.10999",
+        "summary": "【已撤回，仅供历史参考】arXiv 官方 v2 于 2026-01-20 撤回；作者称需大幅修订表述及与相关文献的关系。v1 历史页面：https://arxiv.org/abs/2601.10999v1。以下为当时扫描解读，不作为当前有效结论：历史周报其他关注条目：Exact Constraint Enforcement in PIELMs。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "physics-informed-ai",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": [],
+        "publication_status": "withdrawn"
+      }
+    ],
+    "scanned_at_source": "report_file_mtime",
+    "historical_record": true,
+    "converted_at": "2026-10-06T23:26:04.584974+08:00"
+  },
+  "accepted": [
+    "2606.21189v1",
+    "2604.21761v1",
+    "2606.15271v1",
+    "2606.31574v1",
+    "2604.26999v1",
+    "2606.06164v1",
+    "2605.10159v1",
+    "2601.10999v2"
+  ],
+  "rejected": []
+}

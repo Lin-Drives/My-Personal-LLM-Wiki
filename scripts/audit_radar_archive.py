@@ -43,6 +43,8 @@ def inventory(root):
             wiki[identity].add(rel)
         for identity in set(ID.findall(text)) - ids:
             mentions[identity].add(rel)
+    issue_path = root / "radar/source-issues.json"
+    issues = json.loads(issue_path.read_text()) if issue_path.exists() else {}
     papers = {}
     for p in sorted((root / 'radar/reports/weekly').glob('*.json')):
         batch = json.loads(p.read_text(encoding='utf-8'))
@@ -51,6 +53,10 @@ def inventory(root):
             row = papers.setdefault(identity, {'arxiv_id': identity, 'reports': [], 'wiki': sorted(wiki[identity]), 'raw': sorted(raw[identity]), 'wiki_mentions': sorted(mentions[identity]), 'summary': item['summary']})
             row['reports'].append(p.with_suffix('.md').relative_to(root).as_posix())
     for row in papers.values():
+        if row['arxiv_id'] in issues:
+            row['raw'] = []
+            row['source_issue'] = issues[row['arxiv_id']]
+            row['summary'] = '【来源身份未确认】' + issues[row['arxiv_id']]['reason'] + ' 历史解读：' + row['summary']
         row['status'] = 'wiki' if row['wiki'] else 'raw_only' if row['raw'] else 'radar_only'
     return list(papers.values())
 

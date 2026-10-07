@@ -1,0 +1,61 @@
+{
+  "input_sha256": "bf46af49f1baa5253446d995904a2927752f9c6fcefca1e2bc0d5b280c7c6180",
+  "batch": {
+    "schema_version": 1,
+    "scan_id": "2026-W18-ai-infra-legacy-processed-20261006",
+    "scanned_at": "2026-04-26T13:23:00.602643+08:00",
+    "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+    "papers": [
+      {
+        "arxiv_id": "2504.07347",
+        "summary": "历史周报补处理条目：Optimal Scheduling Algorithms for LLM Inference。问题/方法/证据：从排队论角度建立LLM推理调度的严格理论框架，提出SLAI调度器——动态平衡prefill/decode阶段，在严格TBT延迟约束下实现吞吐量最优；高负载下TTFT降低53%，服务容量提升26%原报告标注日期：2025。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：AI Infra的\"根论文\"级工作——把LLM推理调度从经验工程推进到理论可证的阶段",
+        "tags": [
+          "ai-infra",
+          "legacy-report",
+          "调度理论",
+          "llm推理",
+          "slo保证",
+          "排队论"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2602.09109",
+        "summary": "历史周报补处理条目：Distributed Hybrid Parallelism for Large Language Models。问题/方法/证据：系统梳理分布式LLM训练/推理的混合并行策略——数据并行(DP)、张量并行(TP)、流水线并行(PP)、序列并行(SP)、专家并行(EP)，给出每种策略的通信模式、内存占用和适用场景的数学建模原报告标注日期：2026。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：想做分布式训练infra的人，这篇是地图级参考",
+        "tags": [
+          "ai-infra",
+          "legacy-report",
+          "分布式训练",
+          "并行策略",
+          "综述",
+          "llm"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2310.07240",
+        "summary": "历史周报补处理条目：CacheGen: KV Cache Compression and Streaming for Fast LLM Serving。问题/方法/证据：提出KV Cache的压缩+流式传输方案，将KV tensor压缩后按需流式加载，大幅降低多轮对话和多副本部署的内存压力原报告标注日期：2024。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：KV Cache管理是推理infra的核心子问题，这篇和vLLM、SGLang、FlashInfer共同构成技术栈",
+        "tags": [
+          "ai-infra",
+          "legacy-report",
+          "kvcache",
+          "压缩",
+          "推理优化"
+        ],
+        "questions": []
+      }
+    ],
+    "scanned_at_source": "report_file_mtime",
+    "historical_record": true,
+    "converted_at": "2026-10-06T23:26:04.584974+08:00"
+  },
+  "accepted": [
+    "2504.07347v3",
+    "2602.09109v1",
+    "2310.07240v6"
+  ],
+  "rejected": []
+}

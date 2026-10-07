@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rTA1A0E639LcCNg++lxXUIaC6ic</id>
+  <title>arXiv Query: search_query=&amp;id_list=2604.16585,2602.22010,2602.09849,2602.17259,2601.06212,2605.21427,2507.21276,2507.06608,2509.21081,2604.07173,2509.06261,2508.03148,2502.00937,2604.04750,2507.11507,2603.15553,2604.13518,2603.13660,2603.26597,2501.04969&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:12:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2604.16585,2602.22010,2602.09849,2602.17259,2601.06212,2605.21427,2507.21276,2507.06608,2509.21081,2604.07173,2509.06261,2508.03148,2502.00937,2604.04750,2507.11507,2603.15553,2604.13518,2603.13660,2603.26597,2501.04969" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.04969v2</id>
+    <title>Self-Supervised Representation Learning with Joint Embedding Predictive Architecture for Automotive LiDAR Object Detection</title>
+    <updated>2025-10-07T02:07:45Z</updated>
+    <link href="https://arxiv.org/abs/2501.04969v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.04969v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, self-supervised representation learning relying on vast amounts of unlabeled data has been explored as a pre-training method for autonomous driving. However, directly applying popular contrastive or generative methods to this problem is insufficient and may even lead to negative transfer. In this paper, we present AD-L-JEPA, a novel self-supervised pre-training framework with a joint embedding predictive architecture (JEPA) for automotive LiDAR object detection. Unlike existing methods, AD-L-JEPA is neither generative nor contrastive. Instead of explicitly generating masked regions, our method predicts Bird's-Eye-View embeddings to capture the diverse nature of driving scenes. Furthermore, our approach eliminates the need to manually form contrastive pairs by employing explicit variance regularization to avoid representation collapse. Experimental results demonstrate consistent improvements on the LiDAR 3D object detection downstream task across the KITTI3D, Waymo, and ONCE datasets, while reducing GPU hours by 1.9x-2.7x and GPU memory by 2.8x-4x compared with the state-of-the-art method Occupancy-MAE. Notably, on the largest ONCE dataset, pre-training on 100K frames yields a 1.61 mAP gain, better than all other methods pre-trained on either 100K or 500K frames, and pre-training on 500K frames yields a 2.98 mAP gain, better than all other methods pre-trained on either 500K or 1M frames. AD-L-JEPA constitutes the first JEPA-based pre-training method for autonomous driving. It offers better quality, faster, and more GPU-memory-efficient self-supervised representation learning. The source code of AD-L-JEPA is ready to be released.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-09T04:47:51Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Haoran Zhu</name>
+    </author>
+    <author>
+      <name>Zhenyuan Dong</name>
+    </author>
+    <author>
+      <name>Kristi Topollai</name>
+    </author>
+    <author>
+      <name>Beiyao Sha</name>
+    </author>
+    <author>
+      <name>Anna Choromanska</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.21276v1</id>
+    <title>LeMix: Unified Scheduling for LLM Training and Inference on Multi-GPU Systems</title>
+    <updated>2025-07-28T19:03:26Z</updated>
+    <link href="https://arxiv.org/abs/2507.21276v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.21276v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern deployment of large language models (LLMs) frequently involves both inference serving and continuous retraining to stay aligned with evolving data and user feedback. Common practices separate these workloads onto distinct servers in isolated phases, causing substantial inefficiencies (e.g., GPU idleness) and delayed adaptation to new data in distributed settings. Our empirical analysis reveals that these inefficiencies stem from dynamic request arrivals during serving and workload heterogeneity in pipeline-parallel training. To address these challenges, we propose LeMix, a system for co-locating and managing concurrent LLM serving and training workloads. LeMix integrates offline profiling, execution prediction mechanisms, and runtime scheduling to dynamically adapt resource allocation based on workload characteristics and system conditions. By understanding task-specific behaviors and co-execution interference across shared nodes, LeMix improves utilization and serving quality without compromising serving responsiveness. Our evaluation shows that LeMix improves throughput by up to 3.53x, reduces inference loss by up to 0.61x, and delivers up to 2.12x higher response time SLO attainment over traditional separate setups. To our knowledge, this is the first work to uncover and exploit the opportunities of joint LLM inference and training, paving the way for more resource-efficient deployment of LLMs in production environments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-28T19:03:26Z</published>
+    <arxiv:comment>Accepted by RTSS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yufei Li</name>
+    </author>
+    <author>
+      <name>Zexin Li</name>
+    </author>
+    <author>
+      <name>Yinglun Zhu</name>
+    </author>
+    <author>
+      <name>Cong Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.11507v2</id>
+    <title>Oneiros: KV Cache Optimization through Parameter Remapping for Multi-tenant LLM Serving</title>
+    <updated>2025-10-29T21:56:19Z</updated>
+    <link href="https://arxiv.org/abs/2507.11507v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.11507v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>KV cache accelerates LLM inference by avoiding redundant computation, at the expense of memory. To support larger KV caches, prior work extends GPU memory with CPU memory via CPU-offloading. This involves swapping KV cache between GPU and CPU memory. However, because the cache updates dynamically, such swapping incurs high CPU memory traffic. We make a key observation that model parameters remain constant during runtime, unlike the dynamically updated KV cache. Building on this, we introduce Oneiros, which avoids KV cache swapping by remapping, and thereby repurposing, the memory allocated to model parameters for KV cache. This parameter remapping is especially beneficial in multi-tenant environments, where the memory used for the parameters of the inactive models can be more aggressively reclaimed. Exploiting the high CPU-GPU bandwidth offered by the modern hardware, such as the NVIDIA Grace Hopper Superchip, we show that Oneiros significantly outperforms state-of-the-art solutions, achieving a reduction of 44.8%-82.5% in tail time-between-token latency, 20.7%-99.3% in tail time-to-first-token latency, and 6.6%-86.7% higher throughput compared to vLLM. Source code of Oneiros is available at https://github.com/UT-SysML/Oneiros/.</summary>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-15T17:23:22Z</published>
+    <arxiv:primary_category term="cs.OS"/>
+    <author>
+      <name>Ruihao Li</name>
+    </author>
+    <author>
+      <name>Shagnik Pal</name>
+    </author>
+    <author>
+      <name>Vineeth Narayan Pullu</name>
+    </author>
+    <author>
+      <name>Prasoon Sinha</name>
+    </author>
+    <author>
+      <name>Jeeho Ryoo</name>
+    </author>
+    <author>
+      <name>Lizy K. John</name>
+    </author>
+    <author>
+      <name>Neeraja J. Yadwadkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.26597v1</id>
+    <title>From Static to Dynamic: Exploring Self-supervised Image-to-Video Representation Transfer Learning</title>
+    <updated>2026-03-27T16:56:50Z</updated>
+    <link href="https://arxiv.org/abs/2603.26597v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.26597v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies have made notable progress in video representation learning by transferring image-pretrained models to video tasks, typically with complex temporal modules and video fine-tuning. However, fine-tuning heavy modules may compromise inter-video semantic separability, i.e., the essential ability to distinguish objects across videos. While reducing the tunable parameters hinders their intra-video temporal consistency, which is required for stable representations of the same object within a video. This dilemma indicates a potential trade-off between the intra-video temporal consistency and inter-video semantic separability during image-to-video transfer. To this end, we propose the Consistency-Separability Trade-off Transfer Learning (Co-Settle) framework, which applies a lightweight projection layer on top of the frozen image-pretrained encoder to adjust representation space with a temporal cycle consistency objective and a semantic separability constraint. We further provide a theoretical support showing that the optimized projection yields a better trade-off between the two properties under appropriate conditions. Experiments on eight image-pretrained models demonstrate consistent improvements across multiple levels of video tasks with only five epochs of self-supervised training. The code is available at https://github.com/yafeng19/Co-Settle.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-27T16:56:50Z</published>
+    <arxiv:comment>Accepted at CVPR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Qianqian Xu</name>
+    </author>
+    <author>
+      <name>Peisong Wen</name>
+    </author>
+    <author>
+      <name>Siran Dai</name>
+    </author>
+    <author>
+      <name>Xilin Zhao</name>
+    </author>
+    <author>
+      <name>Qingming Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.22010v1</id>
+    <title>World Guidance: World Modeling in Condition Space for Action Generation</title>
+    <updated>2026-02-25T15:27:09Z</updated>
+    <link href="https://arxiv.org/abs/2602.22010v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.22010v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Leveraging future observation modeling to facilitate action generation presents a promising avenue for enhancing the capabilities of Vision-Language-Action (VLA) models. However, existing approaches struggle to strike a balance between maintaining efficient, predictable future representations and preserving sufficient fine-grained information to guide precise action generation. To address this limitation, we propose WoG (World Guidance), a framework that maps future observations into compact conditions by injecting them into the action inference pipeline. The VLA is then trained to simultaneously predict these compressed conditions alongside future actions, thereby achieving effective world modeling within the condition space for action inference. We demonstrate that modeling and predicting this condition space not only facilitates fine-grained action generation but also exhibits superior generalization capabilities. Moreover, it learns effectively from substantial human manipulation videos. Extensive experiments across both simulation and real-world environments validate that our method significantly outperforms existing methods based on future prediction. Project page is available at: https://selen-suyue.github.io/WoGNet/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-25T15:27:09Z</published>
+    <arxiv:comment>Project Page: https://selen-suyue.github.io/WoGNet/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yue Su</name>
+    </author>
+    <author>
+      <name>Sijin Chen</name>
+    </author>
+    <author>
+      <name>Haixin Shi</name>
+    </author>
+    <author>
+      <name>Mingyu Liu</name>
+    </author>
+    <author>
+      <name>Zhengshen Zhang</name>
+    </author>
+    <author>
+      <name>Ningyuan Huang</name>
+    </author>
+    <author>
+      <name>Weiheng Zhong</name>
+    </author>
+    <author>
+      <name>Zhengbang Zhu</name>
+    </author>
+    <author>
+      <name>Yuxiao Liu</name>
+    </author>
+    <author>
+      <name>Xihui Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.06608v5</id>
+    <title>Nexus:Proactive Intra-GPU Disaggregation of Prefill and Decode in LLM Serving</title>
+    <updated>2025-08-07T12:26:15Z</updated>
+    <link href="https://arxiv.org/abs/2507.06608v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.06608v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Monolithic serving with chunked prefill improves GPU utilization by batching prefill and decode together, but suffers from fine-grained phase interference. Engine-level prefill-decode (PD) disaggregation avoids interference but incurs higher hardware and coordination overhead. Prior intra-GPU disaggregation approaches multiplex prefill and decode within a single GPU, using SLO-based tuning guided by heuristics from offline profiling or reactive feedback loops. However, these methods respond reactively to performance issues rather than anticipating them, limiting adaptability under dynamic workloads.
+  We ask: can we achieve proactive intra-GPU disaggregation that adapts effectively to dynamic workloads? The key challenge lies in managing the conflicting resource demands of prefill and decode under varying conditions. We first show that GPU resources exhibit diminishing returns -- beyond a saturation point, more allocation yields minimal latency benefit. Second, we observe that memory bandwidth contention becomes a critical bottleneck. These insights motivate a design that dynamically partitions GPU resources across prefill and decode phases, while jointly considering compute capacity, memory footprint, and bandwidth contention.
+  Evaluated on diverse LLMs and workloads, our system Nexus achieves up to 2.2x higher throughput, 20x lower TTFT, and 2.5x lower TBT than vLLM; outperforms SGLang by up to 2x; and matches or exceeds disaggregated vLLM.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-09T07:27:18Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Xiaoxiang Shi</name>
+    </author>
+    <author>
+      <name>Colin Cai</name>
+    </author>
+    <author>
+      <name>Junjia Du</name>
+    </author>
+    <author>
+      <name>Zhihao Jia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.06261v2</id>
+    <title>FineServe: Precision-Aware KV Slab and Two-Level Scheduling for Heterogeneous Precision LLM Serving</title>
+    <updated>2025-09-15T00:51:47Z</updated>
+    <link href="https://arxiv.org/abs/2509.06261v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.06261v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in Post-Training Quantization (PTQ) techniques have significantly increased demand for serving quantized large language models (LLMs), enabling higher throughput and substantially reduced memory usage with minimal accuracy loss. Quantized models address memory constraints in LLMs and enhance GPU resource utilization through efficient GPU sharing. However, quantized models have smaller KV block sizes than non-quantized models, causing limited memory efficiency due to memory fragmentation. Also, distinct resource usage patterns between quantized and non-quantized models require efficient scheduling to maximize throughput. To address these challenges, we propose FineServe, an inference serving framework for mixed-precision LLMs. FineServe's key contributions include: (1) KV Slab, a precision-aware adaptive memory management technique dynamically allocating KV cache based on model quantization characteristics, significantly reducing GPU memory fragmentation, and (2) a two-level scheduling framework comprising a global scheduler that places models to GPUs based on request rates, latency SLOs, and memory constraints and efficiency, and a local scheduler that adaptively adjusts batch sizes according to real-time request fluctuations. Experimental results demonstrate that FineServe achieves up to 2.2x higher SLO attainment and 1.8x higher token generation throughput compared to the state-of-the-art GPU sharing systems.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-08T00:57:50Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Kyungmin Bin</name>
+    </author>
+    <author>
+      <name>Seungbeom Choi</name>
+    </author>
+    <author>
+      <name>Jimyoung Son</name>
+    </author>
+    <author>
+      <name>Jieun Choi</name>
+    </author>
+    <author>
+      <name>Daseul Bae</name>
+    </author>
+    <author>
+      <name>Daehyeon Baek</name>
+    </author>
+    <author>
+      <name>Kihyo Moon</name>
+    </author>
+    <author>
+      <name>Minsung Jang</name>
+    </author>
+    <author>
+      <name>Hyojung Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.17259v1</id>
+    <title>FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment</title>
+    <updated>2026-02-19T11:00:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.17259v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.17259v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Enabling VLA models to predict environmental dynamics, known as world modeling, has been recognized as essential for improving robotic reasoning and generalization. However, current approaches face two main issues: 1. The training objective forces models to over-emphasize pixel-level reconstruction, which constrains semantic learning and generalization 2. Reliance on predicted future observations during inference often leads to error accumulation. To address these challenges, we introduce Future Representation Alignment via Parallel Progressive Expansion (FRAPPE). Our method adopts a two-stage fine-tuning strategy: In the mid-training phase, the model learns to predict the latent representations of future observations; In the post-training phase, we expand the computational workload in parallel and align the representation simultaneously with multiple different visual foundation models. By significantly improving fine-tuning efficiency and reducing dependence on action-annotated data, FRAPPE provides a scalable and data-efficient pathway to enhance world-awareness in generalist robotic policies. Experiments on the RoboTwin benchmark and real-world tasks demonstrate that FRAPPE outperforms state-of-the-art approaches and shows strong generalization in long-horizon and unseen scenarios.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-19T11:00:46Z</published>
+    <arxiv:comment>Project Website: https://h-zhao1997.github.io/frappe</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Han Zhao</name>
+    </author>
+    <author>
+      <name>Jingbo Wang</name>
+    </author>
+    <author>
+      <name>Wenxuan Song</name>
+    </author>
+    <author>
+      <name>Shuai Chen</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Yan Wang</name>
+    </author>
+    <author>
+      <name>Haoang Li</name>
+    </author>
+    <author>
+      <name>Donglin Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06212v2</id>
+    <title>Akasha 2: Hamiltonian State Space Duality and Visual-Language Joint Embedding Predictive Architectur</title>
+    <updated>2026-06-13T06:59:14Z</updated>
+    <link href="https://arxiv.org/abs/2601.06212v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06212v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Akasha 2, a state-of-the-art multimodal architecture that integrates Hamiltonian State Space Duality (H-SSD) with Visual-Language Joint Embedding Predictive Architecture (VL-JEPA). The system leverages the Mamba-3 Selective State Space Model (SSM) augmented by a Sparse Mixture of Hamiltonian Experts (SMoE-HE) that enforces latent physical conservation laws through symplectic integration. For visual synthesis, we introduce Hamiltonian Flow Matching (HFM) and persistent 3D Gaussian Splatting (3DGS), enabling ultra-low latency (&lt;50ms) on mobile hardware. This work establishes a new paradigm in latent world models, achieving unprecedented spatiotemporal coherence through a holographic memory architecture. Our approach demonstrates that incorporating physics-inspired inductive biases into neural architectures yields significant improvements: state-of-the-art video prediction (FVD: 287), 4x faster visual synthesis than diffusion models, and 3-18x inference speedup over transformer baselines while maintaining energy conservation over extended horizons.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-08T18:40:31Z</published>
+    <arxiv:comment>No supporting claims were validated in this automated agentic R&amp;D research run</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yani Meziani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.00937v3</id>
+    <title>ModServe: Modality- and Stage-Aware Resource Disaggregation for Scalable Multimodal Model Serving</title>
+    <updated>2025-10-22T16:21:57Z</updated>
+    <link href="https://arxiv.org/abs/2502.00937v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.00937v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large multimodal models (LMMs) demonstrate impressive capabilities in understanding images, videos, and audio beyond text. However, efficiently serving LMMs in production environments poses significant challenges due to their complex architectures and heterogeneous characteristics across their multi-stage inference pipelines. We present the first comprehensive systems analysis of two prominent LMM architectures, decoder-only and cross-attention, across six representative open-source models, revealing key systems design implications. We also present an in-depth analysis of production LMM inference traces, uncovering unique workload characteristics, including variable, heavy-tailed request distributions and bursty traffic patterns. Based on these insights, we propose ModServe, a modular LMM serving system that decouples stages for independent optimization and adaptive scaling. ModServe dynamically reconfigures stages and handles bursty traffic with modality-aware scheduling and autoscaling to meet tail latency SLOs while minimizing costs. ModServe achieves 3.3-5.5x higher throughput (leading to 25-41.3% cost saving) while meeting SLOs on a 128-GPU cluster with production traces.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-02T22:10:40Z</published>
+    <arxiv:comment>Published at ACM SoCC 2025; 14 pages, 20 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Haoran Qiu</name>
+    </author>
+    <author>
+      <name>Anish Biswas</name>
+    </author>
+    <author>
+      <name>Zihan Zhao</name>
+    </author>
+    <author>
+      <name>Jayashree Mohan</name>
+    </author>
+    <author>
+      <name>Alind Khare</name>
+    </author>
+    <author>
+      <name>Esha Choukse</name>
+    </author>
+    <author>
+      <name>Íñigo Goiri</name>
+    </author>
+    <author>
+      <name>Zeyu Zhang</name>
+    </author>
+    <author>
+      <name>Haiying Shen</name>
+    </author>
+    <author>
+      <name>Chetan Bansal</name>
+    </author>
+    <author>
+      <name>Ramachandran Ramjee</name>
+    </author>
+    <author>
+      <name>Rodrigo Fonseca</name>
+    </author>
+  </entry>
+</feed>

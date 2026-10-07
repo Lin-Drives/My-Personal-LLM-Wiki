@@ -1,0 +1,901 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iTrewxe0vs4Xux6j/+SJap5MvZs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2607.21046v1,2608.08491v1,2606.24851,2602.16634,2608.03495,2405.19101,2608.09298,2608.12939,2606.03159,2605.19242,2605.12334,2606.01600,2509.07996v4,2608.08237,2608.07889,2608.06004,2608.06009,2601.11404,2607.11689,2607.13017&amp;start=0&amp;max_results=20</title>
+  <updated>2026-10-07T00:14:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=20&amp;id_list=2607.21046v1,2608.08491v1,2606.24851,2602.16634,2608.03495,2405.19101,2608.09298,2608.12939,2606.03159,2605.19242,2605.12334,2606.01600,2509.07996v4,2608.08237,2608.07889,2608.06004,2608.06009,2601.11404,2607.11689,2607.13017" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.21046v1</id>
+    <title>Discrete Truthful Heterogeneous Two-Facility Location: The Line and Beyond</title>
+    <updated>2026-07-23T08:29:21Z</updated>
+    <link href="https://arxiv.org/abs/2607.21046v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.21046v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study deterministic strategyproof mechanisms for discrete heterogeneous two-facility location. In our model, $n$ agents occupy distinct nodes of a connected graph and privately report non-empty approval preferences over two facilities, which must be placed at distinct nodes. The cost of an agent is her total distance from the facilities she approves, and the objective is to minimize the social cost (the total cost of the agents). For the line graph, the best possible approximation ratio of deterministic strategyproof mechanisms was previously shown to lie between $4/3$ and $17/4$. We close this gap by designing an optimal $4/3$-approximate mechanism that combines a fixed-parity median rule, which suffices for instances with $n\ge7$, and strategyproof local overrides for the remaining smaller cases. Beyond the line, we design a deterministic strategyproof $2$-approximate mechanism for every connected graph and prove a lower bound of $3/2$ on the graph $K_{1,3}$.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-23T08:29:21Z</published>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Panagiotis Kanellopoulos</name>
+    </author>
+    <author>
+      <name>Alexandros A. Voudouris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.07889v1</id>
+    <title>From Annual Throughput to Vessel Schedules: A Stochastic Generator for Transshipment Hub Simulation</title>
+    <updated>2026-08-08T03:36:22Z</updated>
+    <link href="https://arxiv.org/abs/2608.07889v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.07889v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Simulating container transshipment hubs requires vessel arrivals reflecting cyclical liner schedules and origin-destination (OD) cargo pairing. Existing models relying on Poisson arrivals and aggregate transshipment volumes severely distort waiting-time and yard-occupancy predictions. We propose a three-phase schedule generator, calibrated entirely from public port statistics, eliminating the need for proprietary data. The framework introduces a two-level Gamma mathematical model that balances structured weekly services with operational perturbations. For cargo routing, we develop GreedyDwellFit (GDF), a fast allocation heuristic to pair transshipment batches to specific connecting services using a gravity model. Validated against Busan and Singapore mega-hubs, the model reproduces throughput and call frequencies with under 1\% error. Our results show that replacing Poisson models with this Gamma-GDF framework eliminates significant distortions in terminal performance projections, offering a robust, generalisable foundation for port simulation.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-08T03:36:22Z</published>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Qiaohong Li</name>
+    </author>
+    <author>
+      <name>Haobin Li</name>
+    </author>
+    <author>
+      <name>Tianhao Chen</name>
+    </author>
+    <author>
+      <name>Ek Peng Chew</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.19242v1</id>
+    <title>PhyWorld: Physics-Faithful World Model for Video Generation</title>
+    <updated>2026-05-19T01:28:52Z</updated>
+    <link href="https://arxiv.org/abs/2605.19242v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.19242v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World simulators can provide safe and scalable environments for training Physical AI systems before real-world deployment. Large video generation models are emerging as a promising basis for such simulators because they can generate diverse and realistic visual futures. However, using them as world simulators requires physically faithful video continuations, namely, generated videos that preserve the physical state implied by the conditioning input, and evolve in ways consistent with basic physical principles. We propose PhyWorld, a video generation world model designed to produce temporally coherent and physically faithful scene continuations through two-stage post-training. In the first stage, we improve video-to-video continuation with flow matching fine-tuning, encouraging stable visual attributes and coherent motion dynamics across frames. In the second stage, we align generated dynamics with physical principles using Direct Preference Optimization (DPO) over physics preference pairs, guiding the model toward outputs with higher physical plausibility. To evaluate PhyWorld, we use both standard video-quality benchmarks and a dedicated physical-faithfulness benchmark with per-law scoring. Experiments show that PhyWorld improves video consistency, achieving an average score of 0.769 on VBench compared with 0.756 or below for state-of-the-art baselines. PhyWorld also improves physical plausibility, reaching an average score of 3.09 on our physical-faithfulness benchmark compared with 2.99 for the strongest baseline. These results suggest that post-training large video generation models with continuation and physics-preference signals can make them more effective world simulators for Physical AI.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-19T01:28:52Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Pu Zhao</name>
+    </author>
+    <author>
+      <name>Juyi Lin</name>
+    </author>
+    <author>
+      <name>Timothy Rupprecht</name>
+    </author>
+    <author>
+      <name>Arash Akbari</name>
+    </author>
+    <author>
+      <name>Chence Yang</name>
+    </author>
+    <author>
+      <name>Rahul Chowdhury</name>
+    </author>
+    <author>
+      <name>Elaheh Motamedi</name>
+    </author>
+    <author>
+      <name>Arman Akbari</name>
+    </author>
+    <author>
+      <name>Yumei He</name>
+    </author>
+    <author>
+      <name>Chen Wang</name>
+    </author>
+    <author>
+      <name>Geng Yuan</name>
+    </author>
+    <author>
+      <name>Weiwei Chen</name>
+    </author>
+    <author>
+      <name>Yanzhi Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.03159v3</id>
+    <title>NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation</title>
+    <updated>2026-09-23T19:11:35Z</updated>
+    <link href="https://arxiv.org/abs/2606.03159v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.03159v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As autonomous vehicle capabilities advance, the safe evaluation of driving policies in long-tail scenarios remains a critical bottleneck. In closed-loop simulation, the driving policy model actively interacts with the environment, where its actions dynamically update the simulator state and directly influence the next set of generated sensor observations. While recent reconstruction-based neural simulators offer photorealism, they are fundamentally constrained by their initial captured data and struggle to generalize to highly dynamic or novel scenes. To overcome these limitations, we introduce OmniDreams, a foundation generative world model mid- and post-trained from the Cosmos diffusion model to autoregressively generate action-conditioned videos in real time. By leveraging the rich visual priors of Cosmos and mid- and post-training on 21k hours of driving scenarios, OmniDreams synthesizes complex, unobserved phenomena that are hard for traditional simulators to capture, such as extreme weather and unpredictable dynamic agent behaviors. Crucially, it autoregressively conditions its photorealistic sensor generation on past frames, the current simulator state, and immediate driving actions. Deployed in a closed-loop system with the Alpamayo 1 policy model and AlpaSim orchestrator, OmniDreams acts as a highly responsive, reactive environment, providing a scalable and comprehensive solution for training and evaluating next-generation autonomous driving policies. We additionally show preliminary results indicating that a world-action model (WAM) post-trained from OmniDreams achieves strong performance on the Physical AI Autonomous Vehicles NuRec dataset, surpassing the VLA-based Alpamayo 1.5 research policy model while using only 1/5 the total parameters. These results highlight the potential for a real-time world model like OmniDreams to also serve as a backbone for policy architectures.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-02T05:11:05Z</published>
+    <arxiv:comment>Research blog: https://research.nvidia.com/labs/sil/projects/omnidreams-blog/, GitHub: https://github.com/nv-tlabs/omni-dreams, Model weights: https://huggingface.co/nvidia/omni-dreams-models</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Aarti Basant</name>
+    </author>
+    <author>
+      <name>Amlan Kar</name>
+    </author>
+    <author>
+      <name>Despoina Paschalidou</name>
+    </author>
+    <author>
+      <name>Fangyin Wei</name>
+    </author>
+    <author>
+      <name>Francesco Ferroni</name>
+    </author>
+    <author>
+      <name>Guillermo Garcia Cobo</name>
+    </author>
+    <author>
+      <name>Haithem Turki</name>
+    </author>
+    <author>
+      <name>Huan Ling</name>
+    </author>
+    <author>
+      <name>Jaewoo Seo</name>
+    </author>
+    <author>
+      <name>James Lucas</name>
+    </author>
+    <author>
+      <name>Jay Zhangjie Wu</name>
+    </author>
+    <author>
+      <name>Jialiang Wang</name>
+    </author>
+    <author>
+      <name>Jonathan Lorraine</name>
+    </author>
+    <author>
+      <name>Jun Gao</name>
+    </author>
+    <author>
+      <name>Kai He</name>
+    </author>
+    <author>
+      <name>Katarina Tothova</name>
+    </author>
+    <author>
+      <name>Kevin Xie</name>
+    </author>
+    <author>
+      <name>Michal Tyszkiewicz</name>
+    </author>
+    <author>
+      <name>Qi Wu</name>
+    </author>
+    <author>
+      <name>Riccardo de Lutio</name>
+    </author>
+    <author>
+      <name>Ruilong Li</name>
+    </author>
+    <author>
+      <name>Sanja Fidler</name>
+    </author>
+    <author>
+      <name>Seung Wook Kim</name>
+    </author>
+    <author>
+      <name>Tianchang Shen</name>
+    </author>
+    <author>
+      <name>Tianshi Cao</name>
+    </author>
+    <author>
+      <name>Tobias Pfaff</name>
+    </author>
+    <author>
+      <name>William Lew</name>
+    </author>
+    <author>
+      <name>Xindi Wu</name>
+    </author>
+    <author>
+      <name>Xuanchi Ren</name>
+    </author>
+    <author>
+      <name>Yifan Lu</name>
+    </author>
+    <author>
+      <name>Yuxuan Zhang</name>
+    </author>
+    <author>
+      <name>Zan Gojcic</name>
+    </author>
+    <author>
+      <name>Zian Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.19101v2</id>
+    <title>Poseidon: Efficient Foundation Models for PDEs</title>
+    <updated>2024-11-05T16:32:43Z</updated>
+    <link href="https://arxiv.org/abs/2405.19101v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.19101v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Poseidon, a foundation model for learning the solution operators of PDEs. It is based on a multiscale operator transformer, with time-conditioned layer norms that enable continuous-in-time evaluations. A novel training strategy leveraging the semi-group property of time-dependent PDEs to allow for significant scaling-up of the training data is also proposed. Poseidon is pretrained on a diverse, large scale dataset for the governing equations of fluid dynamics. It is then evaluated on a suite of 15 challenging downstream tasks that include a wide variety of PDE types and operators. We show that Poseidon exhibits excellent performance across the board by outperforming baselines significantly, both in terms of sample efficiency and accuracy. Poseidon also generalizes very well to new physics that is not seen during pretraining. Moreover, Poseidon scales with respect to model and data size, both for pretraining and for downstream tasks. Taken together, our results showcase the surprising ability of Poseidon to learn effective representations from a very small set of PDEs during pretraining in order to generalize well to unseen and unrelated PDEs downstream, demonstrating its potential as an effective, general purpose PDE foundation model. Finally, the Poseidon model as well as underlying pretraining and downstream datasets are open sourced, with code being available at https://github.com/camlab-ethz/poseidon and pretrained models and datasets at https://huggingface.co/camlab-ethz.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-29T14:06:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maximilian Herde</name>
+    </author>
+    <author>
+      <name>Bogdan Raonić</name>
+    </author>
+    <author>
+      <name>Tobias Rohner</name>
+    </author>
+    <author>
+      <name>Roger Käppeli</name>
+    </author>
+    <author>
+      <name>Roberto Molinaro</name>
+    </author>
+    <author>
+      <name>Emmanuel de Bézenac</name>
+    </author>
+    <author>
+      <name>Siddhartha Mishra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.12334v2</id>
+    <title>Reinforcing VLAs in Task-Agnostic World Models</title>
+    <updated>2026-05-20T07:28:11Z</updated>
+    <link href="https://arxiv.org/abs/2605.12334v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.12334v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Post-training Vision-Language-Action (VLA) models via reinforcement learning (RL) in learned world models has emerged as an effective strategy to adapt to new tasks without costly real-world interactions. However, while using imagined trajectories reduces the sample complexity of policy training, existing methods still heavily rely on task-specific data to fine-tune both the world and reward models, fundamentally limiting their scalability to unseen tasks. To overcome this, we argue that world and reward models should capture transferable physical priors that enable zero-shot inference. We propose RAW-Dream (Reinforcing VLAs in task-Agnostic World Dreams), a new paradigm that completely disentangles world model learning from downstream task dependencies. RAW-Dream utilizes a world model pre-trained on diverse task-free behaviors for predicting future rollouts, and an off-the-shelf Vision-Language Model (VLM) for reward generation. Because both components are task-agnostic, VLAs can be readily finetuned for any new task entirely within this zero-shot imagination. Furthermore, to mitigate world model hallucinations, we introduce a dual-noise verification mechanism to filter out unreliable rollouts. Extensive experiments across simulation and real-world settings demonstrate consistent performance gains, proving that generalized physical priors can effectively substitute for costly task-dependent data, offering a highly scalable roadmap for VLA adaptation.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T16:16:15Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yucen Wang</name>
+    </author>
+    <author>
+      <name>Rui Yu</name>
+    </author>
+    <author>
+      <name>Fengming Zhang</name>
+    </author>
+    <author>
+      <name>Junjie Lu</name>
+    </author>
+    <author>
+      <name>Xinyao Qin</name>
+    </author>
+    <author>
+      <name>Tianxiang Zhang</name>
+    </author>
+    <author>
+      <name>Kaixin Wang</name>
+    </author>
+    <author>
+      <name>Li Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.07996v4</id>
+    <title>3D and 4D World Modeling: A Survey</title>
+    <updated>2026-07-20T17:34:32Z</updated>
+    <link href="https://arxiv.org/abs/2509.07996v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.07996v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World modeling has become a cornerstone in AI research, enabling agents to understand, represent, and predict the dynamic environments they inhabit. While prior work largely emphasizes generative methods for 2D image and video data, they overlook the rapidly growing body of work that leverages native 3D and 4D representations such as RGB-D imagery, occupancy grids, and LiDAR point clouds for large-scale scene modeling. At the same time, the absence of a standardized definition and taxonomy for "world models" has led to fragmented and sometimes inconsistent claims in the literature. This survey addresses these gaps by presenting the first comprehensive review explicitly dedicated to 3D and 4D world modeling and generation. We establish precise definitions, introduce a structured taxonomy spanning video-based (VideoGen), occupancy-based (OccGen), and LiDAR-based (LiDARGen) approaches, and systematically summarize datasets and evaluation metrics tailored to 3D/4D settings. We further discuss practical applications, identify open challenges, and highlight promising research directions, aiming to provide a coherent and foundational reference for advancing the field. A systematic summary of existing literature is available at https://github.com/worldbench/awesome-3d-4d-world-models</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-04T17:59:58Z</published>
+    <arxiv:comment>Survey; Project Page at https://worldbench.github.io/survey GitHub Repo at https://github.com/worldbench/awesome-3d-4d-world-models</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Lingdong Kong</name>
+    </author>
+    <author>
+      <name>Yu Yang</name>
+    </author>
+    <author>
+      <name>Jianbiao Mei</name>
+    </author>
+    <author>
+      <name>Youquan Liu</name>
+    </author>
+    <author>
+      <name>Ao Liang</name>
+    </author>
+    <author>
+      <name>Dekai Zhu</name>
+    </author>
+    <author>
+      <name>Dongyue Lu</name>
+    </author>
+    <author>
+      <name>Wei Yin</name>
+    </author>
+    <author>
+      <name>Xiaotao Hu</name>
+    </author>
+    <author>
+      <name>Mingkai Jia</name>
+    </author>
+    <author>
+      <name>Junyuan Deng</name>
+    </author>
+    <author>
+      <name>Kaiwen Zhang</name>
+    </author>
+    <author>
+      <name>Yang Wu</name>
+    </author>
+    <author>
+      <name>Tianyi Yan</name>
+    </author>
+    <author>
+      <name>Shenyuan Gao</name>
+    </author>
+    <author>
+      <name>Song Wang</name>
+    </author>
+    <author>
+      <name>Linfeng Li</name>
+    </author>
+    <author>
+      <name>Liang Pan</name>
+    </author>
+    <author>
+      <name>Yong Liu</name>
+    </author>
+    <author>
+      <name>Jianke Zhu</name>
+    </author>
+    <author>
+      <name>Wei Tsang Ooi</name>
+    </author>
+    <author>
+      <name>Steven C. H. Hoi</name>
+    </author>
+    <author>
+      <name>Ziwei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.06004v1</id>
+    <title>Do Tabular Foundation Models Agree with Themselves?</title>
+    <updated>2026-08-06T13:09:54Z</updated>
+    <link href="https://arxiv.org/abs/2608.06004v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.06004v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tabular Foundation Models (TFMs) are currently the best approach to tabular prediction problems. They are constructed as transformers that approximate the Bayesian posterior predictive distribution based on a pre-training prior. These univariate predictors can be converted into multivariate ones autoregressively by sampling one target and adding it to the features.
+  However, the faithfulness of the resulting joint has not been investigated. Furthermore, TFMs cannot be evaluated against the posterior itself, at least not on real-world datasets, because the ground-truth distribution is unknown. We therefore propose asking a different question: could a model's predictions result from any joint distribution? To answer this question, we pose two requirements that any such model must satisfy. The first is marginalization consistency, which demands that marginalized conditionals are equal to directly predicted marginals. The second is factorization consistency, which demands that different factorization orders result in equal joint distributions. Every TFM that we evaluate violates both of these requirements for both classification and regression across all datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-06T13:09:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Christian Klötergens</name>
+    </author>
+    <author>
+      <name>Vijaya Krishna Yalavarthi</name>
+    </author>
+    <author>
+      <name>Lars Schmidt-Thieme</name>
+    </author>
+    <author>
+      <name>Tom Hanika</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.03495v1</id>
+    <title>Thermodynamically consistent initialization of the Maxwell--Cattaneo---Vernotte heat conduction model: Analytical solutions and engineering applications</title>
+    <updated>2026-08-04T11:34:01Z</updated>
+    <link href="https://arxiv.org/abs/2608.03495v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.03495v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the numerical initialization of the one-dimensional Maxwell--Cattaneo--Vernotte (MCV) heat conduction model, addressing the critical mathematical challenge of defining the initial time derivative for non-equilibrium states. In modern high-frequency thermal engineering applications, traditional time-integration schemes and commercial finite-element solvers frequently introduce severe numerical artifacts when handling non-Fourier models. This study systematically evaluates three initialization strategies: a zero derivative, a spatially uniform non-zero derivative, and an exact space-dependent derivative. Using an explicit staggered finite-difference scheme, the transient responses to an exponentially distributed initial temperature field under adiabatic boundary conditions are compared against an analytical solution using the Galerkin method. The results demonstrate that assuming a zero or spatially uniform initial derivative introduces significant unphysical oscillatory deviations, leading to heat-flux prediction errors as the relaxation time increases. Conversely, mapping the exact space-dependent derivative onto the staggered grid preserves the local thermodynamic structure of the initial state, yielding robust transient responses that match the analytical benchmark without meaningful computational overhead. These findings establish a thermodynamically consistent initialization technique that can be extended to non-local models as well.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T11:34:01Z</published>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Zalán Sándor</name>
+    </author>
+    <author>
+      <name>Róbert Kovács</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.12939v1</id>
+    <title>Diagnosing JEPA World Models with Action-Conditioned Predictive Consistency</title>
+    <updated>2026-08-13T08:18:41Z</updated>
+    <link href="https://arxiv.org/abs/2608.12939v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.12939v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Joint-embedding predictive architectures (JEPAs) learn world models that predict in a compact latent space rather than in pixels, reducing the pressure to model nuisance appearance. Yet this provides no guarantee against visual perturbations: they can still alter the encoded representation and affect subsequent action-conditioned predictions. Bisimulation captures this requirement precisely: two observations should be treated as the same state only when their action-conditioned consequences agree. Guided by this criterion, we introduce Action-Conditioned Predictive Consistency (ACPC), a diagnostic that measures how far a clean history and a visually perturbed view of it diverge after being rolled forward under the same action sequence. We prove that this divergence bounds the perturbation-induced change in multi-step prediction error and planner cost. Building on pairwise ACPC, we define two complementary measures: the Invariance Radius (IR) summarizes clean-perturbed rollout spread, while the Separation Rate (SR) checks whether different states remain distinguishable after rollout. Experiments on four visual control tasks show that pairwise ACPC predicts perturbation-induced prediction and cost changes. On LeWM, the IR-SR screen transfers across tasks, and the joint diagnostic remains informative under blur and resize. PLDM exhibits similar diagnostic trends under a different architecture.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-13T08:18:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Guo An</name>
+    </author>
+    <author>
+      <name>Zijing Wu</name>
+    </author>
+    <author>
+      <name>Honghua Dong</name>
+    </author>
+    <author>
+      <name>Yuhao Yan</name>
+    </author>
+    <author>
+      <name>Zixuan Gui</name>
+    </author>
+    <author>
+      <name>Haochong Chen</name>
+    </author>
+    <author>
+      <name>Shanzhao Ruan</name>
+    </author>
+    <author>
+      <name>Xiang Wang</name>
+    </author>
+    <author>
+      <name>Yurong Ling</name>
+    </author>
+    <author>
+      <name>Qi Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.09298v1</id>
+    <title>WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation</title>
+    <updated>2026-08-10T08:48:06Z</updated>
+    <link href="https://arxiv.org/abs/2608.09298v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.09298v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Action-conditioned world models (ACWMs) promise to provide embodied AI with scalable predictive simulators for planning, policy evaluation, and data generation. Realizing this promise requires precise action-conditioned transitions rather than merely plausible outputs. Yet their applicability remains difficult to establish because prevailing evaluations emphasize visual quality, task outcomes, or coarse rollout-level responsiveness without directly testing simulator fidelity. To address this gap, we evaluate ACWMs through the observable capabilities expected of physical simulators. Accordingly, we formalize Observable Simulator Contract, a minimal contract that any action-conditioned physical simulator should satisfy: supplied actions must induce corresponding agent motion, and environment responses must be grounded in that realized motion. To operationalize this contract, we introduce WorldSimProbe, comprising five controlled suites spanning local control sensitivity, global trajectory variation, source-diverse actions, interaction grounding, and dynamics. Suite-specific evaluators assess simulator-relative calibration, dense action-to-motion correspondence, false-interaction grounding, and primitive-level dynamics. We evaluate six open-source ACWMs on more than 18,000 instances across RoboTwin, ManiSkill, and LIBERO. World-SimProbe reveals systematic action-realization degradation across control variation, structured failures in interaction grounding and dynamics, and benchmark signals consistent with human judgments and downstream outcomes. Together, this capability-based framework provides a transparent, and standardized paradigm for diagnosing ACWM simulator fidelity beyond coarse, task-directed evaluation.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-10T08:48:06Z</published>
+    <arxiv:comment>20 pages, 18 figures, and 10 tables, including supplementary material. Code and data: https://evophys.com/WorldSimProbe/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Peterson Co</name>
+    </author>
+    <author>
+      <name>Sicheng Hu</name>
+    </author>
+    <author>
+      <name>Chunxuan Jiao</name>
+    </author>
+    <author>
+      <name>Hongyang Cheng</name>
+    </author>
+    <author>
+      <name>Yulin Luo</name>
+    </author>
+    <author>
+      <name>Yijie Xu</name>
+    </author>
+    <author>
+      <name>Sixiang Chen</name>
+    </author>
+    <author>
+      <name>Zhongxia Zhao</name>
+    </author>
+    <author>
+      <name>Zihao Wang</name>
+    </author>
+    <author>
+      <name>DaFeng Chi</name>
+    </author>
+    <author>
+      <name>Peidong Liu</name>
+    </author>
+    <author>
+      <name>YuTong Chen</name>
+    </author>
+    <author>
+      <name>Henghua Liu</name>
+    </author>
+    <author>
+      <name>Zhihao Yuan</name>
+    </author>
+    <author>
+      <name>Huizhu Jia</name>
+    </author>
+    <author>
+      <name>Yuzheng Zhuang</name>
+    </author>
+    <author>
+      <name>Tianle Zhang</name>
+    </author>
+    <author>
+      <name>Liang Lin</name>
+    </author>
+    <author>
+      <name>Huajie Tan</name>
+    </author>
+    <author>
+      <name>Shanghang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.08491v1</id>
+    <title>TrustRoboReward: Preference-Ordered Isotonic Score Editing for Multi-Paradigm Robot Reward Models</title>
+    <updated>2026-08-09T05:25:22Z</updated>
+    <link href="https://arxiv.org/abs/2608.08491v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.08491v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward models are a bottleneck for reinforcement learning in embodied AI. Long-horizon robotic manipulation requires scalable vision feedback beyond handcrafted rewards or task-specific annotations. Existing open-source VLM reward judges like RoboReward adopt simple 1--5 trajectory progress scoring, lacking pairwise preferences for RLHF, DPO and Bradley-Terry frameworks, while failing to optimize video scene understanding. Augmenting RoboReward with pairwise comparison and video-QA supervision causes inconsistency between pairwise preferences and pointwise scores, introducing training noise and hurting downstream performance---an issue aggregation methods such as TrustJudge cannot resolve. To address this, we propose TrustRoboReward, a multi-paradigm reward modeling framework equipped with Preference-Ordered Isotonic Score Editing (POISE). We construct a unified four-paradigm dataset with trajectory progress scoring (Score-A), video-QA answer quality scoring (Score-B), and their pairwise counterparts (Pair-A, Pair-B). Pairwise labels align better with human judgment than pointwise scores, inspiring us to calibrate pointwise scores to avoid score-pair reversals against pairwise preferences. POISE rectifies pointwise scores and eliminates cross-paradigm reversal conflicts unresolved by TrustJudge. Theoretically, POISE reduces score-pair reversal conflicts from 20.15% to 0%, whereas TrustJudge retains 20.46% conflicts on the same corpus. Evaluated on our benchmark, Qwen3-VL-4B trained with POISE achieves an overall reward score of 77.96%, nearly matching GPT-5-mini (78.09%, gap 0.13%) and outperforming the strongest RoboReward-4B baseline by 10.13%. It also lifts test-time score-pair consistency to 71.90%, exceeding RoboReward-4B (57.26%) and GPT-5-mini (68.09%). Integrating TrustJudge aggregation during inference boosts the overall score to 78.57%, surpassing the GPT-5-mini teacher model.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-09T05:25:22Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yidong Wang</name>
+    </author>
+    <author>
+      <name>Yan Zhan</name>
+    </author>
+    <author>
+      <name>Ziteng Feng</name>
+    </author>
+    <author>
+      <name>Zhenyu Cui</name>
+    </author>
+    <author>
+      <name>Ziyi Zhou</name>
+    </author>
+    <author>
+      <name>Renzhao Liang</name>
+    </author>
+    <author>
+      <name>Jiaxuan Zhu</name>
+    </author>
+    <author>
+      <name>Zilei Yang</name>
+    </author>
+    <author>
+      <name>Yiran Zhao</name>
+    </author>
+    <author>
+      <name>Zhongkuan Mao</name>
+    </author>
+    <author>
+      <name>Bo Jia</name>
+    </author>
+    <author>
+      <name>Hanchu Ni</name>
+    </author>
+    <author>
+      <name>Chenggang Xie</name>
+    </author>
+    <author>
+      <name>Biao Liu</name>
+    </author>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <author>
+      <name>Yong Dai</name>
+    </author>
+    <author>
+      <name>Xiaozhu Ju</name>
+    </author>
+    <author>
+      <name>Wei Ye</name>
+    </author>
+    <author>
+      <name>Shikun Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16634v2</id>
+    <title>Enhanced Diffusion Sampling: Efficient Rare Event Sampling and Free Energy Calculation with Diffusion Models</title>
+    <updated>2026-06-28T12:48:36Z</updated>
+    <link href="https://arxiv.org/abs/2602.16634v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16634v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rare-event sampling problem has long been the central limiting factor in molecular dynamics (MD), especially in biomolecular simulation. Recently, diffusion models such as BioEmu have emerged as powerful equilibrium samplers that generate independent samples from complex molecular distributions, eliminating the cost of sampling rare transition events. However, a sampling problem remains when computing observables that rely on states which are rare in equilibrium, for example folding free energies. Here, we introduce enhanced diffusion sampling, enabling efficient exploration of rare-event regions while preserving unbiased thermodynamic estimators. The key idea is to perform quantitatively accurate steering protocols to generate biased ensembles and subsequently recover equilibrium statistics via exact reweighting. We instantiate our framework in three algorithms: UmbrellaDiff (umbrella sampling with diffusion models), MetaDiff (a batchwise analogue for metadynamics), and $Δ$G-Diff (free-energy differences via tilted ensembles). Across toy systems, protein folding landscapes and folding free energies, our methods achieve fast, accurate, and scalable estimation of equilibrium properties within GPU-minutes to hours per system-closing the rare-event sampling gap that remained after the advent of diffusion-model equilibrium samplers.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T17:26:15Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Yu Xie</name>
+    </author>
+    <author>
+      <name>Ludwig Winkler</name>
+    </author>
+    <author>
+      <name>Lixin Sun</name>
+    </author>
+    <author>
+      <name>Sarah Lewis</name>
+    </author>
+    <author>
+      <name>Adam E. Foster</name>
+    </author>
+    <author>
+      <name>José Jiménez Luna</name>
+    </author>
+    <author>
+      <name>Tim Hempel</name>
+    </author>
+    <author>
+      <name>Michael Gastegger</name>
+    </author>
+    <author>
+      <name>Yaoyi Chen</name>
+    </author>
+    <author>
+      <name>Iryna Zaporozhets</name>
+    </author>
+    <author>
+      <name>Cecilia Clementi</name>
+    </author>
+    <author>
+      <name>Christopher M. Bishop</name>
+    </author>
+    <author>
+      <name>Frank Noé</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.13017v1</id>
+    <title>FlowWAM: Optical Flow as a Unified Action Representation for World Action Models</title>
+    <updated>2026-07-14T17:57:12Z</updated>
+    <link href="https://arxiv.org/abs/2607.13017v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.13017v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World Action Models (WAMs) are able to leverage pretrained video generators for both world modeling and action prediction. However, directly leveraging such video generators for control raises a new challenge: how to represent actions in a suitable form that aligns with pretrained video generators while carrying enough motion cues for accurate control. Existing numerical actions fail to satisfy the former, and prior visual action representations overlook the temporal motion structure across frames. We address this issue with FlowWAM, a dual-stream diffusion framework that adopts optical flow as a unified, video-native action representation. Flow videos share the same format as RGB videos and encode rich per-pixel displacement. By jointly modeling them within a shared pretrained video generator, FlowWAM can naturally implement two modes of WAMs. In policy mode, FlowWAM generates flow for action prediction, while in world-model mode, it uses target flow sequences to guide future video generation. Moreover, since flow can be easily extracted from raw videos without action labels, FlowWAM can leverage large-scale action-unlabeled video datasets for pretraining. We empirically find that our flow-based action representation delivers gains across both modes. On RoboTwin manipulation, FlowWAM raises the success rate to 92.94% on the Clean setting and 92.14% on Random, outperforming both VLA and WAM baselines. On WorldArena world modeling, it achieves the best overall EWMScore (63.71) with an 18.4% relative improvement in trajectory accuracy. More results can be found on our project website: https://flow-wam.github.io .</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-14T17:57:12Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yixiang Chen</name>
+    </author>
+    <author>
+      <name>Peiyan Li</name>
+    </author>
+    <author>
+      <name>Yuan Xu</name>
+    </author>
+    <author>
+      <name>Qisen Ma</name>
+    </author>
+    <author>
+      <name>Jiabing Yang</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+    <author>
+      <name>Jianhua Yang</name>
+    </author>
+    <author>
+      <name>Dong An</name>
+    </author>
+    <author>
+      <name>He Guan</name>
+    </author>
+    <author>
+      <name>Gaoteng Liu</name>
+    </author>
+    <author>
+      <name>Jianlou Si</name>
+    </author>
+    <author>
+      <name>Jun Huang</name>
+    </author>
+    <author>
+      <name>Jing Liu</name>
+    </author>
+    <author>
+      <name>Nianfeng Liu</name>
+    </author>
+    <author>
+      <name>Yan Huang</name>
+    </author>
+    <author>
+      <name>Liang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.11404v2</id>
+    <title>ACoT-VLA: Action Chain-of-Thought for Vision-Language-Action Models</title>
+    <updated>2026-03-30T17:35:57Z</updated>
+    <link href="https://arxiv.org/abs/2601.11404v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.11404v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action models have emerged as essential generalist robot policies for diverse manipulation tasks, conventionally relying on directly translating multimodal inputs into actions via Vision-Language Model embeddings. Recent advancements have introduced explicit intermediary reasoning-such as sub-task prediction (language) or goal image synthesis (vision)-to guide action generation. However, these intermediate reasoning are often indirect and inherently limited in their capacity to convey the full, granular information required for precise action execution. Instead, we posit that the most effective form of reasoning is one that deliberates directly in the action space. We introduce Action Chain-of-Thought (ACoT), a paradigm where the reasoning process itself is formulated as a structured sequence of coarse action intents that guide the final policy. In this paper, we propose ACoT-VLA, a novel architecture that materializes the ACoT paradigm. Specifically, we introduce two complementary components: an Explicit Action Reasoner (EAR) and Implicit Action Reasoner (IAR). The former proposes coarse reference trajectories as explicit action-level reasoning steps, while the latter extracts latent action priors from internal representations of multimodal input, co-forming an ACoT that conditions the downstream action head to enable grounded policy learning. Extensive experiments in real-world and simulation environments demonstrate the superiority of our proposed method. Code is available at: https://github.com/AgibotTech/ACoT-VLA.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-16T16:17:06Z</published>
+    <arxiv:comment>Accepted by Conference on Computer Vision and Pattern Recognition (CVPR) 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Linqing Zhong</name>
+    </author>
+    <author>
+      <name>Yi Liu</name>
+    </author>
+    <author>
+      <name>Yifei Wei</name>
+    </author>
+    <author>
+      <name>Ziyu Xiong</name>
+    </author>
+    <author>
+      <name>Maoqing Yao</name>
+    </author>
+    <author>
+      <name>Si Liu</name>
+    </author>
+    <author>
+      <name>Guanghui Ren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.11689v1</id>
+    <title>From World Action Models to Embodied Brains: A Roadmap for Open-World Physical Intelligence</title>
+    <updated>2026-07-13T15:22:56Z</updated>
+    <link href="https://arxiv.org/abs/2607.11689v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.11689v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial general intelligence ultimately requires agents that can reason and act in the physical world. Action models, vision-language-action policies, and world models have advanced this goal, while World Action Models (WAMs) are particularly promising because they connect candidate interventions with predicted consequences. However, progress remains fragmented: models use incompatible action spaces and prediction targets, datasets and tasks follow different conventions, and runtime systems expose limited interfaces for reuse and evaluation. We review the evolution toward WAMs and organize these limitations into three coupled gaps: model roles and representations, objectives and standardization, and system composition. Building on this analysis, we propose a co-evolution roadmap for physical intelligence centered on the \emph{embodied brain}, a long-term model target for integrating multimodal context, comparing candidate interventions, and issuing state-transition or capability requests rather than direct actuator commands. WAMs provide promising prototypes for its predictive functions, while a physical harness grounds model outputs through tools, controllers, verification, and trace logging. Shared contracts align heterogeneous models, data, tasks, and embodiments, and closed-loop post-training converts verified interaction into reusable experience. Together, these components define a modular physical-intelligence stack for adaptive and self-improving embodied agents.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-13T15:22:56Z</published>
+    <arxiv:comment>Ongoing work</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yuanzhi Liang</name>
+    </author>
+    <author>
+      <name>Xufeng Zhan</name>
+    </author>
+    <author>
+      <name>Haibin Huang</name>
+    </author>
+    <author>
+      <name>Chi Zhang</name>
+    </author>
+    <author>
+      <name>Xuelong Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.08237v1</id>
+    <title>SAGE: SLO-Aware Adaptive Retrieval for Production RAG Systems</title>
+    <updated>2026-08-08T17:05:36Z</updated>
+    <link href="https://arxiv.org/abs/2608.08237v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.08237v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-Augmented Generation (RAG) systems in production operate under strict service level objectives (SLOs) on tail latency and infrastructure cost. However, standard retrieval pipelines rely on fixed retrieval budgets that ignore query difficulty, over-retrieving for easy queries and under-serving hard ones, forcing operators to trade answer quality against SLO compliance. This paper proposes SAGE, a learned SLO-aware adaptive retrieval policy that dynamically selects the number of passages k per query. SAGE uses lightweight features derived from initial retrieval (e.g., score distributions, rank gaps, lexical signals) and is trained offline via imitation learning from an oracle that approximates optimal latency-quality trade-offs. At inference, it adds no LLM calls and minimal overhead. On Natural Questions, under a 5s P95 latency SLO, SAGE achieves 95% SLO compliance versus 30% for the best static baseline (k=20), reduces P95 latency by 36% and retrieval cost by 51% with only 2 percentage points Exact Match (EM) loss. A single policy trained on Natural Questions generalizes across HotpotQA, UnSeenTimeQA, and four LLM families (Llama, Qwen, Mistral, Gemma), consistently yielding +45-52 point SLO improvements without quality degradation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-08T17:05:36Z</published>
+    <arxiv:comment>7 pages, 5 figures, 2 tables. Authors' accepted version of a paper published in Proc. IEEE CoDIT 2026. The version of record is available at the DOI below</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>2026 12th International Conference on Control, Decision and Information Technologies (CoDIT), Bari, Italy, 2026, pp. 169-175</arxiv:journal_ref>
+    <author>
+      <name>Muhammad Faizan Raza</name>
+      <arxiv:affiliation>Luna</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Shuo</name>
+      <arxiv:affiliation>Luna</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Yang</name>
+    </author>
+    <author>
+      <name>Satish Mahadevan Srinivasan</name>
+    </author>
+    <arxiv:doi>10.1109/CoDIT70676.2026.11631166</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CoDIT70676.2026.11631166" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.06009v2</id>
+    <title>Wan-Animate-2: Pushing the Application Boundaries of Character Animation</title>
+    <updated>2026-08-08T11:15:00Z</updated>
+    <link href="https://arxiv.org/abs/2608.06009v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.06009v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Character image animation remains a foundational yet challenging task in computer vision. Existing approaches can be broadly categorized into three paradigms: methods based on explicit motion representations suffer from extraction errors and identity drift; methods based on implicit motion features lose fine-grained dynamics through compression; and in-context learning approaches avoid intermediate representations but incur prohibitive computational costs. Furthermore, all current systems are designed for offline synthesis, unable to meet the real-time requirements of interactive applications such as digital avatars and live-streaming hosts. To address these limitations, we present Wan-Animate-2, an end-to-end character animation framework that directly consumes the driving video within a redesigned Diffusion Transformer. Our architecture achieves superior motion fidelity and identity preservation by eliminating intermediate motion extractors entirely. We further introduce text driven viewpoint control that decouples the output camera perspective from the driving video--a capability rarely supported by prior character animation methods that rely on explicit motion representations. Beyond generation quality, we present Wan-Animate-2-Lite, an efficient variant that reduces inference latency to real-time thresholds through a three-stage training paradigm: teacher forcing pretraining with error buffer mechanism, and Self-Forcing distillation with chunk-wise backpropagation. This enables streaming character animation for interactive applications, opening new deployment scenarios that were previously infeasible. Qualitative evaluations and user studies demonstrate that Wan-Animate-2 achieves high-fidelity animation results across diverse characters and motion patterns. To foster further research and community development, we will release the Wan-Animate-2-Base model weights to the public.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-06T13:13:10Z</published>
+    <arxiv:comment>Project page: https://humanaigc.github.io/wan-animate-2/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Guangyuan Wang</name>
+    </author>
+    <author>
+      <name>Li Hu</name>
+    </author>
+    <author>
+      <name>Dechao Meng</name>
+    </author>
+    <author>
+      <name>Zhongyi Zhang</name>
+    </author>
+    <author>
+      <name>Peng Zhang</name>
+    </author>
+    <author>
+      <name>Xindi Zhang</name>
+    </author>
+    <author>
+      <name>Mingyang Huang</name>
+    </author>
+    <author>
+      <name>Ruoshi Zhang</name>
+    </author>
+    <author>
+      <name>Ke Sun</name>
+    </author>
+    <author>
+      <name>Zhe Zhang</name>
+    </author>
+    <author>
+      <name>Xingjun Wang</name>
+    </author>
+    <author>
+      <name>Gang Cheng</name>
+    </author>
+    <author>
+      <name>Hai Xu</name>
+    </author>
+    <author>
+      <name>Bang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.01600v2</id>
+    <title>RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation</title>
+    <updated>2026-08-31T01:42:10Z</updated>
+    <link href="https://arxiv.org/abs/2606.01600v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.01600v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Video world models are increasingly used in robotic manipulation, yet existing benchmarks mostly evaluate them under valid, feasible, and safe instructions. We introduce RoboTrustBench, a benchmark for evaluating the trustworthiness of video world models under four scenarios: Normal, Constraint-Sensitive, Counterfactual, and Adversarial. Built from real-world DROID episodes, RoboTrustBench contains 1,207 expert-validated instruction-image pairs and a six-dimensional evaluation protocol with 13 fine-grained criteria. Evaluating seven representative video world models with human and MLLM assessment, we find that current models often generate visually coherent videos, but struggle with constraint reasoning, counterfactual grounding, physical interaction, and unsafe-instruction suppression. These results show that visual quality and surface-level instruction following are insufficient for trustworthy robotic video world modeling.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-01T02:56:09Z</published>
+    <arxiv:comment>EMNLP 2026 Findings, Project: https://huiqiongli.github.io/RoboTrustBench/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Huiqiong Li</name>
+    </author>
+    <author>
+      <name>Jiayu Wang</name>
+    </author>
+    <author>
+      <name>Zhiting Mei</name>
+    </author>
+    <author>
+      <name>Anirudha Majumdar</name>
+    </author>
+    <author>
+      <name>Jingjing Chen</name>
+    </author>
+    <author>
+      <name>Bin Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.24851v5</id>
+    <title>Real vs. Complex Spectral Bases for Neural Operators: The Role of Green's Function Alignment</title>
+    <updated>2026-09-28T17:39:21Z</updated>
+    <link href="https://arxiv.org/abs/2606.24851v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.24851v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fourier Neural Operators (FNO) learn solution operators of partial differential equations by parameterizing global convolutions in the complex Fourier domain. For real-valued PDE solutions, the complex FFT carries representational redundancy through conjugate symmetry. We introduce the Hartley Neural Operator (HNO), the exact real-valued mirror of FNO: it replaces the FFT with the purely real Discrete Hartley Transform and learns a single real multiplier per retained spectral mode, with no complex arithmetic. Because the real Hartley spectrum is not halved by conjugate symmetry, HNO retains twice as many frequency corners as FNO but one real weight where FNO carries a complex pair, so the two operators are iso-parametric at equal width and differ only in spectral basis. Our central thesis is that the best basis is a property of the operator. Self-adjoint elliptic operators (Poisson, biharmonic) have real, symmetric Green's functions that the real Hartley multiplier diagonalizes exactly, and HNO is favored there. Time-dependent operators carry phase, from oscillation in the wave equation to transport in advection, Burgers, and Navier-Stokes, which a real diagonal multiplier cannot represent, so FNO is favored there, and increasingly so with the operator's phase content, leaving the phaseless heat equation as the borderline case. Training both operators identically and benchmarking across PDE classes, initial-condition families, and boundary conditions, we find an elliptic-versus-time-dependent split that is monotone in operator phase content and matches the Green's-function theory we develop. Rather than a universal winner, our findings give a predictive rule: match the spectral basis to the symmetry of the solution operator.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-23T17:29:15Z</published>
+    <arxiv:comment>Extended version of the paper accepted at the 62nd Allerton Conference on Communication, Control, and Computing (2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jason Sulskis</name>
+    </author>
+    <author>
+      <name>Sathya Ravi</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "scan_id": "2026-W34-physics-informed-ai-legacy-processed-20261006-retry-02",
+  "scanned_at": "2026-08-16T09:23:22.493231+08:00",
+  "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+  "papers": [
+    {
+      "arxiv_id": "2607.21046",
+      "summary": "历史周报补处理条目：EvoPINN: LLM驱动的PINN自动算法发现 (arXiv:2607.21046v1, 7月29日)。问题/方法/证据：标题 : EvoPINN: Agentic Discovery of Executable Algorithms for Physics Informed Neural Networks 作者 : Aniket Jadhav et al. 机构 : Texas A&M University 核心创新 : 将 LLM Agent 引入PINN算法设计，实现全自动的算法进化与发现 框架包含：LLM生成候选算法 → 自动代码执行 → 性能评估 → 反馈优化 → 迭代进化 自动发现的新算法在多个基准PDE上超越了人类手工设计的SOTA方法 意义 : 这是\"AI设计AI\"在科学计算领域的重要落地。EvoPINN证明LLM不仅能写代码，还能自主发现解决PDE的新算法范式，标志着SciML进入 自动化算法工程 时代。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这是\"AI设计AI\"在科学计算领域的重要落地。EvoPINN证明LLM不仅能写代码，还能自主发现解决PDE的新算法范式，标志着SciML进入**自动化算法工程**时代。",
+      "tags": [
+        "physics-informed-ai",
+        "legacy-report"
+      ],
+      "questions": [
+        "human-video-transfer"
+      ],
+      "arxiv_version": "v1"
+    },
+    {
+      "arxiv_id": "2608.08491",
+      "summary": "历史周报补处理条目：多尺度最优输运神经算子 (arXiv:2608.08491v1, 8月10日)。问题/方法/证据：标题 : Multiscale Optimal Transport Neural Operator 作者 : 研究团队 机构 : — 核心创新 : 将 最优输运理论 Optimal Transport 与神经算子结合，构建多尺度PDE求解器 利用OT的度量特性，在多尺度间建立物理上合理的映射关系 相比传统FNO，在多尺度物理问题（如湍流、多孔介质流动）上表现更优 意义 : 最优输运为神经算子提供了新的数学基础，可能在保持物理一致性的同时提升复杂多尺度问题的求解精度。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：最优输运为神经算子提供了新的数学基础，可能在保持物理一致性的同时提升复杂多尺度问题的求解精度。",
+      "tags": [
+        "physics-informed-ai",
+        "legacy-report"
+      ],
+      "questions": [],
+      "arxiv_version": "v1"
+    },
+    {
+      "arxiv_id": "2606.21189",
+      "summary": "历史周报其他关注条目：TF SNO (arXiv:2606.21189)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "physics-informed-ai",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2606.24851",
+      "summary": "历史周报其他关注条目：Hartley Neural Operator (arXiv:2606.24851)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "physics-informed-ai",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2602.16634",
+      "summary": "历史周报其他关注条目：Enhanced Diffusion Sampling: /。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "physics-informed-ai",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2608.03495",
+      "summary": "历史周报其他关注条目：Enhanced Diffusion Sampling: /。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "physics-informed-ai",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2405.19101",
+      "summary": "历史周报其他关注条目：Poseidon (PDE Foundation Model)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "physics-informed-ai",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    }
+  ],
+  "scanned_at_source": "report_file_mtime",
+  "historical_record": true,
+  "converted_at": "2026-10-06T23:26:04.584974+08:00"
+}

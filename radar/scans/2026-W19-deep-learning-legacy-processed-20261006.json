@@ -1,0 +1,132 @@
+{
+  "input_sha256": "f2d26686a80a2ac1f7d3f1b2af1b3ce7f9a53196f58ed1bdfb29cb1bfa3c92fa",
+  "batch": {
+    "schema_version": 1,
+    "scan_id": "2026-W19-deep-learning-legacy-processed-20261006",
+    "scanned_at": "2026-05-10T11:33:09.300662+08:00",
+    "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+    "papers": [
+      {
+        "arxiv_id": "2603.15569",
+        "summary": "历史周报补处理条目：1。问题/方法/证据：来源 : arXiv:2603.15569 ICLR 2026 Oral 作者 : Kevin Y. Li, Berlin Chen, Caitlin Wang, Aviv Bick, J. Zico Kolter, Tri Dao, Albert Gu 关键词 : State Space Models, linear time sequence modeling, inference efficiency 核心看点 : 从inference first视角出发，提出三大改进： 1 更expressive的recurrence（基于SSM discretization）； 2 complex valued state update rule，实现richer state tracking； 3 MIMO mul局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：Mamba系列是Transformer替代路线的核心竞争者，Mamba-3被ICLR 2026接收为Oral，标志着SSM范式进入主流视野。complex-valued state update的引入尤其值得关注——这在数学上更接近生物神经系统的振荡动力学",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2604.15259",
+        "summary": "历史周报补处理条目：2。问题/方法/证据：提出fixed-point based framework分析looped transformers的三个稳定性轴：reachability（可达性）、input-dependence（输入依赖性）、geometry（几何稳定性）原报告标注日期：2026-04-16。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2602.08287",
+        "summary": "历史周报补处理条目：2。问题/方法/证据：提出**noise stability**作为衡量深度学习simplicity bias的新指标，替代传统的average sensitivity原报告标注日期：2026-02-09。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：为\"为什么过参数化模型能泛化\"提供了新的理论视角，且实际可用作regularizer",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2603.09555",
+        "summary": "历史周报补处理条目：2。问题/方法/证据：从compiler-first角度重新思考SSM的inference优化原报告标注日期：2026-03-10。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2602.18523",
+        "summary": "历史周报补处理条目：2。问题/方法/证据：研究grokking现象中的phase transition结构原报告标注日期：2026-03-14。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2605.0645",
+        "summary": "历史周报补处理条目：2。问题/方法/证据：研究语言模型中\"emergent and generalizable task-specific features\"的几何特征原报告标注日期：2026-05-07。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：直接呼应scaling law中讨论的\"emergent abilities\"现象，从几何角度给出新的分析工具",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      }
+    ],
+    "scanned_at_source": "report_file_mtime",
+    "historical_record": true,
+    "converted_at": "2026-10-06T23:26:04.584974+08:00"
+  },
+  "accepted": [
+    "2603.15569v1",
+    "2603.09555v2"
+  ],
+  "rejected": [
+    {
+      "input": {
+        "arxiv_id": "2604.15259",
+        "summary": "历史周报补处理条目：2。问题/方法/证据：提出fixed-point based framework分析looped transformers的三个稳定性轴：reachability（可达性）、input-dependence（输入依赖性）、geometry（几何稳定性）原报告标注日期：2026-04-16。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      "reason": "arXiv 未返回论文"
+    },
+    {
+      "input": {
+        "arxiv_id": "2602.08287",
+        "summary": "历史周报补处理条目：2。问题/方法/证据：提出**noise stability**作为衡量深度学习simplicity bias的新指标，替代传统的average sensitivity原报告标注日期：2026-02-09。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：为\"为什么过参数化模型能泛化\"提供了新的理论视角，且实际可用作regularizer",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      "reason": "arXiv 未返回论文"
+    },
+    {
+      "input": {
+        "arxiv_id": "2602.18523",
+        "summary": "历史周报补处理条目：2。问题/方法/证据：研究grokking现象中的phase transition结构原报告标注日期：2026-03-14。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      "reason": "arXiv 未返回论文"
+    },
+    {
+      "input": {
+        "arxiv_id": "2605.0645",
+        "summary": "历史周报补处理条目：2。问题/方法/证据：研究语言模型中\"emergent and generalizable task-specific features\"的几何特征原报告标注日期：2026-05-07。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：直接呼应scaling law中讨论的\"emergent abilities\"现象，从几何角度给出新的分析工具",
+        "tags": [
+          "deep-learning",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      "reason": "arXiv 未返回论文"
+    }
+  ]
+}

@@ -53,7 +53,12 @@ def fetch_arxiv(identifier):
 
 def source_metadata(payload, expected):
     root = ET.fromstring(payload)
-    entry = root if root.tag == ATOM + "entry" else root.find(ATOM + "entry")
+    entries = [root] if root.tag == ATOM + "entry" else root.findall(ATOM + "entry")
+    entry = next((e for e in entries if (
+        e.findtext(ATOM + "id", "").rstrip("/").rsplit("/", 1)[-1] == expected
+        if "v" in expected else
+        e.findtext(ATOM + "id", "").rstrip("/").rsplit("/", 1)[-1].split("v")[0] == expected
+    )), entries[0] if len(entries) == 1 else None)
     if entry is None:
         raise ValueError("arXiv 未返回论文")
     identity = entry.findtext(ATOM + "id", "").rstrip("/").rsplit("/", 1)[-1]

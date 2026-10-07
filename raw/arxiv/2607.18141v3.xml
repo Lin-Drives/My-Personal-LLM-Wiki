@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PbIcLex0MbEctWWWkYZfkqQ2in0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2608.08097,2608.09907,2608.01526,2608.02989,2607.18141,2609.11842,2609.11918,2609.11884,2609.11521,2609.11780,2609.11253,2609.11790,2609.11580,2609.20641,2609.17841,2609.15432,2609.19871,2609.19756,2609.26292,2609.28931&amp;start=0&amp;max_results=20</title>
+  <updated>2026-10-07T00:14:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=20&amp;id_list=2608.08097,2608.09907,2608.01526,2608.02989,2607.18141,2609.11842,2609.11918,2609.11884,2609.11521,2609.11780,2609.11253,2609.11790,2609.11580,2609.20641,2609.17841,2609.15432,2609.19871,2609.19756,2609.26292,2609.28931" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11521v1</id>
+    <title>Generalized Score Matching for Parameter Estimation on Convex Domains</title>
+    <updated>2026-09-10T13:23:41Z</updated>
+    <link href="https://arxiv.org/abs/2609.11521v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11521v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Maximum likelihood (ML) estimation is a principled and statistically efficient approach for learning probabilistic models. However, for unnormalized models, ML estimation requires evaluating the partition function and differentiating through it, which may not always be tractable. Score matching provides a practically viable alternative that circumvents this obstacle by fitting the score in a way that eliminates dependence on the normalizing constant. We derive the generalized score matching objective on a convex subset of $\mathbb{R}^{d}$ constructively starting from Minimum Probability Flow (MPF) learning, and show how classical score matching as well as domain-adapted variants for non-negative data arise naturally within the proposed framework. We show that the resulting objective is a {\it proper local scoring rule} of second-order, which provides the theoretical guarantee that the true density is recovered when the objective is minimized. Furthermore, for a model belonging to the exponential family, we establish convexity of the objective together with consistency of the finite-sample estimator under standard regularity conditions. Our derivation sheds new light on the scope and applicability of generalized score matching in various problem settings. We compare generalized score matching-based estimators on constrained domains, where the partition function is analytically intractable. We provide experimental results on parameter estimation for model densities belonging to the exponential family defined over convex subsets of $\mathbb{R}^{d}$, and a generative modeling use-case to demonstrate broader applicability of the proposed generalized score matching framework.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T13:23:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nishanth Shetty</name>
+    </author>
+    <author>
+      <name>Saisuchith Mahajan</name>
+    </author>
+    <author>
+      <name>Chandra Sekhar Seelamantula</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11253v1</id>
+    <title>MUtE: A Dual Framework for Concept Erasure and Counterfactual Interventions</title>
+    <updated>2026-09-10T08:47:11Z</updated>
+    <link href="https://arxiv.org/abs/2609.11253v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11253v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Erasing concept-specific information from representations has been proven useful for mitigating bias or interpreting model decisions. The joint objective is to transform the original representations such that the target concept becomes unpredictable, while maximally preserving concept-unrelated information. In this work, we revisit the optimal bounds of concept erasure to derive a novel class of erasure functions that naturally induce a deterministic, dual counterfactual mapping. Bridging the gap between theoretical optimality and practical representation learning, we design an implementation that imposes a translational bias on counterfactual trajectories - a constraint that aligns with how many concepts geometrically manifest in modern language models. Our framework enables seamless navigation between concept erasure and counterfactual generation. We empirically demonstrate its efficacy in improving downstream algorithmic fairness and generating counterfactual texts.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T08:47:11Z</published>
+    <arxiv:comment>21 pages, 3 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Antoine Saillenfest</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.15432v1</id>
+    <title>Single-condition neural solvers encode transferable response spaces for parametric differential equations</title>
+    <updated>2026-09-14T11:56:37Z</updated>
+    <link href="https://arxiv.org/abs/2609.15432v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.15432v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Operator learning for parametric partial differential equations (PDEs) typically builds global models over prescribed domains, requiring cross-condition data or costly physics-constrained training. Here we show that the output Jacobian of a neural solution model trained at one condition defines a reusable response space for cross-condition solution variations. We introduce Linearized Subspace Transfer (LST) to exploit this space and recover target solutions by minimizing the target PDE-system residual over response-space coordinates. Because any single response space has finite coverage, Active Transfer Modeling (ATM) uses post-transfer residuals as coverage indicators to selectively acquire response spaces from additional single-condition models. Across six systems, single-condition response spaces supported cross-condition transfer, with enrichment improving accuracy when added spaces expanded representation capacity. Relative to evaluated physics-informed operator baselines, ATM reduced error and offline construction cost, with orders-of-magnitude accuracy gains in representative cases and millisecond-to-second target adaptation. These results establish neural solvers as reusable local parametric models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-14T11:56:37Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wenbo Cao</name>
+    </author>
+    <author>
+      <name>Weiwei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.09907v1</id>
+    <title>DistMoE: Private-data Rehearsal-free Routing in Mixture-of-Experts for Distributed Instruction Tuning</title>
+    <updated>2026-08-10T17:52:14Z</updated>
+    <link href="https://arxiv.org/abs/2608.09907v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.09907v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal Large Language Models (MLLMs) have shown strong multimodal instruction-following ability, but adapting them to diverse visual-language domains typically assumes centralized data access and costly joint training. This is restrictive when data is distributed across private, domain-specific, or permission-limited clients. To this end, we propose DistMoE, a mixture-of-experts (MoE) approach for distributed visual instruction tuning. In each layer of the language decoder it augments the public feedforward network (FFN) with a client-specific private FFN expert, with the goal to acquire domain-specific knowledge. However, independent expert training causes the private FFNs to learn representation of different scale and magnitudes, making merging the experts difficult. To reduce client-specific drift, we introduce a public-anchored expert composition stage that updates only routers and lightweight private projection adapters on a mix of local client data and public data, via an isotropic regularization loss, therefore making it cross-client rehearsal-free composition. During inference, DistMoE performs modular routing over public and private experts, enabling token-wise domain composition without explicit domain labels. Experiments across diverse visual-language benchmarks show that DistMoE enables flexible expert reuse, effective domain adaptation, and competitive performance while preserving modular control over client-specific knowledge. Codes are available at https://github.com/mainaksingha01/DistMoE.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-10T17:52:14Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mainak Singha</name>
+    </author>
+    <author>
+      <name>Niccolò Biondi</name>
+    </author>
+    <author>
+      <name>Elisa Ricci</name>
+    </author>
+    <author>
+      <name>Subhankar Roy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.20641v1</id>
+    <title>Beyond PINNs: A Unified Gauss--Newton and Petrov--Galerkin Framework for Neural and Hybrid PDE Solvers</title>
+    <updated>2026-09-17T16:23:56Z</updated>
+    <link href="https://arxiv.org/abs/2609.20641v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.20641v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physics-informed neural networks and finite element methods provide two different paradigms for the numerical approximation of partial differential equations: the former are commonly trained by minimizing pointwise strong residuals, whereas the latter are naturally built from weak variational formulations and the finite-dimensional systems obtained after discretization. In this work, we introduce a common framework based on the discretization of functional Gauss--Newton problems by finite families of linear measurements. We show that, through an appropriate duality pairing, the linear measurements can be represented by test functions. The resulting Gauss--Newton system is then precisely a Petrov--Galerkin discretization of the linearized functional problem. This perspective recovers pointwise collocation and natural-gradient constructions as particular cases, while making the choice of test functions an explicit algorithmic design choice. We specialize this framework to elliptic problems, where it naturally leads to weak residual formulations and to a hybrid finite element--neural construction acting on complementary approximation spaces. Numerical experiments support the proposed framework and demonstrate the effectiveness of weak Gauss--Newton formulations and hybrid finite element--neural approximations.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-17T16:23:56Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Nilo Schwencke</name>
+    </author>
+    <author>
+      <name>Roland Maier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11842v1</id>
+    <title>Model-Aware Schedules Improve Generation via Fiberwise Optimal Transport</title>
+    <updated>2026-09-10T17:30:44Z</updated>
+    <link href="https://arxiv.org/abs/2609.11842v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11842v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion and flow-matching schedules control the signal and noise coefficients that mix data and noise along affine probability paths. Minimizing a kinetic action defined on coefficient paths, motivated by optimal transport, helps explain strong baselines but remains model-agnostic and ignores prediction error. Here we introduce a model-aware schedule construction based on fiberwise optimal transport. At a fixed time and state on the probability path, compatible signal/noise decompositions form an affine fiber. We define a fiberwise prediction risk by averaging optimal-transport costs between the true and predictor-induced decompositions within these fibers. On a fixed coefficient curve, combining this risk with coefficient-path kinetic action yields a closed-form optimal time allocation. This construction extends to general linear prediction targets, and the risk profile can be estimated from an early baseline checkpoint. We evaluate DDPMs and flow matching across prediction targets, training configurations, risk-estimation checkpoints, datasets, and architectures. Our model-aware schedules consistently outperform strong baselines, including a 38.6% relative FID reduction for flow matching on CIFAR-10 at 16 function evaluations. Each model-agnostic kinetic baseline determines its own kinetic reference coordinate. In these coordinates, fiberwise-risk profiles from independently trained models in different settings align closely after normalization to unit area. The resulting schedule deformations used in training also align, suggesting empirical universality across the evaluated models and settings. Pretrained-checkpoint diagnostics extend this normalized-risk agreement to larger conditional latent diffusion and 2-RF models. A frozen analytic allocation template retains most of the model-aware improvement without further risk estimation or model-specific fitting.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T17:30:44Z</published>
+    <arxiv:comment>11 pages, 2 figures. Keywords: Diffusion models; flow matching; schedule optimization; fiberwise optimal transport; time reparameterization; empirical universality</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Luyi Jia</name>
+    </author>
+    <author>
+      <name>Boyan Zhang</name>
+    </author>
+    <author>
+      <name>Yilun Liu</name>
+    </author>
+    <author>
+      <name>Steffen Rulands</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11790v1</id>
+    <title>Dynamic language model representations for multi-objective reaction optimisation</title>
+    <updated>2026-09-10T16:43:08Z</updated>
+    <link href="https://arxiv.org/abs/2609.11790v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11790v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optimising chemical reactions across multiple objectives, such as yield, selectivity, and safety, is central to chemical synthesis, and model-driven approaches depend critically on how reaction components are represented. Established featurisations are either chemically uninformative, as with one-hot encodings, or, as with molecular descriptors, do not readily extend across chemically distinct components. For structurally and functionally diverse components, it is therefore unclear what a shared representation should contain. Constructing such a representation is itself a challenging research undertaking that must be revisited for each new reaction system. Here we bypass this step by learning the reaction representation dynamically from text. Textual descriptions of reaction conditions are encoded by a fine-tuned language model trained jointly with Gaussian process surrogates, yielding task-adaptive representations within a multi-objective Bayesian optimisation loop. Across nickel- and palladium-catalysed cross-couplings in both sequential and parallel experimentation regimes, this approach reaches optimisation convergence in fewer experiments than descriptor libraries or one-hot encoding. Applied prospectively to a palladium-catalysed cyanation spanning mixed ligand denticity and heterogeneous additives, and to a three-objective asymmetric hydrogenation across chiral iridium and ruthenium catalyst families, two rounds of high-throughput experimentation (192 reactions, under 3% of each design space) delivered conditions translating directly to gram scale in 94% and 84% isolated yield, the latter at 99.6% enantiomeric excess.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T16:43:08Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Joshua W. Sin</name>
+    </author>
+    <author>
+      <name>David Ming Segura</name>
+    </author>
+    <author>
+      <name>Bojana Ranković</name>
+    </author>
+    <author>
+      <name>Siu Lun Chau</name>
+    </author>
+    <author>
+      <name>Marius D. R. Lutz</name>
+    </author>
+    <author>
+      <name>Andrea Anelli</name>
+    </author>
+    <author>
+      <name>Ryan P. Burwood</name>
+    </author>
+    <author>
+      <name>Kurt Püntener</name>
+    </author>
+    <author>
+      <name>Maximilian J. Notheis</name>
+    </author>
+    <author>
+      <name>Raphael Bigler</name>
+    </author>
+    <author>
+      <name>Philippe Schwaller</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.18141v3</id>
+    <title>A CXL Memory Rack for Multi-Turn LLM Serving</title>
+    <updated>2026-08-05T22:55:21Z</updated>
+    <link href="https://arxiv.org/abs/2607.18141v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.18141v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-context, multi-turn, and agentic LLM workloads increasingly reuse previously processed context, making KV-cache reuse essential for reducing redundant computation. However, this reuse shifts the bottleneck to the memory tier that stores and serves reusable KV states at cluster scale. GPU HBM and host DRAM are too costly to scale to TB-scale shared context capacity, motivating remote tiers built from lower-cost, higher-capacity media. This paper presents HyMCache, a CXL memory rack for multi-turn LLM serving. We build the memory rack using cost-efficient CXL-hybrid memory (CXL-HM), which combines a small amount of in-device DRAM with large SSD-backed capacity behind a CXL interface. By exploiting the read-dominant, predictable, and append-only nature of multi-turn KV-cache access, HyMCache rethinks DRAM management within CXL-HM to efficiently support TB-scale SSD-backed KV reuse. It uses request-level prefix prefetching and opportunistic write buffering to stage latency-critical reads in device DRAM, enabling DRAM-scale KV-cache efficiency at SSD-level cost. We evaluate HyMCache on a real CXL-HM prototype under both single-aggregator and PD-disaggregated serving configurations. Under the same DRAM budget, HyMCache outperforms local LMCache by 3.0x in single-node serving and 1.45x in PD-disaggregated serving. Compared with 1 TB distributed-DRAM Mooncake, HyMCache incurs about 30% lower performance but uses 16x less DRAM.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-20T16:35:47Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Hakbeom Jang</name>
+    </author>
+    <author>
+      <name>Inho Song</name>
+    </author>
+    <author>
+      <name>Hoshik Kim</name>
+    </author>
+    <author>
+      <name>Sam H. Noh</name>
+    </author>
+    <author>
+      <name>Jongryool Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.02989v1</id>
+    <title>AcceptMoE: Commitment-Weighted Self-Sizing Verifier Expert Sets for Efficient MoE Speculative Decoding</title>
+    <updated>2026-08-04T01:01:12Z</updated>
+    <link href="https://arxiv.org/abs/2608.02989v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.02989v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Speculative decoding verifies a tree of draft tokens in one target-model forward pass. For a mixture-of-experts (MoE) target, however, parallel verification can activate the union of the experts selected by all tree nodes, even though only a small subset of those nodes reaches the accepted output. Token count, activated-expert union size, and expert-weight traffic are therefore distinct cost measures: reducing the token workload need not shrink the expert union proportionally, and under offloading, transfer traffic also depends on cache residency. We introduce AcceptMoE, a verifier-side expert selector that combines target-router scores with offline-estimated commitment probabilities and automatically adjusts the number of eligible experts for each verification block, eliminating the need for a user-specified expert budget. Under offloading, AcceptMoE conditions expert eligibility on cache residency instead of predicting natural routes and prefetching the corresponding expert weights. Although constraining target-expert eligibility changes the model distribution, across 12 model-task pairs spanning three MoE targets and four benchmarks, AcceptMoE's mean accuracy is 0.27 percentage points lower than that of EAGLE-3 speculative decoding with natural routing. Served with SGLang at batch size one, it reaches 1.290 times the throughput of this baseline with all expert weights in GPU memory, and 2.06 times under physical expert offloading, while reducing host-to-device traffic by 73.6 percent to 77.1 percent.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T01:01:12Z</published>
+    <arxiv:comment>10 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shuang Liang</name>
+    </author>
+    <author>
+      <name>Hao Mark Chen</name>
+    </author>
+    <author>
+      <name>Zhiwen Mo</name>
+    </author>
+    <author>
+      <name>Qianzhou Wang</name>
+    </author>
+    <author>
+      <name>Guoyu Li</name>
+    </author>
+    <author>
+      <name>Lingxiao Ma</name>
+    </author>
+    <author>
+      <name>Wayne Luk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.01526v1</id>
+    <title>An Internet for the KV Cache: Rethinking Classical Infrastructure Boundaries in the LLM Inference Age</title>
+    <updated>2026-08-02T22:31:22Z</updated>
+    <link href="https://arxiv.org/abs/2608.01526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.01526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM inference has become a global-scale, heterogeneous workload spanning agents, retrieval, tool-use, code execution and multi-modal reasoning. These workloads naturally enable context reuse from overlapping inputs, creating a major opportunity to store and reuse the contexts' KV Caches instead of recomputing them. However, model-side advances that shrink the KV Cache and system-side advances that reduce compute, storage, and transfer costs are evolve independently within legacy cloud boundaries. We argue that future inference infrastructure should allow decoupling of compute and KV Cache storage across cloud and datacenters. The network becomes an active distribution channel; bandwidth, latency and pricing directly determines how the KV Cache should be managed. We propose a vision for an Internet for the KV Cache, with KV Cache management working as a content-distribution system. In this view, KV Cache storage and recompute decisions are driven by model, infrastructure, and application metrics, to enable adaptive, content-driven decisions for minimizing latency and cost.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-02T22:31:22Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Siddhant Ray</name>
+    </author>
+    <author>
+      <name>Nick Feamster</name>
+    </author>
+    <author>
+      <name>Junchen Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.26292v1</id>
+    <title>RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World?</title>
+    <updated>2026-09-22T12:04:52Z</updated>
+    <link href="https://arxiv.org/abs/2609.26292v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.26292v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physical-condition diversity is largely missing from current benchmarks for robot manipulation. While large-scale simulation benchmarks increasingly incorporate variations in object appearance, scene layout, and visual observations, they typically keep the underlying physical parameters fixed. As a result, important sources of real-world variability, such as changes in mass, friction, and joint dynamics, remain largely untested. We introduce RoboTwin-Phys, a physics-diverse benchmark that treats physical-condition diversity as an explicit dimension of robot manipulation evaluation. The benchmark continuously varies 13 physical attributes within physically plausible ranges, providing a unified setting for evaluating policies across diverse physical operating conditions. We further release more than 5,000 expert demonstrations with ground-truth physical parameters, enabling physical-attribute estimation, condition-aware modeling, and physics-conditioned policy training. Evaluations of representative WAMs and VLAs reveal a substantial robustness gap: models that remain effective under existing visual and layout randomization can degrade markedly under changes in physical conditions. RoboTwin-Phys provides the benchmark, data, and evaluation protocol needed to systematically measure and improve robustness to physical-condition diversity in robot manipulation.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-22T12:04:52Z</published>
+    <arxiv:comment>technical report for a benchmark</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jiaqi Zhang</name>
+    </author>
+    <author>
+      <name>Feng Ye</name>
+    </author>
+    <author>
+      <name>Mingjia Yang</name>
+    </author>
+    <author>
+      <name>Zhihong Chen</name>
+    </author>
+    <author>
+      <name>Mingkang Xiang</name>
+    </author>
+    <author>
+      <name>Xinglin Yao</name>
+    </author>
+    <author>
+      <name>Yanbin Li</name>
+    </author>
+    <author>
+      <name>Siwei Ma</name>
+    </author>
+    <author>
+      <name>Chuanmin Jia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.28931v1</id>
+    <title>HelloWorld: Towards Practical Applications of Generative Driving World Models</title>
+    <updated>2026-09-24T02:28:50Z</updated>
+    <link href="https://arxiv.org/abs/2609.28931v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.28931v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Driving world models provide a promising route toward scalable counterfactual data generation and interactive simulation beyond recorded driving logs. Realizing this potential requires a system that can generalize across diverse scenes, respond faithfully to prescribed controls, generate coherent multi-sensor observations, and operate efficiently under repeated inference. We present \textbf{HelloWorld}, a 2B driving world model system designed around these requirements. HelloWorld progressively specializes broad visual and motion priors from heterogeneous video data into controllable driving generation using ego pose, HD maps, and 3D boxes. A block-causal generation interface, together with adaptation to self-generated context, aligns the model with sequential simulation. The system further supports synchronized seven-camera RGB generation and conditional LiDAR synthesis, and is distilled toward few-step inference for efficient deployment. Experiments evaluate visual quality, control fidelity, cross-view consistency, robustness under repeated generation, inference efficiency, and LiDAR synthesis. Together, HelloWorld provides a unified framework for scalable driving data generation and interactive simulation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-24T02:28:50Z</published>
+    <arxiv:comment>website: https://helloworld-4d.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Fan Lu</name>
+    </author>
+    <author>
+      <name>Hanshi Wang</name>
+    </author>
+    <author>
+      <name>Zijing Wang</name>
+    </author>
+    <author>
+      <name>Quan Feng</name>
+    </author>
+    <author>
+      <name>Zhi Wang</name>
+    </author>
+    <author>
+      <name>Shijie Chen</name>
+    </author>
+    <author>
+      <name>Xianming Zeng</name>
+    </author>
+    <author>
+      <name>Yujian Zhang</name>
+    </author>
+    <author>
+      <name>Jiazhe Wang</name>
+    </author>
+    <author>
+      <name>Xin Zha</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+    <author>
+      <name>Zhijie Zhao</name>
+    </author>
+    <author>
+      <name>Lin Zhu</name>
+    </author>
+    <author>
+      <name>Tianyi Yang</name>
+    </author>
+    <author>
+      <name>Yucheng Xu</name>
+    </author>
+    <author>
+      <name>Tao Ji</name>
+    </author>
+    <author>
+      <name>Haodong Zhang</name>
+    </author>
+    <author>
+      <name>Zhipeng Zhang</name>
+    </author>
+    <author>
+      <name>Peixi Peng</name>
+    </author>
+    <author>
+      <name>Guang Chen</name>
+    </author>
+    <author>
+      <name>Xingliang Liu</name>
+    </author>
+    <author>
+      <name>Lei Yang</name>
+    </author>
+    <author>
+      <name>Jianyun Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.17841v2</id>
+    <title>Hybrid coupling with numerics-informed neural networks and the overlapping Schwarz alternating method</title>
+    <updated>2026-10-05T17:50:59Z</updated>
+    <link href="https://arxiv.org/abs/2609.17841v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.17841v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a hybrid modeling framework for coupling pre-trained numerics-informed neural networks (NINNs) with classical full order models (FOMs) using the overlapping Schwarz alternating method. We consider the two-dimensional advection-diffusion equation in the advection-dominated, Peclet-number 10^6 regime. We first demonstrate that, unlike the corresponding physics-informed neural network (PINN), a monolithic NINN can be accurately trained on our model problem without domain decomposition. We then employ overlapping multiplicative Schwarz as a deployment mechanism for coupling a pre-trained, subdomain-local NINN with a neighboring FOM, with the NINN weights held fixed throughout the Schwarz iteration. We consider two training approaches for the subdomain-local NINNs: a top-down approach, in which boundary data are obtained from a coupled Schwarz solve on the full domain with a FOM on each subdomain (FOM-FOM Schwarz), and a bottom-up approach, in which boundary traces are generated synthetically on the NINN subdomain without requiring any full-domain solves. The resulting hybrid NINN-FOM solutions agree closely with the corresponding FOM-FOM Schwarz solutions, with the top-down and bottom-up training approaches yielding comparable accuracy.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-15T21:01:30Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>George Chumbipuma</name>
+    </author>
+    <author>
+      <name>Irina Tezaur</name>
+    </author>
+    <author>
+      <name>Alejandro Diaz</name>
+    </author>
+    <author>
+      <name>Beatrice Riviere</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11580v2</id>
+    <title>A Dataset and Model for Imputing Water Surface Elevation on a Large and Extremely Sparse Spatiotemporal Graph</title>
+    <updated>2026-09-12T13:10:51Z</updated>
+    <link href="https://arxiv.org/abs/2609.11580v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11580v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continuous monitoring of water surface elevation across river networks is critical for flood forecasting, water resource management, and understanding the global water cycle. Yet, the scarcity of in situ gauges across much of the globe constrains the development of reliable modeling frameworks. Satellite altimetry has the potential to alleviate this problem but its use is currently hindered by sparse temporal coverage. To this end, we introduce AmazonSWE, a dataset for training and evaluating large-scale spatiotemporal graph imputation methods that integrates processed satellite altimetry measurements from a range of sources, including the recent wide-swath SWOT sensor. The dataset covers over 19K river sections and 10 years (2016-2026) in the Amazon river basin, with in situ gauges held out for evaluation. Besides contributing a novel real-world use case with the potential for societal impact, AmazonSWE introduces significant technical challenges: with fewer than 1% of sections observed per day, the dataset is far sparser than existing imputation benchmarks, and its directed acyclic river topology is both structurally different from and larger than graphs in existing datasets. We show that prior spatiotemporal graph imputation methods are not adapted to this topology, scale and sparsity, and propose a simple bidirectional selective state space model that outperforms them by sampling connected subgraphs and flattening space and time into a single token sequence with topology-aware positional encodings. Compared to the state-of-the-art published method for SWOT-based WSE densification, which integrates statistics with physical modeling, our model reduces RMSE against in situ gauges by 18-39%, while producing predictions for every river section rather than only those with sufficient nearby satellite coverage.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T14:12:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruben Cartuyvels</name>
+    </author>
+    <author>
+      <name>Karim Douch</name>
+    </author>
+    <author>
+      <name>Gabriele Bertoli</name>
+    </author>
+    <author>
+      <name>Mounia El Baz</name>
+    </author>
+    <author>
+      <name>Artemis Vrettou</name>
+    </author>
+    <author>
+      <name>Sébastien Lefèvre</name>
+    </author>
+    <author>
+      <name>Diego Fernandez Prieto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.08097v1</id>
+    <title>OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching</title>
+    <updated>2026-08-08T12:27:03Z</updated>
+    <link href="https://arxiv.org/abs/2608.08097v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.08097v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) inference serving is increasingly constrained by memory rather than compute. As long-context and long-form reasoning workloads become more prevalent, the key-value (KV) cache dominates both memory footprint and memory traffic during LLM token generation, i.e., decode. In particular, HBM capacity has become a scarce and costly resource that heavily limits inference batch size and system throughput. This paper presents OasisKV, a memory-centric LLM inference system design that alleviates HBM capacity pressure by decoupling full KV-cache storage from HBM during LLM decoding. Because decode-time attention is naturally sparse, OasisKV keeps only the KV entries of the most relevant tokens in HBMs for attention computation. We observe that future important tokens can be predicted accurately in advance using lookahead tokens drafted by speculative decoding (SD). OasisKV employs an efficient attention background pipeline to identify important KV blocks. They are then prefetched from higher-capacity memory tiers (e.g., host or remote memory) and staged in HBMs before being used in the next decode step.
+  We implement OasisKV based on vLLM. The lookahead prediction is accurate enough to keep accuracy within 0.7 points of full attention under a 2,048-token KV budget. This lets OasisKV turn sparsity into throughput gain: $1.69\times$ over dense vLLM on the reasoning workload at 0.1 points of accuracy loss, and up to $2.1\times$ on multi-GPU long-context serving. Under prefill--decode disaggregation, OasisKV reaches about $2\times$ dense throughput while admitting each request with $6.5$--$9.7\times$ less KV and holding $2.2$-$2.6$ less decode-node host memory than full KV transfer.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-08T12:27:03Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Can Xiao</name>
+    </author>
+    <author>
+      <name>Sukmin Cho</name>
+    </author>
+    <author>
+      <name>Junbong We</name>
+    </author>
+    <author>
+      <name>Zhixiong Niu</name>
+    </author>
+    <author>
+      <name>Jianyi Cheng</name>
+    </author>
+    <author>
+      <name>Yiren Zhao</name>
+    </author>
+    <author>
+      <name>Youngjin Kwon</name>
+    </author>
+    <author>
+      <name>Yongqiang Xiong</name>
+    </author>
+    <author>
+      <name>Rui Ma</name>
+    </author>
+    <author>
+      <name>Junyi Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11918v1</id>
+    <title>General Quantification of Covariate and Concept Shifts</title>
+    <updated>2026-09-10T17:57:52Z</updated>
+    <link href="https://arxiv.org/abs/2609.11918v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11918v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper, we bridge the gap between theory and practical applications. We first show that existing definition of concept shift breaks when the source and target supports mismatch. Leveraging entropic optimal transport, we propose a key notion: $γ^{*}\!$-concept shifts, and derive a general error bound unifying covariate and $γ^{*}\!$-concept shifts, which applies to broad loss functions, label spaces, and stochastic labeling. We further develop estimators for these shifts with concentration guarantees, and the DataShifts algorithm, which can quantify distribution shifts and estimate the error bound in most applications - a rigorous and general tool for analyzing learning error under distribution shift.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T17:57:52Z</published>
+    <arxiv:comment>38 pages, 9 figures, accepted at the 43rd International Conference on Machine Learning (ICML 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hongbo Chen</name>
+    </author>
+    <author>
+      <name>Li Charlie Xia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11884v1</id>
+    <title>CoRA-NAS: Coarse Ranking and Anchor-Residual Refinement for Neural Architecture Search</title>
+    <updated>2026-09-10T17:49:19Z</updated>
+    <link href="https://arxiv.org/abs/2609.11884v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11884v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Zero-cost proxies rank architectures cheaply, but their reliability varies across search spaces. We introduce CoRA-NAS (COarse Ranking + Anchor-residual), a two-stage framework combining a static ranking prior with low-cost learning-curve refinement. CoRA-Rank aggregates capacity and structure-at-initialization proxies through an equal-weight log-rank consensus and a target-free consensus gate. CoRA-Refine samples anchors across this prior, extrapolates their early validation curves, and propagates a learned residual correction with an ExtraTrees model. The refinement uses approximately 1% of the cost of fully training the candidate set. Fully trained architecture-accuracy labels are not used to fit the ranker. One configuration is used across spaces, with space-specific architecture encodings. Across NAS-Bench-201, NAS-Bench-101, TransNAS-Bench-101, and NATS-SSS, CoRA-Refine achieves mean Spearman correlations of 0.946, 0.715, 0.786, and 0.894, respectively. Its worst-space correlation of 0.715 is the highest among the compared methods. On NAS-Bench-201/CIFAR-100, its selected architecture reaches 73.32% accuracy, near the reported ground-truth best of 73.37%. On the pure size space, refinement recovers the static prior's shortfall relative to parameter count, while remaining tied with the strongest capacity proxies within noise. The resulting framework combines cross-space ranking robustness with low-cost architecture selection.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T17:49:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yifan Yang</name>
+    </author>
+    <author>
+      <name>Zhaoyan Wang</name>
+    </author>
+    <author>
+      <name>Zheng Gao</name>
+    </author>
+    <author>
+      <name>Xiaoyu Li</name>
+    </author>
+    <author>
+      <name>Jiaojiao Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11780v1</id>
+    <title>Predicting Privacy Leakage from Weight Spectral Density</title>
+    <updated>2026-09-10T16:34:25Z</updated>
+    <link href="https://arxiv.org/abs/2609.11780v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11780v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Membership inference attacks (MIAs) are widely used to audit the privacy disclosure risk of machine learning models, however current state-of-the-art attacks require training computationally expensive shadow models, making large-scale privacy evaluation impractical. In this work, we investigate whether inexpensive spectral metrics derived from the heavy-tailed self-regularisation framework can serve as proxies for MIA vulnerability. We evaluate several WeightWatcher spectral metrics on image and tabular classification tasks and compare their relationship with MIA privacy leakage against conventional measures of generalisation. Across datasets, stable rank exhibits a strong positive correlation with overall MIA success, while Log alpha-Norm shows a consistent negative correlation with MIA vulnerability at the low false-positive regime. These associations are observed to be stronger than those obtained using the generalisation gap. The results indicate that neural network spectra may contain information about privacy leakage that is not fully captured by conventional measures of overfitting, motivating spectral analysis as a promising direction for scalable privacy auditing.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T16:34:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Richard J. Preen</name>
+    </author>
+    <author>
+      <name>Jim Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.19871v1</id>
+    <title>Physical knowledge on historical data matters more than enforcing physical constraints on the forecast</title>
+    <updated>2026-09-17T08:23:08Z</updated>
+    <link href="https://arxiv.org/abs/2609.19871v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.19871v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Time series forecasting has seen signicant advancements with the emergence of new deep learning models. However, forecasting time series in applications involving physical processes remains a major challenge. Despite the apparition of Physics Informed Neural Networks (PINN), recent models do not estimate unobservable intermediate physical variables, which are important for domain experts to understand the target behavior. To this end, we propose a Physics Informed Recurrent Neural Network (PIRNN) which predicts, along the target, unobservable variables on both historic data and forecast target. This approach enhances the model robustness and results interpretation using domain knowledge. Our method is easily adaptable to any physical model using several equations, each having its own set of unobservable variables, to describe it-self. As a case study, we incorporate physical equations used for groundwater levels predictions by the physical model called Gardenia. This model uses transfers equations between reservoirs, optimized with data assimilation, to simulate the evolution of groundwater levels. Evaluation includes several well known neural network models and the Gardenia model compared on twelve real world datasets. In addition, we study the impact of each component through an ablation study. Our model outperforms other models on ve out of the twelve datasets and our ablation study underlines the importance of having a physical background in our time series forecasting task. Finally, the coherence of the physical variables predicted by our neural network is assessed by a domain expert.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-17T08:23:08Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Etienne Lehembre</name>
+      <arxiv:affiliation>CA, LIFO</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pascal Audigane</name>
+      <arxiv:affiliation>BRGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vincent Nguyen</name>
+      <arxiv:affiliation>LIFO</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christel Vrain</name>
+      <arxiv:affiliation>LIFO, CA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thi-Bich-Hanh Dao</name>
+      <arxiv:affiliation>LIFO, CA</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.19756v1</id>
+    <title>Rapidity-Coupled Spin Dynamics in Pulsed Laser Fields from Physics-Informed Neural Networks</title>
+    <updated>2026-09-17T06:26:54Z</updated>
+    <link href="https://arxiv.org/abs/2609.19756v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.19756v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Carrier-envelope-phase (CEP) stabilized few-cycle pulses make the sub-cycle field structure a control parameter for laser-driven polarized electron sources, yet spin solvers for such pulses are rarely tested against exact results. We show that for an electron initially at rest in a linearly polarized plane-wave pulse the rest-frame polarization angle follows the instantaneous vector potential, $Σ= 2\arctan(a_x/2) + a_e a_x$ with $a_e$ the electron anomaly: the net rotation vanishes for every CEP, while the peak intra-pulse angle varies over the CEP by 3.02 degrees for a two-cycle and by 0.22 degrees for an eight-cycle pulse. The result follows from the Volkov orbit in longitudinal and transverse rapidities. We use it to validate a light-front reference integrator and a physics-informed neural network trained only on the light-front equations, which reaches $4\times10^{-5}$ in the spin sector and carries over to elliptical polarization, for which no closed-form solution is known. This gives validated tools for CEP-resolved spin dynamics in intense fields.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-17T06:26:54Z</published>
+    <arxiv:comment>14 pages, 3 figures; Letter followed by Supplemental Material. Submitted to Physical Review A. Code and data: https://doi.org/10.5281/zenodo.22791526</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>N. S. Akintsov</name>
+    </author>
+    <author>
+      <name>A. P. Nevecheria</name>
+    </author>
+    <author>
+      <name>S. N. Andreev</name>
+    </author>
+    <author>
+      <name>Qing-Hua Qin</name>
+    </author>
+  </entry>
+</feed>

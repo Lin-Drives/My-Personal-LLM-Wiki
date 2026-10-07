@@ -1,0 +1,12 @@
+{
+  "accepted_paper_versions": 215,
+  "pending_tasks": 214,
+  "parked_withdrawn_tasks": 1,
+  "unresolved": [
+    {
+      "reported_id": "2605.0645",
+      "original_report_id": "2605.0645x",
+      "reason": "原周报 ID 含占位字符，官方 API 无匹配；不猜测修正 ID。先前 PDF 文字首页为血糖预测论文，与周报主题不符，不能作为该条目原文证据。"
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M7r1Oi9ywptEMKNMVqxzr0aSlx4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2606.21868v1,2504.11320v4,2504.07494,2504.19874,2601.06288,2606.02332,2606.03017,2601.08100,2604.27277,2606.26991,2604.14626,2603.22964,2606.23208,2606.21189,2604.21761,2606.15271,2606.31574,2604.26999,2606.06164,2603.01193&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:12:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2606.21868v1,2504.11320v4,2504.07494,2504.19874,2601.06288,2606.02332,2606.03017,2601.08100,2604.27277,2606.26991,2604.14626,2603.22964,2606.23208,2606.21189,2604.21761,2606.15271,2606.31574,2604.26999,2606.06164,2603.01193" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.27277v3</id>
+    <title>BrainDINO: A Brain MRI Foundation Model for Generalizable Clinical Representation Learning</title>
+    <updated>2026-06-11T15:15:37Z</updated>
+    <link href="https://arxiv.org/abs/2604.27277v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.27277v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Brain MRI underpins a wide range of neuroscientific and clinical applications, yet most learning-based methods remain task-specific and require substantial labeled data. Here we show that a single self-supervised representation can generalize across heterogeneous brain MRI endpoints. We trained BrainDINO, a self-distilled foundation model, on approximately 6.6 million unlabeled axial slices from 20 datasets encompassing broad variation in population, disease, and acquisition setting. Using a frozen encoder with lightweight task heads, BrainDINO supported transfer across tumor segmentation, neurodegenerative and neurodevelopmental conditions classification, brain age estimation, post-stroke temporal prediction, molecular status prediction, MRI sequence classification, and survival modeling. Across tasks and supervision regimes, BrainDINO consistently equaled or exceeded natural-image and MRI-specific self-supervised baselines, with particularly strong advantages under label scarcity. Representation analyses further showed anatomically organized and pathology-sensitive feature structure in the absence of task-specific supervision. Our findings indicate that large-scale slice-wise self-supervised learning can yield a unified brain MRI representation that supports diverse neuroimaging tasks without volumetric pretraining or full-network fine-tuning, establishing a scalable foundation for robust and data-efficient brain imaging analysis. Code is available at https://github.com/mclwu22/BrainDINO</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-30T00:21:36Z</published>
+    <arxiv:comment>25 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yizhou Wu</name>
+    </author>
+    <author>
+      <name>Shansong Wang</name>
+    </author>
+    <author>
+      <name>Yuheng Li</name>
+    </author>
+    <author>
+      <name>Mojtaba Safari</name>
+    </author>
+    <author>
+      <name>Mingzhe Hu</name>
+    </author>
+    <author>
+      <name>Chih-Wei Chang</name>
+    </author>
+    <author>
+      <name>Harini Veeraraghavan</name>
+    </author>
+    <author>
+      <name>Xiaofeng Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06288v1</id>
+    <title>AIConfigurator: Lightning-Fast Configuration Optimization for Multi-Framework LLM Serving</title>
+    <updated>2026-01-09T20:03:57Z</updated>
+    <link href="https://arxiv.org/abs/2601.06288v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06288v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optimizing Large Language Model (LLM) inference in production systems is increasingly difficult due to dynamic workloads, stringent latency/throughput targets, and a rapidly expanding configuration space. This complexity spans not only distributed parallelism strategies (tensor/pipeline/expert) but also intricate framework-specific runtime parameters such as those concerning the enablement of CUDA graphs, available KV-cache memory fractions, and maximum token capacity, which drastically impact performance. The diversity of modern inference frameworks (e.g., TRT-LLM, vLLM, SGLang), each employing distinct kernels and execution policies, makes manual tuning both framework-specific and computationally prohibitive. We present AIConfigurator, a unified performance-modeling system that enables rapid, framework-agnostic inference configuration search without requiring GPU-based profiling. AIConfigurator combines (1) a methodology that decomposes inference into analytically modelable primitives - GEMM, attention, communication, and memory operations while capturing framework-specific scheduling dynamics; (2) a calibrated kernel-level performance database for these primitives across a wide range of hardware platforms and popular open-weights models (GPT-OSS, Qwen, DeepSeek, LLama, Mistral); and (3) an abstraction layer that automatically resolves optimal launch parameters for the target backend, seamlessly integrating into production-grade orchestration systems. Evaluation on production LLM serving workloads demonstrates that AIConfigurator identifies superior serving configurations that improve performance by up to 40% for dense models (e.g., Qwen3-32B) and 50% for MoE architectures (e.g., DeepSeek-V3), while completing searches within 30 seconds on average. Enabling the rapid exploration of vast design spaces - from cluster topology down to engine specific flags.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-09T20:03:57Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tianhao Xu</name>
+    </author>
+    <author>
+      <name>Yiming Liu</name>
+    </author>
+    <author>
+      <name>Xianglong Lu</name>
+    </author>
+    <author>
+      <name>Yijia Zhao</name>
+    </author>
+    <author>
+      <name>Xuting Zhou</name>
+    </author>
+    <author>
+      <name>Aichen Feng</name>
+    </author>
+    <author>
+      <name>Yiyi Chen</name>
+    </author>
+    <author>
+      <name>Yi Shen</name>
+    </author>
+    <author>
+      <name>Qin Zhou</name>
+    </author>
+    <author>
+      <name>Xumeng Chen</name>
+    </author>
+    <author>
+      <name>Ilya Sherstyuk</name>
+    </author>
+    <author>
+      <name>Haorui Li</name>
+    </author>
+    <author>
+      <name>Rishi Thakkar</name>
+    </author>
+    <author>
+      <name>Ben Hamm</name>
+    </author>
+    <author>
+      <name>Yuanzhe Li</name>
+    </author>
+    <author>
+      <name>Xue Huang</name>
+    </author>
+    <author>
+      <name>Wenpeng Wu</name>
+    </author>
+    <author>
+      <name>Anish Shanbhag</name>
+    </author>
+    <author>
+      <name>Harry Kim</name>
+    </author>
+    <author>
+      <name>Chuan Chen</name>
+    </author>
+    <author>
+      <name>Junjie Lai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.03017v2</id>
+    <title>ConTraIRL: Factorized Contrastive Abstractions for Transferable IRL</title>
+    <updated>2026-09-25T23:03:17Z</updated>
+    <link href="https://arxiv.org/abs/2606.03017v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.03017v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward transfer in Inverse Reinforcement Learning (IRL) is unreliable when policies must generalize to unseen combinations of environment dynamics and task goals. We propose Factorized Contrastive Abstractions for Transferable IRL (ConTraIRL), a framework that enables compositional reward transfer by learning decoupled latent representations of these two factors. ConTraIRL uses a dual-encoder architecture that maps observations into separate dynamics and goal latent spaces, trained with a dual contrastive objective. Temporal alignment encourages the dynamics encoder to learn goal-invariant structure, while the goal encoder captures dynamics-invariant features. This factorization supports reward inference under recombined dynamics-goal settings. Experiments on continuous control benchmarks demonstrate effective few-shot transfer to unseen dynamics-goal pairings, improving sample efficiency and reward recovery over transfer IRL baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-02T01:47:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yikang Gui</name>
+    </author>
+    <author>
+      <name>Bikramjit Banerjee</name>
+    </author>
+    <author>
+      <name>Prashant Doshi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.14626v2</id>
+    <title>ELMoE-3D: Leveraging Intrinsic Elasticity of MoE for Hybrid-Bonding-Enabled Self-Speculative Decoding in On-Premises Serving</title>
+    <updated>2026-04-23T01:19:26Z</updated>
+    <link href="https://arxiv.org/abs/2604.14626v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.14626v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixture-of-Experts (MoE) models have become the dominant architecture for large-scale language models, yet on-premises serving remains fundamentally memory-bound as batching turns sparse per-token compute into dense memory activation. Memory-centric architectures (PIM, NMP) improve bandwidth but leave compute underutilized under MoE's low arithmetic intensity at high batch sizes. Speculative decoding (SD) trades idle compute for fewer target invocations, yet verification must load experts even for rejected tokens, severely limiting its benefit in MoE especially at low batch sizes. We propose ELMoE-3D, a hybrid-bonding (HB)-based HW-SW co-designed framework that unifies cache-based acceleration and speculative decoding to offer overall speedup across batch sizes. We identify two intrinsic elasticity axes of MoE-expert and bit-and jointly scale them to construct Elastic Self-Speculative Decoding (Elastic-SD), which serves as both an expert cache and a strongly aligned self-draft model accelerated by high HB bandwidth. Our LSB-augmented bit-sliced architecture exploits inherent redundancy in bit-slice representations to natively support bit-nested execution. On our 3D-stacked hardware, ELMoE-3D achieves an average $6.6\times$ speedup and $4.4\times$ energy efficiency gain over naive MoE serving on xPU across batch sizes 1-16, and delivers $2.2\times$ speedup and $1.4\times$ energy efficiency gain over the best-performing prior accelerator baseline.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-16T05:12:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuseon Choi</name>
+    </author>
+    <author>
+      <name>Jingu Lee</name>
+    </author>
+    <author>
+      <name>Jungjun Oh</name>
+    </author>
+    <author>
+      <name>Sunjoo Whang</name>
+    </author>
+    <author>
+      <name>Byeongcheol Kim</name>
+    </author>
+    <author>
+      <name>Minsung Kim</name>
+    </author>
+    <author>
+      <name>Hoi-Jun Yoo</name>
+    </author>
+    <author>
+      <name>Sangjin Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.08100v1</id>
+    <title>Towards A Unified PAC-Bayesian Framework for Norm-based Generalization Bounds</title>
+    <updated>2026-01-13T00:42:22Z</updated>
+    <link href="https://arxiv.org/abs/2601.08100v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.08100v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding the generalization behavior of deep neural networks remains a fundamental challenge in modern statistical learning theory. Among existing approaches, PAC-Bayesian norm-based bounds have demonstrated particular promise due to their data-dependent nature and their ability to capture algorithmic and geometric properties of learned models. However, most existing results rely on isotropic Gaussian posteriors, heavy use of spectral-norm concentration for weight perturbations, and largely architecture-agnostic analyses, which together limit both the tightness and practical relevance of the resulting bounds. To address these limitations, in this work, we propose a unified framework for PAC-Bayesian norm-based generalization by reformulating the derivation of generalization bounds as a stochastic optimization problem over anisotropic Gaussian posteriors. The key to our approach is a sensitivity matrix that quantifies the network outputs with respect to structured weight perturbations, enabling the explicit incorporation of heterogeneous parameter sensitivities and architectural structures. By imposing different structural assumptions on this sensitivity matrix, we derive a family of generalization bounds that recover several existing PAC-Bayesian results as special cases, while yielding bounds that are comparable to or tighter than state-of-the-art approaches. Such a unified framework provides a principled and flexible way for geometry-/structure-aware and interpretable generalization analysis in deep learning.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-13T00:42:22Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Xinping Yi</name>
+    </author>
+    <author>
+      <name>Gaojie Jin</name>
+    </author>
+    <author>
+      <name>Xiaowei Huang</name>
+    </author>
+    <author>
+      <name>Shi Jin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.23208v1</id>
+    <title>Leveraging AutoML for Sustainable Deep Learning: A Multi-Objective HPO Approach on Deep Shift Neural Networks</title>
+    <updated>2026-06-22T11:53:42Z</updated>
+    <link href="https://arxiv.org/abs/2606.23208v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.23208v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Learning (DL) has advanced various fields by extracting complex patterns from large datasets. However, the computational demands of DL models pose environmental and resource challenges. Deep Shift Neural Networks (DSNNs) present a solution by leveraging shift operations to reduce computational complexity at inference. Compared to common DNNs, DSNNs are still less well understood and less well optimized. By leveraging AutoML techniques, we provide valuable insights into the potential of DSNNs and how to design them in a better way. We focus on image classification, a core task in computer vision, especially in low-resource environments. Since we consider complementary objectives such as accuracy and energy consumption, we combine state-of-the-art multi-fidelity (MF) hyperparameter optimization (HPO) with multi-objective optimization to find a set of Pareto optimal trade-offs on how to design DSNNs. Our approach led to significantly better configurations of DSNNs regarding loss and emissions compared to default DSNNs. This includes simultaneously increasing performance by about 20% and reducing emissions, in some cases by more than 60%. Investigating the behavior of quantized networks in terms of both emissions and accuracy, our experiments reveal surprising model-specific trade-offs, yielding the greatest energy savings. For example, in contrast to common expectations, quantizing smaller portions of the network with low precision can be optimal with respect to energy consumption while retaining or improving performance. We corroborated these findings across multiple backbone architectures, highlighting important nuances in quantization strategies and offering an automated approach to balancing energy efficiency and model performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-22T11:53:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Leona Hennig</name>
+    </author>
+    <author>
+      <name>Marius Lindauer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.21868v1</id>
+    <title>WiSP: A Working-Set View of Mixture-of-Experts Serving on Extremely Low-Resource Hardware</title>
+    <updated>2026-06-20T04:10:34Z</updated>
+    <link href="https://arxiv.org/abs/2606.21868v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.21868v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern Mixture-of-Experts (MoE) models place most of their parameters in expert layers, yet only a small fraction of those experts are used for any token. The unused weights must still be stored where the GPU can reach them. On commodity GPUs the common fix is layer-level CPU offloading, which keeps memory low but streams all of a layer's experts across PCIe on every forward pass, losing much of MoE's sparsity benefit. We cast low-resource MoE serving as a working-set management problem on the GPU: routed expert weights and the key-value (KV) cache are two streams of memory demand competing for limited VRAM. We realize this in WiSP (Working-Set Paging), a routing-aware expert pager that plugs into an unmodified serving engine with byte-identical outputs. Keeping resident only the experts a workload reuses, WiSP reaches up to 1.95x the decode throughput of static offload at the same memory budget when the model does not fit. We also find that prefetching experts from predicted routing helps little in single-stream decode: the bottleneck is PCIe bandwidth, not prediction accuracy. This shifts the question from prefetching to allocation: how should VRAM be split between experts and the KV cache? We answer with MV-WSA (Marginal-Value Working-Set Allocation), which equalizes marginal latency benefit per byte subject to a KV admission floor. MV-WSA runs either as an offline configurator or as an online controller that resizes both pools while serving. In real serving the offline configurator is the only policy we test that does well on both prefill and decode; in trace-driven simulation it stays within a few percent of a per-workflow oracle while fixed splits are about 20% worse. The online controller adds a further 1.20x without changing model outputs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-20T04:10:34Z</published>
+    <arxiv:comment>18 pages, 6 figures, 9 tables. Preprint, work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jiamu Zhang</name>
+    </author>
+    <author>
+      <name>Liang Wu</name>
+    </author>
+    <author>
+      <name>Mayank Darbari</name>
+    </author>
+    <author>
+      <name>Liangjie Hong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.01193v2</id>
+    <title>Operator Learning Using Weak Supervision from Walk-on-Spheres</title>
+    <updated>2026-03-03T18:07:51Z</updated>
+    <link href="https://arxiv.org/abs/2603.01193v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.01193v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training neural PDE solvers is often bottlenecked by expensive data generation or unstable physics-informed neural network (PINN) involving challenging optimization landscapes due to higher-order derivatives. To tackle this issue, we propose an alternative approach using Monte Carlo approaches to estimate the solution to the PDE as a stochastic process for weak supervision during training. Leveraging the Walk-on-Spheres method, we introduce a learning scheme called \emph{Walk-on-Spheres Neural Operator (WoS-NO)} which uses weak supervision from WoS to train any given neural operator. We propose to amortize the cost of Monte Carlo walks across the distribution of PDE instances using stochastic representations from the WoS algorithm to generate cheap, noisy, estimates of the PDE solution during training. This is formulated into a data-free physics-informed objective where a neural operator is trained to regress against these weak supervisions, allowing the operator to learn a generalized solution map for an entire family of PDEs. This strategy does not require expensive pre-computed datasets, avoids computing higher-order derivatives for loss functions that are memory-intensive and unstable, and demonstrates zero-shot generalization to novel PDE parameters and domains. Experiments show that for the same number of training steps, our method exhibits up to 8.75$\times$ improvement in $L_2$-error compared to standard physics-informed training schemes, up to 6.31$\times$ improvement in training speed, and reductions of up to 2.97$\times$ in GPU memory consumption. We present the code at https://github.com/neuraloperator/WoS-NO</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-01T17:23:39Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hrishikesh Viswanath</name>
+    </author>
+    <author>
+      <name>Hong Chul Nam</name>
+    </author>
+    <author>
+      <name>Xi Deng</name>
+    </author>
+    <author>
+      <name>Julius Berner</name>
+    </author>
+    <author>
+      <name>Anima Anandkumar</name>
+    </author>
+    <author>
+      <name>Aniket Bera</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.11320v4</id>
+    <title>Optimizing LLM Inference: Fluid-Guided Online Scheduling with Memory Constraints</title>
+    <updated>2026-06-13T16:11:21Z</updated>
+    <link href="https://arxiv.org/abs/2504.11320v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.11320v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models now serve millions of users daily, with providers incurring costs exceeding $700,000 per day. Each request requires token-by-token inference, making GPU scheduling central to latency, capacity, and cost. The difficulty is endogenous memory growth: generated tokens expand the Key-Value (KV) cache, and overflow can evict in-progress requests and waste prior computation. We formulate inference as a multi-stage online scheduling problem with endogenous memory growth, linear iteration times, and GPU-resident KV-cache constraints. We introduce a fluid model that characterizes equilibrium batch composition, memory requirement, and stability region. Guided by the fluid model, we design WAIT (Waiting for Accumulated Inference Threshold), a threshold-based admission rule for known output lengths, and Nested WAIT, which extends the rule to unknown output lengths by regulating how requests advance across decode-stage segments. Both algorithms approximate the fluid benchmark asymptotically under the stated memory conditions. Nested WAIT uses an additional safety buffer of moderate scale to hedge against memory-overflow-induced evictions under unknown output lengths. In Vidur simulations configured for Llama-2-7B on an A100 GPU, with supplemental real-GPU validation reported in the appendix, the policies enlarge the empirically observed stable operating range relative to widely used baseline algorithms and reduce latency especially in near-overloaded and overloaded regimes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-15T16:00:21Z</published>
+    <arxiv:comment>79 pages, 20 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruicheng Ao</name>
+    </author>
+    <author>
+      <name>Gan Luo</name>
+    </author>
+    <author>
+      <name>David Simchi-Levi</name>
+    </author>
+    <author>
+      <name>Xinshang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.22964v1</id>
+    <title>A PAC-Bayesian approach to generalization for quantum models</title>
+    <updated>2026-03-24T08:58:54Z</updated>
+    <link href="https://arxiv.org/abs/2603.22964v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.22964v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generalization is a central concept in machine learning theory, yet for quantum models, it is predominantly analyzed through uniform bounds that depend on a model's overall capacity rather than the specific function learned. These capacity-based uniform bounds are often too loose and entirely insensitive to the actual training and learning process. Previous theoretical guarantees have failed to provide non-uniform, data-dependent bounds that reflect the specific properties of the learned solution rather than the worst-case behavior of the entire hypothesis class. To address this limitation, we derive the first PAC-Bayesian generalization bounds for a broad class of quantum models by analyzing layered circuits composed of general quantum channels, which include dissipative operations such as mid-circuit measurements and feedforward. Through a channel perturbation analysis, we establish non-uniform bounds that depend on the norms of learned parameter matrices; we extend these results to symmetry-constrained equivariant quantum models; and we validate our theoretical framework with numerical experiments. This work provides actionable model design insights and establishes a foundational tool for a more nuanced understanding of generalization in quantum machine learning.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-24T08:58:54Z</published>
+    <arxiv:comment>15+29 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Pablo Rodriguez-Grasa</name>
+    </author>
+    <author>
+      <name>Matthias C. Caro</name>
+    </author>
+    <author>
+      <name>Jens Eisert</name>
+    </author>
+    <author>
+      <name>Elies Gil-Fuster</name>
+    </author>
+    <author>
+      <name>Franz J. Schreiber</name>
+    </author>
+    <author>
+      <name>Carlos Bravo-Prieto</name>
+    </author>
+  </entry>
+</feed>

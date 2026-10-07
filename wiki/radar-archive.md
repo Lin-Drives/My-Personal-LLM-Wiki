@@ -117,8 +117,8 @@ sources:
 
 <article>
 <h2><a href="https://arxiv.org/abs/2605.0645">arXiv:2605.0645</a></h2>
-<p><strong>历史扫描解读：</strong>历史周报补处理条目：2。问题/方法/证据：研究语言模型中&quot;emergent and generalizable task-specific features&quot;的几何特征原报告标注日期：2026-05-07。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
-<p><strong>原文：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/Deep-Learning/2605.0645.fulltext.md">2605.0645.fulltext.md</a></p>
+<p><strong>历史扫描解读：</strong>【来源身份未确认】原周报含占位字符；官方 API 无匹配，标题检索未找到可确认来源。已下载 PDF 的第一页标题为血糖预测框架，与周报不符，不作为该雷达条目的原文。 历史解读：历史周报补处理条目：2。问题/方法/证据：研究语言模型中&quot;emergent and generalizable task-specific features&quot;的几何特征原报告标注日期：2026-05-07。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。</p>
+<p><strong>原文：</strong>尚未取得可提取的原文，见下载失败清单。</p>
 <p><strong>扫描来源：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/radar/reports/weekly/2026-W19-deep-learning.md">2026-W19-deep-learning.md</a></p>
 </article>
 

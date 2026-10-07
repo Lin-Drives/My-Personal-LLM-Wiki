@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/G0ySpx5p4NU/+J0z4t7jN2iN5X4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2605.10159,2601.10999,2607.02043,2607.02574,2607.00466,2607.17181,2607.21653,2603.07685,2605.09370,2602.00509,2606.20295,2501.01005v2,2608.04074,2608.04060,2608.04048,2608.04084,2608.04013,2608.04057,2608.04051,2608.04026&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:12:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2605.10159,2601.10999,2607.02043,2607.02574,2607.00466,2607.17181,2607.21653,2603.07685,2605.09370,2602.00509,2606.20295,2501.01005v2,2608.04074,2608.04060,2608.04048,2608.04084,2608.04013,2608.04057,2608.04051,2608.04026" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.02574v1</id>
+    <title>From Tensor Buffer to Distributed Memory Hierarchy: A Survey of KV Cache Management for LLM Serving</title>
+    <updated>2026-06-30T16:12:40Z</updated>
+    <link href="https://arxiv.org/abs/2607.02574v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.02574v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The key-value (KV) cache has become a first-order memory object in LLM serving rather than a temporary per-request tensor. This survey classifies more than thirty KV-management systems and frameworks using four axes: locality, lifetime, ownership, and substrate. The axes reveal five architectural archetypes -- local-paged, disaggregated-pipeline, shared-store, memory-pool, and hybrid-tier. Once workload and hardware are fixed, ownership accounts for much of the remaining design variance among distributed systems. The survey also audits current evaluations and identifies seven missing KV-specific measurements, linking them to open problems in fault tolerance, isolation, tiered eviction, speculative decoding, MoE serving, and shared-cache semantics.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-30T16:12:40Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Jie Li</name>
+    </author>
+    <author>
+      <name>Tongyang Wang</name>
+    </author>
+    <author>
+      <name>Yong Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.20295v2</id>
+    <title>Token-Operations-Oriented Inference Optimization Techniques for Large Models</title>
+    <updated>2026-07-24T07:54:17Z</updated>
+    <link href="https://arxiv.org/abs/2606.20295v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.20295v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large model inference optimization serves as a key foundation for supporting the scalable, low-cost, and highly stable operation of large model services. Centered on token-oriented inference optimization technology, this paper proposes for the first time a four-layer technical architecture consisting of Multi-model Fusion, Model Optimization, Compute-Model Fusion, and Compute-Network-Model Fusion. It systematically reviews the key technologies and current industry status across these four levels and analyzes the application value of related technologies in real-world business scenarios. This paper provides a practical technical path for reducing token production costs, improving token service efficiency, ensuring the stability of token supply, and driving the transition of large model services from being merely callable to being operable.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-18T14:33:09Z</published>
+    <arxiv:comment>62 pages, 36 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Shiguo Lian</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+    <author>
+      <name>Zhaoxiang Liu</name>
+    </author>
+    <author>
+      <name>Wen Liu</name>
+    </author>
+    <author>
+      <name>Minjie Hua</name>
+    </author>
+    <author>
+      <name>Yutong Liu</name>
+    </author>
+    <author>
+      <name>Jiangze Yan</name>
+    </author>
+    <author>
+      <name>Xin Wang</name>
+    </author>
+    <author>
+      <name>Cong Wang</name>
+    </author>
+    <author>
+      <name>Yilin Zhang</name>
+    </author>
+    <author>
+      <name>Yi Shen</name>
+    </author>
+    <author>
+      <name>Jieyun Huang</name>
+    </author>
+    <author>
+      <name>Fang Zhao</name>
+    </author>
+    <author>
+      <name>Huanlin Gao</name>
+    </author>
+    <author>
+      <name>Ping Chen</name>
+    </author>
+    <author>
+      <name>Xinyu Yang</name>
+    </author>
+    <author>
+      <name>Kaikai Zhao</name>
+    </author>
+    <author>
+      <name>Yantao Li</name>
+    </author>
+    <author>
+      <name>Yao Zhao</name>
+    </author>
+    <author>
+      <name>Xinggang Wang</name>
+    </author>
+    <author>
+      <name>Huishuai Zhang</name>
+    </author>
+    <author>
+      <name>Dongyan Zhao</name>
+    </author>
+    <author>
+      <name>Junping Du</name>
+    </author>
+    <author>
+      <name>Tao Chen</name>
+    </author>
+    <author>
+      <name>Xiang Gao</name>
+    </author>
+    <author>
+      <name>Qinghuai Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04057v1</id>
+    <title>LaPrune: Controllable Differentiable Sparsity at Million Scale</title>
+    <updated>2026-08-04T12:17:00Z</updated>
+    <link href="https://arxiv.org/abs/2608.04057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Top-$k$ selection determines which components of a sparse model remain active. Hard selection blocks gradients, while continuous relaxations often couple mask hardness to the selected mass. We introduce LaPrune, a mathematically exact-budget differentiable layer that controls the normalized second moment while preserving the selected mass. A LapSum barrier preserves the selection mass, and a normalized second-moment constraint moves the mask from a dense equal-mass allocation toward hard top-$k$ at each budget. We derive a population prediction of the saturated fraction, a near-binary limiting law, and a tight worst-case guarantee on the near-zero fraction. The normalized hardness parameter is invariant to score scale, while a fixed LapSum temperature is not.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T12:17:00Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jakub Antczak</name>
+    </author>
+    <author>
+      <name>Joanna Wojciechowicz</name>
+    </author>
+    <author>
+      <name>Łukasz Struski</name>
+    </author>
+    <author>
+      <name>Jacek Tabor</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04074v1</id>
+    <title>Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms</title>
+    <updated>2026-08-04T16:10:59Z</updated>
+    <link href="https://arxiv.org/abs/2608.04074v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04074v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-context LLM decoding reads the key-value (KV) cache at every step. Loading it takes longer than computing attention over it, so throughput is bandwidth-bound. Hence, reducing the cache size can raise both decoding speed and serving capacity. The challenge is to reduce cache size while preserving the attention products, keeping reconstruction cheap, and using a fixed per-token bit count. At two bits per element, the most competitive methods rely on orthogonal transforms. However, existing techniques are either data-oblivious or use the query statistics without deriving the transform from a distortion criterion. Moreover, they rely on transforms built on top of random or Hadamard rotations, which equalize variances across entries rather than compacting energy, and fixed-width scalar quantizers, which are suboptimal at low rates. In this paper, we formulate KV cache quantization as a transform coding problem in which distortion is the error in the attention products. We derive closed-form optimal transforms for keys and values from calibration statistics, under a high-resolution model. We show that the optimal key transform is not orthogonal and satisfies a generalized Parseval relation: the attention-aware distortion becomes mean-squared error (MSE) in the transform domain. Thus, we can use MSE-optimal vector quantizers applied directly to the transformed key coefficients. To meet the fixed-width layout requirement, we show that grouping coefficients into equal-volume partitions makes equal-size codebooks attain the variable-rate optimum under the same high-resolution model. At two bits per element, our method, termed NOVA-KV, recovers most of the long-context retrieval accuracy lost by scalar quantization methods at comparable throughput.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T16:10:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Samuel Fernández-Menduiña</name>
+    </author>
+    <author>
+      <name>Amir Ziashahabi</name>
+    </author>
+    <author>
+      <name>Eduardo Pavez</name>
+    </author>
+    <author>
+      <name>Antonio Ortega</name>
+    </author>
+    <author>
+      <name>Salman Avestimehr</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00509v2</id>
+    <title>PROBE: Co-Balancing Computation and Communication in MoE Inference via Real-Time Predictive Prefetching</title>
+    <updated>2026-02-03T06:25:29Z</updated>
+    <link href="https://arxiv.org/abs/2602.00509v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00509v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixture-of-Experts models have become a dominant architecture for scaling Large Language Models by activating only a sparse subset of experts per token. However, latency-critical MoE inference faces a fundamental tension: while expert parallelism improves memory efficiency, it also amplifies execution stragglers. In real-world serving, continuous batching and diverse concurrent requests induce rapid semantic shifts, causing expert hotspots to migrate abruptly across GPUs and triggering the 'double penalty' of coupled computational skew and network congestion.
+  We propose PROBE, an inference system that co-balances computation and communication in real time. PROBE introduces Continuous Lookahead Pipelining, which proactively predicts, plans, and prefetches for upcoming layers while keeping all control overheads off the critical path. PROBE consists of: (1) a Gate-Initialized Lookahead Predictor that distills the target router to forecast next-layer expert activation with high fidelity; (2) a Hardware-Aware Balance Planning solver that jointly optimizes dynamic expert replication and token assignment under strict hiding-window constraints; and (3) a Phase-Locked Co-Scheduling policy that uses split-phase transmission to hide bandwidth-intensive expert transfers behind computation without contending with All-to-All collectives. Experiments show that PROBE reduces prefill latency by up to 1.32X and improves decoding throughput by up to 1.26X over state-of-the-art baselines, especially under extreme workload volatility.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T04:37:55Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Qianchao Zhu</name>
+    </author>
+    <author>
+      <name>Xucheng Ye</name>
+    </author>
+    <author>
+      <name>Yuliang Liu</name>
+    </author>
+    <author>
+      <name>Haodong Ouyang</name>
+    </author>
+    <author>
+      <name>Chengru Song</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.02043v1</id>
+    <title>Towards Load-Aware Prefill Deflection for Disaggregated LLM Serving</title>
+    <updated>2026-07-02T11:10:05Z</updated>
+    <link href="https://arxiv.org/abs/2607.02043v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.02043v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Disaggregated LLM serving runs prefill and decode on separate GPU pools to keep the two phases from interfering. In practice, this creates a new asymmetry: under bursty, heavy-tailed workloads prefill nodes saturate while decode nodes have compute underutilized, and on a production-style A100 cluster with 2 prefill and 2 decode nodes (2P2D), we find that prefill execution accounts for only 2-23% of P95 Time-to-First-Token (TTFT). Queuing and inter-node GPU-GPU KV-cache transfer account for the rest. We present a proactive prefill-deflecting scheduler that lets decode nodes serve prefill phase of requests as chunked-prefill steps interleaved with their in-flight decode batches. For each queued request, we estimate the TTFT it would see on the prefill node, and on every decode node, search for the largest chunk schedule that keeps in-flight decodes within their Time-Between-Tokens (TBT) SLO and deflect when the decode path helps tail latency. Because the prefill phase of deflected requests runs in place on the decode node, the inter-node KV transfer is eliminated. Implemented on vLLM and evaluated on production-style traces with DeepSeek-V2-Lite, our approach reduces P95 TTFT by upto 81% and raises SLO attainment by upto 79% over state-of-the-art disaggregated schedulers, at sub-millisecond per-request routing cost.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-02T11:10:05Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Shrikara Arun</name>
+    </author>
+    <author>
+      <name>Anjaly Parayil</name>
+    </author>
+    <author>
+      <name>Srikant Bharadwaj</name>
+    </author>
+    <author>
+      <name>Renee St. Amant</name>
+    </author>
+    <author>
+      <name>Victor Rühle</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.21653v3</id>
+    <title>Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning</title>
+    <updated>2026-09-22T19:00:49Z</updated>
+    <link href="https://arxiv.org/abs/2607.21653v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.21653v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic reinforcement learning requires rapid experimentation with agents and learning algorithms, yet large policies and long, multimodal trajectories demand substantial distributed infrastructure. We present MOLT, a lightweight, PyTorch- and Hugging Face-native framework that brings these goals together through four contributions. MOLT combines direct loading of Hugging Face models with experimentally validated trillion-parameter scalability in approximately 9.2K lines of framework code. Unified OpenAI- and Anthropic-compatible interfaces integrate existing agents with automatic handling of context compaction. Fully asynchronous training overlaps agent rollouts and policy optimization, accommodating variable agent execution times. Distributed experience storage removes centralized rollout-memory bottlenecks for long, multimodal trajectories. We experimentally validate the complete RL training pipeline on a one-trillion-parameter policy and demonstrate sustained learning with a 30B mixture-of-experts agent, establishing MOLT as a lightweight foundation for large-scale agentic RL research.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-22T18:06:15Z</published>
+    <arxiv:comment>update tech report</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jian Hu</name>
+    </author>
+    <author>
+      <name>Huiying Li</name>
+    </author>
+    <author>
+      <name>Hao Zhang</name>
+    </author>
+    <author>
+      <name>Binfeng Xu</name>
+    </author>
+    <author>
+      <name>Yifan Zhang</name>
+    </author>
+    <author>
+      <name>Shaokun Zhang</name>
+    </author>
+    <author>
+      <name>Hemil Desai</name>
+    </author>
+    <author>
+      <name>Michael Demoret</name>
+    </author>
+    <author>
+      <name>Pavlo Molchanov</name>
+    </author>
+    <author>
+      <name>Jan Kautz</name>
+    </author>
+    <author>
+      <name>Yi Dong</name>
+    </author>
+    <arxiv:doi>10.13140/RG.2.2.23375.65447</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.13140/RG.2.2.23375.65447" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04084v2</id>
+    <title>SpecDrop: Parameter-Free Category-Conditioned Routing for Modular Specialization</title>
+    <updated>2026-09-27T04:41:15Z</updated>
+    <link href="https://arxiv.org/abs/2608.04084v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04084v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixture-of-experts (MoE) networks pursue specialization through learned routers, gates, and load-balancing losses, yet at matched total-parameter budgets learned routers can underperform equal-weight No-Routing baselines. Is the bottleneck the routing algorithm, or the alignment between training-signal granularity and the target categories? We probe the question with SpecDrop, a fixed parameter-free routing scheme: each of $K$ branches receives weight $p_a$ for its assigned category and a small leakage $p_i &gt; 0$ otherwise, merged through a category-independent fixed denominator, with no learned routing parameters and no auxiliary losses; the category label is required at inference. On vision tasks where each image has one superclass label (CIFAR-100 on ResNet-110; ImageNet-1K on ViT-S/16), SpecDrop reaches 79.23% on CIFAR-100 and 79.89% on ImageNet-1K, exceeding parameter-matched baselines that do not use the label (+4.75 over dense on CIFAR-100; +6.53 over the No-Routing+SE control on ImageNet-1K). These gains quantify what category supervision buys when deployed through routing -- not an advantage over label-aware deployments of the baselines: given the same label, masking a dense model's outputs is stronger for accuracy alone (85.2 / 83.7). SpecDrop's contribution is converting the label into trained-in modular structure: 68%/100% branch-category alignment, and masking gains of 0.00 (CIFAR) / +1.06 (ImageNet) -- the output-space restriction is largely internalized during training. On fuzzy partitions, where training units span multiple categories (SlimPajama-6B language modeling with a 30M Transformer; SuperNI instruction tuning over Llama-3.2-1B with LoRA), the routing mechanism reduces to the matched No-Routing controls within seed noise, the null our thesis predicts. Granularity alignment, not algorithm choice, localizes when routing helps. Code: https://github.com/Beryex/SpecDrop</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T18:00:01Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2026 (poster). Camera-ready version. 37 pages, 6 figures. Code: https://github.com/Beryex/SpecDrop</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Boyao Wang</name>
+    </author>
+    <author>
+      <name>Zhihan Lei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.17181v1</id>
+    <title>Talaria: Session-Aware Serverless Serving of Hundred-Billion-Parameter LLMs</title>
+    <updated>2026-07-19T10:37:33Z</updated>
+    <link href="https://arxiv.org/abs/2607.17181v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.17181v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Serverless multi-model LLM systems multiplex popularity-skewed model catalogs over shared GPU pools, yet typically schedule each request independently. Tool-using agents break this abstraction: a session repeatedly calls an LLM across short tool gaps, carries a long reusable KV prefix, and is judged by session completion time (SCT). Load-only routing can separate a continuation from both its model and KV state, while round-based model multiplexing can delay even a correctly placed continuation until the target model's next slot. Both failures are especially costly for hundred-billion-parameter models: their weights constrain residency, while long-context KV is expensive to reconstruct or move.
+  We present Talaria, a session-aware serverless multi-model serving system that makes session continuity a joint placement-and-admission decision. Its router ranks placements by model residency, KV locality, and instance pressure, while soft reservations account for likely returns in the last serving instance's admission budget. Session-prefill (SP) admits budget-eligible continuations before the active model slot closes. An instance-local substrate keeps HBM addresses stable, preserves host-restorable KV, and stages weights across model switches.
+  On a single TP=8 server, we replay 30 SWE-Bench model-sessions (960 calls) over three models, each with more than 100B total parameters. Against an otherwise identical round scheduler with SP, host-KV restoration, and D2D staging disabled, Talaria cuts p50 SCT from 1000 s to 189 s and p95 from 2296 s to 867 s, speedups of 5.3x and 2.6x.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-19T10:37:33Z</published>
+    <arxiv:comment>19 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Utopia Meng</name>
+    </author>
+    <author>
+      <name>Unicornt Zhao</name>
+    </author>
+    <author>
+      <name>Derek Li</name>
+    </author>
+    <author>
+      <name>Goalen Gao</name>
+    </author>
+    <author>
+      <name>Frank Du</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04051v1</id>
+    <title>CAMP: A Cycle-Aware Multi-Scale Patch Mixer for Time Series Forecasting</title>
+    <updated>2026-08-04T10:04:16Z</updated>
+    <link href="https://arxiv.org/abs/2608.04051v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04051v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real-world time series are often governed by recurring patterns, but their dominant periods may vary across datasets, forecasting settings, and individual input windows. Existing cycle-aware forecasters commonly rely on a single period selected at the dataset level, which can be restrictive when periodic behavior changes over time or when multiple cycles coexist. Moreover, patch-based models typically process all patch positions uni- formly, although patches farther from the forecast boundary may require broader contextual refinement, while recent patches contain information that should be preserved more directly. Af- ter cyclic behavior is removed, the remaining dynamics may also span multiple temporal resolutions and cannot be adequately de- scribed at a single scale. We introduce CAMP, a Cycle-Aware Multi-Scale Patch Mixer designed to address these challenges. The Adaptive Cycle Learning module identifies dominant fre- quencies separately for each input window and generates both historical and future cyclic components without requiring a pre- defined cycle length. The Horizon-Guided Patch Mixer intro- duces position-dependent refinement, allowing earlier patches to incorporate broader temporal context while preserving infor- mation close to the forecast boundary. CAMP further models the de-cycled residual through temporally aligned multi-resolution representations, enabling complementary dynamics at different scales to be captured within one forecasting framework. Across seven long-term forecasting benchmarks, CAMP achieves the best average MSE on six datasets and the best or tied-best MAE on six. It also obtains the highest MSE win count across sixteen settings on four PEMS traffic benchmarks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T10:04:16Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jung Min Choi</name>
+    </author>
+    <author>
+      <name>Vijaya Krishna yalavarthi</name>
+    </author>
+    <author>
+      <name>Lars Schmidt-Thieme</name>
+    </author>
+  </entry>
+</feed>

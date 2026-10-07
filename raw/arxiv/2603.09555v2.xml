@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BzuneKcVFLHmSctV0Ut4H2dHcHs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2411.14499,2506.09985,2602.11389,2602.15922v1,2511.09783,2602.12540v1,2504.07347,2602.09109,2310.07240,2603.15569,2604.15259,2602.08287,2603.09555,2602.18523,2605.0645,2604.03481,2605.13892,2502.06018,2507.19888,2601.03332&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:12:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2411.14499,2506.09985,2602.11389,2602.15922v1,2511.09783,2602.12540v1,2504.07347,2602.09109,2310.07240,2603.15569,2604.15259,2602.08287,2603.09555,2602.18523,2605.0645,2604.03481,2605.13892,2502.06018,2507.19888,2601.03332" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>19</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.07240v6</id>
+    <title>CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving</title>
+    <updated>2024-07-19T21:04:14Z</updated>
+    <link href="https://arxiv.org/abs/2310.07240v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.07240v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As large language models (LLMs) take on complex tasks, their inputs are supplemented with longer contexts that incorporate domain knowledge. Yet using long contexts is challenging, as nothing can be generated until the whole context is processed by the LLM. While the context-processing delay can be reduced by reusing the KV cache of a context across different inputs, fetching the KV cache, which contains large tensors, over the network can cause high extra network delays.
+  CacheGen is a fast context-loading module for LLM systems. First, CacheGen uses a custom tensor encoder, leveraging KV cache's distributional properties to encode a KV cache into more compact bitstream representations with negligible decoding overhead, to save bandwidth usage. Second, CacheGen adapts the compression level of different parts of a KV cache to cope with changes in available bandwidth, in order to maintain low context-loading delay and high generation quality. % When available bandwidth drops, CacheGen may raise the compression level for a part of the context or recompute its KV cache on the fly. We test CacheGen on popular LLMs and datasets. Compared to the recent systems that reuse the KV cache, CacheGen reduces the KV cache size by 3.5-4.3x and the total delay in fetching and processing contexts by 3.2-3.7x with negligible impact on the LLM response quality. Our code is at: https://github.com/UChi-JCL/CacheGen.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-11T07:08:20Z</published>
+    <arxiv:comment>SIGCOMM'24</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Yuhan Liu</name>
+    </author>
+    <author>
+      <name>Hanchen Li</name>
+    </author>
+    <author>
+      <name>Yihua Cheng</name>
+    </author>
+    <author>
+      <name>Siddhant Ray</name>
+    </author>
+    <author>
+      <name>Yuyang Huang</name>
+    </author>
+    <author>
+      <name>Qizheng Zhang</name>
+    </author>
+    <author>
+      <name>Kuntai Du</name>
+    </author>
+    <author>
+      <name>Jiayi Yao</name>
+    </author>
+    <author>
+      <name>Shan Lu</name>
+    </author>
+    <author>
+      <name>Ganesh Ananthanarayanan</name>
+    </author>
+    <author>
+      <name>Michael Maire</name>
+    </author>
+    <author>
+      <name>Henry Hoffmann</name>
+    </author>
+    <author>
+      <name>Ari Holtzman</name>
+    </author>
+    <author>
+      <name>Junchen Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11389v2</id>
+    <title>Causal-JEPA: Learning World Models through Object-Level Latent Masking</title>
+    <updated>2026-05-28T17:57:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.11389v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11389v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World models require robust relational understanding to support prediction, reasoning, and control. While object-centric representations provide a useful abstraction, they are not sufficient to capture interaction-dependent dynamics. We therefore propose C-JEPA, a simple and flexible object-centric world model that extends masked joint embedding prediction from image patches to object-centric representations. By masking object-level latents and requiring each masked object state to be inferred from the surrounding context, C-JEPA imposes structured partial observability during training, creating counterfactual-like prediction queries that discourage shortcut solutions and make interaction-dependent prediction necessary under the learning objective. Empirically, C-JEPA leads to consistent gains in visual question answering, with an absolute improvement of about 20% in counterfactual reasoning over the same architecture without object-level masking. On agent control tasks, C-JEPA enables substantially more efficient planning by using only 1% of the total latent input features required by patch-based world models, while achieving comparable performance. Finally, we provide a formal analysis demonstrating that object-level masking induces useful inductive bias by controlling observability. Our code is available at https://github.com/galilai-group/cjepa.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T21:47:26Z</published>
+    <arxiv:comment>Project Page: https://hazel-heejeong-nam.github.io/cjepa/ ICML 2026 Accepted</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Heejeong Nam</name>
+    </author>
+    <author>
+      <name>Quentin Le Lidec</name>
+    </author>
+    <author>
+      <name>Lucas Maes</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.09783v2</id>
+    <title>Koopman Invariants as Drivers of Emergent Time-Series Clustering in Joint-Embedding Predictive Architectures</title>
+    <updated>2026-01-23T13:40:42Z</updated>
+    <link href="https://arxiv.org/abs/2511.09783v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.09783v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Joint-Embedding Predictive Architectures (JEPAs), a powerful class of self-supervised models, exhibit an unexplained ability to cluster time-series data by their underlying dynamical regimes. We propose a novel theoretical explanation for this phenomenon, hypothesizing that JEPA's predictive objective implicitly drives it to learn the invariant subspace of the system's Koopman operator. We prove that an idealized JEPA loss is minimized when the encoder represents the system's regime indicator functions, which are Koopman eigenfunctions. This theory was validated on synthetic data with known dynamics, demonstrating that constraining the JEPA's linear predictor to be a near-identity operator is the key inductive bias that forces the encoder to learn these invariants. We further discuss that this constraint is critical for selecting this interpretable solution from a class of mathematically equivalent but entangled optima, revealing the predictor's role in representation disentanglement. This work demystifies a key behavior of JEPAs, provides a principled connection between modern self-supervised learning and dynamical systems theory, and informs the design of more robust and interpretable time-series models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-12T22:33:56Z</published>
+    <arxiv:comment>11 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pablo Ruiz-Morales</name>
+    </author>
+    <author>
+      <name>Dries Vanoost</name>
+    </author>
+    <author>
+      <name>Davy Pissoort</name>
+    </author>
+    <author>
+      <name>Mathias Verbeke</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.07347v3</id>
+    <title>Throughput-Optimal Scheduling Algorithms for LLM Inference and AI Agents</title>
+    <updated>2026-05-18T01:04:46Z</updated>
+    <link href="https://arxiv.org/abs/2504.07347v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.07347v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As demand for Large Language Models (LLMs) and AI agents grows rapidly, optimizing systems for efficient LLM inference becomes critical. While significant efforts have targeted system-level engineering, little has been explored from a mathematical modeling and queueing perspective. In this paper, we develop the queueing fundamentals for LLM inference. In particular, we study the throughput aspect of LLM inference systems. We prove that a large class of `work-conserving' scheduling algorithms achieve maximum throughput for both individual requests and AI-agent workloads with directed acyclic graph (DAG) and fork-join routing topologies, establishing `work-conserving' as a key design principle for practitioners. Technically, we develop a fluid-limit framework for multi-class batched processing networks under $K$-FCFS scheduling, which may be of independent interest. Evaluations of real-world systems confirm that Orca and Sarathi-Serve are throughput-optimal, reassuring practitioners, while FasterTransformer and vanilla vLLM are not maximally stable and should be used with caution. Our analysis also reveals how constraints such as batch size limits and cyclic routing topologies complicate the throughput picture, pointing to rich open questions at the intersection of queueing theory and LLM system design.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-10T00:12:12Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>J. G. Dai</name>
+    </author>
+    <author>
+      <name>Tianze Deng</name>
+    </author>
+    <author>
+      <name>Yueying Li</name>
+    </author>
+    <author>
+      <name>Tianyi Peng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09109v1</id>
+    <title>Distributed Hybrid Parallelism for Large Language Models: Comparative Study and System Design Guide</title>
+    <updated>2026-02-09T19:01:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.09109v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09109v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid growth of large language models (LLMs), a wide range of methods have been developed to distribute computation and memory across hardware devices for efficient training and inference. While existing surveys provide descriptive overviews of these techniques, systematic analysis of their benefits and trade offs and how such insights can inform principled methodology for designing optimal distributed systems remain limited. This paper offers a comprehensive review of collective operations and distributed parallel strategies, complemented by mathematical formulations to deepen theoretical understanding. We further examine hybrid parallelization designs, emphasizing communication computation overlap across different stages of model deployment, including both training and inference. Recent advances in automated search for optimal hybrid parallelization strategies using cost models are also discussed. Moreover, we present case studies with mainstream architecture categories to reveal empirical insights to guide researchers and practitioners in parallelism strategy selection. Finally, we highlight open challenges and limitations of current LLM training paradigms and outline promising directions for the next generation of large scale model development.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T19:01:13Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hossam Amer</name>
+    </author>
+    <author>
+      <name>Rezaul Karim</name>
+    </author>
+    <author>
+      <name>Ali Pourranjbar</name>
+    </author>
+    <author>
+      <name>Weiwei Zhang</name>
+    </author>
+    <author>
+      <name>Walid Ahmed</name>
+    </author>
+    <author>
+      <name>Boxing Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15569v1</id>
+    <title>Mamba-3: Improved Sequence Modeling using State Space Principles</title>
+    <updated>2026-03-16T17:30:08Z</updated>
+    <link href="https://arxiv.org/abs/2603.15569v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15569v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scaling inference-time compute has emerged as an important driver of LLM performance, making inference efficiency a central focus of model design alongside model quality. While the current Transformer-based models deliver strong model quality, their quadratic compute and linear memory make inference expensive. This has spurred the development of sub-quadratic models with reduced linear compute and constant memory requirements. However, many recent linear models trade off model quality and capability for algorithmic efficiency, failing on tasks such as state tracking. Moreover, their theoretically linear inference remains hardware-inefficient in practice. Guided by an inference-first perspective, we introduce three core methodological improvements inspired by the state space model (SSM) viewpoint of linear models. We combine: (1) a more expressive recurrence derived from SSM discretization, (2) a complex-valued state update rule that enables richer state tracking, and (3) a multi-input, multi-output (MIMO) formulation for better model performance without increasing decode latency. Together with architectural refinements, our Mamba-3 model achieves significant gains across retrieval, state-tracking, and downstream language modeling tasks. At the 1.5B scale, Mamba-3 improves average downstream accuracy by 0.6 percentage points compared to the next best model (Gated DeltaNet), with Mamba-3's MIMO variant further improving accuracy by another 1.2 points for a total 1.8 point gain. Across state-size experiments, Mamba-3 achieves comparable perplexity to Mamba-2 despite using half of its predecessor's state size. Our evaluations demonstrate Mamba-3's ability to advance the performance-efficiency Pareto frontier.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-16T17:30:08Z</published>
+    <arxiv:comment>ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aakash Lahoti</name>
+    </author>
+    <author>
+      <name>Kevin Y. Li</name>
+    </author>
+    <author>
+      <name>Berlin Chen</name>
+    </author>
+    <author>
+      <name>Caitlin Wang</name>
+    </author>
+    <author>
+      <name>Aviv Bick</name>
+    </author>
+    <author>
+      <name>J. Zico Kolter</name>
+    </author>
+    <author>
+      <name>Tri Dao</name>
+    </author>
+    <author>
+      <name>Albert Gu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.06018v3</id>
+    <title>Kolmogorov-Arnold Fourier Networks</title>
+    <updated>2026-05-24T16:33:35Z</updated>
+    <link href="https://arxiv.org/abs/2502.06018v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.06018v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although Kolmogorov-Arnold-based interpretable networks (KANs) possess strong theoretical expressiveness, they suffer from severe parameter explosion and limited ability to capture high-frequency features in high-dimensional tasks. To address these issues, we propose the Kolmogorov-Arnold Fourier Network (KAF), which fundamentally redefines the KAN paradigm through spectral reparameterization. Our key contributions include: (1) proposing a fundamental basis transformation from the local, grid-based B-spline representation to a global, adaptive spectral representation. This shift changes the network's inductive bias, reducing parameter complexity from $O(G)$ to $O(1)$ while preserving expressiveness; (2) introducing trainable Random Fourier Features (RFF) initialized via a spectral alignment strategy, which allows the model to break the smoothness limitation of fixed kernels and accurately capture high-frequency components; and (3) implementing an adaptive hybrid GELU-Fourier activation mechanism that progressively enhances frequency representation during training. Comprehensive experiments demonstrate the superiority of KAF across computer vision (CV), natural language processing (NLP), audio, and partial differential equation (PDE) solving tasks, achieving state-of-the-art performance with improved efficiency. The code is available at https://github.com/kolmogorovArnoldFourierNetwork/KAF.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-09T20:21:43Z</published>
+    <arxiv:comment>Code:https://github.com/kolmogorovArnoldFourierNetwork/KAF</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jusheng Zhang</name>
+    </author>
+    <author>
+      <name>Yijia Fan</name>
+    </author>
+    <author>
+      <name>Kaitong Cai</name>
+    </author>
+    <author>
+      <name>Keze Wang</name>
+    </author>
+    <author>
+      <name>Wenhao Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.09555v2</id>
+    <title>Compiler-First State Space Duality and Portable $O(1)$ Autoregressive Caching for Inference</title>
+    <updated>2026-06-09T21:08:13Z</updated>
+    <link href="https://arxiv.org/abs/2603.09555v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.09555v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-throughput Mamba-2 inference is usually tied to fused CUDA and Triton kernels, limiting portability across accelerator backends. We show that the state space duality (SSD) recurrence has a compiler-friendly structure: diagonal per-head dynamics, fixed-size chunking, einsum-dominated compute, and static control flow. Expressing this structure in standard JAX primitives gives a single-source inference path with no custom kernels, a registered JAX PyTree cache, and a compiled on-device autoregressive loop. On a single Google Cloud TPU v6e, batch-1 prefill reaches approximately 140 TFLOPS, or 15% model FLOP utilisation (MFU), the roofline ceiling for this regime, and cached decode reaches up to 64% hardware bandwidth utilisation (HBU). At a 4096-token context, cached decode is 27x--36x faster than full-prefix recomputation across five Mamba-2 checkpoints from 130M to 2.7B parameters. The same source runs unmodified on NVIDIA L40S, where cached decode remains sequence-length independent across all model scales. WikiText-103 validation perplexity matches the Triton reference mamba_ssm v2.2.2 within +/-0.0005 points, and hidden states agree to float32 rounding tolerance. Code is available at https://github.com/CosmoNaught/mamba2-jax.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-10T12:03:00Z</published>
+    <arxiv:comment>21 pages, 6 figures. Code available at: https://github.com/CosmoNaught/mamba2-jax</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Cosmo Santoni</name>
+    </author>
+    <author>
+      <name>Anmol Thapar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.14499v4</id>
+    <title>Understanding World or Predicting Future? A Comprehensive Survey of World Models</title>
+    <updated>2025-12-10T02:53:14Z</updated>
+    <link href="https://arxiv.org/abs/2411.14499v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.14499v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The concept of world models has garnered significant attention due to advancements in multimodal large language models such as GPT-4 and video generation models such as Sora, which are central to the pursuit of artificial general intelligence. This survey offers a comprehensive review of the literature on world models. Generally, world models are regarded as tools for either understanding the present state of the world or predicting its future dynamics. This review presents a systematic categorization of world models, emphasizing two primary functions: (1) constructing internal representations to understand the mechanisms of the world, and (2) predicting future states to simulate and guide decision-making. Initially, we examine the current progress in these two categories. We then explore the application of world models in key domains, including generative games, autonomous driving, robotics, and social simulacra, with a focus on how each domain utilizes these aspects. Finally, we outline key challenges and provide insights into potential future research directions. We summarize the representative papers along with their code repositories in https://github.com/tsinghua-fib-lab/World-Model.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-21T03:58:50Z</published>
+    <arxiv:comment>Extended version of the original ACM CSUR paper, 49 pages, 6 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jingtao Ding</name>
+    </author>
+    <author>
+      <name>Yunke Zhang</name>
+    </author>
+    <author>
+      <name>Yu Shang</name>
+    </author>
+    <author>
+      <name>Jie Feng</name>
+    </author>
+    <author>
+      <name>Yuheng Zhang</name>
+    </author>
+    <author>
+      <name>Zefang Zong</name>
+    </author>
+    <author>
+      <name>Yuan Yuan</name>
+    </author>
+    <author>
+      <name>Hongyuan Su</name>
+    </author>
+    <author>
+      <name>Nian Li</name>
+    </author>
+    <author>
+      <name>Jinghua Piao</name>
+    </author>
+    <author>
+      <name>Yucheng Deng</name>
+    </author>
+    <author>
+      <name>Nicholas Sukiennik</name>
+    </author>
+    <author>
+      <name>Chen Gao</name>
+    </author>
+    <author>
+      <name>Fengli Xu</name>
+    </author>
+    <author>
+      <name>Yong Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12540v1</id>
+    <title>Self-Supervised JEPA-based World Models for LiDAR Occupancy Completion and Forecasting</title>
+    <updated>2026-02-13T02:42:21Z</updated>
+    <link href="https://arxiv.org/abs/2602.12540v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12540v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous driving, as an agent operating in the physical world, requires the fundamental capability to build \textit{world models} that capture how the environment evolves spatiotemporally in order to support long-term planning. At the same time, scalability demands learning such models in a self-supervised manner; \textit{joint-embedding predictive architecture (JEPA)} enables learning world models via leveraging large volumes of unlabeled data without relying on expensive human annotations. In this paper, we propose \textbf{AD-LiST-JEPA}, a self-supervised world model for autonomous driving that predicts future spatiotemporal evolution from LiDAR data using a JEPA framework. We evaluate the quality of the learned representations through a downstream LiDAR-based occupancy completion and forecasting (OCF) task, which jointly assesses perception and prediction. Proof of concept experiments show better OCF performance with pretrained encoder after JEPA-based world model learning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T02:42:21Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haoran Zhu</name>
+    </author>
+    <author>
+      <name>Anna Choromanska</name>
+    </author>
+  </entry>
+</feed>

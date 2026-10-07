@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jJjSUEI0uEXRoE/a5CkShIZGO9c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2604.03481,2605.13892,2507.19888,2601.03332,2602.12706,2601.06244,2507.08338&amp;start=0&amp;max_results=7</title>
+  <updated>2026-10-07T00:15:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=7&amp;id_list=2604.03481,2605.13892,2507.19888,2601.03332,2602.12706,2601.06244,2507.08338" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>7</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.19888v1</id>
+    <title>Multi-Resolution Training-Enhanced Kolmogorov-Arnold Networks for Multi-Scale PDE Problems</title>
+    <updated>2025-07-26T09:36:18Z</updated>
+    <link href="https://arxiv.org/abs/2507.19888v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.19888v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-scale PDE problems present significant challenges in scientific computing. While conventional MLP-based deep learning methods exhibit spectral bias in resolving multi-scale features, the physics-informed Kolmogorov-Arnold network (PIKAN) mitigates this issue through its novel architecture, demonstrating certain advantages. On the other hand, insights from the information bottleneck theory suggest that high-resolution training points are essential for these hybrid methods to accurately capture multi-scale behavior, although this requirement often leads to longer training times. To address this challenge, we propose a simple yet effective multi-resolution training-enhanced PIKAN framework, termed MR-PIKAN, which trains the data-physics hybrid model either sequentially or alternately across different resolutions. The proposed MR-PIKAN is validated on various multi-scale forward and inverse PDE problems. Numerical results indicate that this new training strategy effectively reduces computational costs without sacrificing accuracy, thereby enabling efficient solutions of complex multi-scale PDEs in both forward and inverse settings.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-26T09:36:18Z</published>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Yu-Sen Yang</name>
+    </author>
+    <author>
+      <name>Ling Guo</name>
+    </author>
+    <author>
+      <name>Xiaodan Ren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.03332v1</id>
+    <title>LUT-KAN: Segment-wise LUT Quantization for Fast KAN Inference</title>
+    <updated>2026-01-06T18:00:45Z</updated>
+    <link href="https://arxiv.org/abs/2601.03332v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.03332v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Kolmogorov--Arnold Networks (KAN) replace scalar weights by learnable univariate functions, often implemented with B-splines. This design can be accurate and interpretable, but it makes inference expensive on CPU because each layer requires many spline evaluations. Standard quantization toolchains are also hard to apply because the main computation is not a matrix multiply but repeated spline basis evaluation. This paper introduces LUT-KAN, a segment-wise lookup-table (LUT) compilation and quantization method for PyKAN-style KAN layers. LUT-KAN converts each edge function into a per-segment LUT with affine int8/uint8 quantization and linear interpolation. The method provides an explicit and reproducible inference contract, including boundary conventions and out-of-bounds (OOB) policies. We propose an ``honest baseline'' methodology for speed evaluation: B-spline evaluation and LUT evaluation are compared under the same backend optimization (NumPy vs NumPy and Numba vs Numba), which separates representation gains from vectorization and JIT effects. Experiments include controlled sweeps over LUT resolution L in 16, 32, 64, 128 and two quantization schemes (symmetric int8 and asymmetric uint8). We report accuracy, speed, and memory metrics with mean and standard deviation across multiple seeds. A two-by-two OOB robustness matrix evaluates behavior under different boundary modes and OOB policies. In a case study, we compile a trained KAN model for DoS attack detection (CICIDS2017 pipeline) into LUT artifacts. The compiled model preserves classification quality (F1 drop below 0.0002) while reducing steady-state CPU inference latency by 12x under NumPy and 10x under Numba backends (honest baseline). The memory overhead is approximately 10x at L=64. All code and artifacts are publicly available with fixed release tags for reproducibility.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-06T18:00:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Oleksandr Kuznetsov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06244v1</id>
+    <title>Hard Constraint Projection in a Physics Informed Neural Network</title>
+    <updated>2026-01-09T18:30:58Z</updated>
+    <link href="https://arxiv.org/abs/2601.06244v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06244v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we embed hard constraints in a physics informed neural network (PINN) which predicts solutions to the 2D incompressible Navier Stokes equations. We extend the hard constraint method introduced by Chen et al. (arXiv:2012.06148) from a linear PDE to a strongly non-linear PDE. The PINN is used to estimate the stream function and pressure of the fluid, and by differentiating the stream function we can recover an incompressible velocity field. An unlearnable hard constraint projection (HCP) layer projects the predicted velocity and pressure to a hyperplane that admits only exact solutions to a discretised form of the governing equations.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-09T18:30:58Z</published>
+    <arxiv:comment>6 pages, 3 figures, Accepted manuscript of the paper presented at ParCFD2024</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>Miranda J. S. Horne</name>
+      <arxiv:affiliation>University of Leeds</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter K. Jimack</name>
+      <arxiv:affiliation>University of Leeds</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Amirul Khan</name>
+      <arxiv:affiliation>University of Leeds</arxiv:affiliation>
+    </author>
+    <author>
+      <name>He Wang</name>
+      <arxiv:affiliation>University College London</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.34734/FZJ-2025-02453</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.34734/FZJ-2025-02453" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.13892v1</id>
+    <title>A QPINN Framework with Quantum Trainable Embeddings for the Lid-Driven Cavity Problem</title>
+    <updated>2026-05-12T10:03:45Z</updated>
+    <link href="https://arxiv.org/abs/2605.13892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.13892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The steady incompressible Navier--Stokes equations pose significant computational challenges due to their nonlinear convective terms and pressure--velocity coupling. Physics-informed neural networks (PINNs) provide a mesh-free framework for approximating such systems, but classical PINNs can experience optimization difficulties in nonlinear flow regimes. In this work, we propose a quantum physics-informed neural network (QPINN) framework with a quantum neural network (QNN)-based trainable embedding for the lid-driven cavity problem. The proposed approach uses a QNN to learn data-adaptive quantum feature maps that encode spatial coordinates before they are processed by a variational quantum circuit within a physics-informed loss formulation. Numerical experiments show that the proposed QNN-TE-QPINN exhibits stable training behavior and competitive solution accuracy compared with classical PINNs and hybrid quantum models using classical embeddings, while requiring significantly fewer trainable parameters. Rather than claiming computational speedup, these results highlight the potential of trainable quantum embeddings for parameter-efficient physics-informed learning. The findings suggest that embedding design plays an important role in quantum-assisted PDE solvers and support further investigation of QNN-based trainable embeddings for nonlinear fluid dynamics benchmarks.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T10:03:45Z</published>
+    <arxiv:comment>11 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Nahid Binandeh Dehaghani</name>
+    </author>
+    <author>
+      <name>Ban Q. Tran</name>
+    </author>
+    <author>
+      <name>Susan Mengel</name>
+    </author>
+    <author>
+      <name>Rafal Wisniewski</name>
+    </author>
+    <author>
+      <name>A. Pedro Aguiar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.03481v2</id>
+    <title>Lattice-Boltzmann-Driven Physics-Informed Neural Networks for Droplet Wettability on Rough Surfaces</title>
+    <updated>2026-04-20T05:21:11Z</updated>
+    <link href="https://arxiv.org/abs/2604.03481v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.03481v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a Lattice-Boltzmann-driven kinetic physics-informed neural network (K-PINN) for predictive modeling of droplet dynamics on structured surfaces, in which the discrete Boltzmann-BGK equation is incorporated into the learning framework. Different from traditional PINNs that are restricted by macroscopic continuum equations, the K-PINN framework is built on the mesoscopic kinetic level, in which the essential Lattice-Boltzmann physics is preserved in the data-efficient neural network. The K-PINN has been successfully employed for modeling non-trivial droplet phenomena such as contact pinning, anisotropic spreading, and capillary hysteresis on substrates of different morphologies, ranging from random roughness to periodic pillar structures. Moreover, strict physical consistency, such as mass conservation within 1.5%, is ensured in the K-PINN framework. Furthermore, the U-Net-based encoder-decoder structure of the K-PINN results in a 50-75% reduction in error compared to traditional neural networks, achieving almost perfect agreement with high-resolution Lattice-Boltzmann simulations $L_2$ ~ 0.021-0.026, $R^2$ ~ 0.999. Robust convergence of the K-PINN to diverse surface morphologies is ensured through curriculum learning and adaptive two-phase optimization. Upon convergence, the K-PINN can perform real-time prediction with over $10^4$ evaluations per second. Through the combination of kinetic theory and physics-informed learning, this work establishes a new paradigm for fast, physically consistent modeling of multiphase flows on complex surfaces.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-03T22:02:30Z</published>
+    <arxiv:comment>41 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Ganesh Sahadeo Meshram</name>
+    </author>
+    <author>
+      <name>Partha Pratim Chakrabarti</name>
+    </author>
+    <author>
+      <name>Suman Chakraborty</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12706v2</id>
+    <title>Physics-Informed Laplace Neural Operator for Solving Partial Differential Equations</title>
+    <updated>2026-08-13T07:35:14Z</updated>
+    <link href="https://arxiv.org/abs/2602.12706v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12706v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural operators have emerged as fast surrogate solvers for parametric partial differential equations (PDEs). However, purely data-driven models often require extensive training data and can generalize poorly, especially in small-data regimes and under unseen (out-of-distribution) input functions that are not represented in the training data. To address these limitations, we propose the Physics-Informed Laplace Neural Operator (PILNO), which enhances the Laplace Neural Operator (LNO) by embedding governing physics into training through PDE, boundary condition, and initial condition residuals. To improve expressivity, we first introduce an Advanced LNO (ALNO) backbone that retains a pole-residue transient representation while replacing the steady-state branch with an FNO-style Fourier multiplier. To make physics-informed training both data-efficient and robust, PILNO further leverages (i) virtual inputs: an unlabeled ensemble of input functions spanning a broad spectral range that provides abundant physics-only supervision and explicitly targets out-of-distribution (OOD) regimes; and (ii) temporal-causality weighting: a time-decaying reweighting of the physics residual that prioritizes early-time dynamics and stabilizes optimization for time-dependent PDEs. Across four representative benchmarks -- Burgers' equation, Darcy flow, a reaction-diffusion system, and a forced KdV equation -- PILNO consistently improves accuracy in small-data settings (e.g., N_train &lt;= 27), reduces run-to-run variability across random seeds, and achieves stronger OOD generalization with respect to input function statistics than purely data-driven baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T08:19:40Z</published>
+    <arxiv:comment>46 pages, 22 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Journal of Computational Physics 566 (2026) 115291</arxiv:journal_ref>
+    <author>
+      <name>Heechang Kim</name>
+    </author>
+    <author>
+      <name>Qianying Cao</name>
+    </author>
+    <author>
+      <name>Hyomin Shin</name>
+    </author>
+    <author>
+      <name>Seungchul Lee</name>
+    </author>
+    <author>
+      <name>George Em Karniadakis</name>
+    </author>
+    <author>
+      <name>Minseok Choi</name>
+    </author>
+    <arxiv:doi>10.1016/j.jcp.2026.115291</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jcp.2026.115291" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.08338v2</id>
+    <title>Discontinuity-aware KAN-based physics-informed neural networks</title>
+    <updated>2026-03-24T07:52:54Z</updated>
+    <link href="https://arxiv.org/abs/2507.08338v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.08338v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physics-informed neural networks (PINNs) have proven to be a promising method for the rapid solving of partial differential equations (PDEs) in both forward and inverse problems. However, due to the smoothness assumption of functions approximated by general neural networks, PINNs are prone to spectral bias and numerical instability and suffer from reduced accuracy when solving PDEs with sharp spatial transitions or fast temporal evolution. To address this limitation, a discontinuity-aware physics-informed neural network (DPINN) method is proposed. It incorporates an adaptive Fourier-feature embedding layer to mitigate spectral bias and capture steep gradients, a discontinuity-aware network that generalizes the Kolmogorov representation theorem to the discontinuous regime for the modeling of shock-wave properties, mesh transformation to accelerate convergence across complex geometries, and learnable local artificial viscosity to stabilize the algorithm near discontinuities. In numerical experiments regarding the inviscid Burgers' equation, Riemann problems, and transonic and supersonic airfoil flows, DPINN demonstrated superior accuracy in capturing discontinuities compared to existing methods.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-11T06:37:16Z</published>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <arxiv:journal_ref>Journal of Computational Physics, 565 (2026) 115185</arxiv:journal_ref>
+    <author>
+      <name>Guoqiang Lei</name>
+    </author>
+    <author>
+      <name>D. Exposito</name>
+    </author>
+    <author>
+      <name>Xuerui Mao</name>
+    </author>
+    <arxiv:doi>10.1016/j.jcp.2026.115185</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jcp.2026.115185" title="doi"/>
+  </entry>
+</feed>

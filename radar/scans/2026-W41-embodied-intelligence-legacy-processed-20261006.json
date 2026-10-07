@@ -1,0 +1,179 @@
+{
+  "input_sha256": "91214971727e75fc88e2da86eeedbd47272c45e363635857dcebebc32b139851",
+  "batch": {
+    "schema_version": 1,
+    "scan_id": "2026-W41-embodied-intelligence-legacy-processed-20261006",
+    "scanned_at": "2026-10-04T09:22:20.729297+08:00",
+    "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+    "papers": [
+      {
+        "arxiv_id": "2610.00438",
+        "summary": "历史周报补处理条目：λ₀ (lambda_0) + HumanVerse-500：500 小时人类全身数据喂出全身人形 VLA。问题/方法/证据：提出 HumanVerse-500——500 小时第一人称人类全身操作数据集，用轻量可穿戴系统同步采集 ego 视频 + 身体运动 + 手部运动。在此之上构建 λ₀ 全身人形 VLA：三阶段训练（① 从大规模 ego 数据学交互 → ② 用 HumanVerse-500 协调身体与手部运动 → ③ 下游任务/本体适配）。三阶段共享同一表征空间完成\"人类经验迁移\"，领域专用接口处理人机状态/动作差异。原报告标注日期：2026-09-30。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：第一个系统性地把「第一人称人类全身数据」用于全身人形 loco-manipulation 的 VLA——绕开了人形遥操作\"贵且难规模化\"的死结。与 λ₀ 同一批作者的 EgoHumanoid-V2（见 #3）形成组合拳：一个做数据集+预训练，一个做迁移机制。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": [
+          "human-video-transfer"
+        ]
+      },
+      {
+        "arxiv_id": "2609.39403",
+        "summary": "历史周报补处理条目：IronMind：万小时第一人称预训练，相机空间动作表示直接拆掉 embodiment gap。问题/方法/证据：两大洞见。① **相机空间动作表示**：低成本 ego 视频没有躯干运动学，传统重argeting走不通——干脆把动作表示在相机坐标系（ego 视频的原生参考空间），人机动作维度做语义对齐，完全绕过显式身体重定向。② **数据引擎**：规则过滤 + 原子任务重标注 + 逐帧质量加权，把 10,000+ 小时 heterogeneous 数据（ego 人类视频 + 非目标本体机器人数据）清洗成可用语料。架构为双专家 MoT（VL 理解专家 + flow-matching 动作专家），训练期可挂语义/几何/视频动力学辅助监督、推理期全部拆掉。原报告标注日期：2026-09-30。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：人形灵巧操作预训练的**第一个 scaling law 实证**——数据加数量级，性能还在涨，没见顶。而且\"相机空间\"这个选择既优雅又实用：ego 视频本来就长在相机坐标系里，重argeting 本来就是多余的中间层。附赠一个反直觉发现：world-prior 辅助监督在真实机器人上反而掉点（55.0%→31.7%），辅助预测目标与接触-rich 闭环控制存在错配。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": [
+          "human-video-transfer",
+          "robot-deployment"
+        ]
+      },
+      {
+        "arxiv_id": "2609.37181",
+        "summary": "历史周报补处理条目：EgoHumanoid-V2：首个第一人称人类→人形「协调全身技能」零样本迁移。问题/方法/证据：之前的 ego 迁移工作都停留在「场景泛化」+ 解耦控制（上身操作下身走路分开管）。本文攻的是更难的问题：**协调的全身 loco-manipulation 技能直接迁移**。核心是 coarse-to-fine 动作对齐——运动学参考校正（修末端位姿精度）+ 动力学感知精修（保全身协调性）；再叠加 robot-arm rendering 与训练时图像增强，缩小视觉 embodiment gap、提升视角鲁棒性。原报告标注日期：2026-09-29。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：把\"人类数据 = 直接技能监督\"（direct skill supervision）从口号变成可复现的流程。对 human-data-training 社区的意义在于：迁移瓶颈不在数据量，而在**对齐质量**——这一篇把对齐做到了全身动力学级别。Danfei Xu 线的 EgoMimic/EgoVerse 证明了\"能用\"，EgoHumanoid-V2 证明了\"能用到协调全身\"。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": [
+          "human-video-transfer"
+        ]
+      },
+      {
+        "arxiv_id": "2609.34182",
+        "summary": "历史周报补处理条目：UVTA：人类演示统一视觉-触觉-动作建模，灵巧操作的触觉规模化路线。问题/方法/证据：灵巧操作需要触觉，但机器人触觉演示几乎无法规模化——UVTA 的路线是让**人类触觉演示**来补。人机数据在**同一轮联合训练**里混合（非分阶段预训练），weighted sampler 保证两个本体采样等概率；min-max 归一化分别处理不同本体；损失函数把 9 维腕部与 22 维手部分组均衡，防止高维手部目标主导梯度；扩散策略 + 未来触觉预测头。原报告标注日期：2026-09-29。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：多模态策略从「视觉+动作」走向「视觉+触觉+动作」的关键一步，且给出的工程配方（分组均衡损失、单轮联合训练）非常简单可抄。当视觉侧 scaling 红利被吃干抹净，触觉可能是下一个数据 moat。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": [
+          "human-video-transfer"
+        ]
+      },
+      {
+        "arxiv_id": "2609.33007",
+        "summary": "历史周报补处理条目：CAPEX：让基础模型自己当演示者，经验自适应推理把成本砍掉 80%。问题/方法/证据：人采演示数据\"贵、慢、不同步\"，CAPEX 换个思路：直接让通用多模态基础模型当**自主演示者**，把物理行为蒸馏进可部署 policy。关键设计是 experience-conditioning——利用前几次尝试的执行经验，自适应调整基础模型需要\"观察-推理-重规划\"的频率（简单段少调用，卡壳段多调用）。原报告标注日期：2026-09-26。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：在「人类采数据」和「纯 sim 生成数据」之间开辟了第三条路：基础模型当数据工厂。和本周的 ego-data 路线互为镜像——一个榨人类视频，一个榨大模型推理能力，共同指向同一件事：**机器人学习的瓶颈正在从算法转向数据供给方式**。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": [
+          "world-model-planning",
+          "human-video-transfer"
+        ]
+      },
+      {
+        "arxiv_id": "2607.08436",
+        "summary": "历史周报其他关注条目：EgoWAM 被 CoRL 2026 接收。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": [
+          "human-video-transfer"
+        ]
+      },
+      {
+        "arxiv_id": "2609.30959",
+        "summary": "历史周报其他关注条目：VisTacAlign。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": [
+          "human-video-transfer"
+        ]
+      },
+      {
+        "arxiv_id": "2609.24093",
+        "summary": "历史周报其他关注条目：Contact Anchored Retargeting + Residual Policy。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2609.19666",
+        "summary": "历史周报其他关注条目：高自由度灵巧 VLA 后训练。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      }
+    ],
+    "scanned_at_source": "report_file_mtime",
+    "historical_record": true,
+    "converted_at": "2026-10-06T23:26:04.584974+08:00"
+  },
+  "accepted": [
+    "2610.00438v1",
+    "2609.39403v1",
+    "2609.37181v1",
+    "2607.08436v1",
+    "2609.30959v1",
+    "2609.24093v1"
+  ],
+  "rejected": [
+    {
+      "input": {
+        "arxiv_id": "2609.34182",
+        "summary": "历史周报补处理条目：UVTA：人类演示统一视觉-触觉-动作建模，灵巧操作的触觉规模化路线。问题/方法/证据：灵巧操作需要触觉，但机器人触觉演示几乎无法规模化——UVTA 的路线是让**人类触觉演示**来补。人机数据在**同一轮联合训练**里混合（非分阶段预训练），weighted sampler 保证两个本体采样等概率；min-max 归一化分别处理不同本体；损失函数把 9 维腕部与 22 维手部分组均衡，防止高维手部目标主导梯度；扩散策略 + 未来触觉预测头。原报告标注日期：2026-09-29。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：多模态策略从「视觉+动作」走向「视觉+触觉+动作」的关键一步，且给出的工程配方（分组均衡损失、单轮联合训练）非常简单可抄。当视觉侧 scaling 红利被吃干抹净，触觉可能是下一个数据 moat。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": [
+          "human-video-transfer"
+        ]
+      },
+      "reason": "arXiv 未返回论文"
+    },
+    {
+      "input": {
+        "arxiv_id": "2609.33007",
+        "summary": "历史周报补处理条目：CAPEX：让基础模型自己当演示者，经验自适应推理把成本砍掉 80%。问题/方法/证据：人采演示数据\"贵、慢、不同步\"，CAPEX 换个思路：直接让通用多模态基础模型当**自主演示者**，把物理行为蒸馏进可部署 policy。关键设计是 experience-conditioning——利用前几次尝试的执行经验，自适应调整基础模型需要\"观察-推理-重规划\"的频率（简单段少调用，卡壳段多调用）。原报告标注日期：2026-09-26。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：在「人类采数据」和「纯 sim 生成数据」之间开辟了第三条路：基础模型当数据工厂。和本周的 ego-data 路线互为镜像——一个榨人类视频，一个榨大模型推理能力，共同指向同一件事：**机器人学习的瓶颈正在从算法转向数据供给方式**。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": [
+          "world-model-planning",
+          "human-video-transfer"
+        ]
+      },
+      "reason": "arXiv 未返回论文"
+    },
+    {
+      "input": {
+        "arxiv_id": "2609.19666",
+        "summary": "历史周报其他关注条目：高自由度灵巧 VLA 后训练。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      "reason": "arXiv 未返回论文"
+    }
+  ]
+}

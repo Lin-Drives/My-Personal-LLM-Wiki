@@ -1,0 +1,1135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MlOOCBocF92LiOtz2zNX4ak3/ug</id>
+  <title>arXiv Query: search_query=&amp;id_list=2608.04014,2608.03467,2608.04043,2608.04041,2608.04045,2608.05569v1,2607.21046v1,2608.08491v1,2510.05278v2,2606.24851,2602.16634,2608.03495,2405.19101,2608.09298,2608.12939,2607.06401,2607.00836,2607.13612,2606.23463,2606.02800&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:12:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2608.04014,2608.03467,2608.04043,2608.04041,2608.04045,2608.05569v1,2607.21046v1,2608.08491v1,2510.05278v2,2606.24851,2602.16634,2608.03495,2405.19101,2608.09298,2608.12939,2607.06401,2607.00836,2607.13612,2606.23463,2606.02800" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.13612v1</id>
+    <title>The SIGReg Objective as Variational Free Energy: A Theoretical Active-Inference Account of JEPA World Models</title>
+    <updated>2026-07-15T08:59:36Z</updated>
+    <link href="https://arxiv.org/abs/2607.13612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.13612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Joint-Embedding Predictive Architectures (JEPAs) are the dominant design for latent world models, yet they are usually justified by empirical performance rather than a normative principle. We show that the choice of anti-collapse regulariser determines whether a JEPA's training objective, a prediction loss plus a weighted embedding regulariser, is a valid Active Inference (AIF) variational free energy. We organise four non-contrastive regularisers (VICReg, LogDet, PairDist, and SIGReg) into an entropy-estimator hierarchy indexed by a prior-miscalibration gap, and show that the gap's sign, whether the estimator bounds the latent entropy from above or below, decides whether the AIF surprise bound survives: VICReg and LogDet are unsafe upper bounds, PairDist a safe lower bound, and SIGReg eliminates the gap. We then prove a correspondence theorem: under the standard constant-noise encoder model and successful SIGReg enforcement (isotropic-Gaussian embeddings), the gap vanishes, the objective becomes an exact information bottleneck, the surprise bound is preserved, and the latent goal cost becomes an exact proxy for AIF pragmatic value, whereas VICReg leaves an irreducible second-order anisotropy term. We extend the correspondence to multi-step expected free energy, ensemble epistemic value, and a learned-policy regime, and we identify the one AIF term no current JEPA world model computes: the state-epistemic value, a future-state coverage signal. The predictions differ in kind, not degree, and are stated here as theoretical consequences left for empirical test in separate work; full proofs are in Appendix A, and the algebraic core of every result is machine-verified in Lean 4 (Appendix D).</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-15T08:59:36Z</published>
+    <arxiv:comment>Theoretical paper; empirical validation of the stated predictions is left to separate work. 28 pages, 4 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fabio Arnez</name>
+    </author>
+    <author>
+      <name>Alexandra Gomez-Villa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.05569v1</id>
+    <title>CoordRefer: Coordinate-Aware 3D Visual Grounding from Multiview Images</title>
+    <updated>2026-08-06T03:40:17Z</updated>
+    <link href="https://arxiv.org/abs/2608.05569v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.05569v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multiview image-based 3D visual grounding predicts a coordinate frame to define a coordinate system and then regresses a 3D bounding box for localization. However, existing methods jointly optimize coordinate frame selection and box regression, leading to coordinate-relative box ambiguity and degraded grounding performance. This ambiguity arises because the same box admits different numerical representations across coordinate frames, creating multiple optimization targets and yielding invalid compromise predictions. To tackle this challenge, we propose CoordRefer, a coordinate-aware framework that decouples coordinate frame selection from coordinate-conditioned grounding. CoordRefer first selects a reference frame to define the coordinate system and then conditions 3D box prediction on the coordinate system. We perform coordinate-aware supervised fine-tuning to establish coordinate frame selection and coordinate-conditioned box regression, followed by Group Relative Policy Optimization with 3D IoU-based rewards to align both stages with downstream grounding quality. On ScanRefer with Qwen3-VL-2B, CoordRefer achieves gains of 11% in Acc@0.25 and 7% in Acc@0.5 over the coordinate-agnostic baseline, while its geometrically refined variant surpasses methods using explicit 3D inputs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-06T03:40:17Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haijie Li</name>
+    </author>
+    <author>
+      <name>Jiaxin Zhang</name>
+    </author>
+    <author>
+      <name>Dave Zhenyu Chen</name>
+    </author>
+    <author>
+      <name>Youyu Chen</name>
+    </author>
+    <author>
+      <name>Yanmin Wu</name>
+    </author>
+    <author>
+      <name>Jian Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04043v1</id>
+    <title>Tactus: Open-Vocabulary Object Recognition from Low-Cost Pressure Arrays</title>
+    <updated>2026-08-04T06:08:21Z</updated>
+    <link href="https://arxiv.org/abs/2608.04043v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04043v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Resistive pressure arrays are the cheapest and most widely shipped tactile sensors, yet tactile representation learning has concentrated on optical sensors that image a deforming gel. We present Tactus, an open model that answers text queries from pressure data alone: on the STAG benchmark (27 objects, held-out recordings), it reaches 0.771 +/- 0.062 top-1 over four runs (top-3 0.935), matching, and at best exceeding, the dataset's supervised closed-set CNN at 0.76, with no trained classifier head. The recipe is small-data: 187 training recordings, masked-autoencoder pretraining on 144k unlabeled same-sensor frames, and the sensor's own calibration affine, which recovered more accuracy than every architecture change combined. The released model's errors concentrate in a few contact-ambiguous classes, are uncorrelated with text-target geometry (Spearman rho &lt;= 0.05 over 702 class pairs), and survive paraphrased and even bare-name queries within one point; two diverse frames recover 89% of eight-frame accuracy. Failures are reported with equal precision: cross-sensor pretraining pooling gave no gain, vision co-training degraded touch, and a mis-normalized input pipeline silently discarded 97% of the sensor's dynamic range while producing plausible intermediate results. Weights, code, and the memory layer the model plugs into are released openly.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T06:08:21Z</published>
+    <arxiv:comment>6 pages, 4 figures. Weights: https://huggingface.co/EximiusLabs/fusion-embedding-2-tactus</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Abdul Basit Tonmoy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04014v1</id>
+    <title>On Hamming-Lipschitz Type Stability of the Subdominant (Minmax) Ultrametric: Theory and Simple Proofs</title>
+    <updated>2026-04-27T12:16:34Z</updated>
+    <link href="https://arxiv.org/abs/2608.04014v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04014v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The subdominant (minmax) ultrametric is a canonical tree-structured summary of a dissimilarity matrix, arising equivalently as the ultrametric induced by single-linkage clustering. While its classical stability theory is usually formulated in $\ell_\infty$ or Gromov--Hausdorff terms, such bounds are poorly suited to sparse perturbations that alter only a few pairwise distances. We develop an $\ell_0$-type stability theory for this operator. Our analysis shows that sparse edits propagate only through the minimum spanning tree (MST): a pairwise ultrametric value can change only if its tree path crosses an edited edge or a cut newly exposed by an edited off-tree edge. This yields a sharp per-edit exposed-cut score and a tree-only global envelope, leading to Hamming--Lipschitz bounds on the number of ultrametric entries that can change. We also prove sharpness results showing that this dependence on tree geometry is unavoidable: under strict cut separation the tree-edge bound is attained exactly, and for off-tree edits there are explicit families in which one edited distance changes $Θ(n^2)$ ultrametric entries. In addition, we prove a conditional near-additivity principle for multiple edits under certified large per-edit changed regions and negligible aggregate overlap. Experiments on deep-embedding graphs show that the resulting structural scores provide useful vulnerability diagnostics for hierarchical representations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-27T12:16:34Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alokendu Mazumder</name>
+    </author>
+    <author>
+      <name>Arnab Roy</name>
+    </author>
+    <author>
+      <name>Punit Rathore</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.03467v2</id>
+    <title>When Correct Solutions Repeat: Rarity-Aware Credit Redistribution for GRPO</title>
+    <updated>2026-08-05T11:58:57Z</updated>
+    <link href="https://arxiv.org/abs/2608.03467v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.03467v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning with verifiable rewards (RLVR) com- monly optimizes each correct completion as an independent learning signal. In GRPO, this completion-level uniformity creates structure-level skew: recurring correct solution forms accumulate positive coefficient mass in proportion to how often they are sampled, while rare forms receive limited credit. We formalize this behavior as multiplicity-induced structure-level credit concentration and introduce a partition- conditioned rule that redistributes positive advantages accord- ing to cluster rarity. Cue-GRPO instantiates this rule with- out auxiliary-model inference by using deterministic Strategy Cues to construct rollout-local partitions of verified-correct traces. Across Qwen2.5-Math-7B and Llama-3.1-8B-Instruct, Cue-GRPO improves AIME repeated-sampling performance, with the largest gains at high sampling budgets. Credit Re- distribution (CR) under Judge Partitions (JP) further indi- cates that the proposed redistribution mechanism can oper- ate with judge-derived partitions. Cue-GRPO adds only 6% wall-clock training overhead over GRPO. These results sup- port structure-level credit redistribution as a practical design axis for RLVR, with Strategy Cues providing a low-overhead implementation for competition mathematics. Code is avail- able at https://github.com/CzZ12/When-Correct-Solutions- Repeat-Rarity-Aware-Credit-Redistribution-for-GRPO.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T11:02:26Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhe Cao</name>
+    </author>
+    <author>
+      <name>Miaowen Wen</name>
+    </author>
+    <author>
+      <name>Fangjiong Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.00836v8</id>
+    <title>From World Models to World Action Models: A Concise Tutorial for Robotics</title>
+    <updated>2026-09-08T09:16:15Z</updated>
+    <link href="https://arxiv.org/abs/2607.00836v8" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.00836v8" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rather than providing an exhaustive survey, this paper presents a concise tutorial on world models and world action models for robotics. After reading the tutorial, readers should have a clear understanding of what constitutes a "world", how world models and world action models are defined, and what roles they play within robotic AI systems. The tutorial also develops a unified perspective for comparing representative approaches, such as World Labs' spatial intelligence models, Yann LeCun's JEPA framework, and NVIDIA's Cosmos platform, and clarifies how these models differ in their representations, predictive capabilities, and interaction mechanisms.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T11:56:54Z</published>
+    <arxiv:comment>Github page: https://github.com/clearlab-sustech/WorldModelSurvey</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Xiaoxiong Zhang</name>
+    </author>
+    <author>
+      <name>Xiong Zeng</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.23463v1</id>
+    <title>Equilibrium World Models</title>
+    <updated>2026-06-22T15:12:02Z</updated>
+    <link href="https://arxiv.org/abs/2606.23463v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.23463v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce \emph{Equilibrium World Models} (EWMs), a deep-learning method for globally solving dynamic stochastic models that feature rare disasters, binding constraints, and counterfactual states. Standard unsupervised neural-network-based solvers impose equilibrium conditions only on states generated by their own simulated policy. Their solutions can therefore be self-confirming: accurate on the simulated path, but untested off it, sensitive to initialization, and costly when expectations must be recomputed at each step. EWMs change the computational representation, not the economics. They enforce the model's exact equilibrium conditions on a broader, model-generated distribution of ordinary, rare, stressed, and counterfactual states. They carry the continuation with a learned surrogate, but certify the resulting policy strictly against the true equilibrium conditions. We provide an error decomposition, an off-path residual bound, and a convergence result linking self-confirming solutions to rational-expectations equilibria. We demonstrate EWMs through a sequence of test cases that isolate the main pathologies of classical deep-learning solvers and then scale them to richer economies. In a rare-disaster Brock--Mirman laboratory, coverage reduces disaster-region residuals by an order of magnitude. In a high-dimensional international real-business-cycle model, classical deep-learning solvers fail from all random starts, whereas EWMs converge from nearly all and evaluate continuations up to two orders of magnitude less often. When actions move transition measures, EWMs use action-conditioned continuations to recover the relevant policy margin. In a heterogeneous-agent economy with aggregate risk, EWMs compress the numerical representation of the wealth distribution by at least 25x while imposing exact full-distribution rational-expectations conditions.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-22T15:12:02Z</published>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Simon Scheidegger</name>
+    </author>
+    <author>
+      <name>Andreas Schaab</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.05278v2</id>
+    <title>Decoding Partial Differential Equations: Cross-Modal Adaptation of Decoder-only Models to PDEs</title>
+    <updated>2026-03-06T09:09:43Z</updated>
+    <link href="https://arxiv.org/abs/2510.05278v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.05278v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While large language models are primarily used on natural language tasks, they have also shown great promise when adapted to new modalities, e.g., for scientific machine learning tasks. Most proposed approaches for such cross-modal adaptation of language models focus on encoder-only transformer model architectures, despite decoder-only architectures being far more popular for language tasks in recent years, and being trained at much larger scales. This raises the question of how model architecture affects cross-modal adaptation approaches, and whether we can leverage the success of decoder-only models. In this paper, we systematically compare encoder-only and decoder-only language models on cross-modal adaptation for time-dependent simulation tasks based on partial differential equations (PDEs). We find that decoder-only models are far worse than encoder-only models, when existing approaches are applied unmodified. In contrast to several other domains, scaling decoder-only models also does not help. To enhance the performance of decoder-only models in this context, we introduce two novel approaches that mimic bidirectionality, Parallel Flipping and Sequence Doubling. Both our methods improve overall performance using decoder-only models for all tasks and all cross-modal adaptation methods, closing the gap to encoder-only model performance. We hope that our findings broaden the spectrum of models used on cross-modal adaptation tasks to further scientific machine learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-06T18:46:50Z</published>
+    <arxiv:comment>ICLR 2026 Workshop on AI and Partial Differential Equations</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Paloma García-de-Herreros</name>
+    </author>
+    <author>
+      <name>Philipp Slusallek</name>
+    </author>
+    <author>
+      <name>Dietrich Klakow</name>
+    </author>
+    <author>
+      <name>Vagrant Gautam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.06401v1</id>
+    <title>A Definition and Roadmap for World Models</title>
+    <updated>2026-07-07T15:31:32Z</updated>
+    <link href="https://arxiv.org/abs/2607.06401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.06401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World models -- internal simulators that learn the structure and dynamics of an environment -- have become one of the most actively debated concepts in AI. From model-based reinforcement learning and video generation to embodied robotics and ultimately, physical AI, researchers across AI subfields are building systems that they call "world models", yet there is no consensus on what a world model fundamentally is, what it should predict, or how it should be built. This perspective article provides a scientific definition of world models, discussions of their key technical aspects, and a staged roadmap for developing effective world models.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-07T15:31:32Z</published>
+    <arxiv:comment>Technical report, 58 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xinyuan Chen</name>
+    </author>
+    <author>
+      <name>Haoyu Guo</name>
+    </author>
+    <author>
+      <name>Shi Guo</name>
+    </author>
+    <author>
+      <name>Bingqi Jiang</name>
+    </author>
+    <author>
+      <name>Chunhua Shen</name>
+    </author>
+    <author>
+      <name>Xing Shen</name>
+    </author>
+    <author>
+      <name>Tianfan Xue</name>
+    </author>
+    <author>
+      <name>Yufei Xue</name>
+    </author>
+    <author>
+      <name>Mulin Yu</name>
+    </author>
+    <author>
+      <name>Weinan Zhang</name>
+    </author>
+    <author>
+      <name>Bin Zhao</name>
+    </author>
+    <author>
+      <name>Bowen Zhou</name>
+    </author>
+    <author>
+      <name>Ming Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.02800v4</id>
+    <title>Cosmos 3: Omnimodal World Models for Physical AI</title>
+    <updated>2026-06-23T17:33:32Z</updated>
+    <link href="https://arxiv.org/abs/2606.02800v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.02800v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Cosmos 3, a family of omnimodal world models designed to jointly process and generate language, image, video, audio, and action sequences within a unified mixture-of-transformers architecture. By supporting highly flexible input-output configurations, Cosmos 3 seamlessly unifies critical modalities for Physical AI -- effectively subsuming vision-language models, video generators, world simulators, and world-action models into a single framework. Our evaluation demonstrates that Cosmos 3 establishes a new state-of-the-art across a diverse suite of understanding and generation tasks, demonstrating omnimodal world models as scalable, general-purpose backbones for embodied agents. Our post-trained Cosmos 3 models were ranked as the best open-source Text-to-Image and Image-to-Video models by Artificial Analysis, and the best policy model by RoboArena at the time the technical report was written. To accelerate open research and deployment in Physical AI, we make our code, model checkpoints, curated synthetic datasets, and evaluation benchmark available under the Linux Foundation's OpenMDW-1.1 License at https://github.com/nvidia/cosmos and https://huggingface.co/collections/nvidia/cosmos3. The project website is available at https://research.nvidia.com/labs/cosmos-lab/cosmos3.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-01T19:12:30Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name> NVIDIA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name> Aditi</name>
+    </author>
+    <author>
+      <name>Niket Agarwal</name>
+    </author>
+    <author>
+      <name>Arslan Ali</name>
+    </author>
+    <author>
+      <name>Jon Allen</name>
+    </author>
+    <author>
+      <name>Martin Antolini</name>
+    </author>
+    <author>
+      <name>Adeline Aubame</name>
+    </author>
+    <author>
+      <name>Alisson Azzolini</name>
+    </author>
+    <author>
+      <name>Junjie Bai</name>
+    </author>
+    <author>
+      <name>Maciej Bala</name>
+    </author>
+    <author>
+      <name>Yogesh Balaji</name>
+    </author>
+    <author>
+      <name>Josh Bapst</name>
+    </author>
+    <author>
+      <name>Aarti Basant</name>
+    </author>
+    <author>
+      <name>Mukesh Beladiya</name>
+    </author>
+    <author>
+      <name>Mohammad Qazim Bhat</name>
+    </author>
+    <author>
+      <name>Zaid Pervaiz Bhat</name>
+    </author>
+    <author>
+      <name>Dan Blick</name>
+    </author>
+    <author>
+      <name>Vanni Brighella</name>
+    </author>
+    <author>
+      <name>Han Cai</name>
+    </author>
+    <author>
+      <name>Tiffany Cai</name>
+    </author>
+    <author>
+      <name>Eric Cameracci</name>
+    </author>
+    <author>
+      <name>Jiaxin Cao</name>
+    </author>
+    <author>
+      <name>Yulong Cao</name>
+    </author>
+    <author>
+      <name>Mark Carlson</name>
+    </author>
+    <author>
+      <name>Carlos Casanova</name>
+    </author>
+    <author>
+      <name>Ting-Yun Chang</name>
+    </author>
+    <author>
+      <name>Yan Chang</name>
+    </author>
+    <author>
+      <name>Yu-Wei Chao</name>
+    </author>
+    <author>
+      <name>Prithvijit Chattopadhyay</name>
+    </author>
+    <author>
+      <name>Roshan Chaudhari</name>
+    </author>
+    <author>
+      <name>Chieh-Yun Chen</name>
+    </author>
+    <author>
+      <name>Junyu Chen</name>
+    </author>
+    <author>
+      <name>Ke Chen</name>
+    </author>
+    <author>
+      <name>Qizhi Chen</name>
+    </author>
+    <author>
+      <name>Wenkai Chen</name>
+    </author>
+    <author>
+      <name>Xiaotong Chen</name>
+    </author>
+    <author>
+      <name>Yu Chen</name>
+    </author>
+    <author>
+      <name>An-Chieh Cheng</name>
+    </author>
+    <author>
+      <name>Click Cheng</name>
+    </author>
+    <author>
+      <name>Xiu Chia</name>
+    </author>
+    <author>
+      <name>Jeana Choi</name>
+    </author>
+    <author>
+      <name>Chaeyeon Chung</name>
+    </author>
+    <author>
+      <name>Wenyan Cong</name>
+    </author>
+    <author>
+      <name>Yin Cui</name>
+    </author>
+    <author>
+      <name>Magdalena Dadela</name>
+    </author>
+    <author>
+      <name>Nalin Dadhich</name>
+    </author>
+    <author>
+      <name>Wenliang Dai</name>
+    </author>
+    <author>
+      <name>Joyjit Daw</name>
+    </author>
+    <author>
+      <name>Alperen Degirmenci</name>
+    </author>
+    <author>
+      <name>Rodrigo Vieira Del Monte</name>
+    </author>
+    <author>
+      <name>Robert Denomme</name>
+    </author>
+    <author>
+      <name>Sameer Dharur</name>
+    </author>
+    <author>
+      <name>Marco Di Lucca</name>
+    </author>
+    <author>
+      <name>Ke Ding</name>
+    </author>
+    <author>
+      <name>Wenhao Ding</name>
+    </author>
+    <author>
+      <name>Yifan Ding</name>
+    </author>
+    <author>
+      <name>Yuzhu Dong</name>
+    </author>
+    <author>
+      <name>Nicole Drumheller</name>
+    </author>
+    <author>
+      <name>Yilun Du</name>
+    </author>
+    <author>
+      <name>Aigul Dzhumamuratova</name>
+    </author>
+    <author>
+      <name>Aleksandr Efitorov</name>
+    </author>
+    <author>
+      <name>Hamid Eghbalzadeh</name>
+    </author>
+    <author>
+      <name>Naomi Eigbe</name>
+    </author>
+    <author>
+      <name>Imad El Hanafi</name>
+    </author>
+    <author>
+      <name>Hassan Eslami</name>
+    </author>
+    <author>
+      <name>Benedikt Falk</name>
+    </author>
+    <author>
+      <name>Jiaojiao Fan</name>
+    </author>
+    <author>
+      <name>Jim Fan</name>
+    </author>
+    <author>
+      <name>Amol Fasale</name>
+    </author>
+    <author>
+      <name>Sergiy Fefilatyev</name>
+    </author>
+    <author>
+      <name>Liang Feng</name>
+    </author>
+    <author>
+      <name>Francesco Ferroni</name>
+    </author>
+    <author>
+      <name>Sanja Fidler</name>
+    </author>
+    <author>
+      <name>Xiao Fu</name>
+    </author>
+    <author>
+      <name>Vikram Fugro</name>
+    </author>
+    <author>
+      <name>Prashant Gaikwad</name>
+    </author>
+    <author>
+      <name>TJ Galda</name>
+    </author>
+    <author>
+      <name>Katelyn Gao</name>
+    </author>
+    <author>
+      <name>Yihuai Gao</name>
+    </author>
+    <author>
+      <name>Wenhang Ge</name>
+    </author>
+    <author>
+      <name>Sreyan Ghosh</name>
+    </author>
+    <author>
+      <name>Arushi Goel</name>
+    </author>
+    <author>
+      <name>Vivek Goel</name>
+    </author>
+    <author>
+      <name>Akash Gokul</name>
+    </author>
+    <author>
+      <name>Rama Govindaraju</name>
+    </author>
+    <author>
+      <name>Jinwei Gu</name>
+    </author>
+    <author>
+      <name>Miguel Guerrero</name>
+    </author>
+    <author>
+      <name>Elfie Guo</name>
+    </author>
+    <author>
+      <name>Aryaman Gupta</name>
+    </author>
+    <author>
+      <name>Siddharth Gururani</name>
+    </author>
+    <author>
+      <name>Hugo Hadfield</name>
+    </author>
+    <author>
+      <name>Song Han</name>
+    </author>
+    <author>
+      <name>Ankur Handa</name>
+    </author>
+    <author>
+      <name>Zekun Hao</name>
+    </author>
+    <author>
+      <name>Mohammad Harrim</name>
+    </author>
+    <author>
+      <name>Ali Hassani</name>
+    </author>
+    <author>
+      <name>Nathan Hayes-Roth</name>
+    </author>
+    <author>
+      <name>Yufan He</name>
+    </author>
+    <author>
+      <name>Chris Helvig</name>
+    </author>
+    <author>
+      <name>Cyrus Hogg</name>
+    </author>
+    <author>
+      <name>Madison Huang</name>
+    </author>
+    <author>
+      <name>Michael Huang</name>
+    </author>
+    <author>
+      <name>Sophia Huang</name>
+    </author>
+    <author>
+      <name>Yufan Huang</name>
+    </author>
+    <author>
+      <name>Jacob Huffman</name>
+    </author>
+    <author>
+      <name>DeLesley Hutchins</name>
+    </author>
+    <author>
+      <name>Suneel Indupuru</name>
+    </author>
+    <author>
+      <name>Boris Ivanovic</name>
+    </author>
+    <author>
+      <name>Arihant Jain</name>
+    </author>
+    <author>
+      <name>Joel Jang</name>
+    </author>
+    <author>
+      <name>Ryan Ji</name>
+    </author>
+    <author>
+      <name>Yanan Jian</name>
+    </author>
+    <author>
+      <name>Dongfu Jiang</name>
+    </author>
+    <author>
+      <name>Jingyi Jin</name>
+    </author>
+    <author>
+      <name>Atharva Joshi</name>
+    </author>
+    <author>
+      <name>Nikhilesh Joshi</name>
+    </author>
+    <author>
+      <name>Pranjali Joshi</name>
+    </author>
+    <author>
+      <name>Andy Ju</name>
+    </author>
+    <author>
+      <name>Jaehun Jung</name>
+    </author>
+    <author>
+      <name>Weiwei Kang</name>
+    </author>
+    <author>
+      <name>Scott Kassekert</name>
+    </author>
+    <author>
+      <name>Jan Kautz</name>
+    </author>
+    <author>
+      <name>Ashna Khetan</name>
+    </author>
+    <author>
+      <name>Julia Kiczka</name>
+    </author>
+    <author>
+      <name>Slawek Kierat</name>
+    </author>
+    <author>
+      <name>Gwanghyun Kim</name>
+    </author>
+    <author>
+      <name>Kuno Kim</name>
+    </author>
+    <author>
+      <name>Sunny Kim</name>
+    </author>
+    <author>
+      <name>Kezhi Kong</name>
+    </author>
+    <author>
+      <name>Xin Kong</name>
+    </author>
+    <author>
+      <name>Zhifeng Kong</name>
+    </author>
+    <author>
+      <name>Tomasz Kornuta</name>
+    </author>
+    <author>
+      <name>Egor Krivov</name>
+    </author>
+    <author>
+      <name>Hui Kuang</name>
+    </author>
+    <author>
+      <name>Saurav Kumar</name>
+    </author>
+    <author>
+      <name>Chia-Wen Kuo</name>
+    </author>
+    <author>
+      <name>George Kurian</name>
+    </author>
+    <author>
+      <name>Wojciech Kutak</name>
+    </author>
+    <author>
+      <name>JF Lafleche</name>
+    </author>
+    <author>
+      <name>Himangshu Lahkar</name>
+    </author>
+    <author>
+      <name>Omar Laymoun</name>
+    </author>
+    <author>
+      <name>Jayjun Lee</name>
+    </author>
+    <author>
+      <name>Sanggil Lee</name>
+    </author>
+    <author>
+      <name>Gabriele Leone</name>
+    </author>
+    <author>
+      <name>Boyi Li</name>
+    </author>
+    <author>
+      <name>Freya Li</name>
+    </author>
+    <author>
+      <name>Jiajun Li</name>
+    </author>
+    <author>
+      <name>Jinfeng Li</name>
+    </author>
+    <author>
+      <name>Ling Li</name>
+    </author>
+    <author>
+      <name>Pengcheng Li</name>
+    </author>
+    <author>
+      <name>Shangru Li</name>
+    </author>
+    <author>
+      <name>Tingle Li</name>
+    </author>
+    <author>
+      <name>Xiaolong Li</name>
+    </author>
+    <author>
+      <name>Xuan Li</name>
+    </author>
+    <author>
+      <name>Zhaoshuo Li</name>
+    </author>
+    <author>
+      <name>Zhiqi Li</name>
+    </author>
+    <author>
+      <name>Hao Liang</name>
+    </author>
+    <author>
+      <name>Maosheng Liao</name>
+    </author>
+    <author>
+      <name>Chen-Hsuan Lin</name>
+    </author>
+    <author>
+      <name>Tsung-Yi Lin</name>
+    </author>
+    <author>
+      <name>Ming-Yu Liu</name>
+    </author>
+    <author>
+      <name>Sifei Liu</name>
+    </author>
+    <author>
+      <name>Zihan Liu</name>
+    </author>
+    <author>
+      <name>Hai Loc Lu</name>
+    </author>
+    <author>
+      <name>Xiangyu Lu</name>
+    </author>
+    <author>
+      <name>Alice Luo</name>
+    </author>
+    <author>
+      <name>Ruipu Luo</name>
+    </author>
+    <author>
+      <name>Wenjie Luo</name>
+    </author>
+    <author>
+      <name>Jiangran Lyu</name>
+    </author>
+    <author>
+      <name>Martin Ding Ma</name>
+    </author>
+    <author>
+      <name>Nic Ma</name>
+    </author>
+    <author>
+      <name>Qianli Ma</name>
+    </author>
+    <author>
+      <name>Dawid Majchrowski</name>
+    </author>
+    <author>
+      <name>Louis Marcoux</name>
+    </author>
+    <author>
+      <name>Miguel Martin</name>
+    </author>
+    <author>
+      <name>Qing Miao</name>
+    </author>
+    <author>
+      <name>Ashkan Mirzaei</name>
+    </author>
+    <author>
+      <name>Shreyas Misra</name>
+    </author>
+    <author>
+      <name>Kaichun Mo</name>
+    </author>
+    <author>
+      <name>Durra Mohsin</name>
+    </author>
+    <author>
+      <name>Hyejin Moon</name>
+    </author>
+    <author>
+      <name>Pawel Morkisz</name>
+    </author>
+    <author>
+      <name>Saeid Motiian</name>
+    </author>
+    <author>
+      <name>Kirill Motkov</name>
+    </author>
+    <author>
+      <name>Seungjun Nah</name>
+    </author>
+    <author>
+      <name>Yashraj Narang</name>
+    </author>
+    <author>
+      <name>Deepak Narayanan</name>
+    </author>
+    <author>
+      <name>Thabang Ngazimbi</name>
+    </author>
+    <author>
+      <name>Julian Ouyang</name>
+    </author>
+    <author>
+      <name>Shubham Pachori</name>
+    </author>
+    <author>
+      <name>David Page</name>
+    </author>
+    <author>
+      <name>Yatian Pang</name>
+    </author>
+    <author>
+      <name>Sehwi Park</name>
+    </author>
+    <author>
+      <name>Mahesh Patekar</name>
+    </author>
+    <author>
+      <name>Mostofa Patwary</name>
+    </author>
+    <author>
+      <name>Marco Pavone</name>
+    </author>
+    <author>
+      <name>Trung Pham</name>
+    </author>
+    <author>
+      <name>Wei Ping</name>
+    </author>
+    <author>
+      <name>Soha Pouya</name>
+    </author>
+    <author>
+      <name>Shrimai Prabhumoye</name>
+    </author>
+    <author>
+      <name>Varun Praveen</name>
+    </author>
+    <author>
+      <name>Delin Qu</name>
+    </author>
+    <author>
+      <name>Hesam Rabeti</name>
+    </author>
+    <author>
+      <name>Morteza Ramezanali</name>
+    </author>
+    <author>
+      <name>Marilyn Reeb</name>
+    </author>
+    <author>
+      <name>Xuanchi Ren</name>
+    </author>
+    <author>
+      <name>Kristen Rumley</name>
+    </author>
+    <author>
+      <name>Wojciech Rymer</name>
+    </author>
+    <author>
+      <name>Jun Saito</name>
+    </author>
+    <author>
+      <name>Yeongho Seol</name>
+    </author>
+    <author>
+      <name>John Shao</name>
+    </author>
+    <author>
+      <name>Piyush Shekdar</name>
+    </author>
+    <author>
+      <name>Tianwei Shen</name>
+    </author>
+    <author>
+      <name>Humphrey Shi</name>
+    </author>
+    <author>
+      <name>Min Shi</name>
+    </author>
+    <author>
+      <name>Stella Shi</name>
+    </author>
+    <author>
+      <name>Kevin Shih</name>
+    </author>
+    <author>
+      <name>Mohammad Shoeybi</name>
+    </author>
+    <author>
+      <name>Mateusz Sieniawski</name>
+    </author>
+    <author>
+      <name>Shuran Song</name>
+    </author>
+    <author>
+      <name>Alexander Sotelo</name>
+    </author>
+    <author>
+      <name>Amir Sotoodeh</name>
+    </author>
+    <author>
+      <name>Sunil Srinivasa</name>
+    </author>
+    <author>
+      <name>Vignesh Srinivasakumar</name>
+    </author>
+    <author>
+      <name>Bartosz Stefaniak</name>
+    </author>
+    <author>
+      <name>Rahul Heinrich Steiger</name>
+    </author>
+    <author>
+      <name>Shangkun Sun</name>
+    </author>
+    <author>
+      <name>Jiaxiang Tang</name>
+    </author>
+    <author>
+      <name>Shitao Tang</name>
+    </author>
+    <author>
+      <name>Yangyang Tang</name>
+    </author>
+    <author>
+      <name>Yue Tang</name>
+    </author>
+    <author>
+      <name>Tolou Tavakkoli</name>
+    </author>
+    <author>
+      <name>Kayley Ting</name>
+    </author>
+    <author>
+      <name>Krzysztof Tomala</name>
+    </author>
+    <author>
+      <name>Wei-Cheng Tseng</name>
+    </author>
+    <author>
+      <name>Jibin Varghese</name>
+    </author>
+    <author>
+      <name>Sergei Vasilev</name>
+    </author>
+    <author>
+      <name>Thomas Volk</name>
+    </author>
+    <author>
+      <name>Raju Wagwani</name>
+    </author>
+    <author>
+      <name>Roger Waleffe</name>
+    </author>
+    <author>
+      <name>Andrew Z. Wang</name>
+    </author>
+    <author>
+      <name>Boxiang Wang</name>
+    </author>
+    <author>
+      <name>Haoxiang Wang</name>
+    </author>
+    <author>
+      <name>Qiao Wang</name>
+    </author>
+    <author>
+      <name>Shihao Wang</name>
+    </author>
+    <author>
+      <name>Shijie Wang</name>
+    </author>
+    <author>
+      <name>Ting-Chun Wang</name>
+    </author>
+    <author>
+      <name>Yan Wang</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Rohit Watve</name>
+    </author>
+    <author>
+      <name>David Wehr</name>
+    </author>
+    <author>
+      <name>Fangyin Wei</name>
+    </author>
+    <author>
+      <name>Xinshuo Weng</name>
+    </author>
+    <author>
+      <name>Jay Zhangjie Wu</name>
+    </author>
+    <author>
+      <name>Kedi Wu</name>
+    </author>
+    <author>
+      <name>Hongchi Xia</name>
+    </author>
+    <author>
+      <name>Summer Xiao</name>
+    </author>
+    <author>
+      <name>Tianjun Xiao</name>
+    </author>
+    <author>
+      <name>Kevin Xie</name>
+    </author>
+    <author>
+      <name>Daguang Xu</name>
+    </author>
+    <author>
+      <name>Jiashu Xu</name>
+    </author>
+    <author>
+      <name>Mengyao Xu</name>
+    </author>
+    <author>
+      <name>Ruqing Xu</name>
+    </author>
+    <author>
+      <name>Xingqian Xu</name>
+    </author>
+    <author>
+      <name>Yao Xu</name>
+    </author>
+    <author>
+      <name>Dinghao Yang</name>
+    </author>
+    <author>
+      <name>Dong Yang</name>
+    </author>
+    <author>
+      <name>Hans Yang</name>
+    </author>
+    <author>
+      <name>Xiaodong Yang</name>
+    </author>
+    <author>
+      <name>Xuning Yang</name>
+    </author>
+    <author>
+      <name>Yichu Yang</name>
+    </author>
+    <author>
+      <name>Yurong You</name>
+    </author>
+    <author>
+      <name>Zhiding Yu</name>
+    </author>
+    <author>
+      <name>Hao Yuan</name>
+    </author>
+    <author>
+      <name>Simon Yuen</name>
+    </author>
+    <author>
+      <name>Xiaohui Zeng</name>
+    </author>
+    <author>
+      <name>Pengcuo Zeren</name>
+    </author>
+    <author>
+      <name>Cindy Zha</name>
+    </author>
+    <author>
+      <name>Haotian Zhang</name>
+    </author>
+    <author>
+      <name>Jenny Zhang</name>
+    </author>
+    <author>
+      <name>Jing Zhang</name>
+    </author>
+    <author>
+      <name>Liangkai Zhang</name>
+    </author>
+    <author>
+      <name>Paris Zhang</name>
+    </author>
+    <author>
+      <name>Shun Zhang</name>
+    </author>
+    <author>
+      <name>Xuanmeng Zhang</name>
+    </author>
+    <author>
+      <name>Zhizheng Zhang</name>
+    </author>
+    <author>
+      <name>Ann Zhao</name>
+    </author>
+    <author>
+      <name>Yilin Zhao</name>
+    </author>
+    <author>
+      <name>Yuliya Zhautouskaya</name>
+    </author>
+    <author>
+      <name>Charles Zhou</name>
+    </author>
+    <author>
+      <name>Fengzhe Zhou</name>
+    </author>
+    <author>
+      <name>Shilin Zhu</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Dima Zhylko</name>
+    </author>
+    <author>
+      <name>Artur Zolkowski</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,15 @@
+{
+  "paper": "2605.00080v1",
+  "source": "raw/arxiv/2605.00080v1.xml",
+  "questions": [
+    "world-model-planning"
+  ],
+  "state": "pending",
+  "attempts": 0,
+  "max_attempts": 2,
+  "owner": null,
+  "independent_review_required": false,
+  "artifact": null,
+  "review_report": null,
+  "next_step": "按需撰写解读；重要结论交独立核查，动态发布不等待本任务。"
+}

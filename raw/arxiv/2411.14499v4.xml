@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JeA6ykEiiWXah7JD8q6y6M5xc+o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2411.14499&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:10:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2411.14499" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.14499v4</id>
+    <title>Understanding World or Predicting Future? A Comprehensive Survey of World Models</title>
+    <updated>2025-12-10T02:53:14Z</updated>
+    <link href="https://arxiv.org/abs/2411.14499v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.14499v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The concept of world models has garnered significant attention due to advancements in multimodal large language models such as GPT-4 and video generation models such as Sora, which are central to the pursuit of artificial general intelligence. This survey offers a comprehensive review of the literature on world models. Generally, world models are regarded as tools for either understanding the present state of the world or predicting its future dynamics. This review presents a systematic categorization of world models, emphasizing two primary functions: (1) constructing internal representations to understand the mechanisms of the world, and (2) predicting future states to simulate and guide decision-making. Initially, we examine the current progress in these two categories. We then explore the application of world models in key domains, including generative games, autonomous driving, robotics, and social simulacra, with a focus on how each domain utilizes these aspects. Finally, we outline key challenges and provide insights into potential future research directions. We summarize the representative papers along with their code repositories in https://github.com/tsinghua-fib-lab/World-Model.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-21T03:58:50Z</published>
+    <arxiv:comment>Extended version of the original ACM CSUR paper, 49 pages, 6 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jingtao Ding</name>
+    </author>
+    <author>
+      <name>Yunke Zhang</name>
+    </author>
+    <author>
+      <name>Yu Shang</name>
+    </author>
+    <author>
+      <name>Jie Feng</name>
+    </author>
+    <author>
+      <name>Yuheng Zhang</name>
+    </author>
+    <author>
+      <name>Zefang Zong</name>
+    </author>
+    <author>
+      <name>Yuan Yuan</name>
+    </author>
+    <author>
+      <name>Hongyuan Su</name>
+    </author>
+    <author>
+      <name>Nian Li</name>
+    </author>
+    <author>
+      <name>Jinghua Piao</name>
+    </author>
+    <author>
+      <name>Yucheng Deng</name>
+    </author>
+    <author>
+      <name>Nicholas Sukiennik</name>
+    </author>
+    <author>
+      <name>Chen Gao</name>
+    </author>
+    <author>
+      <name>Fengli Xu</name>
+    </author>
+    <author>
+      <name>Yong Li</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/emeHxj9wgolIH5XzESKEdoD297Q</id>
+  <title>arXiv Query: search_query=&amp;id_list=2608.07075,2607.11689,2607.10655,2607.13017,2607.13033,2608.08097,2608.07009,2608.09907,2608.01526,2604.07609,2608.02989,2606.26607,2607.18141,2609.11842,2609.11801,2609.11917,2609.11918,2609.11873,2609.11884,2609.11538&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:12:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2608.07075,2607.11689,2607.10655,2607.13017,2607.13033,2608.08097,2608.07009,2608.09907,2608.01526,2604.07609,2608.02989,2606.26607,2607.18141,2609.11842,2609.11801,2609.11917,2609.11918,2609.11873,2609.11884,2609.11538" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2606.26607v1</id>
+    <title>Moebius: Serving Mixture-of-Expert Models with Seamless Runtime Parallelism Switch</title>
+    <updated>2026-06-25T05:10:20Z</updated>
+    <link href="https://arxiv.org/abs/2606.26607v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.26607v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixture-of-Experts (MoE) architectures scale large language models (LLMs) to hundreds of billions of parameters. Serving a single MoE model requires multiple GPUs operating in parallel, typically through tensor parallelism (TP) or expert parallelism (EP). The optimal choice depends on the number of in-flight requests: TP is faster at low concurrency, whereas EP wins at high concurrency. Production workloads cross this boundary continually: online serving sees bursty arrivals that subside into quiet periods, and reinforcement-learning rollouts begin as a high-concurrency burst that decays into a long tail of stragglers. Pinning either layout therefore forfeits performance when the workload crosses to the other side.
+  We present Moebius, a serving system that switches between EP and TP at runtime without restarting the engine or dropping in-flight requests. Our key insight is that EP and TP are two layouts of one model, not two models: they compute the same function over byte-identical expert weights and KV cache, so a switch changes only which rank owns each slice. Moving those owner-changed slices is the sole irreducible cost, and modern high-bandwidth GPU interconnects make it fast enough to do between decode steps without draining in-flight requests. Moebius preserves each parallelism's runtime resident, and reshards the single copy of expert weights and KV cache at fixed addresses with fused GPU-to-GPU transfer kernels. On 8x H200 GPUs serving Qwen3-235B-A22B, Moebius matches the better static parallelism at every operating point, and beats it on RL rollouts by 1.16-1.25x across steps. Each switch completes in 215-434 ms, and Moebius holds both layouts resident with only 2.4% memory overhead.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-25T05:10:20Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Shaoyu Wang</name>
+    </author>
+    <author>
+      <name>Yizhuo Liang</name>
+    </author>
+    <author>
+      <name>Jaeyong Song</name>
+    </author>
+    <author>
+      <name>Chong Li</name>
+    </author>
+    <author>
+      <name>Seo Jin Park</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11917v1</id>
+    <title>Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data</title>
+    <updated>2026-09-10T17:57:33Z</updated>
+    <link href="https://arxiv.org/abs/2609.11917v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11917v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the supply of human-written text is exhausted, it has become standard practice to repeat language model training data. Prior work has studied data repetition for densely activated Transformers, but the effects of data repetition remains largely unexplored for recently dominant sparse architectures such as Mixture-of-Experts (MoE), despite their increased compute efficiency. We vary data repetition rates across single- and multi-domain data mixes, and across MoE settings, including expert count and granularity. We consistently find, for models ranging from 80M to 1B active (8.5B total) parameters, that MoEs degrade more rapidly under data repetition. This effect increases with sparsity, dictated by total rather than active parameters. While 80M dense models can repeat data over 8x with minimal degradation, MoEs instead begin to suffer at 4x, and deteriorate rapidly, ceding their performance benefits in all-unique data settings to underperform dense models after 32x. We experiment with existing regularization methods as a potential remedy. We find that some methods, such as dropout, can mitigate overfitting. In particular, with strong masking-based regularization, MoEs are able to outperform dense models even when data is repeated more than 64 times. However, no method fully matches the performance of all-unique training data. Finally, we analyze internal mechanisms correlated with MoE overfitting in high repetition regimes, and find that MoE routing universally stabilizes early in training, and that expert specialization correlates with overfitting to repeated data. In sum, our work addresses the adverse interactions between sparsity and data repetition: we present evidence for the core mechanisms of overfitting and its potential remediation, and suggest promising avenues for future methods to reduce over-specialization in model parameters by disrupting memorization patterns.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T17:57:33Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Atindra Jha</name>
+    </author>
+    <author>
+      <name>Margaret Li</name>
+    </author>
+    <author>
+      <name>Jure Leskovec</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Luke Zettlemoyer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11873v3</id>
+    <title>The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement</title>
+    <updated>2026-09-22T12:08:36Z</updated>
+    <link href="https://arxiv.org/abs/2609.11873v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11873v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improve both their capabilities and the process of future improvement. We first use the Headroom-Closed Index (HCI) to reveal the problems of existing LLMs, then introduce the RSI concept and its development roadmap: from improvement-execution autonomy, improvement-strategy autonomy, experience-acquisition autonomy, and environment-adaptation autonomy, to recursive meta-improvement. Next we examine RSI across scenarios (e.g., scientific discovery, embodied intelligence, software engineering), highlighting their distinct requirements and development speeds. Drawing on diverse industry practices and preliminary empirical evidence, we connect RSI research with practical systems and identify key challenges to achieving genuine RSI.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T17:44:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yi Duan</name>
+    </author>
+    <author>
+      <name>Ying Liu</name>
+    </author>
+    <author>
+      <name>Zirui Tang</name>
+    </author>
+    <author>
+      <name>Haodong Chen</name>
+    </author>
+    <author>
+      <name>Jun Zhou</name>
+    </author>
+    <author>
+      <name>Yumou Liu</name>
+    </author>
+    <author>
+      <name>Bangrui Xu</name>
+    </author>
+    <author>
+      <name>Yukai Wu</name>
+    </author>
+    <author>
+      <name>Sidi Chen</name>
+    </author>
+    <author>
+      <name>Yuhan Zhou</name>
+    </author>
+    <author>
+      <name>Haoyu Wang</name>
+    </author>
+    <author>
+      <name>Xiaoyou Yu</name>
+    </author>
+    <author>
+      <name>Shaokun Han</name>
+    </author>
+    <author>
+      <name>Xuzhou Zhu</name>
+    </author>
+    <author>
+      <name>Le Zhou</name>
+    </author>
+    <author>
+      <name>Bolin Lu</name>
+    </author>
+    <author>
+      <name>Wei Zhou</name>
+    </author>
+    <author>
+      <name>Jiachen Liu</name>
+    </author>
+    <author>
+      <name>Nuozhou Fang</name>
+    </author>
+    <author>
+      <name>Jiaxin Tian</name>
+    </author>
+    <author>
+      <name>Ruoyu Chen</name>
+    </author>
+    <author>
+      <name>Yuxuan Li</name>
+    </author>
+    <author>
+      <name>Kai Zuo</name>
+    </author>
+    <author>
+      <name>Kaiyan Zhang</name>
+    </author>
+    <author>
+      <name>Qianyu Yang</name>
+    </author>
+    <author>
+      <name>Zijie Wang</name>
+    </author>
+    <author>
+      <name>Jiantao Qiu</name>
+    </author>
+    <author>
+      <name>Conghui He</name>
+    </author>
+    <author>
+      <name>Guoliang Li</name>
+    </author>
+    <author>
+      <name>Bowen Zhou</name>
+    </author>
+    <author>
+      <name>Zhiyuan Liu</name>
+    </author>
+    <author>
+      <name>Zhoufutu Wen</name>
+    </author>
+    <author>
+      <name>Jihua Kang</name>
+    </author>
+    <author>
+      <name>Xuanhe Zhou</name>
+    </author>
+    <author>
+      <name>Fan Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.07075v1</id>
+    <title>Detection and Ranging of Transient Extrinsic Contacts Based on 6D Dynamic Tactile Sensing</title>
+    <updated>2026-08-07T10:27:37Z</updated>
+    <link href="https://arxiv.org/abs/2608.07075v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.07075v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Delicate manipulation often involves transient and subtle collisions between a grasped object and the environment. While the human hand localizes these contacts effortlessly thanks to superior tactile sensitivity, robotic systems often lack the requisite resolution to acquire the information necessary for motion planning, resulting in clumsy manipulation or even task failure. Here, we propose transient extrinsic contact detection and ranging (TECDAR), a simple yet fast and efficient method for detecting and ranging extrinsic contact of grasped objects. Our design of gripper tips employs dynamic tactile sensing leveraging a single 2.5$\times$3 mm 6D inertial measurement unit. The sensor captures sub-millisecond tip deformations at a 7 kHz sampling rate, but operating on a data stream of only 84 KB/s. High bandwidth and compact data size enable the system to rapidly detect and localize contact between grasped objects and their surroundings. Specifically, fusing tactile data with robot pose via an extended Kalman filter enables fast and precise localization of extrinsic contact, reaching millimeter-level accuracy within 180 ms. Experimental results demonstrate that the system achieves an average localization accuracy of approximately 7\,mm in both line-contact and point-contact localization tasks. Furthermore, this near-instantaneous localization enables the robot to rectify its trajectory on a millisecond scale, facilitating precise tool manipulation and enhanced perception of complex environments purely through tactile exploration and mapping. We envision such techniques advancing the future of robotics across domains requiring delicate manipulation, including precision assembly, surgical assistance, and autonomous exploration in touch-dominant environments. Project page: humitlab.github.io/TECDAR/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-07T10:27:37Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Haowen Zheng</name>
+    </author>
+    <author>
+      <name>Yinghao Wu</name>
+    </author>
+    <author>
+      <name>Fuyuan Liu</name>
+    </author>
+    <author>
+      <name>Yichen Li</name>
+    </author>
+    <author>
+      <name>Yitian Shao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11538v1</id>
+    <title>Particle GFlowNets: Rethinking Generative Marginalization Models</title>
+    <updated>2026-09-10T13:37:28Z</updated>
+    <link href="https://arxiv.org/abs/2609.11538v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11538v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative Marginalization Models (MaMs) have been recently introduced as efficient neural sampling models for any-order autoregressive modelling of discrete distributions. By learning both the marginal and conditional probabilities of a persistent-block Gibbs sampler, MaMs enable fast posterior evaluation with a single neural network forward pass. While prior work has considered MaMs to be distinct from Generative Flow Networks (GFlowNets), a well-established paradigm for inference in discrete stochastic models, we show that they are equivalent. Then, we also extend MaMs' sampling strategy to non-autoregressive generative processes. In particular, we describe an automatic criterion for full-state rejuvenation of the Gibbs sampler, derived from the Gelman-Rubin statistic, which plays a key role in speeding up learning convergence. Our experiments show that our method, called Particle GFlowNets, markedly accelerates training in large combinatorial spaces.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T13:37:28Z</published>
+    <arxiv:comment>Accepted at UAI 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tiago da Silva</name>
+    </author>
+    <author>
+      <name>Diego Mesquita</name>
+    </author>
+    <author>
+      <name>Salem Lahlou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.07609v1</id>
+    <title>Blink: CPU-Free LLM Inference by Delegating the Serving Stack to GPU and SmartNIC</title>
+    <updated>2026-04-08T21:27:47Z</updated>
+    <link href="https://arxiv.org/abs/2604.07609v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.07609v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) inference is rapidly becoming a core datacenter service, yet current serving stacks keep the host CPU on the critical path for orchestration and token-level control. This makes LLM performance sensitive to CPU interference, undermining application colocation and forcing operators to reserve CPU headroom, leaving substantial capacity unutilized.
+  We introduce Blink, an end-to-end serving architecture that removes the host CPU from the steady-state inference path by redistributing responsibilities across a SmartNIC and a GPU. Blink offloads request handling to the SmartNIC, which delivers inputs directly into GPU memory via RDMA, and replaces host-driven scheduling with a persistent GPU kernel that performs batching, scheduling, and KV-cache management without CPU involvement.
+  Evaluated against TensorRT-LLM, vLLM, and SGLang, Blink outperforms all baselines even in isolation, reducing pre-saturation P99 TTFT by up to 8.47$\times$ and P99 TPOT by up to 3.40$\times$, improving decode throughput by up to 2.1$\times$, and reducing energy per token by up to 48.6$\%$. Under CPU interference, Blink maintains stable performance, while existing systems degrade by up to two orders of magnitude.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-08T21:27:47Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Mohammad Siavashi</name>
+    </author>
+    <author>
+      <name>Mariano Scazzariello</name>
+    </author>
+    <author>
+      <name>Gerald Q. Maguire</name>
+    </author>
+    <author>
+      <name>Dejan Kostić</name>
+    </author>
+    <author>
+      <name>Marco Chiesa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.13033v1</id>
+    <title>DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation</title>
+    <updated>2026-07-14T17:59:29Z</updated>
+    <link href="https://arxiv.org/abs/2607.13033v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.13033v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning holds great promise for improving robot policies beyond the limits of imitation learning. However, its practical adoption remains bottlenecked by the lack of reliable vision-language reward models that provide dense and informative feedback. Two key challenges remain: acquiring diverse failure data at scale and obtaining fine-grained reward signals beyond sparse trajectory-level success labels. Collecting failure trajectories typically requires laborious human effort, while pseudo-failures constructed by relabeling successful demonstrations fail to capture the diverse physical failure modes that arise during robot execution. Meanwhile, existing reward models often predict sparse binary or trajectory-level rewards, which provide limited guidance for efficient policy optimization. We introduce DenseReward, a dense robotic reward model that addresses both challenges. To train DenseReward, we develop an automated failure data generation pipeline that synthesizes physically realistic failure trajectories in simulation without human labeling, covering diverse failure modes such as collisions, missed grasps, object drops, and recovery behaviors. DenseReward predicts dense frame-level reward scores from visual observations and language instructions, enabling fine-grained estimation of task progress throughout an episode. Experiments show that DenseReward outperforms general-purpose VLMs and existing robotic reward models in dense reward prediction across both simulated and real-world manipulation. We further demonstrate that DenseReward provides effective reward guidance for downstream model predictive control and reinforcement learning. We release the dataset, trained reward models, and evaluation suite to support the development of failure-aware dense reward modeling for robot learning.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-14T17:59:29Z</published>
+    <arxiv:comment>Website: https://dense-reward.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yu Fang</name>
+    </author>
+    <author>
+      <name>Wanxi Dong</name>
+    </author>
+    <author>
+      <name>Jiaqi Liu</name>
+    </author>
+    <author>
+      <name>Yue Yang</name>
+    </author>
+    <author>
+      <name>Mingxiao Huo</name>
+    </author>
+    <author>
+      <name>Yao Mu</name>
+    </author>
+    <author>
+      <name>Huaxiu Yao</name>
+    </author>
+    <author>
+      <name>Li Erran Li</name>
+    </author>
+    <author>
+      <name>Daniel Szafir</name>
+    </author>
+    <author>
+      <name>Mingyu Ding</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11801v1</id>
+    <title>Thinking with Looped Flows</title>
+    <updated>2026-09-10T16:52:54Z</updated>
+    <link href="https://arxiv.org/abs/2609.11801v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11801v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans and machines often solve harder problems by spending more time on computation. In deep learning, looped models implement this idea during inference by recurrently updating a hidden state. In practice, however, their training backpropagates through only one or a few updates, making it hard to train early updates to support future ones. We propose looped flows, an approach that sidesteps this issue by training the recurrence with local denoising objectives. By imposing temporal association across denoising objectives through progressively decreasing noise levels and shared noise, the model is incentivized to learn recurrent states that transfer useful computation over time, even when gradients cover only a few updates. We then formulate inference as integrating the velocity of a probability flow parameterized by the learned denoiser, coupled with recurrent states. This allows solving harder problems by spending more computation through a finer temporal grid and enables multiple valid predictions from different initial noise samples. Across six reasoning benchmarks including two multi-solution benchmarks, looped flows outperform prior state-of-the-art looped models overall, achieving 58.8% test accuracy on ARC-AGI-1 and 12.2% on ARC-AGI-2.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T16:52:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ayhan Suleymanzade</name>
+    </author>
+    <author>
+      <name>Chanhyuk Lee</name>
+    </author>
+    <author>
+      <name>Floor Eijkelboom</name>
+    </author>
+    <author>
+      <name>Nicholas M. Boffi</name>
+    </author>
+    <author>
+      <name>İsmail İlkan Ceylan</name>
+    </author>
+    <author>
+      <name>Jinwoo Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.10655v2</id>
+    <title>Artificial Foveated Perception for Mitigating Shortcut Learning in Robotic Foundation Models</title>
+    <updated>2026-09-07T23:59:05Z</updated>
+    <link href="https://arxiv.org/abs/2607.10655v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.10655v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robotic foundation models still need task-specific fine-tuning before deployment, and the fine-tuned policies often break under modest changes in scene layout, lighting, or nearby distractors. We trace this brittleness to \textit{shortcut learning}: fine-tuning supervises actions but not the visual evidence the policy uses, so the policy can settle on scene-level correlations that predict the demonstrations without causing success. We propose Artificial Foveated Perception (AFP), a lightweight, policy-agnostic module that takes the same vision and language inputs as existing Vision-Language-Action and World Action Model pipelines and predicts task-conditioned masks over the relevant objects, the robot, and other action-critical regions. During fine-tuning the masks serve as an auxiliary grounding signal that aligns the policy's visual attention with task-relevant regions; the policy architecture is unchanged, and at inference the policy runs on the original observation stream with no AFP call in the control loop. In simulation with four robotic foundation models and on a real robot with $π_{0.5}$, AFP improves generalization under environmental perturbations, reduces overfitting, and shortens fine-tuning. Ablations over mask quality and grounding-loss design show that these gains come from directing policy learning toward task-relevant visual evidence. Code, data, and videos are available at https://apollo-lab-yale.github.io/26-CoRL-AFP-website/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-12T08:42:36Z</published>
+    <arxiv:comment>Accepted to CoRL 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Xiatao Sun</name>
+    </author>
+    <author>
+      <name>Yuan Zhuang</name>
+    </author>
+    <author>
+      <name>Mateo Sanchez Lopez Negrete</name>
+    </author>
+    <author>
+      <name>Matei-Victor Coldea</name>
+    </author>
+    <author>
+      <name>Chen Liang</name>
+    </author>
+    <author>
+      <name>Haoyang Zhang</name>
+    </author>
+    <author>
+      <name>Che Liu</name>
+    </author>
+    <author>
+      <name>Ziyao Zeng</name>
+    </author>
+    <author>
+      <name>Shawn Li</name>
+    </author>
+    <author>
+      <name>Qian Wang</name>
+    </author>
+    <author>
+      <name>Fei Miao</name>
+    </author>
+    <author>
+      <name>Daniel Rakita</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.07009v1</id>
+    <title>HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management</title>
+    <updated>2026-08-07T09:22:17Z</updated>
+    <link href="https://arxiv.org/abs/2608.07009v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.07009v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Top-k sparse attention makes long-context LLM decoding cheap to compute: each step reads only a few thousand selected KV entries rather than the full context. Serving systems, however, typically keep the entire KV cache in GPU HBM so that every position stays selectable, so a request's memory bill still grows with its full context length--decoding hits a capacity wall long before it runs out of compute, and a context whose KV cache exceeds HBM cannot be served at all. We present HiSparse, an exact, indexer-agnostic hierarchical KV cache for sparse-attention serving. HiSparse keeps each request's full KV history in host memory and bounds its decode footprint with a small, fixed-size GPU cache; a fused CUDA kernel resolves each layer's selections--hit detection, LRU replacement, and host-to-device fetches--inside the decode CUDA graph; and, for models that share selections across layers, exact layer-wise prefetching hides roughly half of the remaining miss overhead. Because only KV placement changes, model outputs are unchanged. HiSparse is merged into upstream SGLang and evaluated across three sparse-attention families (DSA, NSA, and Quest) on H200, B200, and GH200 platforms: it improves peak generation throughput by up to 4.7x on long-context workloads while preserving comparable per-token latency and reducing time-to-first-token at high load--and a no-IO oracle shows the resolution mechanism itself adds no measurable per-token cost, leaving host-device IO as the only price of bounded residency.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-07T09:22:17Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Zhiqiang Xie</name>
+    </author>
+    <author>
+      <name>Zhangheng Huang</name>
+    </author>
+    <author>
+      <name>Tingwei Huang</name>
+    </author>
+    <author>
+      <name>Ziyi Xu</name>
+    </author>
+    <author>
+      <name>Ruiyang Ma</name>
+    </author>
+    <author>
+      <name>Christos Kozyrakis</name>
+    </author>
+  </entry>
+</feed>

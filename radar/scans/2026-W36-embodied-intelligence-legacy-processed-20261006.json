@@ -1,0 +1,302 @@
+{
+  "input_sha256": "b3bf15c255caaeeff81489648f044ccb659d50b9f3343291c419090e37c06cc0",
+  "batch": {
+    "schema_version": 1,
+    "scan_id": "2026-W36-embodied-intelligence-legacy-processed-20261006",
+    "scanned_at": "2026-08-30T09:22:00.677779+08:00",
+    "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+    "papers": [
+      {
+        "arxiv_id": "2608.06375",
+        "summary": "历史周报补处理条目：ω-0 (arXiv:2608.06375, 8月) — 人形机器人终于能「边走路边干活」了。问题/方法/证据：不重建未来视频，而是学习**紧凑的未来观测embedding**作为轻量世界模型信号局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这是人形机器人从「能走」和「能抓」进化到「边走路边抓」的关键一步。之前的策略大多是分阶段（先走→停→操作→再走），ω-0证明了端到端并发控制的可行性。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": [
+          "world-model-planning",
+          "human-video-transfer"
+        ]
+      },
+      {
+        "arxiv_id": "2608.08237",
+        "summary": "历史周报补处理条目：TrAct (arXiv:2608.08237, 8月25日) — 用「视觉轨迹」桥接控制和预测。问题/方法/证据：关键词 : 视觉轨迹 · 中间表征 · VLA增强 · 闭环控制 TrAct提出用 视觉轨迹（visual tracks） 作为控制和视觉预测之间的中间接口。传统VLA直接从像素输出动作，容易受到视觉干扰；TrAct先提取场景中的视觉轨迹（特征点在时间上的运动路径），再基于轨迹做控制和未来帧预测。 效果 : LIBERO INTEGRAL长程操作任务上显著提升 真实Franka机器人验证 视觉轨迹作为中间表征，天然支持 闭环重规划 为什么重要 : VLA的一个核心痛点是「开环执行」——一旦开始执行就难以根据视觉反馈调整。TrAct用视觉轨迹作为可解释的 intermediate representation，让控制策略具备了闭环修正能力。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：VLA的一个核心痛点是「开环执行」——一旦开始执行就难以根据视觉反馈调整。TrAct用视觉轨迹作为可解释的 intermediate representation，让控制策略具备了闭环修正能力。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": [
+          "world-model-planning",
+          "robot-deployment"
+        ]
+      },
+      {
+        "arxiv_id": "2608.07889",
+        "summary": "历史周报补处理条目：HBVLA (arXiv:2608.07889, 8月20日) — VLA的「1-bit瘦身」方案。问题/方法/证据：关键词 : 1 bit量化 · 后训练 · 边缘部署 · 资源受限机器人 HBVLA（Highly Binarized VLA）提出了 1 bit后训练量化 方案，让大型VLA模型能在资源受限的机器人平台上实时运行。不需要从头训练，直接在预训练VLA上施加1 bit权重量化，配合专门的校准策略保持性能。 为什么重要 : 当前VLA模型越来越大（π0、GR00T N1等），边缘部署成为瓶颈。HBVLA证明即使是极端的1 bit压缩，通过精心设计的后训练校准，仍能在操作任务上保持可用性能。这对消费级机器人产品的落地意义重大。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：当前VLA模型越来越大（π0、GR00T N1等），边缘部署成为瓶颈。HBVLA证明即使是极端的1-bit压缩，通过精心设计的后训练校准，仍能在操作任务上保持可用性能。这对消费级机器人产品的落地意义重大。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2608.07065",
+        "summary": "历史周报补处理条目：AutoIntervene (arXiv:2608.07065, 8月17日) — Action Chunk策略的「智能接管」。问题/方法/证据：关键词 : 人机协作 · Action Chunking · DAgger · 双向接管 悉尼大学PAIR Lab和范德堡大学的工作。Action chunking策略（如ACT、Diffusion Policy）在执行一个动作块时通常无法被安全中断。AutoIntervene提供了 在线、双向、分位数校准 的人机控制权切换： Phase local切入 ：在动作块执行中随时接管 Global交回 ：操作员完成干预后自动把控制权交还给策略 干预片段自动变成下一轮监督数据 效果 : 9项真机双臂任务，R2平均成功率80%，操作员干预时间低于完全人工接管和追加全演示。 为什么重要 : 这是机器人部署中「人在回路」（human in the loop）的关键技术。Action chunking虽然提升了流畅性，但牺牲局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这是机器人部署中「人在回路」（human-in-the-loop）的关键技术。Action-chunking虽然提升了流畅性，但牺牲了可干预性。AutoIntervene在两者间找到了平衡。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2608.06004",
+        "summary": "历史周报补处理条目：The Embodiment Gap (arXiv:2608.06004, 8月19日) — 机器人基础模型的「本体鸿沟」有多大？。问题/方法/证据：关键词 : 跨本体泛化 · 基准测试 · 表征分析 · Robot Foundation Model 这篇工作系统性地测量了当前Robot Foundation Models在不同机器人本体（单臂→双臂→人形）之间的 迁移鸿沟 。发现： 视觉表征的迁移性远好于动作表征 动作空间的维度差异是跨本体泛化的最大瓶颈 当前SOTA模型在跨本体任务上性能下降30 60% 为什么重要 : 行业正在追捧「通用机器人大脑」的概念，但这篇工作泼了一盆冷水——本体之间的物理差异（自由度、运动学、动力学）造成的表征鸿沟，比想象中更难跨越。这为未来的跨本体学习研究指明了方向。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：行业正在追捧「通用机器人大脑」的概念，但这篇工作泼了一盆冷水——本体之间的物理差异（自由度、运动学、动力学）造成的表征鸿沟，比想象中更难跨越。这为未来的跨本体学习研究指明了方向。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2608.06009",
+        "summary": "历史周报其他关注条目：Fine Tuning VLAs with Self Demonstrated Generative Control。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2608.02326",
+        "summary": "历史周报其他关注条目：ChainVLA。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2608.02736",
+        "summary": "历史周报其他关注条目：Embodied.cpp。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2601.11404",
+        "summary": "历史周报其他关注条目：ACoT VLA。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2608.07746",
+        "summary": "历史周报其他关注条目：REFINE DP。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2607.25895",
+        "summary": "历史周报其他关注条目：HiFi UMI。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2608.07075",
+        "summary": "历史周报其他关注条目：Detection and Ranging of Transient Extrinsic Contacts。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2607.11689",
+        "summary": "历史周报其他关注条目：From World Action Models to Embodied Brains。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2607.10655",
+        "summary": "历史周报其他关注条目：Artificial Foveated Perception。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2607.13017",
+        "summary": "历史周报其他关注条目：FlowWAM。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2607.13033",
+        "summary": "历史周报其他关注条目：DenseReward。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      }
+    ],
+    "scanned_at_source": "report_file_mtime",
+    "historical_record": true,
+    "converted_at": "2026-10-06T23:26:04.584974+08:00"
+  },
+  "accepted": [
+    "2608.06375v2",
+    "2608.07065v1",
+    "2608.02326v2",
+    "2608.02736v1",
+    "2608.07746v1",
+    "2607.25895v1",
+    "2608.07075v1",
+    "2607.10655v2",
+    "2607.13033v1"
+  ],
+  "rejected": [
+    {
+      "input": {
+        "arxiv_id": "2608.08237",
+        "summary": "历史周报补处理条目：TrAct (arXiv:2608.08237, 8月25日) — 用「视觉轨迹」桥接控制和预测。问题/方法/证据：关键词 : 视觉轨迹 · 中间表征 · VLA增强 · 闭环控制 TrAct提出用 视觉轨迹（visual tracks） 作为控制和视觉预测之间的中间接口。传统VLA直接从像素输出动作，容易受到视觉干扰；TrAct先提取场景中的视觉轨迹（特征点在时间上的运动路径），再基于轨迹做控制和未来帧预测。 效果 : LIBERO INTEGRAL长程操作任务上显著提升 真实Franka机器人验证 视觉轨迹作为中间表征，天然支持 闭环重规划 为什么重要 : VLA的一个核心痛点是「开环执行」——一旦开始执行就难以根据视觉反馈调整。TrAct用视觉轨迹作为可解释的 intermediate representation，让控制策略具备了闭环修正能力。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：VLA的一个核心痛点是「开环执行」——一旦开始执行就难以根据视觉反馈调整。TrAct用视觉轨迹作为可解释的 intermediate representation，让控制策略具备了闭环修正能力。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": [
+          "world-model-planning",
+          "robot-deployment"
+        ]
+      },
+      "reason": "arXiv 未返回论文"
+    },
+    {
+      "input": {
+        "arxiv_id": "2608.07889",
+        "summary": "历史周报补处理条目：HBVLA (arXiv:2608.07889, 8月20日) — VLA的「1-bit瘦身」方案。问题/方法/证据：关键词 : 1 bit量化 · 后训练 · 边缘部署 · 资源受限机器人 HBVLA（Highly Binarized VLA）提出了 1 bit后训练量化 方案，让大型VLA模型能在资源受限的机器人平台上实时运行。不需要从头训练，直接在预训练VLA上施加1 bit权重量化，配合专门的校准策略保持性能。 为什么重要 : 当前VLA模型越来越大（π0、GR00T N1等），边缘部署成为瓶颈。HBVLA证明即使是极端的1 bit压缩，通过精心设计的后训练校准，仍能在操作任务上保持可用性能。这对消费级机器人产品的落地意义重大。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：当前VLA模型越来越大（π0、GR00T N1等），边缘部署成为瓶颈。HBVLA证明即使是极端的1-bit压缩，通过精心设计的后训练校准，仍能在操作任务上保持可用性能。这对消费级机器人产品的落地意义重大。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      "reason": "arXiv 未返回论文"
+    },
+    {
+      "input": {
+        "arxiv_id": "2608.06004",
+        "summary": "历史周报补处理条目：The Embodiment Gap (arXiv:2608.06004, 8月19日) — 机器人基础模型的「本体鸿沟」有多大？。问题/方法/证据：关键词 : 跨本体泛化 · 基准测试 · 表征分析 · Robot Foundation Model 这篇工作系统性地测量了当前Robot Foundation Models在不同机器人本体（单臂→双臂→人形）之间的 迁移鸿沟 。发现： 视觉表征的迁移性远好于动作表征 动作空间的维度差异是跨本体泛化的最大瓶颈 当前SOTA模型在跨本体任务上性能下降30 60% 为什么重要 : 行业正在追捧「通用机器人大脑」的概念，但这篇工作泼了一盆冷水——本体之间的物理差异（自由度、运动学、动力学）造成的表征鸿沟，比想象中更难跨越。这为未来的跨本体学习研究指明了方向。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：行业正在追捧「通用机器人大脑」的概念，但这篇工作泼了一盆冷水——本体之间的物理差异（自由度、运动学、动力学）造成的表征鸿沟，比想象中更难跨越。这为未来的跨本体学习研究指明了方向。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report"
+        ],
+        "questions": []
+      },
+      "reason": "arXiv 未返回论文"
+    },
+    {
+      "input": {
+        "arxiv_id": "2608.06009",
+        "summary": "历史周报其他关注条目：Fine Tuning VLAs with Self Demonstrated Generative Control。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      "reason": "arXiv 未返回论文"
+    },
+    {
+      "input": {
+        "arxiv_id": "2601.11404",
+        "summary": "历史周报其他关注条目：ACoT VLA。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      "reason": "arXiv 未返回论文"
+    },
+    {
+      "input": {
+        "arxiv_id": "2607.11689",
+        "summary": "历史周报其他关注条目：From World Action Models to Embodied Brains。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      "reason": "arXiv 未返回论文"
+    },
+    {
+      "input": {
+        "arxiv_id": "2607.13017",
+        "summary": "历史周报其他关注条目：FlowWAM。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "embodied-intelligence",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      "reason": "arXiv 未返回论文"
+    }
+  ]
+}

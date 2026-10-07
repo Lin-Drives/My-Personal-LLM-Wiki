@@ -1,0 +1,767 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IFmqpOUjx3Shvg0wv60pW3OPOn8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2606.02332,2606.26991,2606.21189,2604.21761,2606.15271,2606.31574,2604.26999,2606.06164,2605.10159,2601.10999,2607.00466,2603.07685,2605.09370,2501.01005v2,2608.04060,2608.04048,2608.04013,2608.04026,2608.04041,2608.04045&amp;start=0&amp;max_results=20</title>
+  <updated>2026-10-07T00:14:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=20&amp;id_list=2606.02332,2606.26991,2606.21189,2604.21761,2606.15271,2606.31574,2604.26999,2606.06164,2605.10159,2601.10999,2607.00466,2603.07685,2605.09370,2501.01005v2,2608.04060,2608.04048,2608.04013,2608.04026,2608.04041,2608.04045" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04048v1</id>
+    <title>Recurrent Residual Quantization: A Progressive Multi-Precision Representation for LLMs</title>
+    <updated>2026-08-04T08:32:05Z</updated>
+    <link href="https://arxiv.org/abs/2608.04048v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04048v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Serving large language models (LLMs) under diverse deployment constraints requires flexible trade-offs between accuracy, memory footprint, and throughput. However, conventional quantization methods typically require a separate checkpoint for each target bit-width. We introduce Recurrent Residual Quantization (RRQ), a post-training quantization (PTQ) framework that represents weights as a low-bit quantized base together with a sequence of quantized residual corrections, enabling multiple effective precisions from a single checkpoint. Starting from a 2-bit model obtained via post-training quantization (PTQ) or round-to-nearest (RTN), RRQ progressively adds lightweight 2-bit residuals generated via RTN to construct 4-, 6-, and 8-bit representations. The method is calibration-free and avoids joint multi-bit optimization. In our Qwen3-8B setup, the full all-RTN 2-/4-/6-/8-bit package is constructed in 1,293 seconds, 3.3 times faster than the measured MatGPTQ construction. Experiments on six recent LLMs show competitive accuracy at 6 and 8 bits, with model-dependent behavior at 4 bits. The code will be made publicly available upon publication.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T08:32:05Z</published>
+    <arxiv:comment>NeurIPS 2026 submission; 14 tables, 1 algorithm, and no figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yu Luo</name>
+    </author>
+    <author>
+      <name>Bo Dong</name>
+    </author>
+    <author>
+      <name>Wenhua Cheng</name>
+    </author>
+    <author>
+      <name>Haihao Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.00466v2</id>
+    <title>ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving</title>
+    <updated>2026-07-02T08:02:42Z</updated>
+    <link href="https://arxiv.org/abs/2607.00466v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.00466v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In prefill-decode (PD) disaggregated LLM serving, each request is assigned to a decode worker after prefill. Existing decode routers balance only load; for mixture-of-experts (MoE) models this is incomplete: equally loaded workers can differ in latency, since each decode step loads the weights of every distinct expert its batch activates. We present ELDR, an expert-locality-aware decode router for PD-disaggregated MoE serving. From a request's prefill expert activations, ELDR builds an expert signature predicting the experts it will activate during generation. Offline, balanced K-means partitions signature space across decode workers; online, locality-band routing sends each request to the least-loaded worker among those best matching its signature. A signature cache, co-indexed with the KV cache at KV-block granularity, keeps signatures exact under prefix caching. Implemented in vLLM and evaluated on deployments of up to 40 GPUs, ELDR reduces median TPOT by 5.9-13.9% over the strongest of four load-balancing baselines across three MoE models and two workloads, with model outputs unchanged.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T05:34:38Z</published>
+    <arxiv:comment>15 pages, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Sangjin Choi</name>
+    </author>
+    <author>
+      <name>Sukmin Cho</name>
+    </author>
+    <author>
+      <name>Yifan Xiong</name>
+    </author>
+    <author>
+      <name>Ziyue Yang</name>
+    </author>
+    <author>
+      <name>Youngjin Kwon</name>
+    </author>
+    <author>
+      <name>Peng Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.09370v5</id>
+    <title>From Detection to Recovery: Operational Analysis on LLM Pre-training with 504 GPUs</title>
+    <updated>2026-06-15T04:11:47Z</updated>
+    <link href="https://arxiv.org/abs/2605.09370v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.09370v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale AI training is fundamentally a distributed systems problem, where hardware failures are routine operating conditions rather than rare exceptions, yet public operational evidence from production training clusters remains limited. This report presents an empirical analysis of a 63-node NVIDIA B200 production cluster (504 GPUs), using 55 days of Prometheus time-series data and 73 days of operational logs covering 224 multi-node training sessions.
+  The environment is cross-organizational: five parties (SKT, Upstage, Lablup, NVIDIA Korea, VAST Data) share a unified monitoring pipeline. This enabled joint diagnosis of a 60-node-scale storage I/O bottleneck absent in 2-4-node tests, a production-scale phenomenon no single team could isolate alone.
+  We perform three quantitative analyses yielding four findings. First, over 751 Prometheus metrics and 10 XID-identified GPU failures, no single metric is consistently dominant across failure types, motivating multi-signal detection. Second, 523 checkpoint events trace the save/load path from GPU VRAM to the NFS server: restart loading reaches 21.5% of maximum read bandwidth (700 GB/s) and save bursts 16.0% of maximum write bandwidth (250 GB/s), with NFS/RPC queueing and transport-layer backlog rising together. Third, across 224 sessions over 73 days, node exclusions concentrate so the top 3 of 63 nodes account for over 50%. Fourth, auto-retry chain analysis shows a 33.3% success rate over 12 chains (73 attempts), 2.7x the 12.5% manual rate, with a median retry interval of 11 minutes (IQR 10-11).
+  All analyses are grounded in production infrastructure providing session-level workload management, GPU-centric scheduling, and unified observability.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-10T06:46:06Z</published>
+    <arxiv:comment>42 pages, 19 figures, 16 tables. Lablup Technical Report</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Daemyung Kang</name>
+    </author>
+    <author>
+      <name>Eunjin Hwang</name>
+    </author>
+    <author>
+      <name>Hanjeong Lee</name>
+    </author>
+    <author>
+      <name>HyeokJin Kim</name>
+    </author>
+    <author>
+      <name>Hyunhoi Koo</name>
+    </author>
+    <author>
+      <name>Jeongkyu Shin</name>
+    </author>
+    <author>
+      <name>Jeongseok Kang</name>
+    </author>
+    <author>
+      <name>Jihyun Kang</name>
+    </author>
+    <author>
+      <name>Jinho Heo</name>
+    </author>
+    <author>
+      <name>Joongi Kim</name>
+    </author>
+    <author>
+      <name>Junbum Lee</name>
+    </author>
+    <author>
+      <name>Jungseung Yang</name>
+    </author>
+    <author>
+      <name>Kyujin Cho</name>
+    </author>
+    <author>
+      <name>Youngsook Song</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.10159v1</id>
+    <title>jNO: A JAX Library for Neural Operator and Foundation Model Training</title>
+    <updated>2026-05-11T08:05:54Z</updated>
+    <link href="https://arxiv.org/abs/2605.10159v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.10159v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>jNO (jax Neural Operators) is a JAX-native library for neural operators and foundation models with unified support for both data-driven and physics-informed training. Its core design is a tracing system in which domains, model calls, residuals, supervised losses, and diagnostics are written in one symbolic language and compiled into one optimization pipeline. This allows users to move between operator regression, mesh-aware residual evaluation, and PDE-constrained training without restructuring the surrounding code. jNO also supports multi-model compositions, fine-grained control at parameter level (model, optimizer, and learning rate), hyperparameter tuning, and JAX-native workflows for translated PDE foundation-model families. The source repository is available at https://github.com/FhG-IISB/jNO.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-11T08:05:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Leon Armbruster</name>
+    </author>
+    <author>
+      <name>Rathan Ramesh</name>
+    </author>
+    <author>
+      <name>Georg Kruse</name>
+    </author>
+    <author>
+      <name>Christopher Straub</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.10999v2</id>
+    <title>Exact Constraint Enforcement in Physics-Informed Extreme Learning Machines using Null-Space Projection Framework</title>
+    <updated>2026-01-20T15:28:58Z</updated>
+    <link href="https://arxiv.org/abs/2601.10999v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.10999v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physics-informed extreme learning machines (PIELMs) typically impose boundary and initial conditions through penalty terms, yielding only approximate satisfaction that is sensitive to user-specified weights and can propagate errors into the interior solution. This work introduces Null-Space Projected PIELM (NP-PIELM), achieving exact constraint enforcement through algebraic projection in coefficient space. The method exploits the geometric structure of the admissible coefficient manifold, recognizing that it admits a decomposition through the null space of the boundary operator. By characterizing this manifold via a translation-invariant representation and projecting onto the kernel component, optimization is restricted to constraint-preserving directions, transforming the constrained problem into unconstrained least-squares where boundary conditions are satisfied exactly at discrete collocation points. This eliminates penalty coefficients, dual variables, and problem-specific constructions while preserving single-shot training efficiency. Numerical experiments on elliptic and parabolic problems including complex geometries and mixed boundary conditions validate the framework.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-16T05:18:56Z</published>
+    <arxiv:comment>The authors are withdrawing this manuscript in order to substantially revise the presentation and positioning of the work with respect to related literature. A revised version may be posted in the future</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Rishi Mishra</name>
+    </author>
+    <author>
+      <name> Smriti</name>
+    </author>
+    <author>
+      <name>Balaji Srinivasan</name>
+    </author>
+    <author>
+      <name>Sundararajan Natarajan</name>
+    </author>
+    <author>
+      <name>Ganapathy Krishnamurthi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04045v1</id>
+    <title>Robust and Personalized Federated Learning for Aircraft-Engine Prognostics under Benign and Adversarial Client Heterogeneity</title>
+    <updated>2026-08-04T06:54:29Z</updated>
+    <link href="https://arxiv.org/abs/2608.04045v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04045v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning (FL) enables aircraft fleet operators to jointly train remaining-useful-life (RUL) models from engine sensor telemetry without sharing raw data. This study examines two complementary challenges: benign heterogeneity, where honest operators observe different operating conditions and fault modes, and adversarial heterogeneity, where compromised operators submit poisoned updates. We conduct a controlled, safety-oriented evaluation using a multi-task one-dimensional convolutional neural network and a structurally non-IID partition of the Commercial Modular Aero-Propulsion System Simulation (C-MAPSS) benchmark. We compare four remedies for benign heterogeneity and evaluate five attacks against four aggregation methods, including a physically motivated sensor-value backdoor designed to mask engine degradation.
+  Shared-representation personalization closes approximately 70% of the local-to-centralized root-mean-square-error gap, compared with 21% for proximal regularization and 10% for server-side reweighting. The backdoor achieves a 94.9% attack success rate against standard averaging while leaving clean accuracy statistically unchanged, demonstrating that accuracy alone cannot certify model safety and that attack success must be evaluated explicitly. Krum reduces attack success by an order of magnitude and is the only evaluated aggregator that withstands coordinated attackers, whereas personalization alone provides no protection. Combining personalization with robust aggregation restores robustness (2.8% attack success) with only a small accuracy cost, revealing a trade-off between robust update selection and collaborative representation learning. Results remain consistent across client counts and on a harder six-condition dataset. Code and data partitions are released for reproducibility.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T06:54:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chinmoy Mitra</name>
+    </author>
+    <author>
+      <name>Md. Mehedi Hasan Nipu</name>
+    </author>
+    <author>
+      <name>Mohammad Sakib Mahmood</name>
+    </author>
+    <author>
+      <name>Md. Rakibul Islam</name>
+    </author>
+    <author>
+      <name>M. F. Mridha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04041v1</id>
+    <title>An Explainable LLM Agent Layer for Open-World Anomaly Detection in Oil Wells</title>
+    <updated>2026-08-04T01:44:06Z</updated>
+    <link href="https://arxiv.org/abs/2608.04041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open-World Learning (OWL) pipelines for oil well anomaly detection have recently been shown to combine autoencoder-based detection, multiclass classification, and Mahalanobis-based novelty detection on the public 3W dataset. These pipelines answer \textit{what happened}, but they do not explain \textit{why the model believes it} or \textit{what the operator should do next}, and they do not put a human-readable name on the novelty clusters they discover. This paper evaluates a Large Language Model (LLM) agent layer placed downstream of the OWL pipeline, designed as a \textbf{companion} to the published upstream methods rather than a replacement. Using the Qwen3.5-397B-A17B Mixture-of-Experts model served via NVIDIA NIM, the agent receives structured sensor metrics and upstream classification or novelty assertions, and returns natural-language justifications, confidence-ranked critiques, and consolidated names for detected novelties. Across three studies spanning 989 real well-file segments from the 3W dataset, the agent achieved $35.1\%$ top-1 / $63.9\%$ top-3 (95\% CI [56.9, 70.4]) classification on all nine classes, $71.7\%$ top-2 validation [64.8, 77.6] with precision $0.91$ [0.84, 0.95] across 7 probed classes, and $89.7\%$ novelty detection [87.0, 91.9] with stable cluster naming on 5 of 7 hidden classes. The agent is not a standalone classifier. Its role is to: (1) confirm upstream decisions when sensor evidence supports them, (2) justify decisions in sensor-grounded language operators can audit, (3) flag disagreement when upstream labels are implausible, and (4) name novelties so that clustered unlabeled events arrive at the engineer with a consolidated human-readable label. The goal is to close the explainability gap that currently blocks deployment of OWL pipelines in operational settings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T01:44:06Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lucas Gouveia Omena Lopes</name>
+    </author>
+    <author>
+      <name>Thales Miranda de Almeida Vieira</name>
+    </author>
+    <author>
+      <name>Eduardo Toledo de Lima Junior</name>
+    </author>
+    <author>
+      <name>William Wagner Matos Lira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04013v1</id>
+    <title>C$^2$MOE: Consistency and Complementarity-guided Mixture of Experts for Incomplete Multimodal Emotion Learning</title>
+    <updated>2026-04-22T13:17:48Z</updated>
+    <link href="https://arxiv.org/abs/2608.04013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in Multimodal Emotion Recognition in Conversations (MERC) highlight its reliance on complete multimodal inputs. However, real-world data often suffer from missing modalities due to transmission errors or user behavior, severely degrading model performance. Existing methods enhance robustness via cross-modal consistency learning but largely ignore modality complementarity, leading to biased reconstructions. To address this limitation, we propose C$2$MOE, a novel Consistency and Complementarity-guided Mixture of Experts framework for incomplete multimodal emotion learning. Our approach unifies representation learning and missing modality imputation within a principled information-theoretic framework. Specifically, multimodal knowledge is factorized into consistency and complementarity components via interaction-aware experts. Consistency is captured by maximizing cross-modal predictability, while complementarity is preserved by maximizing conditional entropy between modalities. Building upon this decomposition, C$2$MOE introduces a dual-branch prediction mechanism for robust imputation under missing modalities. The consistency branch aligns imputed features with the joint distribution by minimizing uncertainty, and the complementarity branch exploits modality-unique cues via entropy maximization. Finally, C$2$MOE employs a learnable reweighting module that dynamically assigns importance scores to each expert's output, yielding a robust and adaptive fusion for imputation. Extensive experiments on multiple MERC benchmarks demonstrate that C$2$MOE consistently surpasses state-of-the-art methods across various missing-modality settings, validating its robustness and generalization.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-22T13:17:48Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuntao Shou</name>
+    </author>
+    <author>
+      <name>Tao Meng</name>
+    </author>
+    <author>
+      <name>Wei Ai</name>
+    </author>
+    <author>
+      <name>Keqin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.01005v2</id>
+    <title>FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving</title>
+    <updated>2025-04-21T20:10:11Z</updated>
+    <link href="https://arxiv.org/abs/2501.01005v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.01005v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformers, driven by attention mechanisms, form the foundation of large language models (LLMs). As these models scale up, efficient GPU attention kernels become essential for high-throughput and low-latency inference. Diverse LLM applications demand flexible and high-performance attention solutions. We present FlashInfer: a customizable and efficient attention engine for LLM serving. FlashInfer tackles KV-cache storage heterogeneity using block-sparse format and composable formats to optimize memory access and reduce redundancy. It also offers a customizable attention template, enabling adaptation to various settings through Just-In-Time (JIT) compilation. Additionally, FlashInfer's load-balanced scheduling algorithm adjusts to dynamism of user requests while maintaining compatibility with CUDAGraph which requires static configuration. FlashInfer have been integrated into leading LLM serving frameworks like SGLang, vLLM and MLC-Engine. Comprehensive kernel-level and end-to-end evaluations demonstrate FlashInfer's ability to significantly boost kernel performance across diverse inference scenarios: compared to state-of-the-art LLM serving solutions, FlashInfer achieve 29-69% inter-token-latency reduction compared to compiler backends for LLM serving benchmark, 28-30% latency reduction for long-context inference, and 13-17% speedup for LLM serving with parallel generation.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-02T02:02:20Z</published>
+    <arxiv:comment>Accepted by MLSys 2025, code available at http://github.com/flashinfer-ai/flashinfer</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Zihao Ye</name>
+    </author>
+    <author>
+      <name>Lequn Chen</name>
+    </author>
+    <author>
+      <name>Ruihang Lai</name>
+    </author>
+    <author>
+      <name>Wuwei Lin</name>
+    </author>
+    <author>
+      <name>Yineng Zhang</name>
+    </author>
+    <author>
+      <name>Stephanie Wang</name>
+    </author>
+    <author>
+      <name>Tianqi Chen</name>
+    </author>
+    <author>
+      <name>Baris Kasikci</name>
+    </author>
+    <author>
+      <name>Vinod Grover</name>
+    </author>
+    <author>
+      <name>Arvind Krishnamurthy</name>
+    </author>
+    <author>
+      <name>Luis Ceze</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.07685v2</id>
+    <title>Scalable Training of Mixture-of-Experts Models with Megatron Core</title>
+    <updated>2026-03-10T06:23:58Z</updated>
+    <link href="https://arxiv.org/abs/2603.07685v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.07685v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scaling Mixture-of-Experts (MoE) training introduces systems challenges absent in dense models. Because each token activates only a subset of experts, this sparsity allows total parameters to grow much faster than per-token computation, creating coupled constraints across memory, communication, and computation. Optimizing one dimension often shifts pressure to another, demanding co-design across the full system stack.
+  We address these challenges for MoE training through integrated optimizations spanning memory (fine-grained recomputation, offloading, etc.), communication (optimized dispatchers, overlapping, etc.), and computation (Grouped GEMM, fusions, CUDA Graphs, etc.). The framework also provides Parallel Folding for flexible multi-dimensional parallelism, low-precision training support for FP8 and NVFP4, and efficient long-context training. On NVIDIA GB300 and GB200, it achieves 1,233/1,048 TFLOPS/GPU for DeepSeek-V3-685B and 974/919 TFLOPS/GPU for Qwen3-235B. As a performant, scalable, and production-ready open-source solution, it has been used across academia and industry for training MoE models ranging from billions to trillions of parameters on clusters scaling up to thousands of GPUs.
+  This report explains how these techniques work, their trade-offs, and their interactions at the systems level, providing practical guidance for scaling MoE models with Megatron Core.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-08T15:42:43Z</published>
+    <arxiv:comment>Technical Report. 88 pages. 42 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Zijie Yan</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hongxiao Bai</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xin Yao</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dennis Liu</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tong Liu</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hongbin Liu</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pingtian Li</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Evan Wu</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shiqing Fan</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Li Tao</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Robin Zhang</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yuzhong Wang</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shifang Xu</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jack Chang</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xuwen Chen</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kunlun Li</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yan Bai</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gao Deng</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nan Zheng</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vijay Anand Korthikanti</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Abhinav Khattar</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ethan He</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Soham Govande</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sangkug Lym</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhongbo Zhu</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Qi Zhang</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Haochen Yuan</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiaowei Ren</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Deyu Fu</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tailai Ma</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shunkang Zhang</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jiang Shao</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ray Wang</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vasudevan Rengasamy</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rachit Garg</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Santosh Bhavani</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xipeng Li</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chandler Zhou</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Wu</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yingcan Wei</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ashwath Aithal</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Andersch</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mohammad Shoeybi</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jiajie Yao</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>June Yang</name>
+      <arxiv:affiliation>NVIDIA</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.02332v2</id>
+    <title>Forget Attention: Importance-Aware Attention Is All You Need</title>
+    <updated>2026-06-02T05:51:37Z</updated>
+    <link href="https://arxiv.org/abs/2606.02332v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.02332v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Combining attention's global retrieval with the sequential importance signal of state space models (SSMs) is the open challenge of hybrid language modeling. Transformers see everywhere but cannot prioritize; SSMs know what matters but cannot revisit. Existing hybrids -- Jamba (block level) and Hymba (head level) -- place the two in separate compartments, so neither informs the other during the attention computation itself. We propose SISA (SSM-Informed Softmax Attention), which adds an SSM-derived importance term directly inside the attention score and realizes the full operation as a single SDPA call on augmented query/key vectors -- no recurrent state, no custom kernel. At 152M / 5B tokens, SISA reaches LAMBADA-greedy 17.3% (vs. Transformer 13.9 and Mamba-3 15.5) and attains NIAH 100% from step 1K, 7x faster than Transformer's retrieval convergence; at 369M, Mamba-3 leads LAMBADA while SISA preserves perfect NIAH and stock-SDPA execution. SISA thus defines a third design axis for SSM-attention hybrids -- score-level fusion -- beyond the block-level and head-level paradigms that have dominated the field.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-01T14:42:06Z</published>
+    <arxiv:comment>20 pages, 6 figures, 25 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Suhyeong Shin</name>
+    </author>
+    <author>
+      <name>Yeongwook Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.06164v1</id>
+    <title>On the training of physics-informed neural operators for solving parametric partial differential equations</title>
+    <updated>2026-06-04T13:36:22Z</updated>
+    <link href="https://arxiv.org/abs/2606.06164v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.06164v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physics-informed neural operators (PINOs) aim to learn solution operators for partial differential equations by using the governing physics as supervision, rather than relying solely on paired input-output simulation data. By incorporating physical constraints into the training objective, PINOs combine the cross-instance generalization of neural operators with the data efficiency of physics-informed learning. Despite this promise, how to train PINOs efficiently and robustly remains less well-understood than the training of either data-driven neural operators or physics-informed neural networks (PINNs). To bridge this gap, we examine key components of the PINO training pipeline, including architecture design, optimizer choice, loss balancing, and collocation-point sampling strategy. We study three representative operator backbones, Deep Operator Network (DeepONet), Fourier Neural Operator (FNO), and Continuous Vision Transformer (CViT), across five diverse parametric PDE systems. Our results show that CViT provides consistently strong and stable performance across the considered benchmarks. Beyond architecture, we find that several optimization pathologies previously identified in PINN training naturally arise in PINOs, including gradient conflicts and causal violation. We also find that mitigation algorithms developed for PINNs remain effective in the PINO setting. We further compare physics-informed and data-driven training under different data regimes, revealing that a carefully designed physics-informed training pipeline can match, and in some cases, outperform purely data-driven neural operators. Taken together, these findings provide a systematic empirical understanding of the optimization challenges in PINO training and inform a practical pipeline for efficient and robust physics-informed operator learning. Code and data are available at https://github.com/NanxiiChen/PI-CViT.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-04T13:36:22Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nanxi Chen</name>
+    </author>
+    <author>
+      <name>Chuanjie Cui</name>
+    </author>
+    <author>
+      <name>Airong Chen</name>
+    </author>
+    <author>
+      <name>Sifan Wang</name>
+    </author>
+    <author>
+      <name>Rujin Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.15271v1</id>
+    <title>Dual-Network PINNs for Optimal Control: A Reproducible Benchmark on the Mass-Spring-Damper System</title>
+    <updated>2026-06-13T12:10:17Z</updated>
+    <link href="https://arxiv.org/abs/2606.15271v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.15271v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work presents a transparent and reproducible benchmark study of a direct dual-network Physics-Informed Neural Network (PINN) formulation for the optimal control of a mass-spring-damper system. The classical linear-quadratic optimal control problem is solved by two independent classical methods -- Pontryagin's Minimum Principle with single shooting, and direct transcription through trapezoidal collocation -- and recast as a constrained optimization problem solved by two feedforward neural networks: a state network whose boundary conditions are enforced exactly through a composite cubic-and-mask ansatz, and an unconstrained control network. The composite loss combines the physics residual at the collocation points with a trapezoidal approximation of the cost functional, weighted by a single scalar hyperparameter. On the benchmark considered, the PINN reproduces the classical optimal cost to four significant digits, satisfies the terminal state constraints exactly by construction, and produces pointwise state and control errors that fall within the spread of the two classical references. Training is approximately two orders of magnitude slower than classical shooting on this benchmark, which is honestly reported. The contribution is methodological clarity rather than methodological novelty: the formulation and the accompanying Google Colab implementation are intended to lower the barrier to entry for practitioners exploring PINN-based optimal control without prior exposure to adjoint methods or two-point boundary value problems.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-13T12:10:17Z</published>
+    <arxiv:comment>22 pages, 6 figures. Reproducible benchmark study of dual-network Physics-Informed Neural Networks (PINNs) for optimal control of a mass-spring-damper system. Includes comparison with Pontryagin's Minimum Principle and direct transcription methods and accompanying Google Colab implementation</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Abdeladhim Tahimi</name>
+    </author>
+    <author>
+      <name>Rinaldo Vieira da Silva Junior</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.26991v1</id>
+    <title>Enabling self-supervised learned primal dual with Noise2Inverse</title>
+    <updated>2026-06-25T13:07:15Z</updated>
+    <link href="https://arxiv.org/abs/2606.26991v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.26991v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>X-ray computed tomography reconstruction is an ill-posed inverse problem, particularly in low-dose and sparse-angle settings where measurements are noisy and incomplete. While learned reconstruction methods such as the Learned Primal-Dual algorithm achieve strong performance, they typically rely on supervised training with access to ground-truth data, which is often unavailable in practice.
+  In this work, we propose a self-supervised reconstruction method by extending the Noise2Inverse framework to the Learned Primal-Dual algorithm. The resulting approach, called Noise2Inverse Learned Primal-Dual (N2I-LPD), enables training of a learned iterative reconstruction operator without ground-truth images by exploiting the statistical independence of noise in distinct measurements with respect to angular rotation of the CT-scan.
+  We compare the proposed method with classical reconstruction methods, as well as neural network-based approaches such as a U-Net trained within the same N2I framework. The results demonstrate that N2I-LPD achieves improved reconstruction quality, highlighting the potential of combining learned reconstruction operators with self-supervised training strategies for practical CT imaging scenarios where ground-truth data is unavailable.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-25T13:07:15Z</published>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Antti Sällinen</name>
+    </author>
+    <author>
+      <name>Siiri Rautio</name>
+    </author>
+    <author>
+      <name>Santeri Kaupinmäki</name>
+    </author>
+    <author>
+      <name>Andreas Hauptmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04026v2</id>
+    <title>A Trust-region Framework for Moment Estimation</title>
+    <updated>2026-08-08T09:29:09Z</updated>
+    <link href="https://arxiv.org/abs/2608.04026v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04026v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we develop a trust-region framework for understanding the behavior of adaptive moment estimation mechanisms, such as \textsc{Adam}, in stochastic gradient optimization. Specifically, the magnitude of the update step associated with each individual parameter is constrained by a finite-order $p$-moment trust-region, with $p\ge1$. The resulting derivation leads to a family of learning-rate mechanisms based on second-moment estimation and normalized $p$-th-moment estimation. For $p=4$, this involves kurtosis estimation. Subsequent derivations provide a unified interpretation of moment-estimation-based normalization, learning-rate scheduling, momentum as a spectral first-order lowpass regularization, and operator-level spectral-norm normalization within a common trust-region framework. Preliminary experiments on GPT2-124M trained on FineWeb-Edu and TinyStories suggest that the fourth-moment realization provides its greatest benefit when trust-region constraints are weak. As progressively stronger trust-region controls are introduced, the second-moment realization becomes increasingly competitive, often achieving slightly lower validation loss than its corresponding fourth-moment realization.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-26T20:46:45Z</published>
+    <arxiv:comment>20 pages, 5 figures. revised for improved presentation</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Oluwasegun A. Somefun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04060v1</id>
+    <title>SJEPA: Learning Elegant Latent Dynamics with Hybrid Symbolic-Neural Predictors</title>
+    <updated>2026-08-04T13:08:07Z</updated>
+    <link href="https://arxiv.org/abs/2608.04060v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04060v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Joint-embedding predictive architectures learn abstract states by predicting target embeddings from context embeddings, but their transition models are typically opaque neural maps. We introduce SJEPA, a reconstruction-free JEPA framework that learns predictive representations whose induced dynamics admit compact symbolic descriptions. Its hybrid transition combines a symbolic law with a regularised neural correction for dynamics outside the selected grammar. The central principle is to learn the simplest adequate dynamics: representation constraints preserve informative, non-collapsed predictive coordinates, while operator compression favours low-complexity symbolic-neural transitions that remain predictively adequate. We formalise this principle through induced-dynamics complexity, analyse predictive-coordinate non-identifiability, and show that unconstrained operator compression creates a direct shortcut to representation collapse. The framework supports both alternating representation-equation learning and symbolic dynamics fitted to fixed representations. In controlled pendulum experiments, joint learning discovers substantially simpler symbolic dynamics with lower long-horizon rollout error and divergence than post-hoc fitting, while an unconstrained one-step diagnostic realises the predicted collapse shortcut. Under grammar misspecification, correction regularisation preserves the representable symbolic mechanism and directs the neural component towards residual dynamics. The results expose a controllable trade-off among predictive fidelity, representation quality, symbolic parsimony, and symbolic-neural allocation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T13:08:07Z</published>
+    <arxiv:comment>42 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yongchao Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.21189v1</id>
+    <title>TF-SNO: Time-Frequency Gated Spectral Neural Operators for Learning Non-Stationary Partial Differential Equations</title>
+    <updated>2026-06-19T07:57:43Z</updated>
+    <link href="https://arxiv.org/abs/2606.21189v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.21189v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Non-stationary partial differential equations (PDEs) arise throughout scientific computing, where the dominant frequency content and energy distribution can drift over time. While efficient in PDE solving, many spectral neural operators apply a shared spectral response across rollout stages, leading to mismatch with time-varying spectra in non-stationary systems. To address this issue, we propose Time-Frequency Gated Spectral Neural Operator (TF-SNO), a state-adaptive framework with learnable time-frequency gating inside spectral blocks. TF-SNO extracts compact frequency-domain and physical-space statistics from the current state to generate modulation coefficients, enabling the spectral response to evolve with the dynamics. TF-SNO learns temporal variation implicitly from the evolving state without introducing an explicit time dimension or time embedding, keeping the modeling complexity low. We further embed the adaptive operator blocks to accurately capture the multi-scale features, thereby improving long-horizon stability. Experiments on six non-stationary PDE benchmarks in 1D and 2D demonstrate that TF-SNO significantly reduces prediction errors and improves robustness compared to strong baselines, with particularly clear gains in long rollout, suggesting the effectiveness of state-dependent spectral adaptation in modeling non-stationary physical systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-19T07:57:43Z</published>
+    <arxiv:comment>Accepted by KDD 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yitian Zhou</name>
+    </author>
+    <author>
+      <name>Chaoning Zhang</name>
+    </author>
+    <author>
+      <name>Zhenzhen Huang</name>
+    </author>
+    <author>
+      <name>Haoxuan Yu</name>
+    </author>
+    <author>
+      <name>Jiaquan Zhang</name>
+    </author>
+    <author>
+      <name>Yiran Li</name>
+    </author>
+    <author>
+      <name>Fan Mo</name>
+    </author>
+    <author>
+      <name>Kuien Liu</name>
+    </author>
+    <author>
+      <name>Jie Zou</name>
+    </author>
+    <author>
+      <name>Caiyan Qin</name>
+    </author>
+    <author>
+      <name>Yang Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.31574v1</id>
+    <title>Temperature Field Reconstruction of Tungsten Monoblock Divertor on EAST using Physics-aware Neural Operator Transformer</title>
+    <updated>2026-06-30T12:33:06Z</updated>
+    <link href="https://arxiv.org/abs/2606.31574v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.31574v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate modeling of the divertor temperature field is essential for preventing material melting and damage and for extending the service life of fusion devices. However, conventional numerical methods, such as the Finite Element Method (FEM), are computationally expensive and therefore unsuitable for real-time applications. Therefore, a fast and generalizable method is required for real-time reconstruction of the divertor temperature field and subsequent real-time control. To address the above issue, we propose a Physics-aware Neural Operator Transformer (PNOT) to characterize the spatiotemporal evolution of the divertor temperature field. It models boundary heat-flux relations as a structured graph and employs graph attention to explicitly capture spatial physical dependencies. Inspired by physics-aware attention, we further develop a physics-aware neural operator module to aggregate query points with similar physical conditions via slicing and model heat diffusion, while a gradient-constrained Sobolev regularization loss enforces consistency between function values and their derivatives. Experimental results show that these physical constraints improve prediction accuracy while preserving physical consistency. The source code of this paper will be released on https://github.com/Event-AHU/OpenFusion</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-30T12:33:06Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zikang Yan</name>
+    </author>
+    <author>
+      <name>Xiao Wang</name>
+    </author>
+    <author>
+      <name>Qingquan Yang</name>
+    </author>
+    <author>
+      <name>Zhendong Yang</name>
+    </author>
+    <author>
+      <name>Gaoting Chen</name>
+    </author>
+    <author>
+      <name>Zehua Chen</name>
+    </author>
+    <author>
+      <name>Bo Jiang</name>
+    </author>
+    <author>
+      <name>Jin Tang</name>
+    </author>
+    <author>
+      <name>Guosheng Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.26999v1</id>
+    <title>Compositional Meta-Learning for Mitigating Task Heterogeneity in Physics-Informed Neural Networks</title>
+    <updated>2026-04-29T03:09:57Z</updated>
+    <link href="https://arxiv.org/abs/2604.26999v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.26999v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physics-informed neural networks (PINNs) approximate solutions of partial differential equations (PDEs) by embedding physical laws into the loss function. In parameterized PDE families, variations in coefficients or boundary/initial conditions define distinct tasks. This makes training individual PINNs for each task computationally prohibitive, while cross-task transfer can be sensitive to task heterogeneity. While meta-learning can reduce retraining cost, existing methods often rely on a single global initialization and may suffer from negative transfer, particularly under feature-scarce coordinate inputs and limited training-task availability. We propose the Learning-Affinity Adaptive Modular Physics-Informed Neural Network (LAM-PINN), a compositional framework that leverages task-specific learning dynamics. LAM-PINN combines PDE parameters with learning-affinity metrics from brief transfer sessions to construct a task representation and cluster tasks even with coordinate-only inputs. It decomposes the model into cluster-specialized subnetworks and a shared meta network, and learns routing weights to selectively reuse modules instead of relying on a single global initialization. Across three PDE benchmarks, LAM-PINN achieves an average 19.7-fold reduction in mean squared error (MSE) on unseen tasks using only 10% of the training iterations required by conventional PINNs. These results indicate its effectiveness for generalization to unseen configurations within bounded design spaces of parameterized PDE families in resource-constrained engineering settings.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-29T03:09:57Z</published>
+    <arxiv:comment>Accepted by Pattern Recognition</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Beomchul Park</name>
+    </author>
+    <author>
+      <name>Minsu Koh</name>
+    </author>
+    <author>
+      <name>Heejo Kong</name>
+    </author>
+    <author>
+      <name>Seong-Whan Lee</name>
+    </author>
+    <arxiv:doi>10.1016/j.patcog.2026.113797</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.patcog.2026.113797" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.21761v1</id>
+    <title>Transferable Physics-Informed Representations via Closed-Form Head Adaptation</title>
+    <updated>2026-04-23T15:08:28Z</updated>
+    <link href="https://arxiv.org/abs/2604.21761v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.21761v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physics-informed neural networks (PINNs) have garnered significant interest for their potential in solving partial differential equations (PDEs) that govern a wide range of physical phenomena. By incorporating physical laws into the learning process, PINN models have demonstrated the ability to learn physical outcomes reasonably well. However, current PINN approaches struggle to predict or solve new PDEs effectively when there is a lack of training examples, indicating they do not generalize well to unseen problem instances. In this paper, we present a transferable learning approach for PINNs premised on a fast Pseudoinverse PINN framework (Pi-PINN). Pi-PINN learns a transferable physics-informed representation in a shared embedding space and enables rapid solving of both known and unknown PDE instances via closed-form head adaptation using a least-squares-optimal pseudoinverse under PDE constraints. We further investigate the synergies between data-driven multi-task learning loss and physics-informed loss, providing insights into the design of more performant PINNs. We demonstrate the effectiveness of Pi-PINN on various PDE problems, including Poisson's equation, Helmholtz equation, and Burgers' equation, achieving fast and accurate physics-informed solutions without requiring any data for unseen instances. Pi-PINN can produce predictions 100-1000 times faster than a typical PINN, while producing predictions with 10-100 times lower relative error than a typical data-driven model even with only two training samples. Overall, our findings highlight the potential of transferable representations with closed-form head adaptation to enhance the efficiency and generalization of PINNs across PDE families and scientific and engineering applications.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-23T15:08:28Z</published>
+    <arxiv:comment>Accepted at IJCNN 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jian Cheng Wong</name>
+    </author>
+    <author>
+      <name>Isaac Yin Chung Lai</name>
+    </author>
+    <author>
+      <name>Pao-Hsiung Chiu</name>
+    </author>
+    <author>
+      <name>Chin Chun Ooi</name>
+    </author>
+    <author>
+      <name>Abhishek Gupta</name>
+    </author>
+    <author>
+      <name>Yew-Soon Ong</name>
+    </author>
+  </entry>
+</feed>

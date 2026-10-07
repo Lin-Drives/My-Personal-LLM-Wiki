@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CC3KeQ66qE+jYqZB++eysetCCzc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2604.13723,2605.03510,2604.05651,2604.20085,2602.02547,2601.22751,2602.12368,2605.25115,2603.19312,2606.04907,2606.09215,2606.10363,2606.08775,2603.10448,2605.07794,2602.06949,2605.17613,2605.00528,2605.31463,2604.20919&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:12:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2604.13723,2605.03510,2604.05651,2604.20085,2602.02547,2601.22751,2602.12368,2605.25115,2603.19312,2606.04907,2606.09215,2606.10363,2606.08775,2603.10448,2605.07794,2602.06949,2605.17613,2605.00528,2605.31463,2604.20919" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22751v1</id>
+    <title>Discovering Scaling Exponents with Physics-Informed Müntz-Szász Networks</title>
+    <updated>2026-01-30T09:29:17Z</updated>
+    <link href="https://arxiv.org/abs/2601.22751v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22751v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physical systems near singularities, interfaces, and critical points exhibit power-law scaling, yet standard neural networks leave the governing exponents implicit. We introduce physics-informed M"untz-Sz'asz Networks (MSN-PINN), a power-law basis network that treats scaling exponents as trainable parameters. The model outputs both the solution and its scaling structure. We prove identifiability, or unique recovery, and show that, under these conditions, the squared error between learned and true exponents scales as $O(|μ- α|^2)$. Across experiments, MSN-PINN achieves single-exponent recovery with 1--5% error under noise and sparse sampling. It recovers corner singularity exponents for the two-dimensional Laplace equation with 0.009% error, matches the classical result of Kondrat'ev (1967), and recovers forcing-induced exponents in singular Poisson problems with 0.03% and 0.05% errors. On a 40-configuration wedge benchmark, it reaches a 100% success rate with 0.022% mean error. Constraint-aware training encodes physical requirements such as boundary condition compatibility and improves accuracy by three orders of magnitude over naive training. By combining the expressiveness of neural networks with the interpretability of asymptotic analysis, MSN-PINN produces learned parameters with direct physical meaning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T09:29:17Z</published>
+    <arxiv:comment>26 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gnankan Landry Regis N'guessan</name>
+    </author>
+    <author>
+      <name>Bum Jun Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.09215v1</id>
+    <title>MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation</title>
+    <updated>2026-06-08T08:50:14Z</updated>
+    <link href="https://arxiv.org/abs/2606.09215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.09215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World Action Models (WAMs) couple a video dynamics prior to the policy and have shown encouraging results on tabletop manipulation, but iterative denoising over high-dimensional video-action latents leaves them too slow for real-time humanoid loco-manipulation. The problem is compounded by the dominant hierarchical paradigm, in which a high-level manipulation policy controls only the upper body while a low-level controller tracks coarse base commands -- placing upper and lower body in inconsistent action spaces and reducing the legs to balance-preserving locomotion. We present MotionWAM, a real-time WAM that drives autonomous humanoid loco-manipulation from a single egocentric camera by conditioning the policy on the intermediate denoising features of a video world model. MotionWAM replaces the upper-lower split with a unified motion latent and predicts whole-body motion tokens that jointly cover locomotion, torso motion, height regulation, foot interaction, and hand manipulation in a single action space. A three-stage learning framework progressively adapts the video world model to egocentric visual dynamics and to the target humanoid embodiment. On nine real-world Unitree G1 tasks, MotionWAM runs in real time, substantially outperforms Vision-Language-Action (VLA) baselines fine-tuned on the same demonstrations by over 30% in overall success rate, and executes task-driven foot interaction that decoupled upper-lower policies cannot reach. Our results suggest that video-pretrained WAMs can be lifted from tabletop manipulation to coordinated, human-like whole-body humanoid control.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-08T08:50:14Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jia Zheng</name>
+    </author>
+    <author>
+      <name>Teli Ma</name>
+    </author>
+    <author>
+      <name>Yudong Fan</name>
+    </author>
+    <author>
+      <name>Zifan Wang</name>
+    </author>
+    <author>
+      <name>Shuo Yang</name>
+    </author>
+    <author>
+      <name>Junwei Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.07794v1</id>
+    <title>NoiseGate: Learning Per-Latent Timestep Schedules as Information Gating in World Action Models</title>
+    <updated>2026-05-08T14:31:52Z</updated>
+    <link href="https://arxiv.org/abs/2605.07794v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.07794v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World Action Models (WAMs) are an emerging family of policies that tie robot action generation to future-observation modeling. In this work, we focus on the joint video--action modeling paradigm, where actions and imagined future observations are co-generated along a shared denoising or flow trajectory, so that perception, prediction, and control are coupled within one generative process. Existing WAMs typically realize this paradigm with a Mixture-of-Transformers (MoT), where video and action tokens interact through shared self-attention. This architecture can in principle assign a separate timestep $t_f$ to each predicted latent frame, yet current systems collapse this degree of freedom onto a single shared scalar $t$. Under the noise-as-masking view of Diffusion Forcing, this shared schedule imposes the unjustified prior that every predicted latent is equally reliable for action generation. We instead view the per-latent schedule as a \emph{learnable information-gating policy}: by changing a latent frame's noise level, the policy modulates the reliability of its Key/Value contribution to the action tokens. We propose \textbf{NoiseGate}, which combines independent per-latent timestep sampling during backbone training, a lightweight Gating Policy Network that emits per-latent time increments during denoising, and task-reward optimization that trains the schedule policy without hand-crafted shape priors. Built on a joint video--action MoT backbone, NoiseGate delivers consistent gains on diverse RoboTwin random-scene manipulation tasks.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-08T14:31:52Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Wen Huang</name>
+    </author>
+    <author>
+      <name>Haoran Sun</name>
+    </author>
+    <author>
+      <name>Yongjian Guo</name>
+    </author>
+    <author>
+      <name>Yunxuan Ma</name>
+    </author>
+    <author>
+      <name>Haoran Li</name>
+    </author>
+    <author>
+      <name>Jing Long</name>
+    </author>
+    <author>
+      <name>Zhouying Mo</name>
+    </author>
+    <author>
+      <name>Zhong Guan</name>
+    </author>
+    <author>
+      <name>Yucheng Guo</name>
+    </author>
+    <author>
+      <name>Shuai Di</name>
+    </author>
+    <author>
+      <name>Junwu Xiong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12368v1</id>
+    <title>A Machine Learning Approach to the Nirenberg Problem</title>
+    <updated>2026-02-12T19:58:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.12368v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12368v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work introduces the Nirenberg Neural Network: a numerical approach to the Nirenberg problem of prescribing Gaussian curvature on $S^2$ for metrics that are pointwise conformal to the round metric. Our mesh-free physics-informed neural network (PINN) approach directly parametrises the conformal factor globally and is trained with a geometry-aware loss enforcing the curvature equation. Additional consistency checks were performed via the Gauss-Bonnet theorem, and spherical-harmonic expansions were fit to the learnt models to provide interpretability.
+  For prescribed curvatures with known realisability, the neural network achieves very low losses ($10^{-7} - 10^{-10}$), while unrealisable curvatures yield significantly higher losses. This distinction enables the assessment of unknown cases, separating likely realisable functions from non-realisable ones. The current capabilities of the Nirenberg Neural Network demonstrate that neural solvers can serve as exploratory tools in geometric analysis, offering a quantitative computational perspective on longstanding existence questions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T19:58:11Z</published>
+    <arxiv:comment>38 pages, 14 pages, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gianfranco Cortés</name>
+    </author>
+    <author>
+      <name>Maria Esteban-Casadevall</name>
+    </author>
+    <author>
+      <name>Yueqing Feng</name>
+    </author>
+    <author>
+      <name>Jonas Henkel</name>
+    </author>
+    <author>
+      <name>Edward Hirst</name>
+    </author>
+    <author>
+      <name>Tancredi Schettini Gherardini</name>
+    </author>
+    <author>
+      <name>Alexander G. Stapleton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.25115v1</id>
+    <title>Courant: a State-Adaptive Perceiver-Based Neural Surrogate with Local Support and Interpretable Field Decomposition</title>
+    <updated>2026-05-24T14:55:12Z</updated>
+    <link href="https://arxiv.org/abs/2605.25115v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.25115v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce "Courant", a Perceiver-based encoder-processor-decoder surrogate model that has latent features exhibiting adaptive specialization and local support in the physical space, enabling functionality akin to an adaptive hp-refinement scheme, an attribute that is highly desirable in traditional numerical solvers and scientific machine learning broadly. The proposed architecture combines a shared random Fourier feature coordinate embedding, state-adapted latent queries, and a light-weight decoder. Courant is trained end-to-end with steady or transient simulation data and only a standard L_2 prediction loss in the physical space, achieving competitive accuracy on benchmarks. We demonstrate that Courant's inductive biases yield latents that are interpretable by design: they develop multiscale geometric specialization in the simulation domain and track coherent structures in the time-dependent case, acting analogously to time-evolving spatial basis functions and allowing for decoding a compact, geometry-anchored, partition-of-unity-like decomposition of the simulated field.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-24T14:55:12Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anuj Kumar</name>
+    </author>
+    <author>
+      <name>Josiah Bjorgaard</name>
+    </author>
+    <author>
+      <name>Nikolaos Bouklas</name>
+    </author>
+    <author>
+      <name>Matteo Salvador</name>
+    </author>
+    <author>
+      <name>Alexander Lavin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.20085v1</id>
+    <title>A Physics-Informed Neural Network for Solving the Quasi-static Magnetohydrodynamic Equations</title>
+    <updated>2026-04-22T01:05:16Z</updated>
+    <link href="https://arxiv.org/abs/2604.20085v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.20085v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A physics-informed neural network (PINN) is developed, for the first time, to learn the time-dependent quasi-static magnetohydrodynamic (MHD) equations in axisymmetric tokamak geometry, without any experimental or synthetic data. The initial study considered an ITER-like tokamak and found that a PINN, after careful treatment, was capable of learning the solution to the MHD system and predict a vertically displacing plasma, where general agreement with ground truth simulation was observed. The proof-of-principle demonstration highlights the potential of physics-constrained deep learning to learn complex plasma behavior.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-22T01:05:16Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Jonathan S. Arnaud</name>
+    </author>
+    <author>
+      <name>Christopher J. McDevitt</name>
+    </author>
+    <author>
+      <name>Golo Wimmer</name>
+    </author>
+    <author>
+      <name>Xian-Zhu Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.13723v1</id>
+    <title>Physics-Informed Neural Networks for Solving Derivative-Constrained PDEs</title>
+    <updated>2026-04-15T10:57:22Z</updated>
+    <link href="https://arxiv.org/abs/2604.13723v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.13723v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physics-Informed Neural Networks (PINNs) recast PDE solving as an optimisation problem in function space by minimising a residual-based objective, yet many applications require additional derivative-based relations that are just as fundamental as the governing equations. In this paper, we present Derivative-Constrained PINNs (DC-PINNs), a general framework that treats constrained PDE solving as an optimisation guided by a minimum objective function criterion where the physics resides in the minimum principle. DC-PINNs embed general nonlinear constraints on states and derivatives, e.g., bounds, monotonicity, convexity, incompressibility, computed efficiently via automatic differentiation, and they employ self-adaptive loss balancing to tune the influence of each objective, reducing reliance on manual hyperparameters and problem-specific architectures. DC-PINNs consistently reduce constraint violations and improve physical fidelity versus baseline PINN variants, representative hard-constraint formulations on benchmarks, including heat diffusion with bounds, financial volatilities with arbitrage-free, and fluid flow with vortices shed. Explicitly encoding derivative constraints stabilises training and steers optimisation toward physically admissible minima even when the PDE residual alone is small, providing reliable solutions of constrained PDEs grounded in energy minimum principles.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-15T10:57:22Z</published>
+    <arxiv:comment>Phys. Rev. E - Accepted 14 April, 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kentaro Hoshisashi</name>
+    </author>
+    <author>
+      <name>Carolyn E Phelan</name>
+    </author>
+    <author>
+      <name>Paolo Barucca</name>
+    </author>
+    <arxiv:doi>10.1103/5bbf-p6zk</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/5bbf-p6zk" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.17613v1</id>
+    <title>VeriCache: Turning Lossy KV Cache into Lossless LLM Inference</title>
+    <updated>2026-05-17T19:18:39Z</updated>
+    <link href="https://arxiv.org/abs/2605.17613v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.17613v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The large size of the KV cache has become a major bottleneck for serving LLMs with increasing context lengths. In response, many KV cache compression methods, such as token dropping and quantization, have been proposed. However, almost all of these methods are inherently lossy-despite minimal accuracy degradation for short outputs, their outputs increasingly diverge from full-KV-cache outputs as more tokens are decoded, which leads to catastrophic failures in code generation and tool calling.
+  We present VeriCache, the first inference framework that ensures the same output as full-KV-cache decoding but largely preserves the high decoding throughput of a range of KV cache compression algorithms. VeriCache uses the compressed KV cache to draft tokens, then verifies them against the full KV cache. While it may seem like just speculative decoding, VeriCache requires addressing a key system challenge to work-keeping the full KV cache out of GPU memory and minimizing the overhead of swapping it in for verification. The insight is two-fold: (1) compressed-KV decoding can be parallelized with full-KV swap, because one is HBM-bandwidth-bound and the other is PCIe/network-bound, and (2) the compressed KV cache often produces output similar to the full KV cache, allowing a long drafting horizon to amortize each full-KV swap.
+  VeriCache applies to both long-context decoding and remote prefix caching, supports a broad family of token-dropping and quantization methods through a uniform compressor interface, and composes with traditional speculative decoding. Experimental results show that VeriCache achieves up to 4X higher throughput than full-KV inference while producing identical outputs.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-17T19:18:39Z</published>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Jiayi Yao</name>
+    </author>
+    <author>
+      <name>Samuel Shen</name>
+    </author>
+    <author>
+      <name>Kuntai Du</name>
+    </author>
+    <author>
+      <name>Shaoting Feng</name>
+    </author>
+    <author>
+      <name>Dongjoo Seo</name>
+    </author>
+    <author>
+      <name>Rui Zhang</name>
+    </author>
+    <author>
+      <name>Yuyang Huang</name>
+    </author>
+    <author>
+      <name>Yuhan Liu</name>
+    </author>
+    <author>
+      <name>Shan Lu</name>
+    </author>
+    <author>
+      <name>Junchen Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.08775v1</id>
+    <title>Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks</title>
+    <updated>2026-06-07T18:39:45Z</updated>
+    <link href="https://arxiv.org/abs/2606.08775v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.08775v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual world models have shown great potential in learning complex system dynamics. Recent advancements leverage these models as transition functions within Model Predictive Control (MPC) frameworks to solve various control tasks. When applied to robotics, however, they are limited to single-stage tasks such as reaching or grasping, and struggle with multi-stage ones that demand complex sequential planning. In this work, we introduce WorldDP, a world model framework designed for multi-stage robotic manipulation. Our hierarchical approach utilizes a high-level world model as a transition function to optimize for feasible subgoals during runtime, which are subsequently reached by a low-level Diffusion Policy. To further aid in learning dynamics and planning, we incorporate object-centric representations that decouple environmental entities and enable us to plan sequentially with respect to each. Evaluated across several robotics benchmarks, WorldDP consistently outperforms existing baselines, validating that coupling the world model's physically grounded planning with diffusion policy's efficient execution yields superior multi-stage performance.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-07T18:39:45Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Raktim Gautam Goswami</name>
+    </author>
+    <author>
+      <name>Prashanth Krishnamurthy</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Farshad Khorrami</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.19312v3</id>
+    <title>LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels</title>
+    <updated>2026-06-03T18:50:40Z</updated>
+    <link href="https://arxiv.org/abs/2603.19312v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.19312v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Joint Embedding Predictive Architectures (JEPAs) offer a compelling framework for learning world models in compact latent spaces, yet existing methods remain fragile, relying on complex multi-term losses, exponential moving averages, pre-trained encoders, or auxiliary supervision to avoid representation collapse. In this work, we introduce LeWorldModel (LeWM), the first JEPA that trains stably end-to-end from raw pixels using only two loss terms: a next-embedding prediction loss and a regularizer enforcing Gaussian-distributed latent embeddings. This reduces tunable loss hyperparameters from six to one compared to the only existing end-to-end alternative. With ~15M parameters trainable on a single GPU in a few hours, LeWM plans up to 48x faster than foundation-model-based world models while remaining competitive across diverse 2D and 3D control tasks. Beyond control, we show that LeWM's latent space encodes meaningful physical structure through probing of physical quantities. Surprise evaluation confirms that the model reliably detects physically implausible events.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-13T19:48:14Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Lucas Maes</name>
+    </author>
+    <author>
+      <name>Quentin Le Lidec</name>
+    </author>
+    <author>
+      <name>Damien Scieur</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+  </entry>
+</feed>

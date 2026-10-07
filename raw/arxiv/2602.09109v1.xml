@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VtKoyN5g05kyr86q5bVwru8zv6Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09109&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:11:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2602.09109" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09109v1</id>
+    <title>Distributed Hybrid Parallelism for Large Language Models: Comparative Study and System Design Guide</title>
+    <updated>2026-02-09T19:01:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.09109v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09109v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid growth of large language models (LLMs), a wide range of methods have been developed to distribute computation and memory across hardware devices for efficient training and inference. While existing surveys provide descriptive overviews of these techniques, systematic analysis of their benefits and trade offs and how such insights can inform principled methodology for designing optimal distributed systems remain limited. This paper offers a comprehensive review of collective operations and distributed parallel strategies, complemented by mathematical formulations to deepen theoretical understanding. We further examine hybrid parallelization designs, emphasizing communication computation overlap across different stages of model deployment, including both training and inference. Recent advances in automated search for optimal hybrid parallelization strategies using cost models are also discussed. Moreover, we present case studies with mainstream architecture categories to reveal empirical insights to guide researchers and practitioners in parallelism strategy selection. Finally, we highlight open challenges and limitations of current LLM training paradigms and outline promising directions for the next generation of large scale model development.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T19:01:13Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hossam Amer</name>
+    </author>
+    <author>
+      <name>Rezaul Karim</name>
+    </author>
+    <author>
+      <name>Ali Pourranjbar</name>
+    </author>
+    <author>
+      <name>Weiwei Zhang</name>
+    </author>
+    <author>
+      <name>Walid Ahmed</name>
+    </author>
+    <author>
+      <name>Boxing Chen</name>
+    </author>
+  </entry>
+</feed>

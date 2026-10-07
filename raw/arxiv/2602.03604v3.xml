@@ -1,0 +1,653 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/46pGOM3gOAI7pcD75YRDLWtLJ1o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2604.15259,2602.08287,2602.18523,2605.0645,2604.03481,2605.13892,2507.19888,2601.03332,2602.12706,2601.06244,2507.08338,2512.24497v3,2605.12167,2602.15922,2602.03604,2511.14262,2605.01694,2604.16592,2604.16585,2602.09849&amp;start=0&amp;max_results=20</title>
+  <updated>2026-10-07T00:13:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=20&amp;id_list=2604.15259,2602.08287,2602.18523,2605.0645,2604.03481,2605.13892,2507.19888,2601.03332,2602.12706,2601.06244,2507.08338,2512.24497v3,2605.12167,2602.15922,2602.03604,2511.14262,2605.01694,2604.16592,2604.16585,2602.09849" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>19</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09849v2</id>
+    <title>BagelVLA: Enhancing Long-Horizon Manipulation via Interleaved Vision-Language-Action Generation</title>
+    <updated>2026-02-11T03:54:17Z</updated>
+    <link href="https://arxiv.org/abs/2602.09849v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09849v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Equipping embodied agents with the ability to reason about tasks, foresee physical outcomes, and generate precise actions is essential for general-purpose manipulation. While recent Vision-Language-Action (VLA) models have leveraged pre-trained foundation models, they typically focus on either linguistic planning or visual forecasting in isolation. These methods rarely integrate both capabilities simultaneously to guide action generation, leading to suboptimal performance in complex, long-horizon manipulation tasks. To bridge this gap, we propose BagelVLA, a unified model that integrates linguistic planning, visual forecasting, and action generation within a single framework. Initialized from a pretrained unified understanding and generative model, BagelVLA is trained to interleave textual reasoning and visual prediction directly into the action execution loop. To efficiently couple these modalities, we introduce Residual Flow Guidance (RFG), which initializes from current observation and leverages single-step denoising to extract predictive visual features, guiding action generation with minimal latency. Extensive experiments demonstrate that BagelVLA outperforms existing baselines by a significant margin on multiple simulated and real-world benchmarks, particularly in tasks requiring multi-stage reasoning.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T14:54:01Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yucheng Hu</name>
+    </author>
+    <author>
+      <name>Jianke Zhang</name>
+    </author>
+    <author>
+      <name>Yuanfei Luo</name>
+    </author>
+    <author>
+      <name>Yanjiang Guo</name>
+    </author>
+    <author>
+      <name>Xiaoyu Chen</name>
+    </author>
+    <author>
+      <name>Xinshu Sun</name>
+    </author>
+    <author>
+      <name>Kun Feng</name>
+    </author>
+    <author>
+      <name>Qingzhou Lu</name>
+    </author>
+    <author>
+      <name>Sheng Chen</name>
+    </author>
+    <author>
+      <name>Yangang Zhang</name>
+    </author>
+    <author>
+      <name>Wei Li</name>
+    </author>
+    <author>
+      <name>Jianyu Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15922v1</id>
+    <title>World Action Models are Zero-shot Policies</title>
+    <updated>2026-02-17T15:04:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.15922v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15922v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>State-of-the-art Vision-Language-Action (VLA) models excel at semantic generalization but struggle to generalize to unseen physical motions in novel environments. We introduce DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone. Unlike VLAs, WAMs learn physical dynamics by predicting future world states and actions, using video as a dense representation of how the world evolves. By jointly modeling video and action, DreamZero learns diverse skills effectively from heterogeneous robot data without relying on repetitive demonstrations. This results in over 2x improvement in generalization to new tasks and environments compared to state-of-the-art VLAs in real robot experiments. Crucially, through model and system optimizations, we enable a 14B autoregressive video diffusion model to perform real-time closed-loop control at 7Hz. Finally, we demonstrate two forms of cross-embodiment transfer: video-only demonstrations from other robots or humans yield a relative improvement of over 42% on unseen task performance with just 10-20 minutes of data. More surprisingly, DreamZero enables few-shot embodiment adaptation, transferring to a new embodiment with only 30 minutes of play data while retaining zero-shot generalization.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T15:04:02Z</published>
+    <arxiv:comment>Project page: https://dreamzero0.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Seonghyeon Ye</name>
+    </author>
+    <author>
+      <name>Yunhao Ge</name>
+    </author>
+    <author>
+      <name>Kaiyuan Zheng</name>
+    </author>
+    <author>
+      <name>Shenyuan Gao</name>
+    </author>
+    <author>
+      <name>Sihyun Yu</name>
+    </author>
+    <author>
+      <name>George Kurian</name>
+    </author>
+    <author>
+      <name>Suneel Indupuru</name>
+    </author>
+    <author>
+      <name>You Liang Tan</name>
+    </author>
+    <author>
+      <name>Chuning Zhu</name>
+    </author>
+    <author>
+      <name>Jiannan Xiang</name>
+    </author>
+    <author>
+      <name>Ayaan Malik</name>
+    </author>
+    <author>
+      <name>Kyungmin Lee</name>
+    </author>
+    <author>
+      <name>William Liang</name>
+    </author>
+    <author>
+      <name>Nadun Ranawaka</name>
+    </author>
+    <author>
+      <name>Jiasheng Gu</name>
+    </author>
+    <author>
+      <name>Yinzhen Xu</name>
+    </author>
+    <author>
+      <name>Guanzhi Wang</name>
+    </author>
+    <author>
+      <name>Fengyuan Hu</name>
+    </author>
+    <author>
+      <name>Avnish Narayan</name>
+    </author>
+    <author>
+      <name>Johan Bjorck</name>
+    </author>
+    <author>
+      <name>Jing Wang</name>
+    </author>
+    <author>
+      <name>Gwanghyun Kim</name>
+    </author>
+    <author>
+      <name>Dantong Niu</name>
+    </author>
+    <author>
+      <name>Ruijie Zheng</name>
+    </author>
+    <author>
+      <name>Yuqi Xie</name>
+    </author>
+    <author>
+      <name>Jimmy Wu</name>
+    </author>
+    <author>
+      <name>Qi Wang</name>
+    </author>
+    <author>
+      <name>Ryan Julian</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Yilun Du</name>
+    </author>
+    <author>
+      <name>Yevgen Chebotar</name>
+    </author>
+    <author>
+      <name>Scott Reed</name>
+    </author>
+    <author>
+      <name>Jan Kautz</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Linxi "Jim" Fan</name>
+    </author>
+    <author>
+      <name>Joel Jang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.14262v3</id>
+    <title>Object-Centric World Models for Causality-Aware Reinforcement Learning</title>
+    <updated>2026-03-30T07:20:18Z</updated>
+    <link href="https://arxiv.org/abs/2511.14262v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.14262v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World models have been developed to support sample-efficient deep reinforcement learning agents. However, it remains challenging for world models to accurately replicate environments that are high-dimensional, non-stationary, and composed of multiple objects with rich interactions since most world models learn holistic representations of all environmental components. By contrast, humans perceive the environment by decomposing it into discrete objects, facilitating efficient decision-making. Motivated by this insight, we propose \emph{Slot Transformer Imagination with CAusality-aware reinforcement learning} (STICA), a unified framework in which object-centric Transformers serve as the world model and causality-aware policy and value networks. STICA represents each observation as a set of object-centric tokens, together with tokens for the agent action and the resulting reward, enabling the world model to predict token-level dynamics and interactions. The policy and value networks then estimate token-level cause--effect relations and use them in the attention layers, yielding causality-guided decision-making. Experiments on object-rich benchmarks demonstrate that STICA consistently outperforms state-of-the-art agents in both sample efficiency and final performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-18T08:53:09Z</published>
+    <arxiv:comment>Accepted by AAAI-26. Codes are available at https://github.com/nishimoto0430/STICA</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yosuke Nishimoto</name>
+    </author>
+    <author>
+      <name>Takashi Matsubara</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03604v3</id>
+    <title>A Lightweight Library for Energy-Based Joint-Embedding Predictive Architectures</title>
+    <updated>2026-04-08T15:27:24Z</updated>
+    <link href="https://arxiv.org/abs/2602.03604v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03604v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present EB-JEPA, an open-source library for learning representations and world models using Joint-Embedding Predictive Architectures (JEPAs). JEPAs learn to predict in representation space rather than pixel space, avoiding the pitfalls of generative modeling while capturing semantically meaningful features suitable for downstream tasks. Our library provides modular, self-contained implementations that illustrate how representation learning techniques developed for image-level self-supervised learning can transfer to video, where temporal dynamics add complexity, and ultimately to action-conditioned world models, where the model must additionally learn to predict the effects of control inputs. Each example is designed for single-GPU training within a few hours, making energy-based self-supervised learning accessible for research and education. We provide ablations of JEA components on CIFAR-10. Probing these representations yields 91% accuracy, indicating that the model learns useful features. Extending to video, we include a multi-step prediction example on Moving MNIST that demonstrates how the same principles scale to temporal modeling. Finally, we show how these representations can drive action-conditioned world models, achieving a 97% planning success rate on the Two Rooms navigation task. Comprehensive ablations reveal the critical importance of each regularization component for preventing representation collapse. Code is available at https://github.com/facebookresearch/eb_jepa.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T14:56:24Z</published>
+    <arxiv:comment>v2: clarify confusion in definition of JEPAs vs. regularization-based JEPAs v3: Camera-ready of ICLR world models workshop, fixed formatting and ViT config / results</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Basile Terver</name>
+    </author>
+    <author>
+      <name>Randall Balestriero</name>
+    </author>
+    <author>
+      <name>Megi Dervishi</name>
+    </author>
+    <author>
+      <name>David Fan</name>
+    </author>
+    <author>
+      <name>Quentin Garrido</name>
+    </author>
+    <author>
+      <name>Tushar Nagarajan</name>
+    </author>
+    <author>
+      <name>Koustuv Sinha</name>
+    </author>
+    <author>
+      <name>Wancong Zhang</name>
+    </author>
+    <author>
+      <name>Mike Rabbat</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Amir Bar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.16592v2</id>
+    <title>Human Cognition in Machines: A Unified Perspective of World Models</title>
+    <updated>2026-06-15T02:33:48Z</updated>
+    <link href="https://arxiv.org/abs/2604.16592v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.16592v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This report of world models distinguishes prior works by the cognitive functions they innovate. Many works claim an almost human-like cognitive capability in their world models. To evaluate these claims requires a proper grounding in first principles from human and machine cognition theory. In moving towards human-like world models we present a conceptual unified framework for world models that fully incorporates all the cognitive functions (i.e., memory, perception, language, reasoning, imagining, motivation, and metacognition) and identify gaps in existing research as a guide for future states of the art. In particular, we find that motivation (especially intrinsic motivation) and metacognition remain drastically under-researched, and we propose concrete directions to address these gaps informed by active inference and global workspace theory. We also introduce epistemic world models, a new category encompassing agent frameworks for scientific discovery that operate over structured knowledge. Our taxonomy, applied to video, embodied, and epistemic world models, suggests research directions where prior taxonomies have not.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-17T17:51:46Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Timothy Rupprecht</name>
+    </author>
+    <author>
+      <name>Pu Zhao</name>
+    </author>
+    <author>
+      <name>Amir Taherin</name>
+    </author>
+    <author>
+      <name>Arash Akbari</name>
+    </author>
+    <author>
+      <name>Arman Akbari</name>
+    </author>
+    <author>
+      <name>Yumei He</name>
+    </author>
+    <author>
+      <name>Tooba Imtiaz</name>
+    </author>
+    <author>
+      <name>Sean Duffy</name>
+    </author>
+    <author>
+      <name>Juyi Lin</name>
+    </author>
+    <author>
+      <name>Yixiao Chen</name>
+    </author>
+    <author>
+      <name>Rahul Chowdhury</name>
+    </author>
+    <author>
+      <name>Enfu Nan</name>
+    </author>
+    <author>
+      <name>Yixin Shen</name>
+    </author>
+    <author>
+      <name>Yifan Cao</name>
+    </author>
+    <author>
+      <name>Haochen Zeng</name>
+    </author>
+    <author>
+      <name>Weiwei Chen</name>
+    </author>
+    <author>
+      <name>Geng Yuan</name>
+    </author>
+    <author>
+      <name>Jennifer Dy</name>
+    </author>
+    <author>
+      <name>Sarah Ostadabbas</name>
+    </author>
+    <author>
+      <name>Xuan Zhang</name>
+    </author>
+    <author>
+      <name>David Kaeli</name>
+    </author>
+    <author>
+      <name>Edmund Yeh</name>
+    </author>
+    <author>
+      <name>Yanzhi Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.19888v1</id>
+    <title>Multi-Resolution Training-Enhanced Kolmogorov-Arnold Networks for Multi-Scale PDE Problems</title>
+    <updated>2025-07-26T09:36:18Z</updated>
+    <link href="https://arxiv.org/abs/2507.19888v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.19888v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-scale PDE problems present significant challenges in scientific computing. While conventional MLP-based deep learning methods exhibit spectral bias in resolving multi-scale features, the physics-informed Kolmogorov-Arnold network (PIKAN) mitigates this issue through its novel architecture, demonstrating certain advantages. On the other hand, insights from the information bottleneck theory suggest that high-resolution training points are essential for these hybrid methods to accurately capture multi-scale behavior, although this requirement often leads to longer training times. To address this challenge, we propose a simple yet effective multi-resolution training-enhanced PIKAN framework, termed MR-PIKAN, which trains the data-physics hybrid model either sequentially or alternately across different resolutions. The proposed MR-PIKAN is validated on various multi-scale forward and inverse PDE problems. Numerical results indicate that this new training strategy effectively reduces computational costs without sacrificing accuracy, thereby enabling efficient solutions of complex multi-scale PDEs in both forward and inverse settings.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-26T09:36:18Z</published>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Yu-Sen Yang</name>
+    </author>
+    <author>
+      <name>Ling Guo</name>
+    </author>
+    <author>
+      <name>Xiaodan Ren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.03332v1</id>
+    <title>LUT-KAN: Segment-wise LUT Quantization for Fast KAN Inference</title>
+    <updated>2026-01-06T18:00:45Z</updated>
+    <link href="https://arxiv.org/abs/2601.03332v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.03332v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Kolmogorov--Arnold Networks (KAN) replace scalar weights by learnable univariate functions, often implemented with B-splines. This design can be accurate and interpretable, but it makes inference expensive on CPU because each layer requires many spline evaluations. Standard quantization toolchains are also hard to apply because the main computation is not a matrix multiply but repeated spline basis evaluation. This paper introduces LUT-KAN, a segment-wise lookup-table (LUT) compilation and quantization method for PyKAN-style KAN layers. LUT-KAN converts each edge function into a per-segment LUT with affine int8/uint8 quantization and linear interpolation. The method provides an explicit and reproducible inference contract, including boundary conventions and out-of-bounds (OOB) policies. We propose an ``honest baseline'' methodology for speed evaluation: B-spline evaluation and LUT evaluation are compared under the same backend optimization (NumPy vs NumPy and Numba vs Numba), which separates representation gains from vectorization and JIT effects. Experiments include controlled sweeps over LUT resolution L in 16, 32, 64, 128 and two quantization schemes (symmetric int8 and asymmetric uint8). We report accuracy, speed, and memory metrics with mean and standard deviation across multiple seeds. A two-by-two OOB robustness matrix evaluates behavior under different boundary modes and OOB policies. In a case study, we compile a trained KAN model for DoS attack detection (CICIDS2017 pipeline) into LUT artifacts. The compiled model preserves classification quality (F1 drop below 0.0002) while reducing steady-state CPU inference latency by 12x under NumPy and 10x under Numba backends (honest baseline). The memory overhead is approximately 10x at L=64. All code and artifacts are publicly available with fixed release tags for reproducibility.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-06T18:00:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Oleksandr Kuznetsov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06244v1</id>
+    <title>Hard Constraint Projection in a Physics Informed Neural Network</title>
+    <updated>2026-01-09T18:30:58Z</updated>
+    <link href="https://arxiv.org/abs/2601.06244v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06244v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we embed hard constraints in a physics informed neural network (PINN) which predicts solutions to the 2D incompressible Navier Stokes equations. We extend the hard constraint method introduced by Chen et al. (arXiv:2012.06148) from a linear PDE to a strongly non-linear PDE. The PINN is used to estimate the stream function and pressure of the fluid, and by differentiating the stream function we can recover an incompressible velocity field. An unlearnable hard constraint projection (HCP) layer projects the predicted velocity and pressure to a hyperplane that admits only exact solutions to a discretised form of the governing equations.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-09T18:30:58Z</published>
+    <arxiv:comment>6 pages, 3 figures, Accepted manuscript of the paper presented at ParCFD2024</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>Miranda J. S. Horne</name>
+      <arxiv:affiliation>University of Leeds</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter K. Jimack</name>
+      <arxiv:affiliation>University of Leeds</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Amirul Khan</name>
+      <arxiv:affiliation>University of Leeds</arxiv:affiliation>
+    </author>
+    <author>
+      <name>He Wang</name>
+      <arxiv:affiliation>University College London</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.34734/FZJ-2025-02453</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.34734/FZJ-2025-02453" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.18523v3</id>
+    <title>The Geometry of Multi-Task Grokking: Transverse Instability, Superposition, and Weight Decay Phase Structure</title>
+    <updated>2026-04-03T01:46:22Z</updated>
+    <link href="https://arxiv.org/abs/2602.18523v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.18523v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Grokking -- the abrupt transition from memorization to generalization long after near-zero training loss -- has been studied mainly in single-task settings. We extend geometric analysis to multi-task modular arithmetic, training shared-trunk Transformers on dual-task (mod-add + mod-mul) and tri-task (mod-add + mod-mul + mod-sq) objectives across a systematic weight decay sweep. Five consistent phenomena emerge. (1) Staggered grokking order: multiplication generalizes first, followed by squaring, then addition, with consistent delays across seeds. (2) Universal integrability: optimization trajectories remain confined to an empirically invariant low-dimensional execution manifold; commutator defects orthogonal to this manifold reliably precede generalization. (3) Weight decay phase structure: grokking timescale, curvature depth, reconstruction threshold, and defect lead covary systematically with weight decay, revealing distinct dynamical regimes and a sharp no-decay failure mode. (4) Holographic incompressibility: final solutions occupy only 4--8 principal trajectory directions yet are distributed across full-rank weights and destroyed by minimal perturbations; SVD truncation, magnitude pruning, and uniform scaling all fail to preserve performance. (5) Transverse fragility and redundancy: removing less than 10% of orthogonal gradient components eliminates grokking, yet dual-task models exhibit partial recovery under extreme deletion, suggesting redundant center manifolds enabled by overparameterization. Together, these results support a dynamical picture in which multi-task grokking constructs a compact superposition subspace in parameter space, with weight decay acting as compression pressure and excess parameters supplying geometric redundancy in optimization pathways.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-19T22:39:55Z</published>
+    <arxiv:comment>42 pages, 34 figures, 15 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yongzhong Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.13892v1</id>
+    <title>A QPINN Framework with Quantum Trainable Embeddings for the Lid-Driven Cavity Problem</title>
+    <updated>2026-05-12T10:03:45Z</updated>
+    <link href="https://arxiv.org/abs/2605.13892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.13892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The steady incompressible Navier--Stokes equations pose significant computational challenges due to their nonlinear convective terms and pressure--velocity coupling. Physics-informed neural networks (PINNs) provide a mesh-free framework for approximating such systems, but classical PINNs can experience optimization difficulties in nonlinear flow regimes. In this work, we propose a quantum physics-informed neural network (QPINN) framework with a quantum neural network (QNN)-based trainable embedding for the lid-driven cavity problem. The proposed approach uses a QNN to learn data-adaptive quantum feature maps that encode spatial coordinates before they are processed by a variational quantum circuit within a physics-informed loss formulation. Numerical experiments show that the proposed QNN-TE-QPINN exhibits stable training behavior and competitive solution accuracy compared with classical PINNs and hybrid quantum models using classical embeddings, while requiring significantly fewer trainable parameters. Rather than claiming computational speedup, these results highlight the potential of trainable quantum embeddings for parameter-efficient physics-informed learning. The findings suggest that embedding design plays an important role in quantum-assisted PDE solvers and support further investigation of QNN-based trainable embeddings for nonlinear fluid dynamics benchmarks.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T10:03:45Z</published>
+    <arxiv:comment>11 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Nahid Binandeh Dehaghani</name>
+    </author>
+    <author>
+      <name>Ban Q. Tran</name>
+    </author>
+    <author>
+      <name>Susan Mengel</name>
+    </author>
+    <author>
+      <name>Rafal Wisniewski</name>
+    </author>
+    <author>
+      <name>A. Pedro Aguiar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.16585v1</id>
+    <title>The Global Neural World Model: Spatially Grounded Discrete Topologies for Action-Conditioned Planning</title>
+    <updated>2026-04-17T15:12:15Z</updated>
+    <link href="https://arxiv.org/abs/2604.16585v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.16585v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the Global Neural World Model (GNWM), a self-stabilizing framework that achieves topological quantization through balanced continuous entropy constraints. Operating as a continuous, action-conditioned Joint-Embedding Predictive Architecture (JEPA), the GNWM maps environments onto a discrete 2D grid, enforcing translational equivariance without pixel-level reconstruction. Our results show this architecture prevents manifold drift during autoregressive rollouts by using grid ``snapping'' as a native error-correction mechanism. Furthermore, by training via maximum entropy exploration (random walks), the model learns generalized transition dynamics rather than memorizing specific expert trajectories. We validate the GNWM across passive observation, active agent control, and abstract sequence regimes, demonstrating its capacity to act not just as a spatial physics simulator, but as a causal discovery model capable of organizing continuous, predictable concepts into structured topological maps.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-17T15:12:15Z</published>
+    <arxiv:comment>12 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Noureddine Kermiche</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.03481v2</id>
+    <title>Lattice-Boltzmann-Driven Physics-Informed Neural Networks for Droplet Wettability on Rough Surfaces</title>
+    <updated>2026-04-20T05:21:11Z</updated>
+    <link href="https://arxiv.org/abs/2604.03481v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.03481v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a Lattice-Boltzmann-driven kinetic physics-informed neural network (K-PINN) for predictive modeling of droplet dynamics on structured surfaces, in which the discrete Boltzmann-BGK equation is incorporated into the learning framework. Different from traditional PINNs that are restricted by macroscopic continuum equations, the K-PINN framework is built on the mesoscopic kinetic level, in which the essential Lattice-Boltzmann physics is preserved in the data-efficient neural network. The K-PINN has been successfully employed for modeling non-trivial droplet phenomena such as contact pinning, anisotropic spreading, and capillary hysteresis on substrates of different morphologies, ranging from random roughness to periodic pillar structures. Moreover, strict physical consistency, such as mass conservation within 1.5%, is ensured in the K-PINN framework. Furthermore, the U-Net-based encoder-decoder structure of the K-PINN results in a 50-75% reduction in error compared to traditional neural networks, achieving almost perfect agreement with high-resolution Lattice-Boltzmann simulations $L_2$ ~ 0.021-0.026, $R^2$ ~ 0.999. Robust convergence of the K-PINN to diverse surface morphologies is ensured through curriculum learning and adaptive two-phase optimization. Upon convergence, the K-PINN can perform real-time prediction with over $10^4$ evaluations per second. Through the combination of kinetic theory and physics-informed learning, this work establishes a new paradigm for fast, physically consistent modeling of multiphase flows on complex surfaces.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-03T22:02:30Z</published>
+    <arxiv:comment>41 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Ganesh Sahadeo Meshram</name>
+    </author>
+    <author>
+      <name>Partha Pratim Chakrabarti</name>
+    </author>
+    <author>
+      <name>Suman Chakraborty</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.12167v1</id>
+    <title>From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation</title>
+    <updated>2026-05-12T14:15:16Z</updated>
+    <link href="https://arxiv.org/abs/2605.12167v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.12167v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Video generation models offer a promising imagination mechanism for robot manipulation by predicting long-horizon future observations, but effectively exploiting these imagined futures for action execution remains challenging. Existing approaches either condition policies on predicted frames or directly decode generated videos into actions, both suffering from a mismatch between visual realism and control relevance. As a result, predicted observations emphasize perceptual fidelity rather than action-centric causes of state transitions, leading to indirect and unstable control. To address this gap, we propose MoLA (Mixture of Latent Actions), a control-oriented interface that transforms imagined future videos into executable representations. Instead of passing predicted frames directly to the policy, MoLA leverages a mixture of pretrained inverse dynamics models to infer a mixture of latent actions implied by generated visual transitions. These modality-aware inverse dynamics models capture complementary semantic, depth, and flow cues, providing a structured and physically grounded action representation that bridges video imagination and policy execution. We evaluate our approach on simulated benchmarks (LIBERO, CALVIN, and LIBERO-Plus) and real-world robot manipulation tasks, achieving consistent gains in task success, temporal consistency, and generalization.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T14:15:16Z</published>
+    <arxiv:comment>ICML 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yajie Li</name>
+    </author>
+    <author>
+      <name>Bozhou Zhang</name>
+    </author>
+    <author>
+      <name>Chun Gu</name>
+    </author>
+    <author>
+      <name>Zipei Ma</name>
+    </author>
+    <author>
+      <name>Jiahui Zhang</name>
+    </author>
+    <author>
+      <name>Jiankang Deng</name>
+    </author>
+    <author>
+      <name>Xiatian Zhu</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08287v1</id>
+    <title>Noise Stability of Transformer Models</title>
+    <updated>2026-02-09T05:43:22Z</updated>
+    <link href="https://arxiv.org/abs/2602.08287v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08287v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding simplicity biases in deep learning offers a promising path toward developing reliable AI. A common metric for this, inspired by Boolean function analysis, is average sensitivity, which captures a model's robustness to single-token perturbations. We argue that average sensitivity has two key limitations: it lacks a natural generalization to real-valued domains and fails to explain the "junta-like" input dependence we empirically observe in modern LLMs. To address these limitations, we propose noise stability as a more comprehensive simplicity metric. Noise stability expresses a model's robustness to correlated noise applied to all input coordinates simultaneously. We provide a theoretical analysis of noise stability for single-layer attention and ReLU MLP layers and tackle the multi-layer propagation problem with a covariance interval propagation approach. Building on this theory, we develop a practical noise stability regularization method. Experiments on algorithmic and next-token-prediction tasks show that our regularizer consistently catalyzes grokking and accelerates training by approximately $35\%$ and $75\%$ respectively. Our results sculpt a new connection between signal propagation in neural networks and interpretability, with noise stability emerging as a powerful tool for understanding and improving modern Transformers.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T05:43:22Z</published>
+    <arxiv:comment>Published in ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Themistoklis Haris</name>
+    </author>
+    <author>
+      <name>Zihan Zhang</name>
+    </author>
+    <author>
+      <name>Yuichi Yoshida</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.15259v2</id>
+    <title>Stability and Generalization in Looped Transformers</title>
+    <updated>2026-04-22T15:48:32Z</updated>
+    <link href="https://arxiv.org/abs/2604.15259v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.15259v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Looped transformers promise test-time compute scaling by spending more iterations on harder problems, but it remains unclear which architectural choices let them extrapolate to harder problems at test time rather than memorize training-specific solutions. We introduce a fixed-point based framework for analyzing looped architectures along three axes of stability -- reachability, input-dependence, and geometry -- and use it to characterize when fixed-point iteration yields meaningful predictions. Theoretically, we prove that looped networks without recall have countable fixed points and cannot achieve strong input-dependence at any spectral regime, while recall combined with outer normalization reliably produces a regime in which fixed points are simultaneously reachable, locally smooth in the input, and supported by stable backpropagation. Empirically, we train single-layer looped transformers on chess, sudoku, and prefix-sums and find that downstream performance tracks the framework's predictions across tasks and architectural configurations. We additionally introduce internal recall, a novel recall placement variant, and show that it becomes competitive with -- and on sudoku, substantially better than -- standard recall placement once outer normalization is applied.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-16T17:35:49Z</published>
+    <arxiv:comment>11 main pages, 27 total</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Asher Labovich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.01694v1</id>
+    <title>Latent State Design for World Models under Sufficiency Constraints</title>
+    <updated>2026-05-03T03:19:42Z</updated>
+    <link href="https://arxiv.org/abs/2605.01694v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.01694v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A world model matters to an agent only through the state it constructs. That state must preserve some information, discard other information, and support some future function: prediction, control, planning, memory, grounding, or counterfactual reasoning. This paper treats world-model research as latent state design under sufficiency constraints.
+  We propose a functional taxonomy that groups methods by what their latent state is for, rather than by architecture or application domain: predictive embedding, recurrent belief state, object/causal structure, latent action interface, grounded planning interface, and memory substrate. These roles expose distinctions that architecture-based groupings hide, including the gap between predictive sufficiency and control sufficiency, and the gap between passive video prediction and counterfactual action modeling.
+  The taxonomy supports an evaluation framework that judges a model by the sufficiency constraint its latent state was built to satisfy. We compare methods along seven axes: representation, prediction, planning, controllability, causal/counterfactual support, memory, and uncertainty. We use the resulting matrix as a diagnostic for what a latent state preserves, discards, and enables.
+  The conclusion that follows is that an actionable world model is the one whose state construction matches the task, not the one that preserves the most information.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-03T03:19:42Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Keon Woo Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.24497v3</id>
+    <title>What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?</title>
+    <updated>2026-05-18T09:26:59Z</updated>
+    <link href="https://arxiv.org/abs/2512.24497v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.24497v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A long-standing challenge in AI is to develop agents capable of solving a wide range of physical tasks and generalizing to new, unseen tasks and environments. A popular recent approach involves training a world model from state-action trajectories and subsequently use it with a planning algorithm to solve new tasks. Planning is commonly performed in the input space, but a recent family of methods has introduced planning algorithms that optimize in the learned representation space of the world model, with the promise that abstracting irrelevant details yields more efficient planning. In this work, we characterize models from this family as JEPA-WMs and investigate the technical choices that make algorithms from this class work. We propose a comprehensive study of several key components with the objective of finding the optimal approach within the family. We conducted experiments using both simulated environments and real-world robotic data, and studied how the model architecture, the training objective, and the planning algorithm affect planning success. We combine our findings to propose a model that outperforms two established baselines, DINO-WM and V-JEPA-2-AC, in both navigation and manipulation tasks. Code, data and checkpoints are available at https://github.com/facebookresearch/jepa-wms.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-30T22:50:03Z</published>
+    <arxiv:comment>V2 of the article: - Added AdaLN-zero - Added table comparing JEPA-WMs with baselines with std translating per-seed variability only, no variability across epochs - Reordered figures in main body of the paper V3: added data scaling experiments, theoretical appendix section on autoregressive rollout, acceptance at TMLR</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Basile Terver</name>
+    </author>
+    <author>
+      <name>Tsung-Yen Yang</name>
+    </author>
+    <author>
+      <name>Jean Ponce</name>
+    </author>
+    <author>
+      <name>Adrien Bardes</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12706v2</id>
+    <title>Physics-Informed Laplace Neural Operator for Solving Partial Differential Equations</title>
+    <updated>2026-08-13T07:35:14Z</updated>
+    <link href="https://arxiv.org/abs/2602.12706v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12706v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural operators have emerged as fast surrogate solvers for parametric partial differential equations (PDEs). However, purely data-driven models often require extensive training data and can generalize poorly, especially in small-data regimes and under unseen (out-of-distribution) input functions that are not represented in the training data. To address these limitations, we propose the Physics-Informed Laplace Neural Operator (PILNO), which enhances the Laplace Neural Operator (LNO) by embedding governing physics into training through PDE, boundary condition, and initial condition residuals. To improve expressivity, we first introduce an Advanced LNO (ALNO) backbone that retains a pole-residue transient representation while replacing the steady-state branch with an FNO-style Fourier multiplier. To make physics-informed training both data-efficient and robust, PILNO further leverages (i) virtual inputs: an unlabeled ensemble of input functions spanning a broad spectral range that provides abundant physics-only supervision and explicitly targets out-of-distribution (OOD) regimes; and (ii) temporal-causality weighting: a time-decaying reweighting of the physics residual that prioritizes early-time dynamics and stabilizes optimization for time-dependent PDEs. Across four representative benchmarks -- Burgers' equation, Darcy flow, a reaction-diffusion system, and a forced KdV equation -- PILNO consistently improves accuracy in small-data settings (e.g., N_train &lt;= 27), reduces run-to-run variability across random seeds, and achieves stronger OOD generalization with respect to input function statistics than purely data-driven baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T08:19:40Z</published>
+    <arxiv:comment>46 pages, 22 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Journal of Computational Physics 566 (2026) 115291</arxiv:journal_ref>
+    <author>
+      <name>Heechang Kim</name>
+    </author>
+    <author>
+      <name>Qianying Cao</name>
+    </author>
+    <author>
+      <name>Hyomin Shin</name>
+    </author>
+    <author>
+      <name>Seungchul Lee</name>
+    </author>
+    <author>
+      <name>George Em Karniadakis</name>
+    </author>
+    <author>
+      <name>Minseok Choi</name>
+    </author>
+    <arxiv:doi>10.1016/j.jcp.2026.115291</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jcp.2026.115291" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.08338v2</id>
+    <title>Discontinuity-aware KAN-based physics-informed neural networks</title>
+    <updated>2026-03-24T07:52:54Z</updated>
+    <link href="https://arxiv.org/abs/2507.08338v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.08338v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physics-informed neural networks (PINNs) have proven to be a promising method for the rapid solving of partial differential equations (PDEs) in both forward and inverse problems. However, due to the smoothness assumption of functions approximated by general neural networks, PINNs are prone to spectral bias and numerical instability and suffer from reduced accuracy when solving PDEs with sharp spatial transitions or fast temporal evolution. To address this limitation, a discontinuity-aware physics-informed neural network (DPINN) method is proposed. It incorporates an adaptive Fourier-feature embedding layer to mitigate spectral bias and capture steep gradients, a discontinuity-aware network that generalizes the Kolmogorov representation theorem to the discontinuous regime for the modeling of shock-wave properties, mesh transformation to accelerate convergence across complex geometries, and learnable local artificial viscosity to stabilize the algorithm near discontinuities. In numerical experiments regarding the inviscid Burgers' equation, Riemann problems, and transonic and supersonic airfoil flows, DPINN demonstrated superior accuracy in capturing discontinuities compared to existing methods.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-11T06:37:16Z</published>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <arxiv:journal_ref>Journal of Computational Physics, 565 (2026) 115185</arxiv:journal_ref>
+    <author>
+      <name>Guoqiang Lei</name>
+    </author>
+    <author>
+      <name>D. Exposito</name>
+    </author>
+    <author>
+      <name>Xuerui Mao</name>
+    </author>
+    <arxiv:doi>10.1016/j.jcp.2026.115185</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jcp.2026.115185" title="doi"/>
+  </entry>
+</feed>

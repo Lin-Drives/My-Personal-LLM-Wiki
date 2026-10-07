@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "scan_id": "2026-W41-embodied-intelligence-legacy-processed-20261006-retry-02",
+  "scanned_at": "2026-10-04T09:22:20.729297+08:00",
+  "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+  "papers": [
+    {
+      "arxiv_id": "2609.34182",
+      "summary": "历史周报补处理条目：UVTA：人类演示统一视觉-触觉-动作建模，灵巧操作的触觉规模化路线。问题/方法/证据：灵巧操作需要触觉，但机器人触觉演示几乎无法规模化——UVTA 的路线是让**人类触觉演示**来补。人机数据在**同一轮联合训练**里混合（非分阶段预训练），weighted sampler 保证两个本体采样等概率；min-max 归一化分别处理不同本体；损失函数把 9 维腕部与 22 维手部分组均衡，防止高维手部目标主导梯度；扩散策略 + 未来触觉预测头。原报告标注日期：2026-09-29。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：多模态策略从「视觉+动作」走向「视觉+触觉+动作」的关键一步，且给出的工程配方（分组均衡损失、单轮联合训练）非常简单可抄。当视觉侧 scaling 红利被吃干抹净，触觉可能是下一个数据 moat。",
+      "tags": [
+        "embodied-intelligence",
+        "legacy-report"
+      ],
+      "questions": [
+        "human-video-transfer"
+      ]
+    },
+    {
+      "arxiv_id": "2609.33007",
+      "summary": "历史周报补处理条目：CAPEX：让基础模型自己当演示者，经验自适应推理把成本砍掉 80%。问题/方法/证据：人采演示数据\"贵、慢、不同步\"，CAPEX 换个思路：直接让通用多模态基础模型当**自主演示者**，把物理行为蒸馏进可部署 policy。关键设计是 experience-conditioning——利用前几次尝试的执行经验，自适应调整基础模型需要\"观察-推理-重规划\"的频率（简单段少调用，卡壳段多调用）。原报告标注日期：2026-09-26。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：在「人类采数据」和「纯 sim 生成数据」之间开辟了第三条路：基础模型当数据工厂。和本周的 ego-data 路线互为镜像——一个榨人类视频，一个榨大模型推理能力，共同指向同一件事：**机器人学习的瓶颈正在从算法转向数据供给方式**。",
+      "tags": [
+        "embodied-intelligence",
+        "legacy-report"
+      ],
+      "questions": [
+        "world-model-planning",
+        "human-video-transfer"
+      ]
+    },
+    {
+      "arxiv_id": "2609.19666",
+      "summary": "历史周报其他关注条目：高自由度灵巧 VLA 后训练。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "embodied-intelligence",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    }
+  ],
+  "scanned_at_source": "report_file_mtime",
+  "historical_record": true,
+  "converted_at": "2026-10-06T23:26:04.584974+08:00"
+}

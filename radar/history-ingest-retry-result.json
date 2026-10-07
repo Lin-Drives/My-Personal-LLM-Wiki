@@ -1,0 +1,115 @@
+[
+  {
+    "batch": "2026-W19-deep-learning.json",
+    "accepted": 3,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2605.0645",
+          "summary": "历史周报补处理条目：2。问题/方法/证据：研究语言模型中\"emergent and generalizable task-specific features\"的几何特征原报告标注日期：2026-05-07。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：直接呼应scaling law中讨论的\"emergent abilities\"现象，从几何角度给出新的分析工具",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W20-physics-informed-ai.json",
+    "error": "scan_id 只能包含字母、数字、连字符和下划线"
+  },
+  {
+    "batch": "2026-W21-world-models.json",
+    "accepted": 9,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W22-ai-infra.json",
+    "accepted": 5,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W23-deep-learning.json",
+    "accepted": 3,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W25-physics-informed-ai.json",
+    "accepted": 4,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W26-world-models.json",
+    "accepted": 5,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W27-ai-infra.json",
+    "accepted": 5,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W28-deep-learning.json",
+    "accepted": 3,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W28-physics-informed-ai.json",
+    "accepted": 8,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W32-ai-infra.json",
+    "accepted": 4,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W33-deep-learning.json",
+    "accepted": 6,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W34-physics-informed-ai.json",
+    "accepted": 7,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W35-world-models.json",
+    "accepted": 7,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W36-embodied-intelligence.json",
+    "accepted": 7,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W37-ai-infra.json",
+    "accepted": 5,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W38-deep-learning.json",
+    "accepted": 8,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W39-physics-informed-ai.json",
+    "accepted": 5,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W40-world-models.json",
+    "accepted": 4,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W41-embodied-intelligence.json",
+    "accepted": 3,
+    "rejected": []
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "input_sha256": "48bcebc2c7584a5a4b341d25606b688608b6c2fbf5d050b0288996d6eb3ef58d",
+  "batch": {
+    "schema_version": 1,
+    "scan_id": "2026-W17-legacy-processed-20261006",
+    "scanned_at": "2026-04-23T19:37:47.339891+08:00",
+    "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+    "papers": [
+      {
+        "arxiv_id": "2411.14499",
+        "summary": "历史周报补处理条目：1。问题/方法/证据：首次系统分类世界模型文献为「理解世界」vs「预测未来」两大范式，覆盖生成游戏/自动驾驶/机器人/社会仿真四大领域原报告标注日期：2025。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+        "tags": [
+          "world-models",
+          "legacy-report",
+          "综述",
+          "世界模型",
+          "agi"
+        ],
+        "questions": [
+          "world-model-planning"
+        ]
+      },
+      {
+        "arxiv_id": "2506.09985",
+        "summary": "历史周报补处理条目：2。问题/方法/证据：百万小时互联网视频自监督预训练 → 62小时机器人数据微调 → 零样本在真实Franka机械臂执行抓取/放置，无需任务训练/奖励/环境数据原报告标注日期：2025。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：杨立昆路线 + 因果性，解决JEPA\"知其然不知其所以然\"的问题",
+        "tags": [
+          "world-models",
+          "legacy-report",
+          "jepa",
+          "杨立昆",
+          "机器人",
+          "因果推断",
+          "物体中心",
+          "世界模型",
+          "强化学习"
+        ],
+        "questions": [
+          "world-model-planning",
+          "robot-deployment"
+        ]
+      },
+      {
+        "arxiv_id": "2602.11389",
+        "summary": "历史周报其他关注条目：[arXiv]( ⭐⭐⭐⭐ JEPA 因果推断 物体中心。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "world-models",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2602.15922",
+        "summary": "历史周报其他关注条目：[arXiv]( ⭐⭐⭐⭐ 世界模型 强化学习 零样本。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "world-models",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": [],
+        "arxiv_version": "v1"
+      },
+      {
+        "arxiv_id": "2511.09783",
+        "summary": "历史周报其他关注条目：[arXiv]( ⭐⭐⭐⭐ JEPA 理论 动力系统。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "world-models",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": []
+      },
+      {
+        "arxiv_id": "2602.12540",
+        "summary": "历史周报其他关注条目：[arXiv]( ⭐⭐⭐ JEPA 自动驾驶 LiDAR。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+        "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+        "tags": [
+          "world-models",
+          "legacy-report",
+          "other-mention"
+        ],
+        "questions": [],
+        "arxiv_version": "v1"
+      }
+    ],
+    "scanned_at_source": "report_file_mtime",
+    "historical_record": true,
+    "converted_at": "2026-10-06T23:26:04.584974+08:00"
+  },
+  "accepted": [
+    "2411.14499v4",
+    "2506.09985v1",
+    "2602.11389v2",
+    "2602.15922v1",
+    "2511.09783v2",
+    "2602.12540v1"
+  ],
+  "rejected": []
+}

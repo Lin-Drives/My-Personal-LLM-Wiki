@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/620zXyg4IDNuUIbrVjcfYLtG6rg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12706,2601.06244,2604.18481,2507.08338,2605.20811,2605.00080,2605.19957,2512.24497v3,2605.12167,2602.15922,2603.16666,2601.16163,2602.13977,2602.10098,2602.03604,2511.14262,2605.01694,2604.16592,2603.25887,2604.21741&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-07T00:12:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2602.12706,2601.06244,2604.18481,2507.08338,2605.20811,2605.00080,2605.19957,2512.24497v3,2605.12167,2602.15922,2603.16666,2601.16163,2602.13977,2602.10098,2602.03604,2511.14262,2605.01694,2604.16592,2603.25887,2604.21741" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.16163v1</id>
+    <title>Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning</title>
+    <updated>2026-01-22T18:09:30Z</updated>
+    <link href="https://arxiv.org/abs/2601.16163v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.16163v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent video generation models demonstrate remarkable ability to capture complex physical interactions and scene evolution over time. To leverage their spatiotemporal priors, robotics works have adapted video models for policy learning but introduce complexity by requiring multiple stages of post-training and new architectural components for action generation. In this work, we introduce Cosmos Policy, a simple approach for adapting a large pretrained video model (Cosmos-Predict2) into an effective robot policy through a single stage of post-training on the robot demonstration data collected on the target platform, with no architectural modifications. Cosmos Policy learns to directly generate robot actions encoded as latent frames within the video model's latent diffusion process, harnessing the model's pretrained priors and core learning algorithm to capture complex action distributions. Additionally, Cosmos Policy generates future state images and values (expected cumulative rewards), which are similarly encoded as latent frames, enabling test-time planning of action trajectories with higher likelihood of success. In our evaluations, Cosmos Policy achieves state-of-the-art performance on the LIBERO and RoboCasa simulation benchmarks (98.5% and 67.1% average success rates, respectively) and the highest average score in challenging real-world bimanual manipulation tasks, outperforming strong diffusion policies trained from scratch, video model-based policies, and state-of-the-art vision-language-action models fine-tuned on the same robot demonstrations. Furthermore, given policy rollout data, Cosmos Policy can learn from experience to refine its world model and value function and leverage model-based planning to achieve even higher success rates in challenging tasks. We release code, models, and training data at https://research.nvidia.com/labs/dir/cosmos-policy/</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-22T18:09:30Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Moo Jin Kim</name>
+    </author>
+    <author>
+      <name>Yihuai Gao</name>
+    </author>
+    <author>
+      <name>Tsung-Yi Lin</name>
+    </author>
+    <author>
+      <name>Yen-Chen Lin</name>
+    </author>
+    <author>
+      <name>Yunhao Ge</name>
+    </author>
+    <author>
+      <name>Grace Lam</name>
+    </author>
+    <author>
+      <name>Percy Liang</name>
+    </author>
+    <author>
+      <name>Shuran Song</name>
+    </author>
+    <author>
+      <name>Ming-Yu Liu</name>
+    </author>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+    <author>
+      <name>Jinwei Gu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.21741v2</id>
+    <title>Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training</title>
+    <updated>2026-05-05T16:01:35Z</updated>
+    <link href="https://arxiv.org/abs/2604.21741v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.21741v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Post-training is essential for turning pretrained generalist robot policies into reliable task-specific controllers, but existing human-in-the-loop pipelines remain tied to physical execution: each correction requires robot time, scene setup, resets, and operator supervision in the real world. Meanwhile, action-conditioned world models have been studied mainly for imagination, synthetic data generation, and policy evaluation. We propose \textbf{Human-in-the-World-Model (Hi-WM)}, a post-training framework that uses a learned world model as a reusable corrective substrate for failure-targeted policy improvement. A policy is first rolled out in closed loop inside the world model; when the rollout becomes incorrect or failure-prone, a human intervenes directly in the model to provide short corrective actions. Hi-WM caches intermediate states and supports rollback and branching, allowing a single failure state to be reused for multiple corrective continuations and yielding dense supervision around behaviors that the base policy handles poorly. The resulting corrective trajectories are then added back to the training set for post-training. We evaluate Hi-WM on three real-world manipulation tasks spanning both rigid and deformable object interaction, and on two policy backbones. Hi-WM improves real-world success by 37.9 points on average over the base policy and by 19.0 points over a world-model closed-loop baseline, while world-model evaluation correlates strongly with real-world performance (r = 0.953). These results suggest that world models can serve not only as generators or evaluators, but also as effective corrective substrates for scalable robot post-training.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-23T14:42:54Z</published>
+    <arxiv:comment>Project Page: https://hi-wm.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yaxuan Li</name>
+    </author>
+    <author>
+      <name>Zhongyi Zhou</name>
+    </author>
+    <author>
+      <name>Yefei Chen</name>
+    </author>
+    <author>
+      <name>Yanjiang Guo</name>
+    </author>
+    <author>
+      <name>Jiaming Liu</name>
+    </author>
+    <author>
+      <name>Shanghang Zhang</name>
+    </author>
+    <author>
+      <name>Jianyu Chen</name>
+    </author>
+    <author>
+      <name>Yichen Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.19957v1</id>
+    <title>World-Ego Modeling for Long-Horizon Evolution in Hybrid Embodied Tasks</title>
+    <updated>2026-05-19T15:10:27Z</updated>
+    <link href="https://arxiv.org/abs/2605.19957v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.19957v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World models are widely explored in embodied intelligence, yet they typically predict distinct evolutions of the world and the ego within a single stream, where the world captures persistent instruction-agnostic scene regularities and the ego captures robot-centric instruction-conditioned dynamics. This world-ego entanglement leads to a degradation in long-horizon embodied scenarios, particularly in hybrid tasks with interleaved navigation and manipulation behaviors. In this paper, we introduce \emph{World-Ego Modeling}, a new conceptual paradigm that decomposes future evolution into world and ego components. We define the world-ego boundary from three perspectives, i.e., motion-, semantic-, and intention-based views, and analyze three disentanglement strategies with post-, pre-, and full disentanglement. Further, we instantiate this paradigm as the World-Ego Model (WEM), a unified embodied world model that couples an implicit separate world-ego planner with a cascade-parallel mixture-of-experts (CP-MoE) diffusion generator. To enable rigorous evaluation, we further construct HTEWorld, the first benchmark for long-horizon world modeling with hybrid navigation-manipulation tasks, providing 125K video clips (over 4.5M frames) with fine-grained action annotations and 300 multi-turn evaluation trajectories (over 2K instructions). Extensive experiments show that WEM achieves state-of-the-art performance on HTEWorld while remaining competitive on existing manipulation-only benchmarks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-19T15:10:27Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zuyao Lin</name>
+    </author>
+    <author>
+      <name>Jianhui Zhang</name>
+    </author>
+    <author>
+      <name>Peidong Jia</name>
+    </author>
+    <author>
+      <name>Xiaoguang Zhao</name>
+    </author>
+    <author>
+      <name>Shanghang Zhang</name>
+    </author>
+    <author>
+      <name>Xingyu Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.25887v1</id>
+    <title>World Reasoning Arena</title>
+    <updated>2026-03-26T20:22:52Z</updated>
+    <link href="https://arxiv.org/abs/2603.25887v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.25887v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World models (WMs) are intended to serve as internal simulators of the real world that enable agents to understand, anticipate, and act upon complex environments. Existing WM benchmarks remain narrowly focused on next-state prediction and visual fidelity, overlooking the richer simulation capabilities required for intelligent behavior. To address this gap, we introduce WR-Arena, a comprehensive benchmark for evaluating WMs along three fundamental dimensions of next world simulation: (i) Action Simulation Fidelity, the ability to interpret and follow semantically meaningful, multi-step instructions and generate diverse counterfactual rollouts; (ii) Long-horizon Forecast, the ability to sustain accurate, coherent, and physically plausible simulations across extended interactions; and (iii) Simulative Reasoning and Planning, the ability to support goal-directed reasoning by simulating, comparing, and selecting among alternative futures in both structured and open-ended environments. We build a task taxonomy and curate diverse datasets designed to probe these capabilities, moving beyond single-turn and perceptual evaluations. Through extensive experiments with state-of-the-art WMs, our results expose a substantial gap between current models and human-level hypothetical reasoning, and establish WR-Arena as both a diagnostic tool and a guideline for advancing next-generation world models capable of robust understanding, forecasting, and purposeful action. The code is available at https://github.com/MBZUAI-IFM/WR-Arena.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-26T20:22:52Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name> PAN Team</name>
+    </author>
+    <author>
+      <name>Qiyue Gao</name>
+    </author>
+    <author>
+      <name>Kun Zhou</name>
+    </author>
+    <author>
+      <name>Jiannan Xiang</name>
+    </author>
+    <author>
+      <name>Zihan Liu</name>
+    </author>
+    <author>
+      <name>Dequan Yang</name>
+    </author>
+    <author>
+      <name>Junrong Chen</name>
+    </author>
+    <author>
+      <name>Arif Ahmad</name>
+    </author>
+    <author>
+      <name>Cong Zeng</name>
+    </author>
+    <author>
+      <name>Ganesh Bannur</name>
+    </author>
+    <author>
+      <name>Xinqi Huang</name>
+    </author>
+    <author>
+      <name>Zheqi Liu</name>
+    </author>
+    <author>
+      <name>Yi Gu</name>
+    </author>
+    <author>
+      <name>Yichi Yang</name>
+    </author>
+    <author>
+      <name>Guangyi Liu</name>
+    </author>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Zhengzhong Liu</name>
+    </author>
+    <author>
+      <name>Eric Xing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.16666v2</id>
+    <title>Fast-WAM: Do World Action Models Need Test-time Future Imagination?</title>
+    <updated>2026-03-23T05:41:14Z</updated>
+    <link href="https://arxiv.org/abs/2603.16666v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.16666v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World Action Models (WAMs) have emerged as a promising alternative to Vision-Language-Action (VLA) models for embodied control because they explicitly model how visual observations may evolve under action. Most existing WAMs follow an imagine-then-execute paradigm, incurring substantial test-time latency from iterative video denoising, yet it remains unclear whether explicit future imagination is actually necessary for strong action performance. In this paper, we ask whether WAMs need explicit future imagination at test time, or whether their benefit comes primarily from video modeling during training. We disentangle the role of video modeling during training from explicit future generation during inference by proposing \textbf{Fast-WAM}, a WAM architecture that retains video co-training during training but skips future prediction at test time. We further instantiate several Fast-WAM variants to enable a controlled comparison of these two factors. Across these variants, we find that Fast-WAM remains competitive with imagine-then-execute variants, while removing video co-training causes a much larger performance drop. Empirically, Fast-WAM achieves competitive results with state-of-the-art methods both on simulation benchmarks (LIBERO and RoboTwin) and real-world tasks, without embodied pretraining. It runs in real time with 190ms latency, over 4$\times$ faster than existing imagine-then-execute WAMs. These results suggest that the main value of video prediction in WAMs may lie in improving world representations during training rather than generating future observations at test time. Project page: https://yuantianyuan01.github.io/FastWAM/</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-17T15:33:43Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tianyuan Yuan</name>
+    </author>
+    <author>
+      <name>Zibin Dong</name>
+    </author>
+    <author>
+      <name>Yicheng Liu</name>
+    </author>
+    <author>
+      <name>Hang Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10098v2</id>
+    <title>VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model</title>
+    <updated>2026-02-14T03:00:50Z</updated>
+    <link href="https://arxiv.org/abs/2602.10098v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10098v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pretraining Vision-Language-Action (VLA) policies on internet-scale video is appealing, yet current latent-action objectives often learn the wrong thing: they remain anchored to pixel variation rather than action-relevant state transitions, making them vulnerable to appearance bias, nuisance motion, and information leakage. We introduce VLA-JEPA, a JEPA-style pretraining framework that sidesteps these pitfalls by design. The key idea is leakage-free state prediction: a target encoder produces latent representations from future frames, while the student pathway sees only the current observation -- future information is used solely as supervision targets, never as input. By predicting in latent space rather than pixel space, VLA-JEPA learns dynamics abstractions that are robust to camera motion and irrelevant background changes. This yields a simple two-stage recipe -- JEPA pretraining followed by action-head fine-tuning -- without the multi-stage complexity of prior latent-action pipelines. Experiments on LIBERO, LIBERO-Plus, SimplerEnv and real-world manipulation tasks show that VLA-JEPA achieves consistent gains in generalization and robustness over existing methods.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T18:58:01Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jingwen Sun</name>
+    </author>
+    <author>
+      <name>Wenyao Zhang</name>
+    </author>
+    <author>
+      <name>Zekun Qi</name>
+    </author>
+    <author>
+      <name>Shaojie Ren</name>
+    </author>
+    <author>
+      <name>Zezhi Liu</name>
+    </author>
+    <author>
+      <name>Hanxin Zhu</name>
+    </author>
+    <author>
+      <name>Guangzhong Sun</name>
+    </author>
+    <author>
+      <name>Xin Jin</name>
+    </author>
+    <author>
+      <name>Zhibo Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.18481v1</id>
+    <title>Physics-Informed Neural Networks: A Didactic Derivation of the Complete Training Cycle</title>
+    <updated>2026-04-20T16:34:47Z</updated>
+    <link href="https://arxiv.org/abs/2604.18481v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.18481v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is a step-by-step, self-contained guide to the complete training cycle of a Physics-Informed Neural Network (PINN) -- a topic that existing tutorials and guides typically delegate to automatic differentiation libraries without exposing the underlying algebra. Using a first-order initial value problem with a known analytical solution as a running example, we walk through every stage of the process: forward propagation of both the network output and its temporal derivative, evaluation of a composite loss function built from the ODE residual and the initial condition, backpropagation of gradients -- with particular attention to the product rule that arises in hidden layers -- and a gradient descent parameter update. Every calculation is presented with explicit, verifiable numerical values using a 1-3-3-1 multilayer perceptron with two hidden layers and 22 trainable parameters. From these concrete examples, we derive general recursive formulas -- expressed as sensitivity propagation relations -- that extend the gradient computation to networks of arbitrary depth, and we connect these formulas to the automatic differentiation engines used in practice. The trained network is then validated against the exact solution, achieving a relative $L^2$ error of $4.290 \times 10^{-4}$ using only the physics-informed loss, without any data from the true solution. A companion Jupyter/PyTorch notebook reproduces every manual calculation and the full training pipeline, providing mutual validation between hand-derived and machine-computed gradients.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-20T16:34:47Z</published>
+    <arxiv:comment>22 pages, 5 figures, companion code at https://github.com/Tahimi/PINN-Didactic-Training-Cycle</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Abdeladhim Tahimi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.00080v1</id>
+    <title>World Model for Robot Learning: A Comprehensive Survey</title>
+    <updated>2026-04-30T14:35:31Z</updated>
+    <link href="https://arxiv.org/abs/2605.00080v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.00080v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>World models, which are predictive representations of how environments evolve under actions, have become a central component of robot learning. They support policy learning, planning, simulation, evaluation, data generation, and have advanced rapidly with the rise of foundation models and large-scale video generation. However, the literature remains fragmented across architectures, functional roles, and embodied application domains. To address this gap, we present a comprehensive review of world models from a robot-learning perspective. We examine how world models are coupled with robot policies, how they serve as learned simulators for reinforcement learning and evaluation, and how robotic video world models have progressed from imagination-based generation to controllable, structured, and foundation-scale formulations. We further connect these ideas to navigation and autonomous driving, and summarize representative datasets, benchmarks, and evaluation protocols. Overall, this survey systematically reviews the rapidly growing literature on world models for robot learning, clarifies key paradigms and applications, and highlights major challenges and future directions for predictive modeling in embodied agents. To facilitate continued access to newly emerging works, benchmarks, and resources, we will maintain and regularly update the accompanying GitHub repository alongside this survey.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-30T14:35:31Z</published>
+    <arxiv:comment>43 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Bohan Hou</name>
+    </author>
+    <author>
+      <name>Gen Li</name>
+    </author>
+    <author>
+      <name>Jindou Jia</name>
+    </author>
+    <author>
+      <name>Tuo An</name>
+    </author>
+    <author>
+      <name>Xinying Guo</name>
+    </author>
+    <author>
+      <name>Sicong Leng</name>
+    </author>
+    <author>
+      <name>Haoran Geng</name>
+    </author>
+    <author>
+      <name>Yanjie Ze</name>
+    </author>
+    <author>
+      <name>Tatsuya Harada</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+    <author>
+      <name>Oier Mees</name>
+    </author>
+    <author>
+      <name>Marc Pollefeys</name>
+    </author>
+    <author>
+      <name>Zhuang Liu</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Pieter Abbeel</name>
+    </author>
+    <author>
+      <name>Jitendra Malik</name>
+    </author>
+    <author>
+      <name>Yilun Du</name>
+    </author>
+    <author>
+      <name>Jianfei Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.20811v1</id>
+    <title>Demo-JEPA: Joint-Embedding Predictive Architecture for One-shot Cross-Embodiment Imitation</title>
+    <updated>2026-05-20T07:05:49Z</updated>
+    <link href="https://arxiv.org/abs/2605.20811v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.20811v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robotic imitation learning is often treated as reproducing demonstrated actions, but actions are inherently embodiment-specific. When demonstrations come from humans or robots with different morphology, kinematics, or action spaces, this action-centric view requires shared action spaces, heuristic retargeting, or large-scale multi-embodiment co-training. We instead view demonstrations as implicit specifications of future goals: the target agent should infer what state the demonstrator is trying to realize, rather than how the demonstrator executes it. We propose Demo-JEPA, a cross-embodiment imitation framework that decouples demonstration intent from embodiment-specific execution. Built on a JEPA-based world model, Demo-JEPA translates source visual demonstrations into target-compatible future latent trajectories in a shared predictive representation space. The target agent then uses these latent trajectories as subgoals and realizes them through planning under its own learned forward dynamics. Because Demo-JEPA avoids action-level correspondence and requires only visual demonstrations plus the target agent's own interaction experience, it supports flexible imitation across heterogeneous embodiments. Experiments on RLBench and real-world manipulation tasks show that Demo-JEPA matches specialized in-domain planners and generalizes to unseen tasks and embodiment configurations where prior methods fail.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-20T07:05:49Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jingyang He</name>
+    </author>
+    <author>
+      <name>Guangrun Li</name>
+    </author>
+    <author>
+      <name>Jieyu Zhang</name>
+    </author>
+    <author>
+      <name>Chengkai Hou</name>
+    </author>
+    <author>
+      <name>Zhengping Che</name>
+    </author>
+    <author>
+      <name>Shanghang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13977v2</id>
+    <title>WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL</title>
+    <updated>2026-06-27T16:11:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.13977v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13977v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) promises to unlock capabilities beyond imitation learning for Vision--Language--Action (VLA) models, but its requirement for massive real-world interaction prevents direct deployment on physical robots. Recent work attempts to use learned world models as simulators for policy optimization, yet closed-loop imagined rollouts inevitably suffer from hallucination and long-horizon error accumulation. Such errors not only degrade visual fidelity, but also mislead policy optimization by providing unreliable learning signals. We propose WoVR, a reliable world-model-based RL framework for post-training VLA policies. Instead of assuming a faithful world model, WoVR explicitly regulates how RL interacts with imperfect imagined dynamics. It improves rollout stability through a controllable action-conditioned video world model, reshapes imagined interaction to reduce effective error depth via Keyframe-Initialized Rollouts, and maintains policy--simulator alignment through World Model-Policy co-evolution. Extensive experiments demonstrate that WoVR enables stable long-horizon imagined rollouts and effective policy optimization, achieving superior LIBERO performance and consistent real-world gains across multiple robotic platforms. These results show that world models can serve as practical simulators for RL when hallucination is explicitly controlled. Additional visualization results are available at https://wovr-corl.github.io.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T03:48:20Z</published>
+    <arxiv:comment>25pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhennan Jiang</name>
+    </author>
+    <author>
+      <name>Shangqing Zhou</name>
+    </author>
+    <author>
+      <name>Yutong Jiang</name>
+    </author>
+    <author>
+      <name>Zefang Huang</name>
+    </author>
+    <author>
+      <name>Mingjie Wei</name>
+    </author>
+    <author>
+      <name>Yuhui Chen</name>
+    </author>
+    <author>
+      <name>Tianxing Zhou</name>
+    </author>
+    <author>
+      <name>Zhen Guo</name>
+    </author>
+    <author>
+      <name>Hao Lin</name>
+    </author>
+    <author>
+      <name>Quanlu Zhang</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Haoran Li</name>
+    </author>
+    <author>
+      <name>Chao Yu</name>
+    </author>
+    <author>
+      <name>Dongbin Zhao</name>
+    </author>
+  </entry>
+</feed>

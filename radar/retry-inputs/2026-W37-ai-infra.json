@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "scan_id": "2026-W37-ai-infra-legacy-processed-20261006-retry-02",
+  "scanned_at": "2026-09-06T09:35:46.598810+08:00",
+  "producer": "OpenClaw paper-radar legacy weekly processor (kimi/k2d8-preview)",
+  "papers": [
+    {
+      "arxiv_id": "2608.08097",
+      "summary": "历史周报补处理条目：OasisKV — 用 Lookahead Sparse Prefetching 突破 HBM 天花板 (arXiv:2608.08097, 8月8日)。问题/方法/证据：一句话 : 把 decode 阶段的 KV cache 扩展到 HBM 之外，通过稀疏预取实现\"看起来像在 HBM 里\"的访问体验。 痛点 : 长上下文 + 多轮对话场景下，decode KV cache 容量需求远超 HBM 容量（TB 级），现有 offloading 方案 latency 抖动剧烈 解法 : OasisKV 提出 lookahead sparse prefetching ：利用注意力稀疏性，提前从远端内存（DRAM/SSD）预取下一批 token 所需的 KV 子集；同时用 per head 的稀疏度感知调度，只加载真正会被 attention 命中的 KV block 效果 : 在 128K 上下文、Llama 3 70B 上，decode throughput 相比 vLLM 的 bl局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：首次证明 decode KV cache 可以\"virtually unlimited\"地扩展到 HBM 外而不牺牲 latency SLO，为多轮 agentic 推理打开容量上限",
+      "tags": [
+        "ai-infra",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2608.09907",
+      "summary": "历史周报补处理条目：DistMoE — 无需集中数据的分布式 MoE 隐私训练 (arXiv:2608.09907, 8月10日, Meta)。问题/方法/证据：一句话 : 多个数据孤岛各自训练专家，一个分布式路由器把它们动态组合——数据不出域，性能不打折。 痛点 : MoE 训练通常需要所有数据集中在单一集群，跨组织/跨合规域的联合训练几乎不可能 解法 : DistMoE 让每个参与方独立训练 域专属专家 ，中央只维护一个轻量级的 分布式路由器 （distributed router）；推理时路由器根据输入动态组合各方专家，训练时通过知识蒸馏对齐路由决策，无需原始数据交换 效果 : 在跨 5 个医疗数据集的 MoE 上，DistMoE 达到集中式训练 96.2% 的性能，数据零共享 意义 : 为医疗、金融等敏感数据场景的 MoE 落地提供了合规路径，也可能改变未来大模型联盟的训练格局局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：为医疗、金融等敏感数据场景的 MoE 落地提供了合规路径，也可能改变未来大模型联盟的训练格局",
+      "tags": [
+        "ai-infra",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2608.01526",
+      "summary": "历史周报补处理条目：An Internet for the KV Cache\" — 重新思考 LLM 推理时代的基础设施边界 (arXiv:2608.01526, 8月)。问题/方法/证据：一句话 : KV cache 不该是推理框架的私有数据结构，而应该是像 HTTP 请求一样可被全网路由和缓存的\"一等公民\"。 核心论点 : 当前 KV cache 被锁在单个推理实例内部，导致多轮对话、多模型协作、跨地域部署时大量重复计算；作者主张建立 KV cache 的通用寻址和传输协议 架构 : 提出类似 CDN 的 KV Cache Network —— 全局唯一 token sequence ID → 分布式 KV store → 标准序列化格式（兼容多种推理框架）→ 基于语义相似度的去重和复用 场景 : 多轮对话跨模型切换时直接复用 KV；A/B 测试不同模型时共享公共前缀 KV；跨数据中心推理时预热 KV 意义 : 这是从\"单机优化\"到\"网络级优化\"的范式跃迁，如果实现将根本性改变 LLM 推理的局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这是从\"单机优化\"到\"网络级优化\"的范式跃迁，如果实现将根本性改变 LLM 推理的成本结构",
+      "tags": [
+        "ai-infra",
+        "legacy-report"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2608.02989",
+      "summary": "历史周报其他关注条目：AcceptMoE — MoE 投机解码的自适应验证 (arXiv:2608.02989, 8月4日, 清华)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "ai-infra",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    },
+    {
+      "arxiv_id": "2607.18141",
+      "summary": "历史周报其他关注条目：CXL KV Cache Framework — 多轮对话的混合内存 KV 管理 (arXiv:2607.18141)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+      "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+      "tags": [
+        "ai-infra",
+        "legacy-report",
+        "other-mention"
+      ],
+      "questions": []
+    }
+  ],
+  "scanned_at_source": "report_file_mtime",
+  "historical_record": true,
+  "converted_at": "2026-10-06T23:26:04.584974+08:00"
+}

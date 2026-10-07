@@ -1,0 +1,1647 @@
+[
+  {
+    "batch": "2026-W17.json",
+    "accepted": 6,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W18-ai-infra.json",
+    "accepted": 3,
+    "rejected": []
+  },
+  {
+    "batch": "2026-W19-deep-learning.json",
+    "accepted": 2,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2604.15259",
+          "summary": "历史周报补处理条目：2。问题/方法/证据：提出fixed-point based framework分析looped transformers的三个稳定性轴：reachability（可达性）、input-dependence（输入依赖性）、geometry（几何稳定性）原报告标注日期：2026-04-16。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2602.08287",
+          "summary": "历史周报补处理条目：2。问题/方法/证据：提出**noise stability**作为衡量深度学习simplicity bias的新指标，替代传统的average sensitivity原报告标注日期：2026-02-09。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：为\"为什么过参数化模型能泛化\"提供了新的理论视角，且实际可用作regularizer",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2602.18523",
+          "summary": "历史周报补处理条目：2。问题/方法/证据：研究grokking现象中的phase transition结构原报告标注日期：2026-03-14。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2605.0645",
+          "summary": "历史周报补处理条目：2。问题/方法/证据：研究语言模型中\"emergent and generalizable task-specific features\"的几何特征原报告标注日期：2026-05-07。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：直接呼应scaling law中讨论的\"emergent abilities\"现象，从几何角度给出新的分析工具",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W20-physics-informed-ai.json",
+    "accepted": 2,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2604.03481",
+          "summary": "历史周报补处理条目：K-PINN: Lattice-Boltzmann-Driven Physics-Informed Neural Networks。问题/方法/证据：arXiv:2604.03481 | 2026 04 03 一句话 : 把介观尺度的 Lattice Boltzmann 方程直接嵌入 PINN，突破了传统 PINN 只能处理宏观连续方程的限制。 核心亮点 : 在介观动力学层面保持物理一致性，质量守恒误差 < 1.5% 成功建模接触钉扎、各向异性铺展、毛细滞后等复杂液滴现象 U Net 编码器 解码器结构使误差相比传统神经网络降低 50 75% 收敛后实时预测速度 10⁴ 次/秒 为什么重要 : 这是 PINN 从\"宏观唯象\"走向\"介观机理\"的关键一步，对多相流、润湿性工程有直接影响。原报告标注日期：2026-04-03。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这是 PINN 从\"宏观唯象\"走向\"介观机理\"的关键一步，对多相流、润湿性工程有直接影响。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2605.13892",
+          "summary": "历史周报补处理条目：Quantum Physics-Informed Neural Networks (QPINN)。问题/方法/证据：arXiv:2605.13892 | 2026 05 12 一句话 : 用量子可训练嵌入层增强 PINN，解决 Lid Driven Cavity 问题。 核心亮点 : 将量子可训练嵌入（Quantum Trainable Embeddings）引入物理约束学习 为量子计算与科学计算的交叉开辟了试验场 延续了 Karniadakis 团队在 PINN 方向的持续创新 为什么重要 : 不是实用突破，而是一个值得追踪的信号——量子增强的科学计算是否只是噱头，还是真的有优势？原报告标注日期：2026-05-12。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：不是实用突破，而是一个值得追踪的信号——量子增强的科学计算是否只是噱头，还是真的有优势？",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2507.19888",
+          "summary": "历史周报其他关注条目：LegendKINN。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2601.03332",
+          "summary": "历史周报其他关注条目：LUT KAN。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2602.12706",
+          "summary": "历史周报其他关注条目：Physics Informed Laplace Neural Operator。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2601.06244",
+          "summary": "历史周报其他关注条目：Hard Constraint Projection PINN。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2507.08338",
+          "summary": "历史周报 PIKAN 方向列出的另一篇论文，原 JSON 转换遗漏；尚未核对全文，不推断具体贡献或实验结果。",
+          "selection_reason": "原周报趋势部分已列出此 ID，补回原文收录清单。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W21-world-models.json",
+    "accepted": 12,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2512.24497",
+          "summary": "历史周报补处理条目：What Drives Success in Physical Planning with JEPA-WMs — JEPA 世界模型的配方书。问题/方法/证据：系统性拆解 JEPA-World Model 在物理规划任务中成功的关键设计选择，覆盖局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这不是一篇新算法论文，而是一份**工程配方书** —— 如果你在做 JEPA 机器人规划，这篇能帮你少踩很多坑。",
+          "tags": [
+            "world-models",
+            "legacy-report"
+          ],
+          "questions": [
+            "world-model-planning"
+          ],
+          "arxiv_version": "v3"
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2605.12167",
+          "summary": "历史周报补处理条目：MoLA — 混合隐式动作的世界动作模型。问题/方法/证据：提出 Mixture of Latent Actions (MoLA)，在世界动作模型（WAM）中引入**多个预训练逆动力学模型（IDM）作为隐动作接口**，桥接想象的未来视频与可执行动作。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：解决 WAM \"想得好看但做不出来\"的问题，用 mixture 机制增强动作解码的灵活性。",
+          "tags": [
+            "world-models",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2602.15922",
+          "summary": "历史周报其他关注条目：DreamZero。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2602.03604",
+          "summary": "历史周报其他关注条目：EB JEPA。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2511.14262",
+          "summary": "历史周报其他关注条目：STICA。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2605.01694",
+          "summary": "历史周报其他关注条目：Latent State Design for World Models。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2604.16592",
+          "summary": "历史周报其他关注条目：Human Cognition in Machines。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": [
+            "human-video-transfer"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2604.16585",
+          "summary": "历史周报其他关注条目：GNWM (arXiv:2604.16585)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2602.09849",
+          "summary": "历史周报其他关注条目：BagelVLA (arXiv:2602.09849)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W22-ai-infra.json",
+    "accepted": 5,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2605.21427",
+          "summary": "历史周报补处理条目：PALS: Power-Aware LLM Serving for Mixture-of-Experts Models。问题/方法/证据：首次将功率预算作为MoE模型推理的**一级调度维度**，而非固定约束。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2509.21081",
+          "summary": "历史周报补处理条目：TyphoonMLA: A Mixed Naive-Absorb MLA Kernel for Shared Prefix。问题/方法/证据：DeepSeek-V3的MLA（Multi-head Latent Attention）的**共享前缀优化内核**，实现吸收模式和非压缩模式的混合调度。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2604.07173",
+          "summary": "历史周报补处理条目：InfiniLoRA: Disaggregated Multi-LoRA Serving for Large Language Models。问题/方法/证据：多LoRA服务的**分离式架构**——每个LoRA独占一个轻量推理实例，共享底层基座模型的预填充阶段。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2508.03148",
+          "summary": "历史周报其他关注条目：arXiv:2508.03148。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2604.04750",
+          "summary": "历史周报其他关注条目：arXiv:2604.04750。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W23-deep-learning.json",
+    "accepted": 2,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2603.15553",
+          "summary": "历史周报补处理条目：Bootleg — 层次化自蒸馏突破 I-JEPA。问题/方法/证据：提出 Bootleg 方法，让模型预测教师网络多个隐藏层的潜在表示，而非仅最终层。这种层次化目标强制模型同时捕捉不同抽象层次的特征。在 ImageNet-1K 和 iNaturalist-21 分类任务上比 I-JEPA 提升 **+10%**，在 ADE20K 和 Cityscapes 语义分割上也显著优于基线。原报告标注日期：2026-03-16。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2604.13518",
+          "summary": "历史周报补处理条目：From Alignment to Prediction — 预测式表示学习的新范式分类。问题/方法/证据：系统梳理自监督学习发展，首次提出 **Predictive Representation Learning (PRL)** 新类别——基于对数据未观测部分的潜在预测。将 JEPA 定位为 PRL 的典范代表，与对齐式（BYOL）和重建式（MAE）方法并列。实验对比显示：MAE 相似度完美(1.00)但鲁棒性弱(0.55)，BYOL 准确率 0.98/鲁棒性 0.75，I-JEPA 准确率 0.95/鲁棒性 0.78。原报告标注日期：2026-04-15。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2603.13660",
+          "summary": "历史周报补处理条目：MASS — 无标注 3D 医学图像自监督 (CVPR 2026)。问题/方法/证据：斯坦福团队提出 MASS，首个面向 3D 医学图像（CT/MRI/PET）的 mask-guided 自监督框架。核心创新：用自动生成 mask 替代专家标注，将每个 mask 转化为密集分割任务，实现\"分割原生\"表示学习。收敛快、泛化强，支持训练-free 上下文分割、少样本微调和冻结编码器分类。已开源完整 pipeline。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W25-physics-informed-ai.json",
+    "accepted": 5,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2605.03510",
+          "summary": "历史周报补处理条目：**MI-PINN** (arXiv:2605.03510, May 6) — Meta-Inverse Physics-Informed Neural Network。问题/方法/证据：将逆问题建模从joint optimization改写成two-stage meta-learning：先学跨任务的physics-aware representation，再固定representation只做task-specific逆推。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：逆问题（从观测推断参数/动力学）是SciML核心场景，但传统PINN做逆问题往往optimization困难、泛化差。MI-PINN通过降维搜索空间提升sample efficiency，还引入adaptive clustering-based multi-branch learning处理多尺度动力学。在33维耦合ODE的PBPK模型（药物动力学）上验证了准确恢复masked参数。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2604.05651",
+          "summary": "历史周报补处理条目：**DDS-PINN** (arXiv:2604.05651, Apr 8) — Domain-Decomposed and Shifted PINN。问题/方法/证据：用localized networks + unified global loss解决多尺度流体中的长程依赖问题，实现无数据或少数据的Navier-Stokes求解。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：复杂流体（湍流、边界层分离）是PINN的硬伤，因为多尺度+长程依赖。DDS-PINN在backward-facing step（Re=100无数据求解，Re=10000仅用500个随机监督点<0.3% domain）收敛到O(10^-4)， outperform Residual-based Attention-PINN。对湍流超分辨和稀疏实验测量→高保真重建有直接意义。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2602.02547",
+          "summary": "历史周报其他关注条目：naPINN。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2601.06244",
+          "summary": "历史周报其他关注条目：Hard Constraint Projection PINN。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W26-world-models.json",
+    "accepted": 6,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2606.04907",
+          "summary": "历史周报其他关注条目：WAM Nav。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2606.10363",
+          "summary": "历史周报其他关注条目：HiMem WAM。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2603.10448",
+          "summary": "历史周报其他关注条目：Dit4Dit。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2602.06949",
+          "summary": "历史周报其他关注条目：DreamDojo。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": [
+            "world-model-planning",
+            "human-video-transfer"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2602.15922",
+          "summary": "历史周报其他关注条目：DreamDojo。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": [
+            "world-model-planning",
+            "human-video-transfer"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W27-ai-infra.json",
+    "accepted": 4,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2605.00528",
+          "summary": "历史周报补处理条目：SAGA — Workflow-Atomic Scheduling for AI Agent Inference。问题/方法/证据：针对 AI Agent 多步骤推理（tool call → 等待 → 再推理）的**间歇性执行特征**，提出\"工作流原子调度\"——把 agent 的整个推理链条作为一个原子单元调度，而不是按单个 token generation 切片。显著降低上下文切换和 KV Cache 反复加载的开销。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：Agentic AI 的 serving 和传统 chat completion 完全不同。SAGA 是第一个把\"agent workflow\"作为一级调度对象的系统，预示 2026 下半年会有更多 agent-native serving infra 出现。",
+          "tags": [
+            "ai-infra",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2605.31463",
+          "summary": "历史周报补处理条目：PithTrain — Compact and Agent-Native MoE Training System。问题/方法/证据：一个专为 Agent 场景设计的**紧凑型 MoE 训练系统**。强调\"agent-native\"——不是把通用 MoE 模型拿来给 agent 用，而是从训练目标、数据混合策略、router design 三个层面重新设计。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：MoE 在 2026 年已经是标配，但\"通用 MoE\"和\"Agent MoE\"的 gap 越来越大。PithTrain 代表了从 infra 层开始为 agent 定制模型的趋势。",
+          "tags": [
+            "ai-infra",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2604.20919",
+          "summary": "历史周报补处理条目：DiP-SD — Distributed Pipelined Speculative Decoding for Edge Multi-User。问题/方法/证据：把**投机解码**扩展到边缘多用户场景。设备本地生成 draft tokens，offload 到云端验证。通过流水线并行隐藏网络延迟。原报告标注日期：2026-04-22。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：2026 年投机解码（EAGLE-3、MTP、Medusa）已经是 serving 标配，但主要集中在数据中心单集群。DiP-SD 把这条技术路线延伸到 edge-cloud 协作，对端侧推理生态意义重大。",
+          "tags": [
+            "ai-infra",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2504.07494",
+          "summary": "历史周报其他关注条目：Apt Serve — Adaptive Request Scheduling on Hybrid Cache。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2504.19874",
+          "summary": "历史周报其他关注条目：TurboQuant — 3 bit KV Cache Quantization。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W28-deep-learning.json",
+    "accepted": 8,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2606.02332",
+          "summary": "历史周报补处理条目：Forget Attention: Importance-Aware Attention Is All You Need。问题/方法/证据：提出\"重要性感知注意力\"机制，通过动态评估token重要性来优化注意力计算，在保持性能的同时降低计算开销。原报告标注日期：2026-06-02。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：直接对标Transformer核心机制，可能替代传统注意力成为更高效的选择。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2603.15553",
+          "summary": "历史周报补处理条目：Bootleg: Hierarchical Self-Distillation for Representation Learning。问题/方法/证据：层次化自蒸馏框架，多隐藏层预测+教师网络，在ImageNet上实现 **+10%** 的显著提升。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：自监督学习领域的重要进展，突破了I-JEPA的瓶颈，为视觉表征学习开辟新方向。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2606.26991",
+          "summary": "历史周报其他关注条目：Enabling self supervised learned primal dual with Noise2Inverse。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W28-physics-informed-ai.json",
+    "accepted": 1,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2606.21189",
+          "summary": "历史周报补处理条目：TF-SNO: Time-Frequency Gated Spectral Neural Operators。问题/方法/证据：提出**时频门控谱神经算子**，专门解决**非平稳PDE**的学习难题。传统FNO在频率域全局处理，难以捕捉时变特征；TF-SNO通过时频分解+门控机制，在谱域实现自适应时频局部化。原报告标注日期：2026-06-19。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：填补了神经算子在非平稳动力学（如湍流、波动传播）上的空白，是FNO架构的重要进化。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2604.21761",
+          "summary": "历史周报补处理条目：Pi-PINN: Transferable Physics-Informed Representations。问题/方法/证据：基于伪逆PINN框架，学习**可迁移的物理信息表示**，通过闭式头部适应（closed-form head adaptation）快速求解新PDE实例。无需任何新数据即可泛化到未见PDE。原报告标注日期：2026-04-23。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：PINN从「单问题求解器」迈向「通用物理表示学习」的关键一步。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2606.15271",
+          "summary": "历史周报补处理条目：Dual-Network PINNs for Optimal Control。问题/方法/证据：针对质量-弹簧-阻尼系统，提出**双网络PINN架构**统一状态近似、控制优化和参数估计，在可微优化框架内解决最优控制问题。原报告标注日期：2026-06-13。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：PINN方法论向**控制论**和**PDE约束优化**的系统性拓展，验证了物理信息学习在工程控制中的实用性。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2606.31574",
+          "summary": "历史周报补处理条目：Physics-aware Neural Operator Transformer for EAST Divertor。问题/方法/证据：将**物理感知神经算子与Transformer结合**，用于托卡马克（EAST）钨单块偏滤器的温度场重建。融合物理约束的注意力机制处理聚变装置中的极端热负荷。原报告标注日期：2026-06-30。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：SciML在**核聚变工程**中的前沿应用，展示了物理感知架构对高保真科学仪器的价值。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2604.26999",
+          "summary": "历史周报补处理条目：LAM-PINN: Compositional Meta-Learning for PINNs。问题/方法/证据：**组合式元学习PINN** —— 不依赖单一全局初始化，而是将模型分解为聚类专用子网络+共享元网络，通过学习亲和度动态路由，缓解任务异质性带来的负迁移。原报告标注日期：2026-04-29。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：为参数化PDE家族的高效迁移提供了模块化新范式。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2606.06164",
+          "summary": "历史周报其他关注条目：6.31×。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2605.10159",
+          "summary": "历史周报其他关注条目：jNO。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2601.10999",
+          "summary": "【已撤回，仅供历史参考】arXiv 官方 v2 于 2026-01-20 撤回；作者称需大幅修订表述及与相关文献的关系。v1 历史页面：https://arxiv.org/abs/2601.10999v1。以下为当时扫描解读，不作为当前有效结论：历史周报其他关注条目：Exact Constraint Enforcement in PIELMs。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": [],
+          "publication_status": "withdrawn"
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W32-ai-infra.json",
+    "accepted": 6,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2607.00466",
+          "summary": "历史周报补处理条目：ELDR — MoE 解码路由的专家局部性感知 (arXiv:2607.00466, 7月1日)。问题/方法/证据：一句话 : MoE 的 Decode 阶段，\"负载均衡\"不够，还要看\"专家局部性\"。 发现 : 在 MoE 的 batched decode 中，延迟由批次中所有 token 选中的 专家并集 决定，而非 token 数量。active expert 从 16 增至 128，MoE 层延迟涨 4.7× 解法 : ELDR 在 PD 分离的 decode 路由中引入专家局部性感知，将具有相似专家偏好的请求路由到同一 worker 意义 : MoE 推理优化进入了\"第二维度\"——不只是 load balance，还有 expert locality局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：MoE 推理优化进入了\"第二维度\"——不只是 load balance，还有 expert locality",
+          "tags": [
+            "ai-infra",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2603.07685",
+          "summary": "历史周报其他关注条目：Megatron Core MoE 技术报告。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2605.09370",
+          "summary": "历史周报其他关注条目：Lablup 504 GPU 预训练运维报告。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2501.01005",
+          "summary": "历史周报其他关注条目：FLASHINFER。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": [],
+          "arxiv_version": "v2"
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W33-deep-learning.json",
+    "accepted": 7,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2608.04060",
+          "summary": "历史周报补处理条目：SJEPA — 混合符号-神经预测器学习优雅潜动态 (arXiv:2608.04060)。问题/方法/证据：团队 : Yongchao Huang JEPA架构正在向 可解释性 方向进化。SJEPA（Symbolic JEPA）首次在联合嵌入预测架构中引入了符号动力学描述。 核心创新 : 混合转移模型 = 符号定律 + 正则化神经修正 表示约束保留信息丰富的非坍塌预测坐标 算子压缩偏好低复杂度符号 神经转移 在受控摆实验中，联合学习发现的符号动力学比事后拟合 更简单、长期 rollout 误差更低 为什么重要 : 这条路线试图解决深度学习最深层的问题之一——黑盒模型的可解释性。如果能在表示学习中自动发现简洁的符号规律，将是通往\"可理解AI\"的重要一步。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这条路线试图解决深度学习最深层的问题之一——黑盒模型的可解释性。如果能在表示学习中自动发现简洁的符号规律，将是通往\"可理解AI\"的重要一步。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.04048",
+          "summary": "历史周报补处理条目：Recurrent Residual Quantization (RRQ) — 单检查点多精度LLM (arXiv:2608.04048)。问题/方法/证据：团队 : Yu Luo, Bo Dong, Wenhua Cheng, Haihao Shen NeurIPS 2026投稿 核心洞察 : 传统量化需要为每个目标位宽单独训练/保存检查点。RRQ提出 递归残差量化 ，从单一2 bit基线出发，通过叠加轻量级2 bit残差，构造4/6/8 bit表示。 关键指标 : 构建2/4/6/8 bit全RTN包仅需1,293秒（比MatGPTQ快3.3倍） 校准无关，避免联合多比特优化 6 bit和8 bit精度具有竞争力 为什么重要 : 云服务商需要在同一硬件上服务不同精度要求的客户。RRQ的\"一次量化，多精度部署\"模式极具工程价值。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：云服务商需要在同一硬件上服务不同精度要求的客户。RRQ的\"一次量化，多精度部署\"模式极具工程价值。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.04013",
+          "summary": "历史周报补处理条目：C²MOE — 不一致多模态情感学习的混合专家 (arXiv:2608.04013)。问题/方法/证据：团队 : Yuntao Shou, Tao Meng, Wei Ai, Keqin Li 针对真实世界中多模态数据 缺失模态 的问题，C²MOE提出了一致性与互补性引导的MoE框架。 核心创新 : 信息论框架统一表示学习与缺失模态插补 将多模态知识分解为一致性（跨模态可预测性最大化）和互补性（条件熵最大化） 双分支预测机制：一致性分支最小化不确定性，互补性分支利用模态独特线索 可学习重加权模块动态分配专家重要性 为什么重要 : 这是MoE架构在 多模态鲁棒学习 中的创新应用，对实际部署中常见的传感器/模态缺失问题有直接价值。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这是MoE架构在**多模态鲁棒学习**中的创新应用，对实际部署中常见的传感器/模态缺失问题有直接价值。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": [
+            "robot-deployment"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.04026",
+          "summary": "历史周报其他关注条目：Trust region Adam (arXiv:2608.04026)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.04041",
+          "summary": "历史周报其他关注条目：油井异常检测LLM Agent (arXiv:2608.04041)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.04045",
+          "summary": "历史周报其他关注条目：联邦学习航空发动机 (arXiv:2608.04045)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W34-physics-informed-ai.json",
+    "accepted": 3,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2607.21046",
+          "summary": "历史周报补处理条目：EvoPINN: LLM驱动的PINN自动算法发现 (arXiv:2607.21046v1, 7月29日)。问题/方法/证据：标题 : EvoPINN: Agentic Discovery of Executable Algorithms for Physics Informed Neural Networks 作者 : Aniket Jadhav et al. 机构 : Texas A&M University 核心创新 : 将 LLM Agent 引入PINN算法设计，实现全自动的算法进化与发现 框架包含：LLM生成候选算法 → 自动代码执行 → 性能评估 → 反馈优化 → 迭代进化 自动发现的新算法在多个基准PDE上超越了人类手工设计的SOTA方法 意义 : 这是\"AI设计AI\"在科学计算领域的重要落地。EvoPINN证明LLM不仅能写代码，还能自主发现解决PDE的新算法范式，标志着SciML进入 自动化算法工程 时代。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这是\"AI设计AI\"在科学计算领域的重要落地。EvoPINN证明LLM不仅能写代码，还能自主发现解决PDE的新算法范式，标志着SciML进入**自动化算法工程**时代。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": [
+            "human-video-transfer"
+          ],
+          "arxiv_version": "v1"
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.08491",
+          "summary": "历史周报补处理条目：多尺度最优输运神经算子 (arXiv:2608.08491v1, 8月10日)。问题/方法/证据：标题 : Multiscale Optimal Transport Neural Operator 作者 : 研究团队 机构 : — 核心创新 : 将 最优输运理论 Optimal Transport 与神经算子结合，构建多尺度PDE求解器 利用OT的度量特性，在多尺度间建立物理上合理的映射关系 相比传统FNO，在多尺度物理问题（如湍流、多孔介质流动）上表现更优 意义 : 最优输运为神经算子提供了新的数学基础，可能在保持物理一致性的同时提升复杂多尺度问题的求解精度。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：最优输运为神经算子提供了新的数学基础，可能在保持物理一致性的同时提升复杂多尺度问题的求解精度。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": [],
+          "arxiv_version": "v1"
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2606.21189",
+          "summary": "历史周报其他关注条目：TF SNO (arXiv:2606.21189)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2606.24851",
+          "summary": "历史周报其他关注条目：Hartley Neural Operator (arXiv:2606.24851)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2602.16634",
+          "summary": "历史周报其他关注条目：Enhanced Diffusion Sampling: /。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.03495",
+          "summary": "历史周报其他关注条目：Enhanced Diffusion Sampling: /。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2405.19101",
+          "summary": "历史周报其他关注条目：Poseidon (PDE Foundation Model)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W35-world-models.json",
+    "accepted": 11,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2608.09298",
+          "summary": "历史周报补处理条目：WorldSimProbe (arXiv:2608.09298, 8月10日) — 世界模型「体检报告」来了。问题/方法/证据：关键词 : 仿真保真度诊断 · 动作条件世界模型 · 具身操作 这篇工作提出了 WorldSimProbe ，一个专门诊断 动作条件世界模型 中仿真器保真度的框架。核心问题是：当前的世界模型在生成未来帧时，究竟有多忠实于真实物理？作者系统性地评估了世界模型在具身操作任务中的可靠性，发现很多模型在交互动力学方面存在系统性偏差。 为什么重要 : 世界模型不能只是\"看起来对\"，还得\"物理上对\"。这篇为下游策略训练提供了可靠的模型筛选工具。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：世界模型不能只是\"看起来对\"，还得\"物理上对\"。这篇为下游策略训练提供了可靠的模型筛选工具。",
+          "tags": [
+            "world-models",
+            "legacy-report"
+          ],
+          "questions": [
+            "world-model-planning"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.12939",
+          "summary": "历史周报补处理条目：Diagnosing JEPA World Models (arXiv:2608.12939, 8月13日) — JEPA也开始做\"体检。问题/方法/证据：关键词 : JEPA · 动作条件预测一致性 · 表征坍塌 LeCun力推的JEPA路线虽然火，但训练稳定性和诊断工具一直缺位。这篇工作提出了一套 动作条件预测一致性 诊断方法，能够检测JEPA世界模型中的表征质量问题。值得注意的是，这篇直接引用了LeWorldModel作为基准架构。 为什么重要 : JEPA从\"能不能训\"进入\"训得好不好\"阶段，诊断工具的出现意味着这个方向正在成熟。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：JEPA从\"能不能训\"进入\"训得好不好\"阶段，诊断工具的出现意味着这个方向正在成熟。",
+          "tags": [
+            "world-models",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2606.03159",
+          "summary": "历史周报其他关注条目：NVIDIA OmniDreams。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2605.19242",
+          "summary": "历史周报其他关注条目：PhyWorld: Physics Faithful World Model for Video Generation。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2605.12334",
+          "summary": "历史周报其他关注条目：Reinforcing VLAs in Task Agnostic World Models。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2606.01600",
+          "summary": "历史周报其他关注条目：RoboTrustBench。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": [
+            "world-model-planning"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2509.07996",
+          "summary": "历史周报其他关注条目：3D and 4D World Modeling: A Survey。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": [],
+          "arxiv_version": "v4"
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W36-embodied-intelligence.json",
+    "accepted": 9,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2608.08237",
+          "summary": "历史周报补处理条目：TrAct (arXiv:2608.08237, 8月25日) — 用「视觉轨迹」桥接控制和预测。问题/方法/证据：关键词 : 视觉轨迹 · 中间表征 · VLA增强 · 闭环控制 TrAct提出用 视觉轨迹（visual tracks） 作为控制和视觉预测之间的中间接口。传统VLA直接从像素输出动作，容易受到视觉干扰；TrAct先提取场景中的视觉轨迹（特征点在时间上的运动路径），再基于轨迹做控制和未来帧预测。 效果 : LIBERO INTEGRAL长程操作任务上显著提升 真实Franka机器人验证 视觉轨迹作为中间表征，天然支持 闭环重规划 为什么重要 : VLA的一个核心痛点是「开环执行」——一旦开始执行就难以根据视觉反馈调整。TrAct用视觉轨迹作为可解释的 intermediate representation，让控制策略具备了闭环修正能力。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：VLA的一个核心痛点是「开环执行」——一旦开始执行就难以根据视觉反馈调整。TrAct用视觉轨迹作为可解释的 intermediate representation，让控制策略具备了闭环修正能力。",
+          "tags": [
+            "embodied-intelligence",
+            "legacy-report"
+          ],
+          "questions": [
+            "world-model-planning",
+            "robot-deployment"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.07889",
+          "summary": "历史周报补处理条目：HBVLA (arXiv:2608.07889, 8月20日) — VLA的「1-bit瘦身」方案。问题/方法/证据：关键词 : 1 bit量化 · 后训练 · 边缘部署 · 资源受限机器人 HBVLA（Highly Binarized VLA）提出了 1 bit后训练量化 方案，让大型VLA模型能在资源受限的机器人平台上实时运行。不需要从头训练，直接在预训练VLA上施加1 bit权重量化，配合专门的校准策略保持性能。 为什么重要 : 当前VLA模型越来越大（π0、GR00T N1等），边缘部署成为瓶颈。HBVLA证明即使是极端的1 bit压缩，通过精心设计的后训练校准，仍能在操作任务上保持可用性能。这对消费级机器人产品的落地意义重大。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：当前VLA模型越来越大（π0、GR00T N1等），边缘部署成为瓶颈。HBVLA证明即使是极端的1-bit压缩，通过精心设计的后训练校准，仍能在操作任务上保持可用性能。这对消费级机器人产品的落地意义重大。",
+          "tags": [
+            "embodied-intelligence",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.06004",
+          "summary": "历史周报补处理条目：The Embodiment Gap (arXiv:2608.06004, 8月19日) — 机器人基础模型的「本体鸿沟」有多大？。问题/方法/证据：关键词 : 跨本体泛化 · 基准测试 · 表征分析 · Robot Foundation Model 这篇工作系统性地测量了当前Robot Foundation Models在不同机器人本体（单臂→双臂→人形）之间的 迁移鸿沟 。发现： 视觉表征的迁移性远好于动作表征 动作空间的维度差异是跨本体泛化的最大瓶颈 当前SOTA模型在跨本体任务上性能下降30 60% 为什么重要 : 行业正在追捧「通用机器人大脑」的概念，但这篇工作泼了一盆冷水——本体之间的物理差异（自由度、运动学、动力学）造成的表征鸿沟，比想象中更难跨越。这为未来的跨本体学习研究指明了方向。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：行业正在追捧「通用机器人大脑」的概念，但这篇工作泼了一盆冷水——本体之间的物理差异（自由度、运动学、动力学）造成的表征鸿沟，比想象中更难跨越。这为未来的跨本体学习研究指明了方向。",
+          "tags": [
+            "embodied-intelligence",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.06009",
+          "summary": "历史周报其他关注条目：Fine Tuning VLAs with Self Demonstrated Generative Control。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "embodied-intelligence",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2601.11404",
+          "summary": "历史周报其他关注条目：ACoT VLA。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "embodied-intelligence",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2607.11689",
+          "summary": "历史周报其他关注条目：From World Action Models to Embodied Brains。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "embodied-intelligence",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2607.13017",
+          "summary": "历史周报其他关注条目：FlowWAM。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "embodied-intelligence",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W37-ai-infra.json",
+    "accepted": 3,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2608.08097",
+          "summary": "历史周报补处理条目：OasisKV — 用 Lookahead Sparse Prefetching 突破 HBM 天花板 (arXiv:2608.08097, 8月8日)。问题/方法/证据：一句话 : 把 decode 阶段的 KV cache 扩展到 HBM 之外，通过稀疏预取实现\"看起来像在 HBM 里\"的访问体验。 痛点 : 长上下文 + 多轮对话场景下，decode KV cache 容量需求远超 HBM 容量（TB 级），现有 offloading 方案 latency 抖动剧烈 解法 : OasisKV 提出 lookahead sparse prefetching ：利用注意力稀疏性，提前从远端内存（DRAM/SSD）预取下一批 token 所需的 KV 子集；同时用 per head 的稀疏度感知调度，只加载真正会被 attention 命中的 KV block 效果 : 在 128K 上下文、Llama 3 70B 上，decode throughput 相比 vLLM 的 bl局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：首次证明 decode KV cache 可以\"virtually unlimited\"地扩展到 HBM 外而不牺牲 latency SLO，为多轮 agentic 推理打开容量上限",
+          "tags": [
+            "ai-infra",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.09907",
+          "summary": "历史周报补处理条目：DistMoE — 无需集中数据的分布式 MoE 隐私训练 (arXiv:2608.09907, 8月10日, Meta)。问题/方法/证据：一句话 : 多个数据孤岛各自训练专家，一个分布式路由器把它们动态组合——数据不出域，性能不打折。 痛点 : MoE 训练通常需要所有数据集中在单一集群，跨组织/跨合规域的联合训练几乎不可能 解法 : DistMoE 让每个参与方独立训练 域专属专家 ，中央只维护一个轻量级的 分布式路由器 （distributed router）；推理时路由器根据输入动态组合各方专家，训练时通过知识蒸馏对齐路由决策，无需原始数据交换 效果 : 在跨 5 个医疗数据集的 MoE 上，DistMoE 达到集中式训练 96.2% 的性能，数据零共享 意义 : 为医疗、金融等敏感数据场景的 MoE 落地提供了合规路径，也可能改变未来大模型联盟的训练格局局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：为医疗、金融等敏感数据场景的 MoE 落地提供了合规路径，也可能改变未来大模型联盟的训练格局",
+          "tags": [
+            "ai-infra",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.01526",
+          "summary": "历史周报补处理条目：An Internet for the KV Cache\" — 重新思考 LLM 推理时代的基础设施边界 (arXiv:2608.01526, 8月)。问题/方法/证据：一句话 : KV cache 不该是推理框架的私有数据结构，而应该是像 HTTP 请求一样可被全网路由和缓存的\"一等公民\"。 核心论点 : 当前 KV cache 被锁在单个推理实例内部，导致多轮对话、多模型协作、跨地域部署时大量重复计算；作者主张建立 KV cache 的通用寻址和传输协议 架构 : 提出类似 CDN 的 KV Cache Network —— 全局唯一 token sequence ID → 分布式 KV store → 标准序列化格式（兼容多种推理框架）→ 基于语义相似度的去重和复用 场景 : 多轮对话跨模型切换时直接复用 KV；A/B 测试不同模型时共享公共前缀 KV；跨数据中心推理时预热 KV 意义 : 这是从\"单机优化\"到\"网络级优化\"的范式跃迁，如果实现将根本性改变 LLM 推理的局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这是从\"单机优化\"到\"网络级优化\"的范式跃迁，如果实现将根本性改变 LLM 推理的成本结构",
+          "tags": [
+            "ai-infra",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2608.02989",
+          "summary": "历史周报其他关注条目：AcceptMoE — MoE 投机解码的自适应验证 (arXiv:2608.02989, 8月4日, 清华)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2607.18141",
+          "summary": "历史周报其他关注条目：CXL KV Cache Framework — 多轮对话的混合内存 KV 管理 (arXiv:2607.18141)。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "ai-infra",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W38-deep-learning.json",
+    "accepted": 6,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2609.11842",
+          "summary": "历史周报补处理条目：Model-Aware Schedules via Fiberwise Optimal Transport (arXiv:2609.11842)。问题/方法/证据：提出基于 fiberwise 最优传输的 model-aware 采样调度方法，为扩散模型和流匹配模型构建与模型预测误差耦合的时间分配策略。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：扩散/流匹配领域的采样调度长期停留在 model-agnostic 的启发式设计。这篇工作首次将模型自身的预测误差结构纳入调度优化，并发现跨模型的普适规律，可能重塑高效采样的研究范式。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.11918",
+          "summary": "历史周报补处理条目：DataShifts — 可估计的分布偏移量化工具 (arXiv:2609.11918)。问题/方法/证据：基于熵最优传输（Entropic Optimal Transport），统一了协变量偏移和概念偏移的误差界，并提供了可从样本估计的实用工具。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：分布偏移是深度学习从实验室走向真实世界的最大障碍之一。理论界的泛化界往往不可估计，这篇工作试图在理论和实践之间架起桥梁。",
+          "tags": [
+            "deep-learning",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.11884",
+          "summary": "历史周报其他关注条目：CoRA NAS: 低成本神经架构搜索。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.11521",
+          "summary": "历史周报其他关注条目：广义 Score Matching。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.11780",
+          "summary": "历史周报其他关注条目：谱分析用于隐私审计。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.11253",
+          "summary": "历史周报其他关注条目：概念擦除的最优边界。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.11790",
+          "summary": "历史周报其他关注条目：文本驱动的化学反应优化。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.11580",
+          "summary": "历史周报其他关注条目：AmazonSWE: 大规模河流水位时空图补全。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "deep-learning",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W39-physics-informed-ai.json",
+    "accepted": 9,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2609.20641",
+          "summary": "历史周报补处理条目：Beyond PINNs: Gauss–Newton + Petrov–Galerkin 统一框架 (arXiv:2609.20641)。问题/方法/证据：提出一个统一数学框架，将 PINN 的强式残差训练与有限元法的弱式变分离散纳入同一个 Gauss–Newton / Petrov–Galerkin 体系，使\"测试函数的选择\"成为显式的算法设计自由度。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：PINN 与 FEM 长期是两条平行线：一个基于强式残差+自动微分，一个基于弱式变分+离散化。这篇工作证明两者本质上是同一枚硬币的两面，为\"什么时候用弱式、什么时候混合经典求解器\"提供了理论决策依据——混合方法的春天可能来了。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.17841",
+          "summary": "历史周报其他关注条目：NINN + 重叠 Schwarz 交替法耦合。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.15432",
+          "summary": "历史周报其他关注条目：单条件神经求解器的响应空间迁移。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.19871",
+          "summary": "历史周报其他关注条目：历史数据上的物理知识比预测上的物理约束更重要。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.19756",
+          "summary": "历史周报其他关注条目：PINN 学习脉冲激光场中的自旋动力学。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "physics-informed-ai",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W40-world-models.json",
+    "accepted": 3,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2609.26292",
+          "summary": "历史周报补处理条目：RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World? (arXiv:2609.26292, 2026-09-22)。问题/方法/证据：关键词 : 物理多样性基准、机器人操作、WAM/VLA 评测、sim to real gap 北大团队推出 RoboTwin Phys，一个将 物理条件多样性 作为显式评测维度的机器人操作基准。现有大规模仿真基准主要变化外观、场景布局和视觉观测，但底层物理参数（质量、摩擦、关节动力学）通常固定。RoboTwin Phys 覆盖 13 个物理属性、5000+ 专家演示，系统评测当前代表性的 World Action Models WAMs 和 Vision Language Action models VLAs 在物理条件变化下的鲁棒性。实验揭示了一致的鲁棒性缺口——模型在标准条件下表现优异，但物理参数偏移时性能显著退化。 为什么重要 : 这击中了当前 world model 评测的盲区——\"视觉逼真 ≠ 物理正局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：这击中了当前 world model 评测的盲区——\"视觉逼真 ≠ 物理正确\"。当 SOTA 模型在 Clean 设定下刷到 84% 成功率但 Random 物理条件下骤降到 55.7%，说明世界模型对物理规律的理解仍然表面化。这个基准迫使领域直面一个问题：你的模型是真的理解了物理世界，还是只是在背视觉模式？对 sim-to-real 部署有直接指导意义。",
+          "tags": [
+            "world-models",
+            "legacy-report"
+          ],
+          "questions": [
+            "world-model-planning"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.28931",
+          "summary": "历史周报补处理条目：HelloWorld: A World Model System for Data Generation and Interactive Simulation in Autonomous Driving (arXiv:2609.28931, 2026-09-24)。问题/方法/证据：关键词 : 驾驶世界模型、因果蒸馏、多相机环视、LiDAR 生成、闭环仿真 面壁智能 & 清华团队提出 HelloWorld——一个面向数据生成与交互仿真的可控驾驶世界模型系统。技术核心： 1 Block causal 架构 同时生成七路环视 RGB 视频； 2 因果教师蒸馏 ——将 20 步因果教师压缩为 4 步学生模型，大幅降低推理延迟； 3 RGB 条件 LiDAR 分支 与视觉生成共享世界表征，实现跨模态一致性。该系统将 world model 从\"视频生成器\"升级为覆盖数据生成与闭环仿真的完整基础设施。 为什么重要 : 自动驾驶数据的长尾问题（corner case 稀缺、标注昂贵）是世界模型最有商业价值的落地场景之一。HelloWorld 的意义在于系统性——不是只生成好看的视频，而是打通了\"生成 局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：自动驾驶数据的长尾问题（corner case 稀缺、标注昂贵）是世界模型最有商业价值的落地场景之一。HelloWorld 的意义在于系统性——不是只生成好看的视频，而是打通了\"生成 → 仿真 → 数据\"的闭环。因果蒸馏（20步→4步）代表了世界模型工程化的关键方向：再强的模型如果跑不出实时，就无法用于闭环策略评估。这与 GAIA 系列形成正面竞争。",
+          "tags": [
+            "world-models",
+            "legacy-report"
+          ],
+          "questions": [
+            "world-model-planning"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.20819",
+          "summary": "历史周报补处理条目：Can 4D Foundation Models Remember? (PersistBench) (arXiv:2609.20819, 2026-09-17)。问题/方法/证据：关键词 : 4D 基础模型、视觉记忆基准、持续学习、benchmark 康奈尔大学（Hadar Averbuch Elor & Wei Chiu Ma 组）提出 PersistBench——第一个系统评测 4D 基础模型 视觉记忆 能力的基准。当前 4D 基础模型（相机可控视频模型、4D 重建模型）能感知和重建动态环境，但它们记住了多少？当 agent 在环境中移动、离开某个区域后再返回，模型还能保持一致的场景状态吗？PersistBench 通过一系列精心设计的探针任务量化这一能力。 为什么重要 : 持久记忆是 world model 从\"短视频预测器\"进化为\"可交互世界模拟器\"的必经之路。如果模型在 agent 转身之后就\"忘记\"了桌子上有几个物体，它就无法支撑任何需要空间推理的下游任务。这个基准与 Rob局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：持久记忆是 world model 从\"短视频预测器\"进化为\"可交互世界模拟器\"的必经之路。如果模型在 agent 转身之后就\"忘记\"了桌子上有几个物体，它就无法支撑任何需要空间推理的下游任务。这个基准与 RoboTwin-Phys 形成互补——一个测物理理解，一个测空间记忆——共同构成了 world model 评测的新维度。",
+          "tags": [
+            "world-models",
+            "legacy-report"
+          ],
+          "questions": [
+            "world-model-planning"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.16697",
+          "summary": "历史周报其他关注条目：World Models for Embodied Intelligence: From Plausible to Controllable to Actionable。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "world-models",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  },
+  {
+    "batch": "2026-W41-embodied-intelligence.json",
+    "accepted": 6,
+    "rejected": [
+      {
+        "input": {
+          "arxiv_id": "2609.34182",
+          "summary": "历史周报补处理条目：UVTA：人类演示统一视觉-触觉-动作建模，灵巧操作的触觉规模化路线。问题/方法/证据：灵巧操作需要触觉，但机器人触觉演示几乎无法规模化——UVTA 的路线是让**人类触觉演示**来补。人机数据在**同一轮联合训练**里混合（非分阶段预训练），weighted sampler 保证两个本体采样等概率；min-max 归一化分别处理不同本体；损失函数把 9 维腕部与 22 维手部分组均衡，防止高维手部目标主导梯度；扩散策略 + 未来触觉预测头。原报告标注日期：2026-09-29。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：多模态策略从「视觉+动作」走向「视觉+触觉+动作」的关键一步，且给出的工程配方（分组均衡损失、单轮联合训练）非常简单可抄。当视觉侧 scaling 红利被吃干抹净，触觉可能是下一个数据 moat。",
+          "tags": [
+            "embodied-intelligence",
+            "legacy-report"
+          ],
+          "questions": [
+            "human-video-transfer"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.33007",
+          "summary": "历史周报补处理条目：CAPEX：让基础模型自己当演示者，经验自适应推理把成本砍掉 80%。问题/方法/证据：人采演示数据\"贵、慢、不同步\"，CAPEX 换个思路：直接让通用多模态基础模型当**自主演示者**，把物理行为蒸馏进可部署 policy。关键设计是 experience-conditioning——利用前几次尝试的执行经验，自适应调整基础模型需要\"观察-推理-重规划\"的频率（简单段少调用，卡壳段多调用）。原报告标注日期：2026-09-26。局限：原历史报告未单列，本次未重新核对全文。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "既有周报主推荐条目；本次仅做历史格式转换，未重新筛选。 原推荐理由：在「人类采数据」和「纯 sim 生成数据」之间开辟了第三条路：基础模型当数据工厂。和本周的 ego-data 路线互为镜像——一个榨人类视频，一个榨大模型推理能力，共同指向同一件事：**机器人学习的瓶颈正在从算法转向数据供给方式**。",
+          "tags": [
+            "embodied-intelligence",
+            "legacy-report"
+          ],
+          "questions": [
+            "world-model-planning",
+            "human-video-transfer"
+          ]
+        },
+        "reason": "arXiv 未返回论文"
+      },
+      {
+        "input": {
+          "arxiv_id": "2609.19666",
+          "summary": "历史周报其他关注条目：高自由度灵巧 VLA 后训练。问题/方法/证据/局限：原历史报告未提供可机读拆分，详见同名 Markdown。实际阅读范围：基于既有周报摘要转换，未在本次重新核对全文。",
+          "selection_reason": "历史报告列入“其他值得一看/值得关注”或机器摘要区块；本次转换未重新筛选。",
+          "tags": [
+            "embodied-intelligence",
+            "legacy-report",
+            "other-mention"
+          ],
+          "questions": []
+        },
+        "reason": "arXiv 未返回论文"
+      }
+    ]
+  }
+]
