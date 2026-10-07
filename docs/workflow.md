@@ -99,3 +99,9 @@ python3 scripts/research_task.py 2506.09985v1 parked --owner kimi-claw --note '�
 ## 首批历史 ingest 结果
 
 有效记录已正常接入，无需逐篇人工挑选：215 个官方论文版本、215 个研究任务，其中 214 个 pending，撤回的 2601.10999v2 为 parked。历史批次失败与重试记录保存在 radar/scans，汇总见 radar/ingest-summary.json。2605.0645 来源身份未确认，不进入目录或任务；原周报写 2605.0645x，先前取得的 PDF 与周报标题不符，原文留档已明确警示。请求身份匹配与哈希校验不代表论文摘要已核验。
+
+## 本地 PDF 命名
+
+ID-only PDF 下载完成后运行 `python3 scripts/rename_local_pdfs.py` 预览，再运行 `python3 scripts/rename_local_pdfs.py --apply`。用已确认目录中的首次发布日期与官方标题生成 `YYYY-MM-DD-title-slug-arxiv-ID.pdf`；明确版本后缀原样保留，不把目录最新版本冒充本地 PDF 版本。已有描述性文件名保留；缺少确认身份的文件不猜测命名。作者简写暂不加入，避免未知作者或重名。
+
+重命名报告保存于 `radar/pdf-renaming-report.json`，记录旧名、新名及原文件 SHA-256；同步下载与转换清单、收录清单和原文提取头部的本地 PDF 引用。提取 Markdown 的公开路径保持稳定，PDF 不进入 Git。

@@ -13,7 +13,10 @@ def convert(job):
     identity, relative_pdf = job
     import pypdf
     source = ROOT / relative_pdf
-    destination = source.with_suffix('.fulltext.md')
+    # Keep published source links stable when the local PDF gains a title.
+    destination = (source.parent / (identity + '.fulltext.md')
+                   if source.stem.endswith('arxiv-' + identity)
+                   else source.with_suffix('.fulltext.md'))
     if destination.exists():
         return {'arxiv_id': identity, 'status': 'skipped', 'markdown': destination.relative_to(ROOT).as_posix()}
     try:

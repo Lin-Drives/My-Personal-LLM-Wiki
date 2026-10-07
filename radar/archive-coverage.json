@@ -18,7 +18,7 @@
         "raw/World-Models/2024-ding-world-models-survey.md",
         "raw/World-Models/2025-ding-world-models-survey.md",
         "raw/World-Models/2411.14499.fulltext.md",
-        "raw/World-Models/2411.14499.pdf",
+        "raw/World-Models/2024-11-21-understanding-world-or-predicting-future-a-comprehensive-survey-of-world-models-arxiv-2411.14499.pdf",
         "raw/arxiv/2411.14499v4.xml"
       ],
       "wiki_mentions": [],
@@ -37,7 +37,7 @@
         "raw/World-Models/2025-assran-v-jepa-2.md",
         "raw/World-Models/2025-vjepa2-lecun.md",
         "raw/World-Models/2506.09985.fulltext.md",
-        "raw/World-Models/2506.09985.pdf",
+        "raw/World-Models/2025-06-11-v-jepa-2-self-supervised-video-models-enable-understanding-prediction-and-planning-arxiv-2506.09985.pdf",
         "raw/arxiv/2506.09985v1.xml"
       ],
       "wiki_mentions": [],
@@ -57,7 +57,7 @@
         "raw/World-Models/2026-c-jepa-causal.md",
         "raw/World-Models/2026-nam-causal-jepa-object-level.md",
         "raw/World-Models/2602.11389.fulltext.md",
-        "raw/World-Models/2602.11389.pdf",
+        "raw/World-Models/2026-02-11-causal-jepa-learning-world-models-through-object-level-latent-masking-arxiv-2602.11389.pdf",
         "raw/arxiv/2602.11389v2.xml"
       ],
       "wiki_mentions": [],
@@ -74,7 +74,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2602.15922.fulltext.md",
-        "raw/World-Models/2602.15922.pdf",
+        "raw/World-Models/2026-02-17-world-action-models-are-zero-shot-policies-arxiv-2602.15922.pdf",
         "raw/arxiv/2602.15922v1.xml"
       ],
       "wiki_mentions": [],
@@ -89,7 +89,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2511.09783.fulltext.md",
-        "raw/World-Models/2511.09783.pdf",
+        "raw/World-Models/2025-11-12-koopman-invariants-as-drivers-of-emergent-time-series-clustering-in-joint-embedding-predictive-architectures-arxiv-2511.09783.pdf",
         "raw/arxiv/2511.09783v2.xml"
       ],
       "wiki_mentions": [],
@@ -108,7 +108,7 @@
         "raw/World-Models/2026-ad-list-jepa-lidar.md",
         "raw/World-Models/2026-zhu-ad-list-jepa-lidar.md",
         "raw/World-Models/2602.12540.fulltext.md",
-        "raw/World-Models/2602.12540.pdf",
+        "raw/World-Models/2026-02-13-self-supervised-jepa-based-world-models-for-lidar-occupancy-completion-and-forecasting-arxiv-2602.12540.pdf",
         "raw/arxiv/2602.12540v1.xml"
       ],
       "wiki_mentions": [],
@@ -126,7 +126,7 @@
       "raw": [
         "raw/AI-Infra/2025-dai-llm-inference-scheduling.md",
         "raw/AI-Infra/2504.07347.fulltext.md",
-        "raw/AI-Infra/2504.07347.pdf",
+        "raw/AI-Infra/2025-04-10-throughput-optimal-scheduling-algorithms-for-llm-inference-and-ai-agents-arxiv-2504.07347.pdf",
         "raw/arxiv/2504.07347v3.xml"
       ],
       "wiki_mentions": [],
@@ -144,7 +144,7 @@
       "raw": [
         "raw/AI-Infra/2026-amer-distributed-hybrid-parallelism.md",
         "raw/AI-Infra/2602.09109.fulltext.md",
-        "raw/AI-Infra/2602.09109.pdf",
+        "raw/AI-Infra/2026-02-09-distributed-hybrid-parallelism-for-large-language-models-comparative-study-and-system-design-guide-arxiv-2602.09109.pdf",
         "raw/arxiv/2602.09109v1.xml"
       ],
       "wiki_mentions": [],
@@ -162,7 +162,7 @@
       "raw": [
         "raw/AI-Infra/2023-liu-cachegen-kv-cache-compression.md",
         "raw/AI-Infra/2310.07240.fulltext.md",
-        "raw/AI-Infra/2310.07240.pdf",
+        "raw/AI-Infra/2023-10-11-cachegen-kv-cache-compression-and-streaming-for-fast-large-language-model-serving-arxiv-2310.07240.pdf",
         "raw/arxiv/2310.07240v6.xml"
       ],
       "wiki_mentions": [],
@@ -181,7 +181,7 @@
       "raw": [
         "raw/Deep-Learning/2026-lahoti-mamba-3-ssm.md",
         "raw/Deep-Learning/2603.15569.fulltext.md",
-        "raw/Deep-Learning/2603.15569.pdf",
+        "raw/Deep-Learning/2026-03-16-mamba-3-improved-sequence-modeling-using-state-space-principles-arxiv-2603.15569.pdf",
         "raw/arxiv/2603.15569v1.xml"
       ],
       "wiki_mentions": [],
@@ -199,7 +199,7 @@
       "raw": [
         "raw/Deep-Learning/2026-labovich-looped-transformers-stability.md",
         "raw/Deep-Learning/2604.15259.fulltext.md",
-        "raw/Deep-Learning/2604.15259.pdf",
+        "raw/Deep-Learning/2026-04-16-stability-and-generalization-in-looped-transformers-arxiv-2604.15259.pdf",
         "raw/arxiv/2604.15259v2.xml"
       ],
       "wiki_mentions": [],
@@ -217,7 +217,7 @@
       "raw": [
         "raw/Deep-Learning/2026-haris-noise-stability-transformers.md",
         "raw/Deep-Learning/2602.08287.fulltext.md",
-        "raw/Deep-Learning/2602.08287.pdf",
+        "raw/Deep-Learning/2026-02-09-noise-stability-of-transformer-models-arxiv-2602.08287.pdf",
         "raw/arxiv/2602.08287v1.xml"
       ],
       "wiki_mentions": [],
@@ -234,7 +234,7 @@
       "raw": [
         "raw/Deep-Learning/2026-santoni-compiler-first-ssd-inference.md",
         "raw/Deep-Learning/2603.09555.fulltext.md",
-        "raw/Deep-Learning/2603.09555.pdf",
+        "raw/Deep-Learning/2026-03-10-compiler-first-state-space-duality-and-portable-o-1-autoregressive-caching-for-inference-arxiv-2603.09555.pdf",
         "raw/arxiv/2603.09555v2.xml"
       ],
       "wiki_mentions": [],
@@ -250,7 +250,7 @@
       "raw": [
         "raw/Deep-Learning/2026-xu-geometry-multitask-grokking.md",
         "raw/Deep-Learning/2602.18523.fulltext.md",
-        "raw/Deep-Learning/2602.18523.pdf",
+        "raw/Deep-Learning/2026-02-19-the-geometry-of-multi-task-grokking-transverse-instability-superposition-and-weight-decay-phase-structure-arxiv-2602.18523.pdf",
         "raw/arxiv/2602.18523v3.xml"
       ],
       "wiki_mentions": [],
@@ -284,7 +284,7 @@
       "raw": [
         "raw/Deep-Learning/2026-meshram-k-pinn-lattice-boltzmann.md",
         "raw/Deep-Learning/2604.03481.fulltext.md",
-        "raw/Deep-Learning/2604.03481.pdf",
+        "raw/Deep-Learning/2026-04-03-lattice-boltzmann-driven-physics-informed-neural-networks-for-droplet-wettability-on-rough-surfaces-arxiv-2604.03481.pdf",
         "raw/arxiv/2604.03481v2.xml"
       ],
       "wiki_mentions": [],
@@ -300,7 +300,7 @@
       "raw": [
         "raw/Deep-Learning/2026-dehaghani-qpinn-quantum-embeddings.md",
         "raw/Deep-Learning/2605.13892.fulltext.md",
-        "raw/Deep-Learning/2605.13892.pdf",
+        "raw/Deep-Learning/2026-05-12-a-qpinn-framework-with-quantum-trainable-embeddings-for-the-lid-driven-cavity-problem-arxiv-2605.13892.pdf",
         "raw/arxiv/2605.13892v1.xml"
       ],
       "wiki_mentions": [
@@ -332,7 +332,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2507.19888.fulltext.md",
-        "raw/Deep-Learning/2507.19888.pdf",
+        "raw/Deep-Learning/2025-07-26-multi-resolution-training-enhanced-kolmogorov-arnold-networks-for-multi-scale-pde-problems-arxiv-2507.19888.pdf",
         "raw/arxiv/2507.19888v1.xml"
       ],
       "wiki_mentions": [],
@@ -410,7 +410,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2507.08338.fulltext.md",
-        "raw/Deep-Learning/2507.08338.pdf",
+        "raw/Deep-Learning/2025-07-11-discontinuity-aware-kan-based-physics-informed-neural-networks-arxiv-2507.08338.pdf",
         "raw/arxiv/2507.08338v2.xml"
       ],
       "wiki_mentions": [],
@@ -428,7 +428,7 @@
       "raw": [
         "raw/World-Models/2026-he-demo-jepa-cross-embodiment.md",
         "raw/World-Models/2605.20811.fulltext.md",
-        "raw/World-Models/2605.20811.pdf",
+        "raw/World-Models/2026-05-20-demo-jepa-joint-embedding-predictive-architecture-for-one-shot-cross-embodiment-imitation-arxiv-2605.20811.pdf",
         "raw/arxiv/2605.20811v1.xml"
       ],
       "wiki_mentions": [],
@@ -445,7 +445,7 @@
       "raw": [
         "raw/World-Models/2026-hou-world-model-robot-learning-survey.md",
         "raw/World-Models/2605.00080.fulltext.md",
-        "raw/World-Models/2605.00080.pdf",
+        "raw/World-Models/2026-04-30-world-model-for-robot-learning-a-comprehensive-survey-arxiv-2605.00080.pdf",
         "raw/arxiv/2605.00080v1.xml"
       ],
       "wiki_mentions": [],
@@ -461,7 +461,7 @@
       "raw": [
         "raw/World-Models/2026-lin-world-ego-modeling.md",
         "raw/World-Models/2605.19957.fulltext.md",
-        "raw/World-Models/2605.19957.pdf",
+        "raw/World-Models/2026-05-19-world-ego-modeling-for-long-horizon-evolution-in-hybrid-embodied-tasks-arxiv-2605.19957.pdf",
         "raw/arxiv/2605.19957v1.xml"
       ],
       "wiki_mentions": [],
@@ -479,7 +479,7 @@
       "raw": [
         "raw/World-Models/2025-terver-jepa-wm-planning-recipe.md",
         "raw/World-Models/2512.24497.fulltext.md",
-        "raw/World-Models/2512.24497.pdf",
+        "raw/World-Models/2025-12-30-what-drives-success-in-physical-planning-with-joint-embedding-predictive-world-models-arxiv-2512.24497.pdf",
         "raw/arxiv/2512.24497v3.xml"
       ],
       "wiki_mentions": [],
@@ -495,7 +495,7 @@
       "raw": [
         "raw/World-Models/2026-li-mola-mixture-latent-actions.md",
         "raw/World-Models/2605.12167.fulltext.md",
-        "raw/World-Models/2605.12167.pdf",
+        "raw/World-Models/2026-05-12-from-imagined-futures-to-executable-actions-mixture-of-latent-actions-for-robot-manipulation-arxiv-2605.12167.pdf",
         "raw/arxiv/2605.12167v1.xml"
       ],
       "wiki_mentions": [],
@@ -736,7 +736,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2605.21427.fulltext.md",
-        "raw/AI-Infra/2605.21427.pdf",
+        "raw/AI-Infra/2026-05-20-pals-power-aware-llm-serving-for-mixture-of-experts-models-arxiv-2605.21427.pdf",
         "raw/arxiv/2605.21427v1.xml"
       ],
       "wiki_mentions": [],
@@ -751,7 +751,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2507.21276.fulltext.md",
-        "raw/AI-Infra/2507.21276.pdf",
+        "raw/AI-Infra/2025-07-28-lemix-unified-scheduling-for-llm-training-and-inference-on-multi-gpu-systems-arxiv-2507.21276.pdf",
         "raw/arxiv/2507.21276v1.xml"
       ],
       "wiki_mentions": [],
@@ -766,7 +766,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2507.06608.fulltext.md",
-        "raw/AI-Infra/2507.06608.pdf",
+        "raw/AI-Infra/2025-07-09-nexus-proactive-intra-gpu-disaggregation-of-prefill-and-decode-in-llm-serving-arxiv-2507.06608.pdf",
         "raw/arxiv/2507.06608v5.xml"
       ],
       "wiki_mentions": [],
@@ -781,7 +781,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2509.21081.fulltext.md",
-        "raw/AI-Infra/2509.21081.pdf",
+        "raw/AI-Infra/2025-09-25-typhoonmla-a-mixed-naive-absorb-mla-kernel-for-shared-prefix-arxiv-2509.21081.pdf",
         "raw/arxiv/2509.21081v2.xml"
       ],
       "wiki_mentions": [],
@@ -796,7 +796,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2604.07173.fulltext.md",
-        "raw/AI-Infra/2604.07173.pdf",
+        "raw/AI-Infra/2026-04-08-infinilora-disaggregated-multi-lora-serving-for-large-language-models-arxiv-2604.07173.pdf",
         "raw/arxiv/2604.07173v1.xml"
       ],
       "wiki_mentions": [],
@@ -811,7 +811,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2509.06261.fulltext.md",
-        "raw/AI-Infra/2509.06261.pdf",
+        "raw/AI-Infra/2025-09-08-fineserve-precision-aware-kv-slab-and-two-level-scheduling-for-heterogeneous-precision-llm-serving-arxiv-2509.06261.pdf",
         "raw/arxiv/2509.06261v2.xml"
       ],
       "wiki_mentions": [],
@@ -826,7 +826,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2508.03148.fulltext.md",
-        "raw/AI-Infra/2508.03148.pdf",
+        "raw/AI-Infra/2025-08-05-frontier-simulating-the-next-generation-of-llm-inference-systems-arxiv-2508.03148.pdf",
         "raw/arxiv/2508.03148v1.xml"
       ],
       "wiki_mentions": [],
@@ -841,7 +841,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2502.00937.fulltext.md",
-        "raw/AI-Infra/2502.00937.pdf",
+        "raw/AI-Infra/2025-02-02-modserve-modality-and-stage-aware-resource-disaggregation-for-scalable-multimodal-model-serving-arxiv-2502.00937.pdf",
         "raw/arxiv/2502.00937v3.xml"
       ],
       "wiki_mentions": [],
@@ -856,7 +856,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2604.04750.fulltext.md",
-        "raw/AI-Infra/2604.04750.pdf",
+        "raw/AI-Infra/2026-04-06-deepstack-facilitating-co-design-exploration-of-3d-dram-stacked-accelerators-for-distributed-llm-inference-arxiv-2604.04750.pdf",
         "raw/arxiv/2604.04750v4.xml"
       ],
       "wiki_mentions": [],
@@ -871,7 +871,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2507.11507.fulltext.md",
-        "raw/AI-Infra/2507.11507.pdf",
+        "raw/AI-Infra/2025-07-15-oneiros-kv-cache-optimization-through-parameter-remapping-for-multi-tenant-llm-serving-arxiv-2507.11507.pdf",
         "raw/arxiv/2507.11507v2.xml"
       ],
       "wiki_mentions": [],
@@ -887,7 +887,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2603.15553.fulltext.md",
-        "raw/Deep-Learning/2603.15553.pdf",
+        "raw/Deep-Learning/2026-03-16-self-distillation-of-hidden-layers-for-self-supervised-representation-learning-arxiv-2603.15553.pdf",
         "raw/arxiv/2603.15553v2.xml"
       ],
       "wiki_mentions": [],
@@ -902,7 +902,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2604.13518.fulltext.md",
-        "raw/Deep-Learning/2604.13518.pdf",
+        "raw/Deep-Learning/2026-04-15-from-alignment-to-prediction-a-study-of-self-supervised-learning-and-predictive-representation-learning-arxiv-2604.13518.pdf",
         "raw/arxiv/2604.13518v1.xml"
       ],
       "wiki_mentions": [],
@@ -917,7 +917,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2603.13660.fulltext.md",
-        "raw/Deep-Learning/2603.13660.pdf",
+        "raw/Deep-Learning/2026-03-14-learning-generalizable-3d-medical-image-representations-from-mask-guided-self-supervision-arxiv-2603.13660.pdf",
         "raw/arxiv/2603.13660v1.xml"
       ],
       "wiki_mentions": [],
@@ -932,7 +932,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2603.26597.fulltext.md",
-        "raw/Deep-Learning/2603.26597.pdf",
+        "raw/Deep-Learning/2026-03-27-from-static-to-dynamic-exploring-self-supervised-image-to-video-representation-transfer-learning-arxiv-2603.26597.pdf",
         "raw/arxiv/2603.26597v1.xml"
       ],
       "wiki_mentions": [],
@@ -947,7 +947,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2501.04969.fulltext.md",
-        "raw/Deep-Learning/2501.04969.pdf",
+        "raw/Deep-Learning/2025-01-09-self-supervised-representation-learning-with-joint-embedding-predictive-architecture-for-automotive-lidar-obje-arxiv-2501.04969.pdf",
         "raw/arxiv/2501.04969v2.xml"
       ],
       "wiki_mentions": [],
@@ -962,7 +962,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2604.13723.fulltext.md",
-        "raw/Deep-Learning/2604.13723.pdf",
+        "raw/Deep-Learning/2026-04-15-physics-informed-neural-networks-for-solving-derivative-constrained-pdes-arxiv-2604.13723.pdf",
         "raw/arxiv/2604.13723v1.xml"
       ],
       "wiki_mentions": [],
@@ -977,7 +977,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2605.03510.fulltext.md",
-        "raw/Deep-Learning/2605.03510.pdf",
+        "raw/Deep-Learning/2026-05-05-rational-communication-shapes-morphological-composition-arxiv-2605.03510.pdf",
         "raw/arxiv/2605.03510v1.xml"
       ],
       "wiki_mentions": [],
@@ -992,7 +992,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2604.05651.fulltext.md",
-        "raw/Deep-Learning/2604.05651.pdf",
+        "raw/Deep-Learning/2026-04-07-probing-intrinsic-medical-task-relationships-a-contrastive-learning-perspective-arxiv-2604.05651.pdf",
         "raw/arxiv/2604.05651v1.xml"
       ],
       "wiki_mentions": [],
@@ -1007,7 +1007,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2604.20085.fulltext.md",
-        "raw/Deep-Learning/2604.20085.pdf",
+        "raw/Deep-Learning/2026-04-22-a-physics-informed-neural-network-for-solving-the-quasi-static-magnetohydrodynamic-equations-arxiv-2604.20085.pdf",
         "raw/arxiv/2604.20085v1.xml"
       ],
       "wiki_mentions": [],
@@ -1022,7 +1022,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2602.02547.fulltext.md",
-        "raw/Deep-Learning/2602.02547.pdf",
+        "raw/Deep-Learning/2026-01-30-napinn-noise-adaptive-physics-informed-neural-networks-for-recovering-physics-from-corrupted-measurement-arxiv-2602.02547.pdf",
         "raw/arxiv/2602.02547v2.xml"
       ],
       "wiki_mentions": [],
@@ -1037,7 +1037,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2601.22751.fulltext.md",
-        "raw/Deep-Learning/2601.22751.pdf",
+        "raw/Deep-Learning/2026-01-30-discovering-scaling-exponents-with-physics-informed-m-ntz-sz-sz-networks-arxiv-2601.22751.pdf",
         "raw/arxiv/2601.22751v1.xml"
       ],
       "wiki_mentions": [],
@@ -1052,7 +1052,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2602.12368.fulltext.md",
-        "raw/Deep-Learning/2602.12368.pdf",
+        "raw/Deep-Learning/2026-02-12-a-machine-learning-approach-to-the-nirenberg-problem-arxiv-2602.12368.pdf",
         "raw/arxiv/2602.12368v1.xml"
       ],
       "wiki_mentions": [],
@@ -1067,7 +1067,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2605.25115.fulltext.md",
-        "raw/Deep-Learning/2605.25115.pdf",
+        "raw/Deep-Learning/2026-05-24-courant-a-state-adaptive-perceiver-based-neural-surrogate-with-local-support-and-interpretable-field-decomposi-arxiv-2605.25115.pdf",
         "raw/arxiv/2605.25115v1.xml"
       ],
       "wiki_mentions": [],
@@ -1083,7 +1083,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2603.19312.fulltext.md",
-        "raw/World-Models/2603.19312.pdf",
+        "raw/World-Models/2026-03-13-leworldmodel-stable-end-to-end-joint-embedding-predictive-architecture-from-pixels-arxiv-2603.19312.pdf",
         "raw/arxiv/2603.19312v3.xml"
       ],
       "wiki_mentions": [],
@@ -1098,7 +1098,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2606.04907.fulltext.md",
-        "raw/World-Models/2606.04907.pdf",
+        "raw/World-Models/2026-06-03-wam-nav-asymmetric-latent-world-action-modeling-for-unified-visual-navigation-arxiv-2606.04907.pdf",
         "raw/arxiv/2606.04907v2.xml"
       ],
       "wiki_mentions": [],
@@ -1113,7 +1113,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2606.09215.fulltext.md",
-        "raw/World-Models/2606.09215.pdf",
+        "raw/World-Models/2026-06-08-motionwam-towards-foundation-world-action-models-for-real-time-humanoid-loco-manipulation-arxiv-2606.09215.pdf",
         "raw/arxiv/2606.09215v1.xml"
       ],
       "wiki_mentions": [],
@@ -1128,7 +1128,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2606.10363.fulltext.md",
-        "raw/World-Models/2606.10363.pdf",
+        "raw/World-Models/2026-06-09-himem-wam-hierarchical-memory-gated-world-action-models-for-robotic-manipulation-arxiv-2606.10363.pdf",
         "raw/arxiv/2606.10363v1.xml"
       ],
       "wiki_mentions": [],
@@ -1143,7 +1143,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2606.08775.fulltext.md",
-        "raw/World-Models/2606.08775.pdf",
+        "raw/World-Models/2026-06-07-unifying-object-centric-world-models-and-diffusion-policy-a-hierarchical-framework-for-multi-stage-robotic-tas-arxiv-2606.08775.pdf",
         "raw/arxiv/2606.08775v1.xml"
       ],
       "wiki_mentions": [],
@@ -1158,7 +1158,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2603.10448.fulltext.md",
-        "raw/World-Models/2603.10448.pdf",
+        "raw/World-Models/2026-03-11-dit4dit-jointly-modeling-video-dynamics-and-actions-for-generalizable-robot-control-arxiv-2603.10448.pdf",
         "raw/arxiv/2603.10448v2.xml"
       ],
       "wiki_mentions": [],
@@ -1173,7 +1173,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2605.07794.fulltext.md",
-        "raw/World-Models/2605.07794.pdf",
+        "raw/World-Models/2026-05-08-noisegate-learning-per-latent-timestep-schedules-as-information-gating-in-world-action-models-arxiv-2605.07794.pdf",
         "raw/arxiv/2605.07794v1.xml"
       ],
       "wiki_mentions": [],
@@ -1188,7 +1188,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2602.06949.fulltext.md",
-        "raw/World-Models/2602.06949.pdf",
+        "raw/World-Models/2026-02-06-dreamdojo-a-generalist-robot-world-model-from-large-scale-human-videos-arxiv-2602.06949.pdf",
         "raw/arxiv/2602.06949v1.xml"
       ],
       "wiki_mentions": [],
@@ -1203,7 +1203,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2605.17613.fulltext.md",
-        "raw/AI-Infra/2605.17613.pdf",
+        "raw/AI-Infra/2026-05-17-vericache-turning-lossy-kv-cache-into-lossless-llm-inference-arxiv-2605.17613.pdf",
         "raw/arxiv/2605.17613v1.xml"
       ],
       "wiki_mentions": [],
@@ -1218,7 +1218,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2605.00528.fulltext.md",
-        "raw/AI-Infra/2605.00528.pdf",
+        "raw/AI-Infra/2026-05-01-saga-workflow-atomic-scheduling-for-ai-agent-inference-on-gpu-clusters-arxiv-2605.00528.pdf",
         "raw/arxiv/2605.00528v2.xml"
       ],
       "wiki_mentions": [],
@@ -1233,7 +1233,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2605.31463.fulltext.md",
-        "raw/AI-Infra/2605.31463.pdf",
+        "raw/AI-Infra/2026-05-29-pithtrain-a-compact-and-agent-native-moe-training-system-arxiv-2605.31463.pdf",
         "raw/arxiv/2605.31463v1.xml"
       ],
       "wiki_mentions": [],
@@ -1248,7 +1248,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2604.20919.fulltext.md",
-        "raw/AI-Infra/2604.20919.pdf",
+        "raw/AI-Infra/2026-04-22-dip-sd-distributed-pipelined-speculative-decoding-for-efficient-llm-inference-at-the-edge-arxiv-2604.20919.pdf",
         "raw/arxiv/2604.20919v1.xml"
       ],
       "wiki_mentions": [],
@@ -1263,7 +1263,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2606.21868.fulltext.md",
-        "raw/AI-Infra/2606.21868.pdf",
+        "raw/AI-Infra/2026-06-20-wisp-a-working-set-view-of-mixture-of-experts-serving-on-extremely-low-resource-hardware-arxiv-2606.21868.pdf",
         "raw/arxiv/2606.21868v1.xml"
       ],
       "wiki_mentions": [],
@@ -1278,7 +1278,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2504.11320.fulltext.md",
-        "raw/AI-Infra/2504.11320.pdf",
+        "raw/AI-Infra/2025-04-15-optimizing-llm-inference-fluid-guided-online-scheduling-with-memory-constraints-arxiv-2504.11320.pdf",
         "raw/arxiv/2504.11320v4.xml"
       ],
       "wiki_mentions": [],
@@ -1293,7 +1293,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2504.07494.fulltext.md",
-        "raw/AI-Infra/2504.07494.pdf",
+        "raw/AI-Infra/2025-04-10-apt-serve-adaptive-request-scheduling-on-hybrid-cache-for-scalable-llm-inference-serving-arxiv-2504.07494.pdf",
         "raw/arxiv/2504.07494v1.xml"
       ],
       "wiki_mentions": [],
@@ -1308,7 +1308,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2504.19874.fulltext.md",
-        "raw/AI-Infra/2504.19874.pdf",
+        "raw/AI-Infra/2025-04-28-turboquant-online-vector-quantization-with-near-optimal-distortion-rate-arxiv-2504.19874.pdf",
         "raw/arxiv/2504.19874v1.xml"
       ],
       "wiki_mentions": [],
@@ -1323,7 +1323,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2601.06288.fulltext.md",
-        "raw/AI-Infra/2601.06288.pdf",
+        "raw/AI-Infra/2026-01-09-aiconfigurator-lightning-fast-configuration-optimization-for-multi-framework-llm-serving-arxiv-2601.06288.pdf",
         "raw/arxiv/2601.06288v1.xml"
       ],
       "wiki_mentions": [],
@@ -1338,7 +1338,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2606.02332.fulltext.md",
-        "raw/Deep-Learning/2606.02332.pdf",
+        "raw/Deep-Learning/2026-06-01-forget-attention-importance-aware-attention-is-all-you-need-arxiv-2606.02332.pdf",
         "raw/arxiv/2606.02332v2.xml"
       ],
       "wiki_mentions": [],
@@ -1353,7 +1353,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2606.03017.fulltext.md",
-        "raw/Deep-Learning/2606.03017.pdf",
+        "raw/Deep-Learning/2026-06-02-contrairl-factorized-contrastive-abstractions-for-transferable-irl-arxiv-2606.03017.pdf",
         "raw/arxiv/2606.03017v2.xml"
       ],
       "wiki_mentions": [],
@@ -1368,7 +1368,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2601.08100.fulltext.md",
-        "raw/Deep-Learning/2601.08100.pdf",
+        "raw/Deep-Learning/2026-01-13-towards-a-unified-pac-bayesian-framework-for-norm-based-generalization-bounds-arxiv-2601.08100.pdf",
         "raw/arxiv/2601.08100v1.xml"
       ],
       "wiki_mentions": [],
@@ -1383,7 +1383,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2604.27277.fulltext.md",
-        "raw/Deep-Learning/2604.27277.pdf",
+        "raw/Deep-Learning/2026-04-30-braindino-a-brain-mri-foundation-model-for-generalizable-clinical-representation-learning-arxiv-2604.27277.pdf",
         "raw/arxiv/2604.27277v3.xml"
       ],
       "wiki_mentions": [],
@@ -1398,7 +1398,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2606.26991.fulltext.md",
-        "raw/Deep-Learning/2606.26991.pdf",
+        "raw/Deep-Learning/2026-06-25-enabling-self-supervised-learned-primal-dual-with-noise2inverse-arxiv-2606.26991.pdf",
         "raw/arxiv/2606.26991v1.xml"
       ],
       "wiki_mentions": [],
@@ -1413,7 +1413,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2604.14626.fulltext.md",
-        "raw/Deep-Learning/2604.14626.pdf",
+        "raw/Deep-Learning/2026-04-16-elmoe-3d-leveraging-intrinsic-elasticity-of-moe-for-hybrid-bonding-enabled-self-speculative-decoding-in-on-pre-arxiv-2604.14626.pdf",
         "raw/arxiv/2604.14626v2.xml"
       ],
       "wiki_mentions": [],
@@ -1428,7 +1428,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2603.22964.fulltext.md",
-        "raw/Deep-Learning/2603.22964.pdf",
+        "raw/Deep-Learning/2026-03-24-a-pac-bayesian-approach-to-generalization-for-quantum-models-arxiv-2603.22964.pdf",
         "raw/arxiv/2603.22964v1.xml"
       ],
       "wiki_mentions": [],
@@ -1443,7 +1443,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2606.23208.fulltext.md",
-        "raw/Deep-Learning/2606.23208.pdf",
+        "raw/Deep-Learning/2026-06-22-leveraging-automl-for-sustainable-deep-learning-a-multi-objective-hpo-approach-on-deep-shift-neural-networks-arxiv-2606.23208.pdf",
         "raw/arxiv/2606.23208v1.xml"
       ],
       "wiki_mentions": [],
@@ -1459,7 +1459,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2606.21189.fulltext.md",
-        "raw/Deep-Learning/2606.21189.pdf",
+        "raw/Deep-Learning/2026-06-19-tf-sno-time-frequency-gated-spectral-neural-operators-for-learning-non-stationary-partial-differential-equatio-arxiv-2606.21189.pdf",
         "raw/arxiv/2606.21189v1.xml"
       ],
       "wiki_mentions": [],
@@ -1474,7 +1474,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2604.21761.fulltext.md",
-        "raw/Deep-Learning/2604.21761.pdf",
+        "raw/Deep-Learning/2026-04-23-transferable-physics-informed-representations-via-closed-form-head-adaptation-arxiv-2604.21761.pdf",
         "raw/arxiv/2604.21761v1.xml"
       ],
       "wiki_mentions": [],
@@ -1489,7 +1489,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2606.15271.fulltext.md",
-        "raw/Deep-Learning/2606.15271.pdf",
+        "raw/Deep-Learning/2026-06-13-dual-network-pinns-for-optimal-control-a-reproducible-benchmark-on-the-mass-spring-damper-system-arxiv-2606.15271.pdf",
         "raw/arxiv/2606.15271v1.xml"
       ],
       "wiki_mentions": [],
@@ -1504,7 +1504,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2606.31574.fulltext.md",
-        "raw/Deep-Learning/2606.31574.pdf",
+        "raw/Deep-Learning/2026-06-30-temperature-field-reconstruction-of-tungsten-monoblock-divertor-on-east-using-physics-aware-neural-operator-tr-arxiv-2606.31574.pdf",
         "raw/arxiv/2606.31574v1.xml"
       ],
       "wiki_mentions": [],
@@ -1519,7 +1519,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2604.26999.fulltext.md",
-        "raw/Deep-Learning/2604.26999.pdf",
+        "raw/Deep-Learning/2026-04-29-compositional-meta-learning-for-mitigating-task-heterogeneity-in-physics-informed-neural-networks-arxiv-2604.26999.pdf",
         "raw/arxiv/2604.26999v1.xml"
       ],
       "wiki_mentions": [],
@@ -1534,7 +1534,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2606.06164.fulltext.md",
-        "raw/Deep-Learning/2606.06164.pdf",
+        "raw/Deep-Learning/2026-06-04-on-the-training-of-physics-informed-neural-operators-for-solving-parametric-partial-differential-equations-arxiv-2606.06164.pdf",
         "raw/arxiv/2606.06164v1.xml"
       ],
       "wiki_mentions": [],
@@ -1550,7 +1550,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2603.01193.fulltext.md",
-        "raw/Deep-Learning/2603.01193.pdf",
+        "raw/Deep-Learning/2026-03-01-operator-learning-using-weak-supervision-from-walk-on-spheres-arxiv-2603.01193.pdf",
         "raw/arxiv/2603.01193v2.xml"
       ],
       "wiki_mentions": [],
@@ -1565,7 +1565,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2605.10159.fulltext.md",
-        "raw/Deep-Learning/2605.10159.pdf",
+        "raw/Deep-Learning/2026-05-11-jno-a-jax-library-for-neural-operator-and-foundation-model-training-arxiv-2605.10159.pdf",
         "raw/arxiv/2605.10159v1.xml"
       ],
       "wiki_mentions": [],
@@ -1593,7 +1593,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2607.02043.fulltext.md",
-        "raw/AI-Infra/2607.02043.pdf",
+        "raw/AI-Infra/2026-07-02-towards-load-aware-prefill-deflection-for-disaggregated-llm-serving-arxiv-2607.02043.pdf",
         "raw/arxiv/2607.02043v1.xml"
       ],
       "wiki_mentions": [],
@@ -1608,7 +1608,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2607.02574.fulltext.md",
-        "raw/AI-Infra/2607.02574.pdf",
+        "raw/AI-Infra/2026-06-30-from-tensor-buffer-to-distributed-memory-hierarchy-a-survey-of-kv-cache-management-for-llm-serving-arxiv-2607.02574.pdf",
         "raw/arxiv/2607.02574v1.xml"
       ],
       "wiki_mentions": [],
@@ -1623,7 +1623,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2607.00466.fulltext.md",
-        "raw/AI-Infra/2607.00466.pdf",
+        "raw/AI-Infra/2026-07-01-eldr-expert-locality-aware-decode-routing-for-pd-disaggregated-moe-serving-arxiv-2607.00466.pdf",
         "raw/arxiv/2607.00466v2.xml"
       ],
       "wiki_mentions": [],
@@ -1638,7 +1638,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2607.17181.fulltext.md",
-        "raw/AI-Infra/2607.17181.pdf",
+        "raw/AI-Infra/2026-07-19-talaria-session-aware-serverless-serving-of-hundred-billion-parameter-llms-arxiv-2607.17181.pdf",
         "raw/arxiv/2607.17181v1.xml"
       ],
       "wiki_mentions": [],
@@ -1653,7 +1653,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2607.21653.fulltext.md",
-        "raw/AI-Infra/2607.21653.pdf",
+        "raw/AI-Infra/2026-07-22-molt-a-scalable-pytorch-native-training-framework-for-agentic-reinforcement-learning-arxiv-2607.21653.pdf",
         "raw/arxiv/2607.21653v3.xml"
       ],
       "wiki_mentions": [],
@@ -1668,7 +1668,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2603.07685.fulltext.md",
-        "raw/AI-Infra/2603.07685.pdf",
+        "raw/AI-Infra/2026-03-08-scalable-training-of-mixture-of-experts-models-with-megatron-core-arxiv-2603.07685.pdf",
         "raw/arxiv/2603.07685v2.xml"
       ],
       "wiki_mentions": [],
@@ -1683,7 +1683,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2605.09370.fulltext.md",
-        "raw/AI-Infra/2605.09370.pdf",
+        "raw/AI-Infra/2026-05-10-from-detection-to-recovery-operational-analysis-on-llm-pre-training-with-504-gpus-arxiv-2605.09370.pdf",
         "raw/arxiv/2605.09370v5.xml"
       ],
       "wiki_mentions": [],
@@ -1698,7 +1698,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2602.00509.fulltext.md",
-        "raw/AI-Infra/2602.00509.pdf",
+        "raw/AI-Infra/2026-01-31-probe-co-balancing-computation-and-communication-in-moe-inference-via-real-time-predictive-prefetching-arxiv-2602.00509.pdf",
         "raw/arxiv/2602.00509v2.xml"
       ],
       "wiki_mentions": [],
@@ -1713,7 +1713,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2606.20295.fulltext.md",
-        "raw/AI-Infra/2606.20295.pdf",
+        "raw/AI-Infra/2026-06-18-token-operations-oriented-inference-optimization-techniques-for-large-models-arxiv-2606.20295.pdf",
         "raw/arxiv/2606.20295v2.xml"
       ],
       "wiki_mentions": [],
@@ -1728,7 +1728,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2501.01005.fulltext.md",
-        "raw/AI-Infra/2501.01005.pdf",
+        "raw/AI-Infra/2025-01-02-flashinfer-efficient-and-customizable-attention-engine-for-llm-inference-serving-arxiv-2501.01005.pdf",
         "raw/arxiv/2501.01005v2.xml"
       ],
       "wiki_mentions": [],
@@ -1743,7 +1743,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04074.fulltext.md",
-        "raw/Deep-Learning/2608.04074.pdf",
+        "raw/Deep-Learning/2026-08-04-spend-bits-where-queries-look-kv-cache-vector-quantization-with-attention-preserving-transforms-arxiv-2608.04074.pdf",
         "raw/arxiv/2608.04074v1.xml"
       ],
       "wiki_mentions": [],
@@ -1758,7 +1758,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04060.fulltext.md",
-        "raw/Deep-Learning/2608.04060.pdf",
+        "raw/Deep-Learning/2026-08-04-sjepa-learning-elegant-latent-dynamics-with-hybrid-symbolic-neural-predictors-arxiv-2608.04060.pdf",
         "raw/arxiv/2608.04060v1.xml"
       ],
       "wiki_mentions": [],
@@ -1773,7 +1773,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04048.fulltext.md",
-        "raw/Deep-Learning/2608.04048.pdf",
+        "raw/Deep-Learning/2026-08-04-recurrent-residual-quantization-a-progressive-multi-precision-representation-for-llms-arxiv-2608.04048.pdf",
         "raw/arxiv/2608.04048v1.xml"
       ],
       "wiki_mentions": [],
@@ -1788,7 +1788,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04084.fulltext.md",
-        "raw/Deep-Learning/2608.04084.pdf",
+        "raw/Deep-Learning/2026-08-04-specdrop-parameter-free-category-conditioned-routing-for-modular-specialization-arxiv-2608.04084.pdf",
         "raw/arxiv/2608.04084v2.xml"
       ],
       "wiki_mentions": [],
@@ -1803,7 +1803,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04013.fulltext.md",
-        "raw/Deep-Learning/2608.04013.pdf",
+        "raw/Deep-Learning/2026-04-22-c-2-moe-consistency-and-complementarity-guided-mixture-of-experts-for-incomplete-multimodal-emotion-learning-arxiv-2608.04013.pdf",
         "raw/arxiv/2608.04013v1.xml"
       ],
       "wiki_mentions": [],
@@ -1818,7 +1818,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04057.fulltext.md",
-        "raw/Deep-Learning/2608.04057.pdf",
+        "raw/Deep-Learning/2026-08-04-laprune-controllable-differentiable-sparsity-at-million-scale-arxiv-2608.04057.pdf",
         "raw/arxiv/2608.04057v1.xml"
       ],
       "wiki_mentions": [],
@@ -1833,7 +1833,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04051.fulltext.md",
-        "raw/Deep-Learning/2608.04051.pdf",
+        "raw/Deep-Learning/2026-08-04-camp-a-cycle-aware-multi-scale-patch-mixer-for-time-series-forecasting-arxiv-2608.04051.pdf",
         "raw/arxiv/2608.04051v1.xml"
       ],
       "wiki_mentions": [],
@@ -1848,7 +1848,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04026.fulltext.md",
-        "raw/Deep-Learning/2608.04026.pdf",
+        "raw/Deep-Learning/2026-07-26-a-trust-region-framework-for-moment-estimation-arxiv-2608.04026.pdf",
         "raw/arxiv/2608.04026v2.xml"
       ],
       "wiki_mentions": [],
@@ -1863,7 +1863,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04014.fulltext.md",
-        "raw/Deep-Learning/2608.04014.pdf",
+        "raw/Deep-Learning/2026-04-27-on-hamming-lipschitz-type-stability-of-the-subdominant-minmax-ultrametric-theory-and-simple-proofs-arxiv-2608.04014.pdf",
         "raw/arxiv/2608.04014v1.xml"
       ],
       "wiki_mentions": [],
@@ -1878,7 +1878,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.03467.fulltext.md",
-        "raw/Deep-Learning/2608.03467.pdf",
+        "raw/Deep-Learning/2026-08-04-when-correct-solutions-repeat-rarity-aware-credit-redistribution-for-grpo-arxiv-2608.03467.pdf",
         "raw/arxiv/2608.03467v2.xml"
       ],
       "wiki_mentions": [],
@@ -1893,7 +1893,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04043.fulltext.md",
-        "raw/Deep-Learning/2608.04043.pdf",
+        "raw/Deep-Learning/2026-08-04-tactus-open-vocabulary-object-recognition-from-low-cost-pressure-arrays-arxiv-2608.04043.pdf",
         "raw/arxiv/2608.04043v1.xml"
       ],
       "wiki_mentions": [],
@@ -1908,7 +1908,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04041.fulltext.md",
-        "raw/Deep-Learning/2608.04041.pdf",
+        "raw/Deep-Learning/2026-08-04-an-explainable-llm-agent-layer-for-open-world-anomaly-detection-in-oil-wells-arxiv-2608.04041.pdf",
         "raw/arxiv/2608.04041v1.xml"
       ],
       "wiki_mentions": [],
@@ -1923,7 +1923,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.04045.fulltext.md",
-        "raw/Deep-Learning/2608.04045.pdf",
+        "raw/Deep-Learning/2026-08-04-robust-and-personalized-federated-learning-for-aircraft-engine-prognostics-under-benign-and-adversarial-client-arxiv-2608.04045.pdf",
         "raw/arxiv/2608.04045v1.xml"
       ],
       "wiki_mentions": [],
@@ -1938,7 +1938,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.05569.fulltext.md",
-        "raw/Deep-Learning/2608.05569.pdf",
+        "raw/Deep-Learning/2026-08-06-coordrefer-coordinate-aware-3d-visual-grounding-from-multiview-images-arxiv-2608.05569.pdf",
         "raw/arxiv/2608.05569v1.xml"
       ],
       "wiki_mentions": [],
@@ -1953,7 +1953,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2607.21046.fulltext.md",
-        "raw/Deep-Learning/2607.21046.pdf",
+        "raw/Deep-Learning/2026-07-23-discrete-truthful-heterogeneous-two-facility-location-the-line-and-beyond-arxiv-2607.21046.pdf",
         "raw/arxiv/2607.21046v1.xml"
       ],
       "wiki_mentions": [],
@@ -1968,7 +1968,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.08491.fulltext.md",
-        "raw/Deep-Learning/2608.08491.pdf",
+        "raw/Deep-Learning/2026-08-09-trustroboreward-preference-ordered-isotonic-score-editing-for-multi-paradigm-robot-reward-models-arxiv-2608.08491.pdf",
         "raw/arxiv/2608.08491v1.xml"
       ],
       "wiki_mentions": [],
@@ -1983,7 +1983,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2510.05278.fulltext.md",
-        "raw/Deep-Learning/2510.05278.pdf",
+        "raw/Deep-Learning/2025-10-06-decoding-partial-differential-equations-cross-modal-adaptation-of-decoder-only-models-to-pdes-arxiv-2510.05278.pdf",
         "raw/arxiv/2510.05278v2.xml"
       ],
       "wiki_mentions": [],
@@ -1998,7 +1998,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2606.24851.fulltext.md",
-        "raw/Deep-Learning/2606.24851.pdf",
+        "raw/Deep-Learning/2026-06-23-real-vs-complex-spectral-bases-for-neural-operators-the-role-of-green-s-function-alignment-arxiv-2606.24851.pdf",
         "raw/arxiv/2606.24851v5.xml"
       ],
       "wiki_mentions": [],
@@ -2013,7 +2013,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2602.16634.fulltext.md",
-        "raw/Deep-Learning/2602.16634.pdf",
+        "raw/Deep-Learning/2026-02-18-enhanced-diffusion-sampling-efficient-rare-event-sampling-and-free-energy-calculation-with-diffusion-models-arxiv-2602.16634.pdf",
         "raw/arxiv/2602.16634v2.xml"
       ],
       "wiki_mentions": [],
@@ -2028,7 +2028,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2608.03495.fulltext.md",
-        "raw/Deep-Learning/2608.03495.pdf",
+        "raw/Deep-Learning/2026-08-04-thermodynamically-consistent-initialization-of-the-maxwell-cattaneo-vernotte-heat-conduction-model-analytical-arxiv-2608.03495.pdf",
         "raw/arxiv/2608.03495v1.xml"
       ],
       "wiki_mentions": [],
@@ -2043,7 +2043,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2405.19101.fulltext.md",
-        "raw/Deep-Learning/2405.19101.pdf",
+        "raw/Deep-Learning/2024-05-29-poseidon-efficient-foundation-models-for-pdes-arxiv-2405.19101.pdf",
         "raw/arxiv/2405.19101v2.xml"
       ],
       "wiki_mentions": [],
@@ -2058,7 +2058,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2608.09298.fulltext.md",
-        "raw/World-Models/2608.09298.pdf",
+        "raw/World-Models/2026-08-10-worldsimprobe-diagnosing-simulator-faithfulness-in-action-conditioned-world-models-for-embodied-manipulation-arxiv-2608.09298.pdf",
         "raw/arxiv/2608.09298v1.xml"
       ],
       "wiki_mentions": [],
@@ -2073,7 +2073,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2608.12939.fulltext.md",
-        "raw/World-Models/2608.12939.pdf",
+        "raw/World-Models/2026-08-13-diagnosing-jepa-world-models-with-action-conditioned-predictive-consistency-arxiv-2608.12939.pdf",
         "raw/arxiv/2608.12939v1.xml"
       ],
       "wiki_mentions": [],
@@ -2088,7 +2088,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2607.06401.fulltext.md",
-        "raw/World-Models/2607.06401.pdf",
+        "raw/World-Models/2026-07-07-a-definition-and-roadmap-for-world-models-arxiv-2607.06401.pdf",
         "raw/arxiv/2607.06401v1.xml"
       ],
       "wiki_mentions": [],
@@ -2103,7 +2103,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2607.00836.fulltext.md",
-        "raw/World-Models/2607.00836.pdf",
+        "raw/World-Models/2026-07-01-from-world-models-to-world-action-models-a-concise-tutorial-for-robotics-arxiv-2607.00836.pdf",
         "raw/arxiv/2607.00836v8.xml"
       ],
       "wiki_mentions": [],
@@ -2118,7 +2118,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2607.13612.fulltext.md",
-        "raw/World-Models/2607.13612.pdf",
+        "raw/World-Models/2026-07-15-the-sigreg-objective-as-variational-free-energy-a-theoretical-active-inference-account-of-jepa-world-models-arxiv-2607.13612.pdf",
         "raw/arxiv/2607.13612v1.xml"
       ],
       "wiki_mentions": [],
@@ -2133,7 +2133,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2606.23463.fulltext.md",
-        "raw/World-Models/2606.23463.pdf",
+        "raw/World-Models/2026-06-22-equilibrium-world-models-arxiv-2606.23463.pdf",
         "raw/arxiv/2606.23463v1.xml"
       ],
       "wiki_mentions": [],
@@ -2148,7 +2148,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2606.02800.fulltext.md",
-        "raw/World-Models/2606.02800.pdf",
+        "raw/World-Models/2026-06-01-cosmos-3-omnimodal-world-models-for-physical-ai-arxiv-2606.02800.pdf",
         "raw/arxiv/2606.02800v4.xml"
       ],
       "wiki_mentions": [],
@@ -2163,7 +2163,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2606.03159.fulltext.md",
-        "raw/World-Models/2606.03159.pdf",
+        "raw/World-Models/2026-06-02-nvidia-omnidreams-real-time-generative-world-model-for-closed-loop-autonomous-vehicle-simulation-arxiv-2606.03159.pdf",
         "raw/arxiv/2606.03159v3.xml"
       ],
       "wiki_mentions": [],
@@ -2178,7 +2178,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2605.19242.fulltext.md",
-        "raw/World-Models/2605.19242.pdf",
+        "raw/World-Models/2026-05-19-phyworld-physics-faithful-world-model-for-video-generation-arxiv-2605.19242.pdf",
         "raw/arxiv/2605.19242v1.xml"
       ],
       "wiki_mentions": [],
@@ -2193,7 +2193,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2510.12796.fulltext.md",
-        "raw/World-Models/2510.12796.pdf",
+        "raw/World-Models/2025-10-14-drivevla-w0-world-models-amplify-data-scaling-law-in-autonomous-driving-arxiv-2510.12796.pdf",
         "raw/arxiv/2510.12796v2.xml"
       ],
       "wiki_mentions": [],
@@ -2208,7 +2208,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2607.02604.fulltext.md",
-        "raw/World-Models/2607.02604.pdf",
+        "raw/World-Models/2026-07-01-dynawm-a-base-vla-guided-world-foundation-model-for-moving-object-manipulation-arxiv-2607.02604.pdf",
         "raw/arxiv/2607.02604v1.xml"
       ],
       "wiki_mentions": [],
@@ -2223,7 +2223,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2602.02454.fulltext.md",
-        "raw/World-Models/2602.02454.pdf",
+        "raw/World-Models/2026-02-02-world-gymnast-training-robots-with-reinforcement-learning-in-a-world-model-arxiv-2602.02454.pdf",
         "raw/arxiv/2602.02454v1.xml"
       ],
       "wiki_mentions": [],
@@ -2238,7 +2238,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2605.12334.fulltext.md",
-        "raw/World-Models/2605.12334.pdf",
+        "raw/World-Models/2026-05-12-reinforcing-vlas-in-task-agnostic-world-models-arxiv-2605.12334.pdf",
         "raw/arxiv/2605.12334v2.xml"
       ],
       "wiki_mentions": [],
@@ -2253,7 +2253,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2604.19092.fulltext.md",
-        "raw/World-Models/2604.19092.pdf",
+        "raw/World-Models/2026-04-21-robowm-bench-a-benchmark-for-evaluating-world-models-in-robotic-manipulation-arxiv-2604.19092.pdf",
         "raw/arxiv/2604.19092v2.xml"
       ],
       "wiki_mentions": [],
@@ -2268,7 +2268,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2606.01600.fulltext.md",
-        "raw/World-Models/2606.01600.pdf",
+        "raw/World-Models/2026-06-01-robotrustbench-benchmarking-the-trustworthiness-of-video-world-models-for-robotic-manipulation-arxiv-2606.01600.pdf",
         "raw/arxiv/2606.01600v2.xml"
       ],
       "wiki_mentions": [],
@@ -2283,7 +2283,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2509.07996.fulltext.md",
-        "raw/World-Models/2509.07996.pdf",
+        "raw/World-Models/2025-09-04-3d-and-4d-world-modeling-a-survey-arxiv-2509.07996.pdf",
         "raw/arxiv/2509.07996v4.xml"
       ],
       "wiki_mentions": [],
@@ -2298,7 +2298,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2608.06375.fulltext.md",
-        "raw/Embodied-Intelligence/2608.06375.pdf",
+        "raw/Embodied-Intelligence/2026-08-06-0-a-latent-predictive-world-action-model-for-concurrent-humanoid-loco-manipulation-arxiv-2608.06375.pdf",
         "raw/arxiv/2608.06375v2.xml"
       ],
       "wiki_mentions": [],
@@ -2313,7 +2313,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2608.08237.fulltext.md",
-        "raw/Embodied-Intelligence/2608.08237.pdf",
+        "raw/Embodied-Intelligence/2026-08-08-sage-slo-aware-adaptive-retrieval-for-production-rag-systems-arxiv-2608.08237.pdf",
         "raw/arxiv/2608.08237v1.xml"
       ],
       "wiki_mentions": [],
@@ -2328,7 +2328,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2608.07889.fulltext.md",
-        "raw/Embodied-Intelligence/2608.07889.pdf",
+        "raw/Embodied-Intelligence/2026-08-08-from-annual-throughput-to-vessel-schedules-a-stochastic-generator-for-transshipment-hub-simulation-arxiv-2608.07889.pdf",
         "raw/arxiv/2608.07889v1.xml"
       ],
       "wiki_mentions": [],
@@ -2343,7 +2343,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2608.07065.fulltext.md",
-        "raw/Embodied-Intelligence/2608.07065.pdf",
+        "raw/Embodied-Intelligence/2026-08-07-autointervene-calibrated-intervention-for-action-chunking-imitation-learning-policies-arxiv-2608.07065.pdf",
         "raw/arxiv/2608.07065v1.xml"
       ],
       "wiki_mentions": [],
@@ -2358,7 +2358,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2608.06004.fulltext.md",
-        "raw/Embodied-Intelligence/2608.06004.pdf",
+        "raw/Embodied-Intelligence/2026-08-06-do-tabular-foundation-models-agree-with-themselves-arxiv-2608.06004.pdf",
         "raw/arxiv/2608.06004v1.xml"
       ],
       "wiki_mentions": [],
@@ -2373,7 +2373,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2608.06009.fulltext.md",
-        "raw/Embodied-Intelligence/2608.06009.pdf",
+        "raw/Embodied-Intelligence/2026-08-06-wan-animate-2-pushing-the-application-boundaries-of-character-animation-arxiv-2608.06009.pdf",
         "raw/arxiv/2608.06009v2.xml"
       ],
       "wiki_mentions": [],
@@ -2388,7 +2388,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2608.02326.fulltext.md",
-        "raw/Embodied-Intelligence/2608.02326.pdf",
+        "raw/Embodied-Intelligence/2026-08-03-chainvla-chaining-vision-language-action-queries-through-a-unified-execution-state-for-long-horizon-manipulati-arxiv-2608.02326.pdf",
         "raw/arxiv/2608.02326v2.xml"
       ],
       "wiki_mentions": [],
@@ -2403,7 +2403,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2608.02736.fulltext.md",
-        "raw/Embodied-Intelligence/2608.02736.pdf",
+        "raw/Embodied-Intelligence/2026-08-03-novel-observable-signals-from-first-order-gravitational-phase-transitions-arxiv-2608.02736.pdf",
         "raw/arxiv/2608.02736v1.xml"
       ],
       "wiki_mentions": [],
@@ -2418,7 +2418,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2601.11404.fulltext.md",
-        "raw/Embodied-Intelligence/2601.11404.pdf",
+        "raw/Embodied-Intelligence/2026-01-16-acot-vla-action-chain-of-thought-for-vision-language-action-models-arxiv-2601.11404.pdf",
         "raw/arxiv/2601.11404v2.xml"
       ],
       "wiki_mentions": [],
@@ -2433,7 +2433,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2608.07746.fulltext.md",
-        "raw/Embodied-Intelligence/2608.07746.pdf",
+        "raw/Embodied-Intelligence/2026-08-07-lucid-latent-skill-unified-control-via-imagined-dynamics-for-long-horizon-humanoid-loco-manipulation-arxiv-2608.07746.pdf",
         "raw/arxiv/2608.07746v1.xml"
       ],
       "wiki_mentions": [],
@@ -2448,7 +2448,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2607.25895.fulltext.md",
-        "raw/Embodied-Intelligence/2607.25895.pdf",
+        "raw/Embodied-Intelligence/2026-07-28-hifi-umi-learning-deployable-manipulation-policies-from-high-fidelity-umi-data-alone-arxiv-2607.25895.pdf",
         "raw/arxiv/2607.25895v1.xml"
       ],
       "wiki_mentions": [],
@@ -2463,7 +2463,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2608.07075.fulltext.md",
-        "raw/Embodied-Intelligence/2608.07075.pdf",
+        "raw/Embodied-Intelligence/2026-08-07-detection-and-ranging-of-transient-extrinsic-contacts-based-on-6d-dynamic-tactile-sensing-arxiv-2608.07075.pdf",
         "raw/arxiv/2608.07075v1.xml"
       ],
       "wiki_mentions": [],
@@ -2478,7 +2478,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2607.11689.fulltext.md",
-        "raw/Embodied-Intelligence/2607.11689.pdf",
+        "raw/Embodied-Intelligence/2026-07-13-from-world-action-models-to-embodied-brains-a-roadmap-for-open-world-physical-intelligence-arxiv-2607.11689.pdf",
         "raw/arxiv/2607.11689v1.xml"
       ],
       "wiki_mentions": [],
@@ -2493,7 +2493,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2607.10655.fulltext.md",
-        "raw/Embodied-Intelligence/2607.10655.pdf",
+        "raw/Embodied-Intelligence/2026-07-12-artificial-foveated-perception-for-mitigating-shortcut-learning-in-robotic-foundation-models-arxiv-2607.10655.pdf",
         "raw/arxiv/2607.10655v2.xml"
       ],
       "wiki_mentions": [],
@@ -2508,7 +2508,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2607.13017.fulltext.md",
-        "raw/Embodied-Intelligence/2607.13017.pdf",
+        "raw/Embodied-Intelligence/2026-07-14-flowwam-optical-flow-as-a-unified-action-representation-for-world-action-models-arxiv-2607.13017.pdf",
         "raw/arxiv/2607.13017v1.xml"
       ],
       "wiki_mentions": [],
@@ -2523,7 +2523,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2607.13033.fulltext.md",
-        "raw/Embodied-Intelligence/2607.13033.pdf",
+        "raw/Embodied-Intelligence/2026-07-14-densereward-dense-reward-learning-via-failure-synthesis-for-robotic-manipulation-arxiv-2607.13033.pdf",
         "raw/arxiv/2607.13033v1.xml"
       ],
       "wiki_mentions": [],
@@ -2538,7 +2538,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2608.08097.fulltext.md",
-        "raw/AI-Infra/2608.08097.pdf",
+        "raw/AI-Infra/2026-08-08-oasiskv-scaling-in-decode-kv-cache-beyond-hbm-with-lookahead-sparse-prefetching-arxiv-2608.08097.pdf",
         "raw/arxiv/2608.08097v1.xml"
       ],
       "wiki_mentions": [],
@@ -2553,7 +2553,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2608.07009.fulltext.md",
-        "raw/AI-Infra/2608.07009.pdf",
+        "raw/AI-Infra/2026-08-07-hisparse-scaling-sparse-attention-decoding-with-hierarchical-kv-cache-management-arxiv-2608.07009.pdf",
         "raw/arxiv/2608.07009v1.xml"
       ],
       "wiki_mentions": [],
@@ -2568,7 +2568,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2608.09907.fulltext.md",
-        "raw/AI-Infra/2608.09907.pdf",
+        "raw/AI-Infra/2026-08-10-distmoe-private-data-rehearsal-free-routing-in-mixture-of-experts-for-distributed-instruction-tuning-arxiv-2608.09907.pdf",
         "raw/arxiv/2608.09907v1.xml"
       ],
       "wiki_mentions": [],
@@ -2583,7 +2583,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2608.01526.fulltext.md",
-        "raw/AI-Infra/2608.01526.pdf",
+        "raw/AI-Infra/2026-08-02-an-internet-for-the-kv-cache-rethinking-classical-infrastructure-boundaries-in-the-llm-inference-age-arxiv-2608.01526.pdf",
         "raw/arxiv/2608.01526v1.xml"
       ],
       "wiki_mentions": [],
@@ -2598,7 +2598,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2604.07609.fulltext.md",
-        "raw/AI-Infra/2604.07609.pdf",
+        "raw/AI-Infra/2026-04-08-blink-cpu-free-llm-inference-by-delegating-the-serving-stack-to-gpu-and-smartnic-arxiv-2604.07609.pdf",
         "raw/arxiv/2604.07609v1.xml"
       ],
       "wiki_mentions": [],
@@ -2613,7 +2613,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2608.02989.fulltext.md",
-        "raw/AI-Infra/2608.02989.pdf",
+        "raw/AI-Infra/2026-08-04-acceptmoe-commitment-weighted-self-sizing-verifier-expert-sets-for-efficient-moe-speculative-decoding-arxiv-2608.02989.pdf",
         "raw/arxiv/2608.02989v1.xml"
       ],
       "wiki_mentions": [],
@@ -2628,7 +2628,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2606.26607.fulltext.md",
-        "raw/AI-Infra/2606.26607.pdf",
+        "raw/AI-Infra/2026-06-25-moebius-serving-mixture-of-expert-models-with-seamless-runtime-parallelism-switch-arxiv-2606.26607.pdf",
         "raw/arxiv/2606.26607v1.xml"
       ],
       "wiki_mentions": [],
@@ -2643,7 +2643,7 @@
       "wiki": [],
       "raw": [
         "raw/AI-Infra/2607.18141.fulltext.md",
-        "raw/AI-Infra/2607.18141.pdf",
+        "raw/AI-Infra/2026-07-20-a-cxl-memory-rack-for-multi-turn-llm-serving-arxiv-2607.18141.pdf",
         "raw/arxiv/2607.18141v3.xml"
       ],
       "wiki_mentions": [],
@@ -2658,7 +2658,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11842.fulltext.md",
-        "raw/Deep-Learning/2609.11842.pdf",
+        "raw/Deep-Learning/2026-09-10-model-aware-schedules-improve-generation-via-fiberwise-optimal-transport-arxiv-2609.11842.pdf",
         "raw/arxiv/2609.11842v1.xml"
       ],
       "wiki_mentions": [],
@@ -2673,7 +2673,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11801.fulltext.md",
-        "raw/Deep-Learning/2609.11801.pdf",
+        "raw/Deep-Learning/2026-09-10-thinking-with-looped-flows-arxiv-2609.11801.pdf",
         "raw/arxiv/2609.11801v1.xml"
       ],
       "wiki_mentions": [],
@@ -2688,7 +2688,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11917.fulltext.md",
-        "raw/Deep-Learning/2609.11917.pdf",
+        "raw/Deep-Learning/2026-09-10-data-scarcity-and-model-sparsity-mixtures-of-experts-overfit-more-to-repeated-data-arxiv-2609.11917.pdf",
         "raw/arxiv/2609.11917v1.xml"
       ],
       "wiki_mentions": [],
@@ -2703,7 +2703,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11918.fulltext.md",
-        "raw/Deep-Learning/2609.11918.pdf",
+        "raw/Deep-Learning/2026-09-10-general-quantification-of-covariate-and-concept-shifts-arxiv-2609.11918.pdf",
         "raw/arxiv/2609.11918v1.xml"
       ],
       "wiki_mentions": [],
@@ -2718,7 +2718,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11873.fulltext.md",
-        "raw/Deep-Learning/2609.11873.pdf",
+        "raw/Deep-Learning/2026-09-10-the-last-ai-built-by-humans-toward-genuine-recursive-self-improvement-arxiv-2609.11873.pdf",
         "raw/arxiv/2609.11873v3.xml"
       ],
       "wiki_mentions": [],
@@ -2733,7 +2733,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11884.fulltext.md",
-        "raw/Deep-Learning/2609.11884.pdf",
+        "raw/Deep-Learning/2026-09-10-cora-nas-coarse-ranking-and-anchor-residual-refinement-for-neural-architecture-search-arxiv-2609.11884.pdf",
         "raw/arxiv/2609.11884v1.xml"
       ],
       "wiki_mentions": [],
@@ -2748,7 +2748,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11538.fulltext.md",
-        "raw/Deep-Learning/2609.11538.pdf",
+        "raw/Deep-Learning/2026-09-10-particle-gflownets-rethinking-generative-marginalization-models-arxiv-2609.11538.pdf",
         "raw/arxiv/2609.11538v1.xml"
       ],
       "wiki_mentions": [],
@@ -2763,7 +2763,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11521.fulltext.md",
-        "raw/Deep-Learning/2609.11521.pdf",
+        "raw/Deep-Learning/2026-09-10-generalized-score-matching-for-parameter-estimation-on-convex-domains-arxiv-2609.11521.pdf",
         "raw/arxiv/2609.11521v1.xml"
       ],
       "wiki_mentions": [],
@@ -2778,7 +2778,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11656.fulltext.md",
-        "raw/Deep-Learning/2609.11656.pdf",
+        "raw/Deep-Learning/2026-09-10-learnware-and-ai-model-management-system-arxiv-2609.11656.pdf",
         "raw/arxiv/2609.11656v1.xml"
       ],
       "wiki_mentions": [],
@@ -2793,7 +2793,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11780.fulltext.md",
-        "raw/Deep-Learning/2609.11780.pdf",
+        "raw/Deep-Learning/2026-09-10-predicting-privacy-leakage-from-weight-spectral-density-arxiv-2609.11780.pdf",
         "raw/arxiv/2609.11780v1.xml"
       ],
       "wiki_mentions": [],
@@ -2808,7 +2808,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11253.fulltext.md",
-        "raw/Deep-Learning/2609.11253.pdf",
+        "raw/Deep-Learning/2026-09-10-mute-a-dual-framework-for-concept-erasure-and-counterfactual-interventions-arxiv-2609.11253.pdf",
         "raw/arxiv/2609.11253v1.xml"
       ],
       "wiki_mentions": [],
@@ -2823,7 +2823,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11790.fulltext.md",
-        "raw/Deep-Learning/2609.11790.pdf",
+        "raw/Deep-Learning/2026-09-10-dynamic-language-model-representations-for-multi-objective-reaction-optimisation-arxiv-2609.11790.pdf",
         "raw/arxiv/2609.11790v1.xml"
       ],
       "wiki_mentions": [],
@@ -2838,7 +2838,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11580.fulltext.md",
-        "raw/Deep-Learning/2609.11580.pdf",
+        "raw/Deep-Learning/2026-09-10-a-dataset-and-model-for-imputing-water-surface-elevation-on-a-large-and-extremely-sparse-spatiotemporal-graph-arxiv-2609.11580.pdf",
         "raw/arxiv/2609.11580v2.xml"
       ],
       "wiki_mentions": [],
@@ -2853,7 +2853,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.11904.fulltext.md",
-        "raw/Deep-Learning/2609.11904.pdf",
+        "raw/Deep-Learning/2026-09-10-tart-a-modular-tool-for-technique-aware-audio-to-tablature-guitar-transcription-arxiv-2609.11904.pdf",
         "raw/arxiv/2609.11904v1.xml"
       ],
       "wiki_mentions": [],
@@ -2868,7 +2868,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.20641.fulltext.md",
-        "raw/Deep-Learning/2609.20641.pdf",
+        "raw/Deep-Learning/2026-09-17-beyond-pinns-a-unified-gauss-newton-and-petrov-galerkin-framework-for-neural-and-hybrid-pde-solvers-arxiv-2609.20641.pdf",
         "raw/arxiv/2609.20641v1.xml"
       ],
       "wiki_mentions": [],
@@ -2883,7 +2883,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.18419.fulltext.md",
-        "raw/Deep-Learning/2609.18419.pdf",
+        "raw/Deep-Learning/2026-09-16-hilno-a-hierarchical-latent-neural-operator-with-multi-scale-supervision-for-pdes-on-general-geometries-arxiv-2609.18419.pdf",
         "raw/arxiv/2609.18419v1.xml"
       ],
       "wiki_mentions": [],
@@ -2898,7 +2898,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.19915.fulltext.md",
-        "raw/Deep-Learning/2609.19915.pdf",
+        "raw/Deep-Learning/2026-09-17-amortizing-physics-informed-neural-solvers-via-graph-hypernetworks-arxiv-2609.19915.pdf",
         "raw/arxiv/2609.19915v1.xml"
       ],
       "wiki_mentions": [],
@@ -2913,7 +2913,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.15536.fulltext.md",
-        "raw/Deep-Learning/2609.15536.pdf",
+        "raw/Deep-Learning/2026-09-14-physics-guided-conditional-flow-matching-with-energy-regularization-for-robust-pde-inverse-problems-arxiv-2609.15536.pdf",
         "raw/arxiv/2609.15536v1.xml"
       ],
       "wiki_mentions": [],
@@ -2928,7 +2928,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.18901.fulltext.md",
-        "raw/Deep-Learning/2609.18901.pdf",
+        "raw/Deep-Learning/2026-09-16-fast-learning-rates-for-physics-informed-kernel-methods-arxiv-2609.18901.pdf",
         "raw/arxiv/2609.18901v1.xml"
       ],
       "wiki_mentions": [],
@@ -2943,7 +2943,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.20794.fulltext.md",
-        "raw/Deep-Learning/2609.20794.pdf",
+        "raw/Deep-Learning/2026-09-17-posteriorbench-from-point-estimates-to-posterior-matching-in-evaluating-generative-inverse-solvers-arxiv-2609.20794.pdf",
         "raw/arxiv/2609.20794v1.xml"
       ],
       "wiki_mentions": [],
@@ -2958,7 +2958,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.16853.fulltext.md",
-        "raw/Deep-Learning/2609.16853.pdf",
+        "raw/Deep-Learning/2026-09-15-can-deep-learning-achieve-cross-physics-mapping-arxiv-2609.16853.pdf",
         "raw/arxiv/2609.16853v1.xml"
       ],
       "wiki_mentions": [],
@@ -2973,7 +2973,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.16406.fulltext.md",
-        "raw/Deep-Learning/2609.16406.pdf",
+        "raw/Deep-Learning/2026-09-14-physics-informed-random-feature-neural-networks-for-solving-pdes-arxiv-2609.16406.pdf",
         "raw/arxiv/2609.16406v1.xml"
       ],
       "wiki_mentions": [],
@@ -2988,7 +2988,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.17841.fulltext.md",
-        "raw/Deep-Learning/2609.17841.pdf",
+        "raw/Deep-Learning/2026-09-15-hybrid-coupling-with-numerics-informed-neural-networks-and-the-overlapping-schwarz-alternating-method-arxiv-2609.17841.pdf",
         "raw/arxiv/2609.17841v2.xml"
       ],
       "wiki_mentions": [],
@@ -3003,7 +3003,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.15432.fulltext.md",
-        "raw/Deep-Learning/2609.15432.pdf",
+        "raw/Deep-Learning/2026-09-14-single-condition-neural-solvers-encode-transferable-response-spaces-for-parametric-differential-equations-arxiv-2609.15432.pdf",
         "raw/arxiv/2609.15432v1.xml"
       ],
       "wiki_mentions": [],
@@ -3018,7 +3018,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.19871.fulltext.md",
-        "raw/Deep-Learning/2609.19871.pdf",
+        "raw/Deep-Learning/2026-09-17-physical-knowledge-on-historical-data-matters-more-than-enforcing-physical-constraints-on-the-forecast-arxiv-2609.19871.pdf",
         "raw/arxiv/2609.19871v1.xml"
       ],
       "wiki_mentions": [],
@@ -3033,7 +3033,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.19756.fulltext.md",
-        "raw/Deep-Learning/2609.19756.pdf",
+        "raw/Deep-Learning/2026-09-17-rapidity-coupled-spin-dynamics-in-pulsed-laser-fields-from-physics-informed-neural-networks-arxiv-2609.19756.pdf",
         "raw/arxiv/2609.19756v1.xml"
       ],
       "wiki_mentions": [],
@@ -3048,7 +3048,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.17063.fulltext.md",
-        "raw/Deep-Learning/2609.17063.pdf",
+        "raw/Deep-Learning/2026-09-15-development-of-a-physics-informed-neural-framework-meown-for-rapid-prediction-of-muon-stopping-sites-in-crysta-arxiv-2609.17063.pdf",
         "raw/arxiv/2609.17063v1.xml"
       ],
       "wiki_mentions": [],
@@ -3063,7 +3063,7 @@
       "wiki": [],
       "raw": [
         "raw/Deep-Learning/2609.19290.fulltext.md",
-        "raw/Deep-Learning/2609.19290.pdf",
+        "raw/Deep-Learning/2026-09-16-physics-informed-hemodynamic-modeling-for-data-free-prediction-and-sparse-data-assimilation-arxiv-2609.19290.pdf",
         "raw/arxiv/2609.19290v1.xml"
       ],
       "wiki_mentions": [],
@@ -3080,7 +3080,7 @@
       ],
       "raw": [
         "raw/World-Models/2609.26292.fulltext.md",
-        "raw/World-Models/2609.26292.pdf",
+        "raw/World-Models/2026-09-22-robotwin-phys-do-wams-and-vlas-understand-the-physical-world-arxiv-2609.26292.pdf",
         "raw/arxiv/2609.26292v1.xml"
       ],
       "wiki_mentions": [],
@@ -3095,7 +3095,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2609.28931.fulltext.md",
-        "raw/World-Models/2609.28931.pdf",
+        "raw/World-Models/2026-09-24-helloworld-towards-practical-applications-of-generative-driving-world-models-arxiv-2609.28931.pdf",
         "raw/arxiv/2609.28931v1.xml"
       ],
       "wiki_mentions": [],
@@ -3110,7 +3110,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2609.20034.fulltext.md",
-        "raw/World-Models/2609.20034.pdf",
+        "raw/World-Models/2026-09-17-astronex-world-1-0-real-time-interactive-world-model-foundation-arxiv-2609.20034.pdf",
         "raw/arxiv/2609.20034v1.xml"
       ],
       "wiki_mentions": [],
@@ -3125,7 +3125,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2609.19729.fulltext.md",
-        "raw/World-Models/2609.19729.pdf",
+        "raw/World-Models/2026-09-17-recency-forcing-bridging-the-long-horizon-gap-in-autoregressive-video-generation-arxiv-2609.19729.pdf",
         "raw/arxiv/2609.19729v1.xml"
       ],
       "wiki_mentions": [],
@@ -3140,7 +3140,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2609.20819.fulltext.md",
-        "raw/World-Models/2609.20819.pdf",
+        "raw/World-Models/2026-09-17-can-4d-foundation-models-remember-arxiv-2609.20819.pdf",
         "raw/arxiv/2609.20819v2.xml"
       ],
       "wiki_mentions": [],
@@ -3155,7 +3155,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2609.16697.fulltext.md",
-        "raw/World-Models/2609.16697.pdf",
+        "raw/World-Models/2026-09-15-world-models-for-embodied-intelligence-from-plausible-to-controllable-to-actionable-arxiv-2609.16697.pdf",
         "raw/arxiv/2609.16697v1.xml"
       ],
       "wiki_mentions": [],
@@ -3170,7 +3170,7 @@
       "wiki": [],
       "raw": [
         "raw/World-Models/2608.26671.fulltext.md",
-        "raw/World-Models/2608.26671.pdf",
+        "raw/World-Models/2026-08-27-recap-forcing-retaining-content-appearances-for-long-video-generation-arxiv-2608.26671.pdf",
         "raw/arxiv/2608.26671v1.xml"
       ],
       "wiki_mentions": [],
@@ -3185,7 +3185,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2610.00438.fulltext.md",
-        "raw/Embodied-Intelligence/2610.00438.pdf",
+        "raw/Embodied-Intelligence/2026-09-30-towards-a-general-humanoid-loco-manipulation-model-via-egocentric-whole-body-human-data-pretraining-arxiv-2610.00438.pdf",
         "raw/arxiv/2610.00438v1.xml"
       ],
       "wiki_mentions": [],
@@ -3203,7 +3203,7 @@
       ],
       "raw": [
         "raw/Embodied-Intelligence/2609.39403.fulltext.md",
-        "raw/Embodied-Intelligence/2609.39403.pdf",
+        "raw/Embodied-Intelligence/2026-09-30-ironmind-scaling-humanoid-dexterous-manipulation-via-camera-space-ego-centric-pretraining-arxiv-2609.39403.pdf",
         "raw/arxiv/2609.39403v1.xml"
       ],
       "wiki_mentions": [],
@@ -3218,7 +3218,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2609.37181.fulltext.md",
-        "raw/Embodied-Intelligence/2609.37181.pdf",
+        "raw/Embodied-Intelligence/2026-09-29-egohumanoid-v2-human-to-humanoid-transfer-of-coordinated-whole-body-skills-for-loco-manipulation-arxiv-2609.37181.pdf",
         "raw/arxiv/2609.37181v1.xml"
       ],
       "wiki_mentions": [],
@@ -3233,7 +3233,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2609.34182.fulltext.md",
-        "raw/Embodied-Intelligence/2609.34182.pdf",
+        "raw/Embodied-Intelligence/2026-09-28-unified-visual-tactile-action-modeling-from-human-demonstrations-for-dexterous-manipulation-arxiv-2609.34182.pdf",
         "raw/arxiv/2609.34182v2.xml"
       ],
       "wiki_mentions": [],
@@ -3250,7 +3250,7 @@
       ],
       "raw": [
         "raw/Embodied-Intelligence/2609.33007.fulltext.md",
-        "raw/Embodied-Intelligence/2609.33007.pdf",
+        "raw/Embodied-Intelligence/2026-09-26-capex-efficiently-distilling-foundation-model-behavior-into-deployable-robot-policies-through-experience-adapt-arxiv-2609.33007.pdf",
         "raw/arxiv/2609.33007v1.xml"
       ],
       "wiki_mentions": [],
@@ -3268,7 +3268,7 @@
       ],
       "raw": [
         "raw/Embodied-Intelligence/2607.08436.fulltext.md",
-        "raw/Embodied-Intelligence/2607.08436.pdf",
+        "raw/Embodied-Intelligence/2026-07-08-egowam-world-action-models-beyond-pixels-with-in-the-wild-egocentric-human-data-arxiv-2607.08436.pdf",
         "raw/arxiv/2607.08436v1.xml"
       ],
       "wiki_mentions": [],
@@ -3283,7 +3283,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2609.30959.fulltext.md",
-        "raw/Embodied-Intelligence/2609.30959.pdf",
+        "raw/Embodied-Intelligence/2026-09-25-vistacalign-co-training-dexterous-policies-on-tactile-human-and-robot-demonstrations-arxiv-2609.30959.pdf",
         "raw/arxiv/2609.30959v1.xml"
       ],
       "wiki_mentions": [],
@@ -3298,7 +3298,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2609.24093.fulltext.md",
-        "raw/Embodied-Intelligence/2609.24093.pdf",
+        "raw/Embodied-Intelligence/2026-09-21-dexterous-robot-manipulation-from-human-demonstrations-via-contact-anchored-retargeting-and-residual-policy-le-arxiv-2609.24093.pdf",
         "raw/arxiv/2609.24093v1.xml"
       ],
       "wiki_mentions": [],
@@ -3313,7 +3313,7 @@
       "wiki": [],
       "raw": [
         "raw/Embodied-Intelligence/2609.19666.fulltext.md",
-        "raw/Embodied-Intelligence/2609.19666.pdf",
+        "raw/Embodied-Intelligence/2026-09-17-towards-high-dof-dexterous-manipulation-through-vla-post-training-arxiv-2609.19666.pdf",
         "raw/arxiv/2609.19666v1.xml"
       ],
       "wiki_mentions": [],

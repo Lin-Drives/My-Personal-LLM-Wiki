@@ -1,0 +1,981 @@
+{
+  "naming": "publication-date-title-arxiv-id; authors omitted; descriptive legacy names preserved",
+  "renamed": [
+    {
+      "old": "raw/AI-Infra/2310.07240.pdf",
+      "new": "raw/AI-Infra/2023-10-11-cachegen-kv-cache-compression-and-streaming-for-fast-large-language-model-serving-arxiv-2310.07240.pdf",
+      "sha256": "3bbadb232c66d89dd1a68ecea65d76edc5e67074a97072e4a401ca7a6335a8de"
+    },
+    {
+      "old": "raw/AI-Infra/2501.01005.pdf",
+      "new": "raw/AI-Infra/2025-01-02-flashinfer-efficient-and-customizable-attention-engine-for-llm-inference-serving-arxiv-2501.01005.pdf",
+      "sha256": "6995874b7a43b0693ba0da805c4d99327a4cb4013edbea3e36f4c42949e63303"
+    },
+    {
+      "old": "raw/AI-Infra/2502.00937.pdf",
+      "new": "raw/AI-Infra/2025-02-02-modserve-modality-and-stage-aware-resource-disaggregation-for-scalable-multimodal-model-serving-arxiv-2502.00937.pdf",
+      "sha256": "8d9e07df393bfce4ad7baac0f7d0bdc24bd850bfe566d22b356ef054f1f61d41"
+    },
+    {
+      "old": "raw/AI-Infra/2504.07347.pdf",
+      "new": "raw/AI-Infra/2025-04-10-throughput-optimal-scheduling-algorithms-for-llm-inference-and-ai-agents-arxiv-2504.07347.pdf",
+      "sha256": "ce009eb22aed572ff5b06a46bc8dc73d104f51c52ae5f7ca729746d852ebf831"
+    },
+    {
+      "old": "raw/AI-Infra/2504.07494.pdf",
+      "new": "raw/AI-Infra/2025-04-10-apt-serve-adaptive-request-scheduling-on-hybrid-cache-for-scalable-llm-inference-serving-arxiv-2504.07494.pdf",
+      "sha256": "a7436ee4fc6ef3a245a56cc755d9489776e2907c829719471a2def7d9abdd2fe"
+    },
+    {
+      "old": "raw/AI-Infra/2504.11320.pdf",
+      "new": "raw/AI-Infra/2025-04-15-optimizing-llm-inference-fluid-guided-online-scheduling-with-memory-constraints-arxiv-2504.11320.pdf",
+      "sha256": "a4d9daa8499f2ad626c3477593faa117bd7e6f3d5611d8192a7342b7a146b014"
+    },
+    {
+      "old": "raw/AI-Infra/2504.19874.pdf",
+      "new": "raw/AI-Infra/2025-04-28-turboquant-online-vector-quantization-with-near-optimal-distortion-rate-arxiv-2504.19874.pdf",
+      "sha256": "431eb13926e10491f5fbd0bebd0813c51bd6c1e884426a1500c5db640b2997ab"
+    },
+    {
+      "old": "raw/AI-Infra/2507.06608.pdf",
+      "new": "raw/AI-Infra/2025-07-09-nexus-proactive-intra-gpu-disaggregation-of-prefill-and-decode-in-llm-serving-arxiv-2507.06608.pdf",
+      "sha256": "435058383e4eee81171168fe1b173541c7880eeb5d3f127741e9e0fba21f805d"
+    },
+    {
+      "old": "raw/AI-Infra/2507.11507.pdf",
+      "new": "raw/AI-Infra/2025-07-15-oneiros-kv-cache-optimization-through-parameter-remapping-for-multi-tenant-llm-serving-arxiv-2507.11507.pdf",
+      "sha256": "16b45f421faeba200b6691dba3c0f192a31c3b147b75322e49021cc7cdeb25f0"
+    },
+    {
+      "old": "raw/AI-Infra/2507.21276.pdf",
+      "new": "raw/AI-Infra/2025-07-28-lemix-unified-scheduling-for-llm-training-and-inference-on-multi-gpu-systems-arxiv-2507.21276.pdf",
+      "sha256": "36b24a688979d8548ec0b9f1cdffc9355d21e0a626e5bd47cde5f2e5d54ad763"
+    },
+    {
+      "old": "raw/AI-Infra/2508.03148.pdf",
+      "new": "raw/AI-Infra/2025-08-05-frontier-simulating-the-next-generation-of-llm-inference-systems-arxiv-2508.03148.pdf",
+      "sha256": "8473820e65d083a0081061948bbeefdada77c80e183b03d5a1a8866e084b558c"
+    },
+    {
+      "old": "raw/AI-Infra/2509.06261.pdf",
+      "new": "raw/AI-Infra/2025-09-08-fineserve-precision-aware-kv-slab-and-two-level-scheduling-for-heterogeneous-precision-llm-serving-arxiv-2509.06261.pdf",
+      "sha256": "ee4d3645ba02d4d282818392a7929e26731a6d3dacc7045132b1434f3dac27c9"
+    },
+    {
+      "old": "raw/AI-Infra/2509.21081.pdf",
+      "new": "raw/AI-Infra/2025-09-25-typhoonmla-a-mixed-naive-absorb-mla-kernel-for-shared-prefix-arxiv-2509.21081.pdf",
+      "sha256": "61e6e6771c449c47e215fe8a2c918eeb1b4050351965b737237119fdd04e1bbf"
+    },
+    {
+      "old": "raw/AI-Infra/2601.06288.pdf",
+      "new": "raw/AI-Infra/2026-01-09-aiconfigurator-lightning-fast-configuration-optimization-for-multi-framework-llm-serving-arxiv-2601.06288.pdf",
+      "sha256": "05645ed3d8e6559cc2ca6cf2fcc88b9db81fd37e77006181c2ba45a9644ce822"
+    },
+    {
+      "old": "raw/AI-Infra/2602.00509.pdf",
+      "new": "raw/AI-Infra/2026-01-31-probe-co-balancing-computation-and-communication-in-moe-inference-via-real-time-predictive-prefetching-arxiv-2602.00509.pdf",
+      "sha256": "91c9a4dfcca71f83d6d733436f2aaccad59e5683f8b27f97d73f07fb50802e7b"
+    },
+    {
+      "old": "raw/AI-Infra/2602.09109.pdf",
+      "new": "raw/AI-Infra/2026-02-09-distributed-hybrid-parallelism-for-large-language-models-comparative-study-and-system-design-guide-arxiv-2602.09109.pdf",
+      "sha256": "332c98cdbf0dae1c15c257f169786b0d09c5b7d895352f6699a4bb042ad4e746"
+    },
+    {
+      "old": "raw/AI-Infra/2603.07685.pdf",
+      "new": "raw/AI-Infra/2026-03-08-scalable-training-of-mixture-of-experts-models-with-megatron-core-arxiv-2603.07685.pdf",
+      "sha256": "649b8a1bcd79dbc13f63827defec3b5de371d121c6d613961c105c24a7953ca3"
+    },
+    {
+      "old": "raw/AI-Infra/2604.04750.pdf",
+      "new": "raw/AI-Infra/2026-04-06-deepstack-facilitating-co-design-exploration-of-3d-dram-stacked-accelerators-for-distributed-llm-inference-arxiv-2604.04750.pdf",
+      "sha256": "d6c33a1a5358c6be67264645e5b91ac95ab904014a93d56a0b99a695ef8cd920"
+    },
+    {
+      "old": "raw/AI-Infra/2604.07173.pdf",
+      "new": "raw/AI-Infra/2026-04-08-infinilora-disaggregated-multi-lora-serving-for-large-language-models-arxiv-2604.07173.pdf",
+      "sha256": "e6281bb22072cecc5a5b4f5f737bfce8c0a8b62b08f29b1af3133da4e515c308"
+    },
+    {
+      "old": "raw/AI-Infra/2604.07609.pdf",
+      "new": "raw/AI-Infra/2026-04-08-blink-cpu-free-llm-inference-by-delegating-the-serving-stack-to-gpu-and-smartnic-arxiv-2604.07609.pdf",
+      "sha256": "dd49ae8881c3de4567ffb503fd840cd93b1d60e00e87c629906dc45258f80a88"
+    },
+    {
+      "old": "raw/AI-Infra/2604.20919.pdf",
+      "new": "raw/AI-Infra/2026-04-22-dip-sd-distributed-pipelined-speculative-decoding-for-efficient-llm-inference-at-the-edge-arxiv-2604.20919.pdf",
+      "sha256": "dbac280f83040182d92498afc9db066915683ac1154c4a1bad8661b01ad7ee9a"
+    },
+    {
+      "old": "raw/AI-Infra/2605.00528.pdf",
+      "new": "raw/AI-Infra/2026-05-01-saga-workflow-atomic-scheduling-for-ai-agent-inference-on-gpu-clusters-arxiv-2605.00528.pdf",
+      "sha256": "87f1fe0eec3762bd5ef6f119a0d17c3b7eb2e7bc714db2acae4f2ff063fe0b89"
+    },
+    {
+      "old": "raw/AI-Infra/2605.09370.pdf",
+      "new": "raw/AI-Infra/2026-05-10-from-detection-to-recovery-operational-analysis-on-llm-pre-training-with-504-gpus-arxiv-2605.09370.pdf",
+      "sha256": "e9fc63a8dd715426291f4756d5cb7b79a410c2c08ce289fb1587139a542f4cff"
+    },
+    {
+      "old": "raw/AI-Infra/2605.17613.pdf",
+      "new": "raw/AI-Infra/2026-05-17-vericache-turning-lossy-kv-cache-into-lossless-llm-inference-arxiv-2605.17613.pdf",
+      "sha256": "7cf0fa1b9f1f4a89556ed53f7f9c3a84069049e3397a68447726e99871af1ea5"
+    },
+    {
+      "old": "raw/AI-Infra/2605.21427.pdf",
+      "new": "raw/AI-Infra/2026-05-20-pals-power-aware-llm-serving-for-mixture-of-experts-models-arxiv-2605.21427.pdf",
+      "sha256": "952cf81a9c5bd6ab0c4559c8ff081128ad0f78e6dd529cabdd9a38aac9dce683"
+    },
+    {
+      "old": "raw/AI-Infra/2605.31463.pdf",
+      "new": "raw/AI-Infra/2026-05-29-pithtrain-a-compact-and-agent-native-moe-training-system-arxiv-2605.31463.pdf",
+      "sha256": "7f98919124fc4334563acac3317ca83d4704bdb79096e1e5744f66ee5b210c68"
+    },
+    {
+      "old": "raw/AI-Infra/2606.20295.pdf",
+      "new": "raw/AI-Infra/2026-06-18-token-operations-oriented-inference-optimization-techniques-for-large-models-arxiv-2606.20295.pdf",
+      "sha256": "be80c844dab15d79d45dac1dfed14543658ed31177c4062183ec52a1d2a66d6c"
+    },
+    {
+      "old": "raw/AI-Infra/2606.21868.pdf",
+      "new": "raw/AI-Infra/2026-06-20-wisp-a-working-set-view-of-mixture-of-experts-serving-on-extremely-low-resource-hardware-arxiv-2606.21868.pdf",
+      "sha256": "78968b4afdbece0143956202cb4bff90852736c9187169bf4ab57ba7bf0641bb"
+    },
+    {
+      "old": "raw/AI-Infra/2606.26607.pdf",
+      "new": "raw/AI-Infra/2026-06-25-moebius-serving-mixture-of-expert-models-with-seamless-runtime-parallelism-switch-arxiv-2606.26607.pdf",
+      "sha256": "7685dbed349c95eb3b0f80b70b5fd953da8891531d840a1b66004cb68227b1d5"
+    },
+    {
+      "old": "raw/AI-Infra/2607.00466.pdf",
+      "new": "raw/AI-Infra/2026-07-01-eldr-expert-locality-aware-decode-routing-for-pd-disaggregated-moe-serving-arxiv-2607.00466.pdf",
+      "sha256": "d02301a2ef5249b3502f86944ff336ccb6df615383f9b8297623425bb6f6b1ab"
+    },
+    {
+      "old": "raw/AI-Infra/2607.02043.pdf",
+      "new": "raw/AI-Infra/2026-07-02-towards-load-aware-prefill-deflection-for-disaggregated-llm-serving-arxiv-2607.02043.pdf",
+      "sha256": "403485ad86bb0b050bbd613497a17c91c74bc91d89e4551d082a92dfe1c0e3a0"
+    },
+    {
+      "old": "raw/AI-Infra/2607.02574.pdf",
+      "new": "raw/AI-Infra/2026-06-30-from-tensor-buffer-to-distributed-memory-hierarchy-a-survey-of-kv-cache-management-for-llm-serving-arxiv-2607.02574.pdf",
+      "sha256": "d74a11adf61bcf50e5459f3f31c98e1c9ec5effd3199a446ed4f93b36106fa7b"
+    },
+    {
+      "old": "raw/AI-Infra/2607.17181.pdf",
+      "new": "raw/AI-Infra/2026-07-19-talaria-session-aware-serverless-serving-of-hundred-billion-parameter-llms-arxiv-2607.17181.pdf",
+      "sha256": "012328c43d1c773d9183541a0f8c6e49629617dcf0f3daaa8dd9d19dafb50327"
+    },
+    {
+      "old": "raw/AI-Infra/2607.18141.pdf",
+      "new": "raw/AI-Infra/2026-07-20-a-cxl-memory-rack-for-multi-turn-llm-serving-arxiv-2607.18141.pdf",
+      "sha256": "41aff50abea5ca60f1ad5ac9b3534f26ff40d109315a0e8e9b1d23690a67bf53"
+    },
+    {
+      "old": "raw/AI-Infra/2607.21653.pdf",
+      "new": "raw/AI-Infra/2026-07-22-molt-a-scalable-pytorch-native-training-framework-for-agentic-reinforcement-learning-arxiv-2607.21653.pdf",
+      "sha256": "0cb00e4547a3639a0b6297b1ab26ba8cebfec73e26684cd3bde6d73a00af4f42"
+    },
+    {
+      "old": "raw/AI-Infra/2608.01526.pdf",
+      "new": "raw/AI-Infra/2026-08-02-an-internet-for-the-kv-cache-rethinking-classical-infrastructure-boundaries-in-the-llm-inference-age-arxiv-2608.01526.pdf",
+      "sha256": "4e9377cc88112177a2e2b5100c87b9b2055c7a3a9fe43defde7067c7c7d869ca"
+    },
+    {
+      "old": "raw/AI-Infra/2608.02989.pdf",
+      "new": "raw/AI-Infra/2026-08-04-acceptmoe-commitment-weighted-self-sizing-verifier-expert-sets-for-efficient-moe-speculative-decoding-arxiv-2608.02989.pdf",
+      "sha256": "771ac623b4f135ad8c191d7234881fd691c2d2c430d7443ff9c2fc6d76041c08"
+    },
+    {
+      "old": "raw/AI-Infra/2608.07009.pdf",
+      "new": "raw/AI-Infra/2026-08-07-hisparse-scaling-sparse-attention-decoding-with-hierarchical-kv-cache-management-arxiv-2608.07009.pdf",
+      "sha256": "7f6c545e6e54de09d6190574e643255c98d68870ed1261babbb09b0c7d3e7b91"
+    },
+    {
+      "old": "raw/AI-Infra/2608.08097.pdf",
+      "new": "raw/AI-Infra/2026-08-08-oasiskv-scaling-in-decode-kv-cache-beyond-hbm-with-lookahead-sparse-prefetching-arxiv-2608.08097.pdf",
+      "sha256": "3c6818ac79af73178fb3199646baf66163a25bc603658dfeee333a4896c9abf1"
+    },
+    {
+      "old": "raw/AI-Infra/2608.09907.pdf",
+      "new": "raw/AI-Infra/2026-08-10-distmoe-private-data-rehearsal-free-routing-in-mixture-of-experts-for-distributed-instruction-tuning-arxiv-2608.09907.pdf",
+      "sha256": "d3c3b965b16135d330f23155fdf1de79788dae976c311d445b96914589c04d78"
+    },
+    {
+      "old": "raw/Deep-Learning/2405.19101.pdf",
+      "new": "raw/Deep-Learning/2024-05-29-poseidon-efficient-foundation-models-for-pdes-arxiv-2405.19101.pdf",
+      "sha256": "5fedecba785e35df0664692111a73702fe65b8f3c18cc4dcbc7060cd80fca74b"
+    },
+    {
+      "old": "raw/Deep-Learning/2501.04969.pdf",
+      "new": "raw/Deep-Learning/2025-01-09-self-supervised-representation-learning-with-joint-embedding-predictive-architecture-for-automotive-lidar-obje-arxiv-2501.04969.pdf",
+      "sha256": "a74eed1ae797ddf2880033fcc6df3dab990fd2f6274c28ea3e2a07a797c1178b"
+    },
+    {
+      "old": "raw/Deep-Learning/2507.08338.pdf",
+      "new": "raw/Deep-Learning/2025-07-11-discontinuity-aware-kan-based-physics-informed-neural-networks-arxiv-2507.08338.pdf",
+      "sha256": "7874c99bed712565c086db9e87581a1553c7b2e0bd45c7b783cd39f4acf0dc4d"
+    },
+    {
+      "old": "raw/Deep-Learning/2507.19888.pdf",
+      "new": "raw/Deep-Learning/2025-07-26-multi-resolution-training-enhanced-kolmogorov-arnold-networks-for-multi-scale-pde-problems-arxiv-2507.19888.pdf",
+      "sha256": "556c940abc343598f44a53f5a12818dcf444d28b864a831febb8b0c131d9e653"
+    },
+    {
+      "old": "raw/Deep-Learning/2510.05278.pdf",
+      "new": "raw/Deep-Learning/2025-10-06-decoding-partial-differential-equations-cross-modal-adaptation-of-decoder-only-models-to-pdes-arxiv-2510.05278.pdf",
+      "sha256": "4ebf87609f63ba94917697dba951afeb9eea335b6a5dbb5b4fd852177fa0a689"
+    },
+    {
+      "old": "raw/Deep-Learning/2601.08100.pdf",
+      "new": "raw/Deep-Learning/2026-01-13-towards-a-unified-pac-bayesian-framework-for-norm-based-generalization-bounds-arxiv-2601.08100.pdf",
+      "sha256": "6042e27f037481cb78eec2eae1b27a3f0d9188912130f8cd195b4446cdc74942"
+    },
+    {
+      "old": "raw/Deep-Learning/2601.22751.pdf",
+      "new": "raw/Deep-Learning/2026-01-30-discovering-scaling-exponents-with-physics-informed-m-ntz-sz-sz-networks-arxiv-2601.22751.pdf",
+      "sha256": "c97bf4392ded389ce5a1bccff7a540a285ffa09fad0d7a27305d1e7e20b102b5"
+    },
+    {
+      "old": "raw/Deep-Learning/2602.02547.pdf",
+      "new": "raw/Deep-Learning/2026-01-30-napinn-noise-adaptive-physics-informed-neural-networks-for-recovering-physics-from-corrupted-measurement-arxiv-2602.02547.pdf",
+      "sha256": "e09d2f0f707dfacf8df85dc1015bdb669dfa57a4e4bada577decf12287f3a2a0"
+    },
+    {
+      "old": "raw/Deep-Learning/2602.08287.pdf",
+      "new": "raw/Deep-Learning/2026-02-09-noise-stability-of-transformer-models-arxiv-2602.08287.pdf",
+      "sha256": "ad005be6c80094fae8f81b8f690dd28a22269208e78d4bf1d3943018cd3c7fc6"
+    },
+    {
+      "old": "raw/Deep-Learning/2602.12368.pdf",
+      "new": "raw/Deep-Learning/2026-02-12-a-machine-learning-approach-to-the-nirenberg-problem-arxiv-2602.12368.pdf",
+      "sha256": "a9ff2ade8d4c9799d04f006b39322d509610529e26928b17be98183d2de3e073"
+    },
+    {
+      "old": "raw/Deep-Learning/2602.16634.pdf",
+      "new": "raw/Deep-Learning/2026-02-18-enhanced-diffusion-sampling-efficient-rare-event-sampling-and-free-energy-calculation-with-diffusion-models-arxiv-2602.16634.pdf",
+      "sha256": "ba0636ae277017c8bfd22d405901a657289aa6a567c67fe0df14e67182120044"
+    },
+    {
+      "old": "raw/Deep-Learning/2602.18523.pdf",
+      "new": "raw/Deep-Learning/2026-02-19-the-geometry-of-multi-task-grokking-transverse-instability-superposition-and-weight-decay-phase-structure-arxiv-2602.18523.pdf",
+      "sha256": "f9ed6fbe2553aa75a7ab4ce12e66f2d3f98b0a7e05e45f220f72968a34aced0f"
+    },
+    {
+      "old": "raw/Deep-Learning/2603.01193.pdf",
+      "new": "raw/Deep-Learning/2026-03-01-operator-learning-using-weak-supervision-from-walk-on-spheres-arxiv-2603.01193.pdf",
+      "sha256": "f1b4da00bf603e73c6fe38d4485e7b6cca077fac8288747d523f185ee1adaf91"
+    },
+    {
+      "old": "raw/Deep-Learning/2603.09555.pdf",
+      "new": "raw/Deep-Learning/2026-03-10-compiler-first-state-space-duality-and-portable-o-1-autoregressive-caching-for-inference-arxiv-2603.09555.pdf",
+      "sha256": "07a19da9814d66c00b535803aa22f16a9a3ea017d38913841129a5967a2e6707"
+    },
+    {
+      "old": "raw/Deep-Learning/2603.13660.pdf",
+      "new": "raw/Deep-Learning/2026-03-14-learning-generalizable-3d-medical-image-representations-from-mask-guided-self-supervision-arxiv-2603.13660.pdf",
+      "sha256": "d2de576830f608daa1051cb802170c6f0a79e3121130e6af4f0cca8102fc23aa"
+    },
+    {
+      "old": "raw/Deep-Learning/2603.15553.pdf",
+      "new": "raw/Deep-Learning/2026-03-16-self-distillation-of-hidden-layers-for-self-supervised-representation-learning-arxiv-2603.15553.pdf",
+      "sha256": "f23236cbaffcbfbedf8c454bee14e25a6fb39542bfc3f0ad82bfd6bf9b8c7126"
+    },
+    {
+      "old": "raw/Deep-Learning/2603.15569.pdf",
+      "new": "raw/Deep-Learning/2026-03-16-mamba-3-improved-sequence-modeling-using-state-space-principles-arxiv-2603.15569.pdf",
+      "sha256": "17e65b882c4b7dc7dad82a437e54c5fa973e4624d5653dc431f1a2a55538c826"
+    },
+    {
+      "old": "raw/Deep-Learning/2603.22964.pdf",
+      "new": "raw/Deep-Learning/2026-03-24-a-pac-bayesian-approach-to-generalization-for-quantum-models-arxiv-2603.22964.pdf",
+      "sha256": "1fecfc5bedefc22fbb4e3890bc6821ff1b94d0625ab491b26a064d0c8a261acd"
+    },
+    {
+      "old": "raw/Deep-Learning/2603.26597.pdf",
+      "new": "raw/Deep-Learning/2026-03-27-from-static-to-dynamic-exploring-self-supervised-image-to-video-representation-transfer-learning-arxiv-2603.26597.pdf",
+      "sha256": "0dd5a8643e324613dd4e75f78255d7e2e331f7dbb343e796cb9621682ee1b41e"
+    },
+    {
+      "old": "raw/Deep-Learning/2604.03481.pdf",
+      "new": "raw/Deep-Learning/2026-04-03-lattice-boltzmann-driven-physics-informed-neural-networks-for-droplet-wettability-on-rough-surfaces-arxiv-2604.03481.pdf",
+      "sha256": "a070eca24f588efbaf9143601a5bd74a23b9558ebde381dcf98dfda0781b7108"
+    },
+    {
+      "old": "raw/Deep-Learning/2604.05651.pdf",
+      "new": "raw/Deep-Learning/2026-04-07-probing-intrinsic-medical-task-relationships-a-contrastive-learning-perspective-arxiv-2604.05651.pdf",
+      "sha256": "64653a1b5090a8c7682c7a49129fde37dc9d3cf723280f087aa9ab97e3cc695d"
+    },
+    {
+      "old": "raw/Deep-Learning/2604.13518.pdf",
+      "new": "raw/Deep-Learning/2026-04-15-from-alignment-to-prediction-a-study-of-self-supervised-learning-and-predictive-representation-learning-arxiv-2604.13518.pdf",
+      "sha256": "ac0f8c104b8c9e7f03ac7d32197e89dd54cf28605217a323694197f3786d25f6"
+    },
+    {
+      "old": "raw/Deep-Learning/2604.13723.pdf",
+      "new": "raw/Deep-Learning/2026-04-15-physics-informed-neural-networks-for-solving-derivative-constrained-pdes-arxiv-2604.13723.pdf",
+      "sha256": "dfa42dffad772db2e1bfca1ca7235847ec5f404f873ca8c29a99cb0b9a1f3ea5"
+    },
+    {
+      "old": "raw/Deep-Learning/2604.14626.pdf",
+      "new": "raw/Deep-Learning/2026-04-16-elmoe-3d-leveraging-intrinsic-elasticity-of-moe-for-hybrid-bonding-enabled-self-speculative-decoding-in-on-pre-arxiv-2604.14626.pdf",
+      "sha256": "8e58f1e3d55a202b4c1d71dd79e82a5921c921de19a5e9ad0647dcc364c988c9"
+    },
+    {
+      "old": "raw/Deep-Learning/2604.15259.pdf",
+      "new": "raw/Deep-Learning/2026-04-16-stability-and-generalization-in-looped-transformers-arxiv-2604.15259.pdf",
+      "sha256": "800642a2b9ac1c686940bbcf8ac577c81c6fc7adbae57ef84583c32ccb2184b4"
+    },
+    {
+      "old": "raw/Deep-Learning/2604.20085.pdf",
+      "new": "raw/Deep-Learning/2026-04-22-a-physics-informed-neural-network-for-solving-the-quasi-static-magnetohydrodynamic-equations-arxiv-2604.20085.pdf",
+      "sha256": "a108372f863723f77c365df869118b6bf312257102000176cf61a83239843fb7"
+    },
+    {
+      "old": "raw/Deep-Learning/2604.21761.pdf",
+      "new": "raw/Deep-Learning/2026-04-23-transferable-physics-informed-representations-via-closed-form-head-adaptation-arxiv-2604.21761.pdf",
+      "sha256": "77c2be0c6287d474980ae412ae6914ba071dc2887e48eb445a70ee4644babca1"
+    },
+    {
+      "old": "raw/Deep-Learning/2604.26999.pdf",
+      "new": "raw/Deep-Learning/2026-04-29-compositional-meta-learning-for-mitigating-task-heterogeneity-in-physics-informed-neural-networks-arxiv-2604.26999.pdf",
+      "sha256": "8ebe4b6eb44b74bf96caa11afb941b92cef69a52671752068cf810d830162c82"
+    },
+    {
+      "old": "raw/Deep-Learning/2604.27277.pdf",
+      "new": "raw/Deep-Learning/2026-04-30-braindino-a-brain-mri-foundation-model-for-generalizable-clinical-representation-learning-arxiv-2604.27277.pdf",
+      "sha256": "072e246beb6ff3567398d62c8a1986747fcc722445b240ad27dbe9b897c6490c"
+    },
+    {
+      "old": "raw/Deep-Learning/2605.03510.pdf",
+      "new": "raw/Deep-Learning/2026-05-05-rational-communication-shapes-morphological-composition-arxiv-2605.03510.pdf",
+      "sha256": "1a43bd0deac5972e7a4c002250f9f0938b268c2954a3c5e878237f7513211fd9"
+    },
+    {
+      "old": "raw/Deep-Learning/2605.10159.pdf",
+      "new": "raw/Deep-Learning/2026-05-11-jno-a-jax-library-for-neural-operator-and-foundation-model-training-arxiv-2605.10159.pdf",
+      "sha256": "8e32c6cabc1ea810335282e2d0ba0de525304e9a4b9ba72c69b387b9be361a6a"
+    },
+    {
+      "old": "raw/Deep-Learning/2605.13892.pdf",
+      "new": "raw/Deep-Learning/2026-05-12-a-qpinn-framework-with-quantum-trainable-embeddings-for-the-lid-driven-cavity-problem-arxiv-2605.13892.pdf",
+      "sha256": "3cc4f47543458106a67d88079f96157ed9747da1c67b9ebf3d19870733e0945f"
+    },
+    {
+      "old": "raw/Deep-Learning/2605.25115.pdf",
+      "new": "raw/Deep-Learning/2026-05-24-courant-a-state-adaptive-perceiver-based-neural-surrogate-with-local-support-and-interpretable-field-decomposi-arxiv-2605.25115.pdf",
+      "sha256": "ca95a8aee344e39bba27edf73dd991f4b307b570bbc98b98cef2201ecd276187"
+    },
+    {
+      "old": "raw/Deep-Learning/2606.02332.pdf",
+      "new": "raw/Deep-Learning/2026-06-01-forget-attention-importance-aware-attention-is-all-you-need-arxiv-2606.02332.pdf",
+      "sha256": "028cb4ecec4af7dfa5563c4c657d84964ee66bd1a234e616a08fec00877f6037"
+    },
+    {
+      "old": "raw/Deep-Learning/2606.03017.pdf",
+      "new": "raw/Deep-Learning/2026-06-02-contrairl-factorized-contrastive-abstractions-for-transferable-irl-arxiv-2606.03017.pdf",
+      "sha256": "b04791c8621a617d3d9576d86637a47dce6e159f73de0cfb84ad3fc0e68bbbdf"
+    },
+    {
+      "old": "raw/Deep-Learning/2606.06164.pdf",
+      "new": "raw/Deep-Learning/2026-06-04-on-the-training-of-physics-informed-neural-operators-for-solving-parametric-partial-differential-equations-arxiv-2606.06164.pdf",
+      "sha256": "2a3d20522e42ae527f13c98a8dab7e724c9bc11a7c0adb69ac4bccc63e4ec92d"
+    },
+    {
+      "old": "raw/Deep-Learning/2606.15271.pdf",
+      "new": "raw/Deep-Learning/2026-06-13-dual-network-pinns-for-optimal-control-a-reproducible-benchmark-on-the-mass-spring-damper-system-arxiv-2606.15271.pdf",
+      "sha256": "644387dc81263345a5c85e2c3df7544248f2e6f6398e7b2b56c916d54f01c5f0"
+    },
+    {
+      "old": "raw/Deep-Learning/2606.21189.pdf",
+      "new": "raw/Deep-Learning/2026-06-19-tf-sno-time-frequency-gated-spectral-neural-operators-for-learning-non-stationary-partial-differential-equatio-arxiv-2606.21189.pdf",
+      "sha256": "85fc9d74b7a7f8e538166c5b248033b9c74b4ac85687ade45905c3accf2dde85"
+    },
+    {
+      "old": "raw/Deep-Learning/2606.23208.pdf",
+      "new": "raw/Deep-Learning/2026-06-22-leveraging-automl-for-sustainable-deep-learning-a-multi-objective-hpo-approach-on-deep-shift-neural-networks-arxiv-2606.23208.pdf",
+      "sha256": "ad25548c8411420722fb63ac5d975c9807480d0d4253996f24ab116e6d0029d2"
+    },
+    {
+      "old": "raw/Deep-Learning/2606.24851.pdf",
+      "new": "raw/Deep-Learning/2026-06-23-real-vs-complex-spectral-bases-for-neural-operators-the-role-of-green-s-function-alignment-arxiv-2606.24851.pdf",
+      "sha256": "3aa09598dc5a72745c6e769afecd19e5bdd4d677fa7f57482316b4085f2fe1bb"
+    },
+    {
+      "old": "raw/Deep-Learning/2606.26991.pdf",
+      "new": "raw/Deep-Learning/2026-06-25-enabling-self-supervised-learned-primal-dual-with-noise2inverse-arxiv-2606.26991.pdf",
+      "sha256": "91f4b8621c1f173833e7a2f0514b20c243de3a7896d1c21785c1aac6ffc37bfd"
+    },
+    {
+      "old": "raw/Deep-Learning/2606.31574.pdf",
+      "new": "raw/Deep-Learning/2026-06-30-temperature-field-reconstruction-of-tungsten-monoblock-divertor-on-east-using-physics-aware-neural-operator-tr-arxiv-2606.31574.pdf",
+      "sha256": "1fb7d5e4ac3fca4f3c612a4efa54e2cfbe3c1050a86130125afa41150207c679"
+    },
+    {
+      "old": "raw/Deep-Learning/2607.21046.pdf",
+      "new": "raw/Deep-Learning/2026-07-23-discrete-truthful-heterogeneous-two-facility-location-the-line-and-beyond-arxiv-2607.21046.pdf",
+      "sha256": "de2f71445d3f83c4b29aa80d90e054934490198a0a043c31d2c13817e4a3e5a6"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.03467.pdf",
+      "new": "raw/Deep-Learning/2026-08-04-when-correct-solutions-repeat-rarity-aware-credit-redistribution-for-grpo-arxiv-2608.03467.pdf",
+      "sha256": "1ea0a25c1a4db8e4fea554841be5aad4c047f0942f19f5bceda9248335a4f646"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.03495.pdf",
+      "new": "raw/Deep-Learning/2026-08-04-thermodynamically-consistent-initialization-of-the-maxwell-cattaneo-vernotte-heat-conduction-model-analytical-arxiv-2608.03495.pdf",
+      "sha256": "25a4a6642688ae991e859d271729420a5d1b1adbf68aaba72597b8509e533a61"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04013.pdf",
+      "new": "raw/Deep-Learning/2026-04-22-c-2-moe-consistency-and-complementarity-guided-mixture-of-experts-for-incomplete-multimodal-emotion-learning-arxiv-2608.04013.pdf",
+      "sha256": "bb1b1402469d02fa3ef2311dfa6c7fecaf5941c1dfec75c4dc89a77fdd84db76"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04014.pdf",
+      "new": "raw/Deep-Learning/2026-04-27-on-hamming-lipschitz-type-stability-of-the-subdominant-minmax-ultrametric-theory-and-simple-proofs-arxiv-2608.04014.pdf",
+      "sha256": "948b3f63dac2f7cf19164f2f017d75d1708398e9fedda9fc9002536dd580127e"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04026.pdf",
+      "new": "raw/Deep-Learning/2026-07-26-a-trust-region-framework-for-moment-estimation-arxiv-2608.04026.pdf",
+      "sha256": "813e204d8360de8eb1e5e6ac8a9ec2f3c6f774e78ea1e72f0f46aca56df5bf65"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04041.pdf",
+      "new": "raw/Deep-Learning/2026-08-04-an-explainable-llm-agent-layer-for-open-world-anomaly-detection-in-oil-wells-arxiv-2608.04041.pdf",
+      "sha256": "da092de1a3be53467537534b2a4d316ef984333d5a60f0412eba559c5f9a13e6"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04043.pdf",
+      "new": "raw/Deep-Learning/2026-08-04-tactus-open-vocabulary-object-recognition-from-low-cost-pressure-arrays-arxiv-2608.04043.pdf",
+      "sha256": "4e9c4536b3968d68b3a5193fc180dd6668ccd59c3cb53ea9dbe34924e0e62bcf"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04045.pdf",
+      "new": "raw/Deep-Learning/2026-08-04-robust-and-personalized-federated-learning-for-aircraft-engine-prognostics-under-benign-and-adversarial-client-arxiv-2608.04045.pdf",
+      "sha256": "09b2b5153bdd550e315a48bfe8b19a1070819a801526df19e784a66700512432"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04048.pdf",
+      "new": "raw/Deep-Learning/2026-08-04-recurrent-residual-quantization-a-progressive-multi-precision-representation-for-llms-arxiv-2608.04048.pdf",
+      "sha256": "328b0dab885081012c89089d2900a7486c42bb3f62d419bebc4eb16c07115ca3"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04051.pdf",
+      "new": "raw/Deep-Learning/2026-08-04-camp-a-cycle-aware-multi-scale-patch-mixer-for-time-series-forecasting-arxiv-2608.04051.pdf",
+      "sha256": "3d0e4c40334d6d48a3b735a21e77559ef134faa217d1ddf14555967d5ea732dc"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04057.pdf",
+      "new": "raw/Deep-Learning/2026-08-04-laprune-controllable-differentiable-sparsity-at-million-scale-arxiv-2608.04057.pdf",
+      "sha256": "c0ee4aa24595763fa3ef33c53a5b3b7c3c3a8328806a6162d6b8cacb532e6970"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04060.pdf",
+      "new": "raw/Deep-Learning/2026-08-04-sjepa-learning-elegant-latent-dynamics-with-hybrid-symbolic-neural-predictors-arxiv-2608.04060.pdf",
+      "sha256": "7add71d78c7c3d5a62cfe70efead744f9d9a8915e7037d5e7e054366eee94866"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04074.pdf",
+      "new": "raw/Deep-Learning/2026-08-04-spend-bits-where-queries-look-kv-cache-vector-quantization-with-attention-preserving-transforms-arxiv-2608.04074.pdf",
+      "sha256": "7cd51970952e7fd72fd36db00e194dade32cae7c410d45982eb21c148721ab77"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.04084.pdf",
+      "new": "raw/Deep-Learning/2026-08-04-specdrop-parameter-free-category-conditioned-routing-for-modular-specialization-arxiv-2608.04084.pdf",
+      "sha256": "9b803f0b39731826ebcc3287a53ba81097bcf5bd547c9a7ac508435b7c646ec4"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.05569.pdf",
+      "new": "raw/Deep-Learning/2026-08-06-coordrefer-coordinate-aware-3d-visual-grounding-from-multiview-images-arxiv-2608.05569.pdf",
+      "sha256": "79fd33d352c90527e23f3f39270867fb44a6e158c110fe869bd5d9519f5227e2"
+    },
+    {
+      "old": "raw/Deep-Learning/2608.08491.pdf",
+      "new": "raw/Deep-Learning/2026-08-09-trustroboreward-preference-ordered-isotonic-score-editing-for-multi-paradigm-robot-reward-models-arxiv-2608.08491.pdf",
+      "sha256": "262199bc15acc994e4acb6c084999eea312a3b90899bc6ffbd93d5a51ab8f4d4"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11253.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-mute-a-dual-framework-for-concept-erasure-and-counterfactual-interventions-arxiv-2609.11253.pdf",
+      "sha256": "1a1474c3dd14c787e13a8006c615fe40d86e0d12c303df4b4e634ea5072b513c"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11521.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-generalized-score-matching-for-parameter-estimation-on-convex-domains-arxiv-2609.11521.pdf",
+      "sha256": "f6aacbdb9b2e4dc1071600d52402dd7a5c591678974e066aee85b6eff3a4a2eb"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11538.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-particle-gflownets-rethinking-generative-marginalization-models-arxiv-2609.11538.pdf",
+      "sha256": "4ac56c4ccf4701db5b774c60027757e4564fd5f043ac8090d240e6e63ea75016"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11580.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-a-dataset-and-model-for-imputing-water-surface-elevation-on-a-large-and-extremely-sparse-spatiotemporal-graph-arxiv-2609.11580.pdf",
+      "sha256": "7865d855a3bb10b90f5250846298b0d29f2680b943c8eec6cb41b0bbe0effb20"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11656.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-learnware-and-ai-model-management-system-arxiv-2609.11656.pdf",
+      "sha256": "be067025a23f22b1409a30becdb73a7a73b72061f14f0e92b5dae04fcb41b503"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11780.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-predicting-privacy-leakage-from-weight-spectral-density-arxiv-2609.11780.pdf",
+      "sha256": "a5dabaa5982e088d1c3ca4b0ee9faf05ab65b885bfce2ec59337098e80e3790e"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11790.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-dynamic-language-model-representations-for-multi-objective-reaction-optimisation-arxiv-2609.11790.pdf",
+      "sha256": "7c7e0ad5697e777ce7a95f8258c2800e9d79ece187b5a790790a3c2d6a4d3a33"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11801.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-thinking-with-looped-flows-arxiv-2609.11801.pdf",
+      "sha256": "81e99bd4babe46e6145d4b791bb791812d6bb7de684e5951de0acc01f5e8c38a"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11842.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-model-aware-schedules-improve-generation-via-fiberwise-optimal-transport-arxiv-2609.11842.pdf",
+      "sha256": "0b922b5fe8c9123f0c5e9358f0f36f81df67ef05cb2341e13777f2a169e74cb5"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11873.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-the-last-ai-built-by-humans-toward-genuine-recursive-self-improvement-arxiv-2609.11873.pdf",
+      "sha256": "15b245c9a7bba46230d140519342da311df0c74e71b707ac779f35bb08f271c0"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11884.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-cora-nas-coarse-ranking-and-anchor-residual-refinement-for-neural-architecture-search-arxiv-2609.11884.pdf",
+      "sha256": "9564e621ff0ef8654ee718ff8e4b21daa8d3d523726222598dd12f48f1f2d0ee"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11904.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-tart-a-modular-tool-for-technique-aware-audio-to-tablature-guitar-transcription-arxiv-2609.11904.pdf",
+      "sha256": "25395d19e1b2323123673735c9a13175e98aa45ad171becf8aa96b8836b43c51"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11917.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-data-scarcity-and-model-sparsity-mixtures-of-experts-overfit-more-to-repeated-data-arxiv-2609.11917.pdf",
+      "sha256": "2b1930be36df847d1943f16cc91197f97de8357fb4ad77682cd0369c4f7e0e64"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.11918.pdf",
+      "new": "raw/Deep-Learning/2026-09-10-general-quantification-of-covariate-and-concept-shifts-arxiv-2609.11918.pdf",
+      "sha256": "a9df1408b1522c7ed032ac181899b22e03d3dd10abe43bac1ed2c34215696870"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.15432.pdf",
+      "new": "raw/Deep-Learning/2026-09-14-single-condition-neural-solvers-encode-transferable-response-spaces-for-parametric-differential-equations-arxiv-2609.15432.pdf",
+      "sha256": "b253e9d62fbebf57dae1e9a381895831872218a85c585f99bd392214aa664678"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.15536.pdf",
+      "new": "raw/Deep-Learning/2026-09-14-physics-guided-conditional-flow-matching-with-energy-regularization-for-robust-pde-inverse-problems-arxiv-2609.15536.pdf",
+      "sha256": "7825be81ebce3e2221e13cf015d90135655b1703d979e5779dd832de3645dbf8"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.16406.pdf",
+      "new": "raw/Deep-Learning/2026-09-14-physics-informed-random-feature-neural-networks-for-solving-pdes-arxiv-2609.16406.pdf",
+      "sha256": "7661f0c56164263d0e3d2bd23d25d42f505d8e5abc49bb40f169f3f98179629e"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.16853.pdf",
+      "new": "raw/Deep-Learning/2026-09-15-can-deep-learning-achieve-cross-physics-mapping-arxiv-2609.16853.pdf",
+      "sha256": "c9378f6e81cd464974cf95925a9ac5f201c8050687f698460405238deb80b151"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.17063.pdf",
+      "new": "raw/Deep-Learning/2026-09-15-development-of-a-physics-informed-neural-framework-meown-for-rapid-prediction-of-muon-stopping-sites-in-crysta-arxiv-2609.17063.pdf",
+      "sha256": "87c683e067b408a83da043861eedec50260406329625e430e1e9ab437aa8232b"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.17841.pdf",
+      "new": "raw/Deep-Learning/2026-09-15-hybrid-coupling-with-numerics-informed-neural-networks-and-the-overlapping-schwarz-alternating-method-arxiv-2609.17841.pdf",
+      "sha256": "a6ee9163375ad35cf09038154807749bb32159a284f4b34e82e144112d20efe7"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.18419.pdf",
+      "new": "raw/Deep-Learning/2026-09-16-hilno-a-hierarchical-latent-neural-operator-with-multi-scale-supervision-for-pdes-on-general-geometries-arxiv-2609.18419.pdf",
+      "sha256": "e7228036ebebad062a963ddeb9235a1025dce51c3416c7bb2b2b1e18296c1548"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.18901.pdf",
+      "new": "raw/Deep-Learning/2026-09-16-fast-learning-rates-for-physics-informed-kernel-methods-arxiv-2609.18901.pdf",
+      "sha256": "5bb4cd57966310a182a27635f76a38250737e433e791fbabda823bdf294d7549"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.19290.pdf",
+      "new": "raw/Deep-Learning/2026-09-16-physics-informed-hemodynamic-modeling-for-data-free-prediction-and-sparse-data-assimilation-arxiv-2609.19290.pdf",
+      "sha256": "ae472d07baae1997783bfbd53570f1fd7b6d06b75f2b9a9b41eca73b93503616"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.19756.pdf",
+      "new": "raw/Deep-Learning/2026-09-17-rapidity-coupled-spin-dynamics-in-pulsed-laser-fields-from-physics-informed-neural-networks-arxiv-2609.19756.pdf",
+      "sha256": "eee9c082b71da84be6441f3b593d843e4a8540d25d330027cb5cb72123f8f208"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.19871.pdf",
+      "new": "raw/Deep-Learning/2026-09-17-physical-knowledge-on-historical-data-matters-more-than-enforcing-physical-constraints-on-the-forecast-arxiv-2609.19871.pdf",
+      "sha256": "50c776c2578ce10f2eccf401ed6ced35545ea0e33dbaef52a61169370d197677"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.19915.pdf",
+      "new": "raw/Deep-Learning/2026-09-17-amortizing-physics-informed-neural-solvers-via-graph-hypernetworks-arxiv-2609.19915.pdf",
+      "sha256": "8d4de47cc32d87d8b191620c3e2684806645a3477d8fc91494c75ae1aa644aff"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.20641.pdf",
+      "new": "raw/Deep-Learning/2026-09-17-beyond-pinns-a-unified-gauss-newton-and-petrov-galerkin-framework-for-neural-and-hybrid-pde-solvers-arxiv-2609.20641.pdf",
+      "sha256": "ada9c20579468402479d0d0474f4f9c5d112e8f8ef116adfabcf026251cc5f3a"
+    },
+    {
+      "old": "raw/Deep-Learning/2609.20794.pdf",
+      "new": "raw/Deep-Learning/2026-09-17-posteriorbench-from-point-estimates-to-posterior-matching-in-evaluating-generative-inverse-solvers-arxiv-2609.20794.pdf",
+      "sha256": "4d5ca8dbca13989347ad1612ae4acaebe7fe43fe55d2c9f9247225eb34baf068"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2601.11404.pdf",
+      "new": "raw/Embodied-Intelligence/2026-01-16-acot-vla-action-chain-of-thought-for-vision-language-action-models-arxiv-2601.11404.pdf",
+      "sha256": "cc08adcd3a166484853cde4cd76213646ab08f107762da06e148e05d268fd327"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2607.08436.pdf",
+      "new": "raw/Embodied-Intelligence/2026-07-08-egowam-world-action-models-beyond-pixels-with-in-the-wild-egocentric-human-data-arxiv-2607.08436.pdf",
+      "sha256": "dcda12fc4e871509ff95847ed92e64cfc71aaf021c3bf17e14312259e2229443"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2607.10655.pdf",
+      "new": "raw/Embodied-Intelligence/2026-07-12-artificial-foveated-perception-for-mitigating-shortcut-learning-in-robotic-foundation-models-arxiv-2607.10655.pdf",
+      "sha256": "3af669cfc49ac92889bc41765c8fa7d07191645a37d58a2c808d0b0ac82a2e17"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2607.11689.pdf",
+      "new": "raw/Embodied-Intelligence/2026-07-13-from-world-action-models-to-embodied-brains-a-roadmap-for-open-world-physical-intelligence-arxiv-2607.11689.pdf",
+      "sha256": "a3c0a75a8f3e9d05178a2bc786b6e9a33086a4093dfbf50a96cd44f93f94d1f4"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2607.13017.pdf",
+      "new": "raw/Embodied-Intelligence/2026-07-14-flowwam-optical-flow-as-a-unified-action-representation-for-world-action-models-arxiv-2607.13017.pdf",
+      "sha256": "a4dea6542be553e1bda65617085861650dab686b84014d6f50473f6d432a0283"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2607.13033.pdf",
+      "new": "raw/Embodied-Intelligence/2026-07-14-densereward-dense-reward-learning-via-failure-synthesis-for-robotic-manipulation-arxiv-2607.13033.pdf",
+      "sha256": "115651988624eed90e76b1b7e3c58cf8d1af4bc2d44a51ea4c59479f66961256"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2607.25895.pdf",
+      "new": "raw/Embodied-Intelligence/2026-07-28-hifi-umi-learning-deployable-manipulation-policies-from-high-fidelity-umi-data-alone-arxiv-2607.25895.pdf",
+      "sha256": "5ec3eb818a43b88382985dcf1aaeafcdcf3ad1648dfdbec3c09e0f6631c944f1"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2608.02326.pdf",
+      "new": "raw/Embodied-Intelligence/2026-08-03-chainvla-chaining-vision-language-action-queries-through-a-unified-execution-state-for-long-horizon-manipulati-arxiv-2608.02326.pdf",
+      "sha256": "04ceaaf46cdaed3f47ca403db49625e8098165810eae22a64869eb769658bd7c"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2608.02736.pdf",
+      "new": "raw/Embodied-Intelligence/2026-08-03-novel-observable-signals-from-first-order-gravitational-phase-transitions-arxiv-2608.02736.pdf",
+      "sha256": "7948c13b92a5f8cc11039b834ac4ffa4e94fa50229d774af1cc491e4a1a23ca0"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2608.06004.pdf",
+      "new": "raw/Embodied-Intelligence/2026-08-06-do-tabular-foundation-models-agree-with-themselves-arxiv-2608.06004.pdf",
+      "sha256": "69e27826e6f3797a0e65c87520e82f2142b266f337ad081f0f601f6fdd1dd6a5"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2608.06009.pdf",
+      "new": "raw/Embodied-Intelligence/2026-08-06-wan-animate-2-pushing-the-application-boundaries-of-character-animation-arxiv-2608.06009.pdf",
+      "sha256": "06c720cab1411a4fafad791e7ce13132e7e3be70b56067e76dd807d6a2561a4b"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2608.06375.pdf",
+      "new": "raw/Embodied-Intelligence/2026-08-06-0-a-latent-predictive-world-action-model-for-concurrent-humanoid-loco-manipulation-arxiv-2608.06375.pdf",
+      "sha256": "c56d4115741a7979bb63ed4ff8e76e25c8e6ca933d6b18f2d122d8a46ec4d02c"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2608.07065.pdf",
+      "new": "raw/Embodied-Intelligence/2026-08-07-autointervene-calibrated-intervention-for-action-chunking-imitation-learning-policies-arxiv-2608.07065.pdf",
+      "sha256": "30495f31faa6c9940be73e59e6278bf97fb407d5bbb431ffdfdde9c7e24fe5ea"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2608.07075.pdf",
+      "new": "raw/Embodied-Intelligence/2026-08-07-detection-and-ranging-of-transient-extrinsic-contacts-based-on-6d-dynamic-tactile-sensing-arxiv-2608.07075.pdf",
+      "sha256": "71a71b5997a26924f0d0d8ca83c34b64adc8d58ac7f49d4ab629df8878d4b316"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2608.07746.pdf",
+      "new": "raw/Embodied-Intelligence/2026-08-07-lucid-latent-skill-unified-control-via-imagined-dynamics-for-long-horizon-humanoid-loco-manipulation-arxiv-2608.07746.pdf",
+      "sha256": "17642a8dfebb8400d0c8ee115a0484fe1748f48581578478829c534c7b47f6ed"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2608.07889.pdf",
+      "new": "raw/Embodied-Intelligence/2026-08-08-from-annual-throughput-to-vessel-schedules-a-stochastic-generator-for-transshipment-hub-simulation-arxiv-2608.07889.pdf",
+      "sha256": "4dee7e6409617098ff8df0994eef047e21cfea62b191ab121ca7d18133489bcd"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2608.08237.pdf",
+      "new": "raw/Embodied-Intelligence/2026-08-08-sage-slo-aware-adaptive-retrieval-for-production-rag-systems-arxiv-2608.08237.pdf",
+      "sha256": "a4c8c8f482da99a8f2f1667584c124f55d5a74f4c53d2f1c840608904088c155"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2609.19666.pdf",
+      "new": "raw/Embodied-Intelligence/2026-09-17-towards-high-dof-dexterous-manipulation-through-vla-post-training-arxiv-2609.19666.pdf",
+      "sha256": "52f62222bbbe183d864ee0206007f2cb3235fb65a8a71dbb5c49fac02e3372c8"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2609.24093.pdf",
+      "new": "raw/Embodied-Intelligence/2026-09-21-dexterous-robot-manipulation-from-human-demonstrations-via-contact-anchored-retargeting-and-residual-policy-le-arxiv-2609.24093.pdf",
+      "sha256": "de4a8e8aec99379a9bab1ce65aa851d24039bf1317c5720bbf4b75d369a6183f"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2609.30959.pdf",
+      "new": "raw/Embodied-Intelligence/2026-09-25-vistacalign-co-training-dexterous-policies-on-tactile-human-and-robot-demonstrations-arxiv-2609.30959.pdf",
+      "sha256": "5cc6203650ef5038b7032494804dd9561d570ed1ccec85352f12e3012232b4bc"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2609.33007.pdf",
+      "new": "raw/Embodied-Intelligence/2026-09-26-capex-efficiently-distilling-foundation-model-behavior-into-deployable-robot-policies-through-experience-adapt-arxiv-2609.33007.pdf",
+      "sha256": "cab67b7968fc27b4969ca68e860e0dab4993c43d1d9cdd98a209dcf83cb6e79b"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2609.34182.pdf",
+      "new": "raw/Embodied-Intelligence/2026-09-28-unified-visual-tactile-action-modeling-from-human-demonstrations-for-dexterous-manipulation-arxiv-2609.34182.pdf",
+      "sha256": "34c12da76a2bd39dfc440d0756a2228429a1a6a91de82b1a838e1dbd84bf82d4"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2609.37181.pdf",
+      "new": "raw/Embodied-Intelligence/2026-09-29-egohumanoid-v2-human-to-humanoid-transfer-of-coordinated-whole-body-skills-for-loco-manipulation-arxiv-2609.37181.pdf",
+      "sha256": "d6b9bfb64b6d4444b83bbcd11d9e29d3a82f0eff991f347ea80bf8b412553d8e"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2609.39403.pdf",
+      "new": "raw/Embodied-Intelligence/2026-09-30-ironmind-scaling-humanoid-dexterous-manipulation-via-camera-space-ego-centric-pretraining-arxiv-2609.39403.pdf",
+      "sha256": "6fd487dacad8af7c8b3d6908cbc35a692f0a057a06cc65447f3ad9c8b473f206"
+    },
+    {
+      "old": "raw/Embodied-Intelligence/2610.00438.pdf",
+      "new": "raw/Embodied-Intelligence/2026-09-30-towards-a-general-humanoid-loco-manipulation-model-via-egocentric-whole-body-human-data-pretraining-arxiv-2610.00438.pdf",
+      "sha256": "6d2e48b284c9d2d6a21882239cb6dcec5b493744c1bac0bcd2681008849fbc76"
+    },
+    {
+      "old": "raw/World-Models/2411.14499.pdf",
+      "new": "raw/World-Models/2024-11-21-understanding-world-or-predicting-future-a-comprehensive-survey-of-world-models-arxiv-2411.14499.pdf",
+      "sha256": "7d9c40527bcd16bc0bf4c9cb8adcc2b58e9ba19e51df213df6d958ab532fdfbd"
+    },
+    {
+      "old": "raw/World-Models/2506.09985.pdf",
+      "new": "raw/World-Models/2025-06-11-v-jepa-2-self-supervised-video-models-enable-understanding-prediction-and-planning-arxiv-2506.09985.pdf",
+      "sha256": "9cfcfde5fb0d9730637da5b9e7317825c3f3d09e91f3553e22eeba42c74d2226"
+    },
+    {
+      "old": "raw/World-Models/2509.07996.pdf",
+      "new": "raw/World-Models/2025-09-04-3d-and-4d-world-modeling-a-survey-arxiv-2509.07996.pdf",
+      "sha256": "5d57e4f659648e61e316e3a6bcad4c8c537b8bd33f882edb2fa7576ab361c5aa"
+    },
+    {
+      "old": "raw/World-Models/2510.12796.pdf",
+      "new": "raw/World-Models/2025-10-14-drivevla-w0-world-models-amplify-data-scaling-law-in-autonomous-driving-arxiv-2510.12796.pdf",
+      "sha256": "f5c200f838546b9c62ff35d38c21f788ef2db2adab919d6db58ec180c55e4823"
+    },
+    {
+      "old": "raw/World-Models/2511.09783.pdf",
+      "new": "raw/World-Models/2025-11-12-koopman-invariants-as-drivers-of-emergent-time-series-clustering-in-joint-embedding-predictive-architectures-arxiv-2511.09783.pdf",
+      "sha256": "b308832643babc014e2cf3bf3223e2b484834b4df20713588c6506ca5abe8bde"
+    },
+    {
+      "old": "raw/World-Models/2512.24497.pdf",
+      "new": "raw/World-Models/2025-12-30-what-drives-success-in-physical-planning-with-joint-embedding-predictive-world-models-arxiv-2512.24497.pdf",
+      "sha256": "d2dd4364de28d0b41f7001d26fd8d43487c31a9df5a5759ef319f89adad39a18"
+    },
+    {
+      "old": "raw/World-Models/2602.02454.pdf",
+      "new": "raw/World-Models/2026-02-02-world-gymnast-training-robots-with-reinforcement-learning-in-a-world-model-arxiv-2602.02454.pdf",
+      "sha256": "cf1afebacb119acc44b84543229f8975a4bf0f836b6734a8b50b4474291c14ef"
+    },
+    {
+      "old": "raw/World-Models/2602.06949.pdf",
+      "new": "raw/World-Models/2026-02-06-dreamdojo-a-generalist-robot-world-model-from-large-scale-human-videos-arxiv-2602.06949.pdf",
+      "sha256": "c8f02e22c8fbe98e0b50215e10e1f6baf2f589b1987e5c6dc07175bfe6fe8587"
+    },
+    {
+      "old": "raw/World-Models/2602.11389.pdf",
+      "new": "raw/World-Models/2026-02-11-causal-jepa-learning-world-models-through-object-level-latent-masking-arxiv-2602.11389.pdf",
+      "sha256": "956e136d92c4c944a53e3c2d9cd826aebc96b06af542cd767a0a213e47fb609b"
+    },
+    {
+      "old": "raw/World-Models/2602.12540.pdf",
+      "new": "raw/World-Models/2026-02-13-self-supervised-jepa-based-world-models-for-lidar-occupancy-completion-and-forecasting-arxiv-2602.12540.pdf",
+      "sha256": "62bbd02a25fdd523fcfd8190265f75f4634f67204e47c9837771f4a6be84b7e8"
+    },
+    {
+      "old": "raw/World-Models/2602.15922.pdf",
+      "new": "raw/World-Models/2026-02-17-world-action-models-are-zero-shot-policies-arxiv-2602.15922.pdf",
+      "sha256": "cb91d24a04717a6c77fd39594af7f3f85a05317b7078b0d9c8d8b4ddd932f483"
+    },
+    {
+      "old": "raw/World-Models/2603.10448.pdf",
+      "new": "raw/World-Models/2026-03-11-dit4dit-jointly-modeling-video-dynamics-and-actions-for-generalizable-robot-control-arxiv-2603.10448.pdf",
+      "sha256": "64f21b940ff2ee1bccf4e1e7910dc22c207c0cb87ba4e6e16456610c5606b9cd"
+    },
+    {
+      "old": "raw/World-Models/2603.19312.pdf",
+      "new": "raw/World-Models/2026-03-13-leworldmodel-stable-end-to-end-joint-embedding-predictive-architecture-from-pixels-arxiv-2603.19312.pdf",
+      "sha256": "553a01501ac74ec56721cfdb936d3825ac941734133a1fd761f614c01b6887e9"
+    },
+    {
+      "old": "raw/World-Models/2604.19092.pdf",
+      "new": "raw/World-Models/2026-04-21-robowm-bench-a-benchmark-for-evaluating-world-models-in-robotic-manipulation-arxiv-2604.19092.pdf",
+      "sha256": "4450ceffa72850511da6c91b3ce6f73bc070d372104dc8f60ce6fbf8f84ed566"
+    },
+    {
+      "old": "raw/World-Models/2605.00080.pdf",
+      "new": "raw/World-Models/2026-04-30-world-model-for-robot-learning-a-comprehensive-survey-arxiv-2605.00080.pdf",
+      "sha256": "1b035d79d5c135fd437e1bbe7625a7e284a405e0451a240e816ce5dcaf35f586"
+    },
+    {
+      "old": "raw/World-Models/2605.07794.pdf",
+      "new": "raw/World-Models/2026-05-08-noisegate-learning-per-latent-timestep-schedules-as-information-gating-in-world-action-models-arxiv-2605.07794.pdf",
+      "sha256": "3038cd278120ca8e7978eadf5c0784fe1aed9c463f5b1a2127da2bb59bf986ea"
+    },
+    {
+      "old": "raw/World-Models/2605.12167.pdf",
+      "new": "raw/World-Models/2026-05-12-from-imagined-futures-to-executable-actions-mixture-of-latent-actions-for-robot-manipulation-arxiv-2605.12167.pdf",
+      "sha256": "92915237f4d0aadf2a0a7d516bb3b327f8396b7f2d298599ec2df53d5c29e6db"
+    },
+    {
+      "old": "raw/World-Models/2605.12334.pdf",
+      "new": "raw/World-Models/2026-05-12-reinforcing-vlas-in-task-agnostic-world-models-arxiv-2605.12334.pdf",
+      "sha256": "e62714bc48960c458aca9305d895f07217cdfec75620b5bbcc27375f9fa31bab"
+    },
+    {
+      "old": "raw/World-Models/2605.19242.pdf",
+      "new": "raw/World-Models/2026-05-19-phyworld-physics-faithful-world-model-for-video-generation-arxiv-2605.19242.pdf",
+      "sha256": "57cc1e30c733df5a19c9a610318623aeaec87c2dc2fe1ec51e91f41cae2f6d04"
+    },
+    {
+      "old": "raw/World-Models/2605.19957.pdf",
+      "new": "raw/World-Models/2026-05-19-world-ego-modeling-for-long-horizon-evolution-in-hybrid-embodied-tasks-arxiv-2605.19957.pdf",
+      "sha256": "d02e593aa682f277e378b78d0528a3ce0cb6c3a4d2f8c777e7007650c4b22107"
+    },
+    {
+      "old": "raw/World-Models/2605.20811.pdf",
+      "new": "raw/World-Models/2026-05-20-demo-jepa-joint-embedding-predictive-architecture-for-one-shot-cross-embodiment-imitation-arxiv-2605.20811.pdf",
+      "sha256": "a4b084d8b213a8cd6d6bc1d0e27f3073e97bd88dd2041d53836f9cf97365e287"
+    },
+    {
+      "old": "raw/World-Models/2606.01600.pdf",
+      "new": "raw/World-Models/2026-06-01-robotrustbench-benchmarking-the-trustworthiness-of-video-world-models-for-robotic-manipulation-arxiv-2606.01600.pdf",
+      "sha256": "9fc869cc9fc58a993a9277bdc8b4fb58b176b7e4816fdd3cd21bf6b06652b857"
+    },
+    {
+      "old": "raw/World-Models/2606.02800.pdf",
+      "new": "raw/World-Models/2026-06-01-cosmos-3-omnimodal-world-models-for-physical-ai-arxiv-2606.02800.pdf",
+      "sha256": "df058bd2447fbdd83d13fd63be60a8b0aceb00ef6e50ba428b0a6bdbbed64b8d"
+    },
+    {
+      "old": "raw/World-Models/2606.03159.pdf",
+      "new": "raw/World-Models/2026-06-02-nvidia-omnidreams-real-time-generative-world-model-for-closed-loop-autonomous-vehicle-simulation-arxiv-2606.03159.pdf",
+      "sha256": "ad43aea5b73d5cc166128cd8950292e523e77293f953625579b4636e45f7b598"
+    },
+    {
+      "old": "raw/World-Models/2606.04907.pdf",
+      "new": "raw/World-Models/2026-06-03-wam-nav-asymmetric-latent-world-action-modeling-for-unified-visual-navigation-arxiv-2606.04907.pdf",
+      "sha256": "fa2bafda5333466692978418ebfb9a420da91bf52acf84671a127bc5f54824a5"
+    },
+    {
+      "old": "raw/World-Models/2606.08775.pdf",
+      "new": "raw/World-Models/2026-06-07-unifying-object-centric-world-models-and-diffusion-policy-a-hierarchical-framework-for-multi-stage-robotic-tas-arxiv-2606.08775.pdf",
+      "sha256": "f0ea19498d3df994d42b4229e76ad5c84df85cb2c98a25d565542740da6520e9"
+    },
+    {
+      "old": "raw/World-Models/2606.09215.pdf",
+      "new": "raw/World-Models/2026-06-08-motionwam-towards-foundation-world-action-models-for-real-time-humanoid-loco-manipulation-arxiv-2606.09215.pdf",
+      "sha256": "7f1f828566788c1552b9a989b78e0ed525216d58218c2ac2247847e172f3c041"
+    },
+    {
+      "old": "raw/World-Models/2606.10363.pdf",
+      "new": "raw/World-Models/2026-06-09-himem-wam-hierarchical-memory-gated-world-action-models-for-robotic-manipulation-arxiv-2606.10363.pdf",
+      "sha256": "6422558341cfed04571a74c7ee5bd001e013498d267de563d17b78eae0d5f86e"
+    },
+    {
+      "old": "raw/World-Models/2606.23463.pdf",
+      "new": "raw/World-Models/2026-06-22-equilibrium-world-models-arxiv-2606.23463.pdf",
+      "sha256": "c3fe1548be6833451e6348eaa0be5b54c18f254c32bbffce0f4572e11baf7290"
+    },
+    {
+      "old": "raw/World-Models/2607.00836.pdf",
+      "new": "raw/World-Models/2026-07-01-from-world-models-to-world-action-models-a-concise-tutorial-for-robotics-arxiv-2607.00836.pdf",
+      "sha256": "ac202d7149afca1296cd4a66bffb585314c7c107806400269a2fbd8a6975b13b"
+    },
+    {
+      "old": "raw/World-Models/2607.02604.pdf",
+      "new": "raw/World-Models/2026-07-01-dynawm-a-base-vla-guided-world-foundation-model-for-moving-object-manipulation-arxiv-2607.02604.pdf",
+      "sha256": "01ac4a2d1ae5ace3240ad32a6c7a2b0db1d7f7e181f840c4cefcae2f6bb4323e"
+    },
+    {
+      "old": "raw/World-Models/2607.06401.pdf",
+      "new": "raw/World-Models/2026-07-07-a-definition-and-roadmap-for-world-models-arxiv-2607.06401.pdf",
+      "sha256": "3a153bded157354e47a682f8141e782ba341ab3e7d7e0fcab1d70628eae1df22"
+    },
+    {
+      "old": "raw/World-Models/2607.13612.pdf",
+      "new": "raw/World-Models/2026-07-15-the-sigreg-objective-as-variational-free-energy-a-theoretical-active-inference-account-of-jepa-world-models-arxiv-2607.13612.pdf",
+      "sha256": "17499e0a75c2b8a0d5958d346feeed26a4e6228212d07536f83c0cff6e6454ec"
+    },
+    {
+      "old": "raw/World-Models/2608.09298.pdf",
+      "new": "raw/World-Models/2026-08-10-worldsimprobe-diagnosing-simulator-faithfulness-in-action-conditioned-world-models-for-embodied-manipulation-arxiv-2608.09298.pdf",
+      "sha256": "c379981286bc528dff7d26fc342cbcccccd4c105230a2f0765f59a83ebc2605d"
+    },
+    {
+      "old": "raw/World-Models/2608.12939.pdf",
+      "new": "raw/World-Models/2026-08-13-diagnosing-jepa-world-models-with-action-conditioned-predictive-consistency-arxiv-2608.12939.pdf",
+      "sha256": "8124dc9d1d9206f369db4ae16ab11a436bb7b790c1b235f2a3c8176a17b4732f"
+    },
+    {
+      "old": "raw/World-Models/2608.26671.pdf",
+      "new": "raw/World-Models/2026-08-27-recap-forcing-retaining-content-appearances-for-long-video-generation-arxiv-2608.26671.pdf",
+      "sha256": "990e11c80d10f625f532e78ae3787abec33f1bcfaf17282fb44695fa461dcd77"
+    },
+    {
+      "old": "raw/World-Models/2609.16697.pdf",
+      "new": "raw/World-Models/2026-09-15-world-models-for-embodied-intelligence-from-plausible-to-controllable-to-actionable-arxiv-2609.16697.pdf",
+      "sha256": "2a6011b3d8c261c89a870c4c48ec8ac6407048dbe3d34a5724b02431b61f0a65"
+    },
+    {
+      "old": "raw/World-Models/2609.19729.pdf",
+      "new": "raw/World-Models/2026-09-17-recency-forcing-bridging-the-long-horizon-gap-in-autoregressive-video-generation-arxiv-2609.19729.pdf",
+      "sha256": "4d5379f764f14d0ac7f59f484615ba03d3e8de25f1c720335162af74eb74bee0"
+    },
+    {
+      "old": "raw/World-Models/2609.20034.pdf",
+      "new": "raw/World-Models/2026-09-17-astronex-world-1-0-real-time-interactive-world-model-foundation-arxiv-2609.20034.pdf",
+      "sha256": "53c86cd144ab702f62f672a3b7ae585a792576d2f725d2227165aaccdb3b6264"
+    },
+    {
+      "old": "raw/World-Models/2609.20819.pdf",
+      "new": "raw/World-Models/2026-09-17-can-4d-foundation-models-remember-arxiv-2609.20819.pdf",
+      "sha256": "a61f44e86c46eb24717a73a468e34e47949376d801c22ce3e80686786eed3214"
+    },
+    {
+      "old": "raw/World-Models/2609.26292.pdf",
+      "new": "raw/World-Models/2026-09-22-robotwin-phys-do-wams-and-vlas-understand-the-physical-world-arxiv-2609.26292.pdf",
+      "sha256": "aba2c21a1bc49bcefde600798ca16b02bf902297b996670729a914fc0d76aa61"
+    },
+    {
+      "old": "raw/World-Models/2609.28931.pdf",
+      "new": "raw/World-Models/2026-09-24-helloworld-towards-practical-applications-of-generative-driving-world-models-arxiv-2609.28931.pdf",
+      "sha256": "5616564f117c0ab0f820c9c5e3ee1edfc460ddbdef57b7b849f0bdbf56bbdbd5"
+    }
+  ],
+  "skipped": [
+    {
+      "path": "raw/Deep-Learning/2605.0645.pdf",
+      "reason": "No confirmed catalog identity"
+    }
+  ]
+}
