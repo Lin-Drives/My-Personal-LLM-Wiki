@@ -77,8 +77,13 @@ def render(root=ROOT):
                 if not re.search(r'^arxiv_id:\s*[\'\"]?' + re.escape(row['arxiv_id']) + r'[\'\"]?\s*$', text, re.M):
                     continue
                 section = re.search(r'^## 局限性\s*\n(.*?)(?=^## |\Z)', text, re.M | re.S)
-                if section and section.group(1).strip():
-                    limitations = '局限：' + section.group(1).strip() + ' '
+                if section and section.group(1).strip() and not section.group(1).strip().startswith('尚未整理局限性'):
+                    # Only the short overview is shared, not version notes or
+                    # detailed follow-up lists in subordinate sections.
+                    overview = re.split(r'^### ', section.group(1).strip(), maxsplit=1, flags=re.M)[0].strip()
+                    if not overview:
+                        continue
+                    limitations = '局限：' + overview + ' '
                     summary, count = re.subn(r'(?<!/)局限[：:].*?(?=实际阅读范围[：:]|$)', lambda _: limitations, summary, count=1, flags=re.S)
                     if not count:
                         summary += ' ' + limitations

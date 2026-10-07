@@ -14,14 +14,22 @@ sources:
 
 # JEPA 生态 2026
 
+## 来源
+
+- [raw-2026-W21-world-models](../../radar/reports/weekly/2026-W21-world-models.md)
+
+- [raw-2026-ad-list-jepa-lidar](../../raw/World-Models/2026-ad-list-jepa-lidar.md)
+
+## 概述
+
 > Sources: W21 World Models 周报 + 多篇 JEPA 论文笔记, 2026-05
 > Raw: [../../radar/reports/weekly/2026-W21-world-models.md](../../radar/reports/weekly/2026-W21-world-models.md); [../../raw/World-Models/2026-ad-list-jepa-lidar.md](../../raw/World-Models/2026-ad-list-jepa-lidar.md)
 
-## Overview
-
 LeCun 的 JEPA 路线在 2026 年全面开花。从 I-JEPA (2023, 图像) 到 V-JEPA 2 (2025, 视频+机器人) 到 C-JEPA (2026, 因果) 到 AD-LiST-JEPA (2026, LiDAR)，JEPA 正从"自监督表征学习工具"进化为"机器人控制的默认 backbone"。
 
-## 进化路线
+## 比较与证据
+
+### 进化路线
 
 ```
 2023  I-JEPA         — 图像: patch 掩码 → 预测表征
@@ -35,18 +43,26 @@ LeCun 的 JEPA 路线在 2026 年全面开花。从 I-JEPA (2023, 图像) 到 V-
 2026  EB-JEPA         — 能量化: 解决特征坍塌
 ```
 
-## 工程配方
+### 工程配方
 
 "What Drives Success in Physical Planning with JEPA-WMs?" 给出的关键设计选择:
 - **RoPE + sequence conditioning**: 大多数任务上最稳健
 - **AdaLN**: 防止动作信息在深层网络中消失
 - **Encoders frozen**: 表征质量不依赖下游任务
 
-## 趋势
+### 趋势
 
 JEPA 不再是"LeCun 一个人的执念"——Demo-JEPA 的跨具身迁移、AD-LiST-JEPA 的 LiDAR 适配、V-JEPA 2 的机器人落地，证明了这条路线在不同模态、不同任务上的通用性。
 
-## See Also
+## 局限性
+
+尚未整理局限性；未独立核验，不据缺少此节推断方法没有局限。
+
+## 综合判断
+
+待结合正文整理简短要点。
+
+## 延伸阅读
 
 - [世界模型综述](../World-Models/world-models-survey.md)
 - [V-JEPA 2](../World-Models/v-jepa-2.md)

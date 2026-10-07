@@ -16,23 +16,23 @@ sources:
 
 # VideoManip：从 RGB 视频重建 3D 轨迹的 device-free 灵巧操作
 
-## Source
+## 来源
 
-- **Original**: [raw/Deep-Learning/2026-02-09-videomanip-arxiv-2602.09013.md](../raw/Deep-Learning/2026-02-09-videomanip-arxiv-2602.09013.md)
+- **Original**: [raw/Deep-Learning/2026-02-09-videomanip-arxiv-2602.09013.md](../../raw/Deep-Learning/2026-02-09-videomanip-arxiv-2602.09013.md)
 - **Type**: arXiv preprint
 - **Date**: 2026-02-09
 - **URL**: https://arxiv.org/abs/2602.09013
 - **Authors**: Hongyi Chen, Tony Dong, Tiancheng Wu, Liquan Wang, Yash Jangir, Yaru Niu, Yufei Ye, Homanga Bharadhwaj, Zackory Erickson, Jeffrey Ichnowski (CMU + UC Berkeley)
 
-## Raw Content
-
-> VideoManip is a device-free framework that learns dexterous manipulation directly from RGB human videos. Reconstructs explicit 3D robot-object trajectories from monocular videos by estimating human hand poses, object meshes, and retargets the reconstructed human motions to robotic hands. 70.25% success in simulation (20 objects), 62.86% in real world (7 tasks).
-
-## Overview
+## 概述
 
 VideoManip 提出了**从 RGB 人类视频直接学习灵巧操作**的 device-free 框架，与 EgoScale/HumanEgo 的 egocentric 路线不同，VideoManip 专注于**从普通第三人称 RGB 视频**（如 YouTube、Instagram）重建 3D 手-物体交互轨迹，然后重定向到机器人手进行策略学习。核心创新是**手-物体接触优化**和**从单视频生成多样化训练轨迹**的合成策略。
 
-## Body
+## 正文
+
+### 历史材料概述（非逐字原文）
+
+> VideoManip is a device-free framework that learns dexterous manipulation directly from RGB human videos. Reconstructs explicit 3D robot-object trajectories from monocular videos by estimating human hand poses, object meshes, and retargets the reconstructed human motions to robotic hands. 70.25% success in simulation (20 objects), 62.86% in real world (7 tasks).
 
 ### 核心问题：不用任何传感器，仅用 RGB 视频能学到灵巧操作吗？
 
@@ -99,7 +99,11 @@ VideoManip 的解决方案：
 | **主要优势** | 最普适的数据源 | 可预测的 scaling law | 极致数据效率 |
 | **机器人手** | Inspire / LEAP | Sharpa (22-DoF) | 通用 |
 
-## Key Takeaways
+## 局限性
+
+尚未整理局限性；未独立核验，不据缺少此节推断方法没有局限。
+
+## 关键要点
 
 - **RGB 视频是最普适的机器人学习数据源** — 不需要 egocentric 视角，不需要专用传感器
 - **显式 3D 重建**（手-物体轨迹）比隐式学习（直接从像素）更适合灵巧操作
@@ -107,7 +111,7 @@ VideoManip 的解决方案：
 - **单视频多样化合成**让有限数据产生无限训练信号
 - **三路线互补**：VideoManip（普适性）+ EgoScale（规模性）+ HumanEgo（效率性）
 
-## See Also
+## 延伸阅读
 
 - [EgoScale：大规模人类视频预训练](egoscale.md) — NVIDIA 20,854h 预训练，log-linear scaling law
 - [HumanEgo：零样本机器人学习](humanego.md) — 30 分钟零样本迁移，极端数据效率

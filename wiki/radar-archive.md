@@ -537,7 +537,7 @@ sources:
 <p><a href="https://arxiv.org/abs/2605.20811">arXiv 页面</a></p>
 <p><strong>历史扫描解读：</strong></p><p>历史周报补处理条目：Demo-JEPA — 跨具身模仿的 One-shot 利器。</p>
 <p><strong>问题/方法/证据：</strong>将跨具身模仿问题建模为**隐空间目标条件规划**。给定源演示视频和目标当前观测，Dreamer Predictor 先推断出一个具身兼容的隐式目标，然后在动作条件化的世界模型中通过 CEM 优化完成 latent planning。</p>
-<p><strong>局限：</strong>原历史报告未单列，本次未重新核对全文。</p>
+<p><strong>局限：</strong>模型解读：训练仍依赖跨具身配对轨迹与进度对齐，不能把测试时 one-shot 理解为无需机器人训练数据；未见配置下的真机成功率仍较低，延迟与失败恢复尚未核实。依据正文的数据和实验引用。</p>
 <p><strong>实际阅读范围：</strong>基于既有周报摘要转换，未在本次重新核对全文。</p>
 <p><strong>原文：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/World-Models/2605.20811.fulltext.md">2605.20811.fulltext.md</a></p>
 <p><strong>知识笔记：</strong><a href="../World-Models/demo-jepa/">demo-jepa</a></p>
@@ -1036,7 +1036,7 @@ sources:
 <p><a href="https://arxiv.org/abs/2512.24497">arXiv 页面</a></p>
 <p><strong>历史扫描解读：</strong></p><p>历史周报补处理条目：What Drives Success in Physical Planning with JEPA-WMs — JEPA 世界模型的配方书。</p>
 <p><strong>问题/方法/证据：</strong>系统性拆解 JEPA-World Model 在物理规划任务中成功的关键设计选择，覆盖</p>
-<p><strong>局限：</strong>原历史报告未单列，本次未重新核对全文。</p>
+<p><strong>局限：</strong>模型解读：离线动作评分不能替代真机闭环成功率，潜空间目标距离也不保证接触操作真正完成；实验结论依赖任务、表征和规划器设置，实时延迟与安全约束尚未核实。依据正文的指标与失败分析引用。</p>
 <p><strong>实际阅读范围：</strong>基于既有周报摘要转换，未在本次重新核对全文。</p>
 <p><strong>原文：</strong><a href="https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/World-Models/2512.24497.fulltext.md">2512.24497.fulltext.md</a></p>
 <p><strong>知识笔记：</strong><a href="../World-Models/jepa-planning-design/">jepa-planning-design</a></p>

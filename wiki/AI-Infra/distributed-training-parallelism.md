@@ -14,14 +14,22 @@ sources:
 
 # 分布式 LLM 训练与推理并行策略
 
+## 来源
+
+- [raw-2026-amer-distributed-hybrid-parallelism](../../raw/AI-Infra/2026-amer-distributed-hybrid-parallelism.md)
+
+- [raw-2026-W18-ai-infra](../../radar/reports/weekly/2026-W18-ai-infra.md)
+
+## 概述
+
 > Sources: 多篇综述整合, 2026
 > Raw: [../../raw/AI-Infra/2026-amer-distributed-hybrid-parallelism.md](../../raw/AI-Infra/2026-amer-distributed-hybrid-parallelism.md); [../../radar/reports/weekly/2026-W18-ai-infra.md](../../radar/reports/weekly/2026-W18-ai-infra.md) (编译参考)
 
-## Overview
-
 系统梳理了分布式 LLM 训练和推理中的混合并行策略全景：数据并行(DP)、张量并行(TP)、流水线并行(PP)、序列并行(SP)、专家并行(EP)。涵盖每种策略的通信模式、内存占用和适用场景的数学建模，从 Megatron-LM 到 DeepSeek DualPipe 均有覆盖。
 
-## 五大并行策略
+## 比较与证据
+
+### 五大并行策略
 
 | 策略 | 原理 | 通信模式 | 代表框架 |
 |------|------|---------|---------|
@@ -31,11 +39,19 @@ sources:
 | SP (Sequence Parallelism) | 长序列切分到多卡 | 注意力计算跨卡 | DeepSpeed Ulysses |
 | EP (Expert Parallelism) | MoE 专家路由到不同卡 | All-to-All | DeepSeek |
 
-## 混合并行趋势
+### 混合并行趋势
 
 单一并行策略已不够用。现代 LLM 训练/推理标配 DP+TP+PP 组合，MoE 模型进一步加入 EP。DeepSeek DualPipe 在 PP 基础上自研通信调度，是这个方向的典型创新。
 
-## See Also
+## 局限性
+
+尚未整理局限性；未独立核验，不据缺少此节推断方法没有局限。
+
+## 综合判断
+
+待结合正文整理简短要点。
+
+## 延伸阅读
 
 - [LLM 推理调度理论](../AI-Infra/llm-inference-scheduling.md)
 - [KV Cache 管理](../AI-Infra/kv-cache-management.md)

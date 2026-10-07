@@ -18,21 +18,21 @@ sources:
 
 ## 来源
 
-- **原始材料**: [raw/Deep-Learning/2020-10-22-vit-arxiv-2010.11929.md](../raw/Deep-Learning/2020-10-22-vit-arxiv-2010.11929.md)
+- **原始材料**: [raw/Deep-Learning/2020-10-22-vit-arxiv-2010.11929.md](../../raw/Deep-Learning/2020-10-22-vit-arxiv-2010.11929.md)
 - **类型**: arXiv 预印本 → ICLR 2021
 - **日期**: 2020-10-22
 - **作者**: Alexey Dosovitskiy 等（Google Research）
 - **链接**: https://arxiv.org/abs/2010.11929
-
-## 原始内容
-
-> 将纯 Transformer 直接应用于图像块序列，可以在图像分类任务上取得优异表现。图像被切分为 16×16 的图像块，每个块展平为向量并加上位置嵌入，随后输入标准 Transformer 编码器。在 ImageNet-21k 或 JFT-300M 上预训练后，ViT 超越 ResNet，同时训练计算量更少。
 
 ## 概述
 
 Vision Transformer（ViT）是计算机视觉领域的里程碑论文，首次证明**纯 Transformer 架构无需任何卷积或池化，即可在图像分类上达到甚至超越 CNN**。核心洞察是：图像可以被切分为固定大小的图像块，每个块类比 NLP 中的词元，直接输入标准 Transformer 编码器。
 
 ## 正文
+
+### 历史材料概述（非逐字原文）
+
+> 将纯 Transformer 直接应用于图像块序列，可以在图像分类任务上取得优异表现。图像被切分为 16×16 的图像块，每个块展平为向量并加上位置嵌入，随后输入标准 Transformer 编码器。在 ImageNet-21k 或 JFT-300M 上预训练后，ViT 超越 ResNet，同时训练计算量更少。
 
 ### 核心思想：图像块即词元
 
@@ -73,6 +73,10 @@ ViT 也探索了"混合"变体：用 ResNet 的前几个阶段提取特征图，
 - 大规模数据下，纯 ViT 反超混合架构
 - 这再次印证了"数据足够大时，简洁架构胜过于复杂设计"
 
+## 局限性
+
+尚未整理局限性；未独立核验，不据缺少此节推断方法没有局限。
+
 ## 关键要点
 
 - **图像块化是视觉 Transformer 的关键前提**：将连续图像离散化为词元序列
@@ -85,4 +89,3 @@ ViT 也探索了"混合"变体：用 ResNet 的前几个阶段提取特征图，
 - [MAE](mae.md) — 何恺明团队基于 ViT 的掩码自编码器，自监督预训练新范式
 - [Transformer 架构](transformer-architecture.md) — ViT 的基础：自注意力与序列建模
 - [Swin Transformer]（待补充）— 层次化视觉 Transformer，引入移位窗口机制
-

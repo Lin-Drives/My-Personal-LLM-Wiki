@@ -20,9 +20,9 @@ sources:
 
 # HumanEgo：零样本机器人学习的极致数据效率
 
-## Source
+## 来源
 
-- **Original**: [raw/World-Models/2026-05-28-humanego-arxiv-2605.24934.md](../raw/World-Models/2026-05-28-humanego-arxiv-2605.24934.md)
+- **Original**: [raw/World-Models/2026-05-28-humanego-arxiv-2605.24934.md](../../raw/World-Models/2026-05-28-humanego-arxiv-2605.24934.md)
 - **Type**: arXiv preprint
 - **Date**: 2026-05-28
 - **URL**: https://arxiv.org/abs/2605.24934
@@ -30,15 +30,15 @@ sources:
 - **Code**: https://github.com/TX-Leo/HumanEgo
 - **Website**: https://humanego-ai.github.io/
 
-## Raw Content
-
-> HumanEgo is robot-data-free, hardware-agnostic, data-efficient, and zero-shot human-to-robot transferable. With only 30 minutes of human videos per task, achieves 92.5% average success across four real-world tasks (75% with just 15 minutes), outperforms matched-time robot teleoperation by 41%.
-
-## Overview
+## 概述
 
 HumanEgo 是 UMD 提出的**零样本人类到机器人迁移框架**，与 EgoScale 的"大规模预训练"路线不同，HumanEgo 走的是**极端数据效率**路线：仅需 **30 分钟人类 egocentric 视频/任务**，无需任何机器人数据，即可实现零样本迁移。核心创新在于通过**视觉预处理（手臂 inpainting + 虚拟夹爪渲染）**和**Interaction-Centric Tokens (ICT)** 来桥接 embodiment gap。
 
-## Body
+## 正文
+
+### 历史材料概述（非逐字原文）
+
+> HumanEgo is robot-data-free, hardware-agnostic, data-efficient, and zero-shot human-to-robot transferable. With only 30 minutes of human videos per task, achieves 92.5% average success across four real-world tasks (75% with just 15 minutes), outperforms matched-time robot teleoperation by 41%.
 
 ### 核心问题：没有机器人数据，仅用人类视频能学到什么？
 
@@ -95,7 +95,11 @@ HumanEgo 是 UMD 提出的**零样本人类到机器人迁移框架**，与 EgoS
 
 这种泛化能力来源于 ICT 的**相对几何表示**：策略学习的是实体之间的空间关系，而不是绝对像素模式。
 
-## Key Takeaways
+## 局限性
+
+尚未整理局限性；未独立核验，不据缺少此节推断方法没有局限。
+
+## 关键要点
 
 - **30 分钟人类视频可以超越 30 分钟机器人遥操作** — 人类视频是 surprisingly potent 的数据源
 - **视觉预处理（inpainting + 虚拟渲染）** 是桥接 embodiment gap 的关键，无需昂贵的域适应
@@ -103,7 +107,7 @@ HumanEgo 是 UMD 提出的**零样本人类到机器人迁移框架**，与 EgoS
 - **Flow matching + dense auxiliary objectives** 在极少量数据下也能稳定训练
 - **完全开源**：https://github.com/TX-Leo/HumanEgo
 
-## See Also
+## 延伸阅读
 
 - [EgoScale：大规模人类视频预训练](egoscale.md) — NVIDIA 的大规模预训练路线，20,854 小时人类数据，log-linear scaling law
 - [VideoManip：从 RGB 视频重建 3D 轨迹](videomanip.md) — 从 RGB 视频重建 3D 手-物体轨迹，device-free 灵巧操作

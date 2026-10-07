@@ -18,24 +18,24 @@ sources:
 
 # EgoScale：大规模人类 egocentric 视频预训练与灵巧操作
 
-## Source
+## 来源
 
-- **Original**: [raw/World-Models/2026-02-20-egoscale-arxiv-2602.16710.md](../raw/World-Models/2026-02-20-egoscale-arxiv-2602.16710.md)
+- **Original**: [raw/World-Models/2026-02-20-egoscale-arxiv-2602.16710.md](../../raw/World-Models/2026-02-20-egoscale-arxiv-2602.16710.md)
 - **Type**: arXiv preprint
 - **Date**: 2026-02-20
 - **URL**: https://arxiv.org/abs/2602.16710
 - **Authors**: Ruijie Zheng, Dantong Niu, Yuqi Xie, Jing Wang, Mengda Xu, Yunfan Jiang, Fernando Castañeda, Fengyuan Hu, You Liang Tan, Letian Fu, Trevor Darrell, Furong Huang, Yuke Zhu, Danfei Xu, Linxi Fan (NVIDIA + UC Berkeley + UMD)
 - **Website**: https://research.nvidia.com/labs/gear/egoscale/
 
-## Raw Content
-
-> 20,854 hours of action-labeled egocentric human video, more than 20× larger than prior efforts. Log-linear scaling law: L = 0.024 − 0.003 × ln(D), R² = 0.9983. Three-stage pipeline: human pretraining → aligned mid-training → task-specific fine-tuning.
-
-## Overview
+## 概述
 
 EgoScale 是 NVIDIA 提出的**大规模人类到灵巧操作迁移框架**，核心发现是：**人类 egocentric 视频数据存在可预测的 scaling law**，验证损失与真实机器人性能强相关（R² = 0.9983）。20,854 小时的训练数据让 22-DoF 灵巧手策略的平均成功率比无预训练基线提升 54%，且仅需少量机器人数据即可实现 one-shot 任务适应。
 
-## Body
+## 正文
+
+### 历史材料概述（非逐字原文）
+
+> 20,854 hours of action-labeled egocentric human video, more than 20× larger than prior efforts. Log-linear scaling law: L = 0.024 − 0.003 × ln(D), R² = 0.9983. Three-stage pipeline: human pretraining → aligned mid-training → task-specific fine-tuning.
 
 ### 核心问题：为什么人类视频数据能 scale 灵巧操作？
 
@@ -82,14 +82,18 @@ L = 0.024 − 0.003 × ln(D)
 - **One-shot 适应**：仅需 1 个机器人演示即可有效泛化
 - **跨 embodiment 迁移**：从 22-DoF 灵巧手有效迁移到低自由度手机器人
 
-## Key Takeaways
+## 局限性
+
+尚未整理局限性；未独立核验，不据缺少此节推断方法没有局限。
+
+## 关键要点
 
 - **人类 egocentric 视频是灵巧操作的可预测监督源**，存在明确的 log-linear scaling law
 - **三阶段解耦设计**将规模学习（Stage I）和 embodiment 对齐（Stage II）分离，提升工程可行性
 - **相对腕部运动 + 手部重定向**的动作表征消除了人类与机器人之间的 embodiment gap
 - **轻量 MLP 适配器**让同一模型支持多机器人平台，无需重新训练主干
 
-## See Also
+## 延伸阅读
 
 - [HumanEgo：零样本机器人学习](humanego.md) — 30 分钟 egocentric 视频的零样本机器人学习
 - [EgoVerse：全球 egocentric 数据集](egoverse.md) — 最大 egocentric 机器人学习数据集
