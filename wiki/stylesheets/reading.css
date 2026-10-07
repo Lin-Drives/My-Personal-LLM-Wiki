@@ -1,0 +1,46 @@
+/* Keep the existing Material theme while giving the reading column more room.
+   Navigation keeps its own sizing. */
+.md-grid {
+  max-width: 72rem;
+}
+
+.md-content {
+  min-width: 0;
+}
+
+.md-content__inner {
+  max-width: 56rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.md-typeset {
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+/* Material otherwise shrinks text inside the paper's disclosure cards. */
+.md-typeset details {
+  font-size: inherit;
+}
+
+/* Long English titles and source names must also fit on narrow screens. */
+.md-typeset details > summary,
+.md-typeset a {
+  overflow-wrap: anywhere;
+}
+
+/* Tables and code blocks retain Material's horizontal scrolling. */
+@media screen and (max-width: 76.234375em) {
+  .md-content__inner {
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 44.984375em) {
+  .md-typeset {
+    font-size: 0.8rem;
+    line-height: 1.75;
+  }
+}

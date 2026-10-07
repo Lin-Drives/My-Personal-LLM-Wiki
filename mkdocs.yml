@@ -11,6 +11,7 @@ theme:
     - navigation.indexes
     - navigation.top
     - toc.follow
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -29,6 +30,9 @@ theme:
         name: 切换亮色模式
 
 docs_dir: wiki
+
+extra_css:
+  - stylesheets/reading.css
 
 nav:
   - 首页: index.md
