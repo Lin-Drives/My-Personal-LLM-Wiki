@@ -443,6 +443,14 @@
       "to": "Research-world-model-reliability"
     },
     {
+      "from": "World-Models-robotwin-phys",
+      "to": "World-Models-jepa-planning-design"
+    },
+    {
+      "from": "World-Models-robotwin-phys",
+      "to": "World-Models-demo-jepa"
+    },
+    {
       "from": "World-Models-v-jepa-2",
       "to": "World-Models-world-models-survey"
     },

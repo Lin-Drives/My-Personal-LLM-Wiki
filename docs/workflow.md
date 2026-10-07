@@ -119,3 +119,5 @@ ID-only PDF 下载完成后运行 `python3 scripts/rename_local_pdfs.py` 预览�
 新建文章先选择 OKF type，再使用 `templates/articles/` 下对应模板。Paper Note 使用 `paper-note.md`（来源、概述、正文、局限性、关键要点、延伸阅读）；Research Synthesis 使用 `research-synthesis.md`（来源、概述、比较与证据、局限性、综合判断、延伸阅读）。同一类型保留固定二级章节，论文特有的方法、实验和数据需求作为三级章节，继续保留证据页码与脚注。`templates/article.md` 默认是论文笔记模板。
 
 Concept、Engineering Practice、Company Profile、Project Guide、Knowledge Map 各有独立模板。Research Feed 属于脚本生成的动态展示，沿用生成器；索引和日志保留特殊结构。此次存量结构整理覆盖论文笔记与研究综合，其他存量类型后续按对应模板维护。缺项写待整理；历史摘要材料明确标记为非逐字原文，不重新声明为 Abstract。未整理的局限性不覆盖雷达已有描述。
+
+论文笔记的呈现参考 HumanEgo：来源区使用可读的字段名，概述突出问题、机制与结果，正文通过问题拆解、流程/方法表和实验对比表组织，最后以简短要点和关联阅读收束。统一模板不只是统一标题；完成稿要有实际概述与总结。表格只在有可确认数据时使用，基准论文与算法论文保留各自的方法逻辑，不为对齐版式补造信息。
