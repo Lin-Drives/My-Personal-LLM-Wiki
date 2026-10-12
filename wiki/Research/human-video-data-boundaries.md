@@ -6,8 +6,10 @@ tags: [机器人, 研究主线]
 status: draft
 generated:
   by: codex
-  at: 2026-10-07T03:05:02.185375+00:00
+  at: 2026-10-12T15:53:17.781294+00:00
 sources:
+  - id: arxiv-2610.06805
+    resource: ../../raw/World-Models/2610.06805v1.fulltext.md
   - id: arxiv-2607.08436
     resource: ../../raw/Embodied-Intelligence/2607.08436.fulltext.md
   - id: arxiv-2609.39403
@@ -43,6 +45,12 @@ sources:
 | 推理时世界分支 | 世界预测训练分支被丢弃，执行动作预测 | 辅助预测分支在推理时移除；随后还包含目标机器人数据的 post-training |
 | 当前证据位置 | PDF pp.1、3、5、8[^arxiv-2607.08436] | PDF pp.1、4、6；后训练数量尚待逐表核对[^arxiv-2609.39403] |
 
+### H-JEPA 的关联边界：没有动作标签还缺什么
+
+[H-JEPA](../World-Models/h-jepa.md) 不是人类视频迁移的直接实证，而是本主线的数据边界案例。它从观测—动作轨迹学习；DROID 多场景中，纯预测可能编码稳定背景却忽略运动的机器人，作者增加逆动力学监督，要求由相邻状态推断动作。无动作视频学习明确留在后续方向。[^arxiv-2610.06805]
+
+**模型解读：** 收录人类视频工作时，除视觉预训练量外，还需检查动作相关信息怎样保留、动作标签从哪里来、机器人数据用于哪一阶段。本文没有量化“人类视频节省了多少机器人数据”，不能据分层抽象能力推导人机迁移；DROID 是机器人数据，也不能计入人类视频规模。
+
 ## 局限性
 
 ### 尚未确认与下一轮
@@ -57,7 +65,11 @@ IronMind 给出的是混合语料的规模化证据；EgoWAM 给出的是联合�
 
 ## 延伸阅读
 
+[H-JEPA](../World-Models/h-jepa.md)：分层方法、实验条件与简短局限性见独立论文笔记。
+
 暂无已整理的关联阅读。
 
 [^arxiv-2607.08436]: [PDF 原文提取](https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/Embodied-Intelligence/2607.08436.fulltext.md)；页码指提取文件中的 PDF page，具体阅读范围见正文。
 [^arxiv-2609.39403]: [PDF 原文提取](https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/Embodied-Intelligence/2609.39403.fulltext.md)；页码指提取文件中的 PDF page，具体阅读范围见正文。
+
+[^arxiv-2610.06805]: [H-JEPA v1 逐页原文](https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/World-Models/2610.06805v1.fulltext.md)；§2–4（PDF pp.2–9）、§6（p.10）与附录 E（pp.24–25）、J.1–J.2（pp.30–31）、J.5（p.32）。模型生成补充，尚未独立核验。

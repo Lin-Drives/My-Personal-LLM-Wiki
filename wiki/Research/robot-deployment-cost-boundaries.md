@@ -6,8 +6,10 @@ tags: [机器人, 研究主线]
 status: draft
 generated:
   by: codex
-  at: 2026-10-07T03:05:02.185375+00:00
+  at: 2026-10-12T15:53:17.781294+00:00
 sources:
+  - id: arxiv-2610.06805
+    resource: ../../raw/World-Models/2610.06805v1.fulltext.md
   - id: arxiv-2609.33007
     resource: ../../raw/Embodied-Intelligence/2609.33007.fulltext.md
   - id: arxiv-2609.39403
@@ -42,6 +44,12 @@ CAPEX 在方法 §3（PDF p.3）说明机器人控制以 20 Hz 运行，基础�
 
 IronMind 方法部分（PDF p.4）说明辅助预测分支在推理时移除，不在部署时运行视频生成器。本轮核对支持“该辅助分支不进入推理”，不支持由此推断整套策略的具体延迟、功耗或安全性。[^arxiv-2609.39403]
 
+### H-JEPA 的规划预算：计算量收益与实时执行分开记录
+
+[H-JEPA](../World-Models/h-jepa.md) 将长搜索拆成短子目标，在所测仿真及 DROID 离线协议上改善效果—规划计算量权衡。图 6 统计规划器前向与反向 FLOPs；图 9 的 DROID 指标是三维末端路径与专家路径的 Fréchet fidelity，不是真机任务成功率。冻结编码器参考按 1 fps、15 个可用片段评价，本文模型按 5 fps 评价，比较需保留这一差异。[^arxiv-2610.06805]
+
+**模型解读：** 本文可作为分配规划预算的依据，不能把较少 FLOPs 改写为实际延迟或功耗下降。训练视频采样率也不是部署控制频率。下一轮仍需核对指定硬件的传感到执行延迟、各层调用节奏、重规划开销及超时恢复，并用真机闭环验证收益；作者将物理机器人闭环列为后续工作。
+
 ## 局限性
 
 ### 尚未确认与下一轮
@@ -54,7 +62,11 @@ IronMind 方法部分（PDF p.4）说明辅助预测分支在推理时移除，�
 
 ## 延伸阅读
 
+[H-JEPA](../World-Models/h-jepa.md)：分层方法、实验条件与简短局限性见独立论文笔记。
+
 暂无已整理的关联阅读。
 
 [^arxiv-2609.33007]: [PDF 原文提取](https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/Embodied-Intelligence/2609.33007.fulltext.md)；页码指提取文件中的 PDF page，具体阅读范围见正文。
 [^arxiv-2609.39403]: [PDF 原文提取](https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/Embodied-Intelligence/2609.39403.fulltext.md)；页码指提取文件中的 PDF page，具体阅读范围见正文。
+
+[^arxiv-2610.06805]: [H-JEPA v1 逐页原文](https://github.com/Lin-Drives/My-Personal-LLM-Wiki/blob/main/raw/World-Models/2610.06805v1.fulltext.md)；§2–4（PDF pp.2–9）、§6（p.10）与附录 E（pp.24–25）、J.1–J.2（pp.30–31）、J.5（p.32）。模型生成补充，尚未独立核验。

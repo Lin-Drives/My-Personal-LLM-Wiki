@@ -1884,6 +1884,15 @@
       "version": "explicit",
       "official_title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
       "source_metadata": "raw/arxiv/2602.16710v1.xml"
+    },
+    "2610.06805v1": {
+      "arxiv_id": "2610.06805v1",
+      "status": "downloaded",
+      "path": "raw/World-Models/2026-10-05-h-jepa-arxiv-2610.06805v1.pdf",
+      "url": "https://arxiv.org/pdf/2610.06805v1",
+      "sha256": "4a4a799c50d2d0acc52ba264410d5bbf7c54e1aba99a9a968886e84c0e43e4c2",
+      "downloaded_at": "2026-10-12T15:53:49.882801+00:00",
+      "version": "v1"
     }
   }
 }

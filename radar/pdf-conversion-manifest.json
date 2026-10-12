@@ -2177,6 +2177,17 @@
       "empty_pages": [],
       "unicode_repaired_pages": [],
       "converted_at": "2026-10-07T13:03:39.096806+00:00"
+    },
+    {
+      "arxiv_id": "2610.06805v1",
+      "status": "converted",
+      "pdf": "raw/World-Models/2026-10-05-h-jepa-arxiv-2610.06805v1.pdf",
+      "markdown": "raw/World-Models/2610.06805v1.fulltext.md",
+      "pdf_sha256": "4a4a799c50d2d0acc52ba264410d5bbf7c54e1aba99a9a968886e84c0e43e4c2",
+      "pages": 40,
+      "empty_pages": [],
+      "unicode_repaired_pages": [],
+      "converted_at": "2026-10-12T15:53:49.874596+00:00"
     }
   ]
 }

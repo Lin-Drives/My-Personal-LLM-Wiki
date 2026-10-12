@@ -1,0 +1,32 @@
+{
+  "input_sha256": "9fde0ec4eff61025a450f27a51f2cfefefe986421e59bb4709d34afbe89af022",
+  "batch": {
+    "schema_version": 1,
+    "scan_id": "2026-10-12-h-jepa-manual-02",
+    "scanned_at": "2026-10-12T15:48:03.393041+00:00",
+    "producer": "codex",
+    "papers": [
+      {
+        "arxiv_id": "2610.06805",
+        "arxiv_version": "v1",
+        "summary": "H-JEPA 在独立潜空间和不同时间尺度上学习分层动作条件世界模型，自顶向下规划；仿真结果与 DROID 离线轨迹评价需分别理解。",
+        "selection_reason": "用户指定收录；主归类为世界模型决策，关联动作标签的数据边界与规划计算量。",
+        "tags": [
+          "world-models",
+          "世界模型",
+          "JEPA",
+          "分层规划"
+        ],
+        "questions": [
+          "world-model-planning",
+          "human-video-transfer",
+          "robot-deployment"
+        ]
+      }
+    ]
+  },
+  "accepted": [
+    "2610.06805v1"
+  ],
+  "rejected": []
+}

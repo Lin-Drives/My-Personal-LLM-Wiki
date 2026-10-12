@@ -2,6 +2,34 @@
   "schema_version": 1,
   "papers": [
     {
+      "arxiv_id": "2610.06805",
+      "arxiv_version": "v1",
+      "title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
+      "published_at": "2026-10-05T17:53:34Z",
+      "updated_at": "2026-10-05T17:53:34Z",
+      "source_url": "https://arxiv.org/abs/2610.06805v1",
+      "source_path": "raw/arxiv/2610.06805v1.xml",
+      "source_sha256": "310665c1e07a09e9cf2791167d29b60cad316a4d05b7271bd67b02308d57b1ea",
+      "summary": "H-JEPA 在独立潜空间和不同时间尺度上学习分层动作条件世界模型，自顶向下规划；仿真结果与 DROID 离线轨迹评价需分别理解。",
+      "selection_reason": "用户指定收录；主归类为世界模型决策，关联动作标签的数据边界与规划计算量。",
+      "tags": [
+        "world-models",
+        "世界模型",
+        "JEPA",
+        "分层规划"
+      ],
+      "questions": [
+        "world-model-planning",
+        "human-video-transfer",
+        "robot-deployment"
+      ],
+      "scanned_at": "2026-10-12T15:48:03.393041+00:00",
+      "producer": "codex",
+      "scan_id": "2026-10-12-h-jepa-manual-02",
+      "scanned_at_source": "actual_scan",
+      "historical_record": false
+    },
+    {
       "arxiv_id": "2512.24497",
       "arxiv_version": "v4",
       "title": "What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?",

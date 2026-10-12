@@ -12,7 +12,8 @@ okf_version: "0.2"
 
 | 跟踪问题 | 重点关注 | 现有阅读入口 |
 |----------|----------|--------------|
-| **世界模型如何帮助机器人决策与行动？** | 状态表示、动作条件预测、规划方法、长程误差与失效条件 | [世界模型综述](World-Models/world-models-survey.md)、[V-JEPA 2](World-Models/v-jepa-2.md)、[C-JEPA](World-Models/causal-jepa.md) |
+| **世界模型如何帮助机器人决策与行动？** | 状态表示、动作条件预测、规划方法、长程误差与失效条件 | [H-JEPA 分层规划](World-Models/h-jepa.md) | 独立表示空间与多时间尺度；仿真收益、动作标签依赖及部署边界 | 2026-10-12 |
+| [世界模型综述](World-Models/world-models-survey.md)、[V-JEPA 2](World-Models/v-jepa-2.md)、[C-JEPA](World-Models/causal-jepa.md) |
 | **人类视频能减少哪些机器人训练数据需求？** | 视频提供什么监督、跨具身迁移、仍需多少机器人数据、泛化边界 | [EgoScale](Embodied-Intelligence/egoscale.md)、[HumanEgo](Embodied-Intelligence/humanego.md)、[VideoManip](Embodied-Intelligence/videomanip.md)、[EgoVerse](Embodied-Intelligence/egoverse.md) |
 | **机器人策略怎样满足实际部署约束？** | 闭环频率、端到端延迟、算力与功耗、异常恢复 | [World Action Models](World-Models/world-action-models.md)、[M100 架构](Chip-Architecture/m100-orchestrated-dataflow-architecture.md) |
 
@@ -20,7 +21,9 @@ okf_version: "0.2"
 
 首轮自动研究草稿：[研究主线 · 世界模型与机器人决策](Research/world-model-reliability.md) · [研究主线 · 人类视频与机器人学习](Research/human-video-data-boundaries.md) · [研究主线 · 机器人策略的实际部署](Research/robot-deployment-cost-boundaries.md)。草稿带原文位置与未确认事项，尚未独立核验。
 
-本轮新增单篇笔记：[JEPA 规划设计研究](World-Models/jepa-planning-design.md) · [Demo-JEPA](World-Models/demo-jepa.md)。分别补充规划评价与跨具身目标学习的证据边界，尚未独立核验。
+最近新增：[H-JEPA 分层规划](World-Models/h-jepa.md)，补充三条研究主线的长程规划、动作监督与计算预算证据，尚未独立核验。
+
+已有单篇笔记：[JEPA 规划设计研究](World-Models/jepa-planning-design.md) · [Demo-JEPA](World-Models/demo-jepa.md)。分别补充规划评价与跨具身目标学习的证据边界，尚未独立核验。
 
 ## AI 基础设施
 

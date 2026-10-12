@@ -74,6 +74,7 @@ nav:
       - AlphaGo: Reinforcement-Learning/alphago.md
   - 世界模型:
       - World-Models/index.md
+      - H-JEPA 分层规划: World-Models/h-jepa.md
       - JEPA 规划设计研究: World-Models/jepa-planning-design.md
       - Demo-JEPA: World-Models/demo-jepa.md
       - RoboTwin-Phys: World-Models/robotwin-phys.md

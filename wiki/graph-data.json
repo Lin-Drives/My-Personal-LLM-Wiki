@@ -193,6 +193,14 @@
       "topic": "World-Models"
     },
     {
+      "id": "World-Models-h-jepa",
+      "label": "H-JEPA：先规划远处，再落实动作",
+      "group": "World-Models",
+      "color": "#9B59B6",
+      "url": "World-Models/h-jepa/",
+      "topic": "World-Models"
+    },
+    {
       "id": "World-Models-jepa-ecosystem-2026",
       "label": "JEPA 生态 2026",
       "group": "World-Models",
@@ -399,6 +407,18 @@
       "to": "World-Models-world-action-models"
     },
     {
+      "from": "Research-human-video-data-boundaries",
+      "to": "World-Models-h-jepa"
+    },
+    {
+      "from": "Research-robot-deployment-cost-boundaries",
+      "to": "World-Models-h-jepa"
+    },
+    {
+      "from": "Research-world-model-reliability",
+      "to": "World-Models-h-jepa"
+    },
+    {
       "from": "Research-world-model-reliability",
       "to": "World-Models-robotwin-phys"
     },
@@ -417,6 +437,30 @@
     {
       "from": "World-Models-demo-jepa",
       "to": "World-Models-jepa-planning-design"
+    },
+    {
+      "from": "World-Models-h-jepa",
+      "to": "Research-world-model-reliability"
+    },
+    {
+      "from": "World-Models-h-jepa",
+      "to": "Research-human-video-data-boundaries"
+    },
+    {
+      "from": "World-Models-h-jepa",
+      "to": "Research-robot-deployment-cost-boundaries"
+    },
+    {
+      "from": "World-Models-h-jepa",
+      "to": "World-Models-jepa-planning-design"
+    },
+    {
+      "from": "World-Models-h-jepa",
+      "to": "World-Models-v-jepa-2"
+    },
+    {
+      "from": "World-Models-h-jepa",
+      "to": "World-Models-robotwin-phys"
     },
     {
       "from": "World-Models-jepa-ecosystem-2026",

@@ -1,0 +1,18 @@
+{
+  "paper": "2610.06805v1",
+  "source": "raw/arxiv/2610.06805v1.xml",
+  "questions": [
+    "world-model-planning",
+    "human-video-transfer",
+    "robot-deployment"
+  ],
+  "state": "completed",
+  "attempts": 1,
+  "max_attempts": 2,
+  "owner": "codex",
+  "independent_review_required": false,
+  "artifact": "drafts/World-Models/h-jepa.md",
+  "review_report": null,
+  "next_step": "H-JEPA v1 原文与笔记完成，主要归入世界模型决策，并更新三条研究主线；未独立核查或人工审核，后续核对真机闭环、无动作视频迁移与端到端部署延迟。",
+  "updated_at": "2026-10-12T15:54:45.189464+00:00"
+}

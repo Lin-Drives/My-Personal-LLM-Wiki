@@ -13,6 +13,16 @@ status: draft
 按发现时间排列；论文发表与修订时间分别标注。深入解读的进度不阻塞这里更新。
 
 <article>
+<h2>H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning</h2>
+<p><a href="https://arxiv.org/abs/2610.06805v1">arXiv:2610.06805v1 · 查看原文</a></p>
+<p>发现：2026-10-12T15:48:03.393041+00:00 · 发表：2026-10-05T17:53:34Z · 修订：2026-10-05T17:53:34Z</p>
+<p><strong>自动摘要：</strong>H-JEPA 在独立潜空间和不同时间尺度上学习分层动作条件世界模型，自顶向下规划；仿真结果与 DROID 离线轨迹评价需分别理解。</p>
+<p><strong>推荐理由（工具判断）：</strong>用户指定收录；主归类为世界模型决策，关联动作标签的数据边界与规划计算量。</p>
+<p>关联问题：世界模型与可靠规划、人类视频与机器人数据需求、机器人实际部署约束</p>
+<p>标签：world-models、世界模型、JEPA、分层规划 · 生成者：codex</p>
+</article>
+
+<article>
 <h2>What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?</h2>
 <p><a href="https://arxiv.org/abs/2512.24497v4">arXiv:2512.24497v4 · 查看原文</a></p>
 <p>发现：2026-10-07T07:15:02.993305+00:00 · 发表：2025-12-30T22:50:03Z · 修订：2026-09-02T10:28:05Z</p>
