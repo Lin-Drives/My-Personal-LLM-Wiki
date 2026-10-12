@@ -12,8 +12,7 @@ okf_version: "0.2"
 
 | 跟踪问题 | 重点关注 | 现有阅读入口 |
 |----------|----------|--------------|
-| **世界模型如何帮助机器人决策与行动？** | 状态表示、动作条件预测、规划方法、长程误差与失效条件 | [H-JEPA 分层规划](World-Models/h-jepa.md) | 独立表示空间与多时间尺度；仿真收益、动作标签依赖及部署边界 | 2026-10-12 |
-| [世界模型综述](World-Models/world-models-survey.md)、[V-JEPA 2](World-Models/v-jepa-2.md)、[C-JEPA](World-Models/causal-jepa.md) |
+| **世界模型如何帮助机器人决策与行动？** | 状态表示、动作条件预测、规划方法、长程误差与失效条件 | [世界模型综述](World-Models/world-models-survey.md)、[V-JEPA 2](World-Models/v-jepa-2.md)、[C-JEPA](World-Models/causal-jepa.md)、[H-JEPA 分层规划](World-Models/h-jepa.md) |
 | **人类视频能减少哪些机器人训练数据需求？** | 视频提供什么监督、跨具身迁移、仍需多少机器人数据、泛化边界 | [EgoScale](Embodied-Intelligence/egoscale.md)、[HumanEgo](Embodied-Intelligence/humanego.md)、[VideoManip](Embodied-Intelligence/videomanip.md)、[EgoVerse](Embodied-Intelligence/egoverse.md) |
 | **机器人策略怎样满足实际部署约束？** | 闭环频率、端到端延迟、算力与功耗、异常恢复 | [World Action Models](World-Models/world-action-models.md)、[M100 架构](Chip-Architecture/m100-orchestrated-dataflow-architecture.md) |
 
@@ -84,6 +83,7 @@ AI 芯片架构与设计。
 
 | Article | Summary | Updated |
 |---------|---------|---------|
+| [H-JEPA 分层规划](World-Models/h-jepa.md) | 独立表示空间与多时间尺度；仿真收益、动作标签依赖及部署边界 | 2026-10-12 |
 | [世界模型综述](World-Models/world-models-survey.md) | Understanding vs Prediction 两大功能分类，四大应用领域，认知派 vs 生成派路线之争 | 2026-05-31 |
 | [V-JEPA 2](World-Models/v-jepa-2.md) | 百万小时视频预训练→62h 机器人微调→零样本机械臂控制，LeCun 团队的实证落地 | 2026-05-31 |
 | [Causal-JEPA](World-Models/causal-jepa.md) | 物体级掩码干预注入因果偏置，反事实推理提升 20%，JEPA 走向因果理解 | 2026-05-31 |
